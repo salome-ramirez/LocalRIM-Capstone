@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A records taxonomy built from the client's own retention schedules | LocalRIM</title>
+<!-- Appendix 01. Content and captions unchanged. -->
+<link rel="stylesheet" href="assets/casefile.css?v=73">
+<link rel="stylesheet" href="assets/appendix.css?v=14">
+<script src="assets/site.js?v=40" defer></script>
+<script src="assets/filing.js?v=10" defer></script>
+<script src="assets/casefile.js?v=20" defer></script>
+<link rel="stylesheet" href="assets/helper.css?v=5">
+<script src="assets/helper.js?v=10" defer></script>
+<script src="assets/charts-ui.js?v=9" defer></script>
+<script src="assets/stepper.js?v=1" defer></script>
+</head>
+<body class="appendix filing grid">
+<header class="wrap">
+  <div class="masthead">
+    <a class="brand" href="index.html">LocalRIM</a>
+    <nav aria-label="Site"><a href="index.html">Overview</a><a href="filing-system.html" aria-current="page" aria-label="01 Intake"><span class="n">01</span><span class="long"> Intake</span></a><a href="reading.html" aria-label="02 Capture and Preparation"><span class="n">02</span><span class="long"> Capture</span></a><a href="review.html" aria-label="03 Classification, Routing and Validation"><span class="n">03</span><span class="long"> Classification</span></a><a href="findings.html">Findings</a><a href="app.html">The app</a><a href="future-work.html">Future work</a><details class="nav-ref"><summary>Reference</summary><div><a href="dashboard.html">Project log</a><a href="toolkit.html">Toolkit</a></div></details><a class="nav-log" href="dashboard.html" aria-label="Project log">Log</a></nav>
+  </div>
+</header>
+<main>
+<!-- Chapter opening on the grid: title across 12; rule; introduction 7 + "Built with" 5; "In this chapter" as a full-width band -->
+<div class="chapter-head g-title">
+  <div class="intro"><small>01 · Intake</small><h1>A records taxonomy built from the client's own retention schedules</h1></div>
+</div>
+<div class="mgrid g-intro">
+  <div class="main">
+  <p class="deck">LocalRIM's records hierarchy is based on Philip Morris's own retention schedules, with <span data-field="taxonomy.departments">—</span> departments, <span data-field="taxonomy.series">—</span> series, and <span data-field="taxonomy.types">—</span> record types. From a random sample of <span data-field="sample.drawn" data-format="int">—</span> documents, <span data-field="labels.valid">—</span> pages were manually labeled for model training and validation. Another <span data-field="final_test.pages">—</span> were labeled separately, without reference to the model's predictions, and reserved for the final evaluation.</p>
+  <p class="byline"><span data-updated="dev-test"></span></p>
+  <p class="built"><b>Built with</b> Python, pandas, PyMuPDF, and a Streamlit application for manual labeling. <a href="toolkit.html">Full list in the Toolkit</a></p>
+  </div>
+  <aside class="mcol">
+    <div class="g-keys" aria-label="Key numbers">
+      <div><b data-field="sample.drawn">—</b><span>documents randomly sampled from the archive</span></div>
+      <div><b data-field="taxonomy.types">—</b><span>record types across <span data-field="taxonomy.departments">—</span> departments</span></div>
+      <div><b data-field="labels.valid">—</b><span>manually labeled pages used for model development</span></div>
+    </div>
+  </aside>
+</div>
+<nav class="in-chapter ic-band" aria-labelledby="ic-h"><h2 id="ic-h">In this chapter</h2><ol><li><a href="#sample">How the sample was selected</a></li><li><a href="#labeling-app">How the labels were made</a></li><li><a href="#rounds">Did rebuilding the categories reduce labeling uncertainty?</a></li><li><a href="#outcomes">How the reviewed documents were labeled or excluded</a></li><li><a href="#labels">How the labels were distributed across departments</a></li><li><a href="#uncertainty">Which departments had the most uncertain labels?</a></li><li><a href="#types">Which record types appear in the sample?</a></li><li><a href="#pairs">Which departments overlap in the labeled documents?</a></li><li><a href="#settling">Did the department distribution stabilize?</a></li></ol></nav>
+
+<!-- The figure key, moved here from the Overview; 02 and 03 link to it -->
+<section class="block fig-key-sec" id="key" aria-labelledby="key-h">
+  <h2 id="key-h">How to read the figures</h2>
+  <p class="sub">Figures use a consistent set of marks to distinguish confirmed labels, uncertain cases, and supporting context.</p>
+  <ul class="key key-3">
+    <li><svg viewBox="0 0 16 16" aria-hidden="true"><rect width="16" height="16" rx="2" fill="var(--filed)"/></svg><span><b>Solid:</b> filed automatically, or labeled with certainty.</span></li>
+    <li><svg viewBox="0 0 16 16" aria-hidden="true"><defs><pattern id="h" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="4" height="4" fill="var(--surface)"/><rect width="2" height="4" fill="var(--person)"/></pattern></defs><rect x=".5" y=".5" width="15" height="15" rx="2" fill="url(#h)" stroke="var(--person-line)"/></svg><span><b>Hatched topaz:</b> routed for review, or manually labeled as uncertain.</span></li>
+    <li><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.25" y="1.25" width="13.5" height="13.5" rx="2" fill="none" stroke="var(--wrong)" stroke-width="2.5"/></svg><span><b>Crimson outline:</b> incorrect departmental classification.</span></li>
+    <li><svg viewBox="0 0 16 16" aria-hidden="true"><rect width="16" height="16" rx="2" fill="var(--second)"/></svg><span><b>Solid taupe:</b> contextual information without a classification outcome.</span></li>
+    <li><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="0" y="0" width="7" height="7" rx="1" fill="var(--muted)"/><rect x="9" y="0" width="7" height="7" rx="1" fill="var(--muted)"/><rect x="0" y="9" width="7" height="7" rx="1" fill="var(--muted)"/><rect x="9" y="9" width="7" height="7" rx="1" fill="var(--muted)"/></svg><span><b>One square:</b> One page. Counts and charts do not display document images, file names, or page IDs.</span></li>
+  </ul>
+</section>
+
+<section class="cover" id="sample">
+  <h2 class="g-h2">How the sample was selected</h2>
+  <div class="mgrid">
+  <div class="main">
+    
+  <p class="muted">I began with a general taxonomy and tested it on a public benchmark containing documents from several companies. The approach proved unsuitable because each company organized its records differently, making it difficult to apply one set of categories consistently. I therefore focused the project on Philip Morris as the client, using its retention schedules and records-management documents to develop the final taxonomy. The documents were then drawn at random from the Philip Morris Records collection in the UCSF archive, restricted to publicly available scanned records and selected using a fixed seed.</p>
+  </div>
+  <aside class="mcol">
+    <div class="decisions mdec" data-decisions="D-32,D-42"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+  <figure class="research"><div data-chart="cascade"></div>
+    <figcaption><b>Figure 1.1.</b> From <span data-field="sample.funnel.0.count" data-format="int"></span> Philip Morris records to <span data-field="labels.valid"></span> valid development labels: the largest reduction came from random sampling. Bar lengths use a logarithmic scale so every stage stays visible; the labels give exact counts.</figcaption></figure>
+</section>
+
+<section id="labeling-app">
+  <h2 class="g-h2">How the labels were made</h2>
+  <div class="mgrid">
+  <div class="main">
+  
+  <p class="muted">I built a Streamlit application to label the documents and refined it through seven stages as the work progressed. The changes focused on making the categories easier to apply, documenting uncertain decisions, and keeping the labeling process consistent. Between the two pilot rounds, uncertain labels fell from <span data-field="taxonomy.skims.0.unsure" data-format="pct"></span> to <span data-field="taxonomy.skims.1.unsure" data-format="pct"></span>. Because I revised the classification categories during the same period, the reduction cannot be attributed to the application alone (Figure 1.2).</p>
+  </div>
+  <aside class="mcol">
+    <aside class="archive-note" aria-label="From the archive"><p class="an-tag">From the archive</p><p class="an-lead">Philip Morris trained its own staff on records that do not fit:</p><blockquote><p>“Perhaps this record does not fit on the department's records retention schedule…”</p></blockquote><p class="an-ref">Philip Morris U.S.A., records training video notes. <a href="https://www.industrydocuments.ucsf.edu/docs/hkxd0068" title="UCSF Industry Documents Library">UCSF library, hkxd0068</a></p></aside>
+  </aside>
+  </div>
+  <div class="stepper" data-stepper role="region" aria-roledescription="carousel" aria-label="The labeling app, stage by stage">
+    <div class="st-slides">
+      <div class="st-slide is-current" id="st-1" role="group" aria-roledescription="slide" aria-label="Stage 1 of 7: Document and labeling interface"><div class="st-shot"><img src="assets/app/app-2-one-screen.png?v=2" width="1600" height="739" decoding="async" alt="The first labeling app: the page beside the questions, with a progress count"></div><div class="st-text"><p class="as-n">Stage 1 of 7</p><h3>Document and labeling interface</h3><p>The document and classification questions appeared side by side, with progress saved between sessions.</p></div></div>
+      <div class="st-slide" id="st-2" role="group" aria-roledescription="slide" aria-label="Stage 2 of 7: Department first" aria-hidden="true" inert><div class="st-shot"><img src="assets/app/app-3-department-first.png?v=2" width="870" height="787" loading="lazy" decoding="async" alt="Department buttons above an optional secondary department and the save button"></div><div class="st-text"><p class="as-n">Stage 2 of 7</p><h3>Department first</h3><p>Choose the department first; only its record types are offered next.</p></div></div>
+      <div class="st-slide" id="st-3" role="group" aria-roledescription="slide" aria-label="Stage 3 of 7: Guidance while deciding" aria-hidden="true" inert><div class="st-shot"><img src="assets/app/app-4-guidance.png?v=2" width="1600" height="776" loading="lazy" decoding="async" alt="Department, series and record type chosen, with the typical documents for that series shown below"></div><div class="st-text"><p class="as-n">Stage 3 of 7</p><h3>Guidance while deciding</h3><p>Each choice shows its definition and typical documents at the moment it is made.</p></div></div>
+      <div class="st-slide" id="st-4" role="group" aria-roledescription="slide" aria-label="Stage 4 of 7: A consistent structure" aria-hidden="true" inert><div class="st-shot"><img src="assets/app/app-5-structure.png?v=2" width="1600" height="726" loading="lazy" decoding="async" alt="The question panel with a secondary department, the uncertain checkbox and the note field"></div><div class="st-text"><p class="as-n">Stage 4 of 7</p><h3>A consistent structure</h3><p>A secondary department, an uncertain flag, and a note required for uncertain, no-fit and excluded pages.</p></div></div>
+      <div class="st-slide" id="st-5" role="group" aria-roledescription="slide" aria-label="Stage 5 of 7: Blind to file names, ready for more annotators" aria-hidden="true" inert><div class="st-shot"><img src="assets/app/app-6-fairness.png?v=2" width="1600" height="700" loading="lazy" decoding="async" alt="The sidebar with dataset, annotator and batch, and the batch progress"></div><div class="st-text"><p class="as-n">Stage 5 of 7</p><h3>Blind to file names, ready for more annotators</h3><p>File names hidden, labeling in batches of 100, one file per annotator.</p></div></div>
+      <div class="st-slide" id="st-6" role="group" aria-roledescription="slide" aria-label="Stage 6 of 7: Skips, reasons and resumption" aria-hidden="true" inert><div class="st-shot"><img src="assets/app/app-7-flow.png?v=2" width="1600" height="719" loading="lazy" decoding="async" alt="An excluded page with its exclusion reason, and the skip button"></div><div class="st-text"><p class="as-n">Stage 6 of 7</p><h3>Skips, reasons and resumption</h3><p>Skip a page for now, give a reason for every exclusion, and go back to where you left off.</p></div></div>
+      <div class="st-slide" id="st-7" role="group" aria-roledescription="slide" aria-label="Stage 7 of 7: Reused for blind review" aria-hidden="true" inert><div class="st-shot"><img src="assets/app/app-8-blind-review.png?v=2" width="1600" height="788" loading="lazy" decoding="async" alt="The blind review screen: one reading rated for quality, words found and spelling, with what went wrong"></div><div class="st-text"><p class="as-n">Stage 7 of 7</p><h3>Reused for blind review</h3><p>The same design served the blind OCR review, with each engine shown only as a numbered reading, and the blind labels for the final test.</p></div></div>
+    </div>
+    <div class="st-controls">
+      <button type="button" class="st-btn st-prev" aria-disabled="true"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Previous</span></button>
+      <div class="st-dots" role="group" aria-label="Go to a stage"><button type="button" class="st-dot" data-step="1" aria-label="Stage 1: Document and labeling interface" aria-current="step" tabindex="0">1</button><button type="button" class="st-dot" data-step="2" aria-label="Stage 2: Department first" tabindex="-1">2</button><button type="button" class="st-dot" data-step="3" aria-label="Stage 3: Guidance while deciding" tabindex="-1">3</button><button type="button" class="st-dot" data-step="4" aria-label="Stage 4: A consistent structure" tabindex="-1">4</button><button type="button" class="st-dot" data-step="5" aria-label="Stage 5: Blind to file names, ready for more annotators" tabindex="-1">5</button><button type="button" class="st-dot" data-step="6" aria-label="Stage 6: Skips, reasons and resumption" tabindex="-1">6</button><button type="button" class="st-dot" data-step="7" aria-label="Stage 7: Reused for blind review" tabindex="-1">7</button></div>
+      <button type="button" class="st-btn st-next"> <span>Next</span><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="m6 3 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+    <p class="vh" aria-live="polite" data-st-status></p>
+  </div>
+</section>
+
+<div class="t-pair">
+  <section id="rounds">
+    <h2>Did rebuilding the categories reduce labeling uncertainty?</h2>
+    <p class="muted">Two pilot rounds examined labeling uncertainty under different classification schemes. The first used generic categories; the second used categories derived from Philip Morris's departmental structure. Each label was also marked as certain or uncertain, allowing the proportion of uncertain decisions to be compared between rounds.</p>
+    <div class="pair-ctrl legend" aria-hidden="true"><span><i class="dot"></i>Share of labels marked uncertain</span><span><i class="dash"></i>Different pages; first pages only</span></div>
+    <figure class="research"><div data-chart="roundsSlope"></div>
+      <figcaption><b>Figure 1.2.</b> Uncertain labels fell from <span data-field="taxonomy.skims.0.unsure" data-format="pct"></span> to <span data-field="taxonomy.skims.1.unsure" data-format="pct"></span> between the pilot rounds, while documents without a suitable category decreased from <span data-field="taxonomy.skims.0.no_fit"></span> of <span data-field="taxonomy.skims.0.reviewed"></span> to <span data-field="taxonomy.skims.1.no_fit"></span> of <span data-field="taxonomy.skims.1.reviewed"></span>. The taxonomy and labeling application changed during this period, so their individual contributions cannot be isolated. The final round had <span data-field="labels.uncertain_share" data-format="pct"></span> uncertain labels, but used different documents and only their first pages, making direct comparison inappropriate. All percentages use valid labels as the denominator.</figcaption></figure>
+  </section>
+  <section id="outcomes">
+    <h2>How the reviewed documents were labeled or excluded</h2>
+    <p class="muted">Each reviewed document was either labeled or excluded for a recorded reason: blank or unreadable content, a folder cover without contents, or a record outside the project's scope. The interactive figure shows these outcomes for the full set and individual labeling batches.</p>
+    <div class="pair-ctrl">
+    <div class="batch-filter" data-batch-filter="outcomes-chart" role="group" aria-label="Show labels from"></div>
+    <p class="batch-note" data-batch-note="outcomes-chart"></p>
+    </div>
+    <figure class="research"><div data-chart="outcomesStrip" id="outcomes-chart"></div>
+      <figcaption><b>Figure 1.3.</b> Of <span data-field="labels.reviewed"></span> reviewed documents, <span data-field="labels.valid"></span> received valid labels and <span data-field="labels.excluded"></span> were excluded. Exclusions included folder covers without usable content, blank or unreadable pages, and out-of-scope records. The stacked bar shows the relative frequency of each outcome, with exact counts listed below.<span class="cap-note">Two additional documents were skipped because their downloads returned web pages rather than scans. They were not included among the <span data-field="labels.reviewed"></span> reviewed documents (D-40).</span></figcaption></figure>
+  </section>
+</div>
+
+<section id="labels">
+  <h2 class="g-h2">How the labels were distributed across departments</h2>
+  <div class="mgrid">
+  <div class="main">
+    
+  <p class="muted">The figures show the original departmental labels assigned during manual review. For model evaluation, Administration was merged into Legal (D-27); the original counts displayed here remain unchanged. Human Resources is out of scope (D-39): only <span data-field="labels.outcomes.5.count"></span> of the <span data-field="labels.reviewed"></span> reviewed documents belonged to it, too few to model, and both were excluded.</p>
+    <div class="batch-filter" data-batch-filter="dept-chart" role="group" aria-label="Show labels from"></div>
+    <p class="batch-note" data-batch-note="dept-chart"></p>
+  </div>
+  <aside class="mcol">
+    <dl class="mterm"><dt>Office of record</dt><dd>The office of record is the department responsible for retaining the official copy. Other departments may hold copies, but each label names the responsible department.</dd></dl>
+    <div class="decisions mdec" data-decisions="D-27,D-39"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+  <figure class="research"><div data-chart="deptBars" id="dept-chart"></div>
+    <div class="legend"><span><i style="background:var(--filed)"></i>Certain</span><span><i class="hatch"></i>Marked uncertain</span></div>
+    <p class="legend-def"><b>Marked uncertain:</b> the labeler was not sure of the department. The label still counts; the flag records the doubt.</p>
+    <figcaption><b>Figure 1.4.</b> Marketing and sales (65) and Research and development (55) account for the largest shares of the labeled sample. Legal; Quality, safety and health; and Finance have the fewest labels, with 19–21 each. Bars distinguish certain from uncertain labels, while percentages indicate each department's share of the sample.</figcaption></figure>
+</section>
+
+<section id="uncertainty">
+  <h2>Which departments had the most uncertain labels?</h2>
+  <p class="muted fit">Labeling uncertainty varied across departments, suggesting that some classification boundaries were more difficult to distinguish than others. The figure compares the proportion of uncertain labels within each department.</p>
+  <div class="batch-filter" data-batch-filter="uncertainty-chart" role="group" aria-label="Show labels from"></div>
+  <p class="batch-note" data-batch-note="uncertainty-chart"></p>
+  <figure class="research"><div data-chart="uncertaintyDots" id="uncertainty-chart"></div>
+    <figcaption><b>Figure 1.5.</b> Administration and records (13 of 26) and Quality, safety and health (10 of 20) each had half their labels marked uncertain, compared with <span data-field="labels.uncertain_share" data-format="pct"></span> across all valid labels. Each dot represents a department's uncertainty rate, with size indicating its number of labels. In single-batch views, lighter dots identify departments with fewer than 10 labels.</figcaption></figure>
+</section>
+
+<section id="types">
+  <h2 class="g-h2">Which record types appear in the sample?</h2>
+  <div class="mgrid">
+  <div class="main">
+    
+  <p class="muted">Departments identify the office that keeps the official copy; series group related records within a department; record types name the specific kind of record. Each square is one labeled page.</p>
+    <div class="batch-filter" data-batch-filter="coverage-chart" role="group" aria-label="Show labels from"></div>
+    <p class="batch-note" data-batch-note="coverage-chart"></p>
+  </div>
+  <aside class="mcol">
+    <aside class="archive-note" aria-label="From the archive">
+      <p class="an-tag">From the archive</p>
+      <p class="an-lead">A 1994 inventory of Philip Morris's lab records lists each record type with its code and how long to keep it:</p>
+      <blockquote><p>“B0464 &nbsp; Beetle/Bug Reports &nbsp; C + 1”</p></blockquote>
+      <p class="an-ref">Philip Morris, Lab Services records management inventory, 1994. <a href="https://www.industrydocuments.ucsf.edu/docs/ffbh0109" title="UCSF Industry Documents Library">UCSF library, ffbh0109</a></p>
+    </aside>
+  </aside>
+  </div>
+  <div class="coverage" data-chart="coverage" id="coverage-chart"></div>
+</section>
+
+<section id="pairs">
+  <h2 class="g-h2">Which departments overlap in the labeled documents?</h2>
+  <div class="mgrid g-stack">
+  <div class="main">
+    
+  <p class="muted">When a document could reasonably be assigned to a second department, that alternative was recorded alongside its primary label. These overlaps identify potentially ambiguous departmental boundaries. Figure 3.6 examines whether the classifier made errors across the same boundaries.</p>
+    <div class="batch-filter" data-batch-filter="pairs-chart" role="group" aria-label="Show labels from"></div>
+    <p class="batch-note" data-batch-note="pairs-chart"></p>
+  </div>
+  <aside class="mcol">
+    <div class="decisions mdec" data-decisions="D-13"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+  <figure class="research"><div data-chart="pairs" id="pairs-chart"></div>
+    <figcaption><b>Figure 1.6.</b> Finance and Marketing had the largest overlap: <span data-field="labels.pairs.0.count"></span> pages filed under one department with the other as a second choice. Each bar is one pair of departments; pairs tied at the cutoff are all shown.</figcaption></figure>
+</section>
+
+<section id="settling">
+  <h2 class="g-h2">Did the department distribution stabilize?</h2>
+  <div class="mgrid g-stack">
+  <div class="main">
+    
+  <p class="muted">The cumulative distribution of departmental labels was examined to determine whether category proportions continued to change as additional documents were labeled. Each chart tracks one department's share of the labeled sample.</p>
+  </div>
+  <aside class="mcol">
+    <div class="decisions mdec" data-decisions="D-38"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+  <figure class="research"><div data-chart="settling"></div>
+    <figcaption><b>Figure 1.7.</b> Department proportions changed most during the early labeling stages and became comparatively stable by approximately the 100th label. Each line tracks a department's cumulative share as documents were labeled, ending at its final proportion. Dotted lines indicate the boundaries between labeling batches of 100.</figcaption></figure>
+</section>
+</main>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <pattern id="hatch-legend" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="4" height="4" fill="var(--surface)"/><rect width="2" height="4" fill="var(--person)"/>
+    </pattern>
+  </defs>
+</svg>
+</body>
+</html>

@@ -1,0 +1,178 @@
+/* The app page. Loaded after casefile.css and
+   appendix.css; uses their tokens, grid, section spacing, figure frame, margin terms and step pattern. */
+
+body.app-page .g-title + figure.app-video { margin-top: 1.8rem; }
+
+/* The video, across 12 */
+figure.app-video { margin-bottom: 0; contain: inline-size; }
+/* the frame of 01's app screenshots: 1 px taupe border, 6 px radius */
+figure.app-video .player { overflow: hidden; background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; line-height: 0; }
+figure.app-video video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: var(--surface); }
+
+/* chapters (deliberately specific to the video): seven links in one row; four per row below 1120 px.
+   A light rule over each cell lets the playing chapter show a 2 px mulberry segment, like the case file's active tab. */
+.chapters ol { list-style: none; margin: .9rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); column-gap: var(--gut, 32px); row-gap: .4rem; }
+.chapters li { margin: 0; min-width: 0; }
+.chapters a { display: grid; grid-template-columns: auto minmax(0, 1fr); grid-template-rows: auto auto; column-gap: .45rem; align-content: start;
+  min-height: 44px; padding: .55rem 0 .4rem; border-top: 1px solid var(--rule); color: var(--ink); text-decoration: none; font: 500 .92rem/1.3 var(--label); }
+.chapters a:hover .c-name { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: .18em; }
+.chapters .c-n { grid-row: 1; padding: .05rem .4rem; border-radius: 3px; background: var(--tab); font: 700 .8rem/1.3 var(--label); font-variant-numeric: tabular-nums lining-nums; align-self: baseline; }
+.chapters .c-name { grid-row: 1; align-self: baseline; overflow-wrap: anywhere; }
+.chapters .c-t { grid-column: 2; grid-row: 2; color: var(--muted); font-size: .82rem; font-variant-numeric: tabular-nums lining-nums; }
+.chapters a[aria-current="true"] { border-top: 2px solid var(--accent-fill); padding-top: calc(.55rem - 1px); }
+.chapters a[aria-current="true"] .c-n { background: var(--accent-fill); color: var(--on-accent); }
+@media (max-width: 1119px) { .chapters ol { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: .6rem; } }
+@media (max-width: 599px) {
+  .chapters a { grid-template-columns: minmax(0, 1fr); row-gap: .2rem; }
+  .chapters .c-n { justify-self: start; }
+  .chapters .c-name, .chapters .c-t { grid-column: 1; grid-row: auto; overflow-wrap: normal; }
+}
+@media (prefers-reduced-motion: no-preference) { .chapters a:active { transform: scale(.97); transition: transform 120ms var(--ease-out); } }
+
+/* What the video shows: heading across 12, then paragraph 7 + note 5, starting level */
+body.app-page .sum-h, body.app-page .m-h { margin: 0 0 .6rem; font: 700 .95rem/1.3 var(--label); }
+body.app-page .app-note { margin: 0; font: 400 .9rem/1.45 var(--label); color: var(--muted); max-width: none; }
+body.app-page .video-text .main p { margin-top: 0; }
+
+/* What the app does: a pair, 6 + 6 under one rule, on shared rows (like Findings' question pairs) */
+.fn-grid { display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); grid-template-rows: repeat(4, auto); column-gap: var(--gut);
+  margin-top: 1rem; padding-top: .9rem; border-top: 2px solid var(--ink); }
+.fn-col { grid-column: span 6; grid-row: span 4; display: grid; grid-template-rows: subgrid; align-content: start; min-width: 0; }
+.fn-group { margin: 0 0 .6rem; font: 700 .95rem/1.3 var(--label); color: var(--muted); }
+.fn { padding-bottom: 1.2rem; min-width: 0; }
+.fn h4 { margin: 0 0 .2rem; font: 700 1.02rem/1.3 var(--label); }
+body.app-page .fn p { margin: 0; max-width: none; }
+body.app-page .fn p.watch { margin-top: .3rem; font: 500 .88rem/1.4 var(--label); color: var(--muted); }
+.fn p.watch a { display: inline-block; padding: .35rem 0; }
+@media (max-width: 1119px) { .fn-col { grid-column: span 4; } }
+@media (max-width: 767px) {
+  .fn-grid { grid-template-rows: none; }
+  .fn-col { grid-column: 1 / -1; grid-row: auto; display: block; }
+  .fn-col + .fn-col { margin-top: .6rem; }
+}
+
+/* The assistant: key numbers band, then text 7 + table 5 (the table goes under the text below 1120 px) */
+.app-nums { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: var(--gut); margin: 1rem 0 1.4rem;
+  border-top: 3px solid var(--accent-fill); border-bottom: 1px solid var(--rule); font: 400 .9rem/1.4 var(--label); color: var(--muted); }
+.app-nums div { position: relative; padding: .9rem 0 1rem; }
+.app-nums div + div::before { content: ""; position: absolute; top: 0; bottom: 0; left: calc(var(--gut) / -2); border-left: 1px solid var(--rule); }
+.app-nums b { display: block; margin: 0 0 .2rem; font: 600 1.7rem/1.1 var(--label); color: var(--num); white-space: nowrap; font-variant-numeric: tabular-nums lining-nums; }
+@media (max-width: 599px) {
+  .app-nums { grid-template-columns: minmax(0, 1fr); }
+  .app-nums div + div::before { left: 0; right: 0; bottom: auto; border-left: 0; border-top: 1px solid var(--rule); }
+  .app-nums b { font-size: 1.375rem; }
+}
+@media (max-width: 1119px) {
+  body.grid .as-grid > .main, body.grid .as-grid > .mcol { grid-column: 1 / -1; }
+  body.grid .as-grid > .mcol { margin-top: 1.2rem; }
+}
+table.rounds { width: 100%; border-collapse: collapse; font: 400 .9rem/1.35 var(--label); }
+table.rounds th, table.rounds td { padding: .4rem 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+table.rounds thead th { padding-top: 0; border-bottom: 2px solid var(--ink); font-weight: 700; text-align: right; }
+table.rounds thead th:first-child { text-align: left; }
+table.rounds thead th + th { white-space: nowrap; padding-left: .8rem; }
+table.rounds tbody th { font-weight: 400; text-align: left; color: var(--muted); padding-right: 1rem; }
+table.rounds td { text-align: right; white-space: nowrap; padding-left: .8rem; font-variant-numeric: tabular-nums lining-nums; }
+body.app-page .tbl-source { margin: .5rem 0 0; font: 400 .8rem/1.45 var(--label); color: var(--muted); max-width: none; }
+
+/* Runs locally: the site's margin terms (.mterm), stacked: three terms side by side in a 5-column margin
+   squeeze to 128 px each and break the model names (casefile.css lays out two or more terms in columns) */
+body.grid #local .mterm { display: block; }
+body.grid #local .mterm dd + dt { margin-top: .55rem; }
+
+/* Run it yourself: the site's step pattern (appendix.css ol.steps) in two columns, 01 numbers as on 02 */
+body.appendix ol.steps.run-steps { margin-top: .8rem; grid-template-columns: minmax(0, 1fr); column-gap: var(--gut); align-items: start; }
+@media (min-width: 768px) {
+  body.appendix ol.steps.run-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: repeat(3, auto); grid-auto-flow: column; }
+}
+body.appendix ol.steps.run-steps li::before { content: counter(step, decimal-leading-zero); display: block; margin-bottom: .3rem; font: 700 .8rem/1 var(--label); color: var(--accent); font-variant-numeric: tabular-nums; }
+body.appendix ol.steps.run-steps li > span { margin-top: .4rem; }
+body.appendix ol.steps.run-steps li > span.pending-step { padding: .35rem .7rem; border: 1px dashed var(--rule); border-radius: 6px; }
+/* deliberately different: commands set as code, so they can be copied and read as code */
+ol.run-steps code { display: block; margin-top: .3rem; padding: .45rem .7rem; white-space: pre-wrap; overflow-wrap: anywhere; background: var(--surface); border: 1px solid var(--rule); border-radius: 4px;
+  font: 400 .88rem/1.45 ui-monospace, "Cascadia Mono", Consolas, monospace; color: var(--ink); }
+body.app-page .repo-empty { margin: .5rem 0 0; }
+
+/* running paragraphs justified from 600 px, as on every grid page (paragraphs under three lines are .short, left) */
+@media (min-width: 600px) {
+  body.app-page .video-text .main p, body.app-page .fn p:not(.watch), body.app-page section .mgrid > .main > p {
+    text-align: justify; hyphens: auto; -webkit-hyphens: auto; hyphenate-limit-chars: 6 3 3; }
+}
+
+body.app-page p.fw-close { margin-top: 2rem; }
+
+/* Page opening: the scope note under the deck */
+body.app-page .app-scope { margin: .6rem 0 0; font: 400 .9rem/1.45 var(--label); color: var(--muted); max-width: none; }
+
+/* The workflow after upload, across 12.
+   Desktop: Add files (3) | two paths, each a box (4) and its person step (2) | Archive (3); connectors are 2 px lines in
+   --ref with arrowheads (one clipped shape each). Below 1120 px the paths stack, side by side from 600 px. */
+figure.app-flow { margin-top: 2.2rem; contain: inline-size; }
+.flow { --lg: 1.1rem; display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); column-gap: var(--gut); margin-top: 1rem; }
+body.app-page figure.app-flow .flow h3 { margin: 0 0 .35rem; padding: 0; font: 700 1rem/1.3 var(--label); color: var(--ink); }
+.flow .f-to { display: none; }
+.flow p, .flow li { margin: 0; font: 400 .9rem/1.45 var(--label); color: var(--ink); max-width: none; }
+.flow .f-box { position: relative; padding: .8rem .9rem .9rem; background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; min-width: 0; }
+.flow .f-when { color: var(--muted); margin-bottom: .25rem; }
+.flow ul { margin: 0; padding-left: 1.05rem; }
+.flow li + li { margin-top: .1rem; }
+.flow .sw { margin-right: .4rem; vertical-align: -.1em; }
+.flow .f-person { position: relative; display: flex; flex-direction: column; justify-content: center; gap: .35rem; min-width: 0; }
+.flow .f-person svg { width: 22px; height: 22px; fill: none; stroke: var(--ink); stroke-width: 1.7; }
+.flow .f-person p { font-weight: 700; }
+.flow .f-out b { font: 600 1.35rem/1.2 var(--label); font-variant-numeric: tabular-nums lining-nums; }
+.flow .f-out p + p { margin-top: .35rem; color: var(--muted); }
+.flow .f-or { display: none; }
+/* connector shapes: a 2 px line ending in a 7 px arrowhead (horizontal) */
+.flow .f-lane::before, .flow .f-person::before, .flow .f-out::before, .flow .f-in::after, .flow .f-person::after {
+  content: ""; position: absolute; background: var(--ref); }
+@media (min-width: 1120px) {
+  .flow .f-in { grid-column: 1 / 4; align-self: center; }
+  .flow .f-lanes { grid-column: 4 / 10; position: relative; display: grid; grid-template-columns: subgrid; grid-template-rows: 1fr 1fr; row-gap: var(--lg); }
+  .flow .f-a { grid-column: 1 / 5; grid-row: 1; } .flow .f-pa { grid-column: 5 / 7; grid-row: 1; }
+  .flow .f-b { grid-column: 1 / 5; grid-row: 2; } .flow .f-pb { grid-column: 5 / 7; grid-row: 2; }
+  .flow .f-out { grid-column: 10 / 13; align-self: center; }
+  /* the fork and the merge: vertical lines in the gutters, from the middle of the first path to the middle of the second */
+  .flow .f-lanes::before, .flow .f-lanes::after { content: ""; position: absolute; width: 2px; background: var(--ref);
+    top: calc((100% - var(--lg)) / 4); bottom: calc((100% - var(--lg)) / 4); }
+  .flow .f-lanes::before { left: calc(var(--gut) / -2 - 1px); }
+  .flow .f-lanes::after { right: calc(var(--gut) / -2 - 1px); }
+  .flow .f-in::after { top: calc(50% - 1px); right: calc(var(--gut) / -2); width: calc(var(--gut) / 2); height: 2px; }
+  .flow .f-person::after { top: calc(50% - 1px); right: calc(var(--gut) / -2); width: calc(var(--gut) / 2); height: 2px; }
+  .flow .f-lane::before, .flow .f-out::before { top: calc(50% - 5px); left: calc(var(--gut) / -2); width: calc(var(--gut) / 2); height: 10px;
+    clip-path: polygon(0 4px, calc(100% - 7px) 4px, calc(100% - 7px) 0, 100% 5px, calc(100% - 7px) 10px, calc(100% - 7px) 6px, 0 6px); }
+  .flow .f-person::before { top: calc(50% - 5px); left: calc(var(--gut) * -1); width: calc(var(--gut) - 4px); height: 10px;
+    clip-path: polygon(0 4px, calc(100% - 7px) 4px, calc(100% - 7px) 0, 100% 5px, calc(100% - 7px) 10px, calc(100% - 7px) 6px, 0 6px); }
+}
+@media (max-width: 1119px) {
+  .flow { display: block; }
+  .flow .f-lanes { display: grid; grid-template-columns: minmax(0, 1fr); column-gap: var(--gut); margin: 0; }
+  .flow .f-lane, .flow .f-person, .flow .f-out { margin-top: 1.6rem; }
+  .flow .f-person { padding-left: .9rem; }
+  /* downward arrows above each step */
+  .flow .f-lane::before, .flow .f-person::before, .flow .f-out::before { left: 1.3rem; top: -1.45rem; width: 10px; height: 1.3rem;
+    clip-path: polygon(4px 0, 6px 0, 6px calc(100% - 7px), 10px calc(100% - 7px), 5px 100%, 0 calc(100% - 7px), 4px calc(100% - 7px)); }
+  .flow .f-person::before { left: .4rem; }
+  .flow .f-in::after, .flow .f-person::after { display: none; }
+  .flow .f-or { display: block; margin: 1.1rem 0 0; font: 700 .8rem/1.3 var(--label); color: var(--muted); }
+  .flow .f-or + .f-lane { margin-top: .5rem; }
+  .flow .f-to { display: block; margin-top: .15rem; font: 400 .85rem/1.4 var(--label); color: var(--muted); }
+  .flow .f-or + .f-lane::before { display: none; }
+}
+@media (min-width: 600px) and (max-width: 1119px) {
+  .flow .f-lanes { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: auto auto; }
+  .flow .f-a { grid-column: 1; grid-row: 1; } .flow .f-pa { grid-column: 1; grid-row: 2; }
+  .flow .f-b { grid-column: 2; grid-row: 1; } .flow .f-pb { grid-column: 2; grid-row: 2; }
+  .flow .f-or { display: none; }
+  .flow .f-or + .f-lane.f-b { margin-top: 1.6rem; }
+  .flow .f-or + .f-lane.f-b::before { display: block; }
+  /* the Archive spans both columns: a second arrow comes down from the review path */
+  .flow .f-out::after { content: ""; position: absolute; background: var(--ref); left: calc(50% + var(--gut) / 2 + 1.3rem); top: -1.45rem; width: 10px; height: 1.3rem;
+    clip-path: polygon(4px 0, 6px 0, 6px calc(100% - 7px), 10px calc(100% - 7px), 5px 100%, 0 calc(100% - 7px), 4px calc(100% - 7px)); }
+  .flow .f-to { display: none; }
+}
+/* one fade by row, the first time the figure comes into view (app.js adds .anim, then .in) */
+.flow.anim > *, .flow.anim .f-lanes > * { opacity: 0; transition: opacity 240ms cubic-bezier(.23, 1, .32, 1); }
+.flow.anim.in > *, .flow.anim.in .f-lanes > * { opacity: 1; }
+.flow.anim.in .f-lanes > * { transition-delay: 100ms; }
+.flow.anim.in .f-out { transition-delay: 200ms; }

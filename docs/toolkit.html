@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toolkit | LocalRIM</title>
+<!-- Toolkit on the 12-column grid. Toolkit. Versions from requirements.txt, the two Python
+     environments, `ollama list` and `tesseract --version`; licences checked on the model cards and dataset pages. -->
+<link rel="stylesheet" href="assets/casefile.css?v=73">
+<link rel="stylesheet" href="assets/appendix.css?v=14">
+<script src="assets/site.js?v=40" defer></script>
+<link rel="stylesheet" href="assets/helper.css?v=5">
+<script src="assets/helper.js?v=10" defer></script>
+<script src="assets/charts-ui.js?v=9" defer></script>
+</head>
+<body class="appendix toolkit-page grid">
+<header class="wrap">
+  <div class="masthead">
+    <a class="brand" href="index.html">LocalRIM</a>
+    <nav aria-label="Site"><a href="index.html">Overview</a><a href="filing-system.html" aria-label="01 Intake"><span class="n">01</span><span class="long"> Intake</span></a><a href="reading.html" aria-label="02 Capture and Preparation"><span class="n">02</span><span class="long"> Capture</span></a><a href="review.html" aria-label="03 Classification, Routing and Validation"><span class="n">03</span><span class="long"> Classification</span></a><a href="findings.html">Findings</a><a href="app.html">The app</a><a href="future-work.html">Future work</a><details class="nav-ref"><summary class="is-current">Reference</summary><div><a href="dashboard.html">Project log</a><a href="toolkit.html" aria-current="page">Toolkit</a></div></details><a class="nav-log" href="dashboard.html" aria-label="Project log">Log</a></nav>
+  </div>
+</header>
+<main>
+<!-- Opening: title across 12; a two-line standfirst at full width, no margin.
+     "The machine" moved: Python versions into the Software table, the computer into the line closing Software. -->
+<div class="chapter-head g-title">
+  <div class="intro"><small>Reference · Toolkit</small><h1>What LocalRIM runs on</h1></div>
+</div>
+<div class="g-intro g-intro-full">
+  <p class="deck">The models, software and data sources used to develop and evaluate LocalRIM, with their versions, licences and roles. Document reading, classification and language-model inference all ran locally on a Windows desktop, so no record or its extracted text was sent to an outside model service.</p>
+</div>
+
+<section id="models">
+  <h2 class="g-h2">Models</h2>
+  <p class="muted fit">The principal OCR, embedding and language models used in LocalRIM, with their versions, licences and roles. All ran locally.</p>
+  <table class="kit">
+    <thead><tr><th scope="col">Model</th><th scope="col">Version</th><th scope="col">Licence</th><th scope="col">Used for</th><th scope="col">Stage</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Tesseract</th><td data-label="Version">5.4.0</td><td data-label="Licence">Apache 2.0</td><td data-label="Used for">Baseline OCR, run twice: on 150-dpi page images and at the PDFs' original resolution.</td><td data-label="Stage"><a href="reading.html#capture">02 · Capture</a></td></tr>
+      <tr><th scope="row">PaddleOCR (PP-OCRv6 medium)</th><td data-label="Version">paddleocr 3.7.0; PaddlePaddle GPU 3.2.0; PaddleX 3.7.2</td><td data-label="Licence">Apache 2.0</td><td data-label="Used for">The selected reading engine: page text with word positions and confidence. Its orientation models propose rotations, which the pipeline checks by reading both ways (D-30).</td><td data-label="Stage"><a href="reading.html#capture">02 · Capture</a>, <a href="reading.html#preparation">Preparation</a></td></tr>
+      <tr><th scope="row">GLM-OCR</th><td data-label="Version"><code>glm-ocr</code> through Ollama</td><td data-label="Licence">MIT</td><td data-label="Used for">Vision-language OCR, run through Ollama, that re-read the 60 pages in the three difficult scan groups.</td><td data-label="Stage"><a href="reading.html#capture">02 · Capture</a></td></tr>
+      <tr><th scope="row">Qwen3-Embedding-0.6B</th><td data-label="Version"><code>Qwen/Qwen3-Embedding-0.6B</code></td><td data-label="Licence">Apache 2.0</td><td data-label="Used for">Represents pages and questions as vectors for search and for classification with logistic regression.</td><td data-label="Stage"><a href="review.html#classification">03 · Classification</a>, <a href="review.html#routing">Routing</a></td></tr>
+      <tr><th scope="row">Qwen3 8B</th><td data-label="Version"><code>qwen3:8b</code> through Ollama; temperature 0, fixed seed, thinking off</td><td data-label="Licence">Apache 2.0</td><td data-label="Used for">Writes the archive assistant's answers and the review suggestions from retrieved records and filing rules, served locally by Ollama.</td><td data-label="Stage"><a href="review.html#routing">03 · Routing</a></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="software">
+  <h2 class="g-h2">Software</h2>
+  <p class="muted fit">The software installed when the results were produced, in two Python environments: one for the pipeline and application, and a separate one for PaddleOCR.</p>
+  <table class="kit">
+    <thead><tr><th scope="col">Library</th><th scope="col">Version</th><th scope="col">Licence</th><th scope="col">Used for</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Python</th><td data-label="Version">3.14.3</td><td data-label="Licence">PSF License</td><td data-label="Used for">The pipeline and the LocalRIM application</td></tr>
+      <tr><th scope="row">Python (PaddleOCR)</th><td data-label="Version">3.12.10</td><td data-label="Licence">PSF License</td><td data-label="Used for">A separate environment for PaddleOCR, which did not yet support 3.14, with its own NumPy 2.3.5, Pillow 12.1.0 and opencv-contrib-python 4.10.0.84</td></tr>
+      <tr><th scope="row">Ollama</th><td data-label="Version">0.40.16</td><td data-label="Licence">MIT</td><td data-label="Used for">Serves GLM-OCR and Qwen3 8B locally</td></tr>
+      <tr><th scope="row">PyTorch</th><td data-label="Version">2.11.0 (CUDA 12.8)</td><td data-label="Licence">BSD-3-Clause</td><td data-label="Used for">Runs the embedding model on the GPU</td></tr>
+      <tr><th scope="row">sentence-transformers</th><td data-label="Version">6.3.0</td><td data-label="Licence">Apache 2.0</td><td data-label="Used for">Loads and runs the embedding model</td></tr>
+      <tr><th scope="row">Transformers</th><td data-label="Version">5.22.2</td><td data-label="Licence">Apache 2.0</td><td data-label="Used for">Model backend for sentence-transformers</td></tr>
+      <tr><th scope="row">scikit-learn</th><td data-label="Version">1.9.1</td><td data-label="Licence">BSD-3-Clause</td><td data-label="Used for">TF-IDF, logistic regression, confidence calibration and the five cross-validation folds</td></tr>
+      <tr><th scope="row">pandas</th><td data-label="Version">3.0.6</td><td data-label="Licence">BSD-3-Clause</td><td data-label="Used for">Every table of pages, labels and results</td></tr>
+      <tr><th scope="row">NumPy</th><td data-label="Version">2.5.4</td><td data-label="Licence">BSD-3-Clause</td><td data-label="Used for">Numeric arrays and embeddings</td></tr>
+      <tr><th scope="row">SciPy</th><td data-label="Version">1.18.1</td><td data-label="Licence">BSD-3-Clause</td><td data-label="Used for">Confidence intervals for the final test</td></tr>
+      <tr><th scope="row">PyMuPDF</th><td data-label="Version">2.1</td><td data-label="Licence">AGPL-3.0 (or a commercial licence from Artifex)</td><td data-label="Used for">Renders the archive's PDFs as page images and reads their own text layer (the fifth text source)</td></tr>
+      <tr><th scope="row">pytesseract</th><td data-label="Version">0.3.13</td><td data-label="Licence">Apache 2.0</td><td data-label="Used for">Calls Tesseract from Python</td></tr>
+      <tr><th scope="row">Pillow</th><td data-label="Version">12.3.0</td><td data-label="Licence">MIT-CMU</td><td data-label="Used for">Image measures for the scan groups; image preparation for OCR</td></tr>
+      <tr><th scope="row">jiwer</th><td data-label="Version">4.0.0</td><td data-label="Licence">Apache 2.0</td><td data-label="Used for">Word error rate against the FUNSD answer key</td></tr>
+      <tr><th scope="row">Hugging Face Datasets</th><td data-label="Version">5.1.0</td><td data-label="Licence">Apache 2.0</td><td data-label="Used for">Loads the FUNSD answer key</td></tr>
+      <tr><th scope="row">Streamlit</th><td data-label="Version">1.66.1</td><td data-label="Licence">Apache 2.0</td><td data-label="Used for">The labeling app, the blind OCR review, the blind test labels and the LocalRIM application</td></tr>
+      <tr><th scope="row">PyYAML</th><td data-label="Version">6.0.3</td><td data-label="Licence">MIT</td><td data-label="Used for">The filing system (taxonomy) file</td></tr>
+      <tr><th scope="row">Requests</th><td data-label="Version">2.34.2</td><td data-label="Licence">Apache 2.0</td><td data-label="Used for">Downloads from the UCSF library; calls to the local Ollama server</td></tr>
+      <tr><th scope="row">Matplotlib</th><td data-label="Version">3.11.2</td><td data-label="Licence">Matplotlib licence (PSF-based)</td><td data-label="Used for">Working charts during the OCR analysis; none appear on this site</td></tr>
+    </tbody>
+  </table>
+  <p class="muted fit kit-close">All results were produced on one Windows desktop with an NVIDIA RTX 4060 Ti (8 GB).</p>
+</section>
+
+<section id="data">
+  <h2 class="g-h2">Data</h2>
+  <p class="muted fit">Two sources: the client's archive, Philip Morris USA records from the UCSF Industry Documents Library, and the FUNSD benchmark for OCR evaluation.</p>
+  <table class="kit">
+    <thead><tr><th scope="col">Source</th><th scope="col">Licence or terms</th><th scope="col">Used for</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Philip Morris USA records, UCSF Industry Documents Library</th><td data-label="Terms">Public through the 1998 Master Settlement Agreement; <a href="https://www.industrydocuments.ucsf.edu/about-idl/copyright/">UCSF copyright and fair-use policy</a></td><td data-label="Used for">The sampled pages and the client's own retention schedules</td></tr>
+      <tr><th scope="row">FUNSD (<code>nielsr/funsd</code>)</th><td data-label="Terms">Non-commercial, research and educational use only; its images (from RVL-CDIP) keep their own copyright</td><td data-label="Used for">Reference transcriptions for measuring OCR word recall and word error rate (<a href="reading.html#capture">Figure 2.4</a>). No FUNSD image is reproduced on this site.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="site">
+  <h2 class="g-h2">This site</h2>
+  <p class="muted fit">Plain HTML, CSS and JavaScript. Charts are drawn as SVG from the project's generated data, fonts are self-hosted, and no outside charting library is used.</p>
+  <table class="kit">
+    <thead><tr><th scope="col">Part</th><th scope="col">Licence</th><th scope="col">Note</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Charts</th><td data-label="Licence">Own code</td><td data-label="Note">Plain SVG drawn by the site's own scripts from one data file</td></tr>
+      <tr><th scope="row">Literata</th><td data-label="Licence">SIL OFL 1.1</td><td data-label="Note">Text and headings, self-hosted</td></tr>
+      <tr><th scope="row">Atkinson Hyperlegible Next</th><td data-label="Licence">SIL OFL 1.1</td><td data-label="Note">Labels, charts and interface, self-hosted</td></tr>
+      <tr><th scope="row">LocalRIM code</th><td data-label="Licence">MIT</td><td data-label="Note">The repository will be made public</td></tr>
+    </tbody>
+  </table>
+</section>
+</main>
+</body>
+</html>

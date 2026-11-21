@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Findings | LocalRIM</title>
+<!-- Findings: the report's conclusion. Every result is bound to site_data.json; typed: the rule settings "20 tokens" and "60 tokens", "95%" (the interval), "100 new first pages" (framing) and "two rounds". -->
+<link rel="stylesheet" href="assets/casefile.css?v=73">
+<link rel="stylesheet" href="assets/appendix.css?v=14">
+<script src="assets/site.js?v=40" defer></script>
+<link rel="stylesheet" href="assets/helper.css?v=5">
+<script src="assets/helper.js?v=10" defer></script>
+<script src="assets/charts-ui.js?v=9" defer></script>
+<script src="assets/casefile.js?v=20" defer></script>
+</head>
+<body class="appendix findings-page grid">
+<header class="wrap">
+  <div class="masthead">
+    <a class="brand" href="index.html">LocalRIM</a>
+    <nav aria-label="Site"><a href="index.html">Overview</a><a href="filing-system.html" aria-label="01 Intake"><span class="n">01</span><span class="long"> Intake</span></a><a href="reading.html" aria-label="02 Capture and Preparation"><span class="n">02</span><span class="long"> Capture</span></a><a href="review.html" aria-label="03 Classification, Routing and Validation"><span class="n">03</span><span class="long"> Classification</span></a><a href="findings.html" aria-current="page">Findings</a><a href="app.html">The app</a><a href="future-work.html">Future work</a><details class="nav-ref"><summary>Reference</summary><div><a href="dashboard.html">Project log</a><a href="toolkit.html">Toolkit</a></div></details><a class="nav-log" href="dashboard.html" aria-label="Project log">Log</a></nav>
+  </div>
+</header>
+<main>
+<!-- Opening: title across 12; the answer as a pair (6 + 6, one rule over both); framing 7 + the four questions' status 5 -->
+<div class="chapter-head g-title">
+  <div class="intro"><small>Findings</small><h1>What the final test established about automatic filing and human review</h1></div>
+</div>
+
+<div class="answer-pair" role="group" aria-label="The answer">
+  <div><h2><span class="sw sw-filed" aria-hidden="true"></span>Automatic filing</h2>
+    <p>On the <span data-field="final_test.pages"></span>-page final test, <span data-field="final_test.scores.auto_share.value" data-format="pct"></span> of pages qualified for automatic filing at the <span data-field="final_test.cutoff" data-format="dec2"></span> confidence cutoff, which was frozen before testing. Of those pages, <span data-field="final_test.scores.auto_accuracy.value" data-format="pct"></span> were assigned to the correct department, below the <span data-field="final_test.target" data-format="pct"></span> target, although the 95% interval (<span data-field="final_test.scores.auto_accuracy.low" data-format="pct"></span>–<span data-field="final_test.scores.auto_accuracy.high" data-format="pct"></span>) includes it. Departments whose records state their purpose plainly scored highest: Marketing and Research (F1 <span data-field="final_test.per_department.3.f1" data-format="dec2"></span> and <span data-field="final_test.per_department.5.f1" data-format="dec2"></span>).</p></div>
+  <div><h2><span class="sw sw-person" aria-hidden="true"></span>Human review</h2>
+    <p>The remaining pages were routed for review with a retrieval-augmented suggestion. On these <span data-field="final_test.rag.review_pages"></span> pages, the suggestion named the correct department <span data-field="final_test.rag.rag_top1" data-format="pct"></span> of the time, compared with <span data-field="final_test.rag.classifier_top1" data-format="pct"></span> for the classifier alone, and the correct department was among its first two choices <span data-field="final_test.rag.rag_top2" data-format="pct"></span> of the time. Review concentrated on interpretive boundaries, above all Corporate affairs against Legal (F1 <span data-field="final_test.per_department.0.f1" data-format="dec2"></span>, the lowest), thin first pages and handwriting; all <span data-field="final_test.excluded.to_a_person" data-format="word"></span> unusable test pages reached a person.</p></div>
+</div>
+
+<div class="mgrid g-intro">
+  <div class="main">
+  <p class="deck">I deliberately evaluated LocalRIM on scanned paper records: typewritten pages, handwritten annotations and degraded copies. Reading quality varied by scan group, and better text was associated with higher classification scores in cross-validation (<span data-sum="classifier.embeddings.hybrid.macro_f1-classifier.embeddings.A.macro_f1" data-format="pts"></span> to <span data-sum="classifier.tfidf.hybrid.macro_f1-classifier.tfidf.A.macro_f1" data-format="pts"></span> points of macro F1). These results show that document quality matters; they do not establish how the pipeline would perform on newer or born-digital records.</p>
+  </div>
+  <aside class="mcol">
+    <ol class="rq-status" aria-label="The four research questions">
+      <li><a href="#rq01"><span class="num">RQ01</span> Filing accuracy</a><span class="stamp">Answered</span></li>
+      <li><a href="#rq02"><span class="num">RQ02</span> Hierarchy depth</a><span class="stamp">Answered</span></li>
+      <li><a href="#rq03"><span class="num">RQ03</span> Scan quality</a><span class="stamp">Answered (cross-validation)</span></li>
+      <li><a href="#rq04"><span class="num">RQ04</span> Confidence routing</a><span class="stamp">Answered</span></li>
+    </ol>
+  </aside>
+</div>
+
+<!-- The four answers as two pairs: 6 + 6, one rule over each pair, eyebrow, question, status, answer and evidence on shared rows -->
+<div class="findings t-rq">
+  <article id="rq01"><small class="eyebrow">Research question 01</small><h2>How accurately can a locally run system file previously unseen scanned records into Philip Morris's own departments, as set out in its retention schedules?</h2><span class="stamp">Answered</span><p>On the <span data-field="final_test.pages"></span>-page final test, sentence embeddings and TF-IDF both reached macro F1 <span data-field="final_test.scores.macro_f1.value" data-format="dec2"></span> across the six scored departments (embeddings: 95% interval <span data-field="final_test.scores.macro_f1.low" data-format="dec2"></span>–<span data-field="final_test.scores.macro_f1.high" data-format="dec2"></span>). Sentence embeddings had led in cross-validation (<span data-field="classifier.embeddings.hybrid.macro_f1" data-format="dec2"></span> versus <span data-field="classifier.tfidf.hybrid.macro_f1" data-format="dec2"></span>), but that advantage did not carry over to the final test.</p><p class="evidence">Evidence in the chapters: <a href="review.html#classification">03 · Classification</a> and <a href="review.html#validation">Validation</a></p></article>
+  <!-- RQ02: final_test.record_type_depth, from score_record_types.py (the suggestion on all 150 test pages) -->
+  <article id="rq02"><small class="eyebrow">Research question 02</small><h2>How far down the records hierarchy can the system classify documents: department, series, or record type?</h2><span class="stamp">Answered</span><p>Accuracy declined at each level of the records hierarchy. Scored on all <span data-field="final_test.record_type_depth.pages"></span> final-test pages, the retrieval-augmented suggestion named the correct department on <span data-field="final_test.record_type_depth.department" data-format="pct"></span> of pages, the series on <span data-field="final_test.record_type_depth.series" data-format="pct"></span> and the exact record type on <span data-field="final_test.record_type_depth.record_type" data-format="pct"></span>, or <span data-field="final_test.record_type_depth.record_type_or_also_fits" data-format="pct"></span> when the alternative I recorded while labeling ("also fits") is counted. These results support showing record types as suggestions until the client confirms them.</p></article>
+</div>
+<div class="findings t-rq">
+  <article id="rq03"><small class="eyebrow">Research question 03</small><h2>How does scan quality affect text extraction, and to what extent do improvements in extraction accuracy improve classification?</h2><span class="stamp">Answered (cross-validation)</span><p>Reading quality varied by scan group. On FUNSD's <span data-field="ocr.engines.funsd.0.forms"></span> benchmark forms, PaddleOCR recovered <span data-field="ocr.engines.funsd.1.word_recall" data-format="pct"></span> of reference words, compared with <span data-field="ocr.engines.funsd.0.word_recall" data-format="pct"></span> for baseline Tesseract. In cross-validation, the selected OCR text raised classification macro F1 by about <span data-sum="classifier.embeddings.hybrid.macro_f1-classifier.embeddings.A.macro_f1" data-format="pts"></span> to <span data-sum="classifier.tfidf.hybrid.macro_f1-classifier.tfidf.A.macro_f1" data-format="pts"></span> points, depending on the classifier. The final test used only the selected text, so this comparison was not repeated on the <span data-field="final_test.pages"></span> test pages.</p><p class="evidence">Evidence in the chapters: <a href="reading.html#capture">02 · Capture</a> and <a href="review.html#classification">03 · Classification</a></p></article>
+  <article id="rq04"><small class="eyebrow">Research question 04</small><h2>Can calibrated confidence determine which pages qualify for automatic filing, and are retrieval-augmented review suggestions more accurate than the classifier alone?</h2><span class="stamp">Answered</span><p>The cutoff set before testing qualified <span data-field="final_test.scores.auto_share.value" data-format="pct"></span> of final-test pages for automatic filing, with <span data-field="final_test.scores.auto_accuracy.value" data-format="pct"></span> assigned correctly. This fell below the <span data-field="final_test.target" data-format="pct"></span> target, although the 95% interval (<span data-field="final_test.scores.auto_accuracy.low" data-format="pct"></span>–<span data-field="final_test.scores.auto_accuracy.high" data-format="pct"></span>) includes it, and the cutoff was not adjusted after testing. On pages routed for review, the retrieval-augmented suggestion was correct <span data-field="final_test.rag.rag_top1" data-format="pct"></span> of the time, compared with <span data-field="final_test.rag.classifier_top1" data-format="pct"></span> for the classifier alone. In cross-validation, the suggestion changed the classifier's first choice on <span data-field="rag.changed_answer"></span> pages and was correct on <span data-field="rag.paired_A.only_rag"></span> of them.</p><p class="evidence">Evidence in the chapters: <a href="review.html#routing">03 · Routing</a> and <a href="review.html#validation">Validation</a></p></article>
+</div>
+
+<section id="evidence">
+  <h2 class="g-h2">What else the evidence showed</h2>
+  <div class="ev-cards">
+    <div class="fcard"><p class="ev-n"><span data-field="classifier.certainty.embeddings.sure.accuracy" data-format="pct"></span><span class="to">vs</span><span data-field="classifier.certainty.embeddings.unsure.accuracy" data-format="pct"></span></p>
+      <h3>Pages I marked uncertain were classified less accurately</h3>
+      <p>In cross-validation, the classifier was correct on <span data-field="classifier.certainty.embeddings.sure.accuracy" data-format="pct"></span> of pages I labeled with certainty and <span data-field="classifier.certainty.embeddings.unsure.accuracy" data-format="pct"></span> of pages I marked uncertain.</p></div>
+    <div class="fcard"><p class="ev-n"><span data-field="classifier.embeddings.hybrid.macro_f1" data-format="dec2"></span><span class="to">&#8594;</span><span data-field="final_test.scores.macro_f1.value" data-format="dec2"></span></p>
+      <h3>The development advantage did not carry over</h3>
+      <p>Sentence embeddings fell from macro F1 <span data-field="classifier.embeddings.hybrid.macro_f1" data-format="dec2"></span> in cross-validation to <span data-field="final_test.scores.macro_f1.value" data-format="dec2"></span> on the final test, where they tied TF-IDF.</p></div>
+    <div class="fcard"><p class="ev-n ev-pair"><span class="ev-v"><span data-field="final_test.target" data-format="pct"></span><small>target</small></span> <span class="to">&#183;</span> <span class="ev-v"><span data-field="final_test.scores.auto_accuracy.value" data-format="pct"></span><small>final test</small></span></p>
+      <h3>Automatic filing fell short of the target</h3>
+      <p>The cutoff was set on the cross-validated development predictions to reach <span data-field="final_test.target" data-format="pct"></span> accuracy. It reached <span data-field="final_test.scores.auto_accuracy.value" data-format="pct"></span> on the final test and was not changed afterwards.</p></div>
+    <!-- Archive check: results/archive_check/archive_check_summary.csv and archive_check_r2_summary.csv -->
+    <div class="fcard"><p class="ev-n"><span data-field="archive_check.cited"></span><span class="to">of</span><span data-field="archive_check.answerable"></span></p>
+      <h3>The archive assistant cited relevant records</h3>
+      <p>Across <span data-field="archive_check.answerable"></span> answerable questions in two rounds, the archive assistant cited a correct or relevant record in <span data-field="archive_check.cited"></span>, and declined all <span data-field="archive_check.declined"></span> questions about material not in the archive. This measured citations, not whether every statement in an answer was correct.</p></div>
+  </div>
+</section>
+
+<section id="approach">
+  <h2 class="g-h2">How the findings changed my approach</h2>
+  <p class="muted short">Several decisions in LocalRIM came from testing assumptions that initially seemed reasonable.</p>
+  <ul class="approach-strip" aria-label="Three decisions and the evidence behind them">
+    <li><small class="k">01 · Taxonomy</small><b class="v"><span data-field="taxonomy.skims.0.unsure" data-format="pct"></span> &#8594; <span data-field="taxonomy.skims.1.unsure" data-format="pct"></span></b><span class="l">Labels marked uncertain, first to second pilot</span><a href="filing-system.html#rounds">Intake · the taxonomy and the labeling app both changed</a></li>
+    <li><small class="k">02 · Orientation</small><b class="v"><span data-field="ocr.engines.orientation.turn_kept"></span> of <span data-field="ocr.engines.orientation.turn_suggested"></span></b><span class="l">Proposed rotations that were correct</span><a href="reading.html#orientation">Capture · read both ways (D-30)</a></li>
+    <li><small class="k">03 · Bates numbers</small><b class="v"><span data-field="classifier.bates_probe.macro_f1" data-format="dec2"></span></b><span class="l">Macro F1 from the identifier alone</span><a href="review.html#steps">Classification · kept in OCR, removed from classifier input (D-46)</a></li>
+  </ul>
+  <div class="mgrid">
+  <div class="main">
+    <h3>From a general taxonomy to a client-specific one</h3>
+    <p>I began with a general taxonomy and tested it on a public benchmark containing documents from several companies. The approach proved unsuitable because each company organized its records differently, making it difficult to apply one set of categories consistently. I therefore focused the project on Philip Morris as the client, using its retention schedules and records-management documents to develop the final taxonomy. Between the two pilots, labels marked uncertain fell from <span data-field="taxonomy.skims.0.unsure" data-format="pct"></span> to <span data-field="taxonomy.skims.1.unsure" data-format="pct"></span>, although the labeling application was revised during the same period, so the reduction cannot be attributed to the taxonomy alone.</p>
+    <h3>Testing orientation instead of accepting the model's recommendation</h3>
+    <p>PaddleOCR's orientation model proposed rotating <span data-field="ocr.engines.orientation.turn_suggested"></span> pages, but only <span data-field="ocr.engines.orientation.turn_kept"></span> recommendations were correct; the other <span data-sum="ocr.engines.orientation.turn_suggested-ocr.engines.orientation.turn_kept"></span> pages were already upright. I retained the approach established in D-30: the pipeline reads flagged pages in both orientations and keeps the output with higher OCR confidence. This prevented an unverified orientation recommendation from automatically changing the text used downstream.</p>
+    <h3>Keeping Bates numbers without letting the classifier rely on them</h3>
+    <p>Bates numbers help identify and retrieve records, but a model using only their first four digits achieved macro F1 <span data-field="classifier.bates_probe.macro_f1" data-format="dec2"></span> when predicting departments. Because litigation stamps were applied box by box, the identifier could provide a shortcut unrelated to a document's purpose. I retained Bates numbers in OCR output but excluded them from classifier input (D-46). Cross-validated macro F1 was <span data-field="classifier.embeddings.hybrid_with_bates.macro_f1" data-format="dec2"></span> with the identifiers and <span data-field="classifier.embeddings.hybrid.macro_f1" data-format="dec2"></span> without them; removing them did not reduce the observed score.</p>
+    <h3>What these decisions established</h3>
+    <p>The central lesson was that filing depends on understanding how the client organizes and uses its records. A CV may belong to Human Resources or to Research and Development depending on why it was kept; the taxonomy pilots made that concrete. The categories had to reflect the client's records practice, not just the subjects a document mentions.</p>
+    <div class="cv-two" role="list" aria-label="The CV example">
+      <div role="listitem"><span class="doc">An employee's CV</span><span class="arr" aria-hidden="true">&#8594;</span><span class="dept">Human Resources</span></div>
+      <div role="listitem"><span class="doc">A CV inside a grant application</span><span class="arr" aria-hidden="true">&#8594;</span><span class="dept">Research and Development</span></div>
+    </div>
+    <p class="cv-note">Labeling turned this into a written rule (R3).</p>
+    <p>I also fixed the evaluation rules before the final test: the selected pipeline, the confidence cutoff and the routing conditions. The <span data-field="final_test.pages"></span> test pages were labeled without seeing any model prediction, and the frozen pipeline was scored once. That is why the final results can be reported as they came out, without adjusting the system to improve them.</p>
+  </div>
+  <aside class="mcol">
+    <div class="decisions mdec" data-decisions="D-30,D-46,D-52,D-62"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+</section>
+
+<section id="program">
+  <h2 class="g-h2">What it means for a records program</h2>
+  <p class="muted">If the final-test results applied to 100 new first pages:</p>
+  <!-- the strip's two parts and the "about N" counts come from final_test.scores.auto_share (site.js: data-hundred, data-flex) -->
+  <div class="hundred" role="img" aria-label="If the final-test results applied to 100 new first pages, about 41 would qualify for automatic filing and about 59 would be routed for review">
+    <div class="h-strip" aria-hidden="true"><i class="f" data-flex="final_test.scores.auto_share.value"></i><i class="p" data-flex="final_test.scores.auto_share.value" data-rest></i></div>
+    <div class="h-labels" aria-hidden="true">
+      <div data-flex="final_test.scores.auto_share.value"><b>about <span data-hundred="final_test.scores.auto_share.value"></span></b><span><span class="sw sw-filed"></span>qualify for automatic filing; <span data-field="final_test.scores.auto_accuracy.value" data-format="pct"></span> correct on the final test</span></div>
+      <div data-flex="final_test.scores.auto_share.value" data-rest><b>about <span data-hundred="final_test.scores.auto_share.value" data-rest></span></b><span><span class="sw sw-person"></span>routed for review; suggestion correct <span data-field="final_test.rag.rag_top1" data-format="pct"></span> on the first choice and <span data-field="final_test.rag.rag_top2" data-format="pct"></span> within the first two</span></div>
+    </div>
+  </div>
+  <div class="mgrid g-stack">
+  <div class="main">
+  <p class="muted">In use, the cutoff would be recalibrated on the client's own reviewed pages rather than carried over from this archive.</p>
+  </div>
+  <aside class="mcol">
+    <div class="decisions mdec" data-decisions="D-58,D-63"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+</section>
+
+<section id="limits">
+  <h2 class="g-h2">What remains to be established for a working client</h2>
+  <table class="vs-table">
+    <caption class="vh">How the conditions of this project differ from a working client's</caption>
+    <thead><tr><th scope="col">This project</th><th scope="col">A working client</th></tr></thead>
+    <tbody>
+      <tr><td>Taxonomy built from Philip Morris's retention schedules, with gaps found during labeling</td><td>File plan and departmental responsibilities confirmed with the organization</td></tr>
+      <tr><td>Classification from individual first pages with limited context</td><td>Records arrive with their originating office, folder and custodian</td></tr>
+      <tr><td>One annotator, with uncertainty recorded during labeling</td><td>Records staff review classifications and measure agreement</td></tr>
+      <tr><td>Exact record-type accuracy of <span data-field="final_test.record_type_depth.record_type" data-format="pct"></span>; record types remain suggestions</td><td>Record types confirmed under the client's classification rules</td></tr>
+      <tr><td>Cutoff set on <span data-field="classifier.routing.pages"></span> development labels; <span data-field="final_test.scores.auto_accuracy.value" data-format="pct"></span> automatic-filing accuracy on the final test</td><td>Cutoff calibrated and monitored on the client's own reviewed records</td></tr>
+      <tr><td>Department mix shaped by litigation; Human Resources too few to model</td><td>Evaluation covering the organization's relevant departments</td></tr>
+      <tr><td>Historical scanned paper, including degraded and handwritten pages</td><td>A different mix of scanned and born-digital records, validated separately</td></tr>
+      <tr><td>One final evaluation, scored once</td><td>Ongoing sampling and monitoring of filing accuracy</td></tr>
+    </tbody>
+  </table>
+  <ul class="g-list g-list3 g-list-2x">
+    <li><b>No study of reviewers.</b> Suggestions were scored against my labels, not tested on whether reviewers became more accurate, faster or more confident when using them.</li>
+    <!-- "20" and "60" are rule settings (MIN_TOKENS in final_test.py; THIN in build_site_data.py) -->
+    <li><b>The minimum-text rule needs more testing.</b> On the final test, no page under 20 tokens was filed automatically, but <span data-field="final_test.thin_auto_filed.pages" data-format="word"></span> filed pages had 60 tokens or fewer, and the <span data-field="final_test.thin_auto_filed.shortest"></span>-token one went to the wrong department. A 20-token minimum does not guarantee enough text to classify a page.</li>
+    <li><b>A small evaluation.</b> With <span data-field="labels.valid"></span> development labels and <span data-field="final_test.pages"></span> test pages, some estimates are imprecise, particularly for smaller departments. The models used default settings; no hyperparameter search was run.</li>
+    <li><b>Not yet deployed.</b> LocalRIM is a working, single-user local application evaluated on public archive documents. It has not been deployed for a client or evaluated over a sustained period of use.</li>
+  </ul>
+  <p class="fit closing">Where this could go next: <a href="future-work.html">Future work <span aria-hidden="true">→</span></a> · <a href="index.html">Back to the Overview <span aria-hidden="true">→</span></a> · <a href="dashboard.html">The project log <span aria-hidden="true">→</span></a></p>
+</section>
+</main>
+</body>
+</html>

@@ -1,0 +1,277 @@
+/* Appendix pages and the file index.
+   Loaded after casefile.css on pages whose charts come from the older chart code
+   (site.js, review.js, review_final.js, ...). It maps that code's colour names onto the
+   Mulberry meanings and restyles the older page parts; it adds no new colours.
+   Meanings kept: ink = filed / sure / lead model; taupe = second measure or context;
+   topaz hatch = sent to a person; crimson outline = wrong department; muted = standards. */
+
+body.appendix {
+  --deep: var(--filed); --dusty: var(--second); --dusty-edge: var(--second); --soft: var(--other);
+  --panel: var(--surface); --line: var(--rule); --gray: var(--tab); --on: var(--on-filed);
+  --headline-font: var(--text); --body-font: var(--label);
+}
+/* inside figures the older code uses --accent for "wrong department" */
+body.appendix figure.research { --accent: var(--wrong); }
+
+/* Page frame */
+body.appendix main { max-width: 74rem; margin: 0 auto; padding: 2rem 32px 4rem; }
+body.appendix .intro small { display: inline-block; margin: 0 0 .7rem; padding: .15rem .55rem; border-radius: 3px; background: var(--accent-fill); color: var(--on-accent); font: 600 .88rem/1.3 var(--label); letter-spacing: 0; text-transform: none; }
+body.appendix h1 { margin: 0 0 .9rem; font: 600 clamp(1.9rem, 1.3rem + 2.4vw, 3rem)/1.08 var(--text); letter-spacing: -.015em; text-wrap: balance; max-width: 22em; }
+body.appendix .deck { margin: 0 0 1rem; font: 400 1.13rem/1.55 var(--text); color: var(--ink); max-width: 44rem; }
+body.appendix .byline { margin: 0 0 1rem; padding-top: .6rem; border-top: 1px solid var(--rule); font: 500 .88rem/1.45 var(--label); color: var(--muted); max-width: 52rem; }
+body.appendix blockquote { margin: 1.4rem 0; padding: 0; font: italic 400 1.15rem/1.5 var(--text); color: var(--muted); max-width: 44rem; } /* a quotation set in italic, no side rule */
+
+body.appendix section, body.appendix aside, body.appendix article { margin: 2.6rem 0 0; padding: 0; background: none; border: 0; }
+body.appendix section > h2, body.appendix aside > h2 { margin: 0 0 .7rem; font: 600 clamp(1.35rem, 1.1rem + .9vw, 1.75rem)/1.2 var(--text); letter-spacing: -.01em; text-wrap: balance; }
+body.appendix h3 { margin: 1.8rem 0 .6rem; font: 700 1rem/1.3 var(--label); }
+body.appendix main p { max-width: 40rem; }
+body.appendix main p.muted { color: var(--ink); }
+body.appendix .muted { color: var(--muted); }
+body.appendix .cover::before { content: none; }
+/* the older pages' section.cover is a plain section here, not the case-file cover grid */
+body.appendix section.cover { display: block; padding: 0; }
+body.appendix .columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0 3rem; align-items: start; }
+body.appendix .columns > section { margin-top: 2.6rem; }
+
+/* Figures (older captions, new frame) */
+body.appendix figure.research { margin: 1rem 0 0; padding-top: .7rem; border-top: 2px solid var(--ink); }
+body.appendix figure.research + figure.research { margin-top: 2rem; }
+body.appendix figure.research svg { display: block; max-width: 100%; overflow: visible; }
+body.appendix figure.research figcaption { margin: .8rem 0 0; padding: 0; border: 0; font: 400 .9rem/1.5 var(--label); color: var(--muted); text-align: left; max-width: none; }
+body.appendix figure.research figcaption b { color: var(--ink); }
+body.appendix .legend { display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; margin: .7rem 0 0; font: 400 .82rem/1.3 var(--label); color: var(--muted); }
+body.appendix .legend i { display: inline-block; width: 12px; height: 12px; margin-right: .4rem; vertical-align: -1px; }
+body.appendix [data-chart] { contain: inline-size; }
+
+/* SVG parts drawn by the older chart code */
+body.appendix .svg-text { fill: var(--muted); font: 400 12.5px var(--label); }
+body.appendix .svg-small { font-size: 12px; }
+body.appendix .svg-label { fill: var(--ink); font: 400 13px var(--label); }
+body.appendix .svg-value { fill: var(--ink); font: 600 13px var(--label); font-variant-numeric: tabular-nums; }
+body.appendix .svg-on { fill: var(--on-filed); font: 600 13px var(--label); font-variant-numeric: tabular-nums; paint-order: stroke; stroke: var(--filed); stroke-width: 3px; stroke-linejoin: round; } /* halo keeps light text readable on half-shaded cells */
+body.appendix .svg-grid { stroke: var(--grid); stroke-width: 1; }
+body.appendix .svg-axis { stroke: var(--ink); stroke-width: 1; }
+body.appendix .svg-deep { fill: var(--filed); }
+body.appendix .svg-dusty { fill: var(--second); }
+body.appendix .svg-soft { fill: var(--other); }
+body.appendix .svg-empty { fill: none; stroke: var(--rule); stroke-dasharray: 3 3; }
+body.appendix .svg-threshold { stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 5 4; }
+body.appendix .svg-line { fill: none; stroke: var(--filed); stroke-width: 2; }
+body.appendix .svg-wrong { stroke: var(--wrong); stroke-width: 1.6; }
+body.appendix .svg-win { stroke: var(--ink); stroke-width: 2.5; }
+body.appendix .svg-slope { stroke: var(--second); stroke-width: 2.5; }
+
+/* Pages sent to a person: topaz hatch with its edge (the hatch pattern is defined in each page) */
+body.appendix [data-chart="routingUnits"] .svg-soft,
+body.appendix [data-chart="testUnits"] .svg-soft,
+body.appendix [data-chart="scaleStrip"] .svg-soft,
+body.appendix [data-chart="scaleStrip"] .svg-dusty { fill: url(#hatch-legend); stroke: var(--person-line); stroke-width: 1; }
+body.appendix figure.research:has([data-chart="routingUnits"]) .legend i[style*="--soft"],
+body.appendix figure.research:has([data-chart="testUnits"]) .legend i[style*="--soft"] { background: repeating-linear-gradient(45deg, var(--person) 0 2px, var(--surface) 2px 4px) !important; box-shadow: inset 0 0 0 1px var(--person-line); }
+/* the stamp-only probe is a shortcut, not a wrong filing: neutral, not crimson */
+body.appendix [data-chart="modelLadder"] [stroke="var(--accent)"] { stroke: var(--ref); }
+body.appendix [data-chart="modelLadder"] circle[style*="--accent"] { stroke: var(--ref) !important; }
+
+/* Key numbers (older tiles) */
+body.appendix .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+body.appendix .tiles > div { padding: .8rem 1rem .9rem 0; font: 400 .88rem/1.4 var(--label); color: var(--muted); }
+body.appendix .tiles > div + div { padding-left: 1rem; border-left: 1px solid var(--rule); }
+body.appendix .tiles small { display: block; font: 600 .85rem/1.3 var(--label); color: var(--muted); letter-spacing: 0; }
+body.appendix .tiles strong { display: block; margin: .2rem 0; font: 600 1.7rem/1.1 var(--label); color: var(--num); font-variant-numeric: tabular-nums lining-nums; }
+body.appendix .tiles > div > span { display: block; font-size: .85rem; color: var(--muted); }
+
+/* Steps (how the models were tested) */
+body.appendix ol.steps { list-style: none; counter-reset: step; padding: 0; margin: .6rem 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 0 1.25rem; font-family: var(--label); max-width: none; }
+body.appendix ol.steps li { counter-increment: step; padding: .8rem 0 1rem; border-top: 2px solid var(--rule); }
+body.appendix ol.steps li.key { display: block; border-top-color: var(--ink); } /* .key is also the landing colour key in casefile.css */
+body.appendix ol.steps li::before { content: none; }
+body.appendix ol.steps li strong { display: block; font: 700 1rem/1.3 var(--label); margin-bottom: .35rem; }
+body.appendix ol.steps li span { display: block; font-size: .9rem; color: var(--muted); line-height: 1.5; }
+
+/* Figure 28: what a reviewer receives (schematic) */
+body.appendix .casefile { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 1rem; align-items: center; margin: 1.6rem 0 0; font-family: var(--label); }
+body.appendix .casefile .cf-in, body.appendix .casefile .cf-out { position: relative; display: grid; gap: .5rem; padding: 2.1rem .9rem .9rem; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); }
+body.appendix .casefile .cf-tab { position: absolute; top: .7rem; left: .9rem; transform: none; padding: 0; border: 0; background: none; font: 700 .82rem/1.2 var(--label); color: var(--muted); letter-spacing: 0; text-transform: none; }
+body.appendix .casefile .cf-card { padding: .55rem .75rem; border: 1px solid var(--rule); border-radius: 5px; background: var(--paper); }
+body.appendix .casefile .cf-card b { display: block; font: 700 .9rem/1.3 var(--label); }
+body.appendix .casefile .cf-card span { display: block; margin-top: .1rem; font-size: .82rem; color: var(--muted); }
+body.appendix .casefile .cf-key { border: 2px solid var(--ink); background: var(--surface); }
+body.appendix .casefile .cf-mid { display: grid; justify-items: center; gap: .5rem; text-align: center; }
+body.appendix .casefile .cf-arrow { font-size: 1.6rem; line-height: 1; color: var(--muted); }
+body.appendix .casefile .cf-chip { padding: .6rem .8rem; border: 2px solid var(--ink); border-radius: 5px; font: 700 .9rem/1.3 var(--label); }
+body.appendix .casefile .cf-chip small { font-weight: 400; color: var(--muted); }
+
+/* Footer added by site.js */
+body.appendix footer.site { margin-top: 4rem; padding: 1.4rem 0 0; border-top: 1px solid var(--rule); font: 400 .85rem/1.5 var(--label); color: var(--muted); }
+
+/* Appendix 02 */
+/* Figure 12: "unsure" checks are the topaz hatch, as everywhere */
+body.appendix [data-chart="groupCheck"] .svg-soft { fill: url(#hatch-legend); stroke: var(--person-line); stroke-width: 1; }
+body.appendix figure.research:has([data-chart="groupCheck"]) .legend i[style*="--soft"] { background: repeating-linear-gradient(45deg, var(--person) 0 2px, var(--surface) 2px 4px) !important; box-shadow: inset 0 0 0 1px var(--person-line); }
+/* Figure 13: a turn kept is neutral taupe and a turn refused a grey outline, as in the case file (not a wrong filing) */
+body.appendix [data-chart="orientationFlow"] .svg-deep { fill: var(--second); }
+body.appendix [data-chart="orientationFlow"] .svg-wrong { stroke: var(--ref); }
+body.appendix [data-chart="kCheck"] .empty-plot, body.appendix .empty-plot { min-height: 8rem; display: grid; place-items: center; padding: 1rem; border: 1px dashed var(--rule); border-radius: 6px; background: none; font: 400 .9rem/1.5 var(--label); color: var(--muted); text-align: center; }
+body.appendix .engine-key { display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; margin: 0 0 .8rem; font: 400 .82rem/1.3 var(--label); color: var(--muted); }
+body.appendix .engine-key b { display: inline-grid; place-items: center; width: 18px; height: 18px; margin-right: .35rem; border-radius: 50%; background: var(--other); color: var(--ink); font-size: .75rem; }
+body.appendix .engine-key b.lead { background: var(--filed); color: var(--on-filed); }
+/* Figure 18: the steps are a real sequence here, so they are numbered */
+body.appendix.reading ol.steps li::before { content: counter(step, decimal-leading-zero); display: block; margin-bottom: .3rem; font: 700 .8rem/1 var(--label); color: var(--accent); font-variant-numeric: tabular-nums; }
+/* Figure 19: fluent output, cards with a full border (no side stripe) */
+body.appendix .fluent { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; margin-top: .6rem; }
+body.appendix .fluent article { margin: 0; padding: 1rem 1.2rem; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); }
+body.appendix .fluent small { display: block; margin-bottom: .5rem; font: 700 .85rem/1.3 var(--label); color: var(--muted); letter-spacing: 0; text-transform: none; }
+body.appendix .fluent dl { margin: 0; font-family: var(--label); }
+body.appendix .fluent dt { margin: .7rem 0 .15rem; font: 600 .8rem/1.3 var(--label); color: var(--muted); letter-spacing: 0; text-transform: none; }
+body.appendix .fluent dt:first-child { margin-top: 0; }
+body.appendix .fluent dd { margin: 0; }
+body.appendix .fluent .page { font: 400 1.05rem/1.4 var(--text); }
+body.appendix .fluent .page .aside { font: 400 .82rem var(--label); color: var(--muted); }
+body.appendix .fluent .read { font: 600 .95rem/1.4 var(--label); }
+body.appendix .fluent .read mark { background: none; color: var(--ink); text-decoration: line-through; text-decoration-thickness: 2px; }
+body.appendix .fluent .why { font-size: .88rem; line-height: 1.5; }
+
+/* Appendix 01 */
+/* labels marked uncertain are the topaz hatch, as everywhere */
+body.appendix [data-chart="outcomesStrip"] .svg-dusty,
+body.appendix [data-chart="deptBars"] .svg-dusty { fill: url(#hatch-legend); stroke: var(--person-line); stroke-width: 1; }
+body.appendix [data-chart="outcomesStrip"] .svg-value { paint-order: stroke; stroke: var(--surface); stroke-width: 4px; stroke-linejoin: round; } /* count on the hatch */
+body.appendix [data-chart="outcomesStrip"] .legend i[style*="--dusty"] { background: repeating-linear-gradient(45deg, var(--person) 0 2px, var(--surface) 2px 4px) !important; box-shadow: inset 0 0 0 1px var(--person-line); }
+/* the cascade's step notes are annotations, not wrong filings */
+body.appendix [data-chart="cascade"] text[style*="--accent"] { fill: var(--muted) !important; }
+/* batch buttons (kept on the 01 charts) */
+body.appendix .batch-filter { display: flex; flex-wrap: wrap; gap: 4px; margin: 0 0 .6rem; padding: 3px; width: fit-content; max-width: 100%; background: var(--tab); border-radius: 8px; font-family: var(--label); }
+body.appendix .batch-filter button { min-height: 40px; padding: .4rem .75rem; border: 0; border-radius: 6px; background: transparent; color: var(--muted); font: 500 .88rem/1.2 var(--label); cursor: pointer; transition: transform 120ms var(--ease-out); }
+body.appendix .batch-filter button:active { transform: scale(.97); }
+body.appendix .batch-filter button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 0 0 2px var(--accent-fill); font-weight: 700; }
+body.appendix .batch-note { margin: 0 0 .6rem; font: 400 .85rem/1.4 var(--label); color: var(--muted); font-variant-numeric: tabular-nums; }
+/* record types per department */
+body.appendix .coverage { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem 1.5rem; margin-top: .8rem; }
+body.appendix .coverage article { margin: 0; padding: .7rem 0 0; border-top: 2px solid var(--ink); }
+body.appendix .coverage h3 { margin: 0 0 .3rem; font: 700 1rem/1.3 var(--label); }
+body.appendix .coverage .series { margin: .6rem 0 .15rem; font: 600 .8rem/1.3 var(--label); color: var(--muted); letter-spacing: 0; text-transform: none; }
+body.appendix .coverage .type { display: grid; grid-template-columns: 1fr auto; gap: .5rem; padding: .15rem 0; font: 400 .88rem/1.35 var(--label); }
+body.appendix .coverage .type.unused { color: var(--muted); }
+body.appendix .coverage .type[data-count] { position: relative; cursor: default; border-radius: 3px; }
+body.appendix .coverage .type[data-count]:hover, body.appendix .coverage .type[data-count]:focus-visible { background: var(--tab); outline: none; }
+body.appendix .coverage .type[data-count]:hover::after, body.appendix .coverage .type[data-count]:focus-visible::after { content: attr(data-count); position: absolute; right: 0; bottom: calc(100% + 4px); z-index: 2; padding: .2rem .5rem; border-radius: 4px; background: var(--ink); color: var(--paper); font: 600 .8rem/1.3 var(--label); white-space: nowrap; pointer-events: none; }
+body.appendix .coverage .pips { display: flex; flex-wrap: wrap; justify-content: end; align-items: center; gap: 2px; min-width: 40px; }
+body.appendix .coverage .pips i { display: block; width: 7px; height: 7px; background: var(--filed); }
+/* did the mix settle: small multiples */
+body.appendix .settle-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 1rem 1.25rem; }
+body.appendix .settle-cell { padding-top: .4rem; border-top: 1px solid var(--rule); }
+body.appendix .settle-head { display: flex; justify-content: space-between; gap: .5rem; margin-bottom: .1rem; font: 400 .88rem/1.3 var(--label); }
+body.appendix .settle-head b { font-variant-numeric: tabular-nums; }
+body.appendix .stamp { display: inline-block; padding: .1rem .45rem; border: 1.5px solid var(--ink); border-radius: 3px; font: 600 .8rem/1.3 var(--label); text-transform: none; letter-spacing: 0; }
+@media (prefers-reduced-motion: reduce) { body.appendix .batch-filter button:active { transform: none; } }
+
+/* What I learned */
+body.appendix .findings { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 2.5rem; margin-top: 1.4rem; }
+body.appendix .findings article { margin: 0 0 2rem; padding-top: .8rem; border-top: 2px solid var(--ink); }
+body.appendix .findings .eyebrow { display: inline-block; margin: 0 0 .6rem; padding: .1rem .45rem; border-radius: 3px; background: var(--accent-fill); color: var(--on-accent); font: 700 .82rem/1.3 var(--label); letter-spacing: 0; text-transform: none; }
+body.appendix .findings h2 { margin: 0 0 .6rem; font: 600 1.3rem/1.25 var(--text); text-wrap: balance; }
+body.appendix .findings .stamp { display: inline-block; margin: 0 0 .7rem; padding: .15rem .5rem; border: 1.5px solid var(--ink); border-radius: 3px; color: var(--ink); font: 600 .8rem/1.3 var(--label); letter-spacing: 0; text-transform: none; }
+body.appendix .findings article:nth-child(2) .stamp { border-style: dashed; border-color: var(--muted); color: var(--muted); }
+body.appendix .findings article p { margin: 0 0 .6rem; }
+body.appendix .findings .evidence { font: 500 .88rem/1.45 var(--label); color: var(--muted); }
+body.appendix.findings-page section ul { margin: .6rem 0 0; padding-left: 1.2rem; max-width: 40rem; }
+body.appendix.findings-page section li { margin: .35rem 0; }
+@media (max-width: 900px) { body.appendix .findings { grid-template-columns: minmax(0, 1fr); } }
+
+/* File index */
+body.appendix .legend i.hatch { background: repeating-linear-gradient(45deg, var(--person) 0 2px, var(--surface) 2px 4px); box-shadow: inset 0 0 0 1px var(--person-line); }
+body.appendix [data-chart="batches"] .svg-dusty { fill: url(#hatch-legend); stroke: var(--person-line); stroke-width: 1; }
+body.appendix [data-chart="batches"] [stroke="var(--accent)"] { stroke: var(--muted); }
+body.appendix .h2-sub { font: 400 1rem var(--label); color: var(--muted); }
+body.appendix ol.pipeline { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); gap: 0 1rem; font-family: var(--label); max-width: none; }
+body.appendix ol.pipeline li { padding: .6rem 0 .8rem; border-top: 2px solid var(--rule); background: none; font-size: .95rem; opacity: 1; }
+body.appendix ol.pipeline li.done { border-top-color: var(--ink); }
+body.appendix ol.pipeline li.active { border-top: 4px solid var(--accent-fill); padding-top: calc(.6rem - 2px); background: none; }
+body.appendix ol.pipeline li b { display: block; font-weight: 700; }
+body.appendix ol.pipeline li b::before { content: none; }
+body.appendix ol.pipeline span { display: block; margin-top: .15rem; font-size: .85rem; line-height: 1.45; color: var(--muted); }
+body.appendix ol.pipeline li.active span { color: var(--ink); }
+body.appendix .pipeline-summary ol { margin: .6rem 0 0; padding-left: 1.3rem; font: 400 .95rem/1.5 var(--label); max-width: 40rem; }
+body.appendix .pipeline-summary li { margin: .35rem 0; }
+body.appendix .pipeline-summary li b { color: var(--ink); }
+body.appendix .log-stage { margin-top: 1.6rem; }
+
+.status-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 1.25rem; font-family: var(--label); }
+.status-list li { padding: .7rem 0 .9rem; border-top: 2px solid var(--rule); }
+.status-list li.done { border-top-color: var(--ink); }
+.status-list li.active { border-top-color: var(--accent-fill); }
+.status-list .st { display: inline-block; margin-bottom: .3rem; padding: .05rem .4rem; border: 1.5px solid var(--ink); border-radius: 3px; font: 600 .78rem/1.3 var(--label); }
+.status-list li.active .st { border-color: var(--accent-fill); background: var(--accent-fill); color: var(--on-accent); }
+.status-list b { display: block; font: 700 1rem/1.3 var(--label); }
+.status-list span.v { display: block; margin-top: .15rem; font-size: .88rem; line-height: 1.45; color: var(--muted); }
+.log-tools { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1.2rem; margin: 0 0 .8rem; font: 400 .9rem/1.4 var(--label); color: var(--muted); }
+.log-tools button { min-height: 40px; padding: .4rem .9rem; border: 1.5px solid var(--ink); border-radius: 6px; background: var(--surface); color: var(--ink); font: 600 .88rem/1.2 var(--label); cursor: pointer; transition: transform 120ms var(--ease-out); }
+.log-tools button:active { transform: scale(.97); }
+.log-stage { margin: 1.6rem 0 0; padding-top: .6rem; border-top: 2px solid var(--ink); font-family: var(--label); }
+.log-stage h3 { margin: 0 0 .2rem; font: 700 1.05rem/1.3 var(--label); }
+.log-stage .sub { margin: 0 0 .4rem; font-size: .88rem; color: var(--muted); }
+.log-stage .more > summary { display: block; padding: .6rem 0; cursor: pointer; font: 600 .9rem/1.3 var(--label); color: var(--accent); list-style: none; }
+.log-stage .more > summary::-webkit-details-marker { display: none; }
+.log-stage .more[open] > summary { color: var(--muted); }
+.route-links { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 1.25rem; font-family: var(--label); }
+.route-links a { display: block; padding: .7rem 0 .9rem; border-top: 1px solid var(--rule); color: inherit; text-decoration: none; }
+.route-links .step { display: block; font-size: .8rem; color: var(--muted); }
+.route-links .name { display: block; font-weight: 700; }
+.route-links .what { display: block; font-size: .88rem; color: var(--muted); }
+@media (hover: hover) and (pointer: fine) { .route-links a:hover .name { color: var(--accent); text-decoration: underline; } }
+
+/* Phone */
+@media (max-width: 900px) {
+  body.appendix main { padding: 1.4rem 16px 3rem; }
+  body.appendix .columns { grid-template-columns: minmax(0, 1fr); }
+  body.appendix .tiles > div + div { padding-left: 0; border-left: 0; border-top: 1px solid var(--rule); }
+  body.appendix .casefile { grid-template-columns: minmax(0, 1fr); }
+  body.appendix .casefile .cf-arrow { transform: rotate(90deg); justify-self: center; }
+  .status-list, .route-links { grid-template-columns: minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) { .log-tools button:active { transform: none; } }
+
+/* Chapter parts: one per stage, with the stage chip and the finding */
+body.appendix header.part { margin: 4rem 0 1.4rem; padding-top: 1.1rem; border-top: 3px solid var(--accent-fill); scroll-margin-top: 1rem; }
+body.appendix header.part h2 { margin: .2rem 0 .6rem; font: 600 clamp(1.55rem, 1.25rem + 1vw, 2.15rem)/1.2 var(--text); letter-spacing: -.01em; max-width: 40rem; text-wrap: pretty; }
+body.appendix header.part .standfirst { margin: 0; max-width: 40rem; font-size: 1.06rem; line-height: 1.6; }
+body.appendix figure.fig { margin: 1rem 0 2.4rem; }
+body.appendix figure.fig p { max-width: none; }
+body.appendix .fig-n { margin-right: .2em; }
+
+/* Margin column inside chapters */
+body.appendix .mgrid > .main > h2 { margin: 0 0 .7rem; font: 600 clamp(1.35rem, 1.1rem + .9vw, 1.75rem)/1.2 var(--text); letter-spacing: -.01em; text-wrap: balance; }
+body.appendix .chapter-head { margin-bottom: .5rem; }
+body.appendix .mcol p, body.appendix .mcol blockquote p { max-width: none; }
+body.appendix .mcol .archive-note blockquote p { color: var(--ink); }
+body.appendix aside.mcol, body.appendix aside.archive-note { margin: 0; }
+body.appendix aside.archive-note { padding: .85rem 1rem .9rem; background: var(--surface); border: 1px solid var(--rule); }
+
+/* Toolkit tables: full width; on phones each row becomes a small card */
+body.appendix table.kit { width: 100%; margin: 1rem 0 0; border-collapse: collapse; border-top: 2px solid var(--ink); font: 400 .9rem/1.45 var(--label); }
+body.appendix table.kit th, body.appendix table.kit td { padding: .6rem .9rem .6rem 0; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
+body.appendix table.kit thead th { font-weight: 700; font-size: .82rem; color: var(--muted); }
+body.appendix table.kit tbody th { font-weight: 700; color: var(--ink); min-width: 9rem; }
+body.appendix table.kit code { font: inherit; font-size: .95em; color: var(--ink); }
+body.appendix .kit-machine { padding-top: .55rem; border-top: 3px solid var(--accent-fill); font-family: var(--label); }
+body.appendix .kit-machine h2 { margin: 0 0 .3rem; font: 700 .92rem/1.3 var(--label); }
+body.appendix .kit-machine dl { margin: 0; }
+body.appendix .kit-machine dl div { padding: .4rem 0; border-bottom: 1px solid var(--rule); }
+body.appendix .kit-machine dt { font: 700 .82rem/1.3 var(--label); color: var(--muted); }
+body.appendix .kit-machine dd { margin: .1rem 0 0; font-size: .9rem; line-height: 1.4; }
+@media (max-width: 700px) {
+  body.appendix table.kit thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  body.appendix table.kit, body.appendix table.kit tbody, body.appendix table.kit tr, body.appendix table.kit th, body.appendix table.kit td { display: block; }
+  body.appendix table.kit tr { padding: .6rem 0; border-bottom: 1px solid var(--rule); }
+  body.appendix table.kit th, body.appendix table.kit td { padding: .1rem 0; border: 0; }
+  body.appendix table.kit td::before { content: attr(data-label) ": "; color: var(--muted); font-weight: 700; font-size: .82rem; }
+}
+body.appendix .kit-machine dl div { border-bottom: 0; padding: .3rem 0; }
+body.appendix header.part .mgrid > .main > h2 { margin: .2rem 0 .6rem; font: 600 clamp(1.55rem, 1.25rem + 1vw, 2.15rem)/1.2 var(--text); }
+
+/* Findings and Project log in the margin layout: lists use the width */
+body.appendix ul.two-col { columns: 2 22rem; column-gap: 3rem; max-width: none; }
+body.appendix ul.two-col li { break-inside: avoid; margin-bottom: .5rem; }
+body.appendix .pipeline-summary ol.route-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 2rem; max-width: none; }
+@media (max-width: 900px) { body.appendix .pipeline-summary ol.route-links { grid-template-columns: minmax(0, 1fr); } }
+body.appendix .kit-machine { border-top: 0; padding-top: 0; }

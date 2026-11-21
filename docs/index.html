@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>When can a local AI system be trusted to file records, and when should it defer to a person? | LocalRIM</title>
+<meta name="description" content="When can a local AI system be trusted to file records, and when should it defer to a person?">
+<link rel="stylesheet" href="assets/casefile.css?v=73">
+<link rel="stylesheet" href="assets/helper.css?v=5">
+<script src="assets/helper.js?v=10" defer></script>
+<script src="assets/charts-ui.js?v=9" defer></script>
+</head>
+<body class="grid">
+
+<header class="wrap">
+  <div class="masthead">
+    <a class="brand" href="index.html">LocalRIM</a>
+    <nav aria-label="Site"><a href="index.html" aria-current="page">Overview</a><a href="filing-system.html" aria-label="01 Intake"><span class="n">01</span><span class="long"> Intake</span></a><a href="reading.html" aria-label="02 Capture and Preparation"><span class="n">02</span><span class="long"> Capture</span></a><a href="review.html" aria-label="03 Classification, Routing and Validation"><span class="n">03</span><span class="long"> Classification</span></a><a href="findings.html">Findings</a><a href="app.html">The app</a><a href="future-work.html">Future work</a><details class="nav-ref"><summary>Reference</summary><div><a href="dashboard.html">Project log</a><a href="toolkit.html">Toolkit</a></div></details><a class="nav-log" href="dashboard.html" aria-label="Project log">Log</a></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="opening">
+    <div class="opening-title">
+      <p class="client-label">The archive</p>
+      <p class="client-name">The&nbsp;Philip&nbsp;Morris USA&nbsp;archive</p>
+      <p class="extent">Public since the 1998 Master Settlement Agreement and held by the UCSF Industry Documents Library</p>
+    </div>
+    <div class="opening-q">
+      <div class="opening-main">
+        <h1>When can a local AI system be trusted to file records, and when should it defer to a person?</h1>
+        <p class="byline"><span>Salome Ramirez</span><span>M.S. Data Science capstone</span><span>Results as of <span data-field="updated" data-fmt="date">—</span></span></p>
+        <p class="opening-answer">LocalRIM investigates how a local AI system can classify records and identify cases requiring human review. Using documents from the Philip Morris USA archive, the project develops and evaluates a pipeline that extracts text, classifies records within a records hierarchy, and retrieves supporting evidence to answer questions and inform review suggestions.</p>
+      </div>
+      <aside class="opening-side">
+        <div class="at-glance">
+          <h2>The archive at a glance</h2>
+          <ul>
+            <li><b data-calc="archive.millions">—</b><span>million records in the client's archive</span></li>
+            <li><b data-field="sample.drawn" data-fmt="int">—</b><span>documents randomly sampled for this project</span></li>
+            <li><b data-field="labels.valid" data-fmt="int">—</b><span>manually labeled pages used for model development</span></li>
+            <li><b data-field="final_test.pages" data-fmt="int">—</b><span>pages labeled blind and reserved for the final test</span></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+    <div class="opening-nums">
+      <div class="answer" data-tips aria-label="Key results">
+        <div data-tip-calc="auto"><b data-field="final_test.scores.auto_share.value" data-fmt="pct">—</b>of test pages qualified for automatic filing; <span data-field="final_test.scores.auto_accuracy.value" data-fmt="pct">—</span> were classified correctly</div>
+        <div data-tip-calc="rag"><b data-calc="rag.vs">—</b>Retrieval-augmented suggestions versus classifier accuracy on pages routed for human review</div>
+        <div data-tip-calc="time"><b data-calc="scale.seconds">—</b>average processing time per page across the full pipeline</div>
+      </div>
+      <p class="answer-source">Classification results are from the <span data-field="final_test.pages" data-fmt="int">—</span>-page final test. Processing time was measured separately using <span data-field="scale_run.pages" data-fmt="int">—</span> new documents.</p>
+    </div>
+    <div class="mgrid opening-context">
+      <div class="main">
+        <p class="opening-lede">Deciding where a record belongs takes judgment. A CV, for example, may belong to Human Resources or to Research and Development, depending on why it was kept. The document's contents alone may not establish its place in the records hierarchy. This ambiguity is central to the classification problem examined in LocalRIM.</p>
+      </div>
+      <aside class="mcol archive-note" aria-label="From the archive">
+        <p class="an-tag">From the archive</p>
+        <p class="an-lead">A 2000 Philip Morris draft set out plans to automate parts of its records management:</p>
+        <blockquote><p>“…develop a model for automating content and records management…”</p></blockquote>
+        <p class="an-ref">Philip Morris, Enterprise Records Management System draft, 2000. <a href="https://www.industrydocuments.ucsf.edu/docs/rjvd0055" title="UCSF Industry Documents Library">UCSF library, rjvd0055</a></p>
+      </aside>
+    </div>
+  </div>
+
+  <section class="block" aria-labelledby="rq-h">
+    <h2 id="rq-h">Four questions guiding the research</h2>
+    <p class="sub">Four research questions, and the chapters that answer them.</p>
+    <ol class="rqs">
+      <li><span class="num">RQ01</span><span class="q">How accurately can a locally run system file previously unseen scanned records into Philip Morris's own departments, as set out in its retention schedules?</span><span class="status">Answered</span><span class="where">Answered in <a href="review.html#classification">03 · Classification</a> and <a href="review.html#validation">Validation</a></span></li>
+      <li><span class="num">RQ02</span><span class="q">How far down the records hierarchy can the system classify documents: department, series, or record type?</span><span class="status">Answered</span><span class="where">Answered in <a href="findings.html#rq02">Findings</a></span></li>
+      <li><span class="num">RQ03</span><span class="q">How does scan quality affect text extraction, and to what extent do improvements in extraction accuracy improve classification?</span><span class="status">Answered (cross-validation)</span><span class="where">Answered in <a href="reading.html">02 · Capture</a> and <a href="review.html#classification">03 · Classification</a></span></li>
+      <li><span class="num">RQ04</span><span class="q">Can calibrated confidence determine which pages qualify for automatic filing, and are retrieval-augmented review suggestions more accurate than the classifier alone?</span><span class="status">Answered</span><span class="where">Answered in <a href="review.html#routing">03 · Routing</a> and <a href="review.html#validation">Validation</a></span></li>
+    </ol>
+  </section>
+
+  <section class="block" aria-labelledby="route-h">
+    <h2 id="route-h">From archival documents to evaluated classifications</h2>
+    <p class="sub">The pipeline follows six stages, from document intake and text extraction to classification, review, and validation.</p>
+    <div class="route-wrap">
+      <span class="route-path" aria-hidden="true"></span>
+      <ol class="route stage-map">
+        <li><a href="filing-system.html"><span class="step">Stage 1</span><span class="name">Intake</span><b data-field="taxonomy.types" data-fmt="int"></b><span class="what">record types across <span data-field="taxonomy.departments" data-fmt="int"></span> departments, defined using Philip Morris's retention schedules</span></a></li>
+        <li><a href="reading.html#capture"><span class="step">Stage 2</span><span class="name">Capture</span><b data-field="ocr.engines.funsd.1.word_recall" data-fmt="pct"></b><span class="what">of reference words recovered by PaddleOCR from scanned forms with known text</span></a></li>
+        <li><a href="reading.html#preparation"><span class="step">Stage 3</span><span class="name">Preparation</span><b data-field="ocr.engines.orientation.turn_kept" data-fmt="int"></b><span class="what">of <span data-field="ocr.engines.orientation.turn_suggested" data-fmt="int"></span> rotations proposed by the orientation model were correct; the other <span data-sum="ocr.engines.orientation.turn_suggested-ocr.engines.orientation.turn_kept"></span> pages were already upright</span></a></li>
+        <li><a href="review.html#classification"><span class="step">Stage 4</span><span class="name">Classification</span><b data-field="final_test.scores.macro_f1.value" data-fmt="num2"></b><span class="what">macro F1 on the final test using sentence embeddings and logistic regression</span></a></li>
+        <li><a href="review.html#routing"><span class="step">Stage 5</span><span class="name">Routing</span><b data-calc="cutoff"></b><span class="what">calibrated confidence cutoff, set before the final test, for filing a page without a reviewer</span></a></li>
+        <li><a href="review.html#validation"><span class="step">Stage 6</span><span class="name">Validation</span><b data-calc="scale.share"></b><span class="what">of new, unlabeled pages qualified for automatic filing during the scale run</span></a></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- "How to read the figures" moved to the top of 01, since the Overview has no figures now -->
+
+  <section class="open" aria-labelledby="open-h">
+    <div>
+      <h2 id="open-h">Read the chapters</h2>
+      <p>Every figure and every decision, stage by stage, from the sample to the final test.</p>
+      <div class="links"><a href="dashboard.html">Project log: status and decisions</a><a href="findings.html">Findings</a></div>
+    </div>
+    <a class="cta" href="filing-system.html">Start with 01 · Intake</a>
+  </section>
+</main>
+
+<footer class="wrap site-foot">
+  <p>Source records: Philip Morris USA documents, UCSF Industry Documents Library, public through the 1998 Master Settlement Agreement.</p>
+  <p>LocalRIM processes documents locally; document contents remain on the computer running the system.</p>
+</footer>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <pattern id="hatch-legend" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="4" height="4" fill="var(--surface)"/><rect width="2" height="4" fill="var(--person)"/>
+    </pattern>
+  </defs>
+</svg>
+<script src="assets/landing.js?v=5"></script>
+</body>
+</html>

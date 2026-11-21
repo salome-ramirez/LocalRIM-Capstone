@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reading the pages | LocalRIM</title>
+<!-- Appendix 02. Content and captions unchanged; Figure 2.2 added. -->
+<link rel="stylesheet" href="assets/casefile.css?v=73">
+<link rel="stylesheet" href="assets/appendix.css?v=14">
+<script src="assets/site.js?v=40" defer></script>
+<script src="assets/reading.js?v=18" defer></script>
+<script src="assets/casefile.js?v=20" defer></script>
+<link rel="stylesheet" href="assets/helper.css?v=5">
+<script src="assets/helper.js?v=10" defer></script>
+<script src="assets/charts-ui.js?v=9" defer></script>
+</head>
+<body class="appendix reading grid">
+<header class="wrap">
+  <div class="masthead">
+    <a class="brand" href="index.html">LocalRIM</a>
+    <nav aria-label="Site"><a href="index.html">Overview</a><a href="filing-system.html" aria-label="01 Intake"><span class="n">01</span><span class="long"> Intake</span></a><a href="reading.html" aria-current="page" aria-label="02 Capture and Preparation"><span class="n">02</span><span class="long"> Capture</span></a><a href="review.html" aria-label="03 Classification, Routing and Validation"><span class="n">03</span><span class="long"> Classification</span></a><a href="findings.html">Findings</a><a href="app.html">The app</a><a href="future-work.html">Future work</a><details class="nav-ref"><summary>Reference</summary><div><a href="dashboard.html">Project log</a><a href="toolkit.html">Toolkit</a></div></details><a class="nav-log" href="dashboard.html" aria-label="Project log">Log</a></nav>
+  </div>
+</header>
+<main>
+<!-- Chapter opening on the grid: title across 12; introduction 7 + the stage at a glance 5; "In this chapter" as a band -->
+<div class="chapter-head g-title">
+  <div class="intro"><small>02 · Capture and Preparation</small><h1>Choosing how LocalRIM reads: five text sources compared on 1,400 archival pages</h1></div>
+</div>
+<div class="mgrid g-intro">
+  <div class="main">
+  <p class="deck">LocalRIM initially used Tesseract to extract text from scanned documents. Before proceeding with classification, I compared five sources of text from the client's archival scans using the same evaluation protocol: Tesseract at two resolutions, PaddleOCR, GLM-OCR, and the existing text layer in the archive's PDFs. The comparison examined transcription accuracy, performance across different scan conditions, and the information needed for subsequent processing.</p>
+  <p class="byline">OCR stage closed Nov 9, 2026 · decisions D-44 to D-53</p>
+  <p class="key-link"><a href="filing-system.html#key">How to read the figures</a></p>
+  </div>
+  <aside class="mcol">
+    <h3 class="g-tiles-h">The stage at a glance</h3>
+    <div data-chart="readingTiles" class="g-tiles"></div>
+  </aside>
+</div>
+<nav class="in-chapter grouped ic-band" aria-labelledby="ic-h"><h2 id="ic-h">In this chapter</h2><ol><li class="ic-part"><a href="#capture">Capture</a><ol><li><a href="#pages">What kinds of pages does the archive contain?</a></li><li><a href="#group-check">Did the scan-quality groups match visual inspection?</a></li><li><a href="#answer-key">How accurately did the OCR engines reproduce reference text?</a></li><li><a href="#blind-review">How did OCR performance vary across scan-quality groups?</a></li><li><a href="#all-pages">Did the differences persist across all 1,400 pages?</a></li><li><a href="#selection">How the OCR engine was selected</a></li><li><a href="#fluent">Output can look correct and still be wrong</a></li></ol></li><li class="ic-part"><a href="#preparation">Preparation</a><ol><li><a href="#orientation">How accurately did the orientation model identify rotated pages?</a></li><li><a href="#bates">Which text sources recovered the Bates numbers?</a></li><li><a href="#stamp">Could Bates numbers predict departments without document content?</a></li></ol></li></ol></nav>
+
+<header class="part" id="capture">
+  <p class="kicker">Stage 2 of 6: Capture</p>
+  <h2 class="g-h2">PaddleOCR reads every page; GLM-OCR re-reads the <span data-field="ocr.engines.text_options.hybrid_from_D"></span> pages in the three difficult scan groups</h2>
+  <div class="mgrid g-stack">
+  <div class="main">
+  <p class="standfirst">I compared the five text sources using reference transcriptions, a blind review of selected pages, and an analysis of all 1,400 archival pages. The primary OCR engine was chosen using criteria established before the results were examined.</p>
+  </div>
+  <aside class="mcol">
+    <p class="built"><b>Built with</b> Tesseract 5.4, PaddleOCR 3.7 and GLM-OCR (through Ollama), scored with jiwer. <a href="toolkit.html">Full list in the Toolkit</a></p>
+    <div class="decisions mdec" data-decisions="D-44"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div></header>
+
+<section id="pages">
+  <h2 class="g-h2">What kinds of pages does the archive contain?</h2>
+  <div class="mgrid g-stack">
+  <div class="main">
+  
+  <p class="muted">Before running OCR, I measured seven image characteristics on each page: brightness, contrast, background, dark share, ink share, speckle, and sharpness. K-means clustering grouped pages with similar visual characteristics, and I inspected examples from each cluster to identify the resulting scan-quality groups.</p>
+  </div>
+  <aside class="mcol">
+    <dl class="mterm"><dt>Scan group</dt><dd>Pages grouped by visual characteristics rather than document content. The groups describe scan quality, not subject matter.</dd></dl>
+    <div class="decisions mdec" data-decisions="D-45"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+  <figure class="research"><div data-chart="pageGroups"></div>
+    <figcaption><b>Figure 2.1.</b> Clean typed documents account for most of the 1,400-page sample. Graphics and clippings, degraded scans, and photographic advertisements make up approximately 4% and present greater challenges for OCR. Each square represents one page; darker squares identify the three more difficult scan groups.</figcaption></figure>
+  <p class="muted">I initially selected four clusters before running OCR and examined their composition through visual inspection. A subsequent analysis compared solutions with two to eight clusters using inertia and silhouette scores.</p>
+  <figure class="research"><div data-chart="kCheck"></div>
+    <div class="legend"><span><i style="border:2px solid var(--ink);border-radius:50%"></i>k = 4, the starting point used</span><span><i style="border:2px solid var(--ink);transform:rotate(45deg) scale(.8)"></i>Final five groups</span><span><i style="border-top:2px dashed var(--muted);height:0"></i>Five groups</span></div>
+    <figcaption><b>Figure 2.2.</b> Inertia decreases gradually, with a bend near five clusters, while silhouette scores show no clear advantage among solutions with four to eight clusters. I initially used four k-means clusters, then separated one group using a speckle-based rule, producing five scan-quality groups. Higher silhouette scores at two and three clusters reflect highly uneven group sizes rather than a useful distinction between scan conditions.</figcaption></figure>
+</section>
+
+<section id="group-check">
+  <h2>Did the scan-quality groups match visual inspection?</h2>
+  <p class="muted fit">I visually reviewed 22 cluster assignments, including at least four pages from each scan-quality group.</p>
+  <figure class="research"><div data-chart="groupCheck"></div>
+    <div class="legend"><span><i style="background:var(--deep)"></i>Right group</span><span><i style="background:var(--soft)"></i>Unsure</span><span><i style="border:1.6px solid var(--wrong)"></i>Wrong group</span></div>
+    <figcaption><b>Figure 2.3.</b> Visual inspection supported most of the scan-quality groups, but none of the four pages reviewed from the ‘clean reports, forms, tables’ group matched that description. They were instead identified as advertisements, degraded scans, or graphics on light backgrounds. Each row shows the reviewed pages within a group, with incorrect assignments labeled by their visually assessed category.</figcaption></figure>
+</section>
+
+<section id="answer-key">
+  <h2 class="g-h2">How accurately did the OCR engines reproduce reference text?</h2>
+  <div class="mgrid g-stack">
+  <div class="main">
+  
+  <p class="muted">The FUNSD dataset provides reference transcriptions for scanned forms. I used <span data-field="ocr.funsd.forms"></span> forms containing <span data-field="ocr.funsd.words"></span> words to compare OCR output with the original text and measure transcription accuracy.</p>
+  </div>
+  <aside class="mcol">
+    <dl class="mterm"><dt>Word recall</dt><dd>The proportion of reference words recovered, regardless of whether each word was transcribed correctly.</dd><dt>Word error rate (WER)</dt><dd>Measures substitutions, deletions, and insertions relative to the reference transcription. Lower values indicate fewer errors.</dd></dl>
+  </aside>
+  </div>
+  <figure class="research"><div data-chart="funsdScatter"></div>
+    <figcaption><b>Figure 2.4.</b> PaddleOCR achieved <span data-field="ocr.engines.funsd.1.word_recall" data-format="pct"></span> word recall and <span data-field="ocr.engines.funsd.1.wer" data-format="pct"></span> WER, processing each form in under half a second. GLM-OCR reached <span data-field="ocr.engines.funsd.2.word_recall" data-format="pct"></span> recall but required approximately <span data-ratio="ocr.engines.funsd.2.seconds_per_form/ocr.engines.funsd.1.seconds_per_form"></span> times longer. Points compare word recall with processing time on a logarithmic scale. Tesseract at original resolution was not scored separately because FUNSD uses fixed-resolution images, making it the same run as the Tesseract baseline. The UCSF text layer was unavailable for these benchmark forms.</figcaption></figure>
+</section>
+
+<section id="blind-review">
+  <h2 class="g-h2">How did OCR performance vary across scan-quality groups?</h2>
+  <div class="mgrid g-stack">
+  <div class="main">
+  
+  <p class="muted">I conducted a blind review of 22 pages, with at least four selected from each scan-quality group. The five text outputs for each page were presented without identifying their sources and were rated and ranked against one another. A rank score of 1.00 indicates that a source ranked first on every reviewed page in that group.</p>
+  </div>
+  <aside class="mcol">
+    <div class="decisions mdec" data-decisions="D-49,D-51"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+  <figure class="research"><div data-chart="reviewHeatmap"></div>
+    <figcaption><b>Figure 2.5.</b> PaddleOCR received the highest rankings on clean scans, while GLM-OCR performed better on degraded scans and graphics. The UCSF text layer was retained as a reference rather than an OCR candidate (D-51). Darker cells indicate stronger rankings, and outlines identify the highest-ranked candidate in each group. The small number of pages per group limits how confidently these rankings can be generalized.</figcaption></figure>
+</section>
+
+<section id="all-pages">
+  <h2 class="g-h2">Did the differences persist across all 1,400 pages?</h2>
+  <div class="mgrid g-stack">
+  <div class="main">
+  
+  <p class="muted">To examine the full sample, I calculated the proportion of word-like tokens in each text output, defined as tokens containing at least two letters and a vowel. This measure provides an indication of text readability, but does not establish transcription accuracy.</p>
+  </div>
+  
+  </div>
+  <figure class="research">
+    <div class="fig-key"><p class="mkey-h">Engines in the chart</p>
+    <div class="engine-key"><span><b>A</b>Tesseract, 150 dpi (baseline)</span><span><b>B</b>Tesseract, original resolution</span><span><b class="lead">C</b>PaddleOCR</span><span><b class="lead">D</b>GLM-OCR</span><span><b>E</b>UCSF text layer</span></div></div>
+    <div data-chart="readabilityStrips"></div>
+    <figcaption><b>Figure 2.6.</b> The five text sources produced similar proportions of word-like tokens on clean pages but differed more substantially on difficult scans. Only <span data-field="ocr.engines.analyses.E.by_group.3a.wordlike_share_median" data-format="pct"></span> of tokens from the UCSF text layer were word-like on degraded scans. Each point shows the median proportion for one source within a scan-quality group.</figcaption></figure>
+</section>
+
+
+
+<section id="selection">
+  <h2 class="g-h2">How the OCR engine was selected</h2>
+  <div class="mgrid">
+  <div class="main">
+  
+  <p class="muted">I established the selection criteria before evaluating the results, prioritizing transcription accuracy, followed by blind-review ratings, word positions, and confidence scores. Processing speed served as the final tie-breaker (D-52). The evaluation supported PaddleOCR as the primary engine, while GLM-OCR's performance on difficult scans led me to test a hybrid approach for classification (D-53).</p>
+  </div>
+  <aside class="mcol">
+    <div class="decisions mdec" data-decisions="D-52,D-53"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+  <figure class="research fig-steps">
+  <ol class="steps">
+    <li><strong>Consistent evaluation</strong><span>Each text source was examined across 1,400 archival pages before comparative evaluation.</span></li>
+    <li><strong>Two complementary evaluations</strong><span>Reference transcriptions measured accuracy; blind review compared text quality across scan groups.</span></li>
+    <li class="key"><strong>PaddleOCR selected</strong><span>Predefined criteria prioritized accuracy, blind-review ratings, word positions, confidence scores, and speed (D-52).</span></li>
+    <li><strong>Complementary performance</strong><span>GLM-OCR ranked higher on degraded scans and graphics, motivating further evaluation of a hybrid approach.</span></li>
+    <li class="key"><strong>Hybrid text adopted</strong><span>Four text-input variants were compared by cross-validated macro F1. The hybrid, which uses GLM-OCR on the <b data-field="ocr.engines.text_options.hybrid_from_D"></b> difficult-group pages, scored highest (<span data-field="classifier.tfidf.hybrid.macro_f1"></span> versus <span data-field="classifier.tfidf.C.macro_f1"></span> for PaddleOCR alone) and was adopted under the predefined selection rule (D-57). The difference is too small to establish a meaningful improvement.</span></li>
+  </ol>
+  <figcaption><b>Figure 2.7.</b> PaddleOCR was selected as the primary OCR engine based on the predefined evaluation criteria (D-52). A hybrid text variant incorporating GLM-OCR on 60 difficult-group pages was subsequently adopted under a separate, predefined classification-based selection rule (D-57). Its cross-validation score was marginally higher, but the difference does not establish a performance gain.</figcaption></figure>
+</section>
+
+<section id="fluent">
+  <h2 class="g-h2">Output can look correct and still be wrong</h2>
+  <div class="mgrid">
+  <div class="main">
+  
+  <p class="muted">OCR output can read smoothly and still differ from the page. In a records system, that can be worse than a visible gap because the error may go unnoticed.</p>
+  </div>
+  <aside class="mcol">
+    <dl class="mterm"><dt>Fluent output</dt><dd>Plausible text that does not accurately reproduce the source document.</dd></dl>
+  </aside>
+  </div>
+  <figure class="research fig-cards">
+  <div class="fluent">
+    <article><small>Handwritten note on a fax report</small>
+      <dl>
+        <dt>What the page says</dt><dd class="page">“PM Survey — Materials”</dd>
+        <dt>What one engine produced</dt><dd class="read">“M. Surney / <mark>Midwest</mark>”</dd>
+        <dt>Why it matters</dt><dd class="why">“Midwest” is a real word, so the substitution would pass unnoticed.</dd>
+      </dl></article>
+    <article><small>Typed memo and lab report</small>
+      <dl>
+        <dt>What the page says</dt><dd class="page">“roling”, “shalf”, “corrosim” <span class="aside">(the original typist's errors)</span></dd>
+        <dt>What one engine produced</dt><dd class="read">“<mark>rolling</mark>”, “<mark>shelf</mark>”, “<mark>corrosion</mark>”</dd>
+        <dt>Why it matters</dt><dd class="why">A record must match the original exactly, errors included. A corrected transcription is no longer a faithful copy.</dd>
+      </dl></article>
+  </div>
+  <figcaption><b>Figure 2.8.</b> Two examples from the blind review illustrate how plausible OCR output can differ from the source document. The evaluation considered fidelity to the original page rather than fluency alone.</figcaption></figure>
+</section>
+
+<header class="part" id="preparation">
+  <p class="kicker">Stage 3 of 6: Preparation</p>
+  <h2 class="g-h2">Preserving archive identifiers without using them for classification</h2>
+  <div class="mgrid g-stack">
+  <div class="main">
+  <p class="standfirst">Bates numbers and litigation stamps were preserved in the OCR output but excluded from the text used for classification. These identifiers could reveal information about a document's origin without reflecting its departmental purpose. Page orientation was also checked before the extracted text was prepared for the classifier.</p>
+  </div>
+  <aside class="mcol">
+    <p class="built"><b>Built with</b> PaddleOCR's orientation model and scikit-learn. <a href="toolkit.html">Full list in the Toolkit</a></p>
+    <div class="decisions mdec" data-decisions="D-37"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div></header>
+
+<section id="orientation">
+  <h2 class="g-h2">How accurately did the orientation model identify rotated pages?</h2>
+  <div class="mgrid g-stack">
+  <div class="main">
+  
+  <p class="muted">PaddleOCR includes an orientation model that identifies pages it considers rotated. I evaluated its recommendations before deciding whether the system should apply them automatically.</p>
+  </div>
+  <aside class="mcol">
+    <div class="decisions mdec" data-decisions="D-30"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+  <figure class="research"><div data-chart="orientationFlow"></div>
+    <figcaption><b>Figure 2.9.</b> PaddleOCR recommended rotating <span data-field="ocr.engines.orientation.turn_suggested"></span> pages, but only <span data-field="ocr.engines.orientation.turn_kept"></span> recommendations were correct; the other <span data-sum="ocr.engines.orientation.turn_suggested-ocr.engines.orientation.turn_kept"></span> pages were already upright. As with Tesseract (D-30), the pipeline reads flagged pages in both orientations and retains the output with higher OCR confidence. GLM-OCR processes pages in their original orientation because it does not provide comparable confidence scores. Filled squares indicate correct rotation recommendations; outlined squares indicate pages that were already upright.</figcaption></figure>
+</section>
+
+<section id="bates">
+  <h2 class="g-h2">Which text sources recovered the Bates numbers?</h2>
+  <div class="mgrid g-stack">
+  <div class="main">
+  
+  <p class="muted">Each page contains a Bates number added during litigation. These identifiers are useful for locating and referencing records, so the pipeline preserves them in the extracted text. They are excluded from classifier input to prevent departmental predictions from relying on archive-specific identifiers rather than document content (D-46).</p>
+  </div>
+  <aside class="mcol">
+    <div class="g-keys g-key1"><div><b data-share="ocr.engines.analyses.C.pages_with_own_bates_found/ocr.engines.analyses.C.pages_read"></b><span>of <span data-field="ocr.engines.analyses.C.pages_read"></span> pages had their Bates numbers recovered by PaddleOCR</span></div></div>
+    <div class="decisions mdec" data-decisions="D-46"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+  <figure class="research"><div data-chart="batesUnits"></div>
+    <figcaption><b>Figure 2.10.</b> PaddleOCR recovered Bates numbers on <span data-share="ocr.engines.analyses.C.pages_with_own_bates_found/ocr.engines.analyses.C.pages_read"></span> of pages, more than twice the rate of any other evaluated source. Each row contains 50 squares, with each square representing 2% of the <span data-field="ocr.engines.analyses.C.pages_read"></span>-page sample.</figcaption></figure>
+</section>
+
+<section id="stamp">
+  <h2 class="g-h2">Could Bates numbers predict departments without document content?</h2>
+  <div class="mgrid">
+  <div class="main">
+  
+  <p class="muted">To test whether Bates numbers contained information about department membership, I trained a separate model using only the first four digits of each identifier. I then compared the classifier's performance with and without Bates numbers in its text input.</p>
+  </div>
+  <aside class="mcol">
+    <dl class="mterm"><dt>Probe</dt><dd>A separate model trained on the first four digits of each Bates number to test whether the identifier predicts department membership.</dd></dl>
+  </aside>
+  </div>
+  <figure class="fig" aria-labelledby="f-stamp-t">
+    <p class="fig-title" id="f-stamp-t"><span class="fig-n">Figure 2.11.</span> Bates-number prefixes alone reach macro F1 <span data-field="classifier.bates_probe.macro_f1" data-format="dec2"></span> against a <span data-field="classifier.tfidf.majority.macro_f1" data-format="dec2"></span> baseline; removing them did not reduce performance</p>
+    <p class="fig-sub">Five-fold cross-validated macro F1 was <span data-field="classifier.embeddings.hybrid_with_bates.macro_f1" data-format="dec2"></span> with identifiers and <span data-field="classifier.embeddings.hybrid.macro_f1" data-format="dec2"></span> without. Small points represent individual folds; larger points show their means.</p>
+    <div class="chart" data-chart="stamp" data-cf></div>
+    <p class="fig-source">Bates-number recovery remains part of document processing (Figure 2.10), while the classifier uses text without these identifiers. Source: LocalRIM cross-validation. More in <a href="review.html#classification">03 · Classification</a>.</p>
+  </figure>
+</section>
+</main>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <pattern id="hatch-legend" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="4" height="4" fill="var(--surface)"/><rect width="2" height="4" fill="var(--person)"/>
+    </pattern>
+  </defs>
+</svg>
+</body>
+</html>

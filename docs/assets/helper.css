@@ -1,0 +1,63 @@
+/* The helper. Colours follow the page tokens, with the earlier
+   light colours as fallbacks. It rests as the mascot alone; the bubble opens on click.
+   Motion: one entrance (peek, or the landing's fly-in), one soft cue per new tip, the exit flight.
+   No idle or continuous motion. Under prefers-reduced-motion nothing moves. */
+.helper { position: fixed; right: 16px; bottom: 14px; z-index: 50; display: flex; align-items: flex-end; gap: 6px;
+  pointer-events: none; visibility: hidden; opacity: 0; transform: translateX(12px); }
+.helper > * { pointer-events: auto; }
+.helper.is-in { visibility: visible; }
+
+/* entrance 1: a peek from the edge (state change, user-paced): strong ease-out, 240 ms */
+.helper.is-in.is-peeking { opacity: 1; transform: none; transition: opacity 240ms cubic-bezier(.23, 1, .32, 1), transform 240ms cubic-bezier(.23, 1, .32, 1); }
+/* entrance 2 (landing only): the earlier mascot.js arc, once, 0.8 s */
+.helper.is-in.is-flying { opacity: 1; transform: none; animation: helper-fly .8s both; transform-origin: 65% 65%; }
+@keyframes helper-fly {
+  0%   { opacity: 0; transform: translate(46px, 30px) rotate(-32deg) scale(.55); animation-timing-function: cubic-bezier(.16, .7, .3, 1); }
+  42%  { opacity: 1; transform: translate(8px, -18px) rotate(16deg) scale(1.06); animation-timing-function: cubic-bezier(.35, 0, .65, 1); }
+  70%  { transform: translate(-3px, 5px) rotate(-7deg) scale(.98); animation-timing-function: ease-out; }
+  86%  { transform: translate(1px, -3px) rotate(3deg) scale(1.01); animation-timing-function: ease-out; }
+  100% { opacity: 1; transform: none; }
+}
+/* one soft cue when a new kind of tip arrives: a 2 degree tilt and back */
+.helper.is-cue .helper-mascot { animation: helper-cue 360ms cubic-bezier(.77, 0, .175, 1); transform-origin: 50% 90%; }
+@keyframes helper-cue { 50% { transform: rotate(2deg); } }
+
+.helper-bubble { position: relative; max-width: 250px; margin-bottom: 52px; padding: 10px 30px 10px 12px;
+  background: var(--surface, #f8f9fb); border: 1px solid var(--rule, #b8bcc4); border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,.12);
+  font: 13px/1.45 var(--label, var(--body-font)); color: var(--ink, #26282c); transition: opacity 200ms ease; }
+.helper-bubble[hidden] { display: none; }
+.helper-bubble::after { content: ""; position: absolute; right: -9px; bottom: 16px; width: 14px; height: 14px;
+  background: var(--surface, #e9ebef); border-right: 1px solid var(--rule, #b8bcc4); border-bottom: 1px solid var(--rule, #b8bcc4); transform: rotate(-45deg); }
+.helper-bubble.is-fading { opacity: 0; }
+.helper-close { position: absolute; top: 4px; right: 6px; min-width: 24px; min-height: 24px; padding: 2px 4px; border: 0; background: none;
+  font-size: 15px; line-height: 1; color: var(--muted, #6b6b73); cursor: pointer; }
+.helper-toggle { padding: 0; border: 0; background: none; cursor: pointer; border-radius: 50%; line-height: 0; }
+.helper-toggle:focus-visible { outline: 2px solid var(--accent, #5b59a6); outline-offset: 2px; }
+.helper-mascot { width: 64px; height: auto; filter: drop-shadow(0 3px 4px rgba(0,0,0,.15)); }
+
+/* exit: the existing flight off the corner */
+.helper.is-in.is-leaving { animation: helper-out .85s cubic-bezier(.5, -0.35, .7, 1) forwards; }
+@keyframes helper-out {
+  0%   { opacity: 1; transform: none; }
+  25%  { opacity: 1; transform: translate(-6px, -14px) rotate(-6deg); }
+  100% { opacity: 0; transform: translate(220px, 160px) rotate(18deg); }
+}
+
+/* leave room at the end of the page so the mascot never sits over the last lines */
+html.has-helper body { padding-bottom: 80px; }
+.helper-return { margin: .8rem 0 0; }
+.helper-return button { padding: .3rem 0; min-height: 32px; border: 0; background: none; color: var(--accent, #5b59a6); font: 500 .85rem/1.3 var(--label, var(--body-font));
+  text-decoration: underline; text-underline-offset: .18em; cursor: pointer; }
+
+@media (max-width: 640px) {
+  .helper { right: 10px; bottom: 10px; }
+  .helper-mascot { width: 56px; }
+  .helper-bubble { max-width: min(190px, calc(100vw - 90px)); margin-bottom: 40px; }
+  html.has-helper body { padding-bottom: 72px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .helper, .helper.is-in.is-peeking, .helper.is-in.is-flying { transition: none; animation: none; transform: none; }
+  .helper.is-in { opacity: 1; }
+  .helper.is-cue .helper-mascot { animation: none; }
+  .helper.is-in.is-leaving { animation: none; opacity: 0; transition: opacity .3s; }
+}

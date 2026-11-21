@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The app | LocalRIM</title>
+<meta name="description" content="The LocalRIM demo app: a walkthrough video with chapters, what each screen does, how well the archive assistant answers, and how to run it.">
+<!-- The app. Video: the demo, remuxed with -c copy -movflags +faststart (same streams,
+     index moved to the front); poster = frame at 1:00.5. Chapter times read from the video's frames.
+     Typed numbers (not in site_data.json): 3:34, 761, the seven chapter times, 8 records, 2 to 5 sentences,
+     55% cutoff, 20 tokens, the archive check (results/archive_check/archive_check_summary.csv,
+     archive_check_r2_summary.csv: 25 of 28, 4 of 4, 18.0 s / 18.8 s and the round table; 89% = 25 of 28)
+     and the faithfulness counts 19 / 6 / 2 / 1
+     (the "faithful" column of archive_check.csv and archive_check_r2.csv, answerable questions only). -->
+<link rel="stylesheet" href="assets/casefile.css?v=73">
+<link rel="stylesheet" href="assets/appendix.css?v=14">
+<link rel="stylesheet" href="assets/app.css?v=8">
+<script src="assets/site.js?v=40" defer></script>
+<link rel="stylesheet" href="assets/helper.css?v=5">
+<script src="assets/helper.js?v=10" defer></script>
+<script src="assets/charts-ui.js?v=9" defer></script>
+<script src="assets/app.js?v=2" defer></script>
+</head>
+<body class="appendix app-page grid">
+<header class="wrap">
+  <div class="masthead">
+    <a class="brand" href="index.html">LocalRIM</a>
+    <nav aria-label="Site"><a href="index.html">Overview</a><a href="filing-system.html" aria-label="01 Intake"><span class="n">01</span><span class="long"> Intake</span></a><a href="reading.html" aria-label="02 Capture and Preparation"><span class="n">02</span><span class="long"> Capture</span></a><a href="review.html" aria-label="03 Classification, Routing and Validation"><span class="n">03</span><span class="long"> Classification</span></a><a href="findings.html">Findings</a><a href="app.html" aria-current="page">The app</a><a href="future-work.html">Future work</a><details class="nav-ref"><summary>Reference</summary><div><a href="dashboard.html">Project log</a><a href="toolkit.html">Toolkit</a></div></details><a class="nav-log" href="dashboard.html" aria-label="Project log">Log</a></nav>
+  </div>
+</header>
+<main>
+<div class="chapter-head g-title">
+  <div class="intro"><small>The app</small><h1>LocalRIM in practice: searching, reading, filing and reviewing records</h1>
+  <p class="deck fw-deck">The LocalRIM application brings document processing, classification, search and review into one interface. Its Archive contains <span data-field="app_archive.records"></span> filed Philip Morris records. A user can search and examine records, ask questions answered with citations, and process new documents through the classification and review workflow.</p>
+  <p class="app-scope">A local, single-user application, developed with public archive documents and not deployed for a client.</p></div>
+</div>
+
+<!-- The video across 12: figure frame (2 px rule, title, subtitle, player, chapters, source) -->
+<figure class="fig app-video" id="video" aria-labelledby="video-title">
+  <h2 class="fig-title" id="video-title">The application walkthrough: from an archive search to a filing decision</h2>
+  <p class="fig-sub">3:34, recorded in LocalRIM with public archive documents; jump to a chapter below.</p>
+  <div class="player">
+    <video id="demo" controls preload="metadata" playsinline poster="assets/video/localrim-demo-poster.jpg" aria-describedby="video-summary">
+      <source src="assets/video/localrim-demo.mp4" type="video/mp4">
+      <a href="assets/video/localrim-demo.mp4">Download the walkthrough (MP4, 32.6 MB)</a>
+    </video>
+  </div>
+  <nav class="chapters" aria-label="Video chapters">
+    <ol>
+      <li><a href="assets/video/localrim-demo.mp4#t=4" data-t="4"><span class="c-n">01</span><span class="c-name">Archive</span><span class="c-t">0:04</span></a></li>
+      <li><a href="assets/video/localrim-demo.mp4#t=20" data-t="20"><span class="c-n">02</span><span class="c-name">Ask</span><span class="c-t">0:20</span></a></li>
+      <li><a href="assets/video/localrim-demo.mp4#t=57" data-t="57"><span class="c-n">03</span><span class="c-name">Reader</span><span class="c-t">0:57</span></a></li>
+      <li><a href="assets/video/localrim-demo.mp4#t=88" data-t="88"><span class="c-n">04</span><span class="c-name">Browse</span><span class="c-t">1:28</span></a></li>
+      <li><a href="assets/video/localrim-demo.mp4#t=116" data-t="116"><span class="c-n">05</span><span class="c-name">Add files</span><span class="c-t">1:56</span></a></li>
+      <li><a href="assets/video/localrim-demo.mp4#t=147" data-t="147"><span class="c-n">06</span><span class="c-name">Intake</span><span class="c-t">2:27</span></a></li>
+      <li><a href="assets/video/localrim-demo.mp4#t=170" data-t="170"><span class="c-n">07</span><span class="c-name">Review queue</span><span class="c-t">2:50</span></a></li>
+    </ol>
+  </nav>
+  <figcaption class="fig-source">LocalRIM, Nov 2026. Documents: Philip Morris USA records, UCSF Industry Documents Library (public).</figcaption>
+</figure>
+
+<!-- Text with margin: heading across 12, then paragraph 7 + note 5 starting level -->
+<section class="video-text" aria-labelledby="summary-h">
+  <h3 id="summary-h" class="sum-h">What the video shows</h3>
+  <div class="mgrid">
+  <div class="main">
+    <p id="video-summary">The walkthrough begins in the Archive, where a question about safety data sheets produces an answer with citations to supporting records. The Reader opens a cited document alongside its filing details and the text used in the answer. Browse then filters the Archive by department, series and record type.</p>
+    <p>Three new pages are uploaded. Two meet the confidence cutoff and wait in Intake for approval; the third is routed to the Review queue, where a reviewer examines the suggested filing and supporting records before deciding.</p>
+  </div>
+  <aside class="mcol">
+    <p class="app-note">All documents shown come from the public UCSF archive. No private client records are used.</p>
+  </aside>
+  </div>
+</section>
+
+<!-- What the app does: a pair, 6 + 6 under one rule, on shared rows (subgrid): group label, then three entries each -->
+<section id="functions" aria-labelledby="fn-h">
+  <h2 class="g-h2" id="fn-h">Three views for using the archive, three for adding to it</h2>
+  <div class="fn-grid">
+    <div class="fn-col">
+      <h3 class="fn-group">Using the archive</h3>
+      <div class="fn"><h4>Archive and Ask</h4>
+        <p>Search the filed records or ask questions using retrieval-augmented generation. Questions and documents are represented with Qwen3-Embedding-0.6B to retrieve relevant records; Qwen3 8B uses those records to write a concise answer with citations, and declines questions the Archive cannot support.</p>
+        <p class="watch"><a href="#video" data-t="4">Watch 0:04</a> · <a href="#video" data-t="20">Watch 0:20</a></p></div>
+      <div class="fn"><h4>Reader</h4>
+        <p>Open a record as the scanned page, its extracted text, or both side by side, with its department, series, record type and file ID. A filing can be confirmed or changed; each change is kept in the record's history, and the original filing is never overwritten.</p>
+        <p class="watch"><a href="#video" data-t="57">Watch 0:57</a></p></div>
+      <div class="fn"><h4>Browse</h4>
+        <p>Filter and sort records by department, series, record type and date. Filings produced by the pipeline stay marked as suggested until a person confirms them.</p>
+        <p class="watch"><a href="#video" data-t="88">Watch 1:28</a></p></div>
+    </div>
+    <div class="fn-col">
+      <h3 class="fn-group">Adding to it</h3>
+      <div class="fn"><h4>Add files</h4>
+        <p>Upload new pages for reading and classification. PaddleOCR reads each page, and the pipeline suggests a department, series and record type. Qwen3 8B also suggests a title and document date, and the page's file number is read for the duplicate check.</p>
+        <p class="watch"><a href="#video" data-t="116">Watch 1:56</a></p></div>
+      <div class="fn"><h4>Intake</h4>
+        <p>Pages with readable text, at least 20 tokens, confidence at or above the <span data-field="final_test.cutoff" data-format="dec2"></span> cutoff and a file number not already known wait in Intake. A person approves them as a batch before they are added to the Archive.</p>
+        <p class="watch"><a href="#video" data-t="147">Watch 2:27</a></p></div>
+      <div class="fn"><h4>Review queue</h4>
+        <p>Pages go to the Review queue when their confidence is below <span data-field="final_test.cutoff" data-format="dec2"></span>, they have fewer than 20 tokens or no readable text, or their file number matches one already in the Archive, the queue or an earlier upload. The reviewer sees the page, the suggested filing and similar filed records before deciding where it belongs.</p>
+        <p class="watch"><a href="#video" data-t="170">Watch 2:50</a></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- What happens after a page is uploaded. HTML + CSS (app.css), from the application's routing rules;
+     desktop: upload, two paths each ending in a person, the Archive; below 1120 px the paths stack. -->
+<figure class="fig app-flow" id="workflow" aria-labelledby="flow-title" aria-describedby="flow-text">
+  <h2 class="fig-title" id="flow-title">No uploaded page reaches the Archive without a person</h2>
+  <p class="fig-sub">What happens after a page is uploaded, by the application's routing rules</p>
+  <p class="vh" id="flow-text">After upload, PaddleOCR reads the page and the classifier scores it. A page with readable text, at least 20 tokens, confidence at or above the cutoff and a new file number waits in Intake until a person approves the batch. Any other page goes to the Review queue, where a reviewer decides with the suggestion and similar records. Both paths end in the Archive, where later changes are kept in the record's history.</p>
+  <div class="flow">
+    <div class="f-in f-box"><h3>Add files</h3><p>PaddleOCR reads the page; the classifier scores it.</p></div>
+    <div class="f-lanes">
+      <div class="f-lane f-box f-a"><h3><span class="sw sw-filed" aria-hidden="true"></span>Intake</h3><p class="f-when">Waits for approval when it has</p>
+        <ul><li>readable text</li><li>at least 20 tokens</li><li>confidence of <span data-field="final_test.cutoff" data-format="dec2"></span> or more</li><li>a file number not already known</li></ul></div>
+      <div class="f-person f-pa"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="6" r="3.6"/><path d="M3 18.5c0-4 3.1-6.6 7-6.6s7 2.6 7 6.6"/></svg><p>A person approves the batch</p><span class="f-to" aria-hidden="true">then filed in the Archive</span></div>
+      <p class="f-or" aria-hidden="true">otherwise</p>
+      <div class="f-lane f-box f-b"><h3><span class="sw sw-person" aria-hidden="true"></span>Review queue</h3><p class="f-when">Goes here when it has any of</p>
+        <ul><li>confidence below <span data-field="final_test.cutoff" data-format="dec2"></span></li><li>fewer than 20 tokens</li><li>no readable text</li><li>a possible duplicate file number</li></ul></div>
+      <div class="f-person f-pb"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="6" r="3.6"/><path d="M3 18.5c0-4 3.1-6.6 7-6.6s7 2.6 7 6.6"/></svg><p>A reviewer decides, with the suggestion and similar records</p></div>
+    </div>
+    <div class="f-out f-box"><h3>Archive</h3><p><b><span data-field="app_archive.records"></span></b> filed records</p><p>Later changes are kept in the record's history.</p></div>
+  </div>
+  <figcaption class="fig-source">Rules: the application's pipeline and intake code (<code>localrim_pipeline.py</code>, <code>localrim_intake.py</code>); the count is the Archive as built for this site.</figcaption>
+</figure>
+
+<!-- How well the assistant answers: heading; key numbers band (3 px rule, three cells of 4); text 7 + the round table 5 -->
+<section id="assistant" aria-labelledby="as-h">
+  <h2 class="g-h2" id="as-h">The archive assistant cited a relevant record for <span data-field="archive_check.cited"></span> of <span data-field="archive_check.answerable"></span> answerable questions</h2>
+  <div class="app-nums">
+    <div><b><span data-field="archive_check.cited"></span> of <span data-field="archive_check.answerable"></span></b>Answers citing a correct or relevant record</div>
+    <div><b><span data-field="archive_check.declined"></span> of <span data-field="archive_check.out_of_archive"></span></b>Questions outside the Archive declined</div>
+    <div><b><span data-derived="assistant-seconds"></span></b>Median response time by round</div>
+  </div>
+  <div class="mgrid as-grid">
+    <div class="main">
+      <p>I evaluated the archive assistant in two rounds of <span data-field="archive_check.rounds.0.answerable"></span> answerable questions, together with <span data-field="archive_check.out_of_archive" data-format="word"></span> questions about material outside the Archive. The first round used questions written from known records; the second used questions written before searching for supporting documents.</p>
+      <p>The assistant cited a correct or relevant record in <span data-field="archive_check.cited"></span> of the <span data-field="archive_check.answerable"></span> answerable questions and declined all <span data-field="archive_check.declined" data-format="word"></span> questions about material outside the Archive. Citing a relevant record did not guarantee a fully supported answer: I judged <span data-field="archive_check.support.fully"></span> answers fully supported, <span data-field="archive_check.support.partly"></span> partly supported and <span data-field="archive_check.support.not"></span> unsupported, and <span data-field="archive_check.support.declined" data-format="word"></span> question was declined. The <span data-sum="archive_check.answerable-archive_check.cited" data-format="word"></span> answers without a relevant citation were an unsupported inference, a wrong record cited, and a question the search could not match.</p>
+      <p>This was a limited check on a fixed set of questions, not a full evaluation of answer reliability (see <a href="future-work.html#research">Future work</a>).</p>
+    </div>
+    <aside class="mcol">
+      <table class="rounds">
+        <caption class="vh">Archive check results by round</caption>
+        <thead><tr><th scope="col">Measure</th><th scope="col">Round 1</th><th scope="col">Round 2</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Answerable questions</th><td>14</td><td>14</td></tr>
+          <tr><th scope="row">Record among the 8 handed to the model</th><td>14</td><td>13</td></tr>
+          <tr><th scope="row">Record found first</th><td>13</td><td>10</td></tr>
+          <tr><th scope="row">Answer cited a correct record</th><td>13</td><td>12</td></tr>
+          <tr><th scope="row">Declined although answerable</th><td>0</td><td>1</td></tr>
+          <tr><th scope="row">Outside the archive, declined</th><td>3 of 3</td><td>1 of 1</td></tr>
+          <tr><th scope="row">Median seconds per answer</th><td>18.0</td><td>18.8</td></tr>
+        </tbody>
+      </table>
+      <p class="tbl-source">Source: the project's archive check.</p>
+    </aside>
+  </div>
+</section>
+
+<!-- Why it runs locally: text 7 + what runs on the PC 5 -->
+<section id="local" aria-labelledby="lo-h">
+  <h2 class="g-h2" id="lo-h">Local processing keeps records on the same computer</h2>
+  <div class="mgrid">
+    <div class="main">
+      <p>LocalRIM processes documents and runs its models locally. PaddleOCR extracts text, Qwen3-Embedding-0.6B represents pages and questions for search and classification, and Qwen3 8B, served through Ollama, writes answers and review suggestions. The records and their extracted text stay on the local computer and are not sent to an external model service.</p>
+      <p>The application is designed for a single user. Hosting it as it is would mean sending document data to a server, so private hosted access remains <a href="future-work.html#versions">future work</a>.</p>
+    </div>
+    <aside class="mcol">
+      <h3 class="m-h">What runs locally</h3>
+      <dl class="mterm">
+        <dt>Text extraction</dt><dd>PaddleOCR</dd>
+        <dt>Search and classification</dt><dd>Qwen3-Embedding-0.6B</dd>
+        <dt>Answers and review suggestions</dt><dd>Qwen3 8B, served by Ollama</dd>
+      </dl>
+    </aside>
+  </div>
+</section>
+
+<!-- Run it yourself: lead-in, then the site's step pattern (ol.steps: 2 px taupe rule, 01 numbers) in two columns; code blocks kept -->
+<section id="run" aria-labelledby="run-h">
+  <h2 class="g-h2" id="run-h">Running the app from the repository</h2>
+  <p class="fit">The app needs Python and, for the assistant, Ollama.</p>
+  <ol class="steps run-steps">
+    <li><strong>Clone the repository</strong><code>git clone [repository link, to come]</code><div class="empty repo-empty"><b>Repository link to come.</b> The repository is not public yet; the link and the saved results the Archive is built from will be added when it is.</div></li>
+    <li><strong>Set up the environment</strong><code>python -m venv .venv</code><code>pip install -r requirements.txt</code></li>
+    <li><strong>Build the Archive</strong><code>python build_archive.py</code><span class="pending-step">The saved results it reads are to come with the public repo.</span></li>
+    <li><strong>Start the app</strong><code>streamlit run app.py</code></li>
+    <li><strong>For the assistant, install Ollama and pull the model</strong><code>ollama pull qwen3:8b</code><span>Without Ollama, search still works and the assistant is off.</span></li>
+  </ol>
+</section>
+
+<p class="fit closing fw-close"><a href="findings.html">Back to the Findings <span aria-hidden="true">&#8594;</span></a> · <a href="future-work.html">Future work <span aria-hidden="true">&#8594;</span></a></p>
+</main>
+</body>
+</html>

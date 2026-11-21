@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Classification, Routing and Validation | LocalRIM</title>
+<!-- Appendix 03. Content and captions unchanged. -->
+<link rel="stylesheet" href="assets/casefile.css?v=73">
+<link rel="stylesheet" href="assets/appendix.css?v=14">
+<script src="assets/site.js?v=40" defer></script>
+<script src="assets/review.js?v=11" defer></script>
+<script src="assets/review_final.js?v=13" defer></script>
+<script src="assets/casefile.js?v=20" defer></script>
+<link rel="stylesheet" href="assets/helper.css?v=5">
+<script src="assets/helper.js?v=10" defer></script>
+<script src="assets/charts-ui.js?v=9" defer></script>
+</head>
+<body class="appendix grid">
+<header class="wrap">
+  <div class="masthead">
+    <a class="brand" href="index.html">LocalRIM</a>
+    <nav aria-label="Site"><a href="index.html">Overview</a><a href="filing-system.html" aria-label="01 Intake"><span class="n">01</span><span class="long"> Intake</span></a><a href="reading.html" aria-label="02 Capture and Preparation"><span class="n">02</span><span class="long"> Capture</span></a><a href="review.html" aria-current="page" aria-label="03 Classification, Routing and Validation"><span class="n">03</span><span class="long"> Classification</span></a><a href="findings.html">Findings</a><a href="app.html">The app</a><a href="future-work.html">Future work</a><details class="nav-ref"><summary>Reference</summary><div><a href="dashboard.html">Project log</a><a href="toolkit.html">Toolkit</a></div></details><a class="nav-log" href="dashboard.html" aria-label="Project log">Log</a></nav>
+  </div>
+</header>
+<main class="review">
+<!-- Chapter opening on the grid: title across 12; introduction 7 + the stage at a glance 5; "In this chapter" as a band -->
+<div class="chapter-head g-title">
+  <div class="intro"><small>03 · Classification, Routing and Validation</small><h1>How accurately the pipeline files, and when it defers to a person</h1></div>
+</div>
+<div class="mgrid g-intro">
+  <div class="main">
+  <p class="deck">Using the text prepared in Capture, I compared two approaches to departmental classification: TF-IDF and sentence embeddings, each paired with logistic regression and calibrated confidence. The models were trained and validated using <span data-field="labels.valid"></span> manually labeled pages. The selected pipeline then used its confidence estimates to determine which pages qualified for automatic filing and which required human review. Its performance was evaluated once on <span data-field="final_test.pages"></span> separately labeled test pages, followed by a run on <span data-field="scale_run.pages"></span> new pages.</p>
+  <p class="byline">Classifier, review suggestions, final test and scale run, Nov 12, 2026 · decisions D-55 to D-64 · Figures 3.1–3.10 are cross-validated; Figures 3.11–3.12 are the one-time final test; Figures 3.13–3.14 are the scale run</p>
+  <p class="key-link"><a href="filing-system.html#key">How to read the figures</a></p>
+  </div>
+  <aside class="mcol">
+    <h3 class="g-tiles-h">The stage at a glance</h3>
+    <div data-chart="finalTiles" class="g-tiles"></div>
+  </aside>
+</div>
+<nav class="in-chapter grouped ic-band" aria-labelledby="ic-h"><h2 id="ic-h">In this chapter</h2><ol><li class="ic-part"><a href="#classification">Classification</a><ol><li><a href="#harder-test">Why classification is harder without organizational context</a></li><li><a href="#steps">How did classification performance change across models?</a></li><li><a href="#text">Which text should the classifier read?</a></li><li><a href="#ocr-effect">Did better OCR improve classification?</a></li><li><a href="#gains">Which departments benefited from sentence embeddings?</a></li><li><a href="#hesitation">Was classification less accurate on uncertain labels?</a></li><li><a href="#confusion">Which departments did the classifier confuse?</a></li></ol></li><li class="ic-part"><a href="#routing">Routing</a><ol><li><a href="#standard">How much could be filed automatically under the 90% target?</a></li><li><a href="#reviewer">What information accompanies a page sent for review?</a></li><li><a href="#suggestion">How accurate were retrieval-augmented review suggestions?</a></li></ol></li><li class="ic-part"><a href="#validation">Validation</a><ol><li><a href="#final-test">How did the pipeline perform on the final test?</a></li><li><a href="#scale">What happens to a box of new pages?</a></li></ol></li></ol></nav>
+
+<header class="part" id="classification">
+  <p class="kicker">Stage 4 of 6: Classification</p>
+  <h2 class="g-h2">Sentence embeddings led TF-IDF in cross-validation (macro F1 <span data-field="classifier.embeddings.hybrid.macro_f1" data-format="dec2"></span> vs <span data-field="classifier.tfidf.hybrid.macro_f1" data-format="dec2"></span>)</h2>
+  <div class="mgrid g-stack">
+  <div class="main">
+  <p class="standfirst">The classifiers were developed using <span data-field="labels.valid"></span> manually labeled pages and evaluated through stratified 5-fold cross-validation across six departments. The comparison included a majority-class baseline, a Bates-number probe, TF-IDF with logistic regression, and sentence embeddings with logistic regression.</p>
+  </div>
+  <aside class="mcol">
+    <dl class="mterm"><dt>TF-IDF</dt><dd>Represents documents using word frequencies weighted by how distinctive each term is across the dataset.</dd><dt>Sentence embeddings</dt><dd><span data-field="classifier.embedding.model"></span> represents document text as vectors that capture semantic similarity beyond exact word matches.</dd></dl>
+    <p class="built"><b>Built with</b> scikit-learn and Qwen3-Embedding-0.6B (sentence-transformers on PyTorch). <a href="toolkit.html">Full list in the Toolkit</a></p>
+    <div class="decisions mdec" data-decisions="D-59"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div></header>
+
+<section id="harder-test">
+  <h2 class="g-h2">Why classification is harder without organizational context</h2>
+  <div class="mgrid">
+  <div class="main">
+  
+  <p>In a typical records-management engagement, the filing structure and departmental responsibilities are established with the client, and records retain context such as their originating office, folder, or custodian. LocalRIM instead classifies individual first pages from a litigation archive, without much of that organizational information. The archive's arrangement reflects legal production rather than Philip Morris's original filing practices, making departmental classification more difficult than it would be with those contextual details available.</p>
+  <p>This approach is particularly relevant to unindexed legacy records, miscellaneous files, and scans whose original filing context is missing. LocalRIM evaluates whether some of these pages can be filed automatically while directing uncertain cases to a reviewer, rather than requiring every document to be examined manually.</p>
+  </div>
+  <aside class="mcol">
+    <aside class="archive-note" aria-label="From the archive"><p class="an-tag">From the archive</p><p class="an-lead">In 1993, Philip Morris required every employee to code each record they created or received:</p><blockquote><p>“…to be classified and coded in accordance with one of the record codes…”</p></blockquote><p class="an-ref">Philip Morris U.S.A., Records Management Manual, June 1993. <a href="https://www.industrydocuments.ucsf.edu/docs/pfwx0111" title="UCSF Industry Documents Library">UCSF library, pfwx0111</a></p></aside>
+    <div class="decisions mdec" data-decisions="D-56"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+  <h3>How the models were tested</h3>
+  <ol class="steps">
+    <li><strong>Stratified 5-fold cross-validation</strong><span>Each model was trained and evaluated across five fixed folds, stratified by department, with pages from the same archive box kept together (D-56). Each page was evaluated by a model that had not trained on it.</span></li>
+    <li><strong>Archive identifiers excluded</strong><span>Bates numbers and litigation stamps were removed from classifier input to limit reliance on information unrelated to the document's original purpose.</span></li>
+    <li><strong>Macro F1</strong><span>F1 scores were averaged equally across departments, preventing larger classes from dominating the overall result.</span></li>
+    <li class="key"><strong>Confidence cutoff selected during development</strong><span>Within cross-validation, the automatic-filing cutoff was chosen on the training folds only and applied to the held-out fold. The cutoff used on the final test was frozen beforehand.</span></li>
+  </ol>
+</section>
+
+<section id="steps">
+  <h2 class="g-h2">How did classification performance change across models?</h2>
+  <div class="mgrid g-stack">
+  <div class="main">
+  
+  <p class="muted">I compared classification approaches using macro F1 from stratified 5-fold cross-validation on the <span data-field="labels.valid"></span> development pages. The experiments included a Bates-number-only probe, TF-IDF, and sentence embeddings, measured against a majority-class baseline. The selected pipeline was subsequently evaluated on the separate final-test set (Figure 3.11).</p>
+  </div>
+  </div>
+  <figure class="research"><div data-chart="modelLadder"></div>
+    <p class="legend-def"><b>Floor:</b> a model that always guesses the largest department: the score to beat.</p>
+    <figcaption><b>Figure 3.1.</b> Sentence embeddings achieved the highest cross-validated macro F1 (<span data-field="classifier.embeddings.hybrid.macro_f1" data-format="dec2"></span>), compared with <span data-field="classifier.tfidf.hybrid.macro_f1" data-format="dec2"></span> for TF-IDF and <span data-field="classifier.tfidf.majority.macro_f1" data-format="dec2"></span> for the majority-class baseline. The Bates-number probe reached <span data-field="classifier.bates_probe.macro_f1" data-format="dec2"></span>, demonstrating that archive identifiers contain information associated with departmental labels. Removing those identifiers did not reduce the embedding classifier's performance (<span data-field="classifier.embeddings.hybrid_with_bates.macro_f1" data-format="dec2"></span> with identifiers versus <span data-field="classifier.embeddings.hybrid.macro_f1" data-format="dec2"></span> without). Lines show variation across the five folds.</figcaption></figure>
+</section>
+
+<div class="t-pair">
+  <section id="text">
+    <h2>Which text should the classifier read?</h2>
+    <p class="muted">Four OCR text variants were evaluated using the same TF-IDF classifier and fixed cross-validation folds (D-53). The selection rule, established in advance, specified that the highest-scoring variant would be adopted.</p>
+    <figure class="research"><div data-chart="textOptions"></div>
+      <figcaption><b>Figure 3.2.</b> The hybrid scored highest in cross-validation (macro F1 <span data-field="classifier.tfidf.hybrid.macro_f1"></span> versus <span data-field="classifier.tfidf.C.macro_f1"></span> for PaddleOCR alone) and was adopted under the predefined rule (D-57). The difference is too small to establish a meaningful improvement. The two texts differ on only <span data-field="classifier.hybrid_vs_paddle.text_differs" data-format="word"></span> of the <span data-field="classifier.hybrid_vs_paddle.pages"></span> development pages, and the predicted department changes on <span data-field="classifier.hybrid_vs_paddle.prediction_differs" data-format="word"></span>. Dots are individual folds; the tick marks their mean.</figcaption></figure>
+  </section>
+  <section id="ocr-effect">
+    <h2>Did better OCR improve classification?</h2>
+    <p class="muted">To examine how OCR quality affected classification, I evaluated both classifiers using the baseline Tesseract text and the selected OCR text, keeping the remaining modeling settings unchanged. This comparison addresses research question 3.</p>
+    <figure class="research"><div data-chart="ocrSlope"></div>
+      <figcaption><b>Figure 3.3.</b> Using the selected OCR text increased cross-validated macro F1 from <span data-field="classifier.embeddings.A.macro_f1" data-format="dec2"></span> to <span data-field="classifier.embeddings.hybrid.macro_f1" data-format="dec2"></span> for sentence embeddings and improved TF-IDF by approximately <span data-sum="classifier.tfidf.hybrid.macro_f1-classifier.tfidf.A.macro_f1" data-format="pts"></span> points. Both models also showed less variation across folds.</figcaption></figure>
+  </section>
+</div>
+
+<div class="t-pair">
+  <section id="gains">
+    <h2>Which departments benefited from sentence embeddings?</h2>
+    <p class="muted">Departmental classification depends partly on a document's purpose rather than its vocabulary alone. Under labeling rule R9, for example, an agency estimate for an advertising campaign belongs to Finance rather than Marketing because it concerns a financial transaction.</p>
+    <figure class="research"><div data-chart="deptGain"></div>
+      <div class="legend"><span><i style="background:var(--soft);border:1px solid var(--dusty-edge);border-radius:50%"></i>TF-IDF</span><span><i style="background:var(--deep);border-radius:50%"></i>Sentence embeddings</span></div>
+      <figcaption><b>Figure 3.4.</b> Finance showed the largest increase in F1 with sentence embeddings (<span data-sum="classifier.per_department.embeddings.FIN-classifier.per_department.tfidf.FIN" data-format="signed2"></span>), followed by Legal with Administration and records (<span data-sum="classifier.per_department.embeddings.LEG-classifier.per_department.tfidf.LEG" data-format="signed2"></span>). Corporate affairs showed a slight decrease (<span data-sum="classifier.per_department.embeddings.AFF-classifier.per_department.tfidf.AFF" data-format="signed2"></span>). The differences suggest that semantic representations were more useful for distinguishing some departments than others.</figcaption></figure>
+  </section>
+  <section id="hesitation">
+    <h2>Was classification less accurate on uncertain labels?</h2>
+    <p class="muted">During manual labeling, I marked each page as certain or uncertain. I then compared classifier accuracy between these groups to examine whether pages I found difficult to assign were also more likely to be classified incorrectly.</p>
+    <figure class="research"><div data-chart="certaintyGap"></div>
+      <div class="legend"><span><i style="background:var(--soft);border:1px solid var(--dusty-edge);border-radius:50%"></i>TF-IDF</span><span><i style="background:var(--deep);border-radius:50%"></i>Sentence embeddings</span></div>
+      <figcaption><b>Figure 3.5.</b> The sentence-embedding classifier was correct on <span data-field="classifier.certainty.embeddings.sure.accuracy" data-format="pct"></span> of pages labeled with certainty, compared with <span data-field="classifier.certainty.embeddings.unsure.accuracy" data-format="pct"></span> of those marked uncertain. Although uncertain labels accounted for <span data-field="classifier.certainty.embeddings.unsure.pages"></span> of the <span data-field="labels.valid"></span> development pages, they contributed disproportionately to classification errors.</figcaption></figure>
+  </section>
+</div>
+
+<section id="confusion">
+  <h2>Which departments did the classifier confuse?</h2>
+  <p class="muted fit">The confusion matrix compares the manually assigned department with the sentence-embedding classifier's prediction. Rows show the reference labels and columns show predicted departments. Correct predictions lie along the diagonal.</p>
+  <figure class="research"><div data-chart="confusion"></div>
+    <figcaption><b>Figure 3.6.</b> The largest classification errors involved Corporate affairs, Legal with Administration and records, and Marketing and sales. Several correspond to departmental overlaps recorded during manual labeling (Figure 1.6). Cell shading represents the proportion of pages within each reference department.</figcaption></figure>
+</section>
+
+<header class="part" id="routing">
+  <p class="kicker">Stage 5 of 6: Routing</p>
+  <h2 class="g-h2">Calibrated confidence determines which pages qualify for automatic filing</h2>
+  <div class="mgrid g-stack">
+  <div class="main">
+  <p class="standfirst">The routing stage uses calibrated confidence to determine which pages qualify for automatic filing. Pages below the selected cutoff are sent for human review with a ranked suggestion. The cutoff and the target accuracy were established before final testing.</p>
+  </div>
+  <aside class="mcol">
+    <dl class="mterm"><dt>Calibrated confidence</dt><dd>Confidence adjusted on held-out predictions so that, across many pages, a score of 0.9 corresponds to about 90% correct.</dd></dl><div class="g-keys g-key1"><div><b data-field="final_test.cutoff" data-format="dec2"></b><span>Calibrated confidence cutoff, frozen before final testing</span></div><!-- "20" is typed: a rule constant, not a number in site_data.json --><div><b>&lt;&nbsp;20</b><span>tokens: a page with fewer than 20 always goes to human review, regardless of confidence (a frozen setting, D-62)</span></div></div>
+    <p class="built"><b>Built with</b> scikit-learn's calibrated confidence and Qwen3 8B through Ollama. <a href="toolkit.html">Full list in the Toolkit</a></p>
+  </aside>
+  </div></header>
+
+<section id="standard">
+  <h2 class="g-h2">How much could be filed automatically under the 90% target?</h2>
+  <div class="mgrid g-stack">
+  <div class="main">
+  
+  <p class="muted">I evaluated the relationship between the confidence cutoff, the proportion of pages eligible for automatic filing, and the accuracy of those decisions. The target of <span data-field="final_test.target" data-format="pct"></span> accuracy was established before the routing experiments (D-58). The cutoff was selected using development data and frozen before the final test.</p>
+  </div>
+  <aside class="mcol">
+    <div class="decisions mdec" data-decisions="D-58"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+  <!-- Three cells in place of the lone 22%: fold cutoffs, the single 0.55 cutoff on the same predictions, the final test. All bound. -->
+  <ol class="cut-band" aria-label="Share filed automatically and accuracy, from cross-validation to the final test">
+    <li><small>Cross-validation, a cutoff chosen per fold</small><div class="n"><div><b data-share="classifier.routing.auto_filed/classifier.routing.pages"></b><span>filed</span></div><div><b data-field="classifier.routing.accuracy_auto_filed" data-format="pct"></b><span>right</span></div></div><p><span data-field="classifier.routing.auto_filed"></span> of <span data-field="classifier.routing.pages"></span> pages</p></li>
+    <li><small>The single cutoff frozen for the final test (<span data-field="final_test.cutoff" data-format="dec2"></span>), on the same predictions</small><div class="n"><div><b data-field="classifier.routing.curve_embeddings.5.coverage" data-format="pct"></b><span>filed</span></div><div><b data-field="classifier.routing.curve_embeddings.5.accuracy_auto_filed" data-format="pct"></b><span>right</span></div></div><p><span data-field="classifier.routing.curve_embeddings.5.auto_filed"></span> of <span data-field="classifier.routing.pages"></span> pages</p></li>
+    <li><small>Final test, <span data-field="final_test.pages"></span> pages never seen</small><div class="n"><div><b data-field="final_test.scores.auto_share.value" data-format="pct"></b><span>filed</span></div><div><b data-field="final_test.scores.auto_accuracy.value" data-format="pct"></b><span>right</span></div></div><p><span data-field="final_test.auto_filed"></span> pages filed (95% interval for accuracy <span data-field="final_test.scores.auto_accuracy.low" data-format="pct"></span>–<span data-field="final_test.scores.auto_accuracy.high" data-format="pct"></span>)</p></li>
+  </ol>
+  <p class="muted cut-note">Selecting a cutoff separately within each training fold produced <span data-share="classifier.routing.auto_filed/classifier.routing.pages"></span> automatic filing at <span data-field="classifier.routing.accuracy_auto_filed" data-format="pct"></span> accuracy. The single cutoff of <span data-field="final_test.cutoff" data-format="dec2"></span>, subsequently selected from the cross-validated predictions, would have filed <span data-field="classifier.routing.curve_embeddings.5.coverage" data-format="pct"></span> at <span data-field="classifier.routing.curve_embeddings.5.accuracy_auto_filed" data-format="pct"></span> accuracy on those predictions. The final model, trained on all <span data-field="classifier.routing.pages"></span> pages rather than four fifths of them, was more confident than the fold models, so more test pages cleared the cutoff. Applied unchanged to the final test, it qualified <span data-field="final_test.scores.auto_share.value" data-format="pct"></span> of pages for automatic filing, with <span data-field="final_test.scores.auto_accuracy.value" data-format="pct"></span> classified correctly.</p>
+  <figure class="fig" aria-labelledby="f-cut-t">
+    <p class="fig-title" id="f-cut-t"><span class="fig-n">Figure 3.7.</span> A higher cutoff files fewer pages, but files them more accurately</p>
+    <p class="fig-sub">Labeled pages, scored by cross-validation: share filed automatically, and accuracy of those pages, at each cutoff</p>
+    <span class="seg-label" id="model-label">Classifier</span>
+    <div class="seg" role="radiogroup" aria-labelledby="model-label" id="model-pick">
+      <button type="button" role="radio" aria-checked="true" data-model="embeddings">Embeddings</button>
+      <button type="button" role="radio" aria-checked="false" data-model="tfidf" tabindex="-1">TF-IDF</button>
+    </div>
+    <ul class="legend" aria-hidden="true">
+      <li><svg viewBox="0 0 13 13"><line x1="0" y1="6.5" x2="13" y2="6.5" stroke="var(--second)" stroke-width="2.5"/></svg>Accuracy of pages filed</li>
+      <li><svg viewBox="0 0 13 13"><line x1="0" y1="6.5" x2="13" y2="6.5" stroke="var(--filed)" stroke-width="2.5"/></svg>Share of pages filed automatically</li>
+      <li><svg viewBox="0 0 13 13"><line x1="0" y1="6.5" x2="13" y2="6.5" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="3 2"/></svg>Accuracy standard</li>
+    </ul>
+    <div class="chart" data-chart="cutoff" data-cf></div>
+    <div class="slider-wrap" id="cut-slider"><label for="cut" class="vh">Confidence cutoff</label><input type="range" id="cut" min="0" max="1" step="1" value="0"></div>
+    <p class="readout" id="cut-readout" aria-live="polite"></p>
+    <p class="fig-source">TF-IDF never reaches 90% at any cutoff, so it would send every page to a person. In cross-validation the cutoff was chosen within each training fold, never on the pages it scored: <span data-field="classifier.routing.auto_filed"></span> of <span data-field="classifier.routing.pages"></span> pages filed, <span data-field="classifier.routing.accuracy_auto_filed" data-format="pct"></span> of them right; in one fold no cutoff reached 90% on the training data, so that fold filed nothing. Source: LocalRIM cross-validation.</p>
+  </figure>
+  <figure class="research"><div data-chart="routingUnits"></div>
+    <div class="legend"><span><i style="background:var(--deep)"></i>Filed automatically, correct</span><span><i style="border:1.6px solid var(--accent)"></i>Filed automatically, wrong department</span><span><i style="background:var(--soft)"></i>Sent to a person</span></div>
+    <figcaption><b>Figure 3.8.</b> Cross-validation results shown for all <span data-field="classifier.routing.pages"></span> development pages: <span data-field="classifier.routing.auto_filed"></span> qualified for automatic filing, including <span data-sum="classifier.routing.auto_filed-classifier.routing.auto_correct"></span> assigned to the wrong department, while <span data-sum="classifier.routing.pages-classifier.routing.auto_filed"></span> were routed for review. Each prediction came from a fold in which the page was not used for training.</figcaption></figure>
+</section>
+
+<section id="reviewer">
+  <h2 class="g-h2">What information accompanies a page sent for review?</h2>
+  <div class="mgrid g-stack">
+  <div class="main">
+  
+  <p class="muted">Pages that do not qualify for automatic filing are sent for human review with a suggestion assembled like a records clerk's case file. LocalRIM uses retrieval-augmented generation to retrieve similar labeled records and relevant filing rules. Qwen3 8B, served locally through Ollama, uses that evidence to propose a department, series, and record type, along with a second choice, a brief explanation, and supporting sources. The documents remain on the local computer throughout processing.</p>
+  </div>
+  <aside class="mcol">
+    <dl class="mterm"><dt>RAG (retrieval-augmented generation)</dt><dd>Retrieval-augmented generation (RAG) uses relevant records and filing rules as supporting context for the model's suggestions.</dd></dl>
+    <div class="decisions mdec" data-decisions="D-60"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+  <figure class="fig" aria-labelledby="f-scheme-t">
+    <p class="fig-title" id="f-scheme-t"><span class="fig-n">Figure 3.9.</span> Each page sent to a person arrives with a ranked suggestion and the evidence behind it</p>
+    <p class="fig-sub">What a reviewer receives with one page; a schematic, with no page content shown</p>
+    <div class="chart" data-chart="scheme" data-cf></div>
+    <p class="fig-source">The model can only answer with record types that exist in the filing system, and the suggestion is written only for pages a person will see. Source: LocalRIM review pipeline.</p>
+  </figure>
+</section>
+
+<section id="suggestion">
+  <h2 class="g-h2">How accurate were retrieval-augmented review suggestions?</h2>
+  <div class="mgrid">
+  <div class="main">
+  
+  <p class="muted">I evaluated review suggestions on pages routed for human review during cross-validation. Each page was evaluated using a model that had not trained on it. Under the criterion established in advance (D-61), the retrieval-augmented suggestion was considered more accurate only if it identified the correct department more often than the classifier's first choice.</p>
+  </div>
+  <aside class="mcol">
+    <div class="decisions mdec" data-decisions="D-61"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+  <figure class="research"><div data-chart="ragLadder"></div>
+    <div class="legend"><span><i style="background:var(--deep);border-radius:50%"></i>Right first choice</span><span><i style="border:1.6px solid var(--dusty-edge);border-radius:50%"></i>Right within two choices</span></div>
+    <figcaption><b>Figure 3.10.</b> In cross-validation, the retrieval-augmented suggestion correctly identified the department on <span data-field="rag.approaches.3.top1" data-format="pct"></span> of the <span data-field="rag.review_pages"></span> pages routed for review, compared with <span data-field="rag.approaches.1.top1" data-format="pct"></span> for the classifier and <span data-field="rag.approaches.0.top1" data-format="pct"></span> for a vote among similar labeled pages. When the suggestion and classifier disagreed and only one was correct, the suggestion was correct on <span data-field="rag.paired_A.only_rag"></span> pages and the classifier on <span data-field="rag.paired_A.only_classifier"></span>.</figcaption></figure>
+</section>
+
+<header class="part" id="validation">
+  <p class="kicker">Stage 6 of 6: Validation</p>
+  <h2 class="g-h2">On <span data-field="final_test.pages"></span> unseen test pages, automatic filing reached <span data-field="final_test.scores.auto_accuracy.value" data-format="pct"></span> accuracy against the <span data-field="final_test.target" data-format="pct"></span> target</h2>
+  <div class="mgrid">
+  <div class="main">
+  <p class="standfirst">The pipeline was frozen before evaluation on <span data-field="final_test.pages"></span> test pages labeled without reference to model predictions. Sentence embeddings fell from <span data-field="classifier.embeddings.hybrid.macro_f1" data-format="dec2"></span> in cross-validation to <span data-field="final_test.scores.macro_f1.value" data-format="dec2"></span>, tying TF-IDF (<span data-field="final_test.scores.tfidf_macro_f1.value" data-format="dec2"></span>). Automatic filing reached <span data-field="final_test.scores.auto_accuracy.value" data-format="pct"></span> accuracy against the predefined <span data-field="final_test.target" data-format="pct"></span> target. After the single final evaluation, the pipeline was run end to end on <span data-field="scale_run.pages"></span> additional, unlabeled pages.</p>
+  </div>
+  <aside class="mcol">
+    <p class="built"><b>Built with</b> SciPy for the intervals; the whole pipeline on one PC. <a href="toolkit.html">Full list in the Toolkit</a></p>
+    <div class="decisions mdec" data-decisions="D-62"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div></header>
+
+<section id="final-test">
+  <h2 class="g-h2">How did the pipeline perform on the final test?</h2>
+  <div class="mgrid">
+  <div class="main">
+  
+  <p class="muted">After model selection and routing rules were finalized (D-62), I evaluated the pipeline once on <span data-field="final_test.pages"></span> separately labeled test pages that had not been used during development (D-63). Results are presented with 95% confidence intervals to show the uncertainty associated with the limited test sample.</p>
+  </div>
+  <aside class="mcol">
+    <div class="decisions mdec" data-decisions="D-63"><h3>Decisions behind this</h3></div>
+  </aside>
+  </div>
+  <figure class="research"><div data-chart="finalIntervals"></div>
+    <div class="legend"><span><i style="background:var(--deep);border-radius:50%"></i>Final test, with 95% interval</span><span><i style="border:1.5px dashed var(--ink);border-radius:50%"></i>Cross-validation</span><span><i style="background:var(--soft);border:1px solid var(--dusty-edge);border-radius:50%"></i>Classifier on the same pages</span><span><i style="border-top:2px dashed var(--muted);height:0"></i><span data-field="final_test.target" data-format="pct"></span> target</span></div>
+    <figcaption><b>Figure 3.11.</b> On the final test, retrieval-augmented suggestions were correct on <span data-field="final_test.rag.rag_top1" data-format="pct"></span> of pages routed for review, compared with <span data-field="final_test.rag.classifier_top1" data-format="pct"></span> for the classifier alone. Automatic filing achieved <span data-field="final_test.scores.auto_accuracy.value" data-format="pct"></span> accuracy against the <span data-field="final_test.target" data-format="pct"></span> target, although its 95% confidence interval included <span data-field="final_test.target" data-format="pct"></span>. Sentence embeddings and TF-IDF both reached macro F1 <span data-field="final_test.scores.macro_f1.value" data-format="dec2"></span>. The confidence cutoff remained unchanged after testing.</figcaption></figure>
+  <figure class="research"><div data-chart="testUnits"></div>
+    <div class="legend"><span><i style="background:var(--deep)"></i>Filed automatically, correct</span><span><i style="border:1.6px solid var(--accent)"></i>Filed automatically, wrong department</span><span><i style="background:var(--soft)"></i>Sent to a person</span><span><i style="border:1.5px dashed var(--muted)"></i>Unusable page, sent to a person</span></div>
+    <figcaption><b>Figure 3.12.</b> Of <span data-field="final_test.pages"></span> final-test pages, <span data-field="final_test.auto_filed"></span> qualified for automatic filing, including <span data-sum="final_test.auto_filed-final_test.auto_correct"></span> assigned to the wrong department. The remaining pages were routed for review. All <span data-field="final_test.excluded.pages" data-format="word"></span> unusable pages entered the review queue, <span data-field="final_test.excluded.by_token_rule" data-format="word"></span> through the rule requiring review of pages with fewer than 20 tokens.</figcaption></figure>
+</section>
+
+<section id="scale">
+  <h2 class="g-h2">What happens to a box of new pages?</h2>
+  <p class="muted">I ran the frozen pipeline on <span data-field="scale_run.pages"></span> previously unlabeled archive pages (D-64), the situation a client would actually face. Without reference labels, the number of incorrect automatic filings could only be projected from final-test accuracy. In a blind spot-check, I labeled <span data-sum="scale_run.spotcheck.checked+scale_run.spotcheck.excluded"></span> automatically filed pages; my label matched the model's on <span data-field="scale_run.spotcheck.agree"></span> of the <span data-field="scale_run.spotcheck.checked"></span> that could be judged.</p>
+  <!-- The "From the archive" note on 1994 box rules was removed here -->
+  <figure class="research"><div data-chart="scaleStrip"></div>
+    <figcaption><b>Figure 3.13.</b> Of <span data-field="scale_run.pages"></span> new pages, <span data-field="scale_run.auto_filed"></span> (<span data-share="scale_run.auto_filed/scale_run.pages"></span>) qualified for automatic filing and <span data-field="scale_run.to_a_person"></span> (<span data-share="scale_run.to_a_person/scale_run.pages"></span>) were routed for review. The confidence distributions were similar to the final test (quartiles <span data-field="scale_run.confidence_quartiles.0" data-format="dec2"></span>/<span data-field="scale_run.confidence_quartiles.1" data-format="dec2"></span>/<span data-field="scale_run.confidence_quartiles.2" data-format="dec2"></span> versus <span data-field="final_test.confidence_quartiles.0" data-format="dec2"></span>/<span data-field="final_test.confidence_quartiles.1" data-format="dec2"></span>/<span data-field="final_test.confidence_quartiles.2" data-format="dec2"></span>), with no obvious shift in model confidence. The number of incorrect automatic filings remains a projection based on final-test accuracy, not a measured count.</figcaption></figure>
+  <figure class="research"><div data-chart="scaleTime"></div>
+    <figcaption><b>Figure 3.14.</b> The complete pipeline processed <span data-field="scale_run.pages"></span> pages in approximately <span data-derived="scale-hours"></span> hours, averaging <span data-derived="scale-seconds"></span> seconds per page. Generating review suggestions accounted for the largest share of processing time and was performed only for pages routed to a person.</figcaption></figure>
+</section>
+
+<section class="g-close">
+  <h2 class="g-h2">What it adds up to</h2>
+  <p class="muted">These results answer three of the project's four research questions. The answers, what they would mean for a working records program, and the limits of the evidence are on the last page. <a href="findings.html">Findings <span aria-hidden="true">→</span></a></p>
+</section>
+</main>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <pattern id="hatch-legend" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="4" height="4" fill="var(--surface)"/><rect width="2" height="4" fill="var(--person)"/>
+    </pattern>
+  </defs>
+</svg>
+</body>
+</html>

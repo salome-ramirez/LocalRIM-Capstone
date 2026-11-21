@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The case file has moved | LocalRIM</title>
+<meta name="robots" content="noindex">
+<script>
+  (function () {
+    /* The Overview's stage panels were removed; each stage now forwards to its chapter */
+    var to = { intake: "filing-system.html", capture: "reading.html#capture", preparation: "reading.html#preparation",
+               classification: "review.html#classification", routing: "review.html#routing", validation: "review.html#validation" };
+    var old = { received: "intake", read: "capture", cleaned: "preparation", classified: "classification", routed: "routing", checked: "validation" };
+    var h = location.hash.slice(1); h = old[h] || h;
+    location.replace(to[h] || "index.html");
+  })();
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=index.html"></noscript>
+<link rel="stylesheet" href="assets/casefile.css?v=73">
+</head>
+<body>
+<main class="wrap"><p style="padding:3rem 0">The case file has moved: each stage is now a chapter, listed on the <a href="index.html">Overview</a>.</p></main>
+</body>
+</html>

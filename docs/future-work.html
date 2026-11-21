@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Future work | LocalRIM</title>
+<meta name="description" content="Where LocalRIM could go next: a version path from one PC to a client deployment, and what the next study would measure.">
+<!-- Future work.
+     Typed numbers: "8" (test pages under 20 tokens) and "20" (the token floor). 154 = final_test.pages + final_test.excluded.pages. -->
+<link rel="stylesheet" href="assets/casefile.css?v=73">
+<link rel="stylesheet" href="assets/appendix.css?v=14">
+<script src="assets/site.js?v=40" defer></script>
+<link rel="stylesheet" href="assets/helper.css?v=5">
+<script src="assets/helper.js?v=10" defer></script>
+<script src="assets/charts-ui.js?v=9" defer></script>
+</head>
+<body class="appendix future-page grid">
+<header class="wrap">
+  <div class="masthead">
+    <a class="brand" href="index.html">LocalRIM</a>
+    <nav aria-label="Site"><a href="index.html">Overview</a><a href="filing-system.html" aria-label="01 Intake"><span class="n">01</span><span class="long"> Intake</span></a><a href="reading.html" aria-label="02 Capture and Preparation"><span class="n">02</span><span class="long"> Capture</span></a><a href="review.html" aria-label="03 Classification, Routing and Validation"><span class="n">03</span><span class="long"> Classification</span></a><a href="findings.html">Findings</a><a href="app.html">The app</a><a href="future-work.html" aria-current="page">Future work</a><details class="nav-ref"><summary>Reference</summary><div><a href="dashboard.html">Project log</a><a href="toolkit.html">Toolkit</a></div></details><a class="nav-log" href="dashboard.html" aria-label="Project log">Log</a></nav>
+  </div>
+</header>
+<main>
+<div class="chapter-head g-title">
+  <div class="intro"><small>Future work</small><h1>The next stages of LocalRIM</h1>
+  <p class="deck fw-deck">LocalRIM was developed and evaluated as a single-user application running locally on public archive documents. The next stages would introduce private access and, eventually, deployment within a client's own environment. Further research would examine the limitations identified in this project, including the use of document layout, classification from complete documents, and the effect of suggestions on human review.</p></div>
+</div>
+
+<!-- Copy . Roadmap 5 + research priorities 7, sharing a top under one rule; stacked below 1120 px -->
+<div class="fw-grid">
+  <section class="fw-path" id="versions" aria-labelledby="v-h">
+    <h2 id="v-h" class="fw-h">Development roadmap</h2>
+    <ol class="vpath">
+      <li><span class="v">V1</span><div><h3>LocalRIM — the completed application</h3><p>A single-user application that runs locally on public Philip Morris records. It combines document reading, classification, archive search, question answering, Intake approval and the Review queue. It is shown through the walkthrough video and the repository, and its classification and routing performance is documented in the preceding chapters.</p></div></li>
+      <li><span class="v">V2</span><div><h3>Private access and shared records</h3><p>The next version would add authenticated private access, a shared records database and permissions based on user roles. A guest account could search and read records but not upload, classify or approve filings. Encryption, access controls and an audit trail would protect the records and record each user's changes.</p></div></li>
+      <li><span class="v">V3</span><div><h3>Deployment within a client's environment</h3><p>A client deployment would run within the organization's own infrastructure and connect to its existing document systems. Records could enter the filing workflow directly, with review tasks assigned to named staff and tracked in individual work queues, and every decision and correction recorded in an audit trail.</p>
+        <p>The taxonomy and filing rules would be confirmed with the client, and the confidence cutoff recalibrated on its own reviewed records. Record types would become final only under the organization's approved classification procedures.</p></div></li>
+    </ol>
+  </section>
+
+  <section class="fw-research" id="research" aria-labelledby="r-h">
+    <h2 id="r-h" class="fw-h">Research priorities</h2>
+    <!-- "20" is a rule setting (typed); 154, 8, 60 and 28 are bound -->
+    <ol class="fw-list">
+      <li><h3>Can document layout improve classification?</h3><p>Compare text-only classification with models that also use word positions and page structure, testing whether layout improves departmental classification and can separate document types such as forms, invoices, letters and reports.</p><p class="behind">Originally the project's second research question, moved to future work as the classification evaluation took priority. PaddleOCR saved the position of every word on every page (D-50), so the experiment can start from the existing data.</p></li>
+      <li><h3>Does reading the complete document improve classification?</h3><p>LocalRIM evaluated only the first page of each document (D-54). The next experiment would compare first-page classification with methods that combine information across all pages, at the department, series and record-type levels.</p><p class="behind">A first page such as a cover sheet or folder tab may say little about a document's purpose: of the <span data-sum="final_test.pages+final_test.excluded.pages"></span> reviewed final-test pages, <span data-field="final_test.under_20_tokens.pages"></span> had fewer than 20 tokens.</p></li>
+      <li><h3>Do review suggestions improve human filing decisions?</h3><p>Evaluate the Review queue with records staff, comparing decisions made with and without retrieval-augmented suggestions. Measure accuracy, time per record, agreement between reviewers, and how often an incorrect suggestion is accepted.</p><p class="behind">This project scored suggestions against my labels; it did not test their effect on the people doing the review.</p></li>
+      <li><h3>Can scan-specific processing improve reading and filing?</h3><p>Test different image preparation and OCR methods for each scan-quality group, chosen from each page's scan profile and judged first by transcription accuracy and then by classification performance.</p><p class="behind">Here, GLM-OCR re-read the <span data-field="ocr.engines.text_options.hybrid_from_D"></span> pages in the three difficult scan groups. That hybrid was adopted under the rule set in advance, but its cross-validation lead was too small to establish a meaningful improvement.</p></li>
+      <li><h3>How reliably does the archive assistant answer from filed records?</h3><p>Expand the question set and assess retrieval, citation and answer support separately, across question types, incomplete evidence and questions the Archive cannot answer.</p><p class="behind">This project checked <span data-field="archive_check.answerable"></span> answerable questions; a larger study is needed to establish reliability across kinds of request.</p></li>
+    </ol>
+  </section>
+</div>
+
+<!-- Further possibilities: three compact columns of 4 under one rule; stacked below 1120 px -->
+<section class="fw-more" id="possible" aria-labelledby="p-h">
+  <h2 id="p-h" class="fw-h">Further development possibilities</h2>
+  <div class="fw-cols">
+    <div><h3>Records governance and retention</h3><p>Suggest record types from similar filed records and the taxonomy rules, not only departments. The assistant could look up retention requirements in the client's schedules, find related records for a legal hold, and flag likely duplicates. Each would need its own evaluation, and would support records staff rather than make disposition decisions automatically.</p></div>
+    <div><h3>Learning from reviewer decisions</h3><p>Newly filed records could become examples for similarity search without retraining the classifier, and reviewer corrections could be collected as labels for later evaluation. Any retraining would be validated before an updated model is adopted.</p></div>
+    <div><h3>Other applications to explore</h3><p>Drafting documents from approved templates and filed examples; email and office-file formats; a timeline of the archive; other UCSF collections. Each would need its own data-handling rules and evaluation, especially where generated text could be mistaken for an approved record.</p></div>
+  </div>
+</section>
+
+<!-- Closing: the question 5 + its two paragraphs 7; stacked below 1120 px -->
+<section class="fw-end" id="transfer" aria-labelledby="t-h">
+  <h2 id="t-h">Can the pipeline transfer when the taxonomy cannot?</h2>
+  <div class="fw-end-text">
+    <p>The project began with a general taxonomy tested on documents from several companies. It proved unsuitable because each company organized its records differently, making it difficult to apply one set of categories consistently. Focusing on Philip Morris made a consistent taxonomy possible, but it also limits what this evaluation can say about other organizations.</p>
+    <p>The open question is whether LocalRIM's pipeline (reading, retrieval, classification and review) can be adapted to another organization by replacing its taxonomy, filing rules and labeled examples, while the taxonomy stays specific to that client. Answering it would show which parts of the system can be reused, which must be redesigned, and how many new labels are needed for reliable performance, judged on that organization's own records.</p>
+  </div>
+</section>
+
+<p class="fit closing fw-close"><a href="findings.html">Back to the Findings <span aria-hidden="true">→</span></a> · <a href="index.html">The Overview <span aria-hidden="true">→</span></a></p>
+</main>
+</body>
+</html>

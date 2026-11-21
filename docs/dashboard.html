@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project log | LocalRIM</title>
+<!-- Project log on the 12-column grid. Wording;
+     the decision log is grouped by the "stage" field in site_data.json. -->
+<link rel="stylesheet" href="assets/casefile.css?v=73">
+<link rel="stylesheet" href="assets/appendix.css?v=14">
+<script src="assets/site.js?v=40" defer></script>
+<script src="assets/fileindex.js?v=4" defer></script>
+<link rel="stylesheet" href="assets/helper.css?v=5">
+<script src="assets/helper.js?v=10" defer></script>
+<script src="assets/charts-ui.js?v=9" defer></script>
+</head>
+<body class="appendix log-page grid">
+<header class="wrap">
+  <div class="masthead">
+    <a class="brand" href="index.html">LocalRIM</a>
+    <nav aria-label="Site"><a href="index.html">Overview</a><a href="filing-system.html" aria-label="01 Intake"><span class="n">01</span><span class="long"> Intake</span></a><a href="reading.html" aria-label="02 Capture and Preparation"><span class="n">02</span><span class="long"> Capture</span></a><a href="review.html" aria-label="03 Classification, Routing and Validation"><span class="n">03</span><span class="long"> Classification</span></a><a href="findings.html">Findings</a><a href="app.html">The app</a><a href="future-work.html">Future work</a><details class="nav-ref"><summary class="is-current">Reference</summary><div><a href="dashboard.html" aria-current="page">Project log</a><a href="toolkit.html">Toolkit</a></div></details><a class="nav-log" href="dashboard.html" aria-current="page" aria-label="Project log">Log</a></nav>
+  </div>
+</header>
+<main>
+<!-- Opening on the grid: title across 12; quote, standfirst and byline 7 + the three status tiles 5; "On this page" as a band -->
+<div class="chapter-head g-title">
+  <div class="intro"><small>Reference</small><h1>Project log: decisions and development</h1></div>
+</div>
+<div class="mgrid g-intro">
+  <div class="main">
+  <blockquote>I've fed millions of records through a scanner, each batch guided by a barcode someone had to assign by hand. This project asks a simpler question: what if the system could read the page and file it itself, and know when to ask for help?</blockquote>
+  <p class="deck">This log documents the decisions made across LocalRIM's six completed stages. Each entry records what was decided, why, and which part of the project it shaped.</p>
+  <p class="byline">Salome Ramirez · M.S. Data Science capstone: LocalRIM · <span data-updated="dev-final"></span></p>
+  </div>
+  <aside class="mcol">
+    <div class="tiles log-tiles">
+      <div><strong><span data-field="labels.valid"></span> of <span data-field="labels.target"></span></strong><small>Development labels completed</small><span><span data-field="labels.reviewed"></span> reviewed from the <span data-field="sample.labeling_pool"></span>-document labeling pool</span></div>
+      <div><strong data-field="labels.uncertain_share" data-format="pct"></strong><small>Development labels marked uncertain</small><span>Earlier pilots: <span data-field="taxonomy.skims.0.unsure" data-format="pct"></span> with generic categories, then <span data-field="taxonomy.skims.1.unsure" data-format="pct"></span> with Philip Morris departments</span></div>
+      <div><strong data-field="deadline" data-format="date"></strong><small>Due</small><span>Final capstone submission</span></div>
+    </div>
+  </aside>
+</div>
+<nav class="in-chapter ic-band log-band" aria-labelledby="ic-h"><h2 id="ic-h">On this page</h2><ol><li><a href="#glance">Stage status</a></li><li><a href="#log">Decision log</a></li><li><a href="#route">The six stages of LocalRIM</a></li></ol></nav>
+
+<section id="glance">
+  <h2 class="g-h2">All six stages completed, from sampling to final validation</h2>
+  <h3>Completion record</h3>
+  <!-- The strip's texts and statuses come from build_site_data.py (pipeline); every stage done since -->
+  <ol class="pipeline" data-chart="pipeline"></ol>
+  <h3>How the <span data-field="sample.labeling_pool"></span>-document labeling pool was used</h3>
+  <figure class="research"><div data-chart="batches"></div>
+    <div class="legend"><span><i style="background:var(--filed)"></i>Labeled, certain</span><span><i class="hatch"></i>Labeled, uncertain</span><span><i style="background:var(--other)"></i>Excluded</span><span><i style="background:var(--surface);border:1.5px solid var(--muted)"></i>Skipped (scan failed to download)</span><span><i style="outline:1px dashed var(--rule)"></i>Not reviewed</span></div>
+    <figcaption><b>Figure 0.</b> The first <span data-field="sample.labeling_pool"></span> documents in the random sample formed the development labeling pool, in batches of 100. Labeling stopped once <span data-field="labels.valid"></span> valid labels had been reached, after <span data-field="labels.reviewed"></span> documents were reviewed; <span data-field="labels.excluded"></span> were excluded for recorded reasons, and <span data-field="labels.skipped"></span> were skipped because their scans could not be retrieved (D-40). The rest of the sample is <span data-derived="sample-replacements" data-format="word"></span> replacements for failed downloads and the separate <span data-field="scale_run.pages"></span>-document scale batch, from which <span data-field="final_test.pages"></span> pages were labeled blind for the final test.</figcaption></figure>
+</section>
+
+<section id="log">
+  <h2 class="g-h2">Decision log</h2>
+  <div class="mgrid">
+  <div class="main">
+  <p class="muted">Decisions are organized by the stage they informed. Two are shown for each stage; expand a stage to see the rest, and open a decision to read its reason.</p>
+  <div class="log-tools"><button type="button" id="log-open-all" aria-pressed="false">Open all</button><span id="log-count"></span></div>
+  </div>
+  <aside class="mcol">
+    <nav class="in-chapter" aria-labelledby="lj-h"><h3 id="lj-h" class="g-tiles-h">Jump to a stage</h3><ol><li><a href="#log-sample">Sample</a></li><li><a href="#log-labels">Labels and filing system</a></li><li><a href="#log-ocr">Reading the pages (OCR)</a></li><li><a href="#log-classifier">Classifier</a></li><li><a href="#log-routing">Routing and review suggestion</a></li><li><a href="#log-final">Final test and scale run</a></li></ol></nav>
+  </aside>
+  </div>
+  <div id="log-stages"></div>
+</section>
+
+<section class="pipeline-summary" id="route">
+  <h2 class="g-h2">The six stages of LocalRIM</h2>
+  <p class="fit">Each stage links to the chapter documenting its methods and results.</p>
+  <ol class="route-links">
+    <li><a href="filing-system.html"><span class="step">Stage 1</span><span class="name">Intake</span><span class="what">Sampling, taxonomy and manual labels</span></a></li>
+    <li><a href="reading.html#capture"><span class="step">Stage 2</span><span class="name">Capture</span><span class="what">OCR evaluation and engine selection</span></a></li>
+    <li><a href="reading.html#preparation"><span class="step">Stage 3</span><span class="name">Preparation</span><span class="what">Page orientation and archive identifiers</span></a></li>
+    <li><a href="review.html#classification"><span class="step">Stage 4</span><span class="name">Classification</span><span class="what">Classification models and evaluation</span></a></li>
+    <li><a href="review.html#routing"><span class="step">Stage 5</span><span class="name">Routing</span><span class="what">The <span data-field="final_test.cutoff" data-format="dec2"></span> cutoff, the 90% target and review suggestions</span></a></li>
+    <li><a href="review.html#validation"><span class="step">Stage 6</span><span class="name">Validation</span><span class="what">Blind final test and <span data-field="scale_run.pages"></span>-page scale run</span></a></li>
+  </ol>
+</section>
+</main>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <pattern id="hatch-legend" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="4" height="4" fill="var(--surface)"/><rect width="2" height="4" fill="var(--person)"/>
+    </pattern>
+  </defs>
+</svg>
+</body>
+</html>
