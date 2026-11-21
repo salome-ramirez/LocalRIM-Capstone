@@ -1,0 +1,73 @@
+x1	y1	x2	y2	conf	text
+906.0	119.0	1275.0	203.0	100.0	***Sample***
+589.0	178.0	1480.0	267.0	99.3	***Price Increase Rebate Program
+1460.0	188.0	1544.0	225.0	99.2	***
+1665.0	180.0	1955.0	221.0	99.9	Attachment 1
+288.0	245.0	1939.0	292.0	98.0	Philip Morris USA - Promotional Calendar and Rétailer Understanding Form
+205.0	291.0	841.0	334.0	99.8	Account Name Bedford Falls Convenience
+1317.0	287.0	1452.0	325.0	100.0	876543
+929.0	295.0	1278.0	331.0	99.8	Retail Control Number
+1566.0	287.0	1972.0	335.0	97.8	Period 1/19/98 - 1/25/98
+737.0	368.0	853.0	411.0	100.0	Weeks
+878.0	372.0	1003.0	408.0	95.0	1/19 - 1/25
+414.0	412.0	612.0	468.0	100.0	Marlboro
+215.0	438.0	308.0	470.0	100.0	Brand
+218.0	470.0	732.0	509.0	96.6	Pack: PM allowance 25 Retailer's price ≤
+738.0	464.0	822.0	506.0	99.4	$1.99
+220.0	501.0	823.0	554.0	94.4	Ctn.: PM allowance 254, Retailer's price ≤$17.99
+205.0	555.0	322.0	589.0	100.0	POS Item
+650.0	556.0	766.0	587.0	99.9	POS Item
+1087.0	559.0	1204.0	587.0	99.9	POS Item
+1531.0	565.0	1660.0	593.0	100.0	Comments
+206.0	592.0	309.0	624.0	100.0	Location
+651.0	594.0	753.0	623.0	100.0	Location
+1087.0	593.0	1191.0	624.0	100.0	Location
+226.0	673.0	660.0	704.0	98.7	Flex, if available, for Marlboro
+222.0	708.0	732.0	743.0	96.1	Pack: PM allowance _, Retailer's price ≤
+227.0	741.0	731.0	780.0	95.6	Ctn.: PM allowance ____, Retailer's price ≤
+208.0	792.0	323.0	824.0	99.6	POS Item
+653.0	793.0	767.0	823.0	99.9	POS Item
+1101.0	795.0	1218.0	826.0	99.9	POS Item
+1507.0	790.0	1527.0	864.0	49.4	.
+1531.0	801.0	1660.0	829.0	100.0	Comments
+209.0	830.0	310.0	858.0	100.0	Location
+652.0	832.0	753.0	857.0	100.0	Location
+1100.0	834.0	1203.0	862.0	100.0	Location
+458.0	905.0	555.0	949.0	100.0	Basic
+219.0	921.0	313.0	954.0	100.0	Brand
+213.0	950.0	731.0	993.0	95.9	Pack: PM allowanceRetailer's price ≤
+742.0	947.0	826.0	987.0	99.5	$1.69
+223.0	994.0	729.0	1026.0	98.5	Ctn.: PM allowance25, Retailer's price ≤
+730.0	984.0	831.0	1025.0	99.6	$12.99
+213.0	1038.0	328.0	1069.0	100.0	POS Item
+655.0	1041.0	770.0	1069.0	100.0	POS Item
+1091.0	1040.0	1208.0	1068.0	99.9	POS Item
+1533.0	1047.0	1662.0	1075.0	100.0	Comments
+214.0	1076.0	315.0	1105.0	100.0	Location
+656.0	1077.0	757.0	1105.0	100.0	Location
+1091.0	1075.0	1196.0	1106.0	100.0	Location
+214.0	1166.0	308.0	1199.0	100.0	Brand
+219.0	1204.0	498.0	1236.0	95.3	Pack: PM allowance
+509.0	1203.0	729.0	1238.0	98.6	_, Retailer's price ≤
+219.0	1239.0	459.0	1270.0	99.9	Ctn.: PM allowance
+489.0	1239.0	720.0	1273.0	97.4	_, Retailer's price ≤
+203.0	1280.0	321.0	1315.0	99.9	POS Item
+649.0	1282.0	765.0	1314.0	100.0	POS Item
+1086.0	1282.0	1203.0	1313.0	99.9	POS Item
+1530.0	1290.0	1660.0	1317.0	100.0	Comments
+204.0	1316.0	308.0	1351.0	100.0	Location
+649.0	1318.0	753.0	1350.0	100.0	Location
+1086.0	1319.0	1190.0	1348.0	100.0	Location
+1074.0	1364.0	2017.0	1392.0	99.1	I understand the elements of the promotional programs described above and
+215.0	1379.0	802.0	1411.0	100.0	See reverse for details of promotional programs
+1075.0	1395.0	1570.0	1423.0	100.0	on the reverse side and I will participate.
+207.0	1422.0	588.0	1452.0	97.5	PM USA Territon Sales Manager
+629.0	1440.0	778.0	1483.0	92.1	01/19/98
+1265.0	1436.0	1661.0	1488.0	99.8	Clarence Oddbody, Date
+1651.0	1435.0	1801.0	1481.0	97.5	01/19/98
+222.0	1448.0	626.0	1490.0	97.4	George Bailey , Date
+1143.0	1448.0	1254.0	1487.0	100.0	Retailer
+402.0	1489.0	635.0	1529.0	99.7	George Bailey
+199.0	1499.0	331.0	1530.0	100.0	Print Name
+1136.0	1489.0	1689.0	1532.0	99.5	Print Name Clarence Oddbody AS 2
+124.0	1544.0	333.0	1583.0	100.0	2072984151

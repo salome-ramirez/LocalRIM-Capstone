@@ -1,0 +1,95 @@
+{
+ "engine": "C",
+ "name": "PaddleOCR, original resolution",
+ "pages_expected": 1400,
+ "pages_read": 1400,
+ "empty_pages": 2,
+ "tokens_median": 153.0,
+ "tokens_p10": 27,
+ "tokens_p90": 400,
+ "wordlike_share_median": 0.761,
+ "pages_mostly_junk": 211,
+ "pages_with_bates_like_token": 1287,
+ "pages_with_own_bates_found": 1224,
+ "pages_with_footer_left": 0,
+ "conf_median": 97.7,
+ "pages_under_60_conf": 9,
+ "seconds_mean": 0.98,
+ "seconds_total_min": 22.9,
+ "by_group": {
+  "1": {
+   "pages": 873,
+   "tokens_median": 114.0,
+   "wordlike_share_median": 0.736,
+   "empty_pages": 2
+  },
+  "2": {
+   "pages": 5,
+   "tokens_median": 41.0,
+   "wordlike_share_median": 0.796,
+   "empty_pages": 0
+  },
+  "3a": {
+   "pages": 20,
+   "tokens_median": 21.5,
+   "wordlike_share_median": 0.6819999999999999,
+   "empty_pages": 0
+  },
+  "3b": {
+   "pages": 35,
+   "tokens_median": 56.0,
+   "wordlike_share_median": 0.76,
+   "empty_pages": 0
+  },
+  "4": {
+   "pages": 467,
+   "tokens_median": 298.0,
+   "wordlike_share_median": 0.825,
+   "empty_pages": 0
+  }
+ },
+ "by_department": {
+  "ADM": {
+   "pages": 26,
+   "tokens_median": 70.5,
+   "wordlike_share_median": 0.7015,
+   "empty_pages": 0
+  },
+  "AFF": {
+   "pages": 44,
+   "tokens_median": 250.0,
+   "wordlike_share_median": 0.8765000000000001,
+   "empty_pages": 0
+  },
+  "FIN": {
+   "pages": 21,
+   "tokens_median": 139.0,
+   "wordlike_share_median": 0.681,
+   "empty_pages": 0
+  },
+  "LEG": {
+   "pages": 19,
+   "tokens_median": 181.0,
+   "wordlike_share_median": 0.751,
+   "empty_pages": 0
+  },
+  "MKT": {
+   "pages": 65,
+   "tokens_median": 210.0,
+   "wordlike_share_median": 0.782,
+   "empty_pages": 0
+  },
+  "QSH": {
+   "pages": 20,
+   "tokens_median": 178.0,
+   "wordlike_share_median": 0.6565000000000001,
+   "empty_pages": 0
+  },
+  "RND": {
+   "pages": 55,
+   "tokens_median": 172.0,
+   "wordlike_share_median": 0.748,
+   "empty_pages": 0
+  }
+ }
+}

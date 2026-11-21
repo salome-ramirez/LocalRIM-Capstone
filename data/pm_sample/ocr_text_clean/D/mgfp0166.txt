@@ -1,0 +1,17 @@
+1-ProJ-A
+RAWSIT.XLS
+
+Start date Problem Evidence Objective Team Acct.
+
+4/1/93 No method currently exists Numerous C&I efforts Develop a S. Scott B. Estes
+to track raw materials have stalled system to track D. Ampey
+from origin through due to inability raw materials from D. Orms
+the RL Process resulting to investigate Recelving D. Stephenson
+in an inability to define raw material through the process E. Bass
+raw material causes to related causes R. Garg
+process variation C. Rustin
+B. Glovenco
+L. Jennings (Res.)
+B. Perkinson (Res.)
+BI FL Operatpr (Res)
+Rec. Checker (res.)

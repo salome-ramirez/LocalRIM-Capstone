@@ -1,0 +1,34 @@
+RCV BY: xEROx TELECOPIER 7211 ; 7-14-92 4:07PM 5 CCITT Gas : 60294103453 # 2
+* yDuLv13 792 16:26 BARRY’ BONE GP 415 587 2952 SF CA FRB
+12.
+14,
+(D0 NOT ASK IF RESPONDENT ANSWERED "16" TO Q 1+ INSTEAD, SKIP
+TO Q. 19) You said your raguiar orand of cigarettes is (READ COMPLETE
+NAME FROM Q's. 7 THROUGH 11), How long have you been smoking this
+exact brand and type of cigaretia?
+a Three manins or lass
+D Morg than three months, up 10 six manths
+a More than six months, up 10 one year
+© More than one year (SKIP TO Q. 19) +2202
+Before you stated smoking (READ COMPLETE NAME), were you smoking a
+different type of (READ BRAND FAMILY NAME), or an antirely different brand of
+cigarettas?
+a A diferent type of BRAND FAMILY NAME
+(SKIP TO Q. 15 AND OPEN BRAND 800K TO THE PAGE WITH THE
+SRAND FAMILY NAME FROM Q, 7 TO ENSURE THAT RESPONDENT
+ANSWERS SUBSEQUENT QUESTIONS CORRECTLY.)
+b An entirely different brand
+¢ Don't know (TRY TO CLARIFY -- IF RESPONDENT DOES NOT
+UNDERSTAND, THANK AND TERMINATE, IF CURRENT, COMPLETE
+BRAND IS ONLY 8RAND EVER SMOKED, RESPONDENT IS ELIGIBLE «
+SKIP TO Q.-)
+What was your regular brand of cigarettes before you switchied to (READ
+COMPLETE NAME FROM Q's, 7 througn 11)?
+a,
+(WRITE IN)
+b. No regular prand
+6. Don't knaw
+Was that a filter of non-fiter cigarette?
+1. Filter
+2. Non-filter
+plyg0gcv0e

@@ -1,0 +1,47 @@
+` DEC09 '94 1i :22RP1 PHILIP MORRIS R&DT7 F .Si
+Philip Morria USA CONFIDENTIAL
+FILE 'MEDLINE' ENTERED AT 08:68:12 ON 07 DEC 94
+FILE LAST UPDATED: 31 OCT 1994 (941031/UP) . FILE COVERS 1968 TO
+DATE .
+II
+L4 ANSWER1 OF 6 MEDLIN'E
+AN 94291523 MEDLINE
+TI [ "'Guar"' gum ""allergy"' ). Guarkumiallergla .
+AU Raltala R ;, Kalimo K
+CS Turun Seudun, Allerglakeskus, Turku, Finland .
+SO Duodecim, (1990) 106 (10) 829-30 . Journal code : EDD . ISSN ; 0012-7183 .
+CY Finland
+DT Journal ; Article; (JOURNAL ARTICLE)
+LA Finnish
+EM 9410
+CT Check Tags : Case Report ; Female; Human Caliac Disease; DH,, diet
+therapy Flour : AE, adverse effecta Food Hypersensitivity : Dl, dlagnosis'Food
+Hypersensitlvity : ET, etiology'Gaiactana : AE, adverse effects Gluten'Mannans :
+AE, adverse effects Middle Age Skin Tests,
+RN 8002-80-0 (Gluten); 9000-30-0 ( "'guar"° gum)
+CN 0 (Galactans) ; 0 (Mannans)
+L4 ANSWER 2 OF 6 MEDLINE
+AN 92354393 MEDLINE
+TI Validation of an exposure system to particles for the diagnosis of
+occupational asthma .
+AU Cloutler Y; Lagier F; Cartler A ; Malo JL
+CS Institut de recherche en sante et securite du travail, H opital du Sacre-
+Coeur, Montreal, Canada .
+SO Chest, (1992 Aug) 102 (2) 402-7 . Journal code: 01C. ISSN: 0012-3892 .
+CY United States
+DT Journal;, Article ; (JOURNAL ARTICLE)
+LA English
+FS Abridged Index Medicus Journals ; Priority Journals ; Cancer Journals
+EM 9211
+AB STUDY O6JECTIVE ; We previouslydeacribed a closed-circuit system for
+exposure to particles In humans . This system has three components : a particle
+generator, an exposure chamber connected to an orofaclaU mask, and monitors .
+We describe results of challenges In 5® subjects who underwent challenges with
+the apparatus using occupational sensitizers In particles . SUBJECTS : Fifty-slx
+consecutive subjects referred for the Investlgatlon of occupational asthma to
+occupational sensitizers in particles were Included . The agents were the
+following: flour and grains (n = 19), cedar (n - 10), psyllium (n = 9), '•'guar"
+gum (n - 9), drugs (n = 3), peraulfate (n - 2), and'miscellaneous (n = 4) .
+INTERVENTION: The duratlon of exposure was progressive and varied from one
+breath to a maximum of 180 min depending on the reactlon. When no significant
+2

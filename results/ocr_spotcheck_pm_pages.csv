@@ -1,0 +1,23 @@
+id,position,why_picked,ocr_conf,words,function_id,image,group,group_name
+hzwf0006,1114,Confidence under 40,0.0,0.0,,images/hzwf0006.png,4,"Clean reports, forms, tables"
+jqjf0028,366,Confidence 40-60,46.2,111.0,,images/jqjf0028.png,1,Clean typed files
+mpwy0004,1233,Confidence 40-60,50.5,2.0,,images/mpwy0004.png,4,"Clean reports, forms, tables"
+lhkp0166,220,"Quality & Safety, under 60",55.0,4.0,QSH,images/lhkp0166.png,4,"Clean reports, forms, tables"
+pxdg0001,30,Confidence 60-75,61.3,11.0,MKT,images/pxdg0001.png,4,"Clean reports, forms, tables"
+ppvn0086,47,"Quality & Safety, 60-85",61.8,101.0,QSH,images/ppvn0086.png,1,Clean typed files
+mnpp0120,215,German page,75.6,38.0,RND,images/mnpp0120.png,1,Clean typed files
+hnxd0092,1017,Confidence 75-85,77.5,75.0,,images/hnxd0092.png,1,Clean typed files
+yrhg0108,374,Confidence 85 and up,88.6,35.0,,images/yrhg0108.png,1,Clean typed files
+zfpp0052,480,Confidence 85 and up,93.7,145.0,,images/zfpp0052.png,1,Clean typed files
+msgy0003,292,Added for group 2 (Photographic ads),,,,,2,Photographic ads
+zykg0006,720,Added for group 2 (Photographic ads),,,,,2,Photographic ads
+fjhn0003,600,Added for group 2 (Photographic ads),,,,,2,Photographic ads
+jhmn0003,1310,Added for group 2 (Photographic ads),,,,,2,Photographic ads
+gzkm0105,1225,Added for group 3a (Degraded scans),,,,,3a,Degraded scans
+ltwj0179,1132,Added for group 3a (Degraded scans),,,,,3a,Degraded scans
+khhj0109,833,Added for group 3a (Degraded scans),,,,,3a,Degraded scans
+lxdd0115,255,Added for group 3a (Degraded scans),,,,,3a,Degraded scans
+lpbw0090,665,Added for group 3b (Graphics and clippings),,,,,3b,Graphics and clippings
+qzwx0020,1160,Added for group 3b (Graphics and clippings),,,,,3b,Graphics and clippings
+mzpv0017,1100,Added for group 3b (Graphics and clippings),,,,,3b,Graphics and clippings
+nqvm0121,692,Added for group 3b (Graphics and clippings),,,,,3b,Graphics and clippings

@@ -1,0 +1,71 @@
+no u t yol 'vo tolo
+results on the expansion process itself but the data to date
+are very promising. (See report by C. G. Dodd)
+PHILIP MORRIS
+IMTER-OFFICE CORRESPONDENCE
+RICHMOND.
+Dr. D. A. Lowitz Date: December 21, 1973
+From: A. J. Kassman
+Sobject: QUARTERLY REPORT
+Analysis of the optical and electronic properties of
+supported metal oxids catalysts has been continued to
+elucidate the surface structure of potential selective
+filtrants. The Ni/Al₂O3 absorbance spectrum has been
+partially resolved into five Gaussian components. The
+Cu/AlzOç absorbance spectrum has been analyzed in terms
+of a tetragonal distortion of the spinel lattice structure
+Simultaneous crystal field fits for the tetrahedrul and
+octahedral sites are being attempted. Preliminary progress
+in this research has been propared for publication (1) and
+oral presentation (2,3)
+First sets of data from the variable parameter smoking
+machine have been fit with continuous smooth curves. Pressure
+drop-flow characteristics and TPM delivery data were fit for
+the Marlboro monitor 15 with a variety of filters. Computer
+programs wore written and tested for calculation of TPM, H,O
+tar, and pressure drop as a function of time during a puff
+Initial trials indicate a close correlation with values
+obtained from the human smoking simulator.
+A response (4) has been made to a recent CORESTA report
+which concluded that the Greiner paper porosity measuremont
+could not be simply related to other porosity methods.
+Demonstration of just such relationships were given in this
+memorandun.
+1gd
+(1) "Energy Levels of d1 and d9 Ions in Chomically Signi-
+ficint Symmetry Sites." A.J. Kassman, submitted to Journal
+of Chemical Education.
+(2) "Closed Form Solutions for Energy States of d1 and d
+Ions," A.J. Kassman, abstract subuitted to l67th National
+ACS Hooting.
+(3) "Optical Reflectance Spectra of Cu2 and Ni2* Supported
+on Alurina." A.J. Kassman, abstract submitted to l67th National
+ACS Heoting.
+(4) A.J. Kassman and A.C. Lilly. Memorandum to P.E. Rosnik
+December 19, 1973, "Groinor Paper Porosity Moasurement.
+A.J Kasemaxilga
+PHILIP MORRIS
+U.S.A.
+INTER-OFFICE CORRESPONDENCE
+RICHMOND, VIRGINIA
+
+To: Dr. D. A. Lowitz
+Date: December 21, 1973
+From: A. J. Kassman
+Subject: QUARTERLY REPORT
+
+Analysis of the optical and electronic properties of supported metal oxides catalysts has been continued to elucidate the surface structure of potential selective filtrants. The Ni/Al₂O₃ absorbance spectrum has been partially resolved into five Gaussian components. The Cu/Al₂O₃ absorbance spectrum has been analyzed in terms of a tetragonal distortion of the spinel lattice structure. Simultaneous crystal field fits for the tetrahedral and octahedral sites are being attempted. Preliminary progress in this research has been prepared for publication (1) and oral presentation (2,3).
+
+First sets of data from the variable parameter smoking machine have been fit with continuous smooth curves. Pressure drop-flow characteristics and TPM delivery data were fit for the Marlboro monitor 15 with a variety of filters. Computer programs were written and tested for calculation of TPM, H₂O, tar, and pressure drop as a function of time during a puff. Initial trials indicate a close correlation with values obtained from the human smoking simulator.
+
+A response (4) has been made to a recent CORESTA report which concluded that the Greiner paper porosity measurement could not be simply related to other porosity methods. Demonstration of just such relationships were given in this memorandum.
+
+/gd
+
+(1) "Energy Levels of d¹ and d⁹ Ions in Chemically Significant Symmetry Sites," A.J. Kassman, submitted to Journal of Chemical Education.
+
+(2) "Closed Form Solutions for Energy States of d¹ and d⁹ Ions," A.J. Kassman, abstract submitted to 167th National ACS Meeting.
+
+(3) "Optical Reflectance Spectra of Cu²⁺ and Ni²⁺ Supported on Alumina," A.J. Kassman, abstract submitted to 167th National ACS Meeting.
+
+(4) A.J. Kassman and A.C. Lilly, Memorandum to P.E. Resnik, December 19, 1973, "Greiner Paper Porosity Measurement."

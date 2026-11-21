@@ -1,0 +1,43 @@
+x1	y1	x2	y2	conf	text
+123.0	154.0	551.0	194.0	99.7	PHILIP MORRIS USA
+852.0	154.0	1478.0	194.0	100.0	INTER-OFFICE CORRESPONDENCE
+840.0	200.0	1473.0	228.0	97.3	120 PARK AVENUE, NEW YORK, NY 10017-5592
+120.0	262.0	168.0	290.0	99.9	TO:
+288.0	257.0	445.0	292.0	100.0	Henry Mize
+1014.0	258.0	1313.0	289.0	99.1	DATE: January 4, 1993
+121.0	326.0	211.0	354.0	99.4	FROM:
+287.0	318.0	430.0	357.0	100.0	Roy Anise
+120.0	389.0	249.0	416.0	99.9	SUBJECT:
+285.0	383.0	609.0	419.0	99.6	Region 2 - Nielsen Audit
+289.0	479.0	1400.0	513.0	100.0	As you requested, enclosed please find a confidential listing of the cooperation status of
+286.0	511.0	1319.0	547.0	99.1	major chains in the Nielsen audit panel within your Region. Please note this only
+286.0	546.0	1450.0	579.0	99.2	represents chain retailers in your geography, with the status of independents (which can not
+286.0	577.0	1128.0	610.0	99.8	be disclosed due to retailer disclosure agreements) varying widely.
+287.0	639.0	1421.0	672.0	99.9	Also enclosed, please find a comparison of Region 2 performance based on shipment and
+286.0	672.0	1094.0	702.0	99.8	Nielsen audit data. Key findings from this comparison include:
+330.0	733.0	1419.0	768.0	99.7	Both data sources indicated fairly consistent trends for PM volume, PM Premium and
+333.0	769.0	760.0	800.0	100.0	total Category share performance.
+330.0	831.0	1377.0	864.0	100.0	However, total PM share appears understated in Nielsen. This primarily reflects a
+330.0	864.0	1436.0	897.0	99.9	widening disparity between reported performance for PM Discount products in Nielsen
+329.0	896.0	1383.0	929.0	100.0	versus shipments. Nielsen does not appear to be fully capturing the growth of PM
+329.0	928.0	1442.0	960.0	99.4	Discount entries due to the account specific nature of discount expansion, particularly in
+328.0	959.0	1388.0	994.0	99.9	the more volatile Deep Discount segment. The integration of the Nielsen expansion
+327.0	991.0	1263.0	1027.0	99.7	panel (see below for details) in 1993 should help minimize this distortion.
+326.0	1057.0	1409.0	1090.0	99.6	During the last several months, Marlboro's share trend appears stronger in shipments
+322.0	1088.0	1365.0	1123.0	99.9	than Nielsen. However, due to trade program activity, shipments are likely being
+325.0	1120.0	1439.0	1155.0	99.8	"overstated, while Nielsen may be providing a more representative ""leading indicator"" of"
+327.0	1155.0	833.0	1186.0	100.0	the franchise's weakening performance.
+278.0	1284.0	657.0	1315.0	100.0	Nielsen Audit Expansion
+277.0	1315.0	1374.0	1347.0	99.8	Effective with January 1993 data, the Nielsen audit service will be enhanced to include
+275.0	1347.0	1402.0	1383.0	99.8	expanded sampling of Convenience stores (including additional Gas Convenience outlets
+275.0	1380.0	1396.0	1416.0	99.9	and Mini Marts) and representation of other trade classes including Mass Merchandisers,
+275.0	1414.0	1432.0	1450.0	99.4	Liquor stores and Urban pack outlets. Each of these expansion trade classes will include at
+275.0	1449.0	1397.0	1482.0	99.4	least one full year of back history to allow for trended reporting and 12mm aggregations.
+274.0	1510.0	1346.0	1549.0	99.6	Region 2's sample size will be increased by nearly 27% (109 stores) with the largest
+273.0	1545.0	1422.0	1580.0	99.5	increase occurring in the Convenience trade class. See the attached summary for details on
+274.0	1579.0	835.0	1615.0	100.0	audit expansion by Section for your Region.
+1442.0	1669.0	1496.0	1975.0	100.0	2060070549
+269.0	1750.0	312.0	1779.0	75.1	CC:
+294.0	1779.0	415.0	1811.0	100.0	D. Beran
+293.0	1812.0	477.0	1844.0	99.3	E. Gawronski
+292.0	1845.0	422.0	1877.0	100.0	B. Neidle

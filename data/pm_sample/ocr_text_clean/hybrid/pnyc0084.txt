@@ -1,0 +1,35 @@
+Attachment 17
+IN VITRO RECONSTITUTED TISSUE AS AN ALTERNATIVE TO HUMAN
+RESPIRATORY TRACT
+Emura, M.1, A. Ochiai2 and S. Hirohashi2
+1Hannover Medical School, Hannover, Germany and 2National Cancer Center, Tokyo,
+Japan
+The data obtained from in vitro systems utilizing human cells and tissues should form a
+basic part of the information necessary for risk assessment and legislation. The most
+important thing for such systems is, therefore, to sinulate the structures and functions
+of cells and tissues in the natíve organ as closely as possible. This is a fundamental
+requirement that has only been met occasionally among the in vitro systems published
+so far and it appears to provide a difficult task for the people working to improve the
+systems.
+Nevertheless, every effort to attain this goal seems justified, particularly in view of the
+prevalent lack of adequate knowledge to determine the predictability of the data
+obtained from the in vitro systems currently available.
+In designing in vitro systems, there may be two approaches - one aiming at the growth
+of cells in a primarily two-dimensional fashion, the other allowing cells to form in vivo
+- mimicking three-dimensional architectures. Which of these different growth patterns
+will be expressed in culture is subject to the choice of substrata, to which the cells
+assume contact. In addition, the type of contact, namely one-sided, partial, pointed,
+whole-surface, etc. will strongly influence the growth pattem. The migratory capacity
+of the cells can be an important factor, which may be modified (limited or enhanced)
+by the physicochemical nature of the contact substrata. The original architecture of the
+native tissue from which the cells have derived should also be taken into account.
+In cultures, in which the airway epithelial cells are growing in a two-dimensional
+fashion, some functional and structural characteristics, such as Clara cell antigenicity,
+production of surfactant phosphatidylcholine or activity of polycyclic aromatic
+hydrocarbon metabolizing enzymes can be developed to a considerable extent.
+However, there are some that cannot be developed or expressed under that condition
+but require a three-dimensional growth pattern, for instance ciliogenesis and mucus
+production.
+In this paper we will explore the capacity of early to long-term passage airway
+epithelial cells (human and hamster) to resume architectures and functions existing in
+the native tissue in the specific environments given in vitro.

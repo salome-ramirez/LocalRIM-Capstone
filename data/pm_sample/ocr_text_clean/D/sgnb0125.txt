@@ -1,0 +1,115 @@
+Desired quota
+Actual production with no post inquiries
+Maximum production with some post inquiries
+RF completed all queries
+
+Male
+18-21
+75
+38
+44
+75
+
+22-34
+75
+75
+75
+75
+
+35-54
+75
+75
+75
+75
+
+18-21
+60
+35
+40
+50
+
+32-34
+50
+50
+50
+50
+
+35-54
+50
+38
+44
+50
+
+18-21
+75
+31
+35
+75
+
+22-34
+75
+75
+75
+75
+
+35-54
+75
+27
+31
+75
+
+18-21
+50
+35
+40
+50
+
+32-34
+50
+50
+50
+50
+
+35-54
+50
+38
+44
+50
+
+18-21
+75
+69
+75
+75
+
+32-34
+75
+62
+71
+75
+
+35-54
+75
+54
+62
+75
+
+18-25
+M/MR 80
+M/MR 75
+
+149,900
+
+1050
+
+Callbords
+US series
+
+3 callbords
+
+Kathryn point
+
+60% 22-25
+
+18-25 M/MR 80
+M/MR 75

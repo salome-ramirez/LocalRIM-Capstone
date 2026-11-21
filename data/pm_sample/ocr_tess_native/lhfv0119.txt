@@ -1,0 +1,66 @@
+QBDP47A
+Sample Date: @1/26/92
+Order Numbers:
+Formula Codes:
+Qty Produced:
+{in thous)
+000
+TAR, Mg/Cigt i,
+Nicotine, Mo/Cigt
+TPM, Mg/Cigt
+Menthol, Mo/Cigt
+Water, Mg/Cigt
+Accepted!
+Smoking/Physical Testing System
+Smoking Results Report
+Sample Id? 9200485 W/E
+Brand: fA 2520 STO MERIT ULTIMA 10@ 5P
+"mm
+Puffs/Cigt
+Total RTD, In. of HZO 3.40
+Total RTD, MM. of H20 86.36
+Ventilation, % 54.9
+Piug RTD, In. of HZO 5.26
+Plug RTD, MM. of H20 133.68
+Porosity, Corasta 37.0
+Tobacco Weight, G 6.562
+“Circumference, MM 24.70
+OV, % 12.0
+Firmness, MM
+Loose Ends, 6
+Rejected:
+Hi Rng
+4.48
+{11.76
+64,8
+5.76
+146.38
+55.3
+@.622
+25.05
+13.8
+oe
+Target
+2.9
+8.592
+24,80
+12.5
+Results _
+Ze 8#
+Comments __ a
+2. Oboe
+@.25
+3,3
+105.20
+5.61
+142,40
+46.3
+@.592
+24.86
+12.8
+3.46
+Print Date: 01/30/92
+Print Time: 14:08
+OFEOZSLSO%
+Re ee ee ee en ee
+Jf eer eee ee alse wish ie i g „

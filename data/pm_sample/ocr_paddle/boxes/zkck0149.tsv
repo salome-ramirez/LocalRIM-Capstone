@@ -1,0 +1,90 @@
+x1	y1	x2	y2	conf	text
+1468.0	198.0	2147.0	341.0	94.9	 Peter Hedera
+2803.0	198.0	2953.0	330.0	83.7	foi
+569.0	228.0	1433.0	287.0	98.9	NMR IN BIOMEDICINE, VOL. 6, 000-000 (1994)
+562.0	373.0	2310.0	487.0	98.2	2D and 3D High Resolution Gradient Echo
+562.0	474.0	2238.0	578.0	100.0	Functional Imaging of the Brain: Venous
+564.0	571.0	2522.0	674.0	98.9	Contributions to Signal in Motor Cortex Studies
+563.0	820.0	2567.0	886.0	95.8	E. M. Haacke,†§*, A. Hopkins, S. Lal,§ P. Buckley,¶ L. Friedman, H. Meltzer,1 P. Hedcra, ††
+565.0	880.0	2463.0	937.0	97.0	R. Friedland,†† S. Kleln,‡ L. Thompson, D. Detterman, J. Tkach§§ and J. S. Lewin1
+566.0	941.0	2533.0	994.0	98.3	†Mallinckrodt Iostitute of Radio:ogy, Washington University School of Medicine, 510 S. Kingshighway Bivd, St. Louis,
+568.0	991.0	2543.0	1035.0	92.8	MO 63l10, US^, Department of Anatomy, §Department of Physics, Department of Psychiatry, ††Alzheimer Center,
+568.0	1029.0	2563.0	1077.0	97.9	Department of Psychology, and 11Departnent of Radiology, Čase Western Reserve University, Cleveland, OH 44106.
+570.0	1072.0	2119.0	1120.0	97.8	USA. §§ Department of Radiology, Cleveland Clinic Foundation, Cleveland, OH 44106, USA
+566.0	1274.0	2576.0	1327.0	98.7	Recent emphasis on high resolution gradient echo studies in functional imnging has led to the conclusion that
+566.0	1327.0	2576.0	1375.0	99.7	there are likely three domains of response to the blood circulation in the brain when considering feld
+565.0	1376.0	2577.0	1426.0	99.8	inhomogeneity effects of the venous blood pre- and during activation. The first is a coherent effect due to large or
+566.0	1427.0	2579.0	1475.0	98.5	macroscopic vessels on the order of the size of the voxel (ca 200-500 um in most studles). These cnn lead to very
+566.0	1476.0	2577.0	1528.0	97.7	Iarge signal changes (up to 100%). The second is at the venule level (ca 50–200 µum) and is associnted with smaller
+566.0	1527.0	2577.0	1579.0	99.2	parenchymal changes (usually ca 10% or less). The third is at the capillary level and is associated with much
+564.0	1576.0	2579.0	1631.0	99.4	smaller signal changes at 1.5 T and even up to 4 T. The actual signal changes depend on field strength and
+564.0	1626.0	2577.0	1680.0	99.1	sequence design. In this paper, we present our experience in detecting the first two domalns with 2D and 3D
+566.0	1678.0	2576.0	1730.0	99.1	gradient echo imaging at 1.5 T. We find that high resolution enables visualization of the larger small veins in
+565.0	1729.0	2576.0	1778.0	99.2	motor cortex studies and that, on occasion, it is possible to sec the venule effects as well. We suggest a simple
+564.0	1778.0	2575.0	1831.0	99.8	model to explain the large signal changes based on susceptibillty changes and partial volume effects.
+567.0	1832.0	2576.0	1881.0	99.0	Comparisons of the functional imaging đata to this model and to MR angiographic studies are also shown as
+564.0	1882.0	1651.0	1933.0	99.9	evidence of the venous sources of the susceptibility chages.
+400.0	2027.0	906.0	2078.0	99.3	Dedication in Memoriam
+1620.0	2028.0	2739.0	2082.0	97.5	of these modalitics. Multiple detector electrocncepha-
+1620.0	2083.0	2741.0	2135.0	98.8	lographic and magnctocnccphalographic systems are
+397.0	2130.0	1516.0	2189.0	97.9	This paper is dedicatcd to Amos Hopkins. He was an
+1619.0	2133.0	2740.0	2182.0	99.4	now becoming available for rapid tempornl resolution
+398.0	2185.0	1516.0	2241.0	98.9	untiring advocatc of MR functional imaging and its
+1617.0	2178.0	2743.0	2238.0	98.7	and, when registered with siructurai MRI, offer
+398.0	2236.0	1517.0	2292.0	98.3	future rolc in ncurological rescarch. His understanding
+1616.0	2232.0	2739.0	2288.0	99.0	excellent opportunities for functional ncuroimaging.
+398.0	2287.0	1518.0	2342.0	99.2	and depth of knowledge led to uniquc papers in this
+1617.0	2282.0	2744.0	2337.0	99.5	These EEG systems can achievc millisecond sampling
+396.0	2335.0	1517.0	2395.0	97.5	arcn rclated to O17 imaging. diffusion imaging, and
+1617.0	2333.0	2742.0	2386.0	97.9	but suffer from the ill-posed naturc of the problem
+399.0	2386.0	1516.0	2445.0	99.9	functional imaging. Amos was persistent and yet gentle
+1618.0	2384.0	2742.0	2434.0	99.0	since the local tissue conductivitics arc not known
+398.0	2435.0	1516.0	2494.0	98.5	in his ways. His cnthusiasm and cnergy will be greatly
+1619.0	2432.0	2656.0	2486.0	98.4	(although MR may help overcome this problem).
+400.0	2487.0	1424.0	2539.0	99.1	missed by all thosc who have interacted with him.
+1664.0	2485.0	2742.0	2532.0	99.6	MR perfusion/diffusion have bccn uscd with contrast
+1617.0	2531.0	2742.0	2590.0	97.9	agents’ to predict ccrebral blood flow using gradient
+1618.0	2584.0	2740.0	2638.0	96.1	ccho and echo-planar techniques:*These dynamic tech-
+1617.0	2636.0	2741.0	2690.0	98.3	niqucs are fast enough to allow tracer methods to be
+403.0	2689.0	776.0	2738.0	100.0	INTRODUCTION
+1618.0	2686.0	2744.0	2743.0	98.3	applied. Although T, changes werc initinlly the focus of
+1616.0	2737.0	2742.0	2793.0	97.1	contrast agents, T‡ agents such as clysprosium werc
+1617.0	2787.0	2741.0	2841.0	96.5	also cvaluated.9 Several papers clenrly showed the
+398.0	2816.0	1516.0	2874.0	99.0	Functional ncuroimaging and its application to the
+1617.0	2837.0	2741.0	2890.0	98.2	dcpendence of thc signal changcs with oxygenation as a
+396.0	2870.0	1516.0	2922.0	98.7	study of human mental processes (both in normal and
+1616.0	2885.0	2742.0	2941.0	98.9	function of the susccptibility.9.iº Flow itsclf has also
+2834.0	2883.0	2970.0	3423.0	100.0	2023714628
+396.0	2920.0	1515.0	2974.0	98.0	discased states) is acknowlcdged as one of the most
+1609.0	2920.0	2754.0	3008.0	97.2	been used to measure functional imaging changcs.-u
+395.0	2970.0	1513.0	3024.0	97.1	fundlamental and challenging aspects of current neuro-
+1616.0	2988.0	2740.0	3042.0	97.7	Thesc changes are usually quitc small in signal inten-
+392.0	3018.0	1515.0	3076.0	96.6	scicncc rescarch.' Until rclativcly recently, this
+1615.0	3039.0	2741.0	3093.0	98.4	sity. The small signal changes havc generally required
+395.0	3070.0	1513.0	3124.0	99.2	rescarch has relied predominantly on positron emission
+1615.0	3088.0	2741.0	3142.0	98.9	special processing methods when multiple 2D scans
+397.0	3118.0	1516.0	3175.0	98.5	tomography and its associated radionuclide studics and
+1617.0	3142.0	2032.0	3187.0	100.0	have been acquired.
+395.0	3169.0	1513.0	3227.0	98.7	on singlc photon cmission computed tomography.
+1664.0	3187.0	2745.0	3242.0	98.1	Our efforts have been directed toward understanding
+398.0	3223.0	1514.0	3271.0	97.0	Thesc modalitics have indeed yicided valuable infor-
+1617.0	3239.0	2741.0	3288.0	98.2	the sources of thc signal changes using gralicnt ccho
+395.0	3269.0	1514.0	3323.0	99.7	mation on mental functioning but are constrained by
+1617.0	3289.0	2741.0	3340.0	97.8	imaging. Stemming from thc usc of thcsc scqucnccs,
+397.0	3321.0	1514.0	3372.0	97.7	technological shortcomings which include relativcly
+1614.0	3333.0	2745.0	3392.0	97.2	arguments have appeared that brain parcnchymal
+396.0	3368.0	1514.0	3425.0	98.1	poor tcmporal (onc image pcr minute) and spatial
+2844.0	3378.0	2919.0	3446.0	87.0	8
+1615.0	3386.0	2744.0	3441.0	95.5	changes arc casily secn at 1.5T and that percentage
+398.0	3420.0	1516.0	3471.0	98.9	(50~100 mm³ voxcl size)² resolution. In addition, their
+1616.0	3434.0	2745.0	3490.0	96.1	changes can be quite large.'ª We proposed* that such
+396.0	3469.0	1516.0	3522.0	97.2	reliance upon radioligands, while offering the distinct
+1616.0	3487.0	2742.0	3541.0	97.9	changes could only be due to larger vessels (i.c., thosc
+394.0	3519.0	1517.0	3576.0	98.8	alvantage of being able to image a large group of
+1618.0	3540.0	2740.0	3588.0	97.6	on thc order of the voxcl sizc). Thc mechanism sug-
+393.0	3569.0	1514.0	3625.0	97.5	chemical substanccs, also limits the general practicality
+1617.0	3587.0	2743.0	3642.0	98.7	gested was a simplc two-component molel that led to
+398.0	3642.0	1323.0	3691.0	96.8	 Author te whom correspondence sliould be addressed.
+1616.0	3635.0	2747.0	3692.0	97.6	dramatic changes in signal as the voxel size decreased
+397.0	3731.0	898.0	3775.0	53.6	C0C 0057. 318010110100 00
+2336.0	3730.0	2745.0	3777.0	74.1	Raiual 00 722772 1002

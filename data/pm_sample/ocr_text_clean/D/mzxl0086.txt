@@ -1,0 +1,30 @@
+M -MEETING 1/1997
+(MINI MEETING)
+
+Mittwoch 29-Jan-97
+WOCHENTAG
+DATUM
+
+10.00
+TAGESZEIT BEGINN
+R008.2
+RAUM
+
+THEMA
+Diskussion des Manuskripts
+'Comparison of Fresh and Room-Aged Cigarette Sidestream Smoke in a Subchronic Inhalation Study on Rats'
+
+TEILNEHMER (a)
+EAN DBE HHM DHN PKU WRE ERO WST ATE
+PVO HSA
+
+VERANTWORTLICH
+HHM
+
+27. Jan. 1997
+AUSHANGDATUM ZEICHEN
+
+(a) Weitere Teilnehmer sind gern gesehen
+
+KOSTENSTELLE: 6556
+GEPLANTE DAUER (h): 2.00

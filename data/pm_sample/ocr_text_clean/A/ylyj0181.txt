@@ -1,0 +1,45 @@
+6/28/94
+Flavors
+CF 150B
+DAP 2.25%
+Urea 3.00%
+jjono 0.25%
+M-10 0.05%
+Sorbate 0.15% 0.15%
+lsosweet 2.00%
+Paraben 0.10% 0.10%
+PG 2.50% 2.50%
+Glycerin 2.00%
+CF
+Total DWB 6.00%
+@13.5% O.V. 5.19%
+FS sol 47.4% 49.0%
+Tobacco sol 41.4% 36.7%
+dry weight Finished product
+100 100
+total sol 47.4 49 \
+Additives 6.0 12.3
+Tobacco sol 41.4 36.7
+Fiber 52.6 51
+Total tobacco 94.0 87.7
+Sol/fiber 0.79 0.72
+Tobacco yield 78% 77.0%
+Raw mat 120.5 113.9
+Raw M sol 48.5% 48.5%
+Solubles 58.4 55.2
+Fiber 62.1 $8.7
+Solubles Yield 70.8% 66.4%
+Fiber Yield 84.8% 86.9%
+Yield 83.0% 87.8%
+&9
+2
+nN
+n
+w
+nN
+ns
+Bed
+wo
+n
+SOLMG1.XLS
+

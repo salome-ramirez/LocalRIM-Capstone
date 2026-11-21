@@ -1,0 +1,39 @@
+x1	y1	x2	y2	conf	text
+678.0	150.0	987.0	181.0	100.0	SPECIFICATIONS
+303.0	222.0	598.0	259.0	100.0	4 groups of smokers
+304.0	259.0	849.0	295.0	97.8	- 2 groups of discount brand smokers
+394.0	294.0	1265.0	334.0	99.6	~ 1 group of men (half 21-34 years old/half 35-49 years old)
+395.0	334.0	1298.0	371.0	99.2	~ 1 group of women (half 21-34 years old/half 35-49 years old
+304.0	371.0	862.0	408.0	99.1	- 2 groups of any other brand smokers
+393.0	407.0	1265.0	446.0	98.7	~ 1 group of men (half 21-34 years old/half 35-49 years old)
+395.0	447.0	1302.0	481.0	98.9	~ 1 group of women (half 21-34 years old/half 35-49 years old)
+393.0	480.0	1077.0	521.0	98.9	~ No more than 3 Marlboro smokers per group
+394.0	520.0	1384.0	558.0	98.5	~ Rest can be any mix of regular price brands, length, tar flavor, size,
+432.0	560.0	557.0	596.0	100.0	package
+302.0	597.0	425.0	629.0	100.0	All must:
+303.0	634.0	961.0	668.0	98.7	- Currently smoke at least 10 cigarettes a day
+301.0	667.0	1319.0	705.0	99.9	- Agree to bring a pack of their regular brand with them to the research
+300.0	705.0	1382.0	743.0	98.3	- Have previously filled out, or are positive to filling out, a survey that would
+337.0	740.0	880.0	781.0	99.6	place their name on a file or database
+301.0	781.0	645.0	817.0	99.9	- Pass security screens
+302.0	820.0	858.0	853.0	99.7	- No market research in past 6 months
+301.0	857.0	859.0	890.0	99.9	Recruit 10 respondents for 6-8 to show
+204.0	1006.0	372.0	1042.0	100.0	Schedule
+205.0	1043.0	575.0	1079.0	99.4	Wednesday, December 6
+204.0	1082.0	325.0	1118.0	100.0	Group 1
+394.0	1081.0	661.0	1115.0	100.0	11:30am-12:45pm
+204.0	1117.0	329.0	1157.0	100.0	Group 2
+393.0	1118.0	537.0	1156.0	100.0	1-2:15pm
+203.0	1154.0	328.0	1194.0	99.9	Group 3
+391.0	1153.0	536.0	1192.0	100.0	5-6:15pm
+204.0	1192.0	329.0	1231.0	100.0	Group 4
+394.0	1193.0	580.0	1228.0	100.0	6:30-7:45pm
+206.0	1268.0	485.0	1302.0	100.0	Respondent name
+205.0	1343.0	399.0	1378.0	100.0	Home phone
+862.0	1341.0	1049.0	1379.0	100.0	Work phone
+206.0	1417.0	333.0	1452.0	100.0	Address
+205.0	1564.0	379.0	1602.0	100.0	Occupation
+204.0	1637.0	873.0	1677.0	98.9	Group recruited for (circle one) 1 2 3 4
+1417.0	1667.0	1467.0	1969.0	100.0	2060156148
+206.0	1714.0	429.0	1748.0	100.0	Date screened
+845.0	1714.0	985.0	1746.0	100.0	Recruiter

@@ -1,0 +1,39 @@
+PHILIP MORRIS U. S. A.
+INTER-OFFICE CORRESPONDENCE
+RICHMOND, VIRGINIA
+
+To: Dr. T. Sanders
+Date: March 10, 1981
+
+From: Andrew Frisch
+
+Subject: Evaluation of Cigarettes Containing WS-14 as an Additive
+
+Two cigarettes as per your request have been evaluated for pyrolysis products arising from the addition of WS-14. Each cigarette employed in the study is described below:
+
+1. Merit 85 with WS-14 7244-119B added to the filler at a level of 3.1mg WS-14/cigarette.
+IBM Code DOBMQ
+
+2. Merit 85 with WS-14 7565-11 added to the paper at a level of 5.5mg WS-14/cigarette.
+IBM Code DOBMR
+
+3. Merit 85 with no WS-14 added to either filler or paper.
+IBM Code DOFQM
+
+No. 3 above or the control cigarette was used to establish the background which was later subtracted from samples Nos. 1 and 2. All smokings were performed by Karen Barlow of Project 2525, and mass spectrometry services were provided by Project 0108. Analytical parameters, previously established by 2501 in the 14C-WS-14 studies, were used to obtain the following results.
+
+Sample # Compound Absolute Values¹ Ave¹ Micrograms Delivered Per Cigarette
+
+1. Filler
+WS-14 50.2,56.4 53.3 213.2
+Amide 0.1 0.1 0.4
+Nitrile not detected - -
+
+2. Paper
+WS-14 57.8,64.5 61.2 244.0
+Amide 1.4,1.5,0.6 1.2 4.8
+Nitrile 0.5,0.5 0.5 2.0
+
+¹For one quarter of a Cambridge pad
+
+The basic question, "does the composition of mainstream pyrolysis products change as a result of moving the additive from the filler to the paper?" has now been answered. While

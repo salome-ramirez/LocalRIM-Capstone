@@ -1,0 +1,26 @@
+Lie
+TEST: S
+TEST: wg
+No PG or Glycerine is to be added to either of the get op
+solution batches used for the test.
+Water - 6200 gal.; 12.25 inches freeboard
+Potassium Propyl Paraben - 8 gal.
+Isosweet - 53 gal.
+Note: In order to obtain 53 gallons isosweet, the head
+tank must be filled to 13 inches freeboard (26.5
+gallons), emptied, filled again to 13 inches
+freeboard, and emptied again. ä
+Ammonia - 188 gal. @ 30%
+Potassium Sorbate - 14 lbs.
+DAP - 700 lbs.
+NO CLASS CONTROL: BLNC34; 3% PG, 4% Glycerine, Solids 16.25 + 0.50
+Water - 6200 gal.; 12.25 inches freeboard
+PG Propyl Paraben - 8 gal.
+Isosweet - 18 gal.; 21 inches freeboard
+Ammonia - 188 gal. @ 30%
+Potassium Sorbate - 14 lbs.
+DAP - 700 lbs.
+PG - 63 gal.; 17.5 inches freeboard
+Glycerine - 42 gal.; 20 inches freeboard
+CLASS CONTROL: BLC34; 3% PG, 4% Glycerine, Solids 18.0 + 0.50
+Normal solution makeup

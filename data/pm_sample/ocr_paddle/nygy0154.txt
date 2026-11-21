@@ -1,0 +1,28 @@
+D87344
+RESEARCH AND DEVELOPMENT
+SERVICE REQUEST AND DATA SHEET
+SubmItter: MULHERIN/GARRETT Request Code: D87344
+Date Submitted: 4-27-87 Sample Code: D7AZM,AZN
+Date Completed: 5-4-87 Project Code: 4015
+Comments:HALF AND HALF PIN - F; 6-8mg TAR.
+AZM AZN
+Smoke
+Butt Length, mm 35 35
+FTC Tar, mg/cigt. 6.9 7.2
+TPM, mg/cigt. 8.1 8.4
+Nicotine, mg/cigt. 0.61 0.63
+Water, mg/cigt. 0.57 0.62
+Puffs/Cigt. 8.3 8.2
+Cigarette
+Total RTD, mm of H2O 127 122
+Filter
+RTD, mm of H20 115 116
+Tipping Paper Length,mm 32 32
+Ventilation, % 34 34
+Filler
+Wt. of Tob., g (12.5% O.V.) 0.692 0.682
+Oven Volatiles, % 12.9 13.0
+Oven Volatiles, % (Pack) 13.0 12.9
+205771758
+08
+0

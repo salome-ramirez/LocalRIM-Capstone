@@ -1,0 +1,41 @@
+x1	y1	x2	y2	conf	text
+901.0	301.0	1457.0	348.0	97.1	PHILIP MORRIS U.S. A.
+595.0	381.0	1765.0	431.0	99.3	INTER-OFFICE CORRESPONDENCE
+1898.0	371.0	2216.0	461.0	100.0	RESTRICTED
+971.0	470.0	1386.0	522.0	98.7	Richmond, Virginia
+1875.0	457.0	2246.0	549.0	99.9	DISTRiBUTION
+249.0	640.0	333.0	690.0	100.0	To:
+483.0	640.0	742.0	687.0	99.9	R. A. Comes
+1494.0	638.0	1906.0	688.0	98.9	Date: May 17, 1990
+252.0	724.0	389.0	771.0	100.0	From:
+480.0	721.0	809.0	775.0	100.0	L. H. Thompson
+250.0	804.0	1924.0	865.0	98.6	Subject: Salmonc!la/Microsome (S/M) Assay: Evaluation of 8857-63 and 8857-92
+391.0	1067.0	2103.0	1122.0	100.0	Two pure compounds (8857-63 and 8857-92) were submitted for both mutagenicity and
+250.0	1126.0	2012.0	1183.0	99.1	toxicity evaluation in the S/M assey over a broad dose range (0.0001-10.0 mg/plate). Both
+246.0	1181.0	1914.0	1245.0	98.8	compounds were tested in tester strsins TA98 and TA100 with and without metabolic
+248.0	1246.0	552.0	1297.0	99.9	activation (S9).
+389.0	1361.0	2077.0	1419.0	100.0	From the 100 mg/ml stock solution prepared in DMSO (1), serial dilutions were made,
+246.0	1423.0	2088.0	1478.0	98.7	and the following doses tested: 0.0001, 0.001, 0.01, 0.1, 1.0, and 10.0 mg/plate. Samples were
+246.0	1483.0	2026.0	1540.0	100.0	tested randomly according to the standard operating procedure (2,3). Acceptable responses
+246.0	1544.0	1477.0	1596.0	99.2	were obtained for all of the controls (see attached control data).
+389.0	1662.0	2019.0	1719.0	99.3	Both compounds formed precipitates when the 10.0 mg/plate dose was added to the
+244.0	1721.0	2064.0	1776.0	99.2	assay constituents. Test results indicated that there was no mutagenicity for either compound
+246.0	1778.0	2078.0	1832.0	99.8	under any of the test conditions (see attached experimental data). Sample 8857-63 exhibited a
+245.0	1834.0	2009.0	1889.0	99.4	>50% kill (cell death) at the two highest doses tested (1.0 and 10.0 mg/plate) in both tester
+246.0	1893.0	1306.0	1942.0	98.4	strains. Sample 8857-92 was not toxic in cither strain.
+246.0	2065.0	480.0	2114.0	100.0	References
+1650.0	2138.0	1932.0	2202.0	100.0	C90-08641
+250.0	2180.0	1456.0	2236.0	99.6	1. Comes, R. A. Personal communication to L. H. Thompson.
+242.0	2297.0	1296.0	2354.0	99.9	2. Thompson, L. H. Notebook No. 8902, pp.181-187.
+244.0	2413.0	2103.0	2466.0	99.1	3. Sherwood, Karen Rapp. Salmonella/Microsome (S/M) Assay: Standard operating procedure
+2288.0	2449.0	2369.0	2644.0	100.0	2056
+243.0	2469.0	2037.0	2525.0	99.2	for tester strains TA98 and TA100. PM special report. Accession No.87-080; 1987 July 31.
+2296.0	2618.0	2360.0	2674.0	98.9	1
+389.0	2643.0	677.0	2691.0	100.0	Dr. C. K. Ellis
+246.0	2656.0	307.0	2691.0	99.4	CC:
+2298.0	2667.0	2360.0	2719.0	92.1	5
+390.0	2701.0	763.0	2748.0	99.5	Dr. R. W. McCuen
+2295.0	2702.0	2361.0	2808.0	100.0	46
+391.0	2760.0	724.0	2804.0	99.7	Dr. G. J. Patskan
+2301.0	2798.0	2357.0	2846.0	83.6	9
+2302.0	2838.0	2356.0	2881.0	42.6	0

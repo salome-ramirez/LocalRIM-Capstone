@@ -1,0 +1,46 @@
+x1	y1	x2	y2	conf	text
+1149.0	135.0	1599.0	188.0	95.1	ATTACHMENT
+48.0	160.0	58.0	175.0	42.9	4
+1159.0	199.0	1211.0	257.0	100.0	B
+747.0	296.0	936.0	330.0	99.9	Alkene Oxide
+764.0	337.0	928.0	368.0	99.7	CAS# XXX
+217.0	370.0	683.0	405.0	99.5	CANCER HAZARD SUMMARY
+313.0	408.0	1420.0	444.0	99.6	Alkene oxide (AO) should be dealt with as ifit were a known human carcinogen by all
+215.0	446.0	1427.0	484.0	99.9	routes of exposure. Several studies in workers, when considered together, suggest an elevated
+214.0	482.0	1405.0	523.0	99.5	risk of leukemia and lymphoma after long-term exposure to AO, even though no single study
+215.0	523.0	1308.0	559.0	99.4	conclusively demonstrates that AO caused the cancer. In addition, animal cancer and
+214.0	561.0	1431.0	596.0	100.0	mutagenicity studies as well as short-term tests of mutagenicity have strongly consistent results
+214.0	597.0	1150.0	633.0	99.8	that support a level of concern equal to having conclusive human studies.
+312.0	634.0	1432.0	672.0	99.2	The weight of evidence of human carcinogenicity is based on (a) consistent evidence of
+215.0	673.0	1365.0	711.0	99.5	carcinogenicity of AO in rats and mice by both oral and inhalation exposure; (b) studies in
+214.0	712.0	1460.0	746.0	99.7	workers that taken together suggest elevated risk of leukemia and lymphoma to workers exposed
+213.0	748.0	1459.0	783.0	99.4	to AO and show genetie damage in blood lymphocytes in exposed workers; (c) mutagenic effects
+213.0	784.0	1443.0	822.0	99.2	in numerous test systems and heritable gene mutations in animals; and (d) membership in a class
+215.0	823.0	1286.0	858.0	99.8	of DNA-reactive compounds that are regularly observed to cause cancer in animals.
+311.0	863.0	1468.0	897.0	99.7	Due to its ready absorption by all routes of exposure and rapid distribution throughout the
+214.0	898.0	1345.0	933.0	99.8	body, AO is expected to pose a risk by any route of exposure. The strong evidence of a
+214.0	937.0	1378.0	970.0	100.0	mutagenic mode of action supports dose response assessment that assumes linearity ofthe
+212.0	970.0	374.0	1010.0	100.0	relationship.
+216.0	1049.0	677.0	1079.0	99.4	SUPPORTING INFORMATION
+312.0	1088.0	496.0	1119.0	99.9	Human Data
+312.0	1125.0	1462.0	1159.0	99.8	Elevated risks of lymphatic cancer and cancer of blood-forming tissue have been reported
+214.0	1164.0	1459.0	1198.0	99.2	in exposed workers in several studies. The interpretation of the studies separately is complicated
+213.0	1199.0	1467.0	1236.0	99.9	by exposures to other agents in each so there is no single study that demonstrates that AO caused
+214.0	1237.0	1350.0	1272.0	99.8	the effects; nevertheless, several of the studies together are considered suggestive of AO
+214.0	1276.0	1285.0	1311.0	100.0	carcinogenicity because they consistently show cancer elevation in the same tissues.
+213.0	1313.0	1387.0	1348.0	99.7	Biomonitoring studies of exposed workers find DNA damage in blood lymphocytes and the
+215.0	1353.0	1395.0	1386.0	99.9	degree of DNA damage correlates with the level and duration of AO exposure. Finding this
+215.0	1390.0	1430.0	1422.0	99.5	damage in the same tissue in which elevated cancer was seen in workers adds further weight to
+214.0	1425.0	1471.0	1462.0	99.9	the positive suggestion from the worker cancer studies. The human data are from well-conducted
+213.0	1465.0	315.0	1500.0	99.9	studies.
+314.0	1544.0	493.0	1574.0	99.1	Animal Data
+312.0	1575.0	1372.0	1612.0	99.6	AO causes cancer in multiple tissue sites in rats and mice of both sexes by oral and
+213.0	1613.0	1426.0	1653.0	99.6	inhalation exposure. The database is more extensive than usual and the studies are good. The
+215.0	1652.0	1432.0	1692.0	99.5	observation of multisite, multispecies carcinogenic activity by an agent is considered to be very
+215.0	1692.0	1447.0	1727.0	99.1	strong evidence and is often the case with highly mmutagenic agents. There are also good studies
+216.0	1729.0	1368.0	1764.0	99.9	showing that AO causes heritable germ cell nutations in mice after inhalation exposure--a
+215.0	1768.0	977.0	1803.0	97.9	property that is very highly correlated with carcinogenicity.
+314.0	1847.0	674.0	1878.0	99.8	Structural Analogue Data
+1497.0	1855.0	1550.0	2052.0	100.0	2065254727
+313.0	1876.0	1472.0	1916.0	99.9	Organic epoxides are commonly found to have carcinogenic effects in animals, particularly
+216.0	1916.0	624.0	1953.0	100.0	the low-molecular-weight ones.

@@ -1,0 +1,24 @@
+FROM:
+SUBJECT:
+KF:irya
+DISTRIBUTION
+Kathy Friedman
+Virginia Slims of Detroit
+DISTRIBUTION
+R. Atlas
+Vv. Bivens
+R. Fitzmaurice
+H. Goldfrach
+L. Harrison
+T. Keim
+T. Johnson
+A. Leaird
+Cc. Leiber
+M. McCotter
+A. Putterman
+M. Robbins
+J. Russo
+S. Sabella
+J. Stanton
+T. Tinling
+S. von Hoffmann

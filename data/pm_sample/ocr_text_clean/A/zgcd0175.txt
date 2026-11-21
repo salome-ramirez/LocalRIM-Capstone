@@ -1,0 +1,12 @@
+From: Schorp, Matthias
+Sent: Tuesday, February 29, 2000 9:07 AM
+To: Himikel, Daniel J.; Poget, Laurent; Lau, Raymond; 'Ulrich Kreuter’
+Ce: Piade, Jean-Jacques; Sanders, Edward
+Subject: Review of test protocol for SmokeStation test
+Piease find atiachad our a draft test protoco! of the SmokeStation test for your f
+in brief, this io detern he aff rata (EVR} as previously desorbed
+by Bohanon at IAQ 99 (see atteched pen Most unfortunately, this paper is pretty confusing
+{so that i and Dr. Kreuter couldn't totally figure out what's going on} and | would need your
+input (see chapter 3, oink insert). Also, nlease fill in some brief statements where indicated.
+<< File: Test SmokeStetion_internal Review Draft_1.doc >>
+<< Flie: 2_679 pdf >>

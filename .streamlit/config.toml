@@ -1,0 +1,49 @@
+# Streamlit theme for the LocalRIM app: light and dark colour tokens, shared fonts and radius.
+# Fonts are served from app/static/fonts (SIL OFL 1.1), so nothing is fetched from the internet.
+# Streamlit follows the system theme; Light or Dark can also be picked in its settings menu.
+[theme]
+baseRadius = "6px"
+font = "Atkinson Hyperlegible Next, Segoe UI, sans-serif"
+headingFont = "Atkinson Hyperlegible Next, Segoe UI, sans-serif"   # sans serif for interface text; answers use the serif
+codeFont = "Consolas, monospace"
+
+[theme.light]
+primaryColor = "#C90184"
+backgroundColor = "#F7F2EF"
+secondaryBackgroundColor = "#EFE6E1"
+textColor = "#2A1F1B"
+linkColor = "#C90184"
+borderColor = "#CDBAB0"
+
+[theme.dark]
+primaryColor = "#C90184"            # accent fill; white text on it is 5.5:1
+backgroundColor = "#1B1614"
+secondaryBackgroundColor = "#2E2622"
+textColor = "#F3EBE6"
+linkColor = "#F263B9"               # accent as text in dark, 6.2:1 on the background
+borderColor = "#4A3C35"
+
+[[theme.fontFaces]]
+family = "Literata"
+url = "app/static/fonts/literata-latin-var-normal.woff2"
+style = "normal"
+weight = "400 700"
+
+[[theme.fontFaces]]
+family = "Literata"
+url = "app/static/fonts/literata-latin-var-italic.woff2"
+style = "italic"
+weight = "400 700"
+
+[[theme.fontFaces]]
+family = "Atkinson Hyperlegible Next"
+url = "app/static/fonts/atkinson-hyperlegible-next-latin-var.woff2"
+style = "normal"
+weight = "400 700"
+
+[client]
+toolbarMode = "minimal"      # no Deploy button
+
+[server]
+runOnSave = true
+enableStaticServing = true

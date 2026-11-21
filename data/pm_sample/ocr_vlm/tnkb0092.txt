@@ -1,0 +1,20 @@
+THE MEASUREMENT OF ENVIRONMENTAL TOBACCO SMOKE IN 585 OFFICE ENVIRONMENTS
+
+Simon Turner
+Healthy Buildings International, Inc. (HBI), Fairfax, VA 22030 USA
+
+Louis Cyr
+Department of Biostatistics and Biomathematics, School of Medicine, University of Alabama Medical Center at Birmingham, Birmingham AL 35294 USA
+
+Alan J. Gross
+Department of Biostatistics, Epidemiology, and Systems Science (DBESS), Medical University of South Carolina, Charleston, SC 29425 USA
+
+EI 9104-129M (Received 15 April 1991; accepted 19 July 1991)
+
+In order to provide information on levels of environmental tobacco smoke (ETS) in office environments during 1989, a total of 585 offices was sampled for a number of factors, including respirable suspended particles (RSP), nicotine, carbon monoxide, carbon dioxide, room size, average number of room occupants, and number of cigarettes consumed. Each data set was collected over a one-hour sampling period. Discriminant analysis of the data collected showed a group of rooms used for light smoking (59.9% of total smoking rooms) was not significantly different from the nonsmoking rooms, in terms of the variables which contributed to the predictive ability of the model (RSP and nicotine). These light-smoking rooms overlapped somewhat with the heavy-smoking rooms, suggesting other variables not measured here might contribute to this model, such as air change rates or outside air intake volumes. This leads to the possibility that a range of smoker densities could be established inside which indoor air quality will not be significantly affected, thus reflecting the American Society of Heating, Refrigerating and Air Conditioning Engineers (ASHRAE) Standard 62-89, which shows that with good ventilation acceptable air quality can be maintained with moderate amounts of smoking. Statistical analysis also showed overall levels of ETS in offices to be considerably lower than estimated in work ten years previously, and that carbon monoxide is only weakly influenced by smoking activity. Carbon dioxide measurements taken in each room did not correlate significantly with RSP, nicotine, or carbon monoxide, and there were significant relationships between smoker density, RSP, and nicotine, respectively.
+
+INTRODUCTION
+
+Given the present-day concerns in the U.S. society about exposure to environmental tobacco smoke (ETS), it is important that measurements used to assess exposure to this substance are representative of conditions existing in modern office environments.
+
+Numerous studies have measured levels of various components of ETS in both the home, workplace, and other public places. Repace and Lowrey (1980, 1982)

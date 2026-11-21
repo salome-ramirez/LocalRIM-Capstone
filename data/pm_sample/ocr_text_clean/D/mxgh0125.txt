@@ -1,0 +1,57 @@
+RESEARCH AND DEVELOPMENT
+SERVICE REQUEST AND DATA SHEET
+
+Submitter: K. DEANE
+Request Code: X88134
+Date Submitted: 03-21-88
+Date Completed: 04-08-88
+Sample Code: X8GG - GM
+Project Code: 2306
+
+Comments: MF STANDARDIZATION - MARCH 16, 1988 PICK-UP; NEW BLEND.
+
+Smoke
+Butt Length, mm 28 28 28 28 26 26
+FTC Tar, mg/cigt. 16.1 17.8 17.8 16.9 17.2 16.9 17.0
+TPM, mg/cigt. 20.4 22.1 22.6 21.6 22.2 22.3 22.2
+Nicotine, mg/cigt. 1.16 1.20 1.25 1.21 1.15 1.20 1.21
+Water, mg/cigt. 3.23 3.13 3.54 3.55 3.83 4.15 4.01
+Puffs/Cigt. 8.9 9.3 9.5 9.2 8.9 8.8 8.7
+
+Cigarette
+Total RTD, mm of H2O 118 119 120 122 112 114 105
+
+Paper
+Porosity, sec. 18 20 19 16 17 21 18
+
+Filter
+RTD, mm of H2O 68 68 68 74 69 70 67
+Tipping Paper Length, mm 25 25 25 25 25 23 23
+Ventilation, % 8 7 9 8 6 7 12
+
+Filler
+Reconstituted Tob., % 23 21 22 23 23 22 23
+Expanded Stems, % 3 2 2 2 3 3 3
+Expanded Tob., % 12 12 12 11 12 11 11
+Oven Volatiles, % 14.9 14.6 14.6 14.6 15.1 15.1 14.9
+Oven Volatiles, % (Pack) 13.0 12.5 13.0 13.0 13.4 13.0 13.3
+Propylene Glycol, % 2.0 2.0 1.9 1.8 2.0 2.0 2.0
+Glycerine, % 2.5 2.5 2.4 2.4 2.4 2.4 2.4
+Total Alkaloids, % 1.72 1.69 1.72 1.72 1.73 1.71 1.71
+Total Reducing Sugars, % 8.0 7.8 7.2 7.6 8.0 7.9 7.4
+Soluble Ammonia, % 0.32 0.32 0.32 0.33 0.32 0.33 0.31
+
+Submitter: K. DEANE
+Request Code: X88176
+Date Submitted: 04-22-88
+Date Completed: 05-04-88
+Sample Code: X8GG - GM
+Project Code: 2306
+
+Comments: MARLBORO STANDARDIZATION PICK-UP, MARCH 16, 1988 - NEW BLEND; RESULTS ARE UNCORRECTED.
+
+Filler
+Wt. of Tob., g 0.758 0.770 0.760 0.766 0.708
+
+Filler
+Wt. of Tob., g 0.734 0.716

@@ -1,0 +1,50 @@
+39.KW 90 WRE/MWO LAUF_INB.WM
+Erläuterungen zum Laufzettel für Dokumente
+(1) Dokumententyp auf dem Laufzettel eintragen (Report, Protocol, Application o. å.).
+(2) Jede Weitergabe des Dokuments ist auf der Vorderseite durch Ausgangsdatum beim Weitergebenden und
+Eingangsdatum beim Empfänger mit Datum und Zeichen zu dokumentieren.
+(3) Die in der folgenden Tabelle aufgeführten Stationen sind für jedes Dokument in der angegebenen
+Reihenfolge zu durchlaufen und auf der Vorderseitę des Laufzettels einzutragen. Treten geplante oder
+unvorhergesehene Abweichungen auf, so müssen diese Abweichungen in der folgenden Tabelle vermerkt
+werden:
+STATION BEMERKUNG DATUM ZN
+Freigabe Autor
+Freigabe SD bzw. Coordinator
+Editing
+DP-Meeting (a)
+GLP-Check
+Language-Check
+LR-Standards-Prüfung
+QA-Freigabe
+Approval GM oder Reviewer
+Binden
+Versand
+a nts 50853
+2 4. Sep. 1990 QA ed e
+(a gt
+So6
+Erläuterungen zum Laufzettel für Dokumente
+
+(1) Dokumententyp auf dem Laufzettel eintragen (Report, Protocol, Application o. ä.).
+
+(2) Jede Weitergabe des Dokuments ist auf der Vorderseite durch Ausgangsdatum beim Weitergebenden und Eingangsdatum beim Empfänger mit Datum und Zeichen zu dokumentieren.
+
+(3) Die in der folgenden Tabelle aufgeführten Stationen sind für jedes Dokument in der angegebenen Reihenfolge zu durchlaufen und auf der Vorderseite des Laufzettels einzutragen. Treten geplante oder unvorhergesehene Abweichungen auf, so müssen diese Abweichungen in der folgenden Tabelle vermerkt werden:
+
+| STATION | BEMERKUNG | DATUM | ZN |
+| :--- | :--- | :--- | :--- |
+| Freigabe Autor | | | |
+| Freigabe SD bzw. Coordinator | | | |
+| Editing | | | |
+| DP-Meeting (a) | | | |
+| GLP-Check | | | |
+| Language-Check | | | |
+| LR-Standards-Prüfung | | | |
+| QA-Freigabe | | | |
+| Approval GM oder Reviewer | | | |
+| Binden | | | |
+| Versand | | | |
+
+(4) Der Laufzettel ist Teil des Project Management Files (PMF), verbleibt bis zum Ausgang des Dokuments jedoch beim Dokument und wird erst danach im PMF eingeordnet.
+
+(a) Im Anschluß an das DP-Meeting werden die weiteren Stationen und der Reviewer festgelegt.

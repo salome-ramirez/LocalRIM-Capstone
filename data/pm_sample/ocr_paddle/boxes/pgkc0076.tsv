@@ -1,0 +1,54 @@
+x1	y1	x2	y2	conf	text
+1207.0	160.0	1526.0	238.0	100.0	PC00237
+240.0	279.0	661.0	316.0	100.0	PHILIP MORRIS U.S.A.
+238.0	327.0	917.0	366.0	99.9	INTER-OFFICE CORRESPONDENCE
+65.0	366.0	275.0	552.0	99.4	QA
+1004.0	390.0	1468.0	423.0	99.7	RICHMOND,VIRGINIA
+232.0	456.0	329.0	485.0	91.7	udițs &
+241.0	481.0	332.0	509.0	99.7	nalysis
+1175.0	473.0	1472.0	504.0	99.8	Date: October 31, 1997
+236.0	580.0	488.0	618.0	96.7	To: S. Capocelli
+236.0	661.0	473.0	692.0	97.5	From: D. J. Evers
+235.0	733.0	1339.0	770.0	98.9	SUBJECT: DIRECT MATERIAL QUALITY REPORT, THIRD QUARTER 1997
+235.0	850.0	1496.0	888.0	99.9	Attached is the Supplier Commodity Support group report for the third quarter 1997. This report is
+235.0	890.0	1069.0	924.0	99.8	now being generated out of the SAP database for direct materials.
+236.0	965.0	1468.0	1001.0	99.6	SAP captures and handles data more effectively than in previous direct material and QA systems.
+235.0	1002.0	1469.0	1040.0	99.9	The data is now real-time and quantifiable. As a result, there have been several changes from the
+237.0	1041.0	1030.0	1075.0	100.0	1996 reporting format. These changes are summarized below:
+281.0	1117.0	1449.0	1153.0	99.8	Percent Acceptance and Severity results by factory have been replaced by Quality Rating
+290.0	1155.0	1500.0	1194.0	100.0	and # Of Mandatory Copy/Sensory headings on the Direct Materials Quality Summary page.
+280.0	1230.0	1358.0	1269.0	100.0	Percent Acceptance goals and first quarter values in Table I, Buying Plan Summary
+285.0	1270.0	1331.0	1307.0	99.9	Comparison, have been replaced by Quality Rating goals and values respectively.
+283.0	1350.0	1493.0	1384.0	99.9	Percent Acceptance results for the current quarter only are now displayed on Table II, Volume
+285.0	1388.0	684.0	1421.0	99.5	Received vs. Volume Rejected.
+282.0	1462.0	1445.0	1501.0	99.9	Severity results headings on all tables have been replaced by the heading # Of Mandatory
+286.0	1504.0	486.0	1538.0	100.0	Copy/Sensory.
+238.0	1579.0	1464.0	1612.0	99.4	The Quality Rating values replacing Percent Acceptance data now represent a composite score
+236.0	1616.0	1502.0	1651.0	99.5	that includes factory audit results, manufacturing complaints, critical quality survey element results,
+235.0	1653.0	1425.0	1691.0	99.2	quality objectives, corrective actions, recurring issues, mandatory copy/sensory and incoming
+235.0	1693.0	374.0	1727.0	100.0	rejections.
+236.0	1767.0	406.0	1802.0	100.0	Distribution:
+235.0	1805.0	407.0	1839.0	98.5	J. E. Branam
+478.0	1805.0	634.0	1839.0	99.9	D. A. Clark
+718.0	1804.0	899.0	1838.0	100.0	D.G. Johnson
+971.0	1804.0	1128.0	1838.0	100.0	R. A. Miles
+1246.0	1802.0	1448.0	1842.0	99.7	W. A. Speicher
+236.0	1845.0	428.0	1880.0	100.0	J. L. Calloway
+478.0	1844.0	677.0	1878.0	99.9	H. G. Coleman
+717.0	1842.0	916.0	1879.0	96.9	D. B. Knudson
+972.0	1843.0	1176.0	1877.0	99.9	M. M. Mobrem
+1246.0	1842.0	1473.0	1882.0	99.9	C. U. Spellmeyer
+237.0	1883.0	610.0	1914.0	98.1	D. H. Carminucci T. G. Cox
+720.0	1882.0	909.0	1913.0	100.0	R. D. Latshaw
+971.0	1878.0	1148.0	1914.0	99.9	P. M. Rankin
+1246.0	1877.0	1398.0	1916.0	93.9	D. P. Ward
+236.0	1920.0	414.0	1954.0	99.9	J. A. Carboni
+477.0	1917.0	670.0	1954.0	99.9	D. R. Donaher
+718.0	1918.0	867.0	1956.0	99.4	H. P. Long
+971.0	1915.0	1142.0	1956.0	98.5	S. T. Ripley
+1247.0	1916.0	1407.0	1958.0	98.6	C. J. Young
+1551.0	1919.0	1610.0	2138.0	100.0	2082396253
+237.0	1959.0	384.0	1994.0	97.3	S. L. Cline
+480.0	1958.0	634.0	1993.0	100.0	T. E. Henry
+720.0	1959.0	926.0	1990.0	99.9	E. A. McDaniel
+974.0	1958.0	1142.0	1989.0	98.0	C. E. Stariha

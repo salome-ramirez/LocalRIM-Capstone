@@ -1,0 +1,67 @@
+QBDP47A Smoking/Physical Testing System
+Smoking Results Report
+Sample Id: 9200485 W/E
+Sample Date: 01/26/92 Brand: CA 2520 STD MERIT ULTIMA 100 SP
+Order Numbers:
+Formula Codes: 000
+Qty Produced:
+(in thous)
+Low Rng Hi Rng Target Results Comments
+TAR, Mg/Cigt 1.5 2.4 2.0 2.8* 40% above
+Nicotine, Mg/Cigt 0.25
+TPM. Mg/Cigt 3.3
+Menthol, Mg/Cigt
+Water, Mg/Cigt 0.26
+Puffs/Cigt 7.2
+Total RTD, In. of H2O 3.40 4.40 3.90 4.14
+Total RTD, MM. of H20 86.36 111.76 99.06 105.20
+Ventilation, x 54.0 64.0 59.0 55.7
+Plug RTD, In. of H20 5.26 5.76 5.51 5.61
+Plug RTD, MM. of H20 133.68 146.38 140.03 142.40
+Porosily, Corosta 37.0 55.0 46.0 46.3
+Tobacco Weight, G 0.562 0.622 0.592 0.592
+Circumference, MM 24.70 25.05 24.80 24.86
+OV, % 12.0 13.0 12.5 12.8
+Firmness, MM 3.46 205
+2
+Loose Ends, G 8
+Accepted: Rejected: 20940
+Print Date: 01/30/92
+Print Time: 14:08
+QBDP47A
+Smoking/Physical Testing System
+Smoking Results Report
+
+Sample Id: 9200485 W/E
+
+Sample Date: 01/26/92
+Brand: CA 2520 STD MERIT ULTIMA 100 SP
+
+Order Numbers:
+Formula Codes: 000
+Qty Produced:
+(in thous)
+
+Low Rng Hi Rng Target Results Comments
+TAR, Mg/Cigt 1.5 2.4 2.0 2.8* 40% above
+Nicotine, Mg/Cigt 0.25
+TPM, Mg/Cigt 3.3
+Menthol, Mg/Cigt
+Water, Mg/Cigt 0.26
+Puffs/Cigt 7.2
+Total RTD, In. of H2O 3.40 4.40 3.90 4.14
+Total RTD, MM. of H2O 86.36 111.76 99.06 105.20
+Ventilation, % 54.0 64.0 59.0 55.7
+Plug RTD, In. of H2O 5.26 5.76 5.51 5.61
+Plug RTD, MM. of H2O 133.68 146.38 140.03 142.40
+Porosity, Corosta 37.0 55.0 46.0 46.3
+Tobacco Weight, G 0.562 0.622 0.592 0.592
+Circumference, MM 24.70 25.05 24.80 24.86
+OV, % 12.0 13.0 12.5 12.8
+Firmness, MM 3.46
+Loose Ends, G
+
+Accepted: ___ Rejected: ___
+
+Print Date: 01/30/92
+Print Time: 14:08

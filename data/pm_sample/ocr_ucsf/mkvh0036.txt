@@ -1,0 +1,55 @@
+PSII.IpMORRIS
+V. S. A.
+!„oQ,,P,^
+I N T t^ R- O P P I c L
+C O R R L S P G N D L Nd'y
+^'
+To:.
+.
+Ms. Judy Smith,
+Prea:. John Tindall
+ei..wm....w,
+Virqinia
+Date::
+January
+Subject:
+.
+FTCandTICJ Tar and Nicotine Relationships
+The FTC and TIOJ1tarandnicotine data.supplied by J.N. Garman on Novesiber11,
+1989 and January 8, 1990 have been analyzed.todefine the relationshipr
+between measurefnentsfrom the two methods.
+There were forty P"tC/TIOJ pairrof tar.andlnicotine averages for27brands.
+Thirteen of the brands weremeasured twiceuch from^two different week:-ends^nq,
+saaples.
+Liqht of the brandb anasuredfrae onIyone week-ending samplewere
+measured at a differenttisrandon a dlfferent suchine from all oftheother
+brandr.
+The statistical analyseswere based only onaveraqe tar andinicotine valuea
+and on butt-lenqth differences.
+FTC butt lenqths were 0, 2,3, or 5aershorter:
+than TIOJ.butt lengths.
+Theprimary differencesbetween.the two methods^
+which would oausedifferent results,. are butt lenqthandairflow.. The FTC
+method (as'.applied by PhilipNerris) has greater.air.f3owthrouqhthe smoking
+machine and so would.be ezpected to give lower deliveries because of faster
+burning between puffs.
+where the two methods differ in butt length, the
+method with theshorter butt lenqth(more rodavailable for.smoking) wouldbe
+ezpectedto give hiqhervalues due to that effect.
+A reasonableway,to.ausauri!ze the relationship between FTC and TIOJ values is
+to relate the difference (TIOJminus FTC1 to themaqnitude of the values
+(representedby the rveraqe of.tZC'.and.TID.F.).
+Intuitively, then, that
+difference should.beproportional to the maqnitudeofthe vaLues, and the
+effect of a butt-lenqthdifferenceshould'be proportional.toboth the butt-
+length difference and, again, to the magnitude ofvaluea. Mathesntieally,
+whereTDis the tar (or.nicotine, ND) difference (TIOJ siinurFTC),
+BDis the butt-lenqthdifference(TIOJ minurFTC),
+AVis the averaqeof FTC and TIOJdeliveries^-(FTC+TIOJ)/2, and
+a and.b arereqression coefficients.
+The specific relationships which were found were
+TD - -.026(BD)^(AV) + .082('AVI and(1h
+ND - -.025(BD):(AV) + .0'98(AV).
+(2)^
+C90-01025
+2031465393

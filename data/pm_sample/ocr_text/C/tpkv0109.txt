@@ -1,0 +1,34 @@
+-21-
+SAMPLING OF PATENTS ON ELECTROSTATIC ATOMIZATION
+FROM CLAIMS {IFI'S DATABASE OF ALL U.S PATENTS}
+26C
+PN- US4356528
+TI - Atomization of Liquids
+IN - COFFEE RONALD A (GB)
+PA - IMPERIAL CHEMICAL INDUSTRIES LTD GB (41248)
+PD - 82.10.26
+AP - 79.09.28 79US-079950;
+CONTINUATION IN PART OF: 77.07.01 77US-812440 (Abanoned)
+PR - 76.07.15 76GB-029539, GB 29539; 77.02.21 77GB-007186, GB 7186
+PT - E (Electrical)
+DT - UTILITY
+CIT - Cited in 15 patents
+AB - Electrostatic spraying of liquid compositions is carried out by supplying the liquid to a spray
+orifice, preferably of capillary dimensions, having a charged surface which is electrically conducting or
+semi-conducting and which is adjacent a field intensifying electrode, the arrangement being such that
+the liquid is drawn out primarily by electrostatic forces, atomized into electrically charged particles
+without substantial corona discharge and projected past the field inte sifying electrode. The spraying
+process and apparatus has particular utility in the spraying of liquid pecticide compositions at ultra-low
+volume, in that the droplets are of uniform size and are electrostaticall, attracted to the plants so as to
+wrap around the leaves of the planets and coat both the upper and lower surfaces of the leaves.
+CLM- DRAWING
+1. A process of spraying pesticides at ultra-low volume onto plants comprising supplying a liquid pes-
+ticidal composition from a source thereof through a liquid passage to a spray orifice which has an at
+least electrically semiconducting surface adjacent a field intensifyirg electrode, said surface being
+electrically charged and the electrode being at such a potential and so sited relative to said surface that
+an atomising field strength is created at said orifice so that the liquid pesticide at said orifice is drawn
+out preponderantly by electrostatic forces substantially without corona discharge into ligaments which
+break up into electrically charged particles which are projected away from the electrode and into con-
+tact with the plants.
+5
+2022927453

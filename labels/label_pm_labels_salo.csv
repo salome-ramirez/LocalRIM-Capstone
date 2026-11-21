@@ -1,0 +1,272 @@
+path,doc_id,type_id,type_name,series_id,function_id,outcome,also_fits,certainty,note,taxonomy_file,saved_at
+images/mhjp0051.png,mhjp0051,AFF.IMG,"Issue ads, programs and corporate image",AFF.MED,AFF,labeled,FIN.BGT,unsure,,rim_taxonomy_final.yaml,2026-11-06T23:21:40
+images/jtfl0022.png,jtfl0022,MKT.EVT,Sponsorships and events,MKT.TRD,MKT,labeled,,sure,,rim_taxonomy_final.yaml,2026-11-06T23:22:43
+images/pggy0090.png,pggy0090,,,,,exclude,,sure,"folder cover, no contents shown",rim_taxonomy_final.yaml,2026-11-06T23:23:07
+images/txbk0004.png,txbk0004,MKT.EVT,Sponsorships and events,MKT.TRD,MKT,labeled,ADM.CAL,unsure,,rim_taxonomy_final.yaml,2026-11-06T23:23:58
+images/kkpv0002.png,kkpv0002,ADM.TRN,Transmittals with no visible contents,ADM.GEN,ADM,labeled,MKT.EVT,unsure,,rim_taxonomy_final.yaml,2026-11-06T23:24:54
+images/hfwb0002.png,hfwb0002,MKT.SLS,Sales and field reports,MKT.TRD,MKT,labeled,HR.ACT,unsure,,rim_taxonomy_final.yaml,2026-11-06T23:26:54
+images/zgdc0061.png,zgdc0061,AFF.LEG,Legislation tracking and advocacy,AFF.GOV,AFF,labeled,LEG.MEM,sure,,rim_taxonomy_final.yaml,2026-11-06T23:28:10
+images/yfln0070.png,yfln0070,FIN.CHK,Check requests and payments,FIN.PAY,FIN,labeled,AFF.LEG,unsure,,rim_taxonomy_final.yaml,2026-11-06T23:28:39
+images/nnjp0105.png,nnjp0105,MKT.EVT,Sponsorships and events,MKT.TRD,MKT,labeled,,sure,,rim_taxonomy_final.yaml,2026-11-06T23:29:11
+images/zrjj0069.png,zrjj0069,MKT.RET,Retailer and wholesaler dealings,MKT.TRD,MKT,labeled,MKT.PRM,sure,,rim_taxonomy_final.yaml,2026-11-06T23:30:17
+images/skvk0119.png,skvk0119,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,RND.BIB,unsure,,rim_taxonomy_final.yaml,2026-11-06T23:30:57
+images/kgnh0143.png,kgnh0143,RND.ART,Published articles,RND.REF,RND,labeled,AFF.PRS,sure,,rim_taxonomy_final.yaml,2026-11-06T23:32:29
+images/mhgh0111.png,mhgh0111,RND.REP,Study and lab reports,RND.STU,RND,labeled,,sure,,rim_taxonomy_final.yaml,2026-11-06T23:32:49
+images/lnnn0226.png,lnnn0226,AFF.IMG,"Issue ads, programs and corporate image",AFF.MED,AFF,labeled,,sure,,rim_taxonomy_final.yaml,2026-11-06T23:33:10
+images/nygy0154.png,nygy0154,RND.REP,Study and lab reports,RND.STU,RND,labeled,,sure,,rim_taxonomy_final.yaml,2026-11-06T23:33:31
+images/htng0175.png,htng0175,AFF.LEG,Legislation tracking and advocacy,AFF.GOV,AFF,labeled,AFF.SPE,sure,,rim_taxonomy_final.yaml,2026-11-06T23:36:32
+images/rxxj0116.png,rxxj0116,,,,,exclude,,sure,"folder cover, no contents shown",rim_taxonomy_final.yaml,2026-11-06T23:36:58
+images/sfkn0098.png,sfkn0098,RND.REP,Study and lab reports,RND.STU,RND,labeled,,sure,,rim_taxonomy_final.yaml,2026-11-06T23:37:18
+images/ghyw0022.png,ghyw0022,MKT.EVT,Sponsorships and events,MKT.TRD,MKT,labeled,MKT.SLS,sure,,rim_taxonomy_final.yaml,2026-11-06T23:38:11
+images/jslm0130.png,jslm0130,RND.PRO,Research proposals and plans,RND.STU,RND,labeled,RND.REP,sure,,rim_taxonomy_final.yaml,2026-11-06T23:38:41
+images/sqnk0128.png,sqnk0128,RND.REP,Study and lab reports,RND.STU,RND,labeled,,sure,,rim_taxonomy_final.yaml,2026-11-06T23:39:02
+images/lqgy0019.png,lqgy0019,MKT.PLN,"Campaigns, brand plans and media",MKT.BRD,MKT,labeled,MKT.PRM,sure,,rim_taxonomy_final.yaml,2026-11-06T23:39:29
+images/tlmb0119.png,tlmb0119,QSH.TST,Test methods and QA reports,QSH.QA,QSH,labeled,RND.REP,unsure,,rim_taxonomy_final.yaml,2026-11-06T23:39:55
+images/fplp0023.png,fplp0023,LEG.MEM,"Legal memos, opinions and privileged letters",LEG.ADV,LEG,labeled,MKT.PRM,unsure,,rim_taxonomy_final.yaml,2026-11-06T23:40:34
+images/gxhf0116.png,gxhf0116,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,AFF.IMG,sure,,rim_taxonomy_final.yaml,2026-11-06T23:48:45
+images/xzvv0218.png,xzvv0218,MKT.CMP,Competitor research,MKT.RES,MKT,labeled,MKT.PLN,sure,,rim_taxonomy_final.yaml,2026-11-06T23:51:00
+images/kfvf0123.png,kfvf0123,RND.NTS,Lab notes and sample records,RND.STU,RND,labeled,RND.REP,sure,,rim_taxonomy_final.yaml,2026-11-06T23:51:27
+images/rnfc0001.png,rnfc0001,,,,,exclude,,sure,blank or unreadable,rim_taxonomy_final.yaml,2026-11-06T23:51:49
+images/tsgj0119.png,tsgj0119,RND.PRO,Research proposals and plans,RND.STU,RND,labeled,MKT.SRV,sure,,rim_taxonomy_final.yaml,2026-11-06T23:52:20
+images/pxdg0001.png,pxdg0001,MKT.CMP,Competitor research,MKT.RES,MKT,labeled,MKT.SRV,sure,,rim_taxonomy_final.yaml,2026-11-06T23:53:23
+images/rspm0018.png,rspm0018,LEG.PLD,Pleadings and filings,LEG.LIT,LEG,labeled,FIN.CHK,sure,,rim_taxonomy_final.yaml,2026-11-06T23:53:49
+images/ypxd0119.png,ypxd0119,LEG.PLD,Pleadings and filings,LEG.LIT,LEG,labeled,AFF.REG,sure,Non-English,rim_taxonomy_final.yaml,2026-11-06T23:54:35
+images/gkxb0167.png,gkxb0167,MKT.EVT,Sponsorships and events,MKT.TRD,MKT,labeled,,unsure,,rim_taxonomy_final.yaml,2026-11-06T23:54:59
+images/rmdj0128.png,rmdj0128,LEG.PAT,Patents and trademarks,LEG.RTS,LEG,labeled,,sure,,rim_taxonomy_final.yaml,2026-11-06T23:55:48
+images/rfvn0121.png,rfvn0121,AFF.LEG,Legislation tracking and advocacy,AFF.GOV,AFF,labeled,AFF.SPE,sure,,rim_taxonomy_final.yaml,2026-11-06T23:56:17
+images/qtlx0033.png,qtlx0033,MKT.PRM,"Promotions, coupons and sweepstakes",MKT.TRD,MKT,labeled,MKT.ADS,sure,,rim_taxonomy_final.yaml,2026-11-06T23:56:47
+images/fzxb0110.png,fzxb0110,MKT.RET,Retailer and wholesaler dealings,MKT.TRD,MKT,labeled,AFF.IMG,sure,,rim_taxonomy_final.yaml,2026-11-06T23:57:16
+images/sfxk0120.png,sfxk0120,QSH.SPC,Specifications and standards,QSH.QA,QSH,labeled,ADM.RIM,unsure,,rim_taxonomy_final.yaml,2026-11-06T23:57:46
+images/tslp0124.png,tslp0124,RND.PRO,Research proposals and plans,RND.STU,RND,labeled,LEG.PAT,unsure,,rim_taxonomy_final.yaml,2026-11-07T00:03:40
+images/pydm0063.png,pydm0063,LEG.DEP,Depositions and transcripts,LEG.LIT,LEG,labeled,LEG.PLD,sure,,rim_taxonomy_final.yaml,2026-11-07T00:04:41
+images/fhvm0177.png,fhvm0177,ADM.RIM,Records management,ADM.GEN,ADM,labeled,QSH.TST,sure,,rim_taxonomy_final.yaml,2026-11-07T00:05:16
+images/ksly0164.png,ksly0164,,,,,exclude,,sure,"folder cover, no contents shown",rim_taxonomy_final.yaml,2026-11-07T00:05:46
+images/jlpd0092.png,jlpd0092,,,,,exclude,,sure,blank or unreadable,rim_taxonomy_final.yaml,2026-11-07T00:06:02
+images/jswx0018.png,jswx0018,HR.BEN,"Pay, benefits and training",HR.PRS,HR,labeled,RND.PRO,unsure,,rim_taxonomy_final.yaml,2026-11-07T00:06:44
+images/txgn0075.png,txgn0075,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,,unsure,Non-English,rim_taxonomy_final.yaml,2026-11-07T00:07:14
+images/nylg0061.png,nylg0061,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,,sure,,rim_taxonomy_final.yaml,2026-11-07T00:07:58
+images/ppvn0086.png,ppvn0086,QSH.SPC,Specifications and standards,QSH.QA,QSH,labeled,,unsure,,rim_taxonomy_final.yaml,2026-11-07T00:08:22
+images/xqgh0080.png,xqgh0080,AFF.REG,Regulatory filings and agency letters,AFF.GOV,AFF,labeled,LEG.PLD,sure,,rim_taxonomy_final.yaml,2026-11-07T00:08:48
+images/qjnk0124.png,qjnk0124,RND.REP,Study and lab reports,RND.STU,RND,labeled,QSH.TST,unsure,Non-English,rim_taxonomy_final.yaml,2026-11-07T00:10:27
+images/fzgh0112.png,fzgh0112,RND.BIB,"Bibliographies, reviews and science news",RND.REF,RND,labeled,,sure,,rim_taxonomy_final.yaml,2026-11-07T00:10:58
+images/xsgy0189.png,xsgy0189,LEG.MEM,"Legal memos, opinions and privileged letters",LEG.ADV,LEG,labeled,LEG.DSC,sure,,rim_taxonomy_final.yaml,2026-11-07T00:11:22
+images/xpxk0030.png,xpxk0030,MKT.EVT,Sponsorships and events,MKT.TRD,MKT,labeled,LEG.LIC,sure,,rim_taxonomy_final.yaml,2026-11-07T00:11:48
+images/nypk0000.png,nypk0000,RND.PRO,Research proposals and plans,RND.STU,RND,labeled,ADM.POL,unsure,,rim_taxonomy_final.yaml,2026-11-07T00:12:12
+images/pqpv0115.png,pqpv0115,RND.NTS,Lab notes and sample records,RND.STU,RND,labeled,RND.BIB,sure,Non-English,rim_taxonomy_final.yaml,2026-11-07T00:12:45
+images/mpvx0053.png,mpvx0053,AFF.STR,Communications strategy,AFF.MED,AFF,labeled,LEG.PLD,sure,,rim_taxonomy_final.yaml,2026-11-07T00:13:08
+images/rxfh0019.png,rxfh0019,FIN.PO,Purchase orders,FIN.PAY,FIN,labeled,MKT.RET,sure,,rim_taxonomy_final.yaml,2026-11-07T12:53:29
+images/ggdc0076.png,ggdc0076,ADM.RIM,Records management,ADM.GEN,ADM,labeled,QSH.CMP,sure,,rim_taxonomy_final.yaml,2026-11-07T12:54:26
+images/xyxg0019.png,xyxg0019,FIN.PO,Purchase orders,FIN.PAY,FIN,labeled,MKT.PRM,unsure,,rim_taxonomy_final.yaml,2026-11-07T12:56:13
+images/gfnd0170.png,gfnd0170,ADM.RIM,Records management,ADM.GEN,ADM,labeled,AFF.REG,sure,,rim_taxonomy_final.yaml,2026-11-07T12:56:58
+images/kfdk0008.png,kfdk0008,AFF.REG,Regulatory filings and agency letters,AFF.GOV,AFF,labeled,AFF.SPE,sure,,rim_taxonomy_final.yaml,2026-11-07T12:57:49
+images/gsnw0104.png,gsnw0104,QSH.SPC,Specifications and standards,QSH.QA,QSH,labeled,QSH.TST,sure,,rim_taxonomy_final.yaml,2026-11-07T12:58:27
+images/zhjp0112.png,zhjp0112,RND.NTS,Lab notes and sample records,RND.STU,RND,labeled,RND.REP,sure,,rim_taxonomy_final.yaml,2026-11-07T13:00:13
+images/qrkw0107.png,qrkw0107,RND.REP,Study and lab reports,RND.STU,RND,labeled,QSH.FRM,sure,,rim_taxonomy_final.yaml,2026-11-07T13:01:17
+images/tzlk0113.png,tzlk0113,LEG.PLD,Pleadings and filings,LEG.LIT,LEG,labeled,AFF.REG,unsure,,rim_taxonomy_final.yaml,2026-11-07T13:02:49
+images/jxyl0065.png,jxyl0065,LEG.MEM,"Legal memos, opinions and privileged letters",LEG.ADV,LEG,labeled,LEG.DEP,sure,,rim_taxonomy_final.yaml,2026-11-07T13:03:30
+images/jjdf0049.png,jjdf0049,MKT.SRV,Consumer surveys and research,MKT.RES,MKT,labeled,MKT.PRM,sure,,rim_taxonomy_final.yaml,2026-11-07T13:09:46
+images/psbg0182.png,psbg0182,QSH.SPC,Specifications and standards,QSH.QA,QSH,labeled,QSH.TST,sure,,rim_taxonomy_final.yaml,2026-11-07T13:10:21
+images/npxk0019.png,npxk0019,MKT.EVT,Sponsorships and events,MKT.TRD,MKT,labeled,AFF.PRS,sure,,rim_taxonomy_final.yaml,2026-11-07T13:15:30
+images/qlvv0145.png,qlvv0145,RND.ART,Published articles,RND.REF,RND,labeled,LEG.LIC,unsure,,rim_taxonomy_final.yaml,2026-11-07T13:20:57
+images/ymyj0071.png,ymyj0071,AFF.IMG,"Issue ads, programs and corporate image",AFF.MED,AFF,labeled,AFF.LEG,sure,,rim_taxonomy_final.yaml,2026-11-07T13:44:26
+images/xqxh0120.png,xqxh0120,MKT.CMP,Competitor research,MKT.RES,MKT,labeled,AFF.PRS,unsure,,rim_taxonomy_final.yaml,2026-11-07T13:45:38
+images/gmph0232.png,gmph0232,MKT.COR,Consumer correspondence,MKT.BRD,MKT,labeled,MKT.PRM,unsure,,rim_taxonomy_final.yaml,2026-11-07T13:51:01
+images/rpld0060.png,rpld0060,FIN.QTE,Price quotes and estimates,FIN.PAY,FIN,labeled,AFF.IMG,sure,,rim_taxonomy_final.yaml,2026-11-07T13:51:42
+images/xlmd0056.png,xlmd0056,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,RND.BIB,sure,,rim_taxonomy_final.yaml,2026-11-07T13:52:27
+images/yhjg0123.png,yhjg0123,RND.REP,Study and lab reports,RND.STU,RND,labeled,QSH.TST,unsure,,rim_taxonomy_final.yaml,2026-11-07T13:53:37
+images/xxxm0059.png,xxxm0059,ADM.CAL,"Calendars, schedules and office services",ADM.GEN,ADM,labeled,FIN.QTE,sure,Non-English,rim_taxonomy_final.yaml,2026-11-07T13:54:13
+images/jhnx0124.png,jhnx0124,ADM.POL,"Plans, policies and reorganizations",ADM.MGT,ADM,labeled,QSH.SAF,unsure,,rim_taxonomy_final.yaml,2026-11-07T13:54:55
+images/fymn0164.png,fymn0164,FIN.PO,Purchase orders,FIN.PAY,FIN,labeled,LEG.LIC,unsure,,rim_taxonomy_final.yaml,2026-11-07T13:56:57
+images/mndm0220.png,mndm0220,RND.PRO,Research proposals and plans,RND.STU,RND,labeled,RND.ABS,sure,,rim_taxonomy_final.yaml,2026-11-07T13:57:37
+images/szpk0065.png,szpk0065,ADM.RIM,Records management,ADM.GEN,ADM,labeled,LEG.MEM,sure,,rim_taxonomy_final.yaml,2026-11-07T13:59:17
+images/rrvg0120.png,rrvg0120,QSH.TST,Test methods and QA reports,QSH.QA,QSH,labeled,ADM.POL,sure,,rim_taxonomy_final.yaml,2026-11-07T14:01:07
+images/kqwg0022.png,kqwg0022,RND.REP,Study and lab reports,RND.STU,RND,labeled,MKT.SRV,unsure,,rim_taxonomy_final.yaml,2026-11-07T14:02:50
+images/hfyy0127.png,hfyy0127,LEG.PAT,Patents and trademarks,LEG.RTS,LEG,labeled,MKT.PLN,sure,,rim_taxonomy_final.yaml,2026-11-07T14:03:34
+images/rfbp0090.png,rfbp0090,FIN.BGT,Budgets and forecasts,FIN.BUD,FIN,labeled,MKT.PLN,sure,,rim_taxonomy_final.yaml,2026-11-07T14:07:33
+images/xrcw0091.png,xrcw0091,FIN.PO,Purchase orders,FIN.PAY,FIN,labeled,MKT.PRM,unsure,,rim_taxonomy_final.yaml,2026-11-07T14:08:19
+images/ftdx0130.png,ftdx0130,MKT.EVT,Sponsorships and events,MKT.TRD,MKT,labeled,AFF.PRS,sure,,rim_taxonomy_final.yaml,2026-11-07T14:09:23
+images/ghvg0022.png,ghvg0022,MKT.PLN,"Campaigns, brand plans and media",MKT.BRD,MKT,labeled,MKT.CMP,unsure,,rim_taxonomy_final.yaml,2026-11-07T14:10:01
+images/rkhp0076.png,rkhp0076,AFF.STR,Communications strategy,AFF.MED,AFF,labeled,MKT.SRV,unsure,,rim_taxonomy_final.yaml,2026-11-07T14:10:48
+images/tzdd0013.png,tzdd0013,AFF.STR,Communications strategy,AFF.MED,AFF,labeled,AFF.PRS,sure,,rim_taxonomy_final.yaml,2026-11-07T14:11:45
+images/zyvx0105.png,zyvx0105,RND.REP,Study and lab reports,RND.STU,RND,labeled,QSH.TST,unsure,Non-English,rim_taxonomy_final.yaml,2026-11-07T14:12:40
+images/mpbf0028.png,mpbf0028,RND.ART,Published articles,RND.REF,RND,labeled,RND.BIB,sure,,rim_taxonomy_final.yaml,2026-11-07T14:14:12
+images/kpjd0123.png,kpjd0123,,,,,exclude,,sure,blank or unreadable,rim_taxonomy_final.yaml,2026-11-07T14:14:53
+images/zrkd0112.png,zrkd0112,RND.BIB,"Bibliographies, reviews and science news",RND.REF,RND,labeled,RND.REP,sure,,rim_taxonomy_final.yaml,2026-11-07T14:15:31
+images/sxlm0082.png,sxlm0082,AFF.IMG,"Issue ads, programs and corporate image",AFF.MED,AFF,labeled,AFF.STR,sure,,rim_taxonomy_final.yaml,2026-11-07T14:16:10
+images/mmcy0169.png,mmcy0169,ADM.TRN,Transmittals with no visible contents,ADM.GEN,ADM,labeled,ADM.CAL,sure,,rim_taxonomy_final.yaml,2026-11-07T14:16:37
+images/shwp0109.png,shwp0109,RND.REP,Study and lab reports,RND.STU,RND,labeled,QSH.FRM,sure,,rim_taxonomy_final.yaml,2026-11-07T14:17:22
+images/fyxh0101.png,fyxh0101,AFF.STR,Communications strategy,AFF.MED,AFF,labeled,RND.PRO,unsure,,rim_taxonomy_final.yaml,2026-11-07T14:18:21
+images/rjfc0036.png,rjfc0036,RND.REP,Study and lab reports,RND.STU,RND,labeled,MKT.SRV,sure,,rim_taxonomy_final.yaml,2026-11-07T14:19:14
+images/gsfy0073.png,gsfy0073,FIN.BGT,Budgets and forecasts,FIN.BUD,FIN,labeled,FIN.QTE,sure,,rim_taxonomy_final.yaml,2026-11-07T14:19:44
+images/yfml0000.png,yfml0000,RND.ART,Published articles,RND.REF,RND,labeled,RND.BIB,sure,,rim_taxonomy_final.yaml,2026-11-07T14:37:36
+images/gtdk0130.png,gtdk0130,MKT.PRM,"Promotions, coupons and sweepstakes",MKT.TRD,MKT,labeled,MKT.RET,sure,,rim_taxonomy_final.yaml,2026-11-07T14:38:15
+images/hjpy0058.png,hjpy0058,MKT.CMP,Competitor research,MKT.RES,MKT,labeled,MKT.ADS,unsure,,rim_taxonomy_final.yaml,2026-11-07T14:38:48
+images/ksmj0076.png,ksmj0076,AFF.STR,Communications strategy,AFF.MED,AFF,labeled,ADM.RIM,unsure,,rim_taxonomy_final.yaml,2026-11-07T14:39:23
+images/kqbh0125.png,kqbh0125,AFF.STR,Communications strategy,AFF.MED,AFF,labeled,ADM.RIM,unsure,,rim_taxonomy_final.yaml,2026-11-07T14:43:50
+images/slhy0056.png,slhy0056,RND.ART,Published articles,RND.REF,RND,labeled,RND.BIB,sure,,rim_taxonomy_final.yaml,2026-11-07T14:44:24
+images/xlhg0012.png,xlhg0012,MKT.PLN,"Campaigns, brand plans and media",MKT.BRD,MKT,labeled,QSH.SPC,sure,,rim_taxonomy_final.yaml,2026-11-07T14:45:11
+images/ltdd0022.png,ltdd0022,MKT.PRM,"Promotions, coupons and sweepstakes",MKT.TRD,MKT,labeled,MKT.RET,sure,,rim_taxonomy_final.yaml,2026-11-07T14:45:51
+images/xhmg0052.png,xhmg0052,ADM.CAL,"Calendars, schedules and office services",ADM.GEN,ADM,labeled,MKT.EVT,unsure,,rim_taxonomy_final.yaml,2026-11-07T14:46:42
+images/lnyx0018.png,lnyx0018,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,LEG.PLD,sure,,rim_taxonomy_final.yaml,2026-11-07T14:47:10
+images/rgvb0013.png,rgvb0013,RND.NTS,Lab notes and sample records,RND.STU,RND,labeled,QSH.TST,sure,,rim_taxonomy_final.yaml,2026-11-07T14:48:11
+images/ykmh0076.png,ykmh0076,,,,,exclude,,sure,blank or unreadable,rim_taxonomy_final.yaml,2026-11-07T14:49:05
+images/lscg0112.png,lscg0112,RND.BIB,"Bibliographies, reviews and science news",RND.REF,RND,labeled,RND.ABS,sure,Non-English,rim_taxonomy_final.yaml,2026-11-07T14:49:37
+images/kjly0116.png,kjly0116,RND.BIB,"Bibliographies, reviews and science news",RND.REF,RND,labeled,RND.ABS,sure,,rim_taxonomy_final.yaml,2026-11-07T14:51:28
+images/ffxn0191.png,ffxn0191,LEG.DEP,Depositions and transcripts,LEG.LIT,LEG,labeled,LEG.PLD,sure,,rim_taxonomy_final.yaml,2026-11-07T14:52:16
+images/gtvf0007.png,gtvf0007,LEG.DEP,Depositions and transcripts,LEG.LIT,LEG,labeled,LEG.PLD,sure,,rim_taxonomy_final.yaml,2026-11-07T15:15:33
+images/gtvf0007.png,gtvf0007,FIN.INV,Invoices,FIN.PAY,FIN,labeled,MKT.PRM,sure,,rim_taxonomy_final.yaml,2026-11-07T15:17:59
+images/gtvf0007.png,gtvf0007,FIN.INV,Invoices,FIN.PAY,FIN,labeled,MKT.PRM,sure,,rim_taxonomy_final.yaml,2026-11-07T15:18:01
+images/gtvf0007.png,gtvf0007,FIN.INV,Invoices,FIN.PAY,FIN,labeled,MKT.PRM,sure,,rim_taxonomy_final.yaml,2026-11-07T15:18:05
+images/srfl0058.png,srfl0058,RND.BIB,"Bibliographies, reviews and science news",RND.REF,RND,labeled,AFF.REG,unsure,,rim_taxonomy_final.yaml,2026-11-07T15:20:50
+images/gmgv0067.png,gmgv0067,MKT.SLS,Sales and field reports,MKT.TRD,MKT,labeled,MKT.SRV,sure,,rim_taxonomy_final.yaml,2026-11-07T15:29:53
+images/fyvv0020.png,fyvv0020,FIN.INV,Invoices,FIN.PAY,FIN,labeled,MKT.ADS,sure,,rim_taxonomy_final.yaml,2026-11-07T15:30:38
+images/rxxc0001.png,rxxc0001,LEG.DSC,Discovery and productions,LEG.LIT,LEG,labeled,LEG.MEM,sure,,rim_taxonomy_final.yaml,2026-11-07T15:31:38
+images/nzwl0033.png,nzwl0033,FIN.BGT,Budgets and forecasts,FIN.BUD,FIN,labeled,MKT.PRM,unsure,,rim_taxonomy_final.yaml,2026-11-07T15:32:33
+images/lzpd0128.png,lzpd0128,QSH.SPC,Specifications and standards,QSH.QA,QSH,labeled,QSH.FRM,sure,,rim_taxonomy_final.yaml,2026-11-07T15:33:36
+images/jxnf0189.png,jxnf0189,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,AFF.SPE,sure,,rim_taxonomy_final.yaml,2026-11-07T15:34:07
+images/rhck0125.png,rhck0125,ADM.POL,"Plans, policies and reorganizations",ADM.MGT,ADM,labeled,AFF.STR,unsure,,rim_taxonomy_final.yaml,2026-11-07T15:35:09
+images/rjgf0025.png,rjgf0025,MKT.EVT,Sponsorships and events,MKT.TRD,MKT,labeled,AFF.PRS,sure,,rim_taxonomy_final.yaml,2026-11-07T15:35:49
+images/qngl0059.png,qngl0059,ADM.TRN,Transmittals with no visible contents,ADM.GEN,ADM,labeled,RND.REP,unsure,,rim_taxonomy_final.yaml,2026-11-07T15:36:27
+images/kfcw0049.png,kfcw0049,MKT.SRV,Consumer surveys and research,MKT.RES,MKT,labeled,FIN.PO,unsure,,rim_taxonomy_final.yaml,2026-11-07T15:37:57
+images/qrml0111.png,qrml0111,LEG.PAT,Patents and trademarks,LEG.RTS,LEG,labeled,RND.PRO,sure,,rim_taxonomy_final.yaml,2026-11-07T15:38:41
+images/sfjv0178.png,sfjv0178,AFF.STR,Communications strategy,AFF.MED,AFF,labeled,AFF.PRS,sure,,rim_taxonomy_final.yaml,2026-11-07T15:39:23
+images/qkgx0009.png,qkgx0009,MKT.EVT,Sponsorships and events,MKT.TRD,MKT,labeled,LEG.PAT,sure,,rim_taxonomy_final.yaml,2026-11-07T15:39:59
+images/zsnv0088.png,zsnv0088,RND.PRO,Research proposals and plans,RND.STU,RND,labeled,ADM.POL,unsure,,rim_taxonomy_final.yaml,2026-11-07T15:41:02
+images/gnpk0058.png,gnpk0058,RND.REP,Study and lab reports,RND.STU,RND,labeled,RND.NTS,sure,,rim_taxonomy_final.yaml,2026-11-07T15:41:45
+images/fthm0127.png,fthm0127,LEG.LIC,Licenses and legal agreements,LEG.RTS,LEG,labeled,AFF.STR,unsure,,rim_taxonomy_final.yaml,2026-11-07T15:42:31
+images/gzjl0218.png,gzjl0218,FIN.PO,Purchase orders,FIN.PAY,FIN,labeled,MKT.PLN,unsure,,rim_taxonomy_final.yaml,2026-11-07T15:43:06
+images/mhxj0181.png,mhxj0181,QSH.SPC,Specifications and standards,QSH.QA,QSH,labeled,FIN.PO,unsure,,rim_taxonomy_final.yaml,2026-11-07T15:43:39
+images/qzvb0031.png,qzvb0031,MKT.PRM,"Promotions, coupons and sweepstakes",MKT.TRD,MKT,labeled,MKT.ADS,sure,,rim_taxonomy_final.yaml,2026-11-07T15:44:17
+images/pxgv0052.png,pxgv0052,ADM.CAL,"Calendars, schedules and office services",ADM.GEN,ADM,labeled,AFF.IMG,unsure,,rim_taxonomy_final.yaml,2026-11-07T15:44:41
+images/hlhv0064.png,hlhv0064,ADM.CAL,"Calendars, schedules and office services",ADM.GEN,ADM,labeled,AFF.STR,unsure,,rim_taxonomy_final.yaml,2026-11-07T15:45:30
+images/qhfh0025.png,qhfh0025,MKT.PLN,"Campaigns, brand plans and media",MKT.BRD,MKT,labeled,MKT.EVT,unsure,,rim_taxonomy_final.yaml,2026-11-07T15:46:08
+images/sspy0072.png,sspy0072,RND.ABS,Conference abstracts,RND.REF,RND,labeled,RND.ART,sure,,rim_taxonomy_final.yaml,2026-11-07T15:46:51
+images/rrfj0000.png,rrfj0000,LEG.PAT,Patents and trademarks,LEG.RTS,LEG,labeled,LEG.MEM,sure,,rim_taxonomy_final.yaml,2026-11-07T15:47:35
+images/rsnk0129.png,rsnk0129,MKT.PRM,"Promotions, coupons and sweepstakes",MKT.TRD,MKT,labeled,MKT.ADS,sure,,rim_taxonomy_final.yaml,2026-11-07T16:28:36
+images/ynfp0030.png,ynfp0030,LEG.PLD,Pleadings and filings,LEG.LIT,LEG,labeled,LEG.MEM,sure,,rim_taxonomy_final.yaml,2026-11-07T16:30:10
+images/rgpj0055.png,rgpj0055,QSH.SPC,Specifications and standards,QSH.QA,QSH,labeled,QSH.FRM,sure,,rim_taxonomy_final.yaml,2026-11-07T16:30:42
+images/yypf0014.png,yypf0014,MKT.CMP,Competitor research,MKT.RES,MKT,labeled,MKT.SLS,sure,,rim_taxonomy_final.yaml,2026-11-07T16:31:16
+images/xsvb0084.png,xsvb0084,ADM.RIM,Records management,ADM.GEN,ADM,labeled,ADM.POL,sure,,rim_taxonomy_final.yaml,2026-11-07T16:31:42
+images/prmb0092.png,prmb0092,RND.REP,Study and lab reports,RND.STU,RND,labeled,RND.NTS,sure,,rim_taxonomy_final.yaml,2026-11-07T16:32:12
+images/mqmy0178.png,mqmy0178,RND.ART,Published articles,RND.REF,RND,labeled,RND.BIB,sure,,rim_taxonomy_final.yaml,2026-11-07T16:32:48
+images/gkdp0149.png,gkdp0149,AFF.IMG,"Issue ads, programs and corporate image",AFF.MED,AFF,labeled,MKT.COR,unsure,,rim_taxonomy_final.yaml,2026-11-07T16:33:34
+images/mqvy0098.png,mqvy0098,AFF.REG,Regulatory filings and agency letters,AFF.GOV,AFF,labeled,RND.BIB,unsure,,rim_taxonomy_final.yaml,2026-11-07T16:34:11
+images/plhw0128.png,plhw0128,RND.BIB,"Bibliographies, reviews and science news",RND.REF,RND,labeled,AFF.STR,sure,,rim_taxonomy_final.yaml,2026-11-07T16:35:41
+images/mzgp0090.png,mzgp0090,ADM.TRN,Transmittals with no visible contents,ADM.GEN,ADM,labeled,RND.REP,unsure,,rim_taxonomy_final.yaml,2026-11-07T16:36:06
+images/kmxw0172.png,kmxw0172,MKT.PRM,"Promotions, coupons and sweepstakes",MKT.TRD,MKT,labeled,MKT.EVT,unsure,,rim_taxonomy_final.yaml,2026-11-07T16:36:41
+images/flky0130.png,flky0130,MKT.CMP,Competitor research,MKT.RES,MKT,labeled,MKT.SLS,sure,,rim_taxonomy_final.yaml,2026-11-07T16:37:08
+images/xmbw0106.png,xmbw0106,LEG.PAT,Patents and trademarks,LEG.RTS,LEG,labeled,FIN.INV,unsure,,rim_taxonomy_final.yaml,2026-11-07T16:37:52
+images/qnfw0170.png,qnfw0170,AFF.STR,Communications strategy,AFF.MED,AFF,labeled,MKT.EVT,unsure,,rim_taxonomy_final.yaml,2026-11-07T16:38:50
+images/gxbl0119.png,gxbl0119,ADM.RIM,Records management,ADM.GEN,ADM,labeled,HR.ACT,sure,,rim_taxonomy_final.yaml,2026-11-07T16:55:30
+images/jkwx0164.png,jkwx0164,QSH.ENV,Environmental and waste notices,QSH.EHS,QSH,labeled,QSH.TST,sure,,rim_taxonomy_final.yaml,2026-11-07T16:56:30
+images/xhff0122.png,xhff0122,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,AFF.LEG,sure,,rim_taxonomy_final.yaml,2026-11-07T16:57:05
+images/ysjp0066.png,ysjp0066,MKT.RET,Retailer and wholesaler dealings,MKT.TRD,MKT,labeled,MKT.PRM,sure,,rim_taxonomy_final.yaml,2026-11-07T16:57:34
+images/jxmp0120.png,jxmp0120,,,,,exclude,,sure,blank or unreadable,rim_taxonomy_final.yaml,2026-11-07T16:57:50
+images/qrnf0143.png,qrnf0143,QSH.SAF,Safety procedures and incidents,QSH.EHS,QSH,labeled,ADM.ANN,sure,,rim_taxonomy_final.yaml,2026-11-07T16:58:18
+images/khlw0036.png,khlw0036,MKT.PLN,"Campaigns, brand plans and media",MKT.BRD,MKT,labeled,MKT.SLS,sure,,rim_taxonomy_final.yaml,2026-11-07T16:58:56
+images/kswd0028.png,kswd0028,MKT.PRM,"Promotions, coupons and sweepstakes",MKT.TRD,MKT,labeled,LEG.MEM,sure,,rim_taxonomy_final.yaml,2026-11-07T16:59:34
+images/xznm0117.png,xznm0117,MKT.PLN,"Campaigns, brand plans and media",MKT.BRD,MKT,labeled,ADM.POL,unsure,,rim_taxonomy_final.yaml,2026-11-07T17:00:02
+images/yjlj0220.png,yjlj0220,MKT.SRV,Consumer surveys and research,MKT.RES,MKT,labeled,MKT.PLN,sure,,rim_taxonomy_final.yaml,2026-11-07T17:00:30
+images/smmw0220.png,smmw0220,AFF.LEG,Legislation tracking and advocacy,AFF.GOV,AFF,labeled,LEG.MEM,sure,,rim_taxonomy_final.yaml,2026-11-07T17:00:58
+images/spbv0012.png,spbv0012,MKT.SRV,Consumer surveys and research,MKT.RES,MKT,labeled,MKT.PLN,sure,,rim_taxonomy_final.yaml,2026-11-07T17:01:28
+images/grnn0076.png,grnn0076,RND.PRO,Research proposals and plans,RND.STU,RND,labeled,RND.ABS,sure,,rim_taxonomy_final.yaml,2026-11-07T17:01:55
+images/zxdg0218.png,zxdg0218,MKT.EVT,Sponsorships and events,MKT.TRD,MKT,labeled,MKT.PLN,sure,,rim_taxonomy_final.yaml,2026-11-07T17:02:31
+images/zppf0128.png,zppf0128,AFF.REG,Regulatory filings and agency letters,AFF.GOV,AFF,labeled,LEG.MEM,sure,,rim_taxonomy_final.yaml,2026-11-07T17:03:07
+images/ylch0068.png,ylch0068,FIN.BGT,Budgets and forecasts,FIN.BUD,FIN,labeled,LEG.MEM,sure,,rim_taxonomy_final.yaml,2026-11-07T17:03:36
+images/stvy0130.png,stvy0130,ADM.RIM,Records management,ADM.GEN,ADM,labeled,LEG.DSC,sure,,rim_taxonomy_final.yaml,2026-11-07T17:04:07
+images/mtbl0067.png,mtbl0067,RND.BIB,"Bibliographies, reviews and science news",RND.REF,RND,labeled,RND.ABS,sure,,rim_taxonomy_final.yaml,2026-11-07T17:04:41
+images/zzjw0120.png,zzjw0120,FIN.STM,Financial statements,FIN.RPT,FIN,labeled,FIN.PO,sure,,rim_taxonomy_final.yaml,2026-11-07T17:05:32
+images/rtxb0167.png,rtxb0167,MKT.EVT,Sponsorships and events,MKT.TRD,MKT,labeled,MKT.RET,sure,,rim_taxonomy_final.yaml,2026-11-07T17:06:00
+images/pmdy0105.png,pmdy0105,MKT.PRM,"Promotions, coupons and sweepstakes",MKT.TRD,MKT,labeled,MKT.COR,sure,,rim_taxonomy_final.yaml,2026-11-07T17:06:24
+images/rzjx0159.png,rzjx0159,HR.BEN,"Pay, benefits and training",HR.PRS,HR,labeled,MKT.EVT,unsure,,rim_taxonomy_final.yaml,2026-11-07T17:06:52
+images/mpbc0077.png,mpbc0077,QSH.SPC,Specifications and standards,QSH.QA,QSH,labeled,ADM.POL,unsure,,rim_taxonomy_final.yaml,2026-11-07T17:07:17
+images/lrpn0119.png,lrpn0119,MKT.RET,Retailer and wholesaler dealings,MKT.TRD,MKT,labeled,MKT.PRM,sure,,rim_taxonomy_final.yaml,2026-11-07T17:07:41
+images/hjkn0120.png,hjkn0120,FIN.QTE,Price quotes and estimates,FIN.PAY,FIN,labeled,QSH.SPC,unsure,Non-English,rim_taxonomy_final.yaml,2026-11-07T17:08:16
+images/qhjw0080.png,qhjw0080,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,AFF.LEG,sure,,rim_taxonomy_final.yaml,2026-11-07T17:08:57
+images/sfmx0041.png,sfmx0041,ADM.TRN,Transmittals with no visible contents,ADM.GEN,ADM,labeled,LEG.DSC,unsure,,rim_taxonomy_final.yaml,2026-11-07T17:09:23
+images/tnkg0066.png,tnkg0066,RND.NTS,Lab notes and sample records,RND.STU,RND,labeled,MKT.SRV,sure,,rim_taxonomy_final.yaml,2026-11-07T17:09:54
+images/zxgw0012.png,zxgw0012,MKT.CMP,Competitor research,MKT.RES,MKT,labeled,ADM.TRN,sure,,rim_taxonomy_final.yaml,2026-11-07T17:10:16
+images/ykvg0157.png,ykvg0157,LEG.PLD,Pleadings and filings,LEG.LIT,LEG,labeled,AFF.LEG,sure,,rim_taxonomy_final.yaml,2026-11-07T17:10:41
+images/pzmf0074.png,pzmf0074,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,AFF.REG,sure,,rim_taxonomy_final.yaml,2026-11-07T17:11:09
+images/shyn0021.png,shyn0021,LEG.LIC,Licenses and legal agreements,LEG.RTS,LEG,labeled,ADM.TRN,unsure,,rim_taxonomy_final.yaml,2026-11-07T17:11:48
+images/zscd0069.png,zscd0069,MKT.PRM,"Promotions, coupons and sweepstakes",MKT.TRD,MKT,labeled,MKT.RET,sure,,rim_taxonomy_final.yaml,2026-11-07T17:12:24
+images/qrfx0070.png,qrfx0070,ADM.TRN,Transmittals with no visible contents,ADM.GEN,ADM,labeled,MKT.PLN,unsure,,rim_taxonomy_final.yaml,2026-11-07T17:12:54
+images/xhpc0015.png,xhpc0015,QSH.MSD,Material safety data sheets,QSH.EHS,QSH,labeled,QSH.SAF,sure,,rim_taxonomy_final.yaml,2026-11-07T17:13:27
+images/pgcd0055.png,pgcd0055,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,AFF.IMG,sure,,rim_taxonomy_final.yaml,2026-11-07T17:13:58
+images/ptjx0009.png,ptjx0009,MKT.EVT,Sponsorships and events,MKT.TRD,MKT,labeled,AFF.PRS,sure,,rim_taxonomy_final.yaml,2026-11-07T17:14:30
+images/fsvl0006.png,fsvl0006,AFF.STR,Communications strategy,AFF.MED,AFF,labeled,AFF.IMG,sure,,rim_taxonomy_final.yaml,2026-11-07T17:14:56
+images/pnlh0111.png,pnlh0111,RND.BIB,"Bibliographies, reviews and science news",RND.REF,RND,labeled,RND.ART,sure,,rim_taxonomy_final.yaml,2026-11-07T17:15:30
+images/zyjx0053.png,zyjx0053,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,AFF.REG,sure,,rim_taxonomy_final.yaml,2026-11-07T17:15:53
+images/tkjg0143.png,tkjg0143,RND.REP,Study and lab reports,RND.STU,RND,labeled,QSH.SPC,sure,,rim_taxonomy_final.yaml,2026-11-07T17:16:20
+images/nxbg0004.png,nxbg0004,,,,,exclude,,sure,blank or unreadable,rim_taxonomy_final.yaml,2026-11-07T17:17:02
+images/qxvy0021.png,qxvy0021,RND.PRO,Research proposals and plans,RND.STU,RND,labeled,QSH.TST,unsure,,rim_taxonomy_final.yaml,2026-11-07T17:17:55
+images/gxjc0130.png,gxjc0130,RND.REP,Study and lab reports,RND.STU,RND,labeled,MKT.CMP,sure,,rim_taxonomy_final.yaml,2026-11-07T18:04:11
+images/yxyw0025.png,yxyw0025,FIN.CHK,Check requests and payments,FIN.PAY,FIN,labeled,MKT.EVT,sure,,rim_taxonomy_final.yaml,2026-11-07T18:04:47
+images/jhnb0096.png,jhnb0096,AFF.SPE,Speeches and statements,AFF.MED,AFF,labeled,ADM.POL,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:05:10
+images/xfwm0014.png,xfwm0014,MKT.PLN,"Campaigns, brand plans and media",MKT.BRD,MKT,labeled,MKT.CMP,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:05:45
+images/ffjn0108.png,ffjn0108,MKT.CMP,Competitor research,MKT.RES,MKT,labeled,AFF.PRS,sure,,rim_taxonomy_final.yaml,2026-11-07T18:06:10
+images/mlcv0106.png,mlcv0106,MKT.PLN,"Campaigns, brand plans and media",MKT.BRD,MKT,labeled,MKT.SRV,sure,,rim_taxonomy_final.yaml,2026-11-07T18:06:34
+images/xhlp0066.png,xhlp0066,MKT.RET,Retailer and wholesaler dealings,MKT.TRD,MKT,labeled,MKT.PRM,sure,,rim_taxonomy_final.yaml,2026-11-07T18:08:50
+images/srmj0093.png,srmj0093,MKT.CMP,Competitor research,MKT.RES,MKT,labeled,MKT.PRM,sure,,rim_taxonomy_final.yaml,2026-11-07T18:09:19
+images/tqbl0055.png,tqbl0055,ADM.TRN,Transmittals with no visible contents,ADM.GEN,ADM,labeled,ADM.CAL,sure,,rim_taxonomy_final.yaml,2026-11-07T18:09:50
+images/zrvx0108.png,zrvx0108,RND.REP,Study and lab reports,RND.STU,RND,labeled,RND.BIB,sure,,rim_taxonomy_final.yaml,2026-11-07T18:10:20
+images/xtxd0061.png,xtxd0061,AFF.IMG,"Issue ads, programs and corporate image",AFF.MED,AFF,labeled,AFF.STR,sure,,rim_taxonomy_final.yaml,2026-11-07T18:12:17
+images/sygm0159.png,sygm0159,AFF.IMG,"Issue ads, programs and corporate image",AFF.MED,AFF,labeled,AFF.STR,sure,,rim_taxonomy_final.yaml,2026-11-07T18:12:42
+images/rqnk0014.png,rqnk0014,MKT.PLN,"Campaigns, brand plans and media",MKT.BRD,MKT,labeled,FIN.QTE,sure,,rim_taxonomy_final.yaml,2026-11-07T18:13:07
+images/smlm0127.png,smlm0127,QSH.TST,Test methods and QA reports,QSH.QA,QSH,labeled,RND.REP,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:13:39
+images/mnpp0120.png,mnpp0120,RND.REP,Study and lab reports,RND.STU,RND,labeled,ADM.RIM,unsure,Non-English,rim_taxonomy_final.yaml,2026-11-07T18:14:12
+images/rggg0143.png,rggg0143,RND.PRO,Research proposals and plans,RND.STU,RND,labeled,FIN.BGT,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:14:40
+images/ymmp0038.png,ymmp0038,MKT.CMP,Competitor research,MKT.RES,MKT,labeled,MKT.RET,sure,,rim_taxonomy_final.yaml,2026-11-07T18:15:20
+images/qqjn0112.png,qqjn0112,QSH.FRM,Formulas and blends,QSH.QA,QSH,labeled,QSH.TST,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:16:06
+images/xtpv0179.png,xtpv0179,RND.PRO,Research proposals and plans,RND.STU,RND,labeled,LEG.LIC,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:16:39
+images/lhkp0166.png,lhkp0166,QSH.TST,Test methods and QA reports,QSH.QA,QSH,labeled,QSH.SPC,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:17:44
+images/xfyg0120.png,xfyg0120,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,AFF.REG,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:18:47
+images/yshl0073.png,yshl0073,ADM.TRN,Transmittals with no visible contents,ADM.GEN,ADM,labeled,LEG.PAT,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:19:21
+images/lmwg0060.png,lmwg0060,MKT.PLN,"Campaigns, brand plans and media",MKT.BRD,MKT,labeled,MKT.PRM,sure,,rim_taxonomy_final.yaml,2026-11-07T18:20:26
+images/fkdw0012.png,fkdw0012,MKT.PLN,"Campaigns, brand plans and media",MKT.BRD,MKT,labeled,MKT.PRM,sure,,rim_taxonomy_final.yaml,2026-11-07T18:21:00
+images/pmvk0030.png,pmvk0030,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,AFF.LEG,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:21:30
+images/smpd0126.png,smpd0126,RND.NTS,Lab notes and sample records,RND.STU,RND,labeled,RND.REP,sure,,rim_taxonomy_final.yaml,2026-11-07T18:22:07
+images/tyhx0108.png,tyhx0108,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,RND.BIB,sure,,rim_taxonomy_final.yaml,2026-11-07T18:22:37
+images/shww0218.png,shww0218,FIN.QTE,Price quotes and estimates,FIN.PAY,FIN,labeled,MKT.PLN,sure,,rim_taxonomy_final.yaml,2026-11-07T18:23:15
+images/hhlv0003.png,hhlv0003,LEG.MEM,"Legal memos, opinions and privileged letters",LEG.ADV,LEG,labeled,LEG.PLD,sure,,rim_taxonomy_final.yaml,2026-11-07T18:23:39
+images/lxwg0220.png,lxwg0220,FIN.QTE,Price quotes and estimates,FIN.PAY,FIN,labeled,MKT.PLN,sure,,rim_taxonomy_final.yaml,2026-11-07T18:24:01
+images/gqhh0058.png,gqhh0058,RND.ART,Published articles,RND.REF,RND,labeled,RND.REP,sure,,rim_taxonomy_final.yaml,2026-11-07T18:24:44
+images/zjvm0112.png,zjvm0112,RND.BIB,"Bibliographies, reviews and science news",RND.REF,RND,labeled,QSH.TST,sure,,rim_taxonomy_final.yaml,2026-11-07T18:25:30
+images/tymb0128.png,tymb0128,ADM.RIM,Records management,ADM.GEN,ADM,labeled,HR.ACT,sure,,rim_taxonomy_final.yaml,2026-11-07T18:26:08
+images/kzyb0076.png,kzyb0076,AFF.STR,Communications strategy,AFF.MED,AFF,labeled,QSH.ENV,sure,,rim_taxonomy_final.yaml,2026-11-07T18:26:35
+images/mhpp0124.png,mhpp0124,MKT.ADS,Ads and ad proofs,MKT.BRD,MKT,labeled,MKT.PLN,sure,,rim_taxonomy_final.yaml,2026-11-07T18:27:15
+images/xsjf0122.png,xsjf0122,RND.ART,Published articles,RND.REF,RND,labeled,AFF.PRS,sure,,rim_taxonomy_final.yaml,2026-11-07T18:27:54
+images/xpgg0069.png,xpgg0069,QSH.TST,Test methods and QA reports,QSH.QA,QSH,labeled,QSH.SPC,sure,,rim_taxonomy_final.yaml,2026-11-07T18:28:24
+images/qffv0220.png,qffv0220,QSH.SPC,Specifications and standards,QSH.QA,QSH,labeled,RND.NTS,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:34:18
+images/sldy0109.png,sldy0109,RND.REP,Study and lab reports,RND.STU,RND,labeled,MKT.SRV,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:35:08
+images/ffbj0177.png,ffbj0177,MKT.SRV,Consumer surveys and research,MKT.RES,MKT,labeled,MKT.PRM,sure,,rim_taxonomy_final.yaml,2026-11-07T18:35:40
+images/hsbj0064.png,hsbj0064,MKT.CMP,Competitor research,MKT.RES,MKT,labeled,MKT.SLS,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:36:17
+images/yfyx0014.png,yfyx0014,MKT.PRM,"Promotions, coupons and sweepstakes",MKT.TRD,MKT,labeled,MKT.EVT,sure,,rim_taxonomy_final.yaml,2026-11-07T18:36:46
+images/xtvb0012.png,xtvb0012,MKT.EVT,Sponsorships and events,MKT.TRD,MKT,labeled,AFF.IMG,sure,,rim_taxonomy_final.yaml,2026-11-07T18:37:09
+images/rhhn0043.png,rhhn0043,MKT.ADS,Ads and ad proofs,MKT.BRD,MKT,labeled,MKT.PLN,sure,,rim_taxonomy_final.yaml,2026-11-07T18:37:35
+images/jhyf0080.png,jhyf0080,FIN.CHK,Check requests and payments,FIN.PAY,FIN,labeled,LEG.LIC,sure,,rim_taxonomy_final.yaml,2026-11-07T18:38:13
+images/yxhj0117.png,yxhj0117,ADM.POL,"Plans, policies and reorganizations",ADM.MGT,ADM,labeled,QSH.TST,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:38:40
+images/pljj0181.png,pljj0181,QSH.SPC,Specifications and standards,QSH.QA,QSH,labeled,QSH.ENV,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:39:15
+images/spnm0150.png,spnm0150,ADM.CAL,"Calendars, schedules and office services",ADM.GEN,ADM,labeled,ADM.MTG,sure,,rim_taxonomy_final.yaml,2026-11-07T18:39:46
+images/ggmg0175.png,ggmg0175,MKT.SRV,Consumer surveys and research,MKT.RES,MKT,labeled,MKT.PLN,sure,,rim_taxonomy_final.yaml,2026-11-07T18:40:18
+images/rkxm0010.png,rkxm0010,MKT.RET,Retailer and wholesaler dealings,MKT.TRD,MKT,labeled,MKT.PRM,sure,,rim_taxonomy_final.yaml,2026-11-07T18:40:46
+images/ntvh0131.png,ntvh0131,ADM.RIM,Records management,ADM.GEN,ADM,labeled,LEG.DSC,sure,,rim_taxonomy_final.yaml,2026-11-07T18:41:10
+images/zfcm0105.png,zfcm0105,AFF.PRS,Press releases and coverage,AFF.MED,AFF,labeled,AFF.LEG,sure,,rim_taxonomy_final.yaml,2026-11-07T18:41:45
+images/rsdm0055.png,rsdm0055,RND.PRO,Research proposals and plans,RND.STU,RND,labeled,AFF.STR,sure,,rim_taxonomy_final.yaml,2026-11-07T18:42:12
+images/fgxm0033.png,fgxm0033,,,,,exclude,,sure,blank or unreadable,rim_taxonomy_final.yaml,2026-11-07T18:42:32
+images/lxdd0115.png,lxdd0115,ADM.POL,"Plans, policies and reorganizations",ADM.MGT,ADM,labeled,HR.ACT,sure,,rim_taxonomy_final.yaml,2026-11-07T18:42:56
+images/trvw0127.png,trvw0127,FIN.QTE,Price quotes and estimates,FIN.PAY,FIN,labeled,FIN.PO,sure,Non-English,rim_taxonomy_final.yaml,2026-11-07T18:43:25
+images/xxyx0069.png,xxyx0069,AFF.LEG,Legislation tracking and advocacy,AFF.GOV,AFF,labeled,ADM.TRN,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:43:54
+images/xzdk0123.png,xzdk0123,RND.PRO,Research proposals and plans,RND.STU,RND,labeled,RND.REP,sure,,rim_taxonomy_final.yaml,2026-11-07T18:44:16
+images/gkpc0015.png,gkpc0015,QSH.MSD,Material safety data sheets,QSH.EHS,QSH,labeled,QSH.SAF,sure,,rim_taxonomy_final.yaml,2026-11-07T18:44:40
+images/pzlp0098.png,pzlp0098,AFF.LEG,Legislation tracking and advocacy,AFF.GOV,AFF,labeled,AFF.SPE,sure,,rim_taxonomy_final.yaml,2026-11-07T18:45:02
+images/knfg0025.png,knfg0025,MKT.PLN,"Campaigns, brand plans and media",MKT.BRD,MKT,labeled,MKT.EVT,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:45:32
+images/hxwl0052.png,hxwl0052,MKT.PLN,"Campaigns, brand plans and media",MKT.BRD,MKT,labeled,LEG.LIC,unsure,,rim_taxonomy_final.yaml,2026-11-07T18:46:07
+images/jswx0018.png,jswx0018,,,,,exclude,,unsure,Out of scope (HR),rim_taxonomy_final.yaml,2026-11-07T18:59:41
+images/rzjx0159.png,rzjx0159,,,,,exclude,,unsure,Out of scope (HR),rim_taxonomy_final.yaml,2026-11-07T18:59:41
+images/jjbj0220.png,jjbj0220,FIN.INV,Invoices,FIN.PAY,FIN,labeled,MKT.SRV,sure,,rim_taxonomy_final.yaml,2026-11-07T19:01:05
+images/hjcx0170.png,hjcx0170,RND.PRO,Research proposals and plans,RND.STU,RND,labeled,FIN.QTE,unsure,,rim_taxonomy_final.yaml,2026-11-07T19:01:41
+images/nygy0154.png,nygy0154,RND.NTS,Lab notes and sample records,RND.STU,RND,labeled,,sure,,rim_taxonomy_final.yaml,2026-11-07T19:07:00
+images/nzwl0033.png,nzwl0033,FIN.CST,Spend and cost reports,FIN.BUD,FIN,labeled,MKT.PRM,unsure,,rim_taxonomy_final.yaml,2026-11-07T19:07:00
+images/gfnd0170.png,gfnd0170,ADM.RIM,Records management,ADM.GEN,ADM,labeled,AFF.REG,unsure,,rim_taxonomy_final.yaml,2026-11-07T19:07:00
+images/zzjw0120.png,zzjw0120,FIN.STM,Financial statements,FIN.RPT,FIN,labeled,FIN.PO,unsure,,rim_taxonomy_final.yaml,2026-11-07T19:07:00

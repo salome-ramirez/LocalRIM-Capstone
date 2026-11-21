@@ -1,0 +1,45 @@
+a——. Beta Series B Design Conformance Testing Summary men
+4, Charger Operational Conformance
+Operational conformance to specification for the "B" series charger design was
+evaluated by sampling pian via the following tests:
+075CC2P Lighter Slot Recharge Time Test
+062CC1P Exit Air Temperature Safety Test
+064CC1P Charger Case Temperature Test
+019CC1P Cleaning Power Interruption Response Test
+052CC1P Lighter/Battery Installation into Charger
+Lighter Slot Recharge Time
+This test verifies that the time required to charge a battery in the lighter siot (while
+installed in the lighter) does not exceed 40 minutes. Revision 2P of this test also collected
+informational data on other charger functions as indicated below:
+075CC2P
+Length of Length of
+first second
+Elapsed Elapsed interval interval
+time to time to between hetween Peak Peak
+Green Max Chg, cleaning cleaning cleaning cleaning
+LED Max chg Voitaga cycles cycles voltage current
+CHGR# (minutes) Voltage (minutes) (minutes) (minutes) (volte) (amps)
+401 31 7.56 14 13 13 18.22 2.42
+107 31.39 7.67 7 13 13 18.23 2
+321 34 7.35 25 13 13 17.86 2.26
+430 38 7.33 28 13 13 18.13 2
+12 31 6.6 13 13 13 16.92 2
+Percentage of sample population failing the Lighter Slot Recharge Time Test: 0% 5
+fewer’ er a a -
+xit Air Temperatu Safe Test ne ete, See
+Charger Case Temperature Test ä - é‚am»m stay gem
+These tests verify that the case temperature and exit air temperature du a active
+cleaning do not. pr en’ Eteach P of” te oy entre
+A 5 charger sample was tested. Case temperature criterion was max. = 70° C. Exit air
+criterion was max. = 100° C
+degrees C) -
+50,97 ü&
+nm f
+© i
+aa j
+ia fi
+‚nn wd as
+nS i
+Percentage of sample population failing the Exit Air Temperature S@fety Test: 0% HE
+Percentage of sample population failing the Charger Case Temperature Test: 0% 4 E
+Philip Morris Ulira Trade Secret Doc. Code PO622

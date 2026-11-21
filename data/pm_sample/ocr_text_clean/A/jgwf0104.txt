@@ -1,0 +1,31 @@
+PHILIP 1 oe
+Is
+RECORDS RETENTION
+MANUFACTURING - LOUISVILLE TOTAL QUALITY SERVICES
+USA
+SCHEDULE
+ISSUED
+April 2, 1991
+[econo [ RETENTION PERIOD p orricra |
+| cop RECORD CATEGORY | IN DEPT. IN STORAGE | TOTAL LOCAT
+BO351 BUDGETS c+ 3 | c+3 I_ FIN
+c0500 CALENDARS /DAYTIMERS/DIARIES c+i c+i | _|
+C0734 +| CONFERENCES AND SEMINARS cri cri
+C0735 | CORRESPONDENCE c+2 c+2
+C0736 COST REDUCTION ctZ c+ 2 _| ——
+E0392 t EMPLOYEE DEVELOPMENT AND C+4 c+ra HR
+TRAINING
+E0393 EMPLOYEE INFORMATION _| cra c+4 HR
+E0394 EMPLOYEE INVOLVEMENT REPORTS c+ 3 c+ 3
+E0395 - EMPLOYEE TRAINING RECORDS ceri c+il HR
+E0396 ENGINEERING PROJECTS c+2 c+2 ENG
+G0199 GOALS/OBJECTIVES /PLANNING cra . c+a
+10250 | LIBRARY/REFERENCE MATERIAL L SUP + 2 SUP + Z_j ._l
+[ Revise DATE March 2, 1995 | DEPT. cope 02 MFI-M15 | SHEET 1 oF 2
+*er "| While Active Schedile revisions fo date. All approved records retention
+a M = Current Month Ee QGEYT ESOS schedules and ox d revisions are on file in the PM USA
+C = Current Year Records Managemént Legal Departments.
+P = Permanently Date: Ss (‘2-5 GS
+SUP = Until Superseded
+Marfagement.
+is wT ae os

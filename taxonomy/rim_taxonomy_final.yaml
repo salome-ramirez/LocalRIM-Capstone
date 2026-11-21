@@ -1,0 +1,396 @@
+# LocalRIM records taxonomy, version 3 (final).
+# Three levels: department (function) -> record series -> record type.
+# A page is labeled with its record type; its series and department follow from it.
+# Models are scored at the department level only; Administration is merged into Legal
+# for scoring.
+# Departments mirror Philip Morris's own departments, based on its retention schedules
+# (ffbb0056, ffbp0129, ffbh0109) and archive filing areas; R&D and executive management
+# are inferred.
+# Data: Philip Morris Records collection, UCSF Industry Documents Library.
+
+version: 3
+status: final
+
+scoring:
+  level: department
+  merge_for_scoring:
+    ADM: LEG
+  low_count_caveat_below: 10
+
+labeling_rules:
+  - id: R1
+    rule: Purpose over format. A letter, memo, form or handwritten note can belong to any department. Ask why it was created or kept, not what it looks like.
+  - id: R2
+    rule: Documents from outsiders (law firms, agencies, vendors, scientists, consumers, other companies) go to the department they serve at PM.
+  - id: R3
+    rule: Office of record. If a record category has an official home at PM, use it even when another department holds a copy. Budgets and invoices go to Finance; personnel files and the CVs of PM employees and job applicants go to HR. CVs and biographical sketches inside research proposals or grant applications go to R&D.
+  - id: R4
+    rule: Contracts go to their subject. Union and benefits contracts go to HR, supplier contracts to Finance. Legal keeps litigation, legal advice and patents.
+  - id: R5
+    rule: Meeting notes and agendas go to the department of the meeting's subject. Cover sheets and transmittals take the type of what they carry, when that shows on the page.
+  - id: R6
+    rule: Mark "unsure" and add a short note when you hesitate. Unsure labels are kept and measure label noise.
+  - id: R7
+    rule: Exclude a document (with a reason) only if it is blank, unreadable, or not a business record. Folder covers and separator sheets that show only a date, tab or Bates number are excluded too; a folder whose label shows its contents takes that type (R5).
+  - id: R8
+    rule: Non-tobacco businesses PM owned (Kraft, General Foods, Miller and others) are excluded. Note "non-tobacco - company or brand".
+  - id: R9
+    rule: Money pages. If Accounts Payable would need the page to pay, approve or record money, or it reports PM's own budgets or results, it goes to Finance, whatever the activity behind it. A report that only mentions dollars goes to the department whose work it reports.
+  - id: R10
+    rule: Duplicates. A page that repeats another document already in the set is excluded. Note "duplicate of <id>".
+
+functions:
+
+  - id: RND
+    name: Research and development
+    question: Was it created to discover, test or report scientific knowledge?
+    definition: Records of research PM carried out, commissioned or collected.
+    hints:
+      - Routine testing of what the plant produces is Quality, not research.
+      - Published in a journal or book means Scientific reference, whoever wrote it.
+      - A lab analysis of a competitor's product is a study report here; a competitor's market share or ads is Marketing.
+    series:
+      - id: RND.STU
+        name: Research studies
+        types:
+          - id: RND.REP
+            name: Study and lab reports
+            looks_like: Study reports, lab results, progress and status reports, contract lab reports, competitor product analyses, panel tests of prototypes
+            definition: Results and progress of research PM did or commissioned.
+          - id: RND.PRO
+            name: Research proposals and plans
+            looks_like: Research proposals, grant applications and biographical sketches, study concepts and designs, research priorities and plans
+            definition: Plans for research, before results exist.
+          - id: RND.NTS
+            name: Lab notes and sample records
+            looks_like: Lab notebooks, handwritten experiment notes, sample logs, service request and data sheets
+            definition: Working records kept while doing research.
+      - id: RND.REF
+        name: Scientific reference
+        types:
+          - id: RND.ART
+            name: Published articles
+            looks_like: Journal articles and reprints, book chapters, published rebuttals and letters
+            definition: Published scientific papers, by PM scientists or outsiders.
+          - id: RND.ABS
+            name: Conference abstracts
+            looks_like: Conference and symposium abstracts, meeting programs with abstracts
+            definition: Short scientific summaries presented at meetings.
+          - id: RND.BIB
+            name: Bibliographies, reviews and science news
+            looks_like: Literature reviews, bibliographies, reading lists, unpublished review manuscripts, news about scientific findings kept by R&D
+            definition: Collected or summarized outside science.
+
+  - id: QSH
+    name: Quality, safety and health
+    question: Does it define, check or protect the product, the plant or the people making it?
+    definition: Records that set and check product standards, and that keep operations and workers safe. Groups PM's Lab Services/QA, Environmental Health and Safety, and Medical.
+    hints:
+      - A consumer complaint about the product itself is Quality.
+      - An experiment to learn something new is Research, not Quality.
+      - Specification + effective date + "supersedes" + approval = a production standard.
+    series:
+      - id: QSH.QA
+        name: Product quality
+        types:
+          - id: QSH.SPC
+            name: Specifications and standards
+            looks_like: Cigarette, filter, paper and material specifications, standards, effective dates, "supersedes specification dated"
+            definition: What a product or material must be.
+          - id: QSH.FRM
+            name: Formulas and blends
+            looks_like: Blend and casing formulas, flavor formulas in production, recipe sheets
+            definition: Production formulas for products in use.
+          - id: QSH.TST
+            name: Test methods and QA reports
+            looks_like: QA test results against a standard, test methods, lab log sheets, ISO and industry standards work
+            definition: Checking that production meets the standard.
+          - id: QSH.CMP
+            name: Product complaints and tampering
+            looks_like: Consumer complaints about the product, complaint unit records and talking points, tampering reports
+            definition: Problems reported with the product itself.
+      - id: QSH.EHS
+        name: Environment, health and safety
+        types:
+          - id: QSH.MSD
+            name: Material safety data sheets
+            looks_like: MSDS for chemicals, flavors, adhesives, reagents
+            definition: Hazard and handling sheets for materials on site.
+          - id: QSH.SAF
+            name: Safety procedures and incidents
+            looks_like: Safety procedures, accident and incident reports, loss prevention
+            definition: Keeping workers and the plant safe.
+          - id: QSH.ENV
+            name: Environmental and waste notices
+            looks_like: Environmental permits, waste and emissions records, environmental notices
+            definition: The plant's environmental obligations.
+          - id: QSH.MED
+            name: Medical, first aid and workers' compensation
+            looks_like: First aid and medical department records, workers' compensation
+            definition: Employee health and injury records.
+
+  - id: MKT
+    name: Marketing and sales
+    question: Is it meant to sell products, or to understand smokers, competitors and the trade?
+    definition: Records of promoting and selling products. Groups PM's brand groups, Marketing Research and Sales/Trade Marketing.
+    hints:
+      - Budgets, spend reports and invoices go to Finance, even for a campaign (R9).
+      - Ads about issues or the company's image go to Corporate affairs. Ads that sell a brand stay here.
+      - Ordinary smokers surveyed by a research firm is a consumer survey; trained panelists testing prototypes is R&D.
+    series:
+      - id: MKT.BRD
+        name: Brand
+        types:
+          - id: MKT.ADS
+            name: Ads and ad proofs
+            looks_like: Print ads, ad proofs with agency slug lines, magazine pages kept for an ad, radio and TV scripts
+            definition: The ads themselves.
+          - id: MKT.PLN
+            name: Campaigns, brand plans and media
+            looks_like: Campaign and brand plans, media plans and buying decisions, agency briefs, packaging and design work, brand decisions
+            definition: Deciding how a brand is advertised and positioned.
+          - id: MKT.COR
+            name: Consumer correspondence
+            looks_like: Letters from and to smokers about brands, offers or ads (not product complaints)
+            definition: Day-to-day exchanges with consumers.
+      - id: MKT.RES
+        name: Market research
+        types:
+          - id: MKT.SRV
+            name: Consumer surveys and research
+            looks_like: Survey questionnaires and screeners, focus group notes, ad concept tests, tracking studies, consumer research reports about PM's own brands
+            definition: Studying smokers' habits and opinions.
+          - id: MKT.CMP
+            name: Competitor research
+            looks_like: Competitors' market share, ads, prices, promotions and launches, industry ad spend comparisons
+            definition: Studying competitors and the market.
+      - id: MKT.TRD
+        name: Sales and trade marketing
+        types:
+          - id: MKT.PRM
+            name: Promotions, coupons and sweepstakes
+            looks_like: Coupons, mail-in offers, loyalty and name-generation programs, sweepstakes, fulfillment reports
+            definition: Offers that move product.
+          - id: MKT.EVT
+            name: Sponsorships and events
+            looks_like: Sponsored events, bar and venue promotions, tournaments, sponsorship plans and tickets
+            definition: Brand presence at events.
+          - id: MKT.RET
+            name: Retailer and wholesaler dealings
+            looks_like: Trade circulars, retailer and wholesaler files, merchandising and display orders, new product notices to the trade
+            definition: Working with the stores and distributors that sell products.
+          - id: MKT.SLS
+            name: Sales and field reports
+            looks_like: Sales results, distribution and pre-sell reports, field sales updates
+            definition: How selling is going.
+
+  - id: AFF
+    name: Corporate affairs
+    question: Is it aimed at government, regulators, the press or the public?
+    definition: Records of PM's relations with government, regulators, the media and the public.
+    hints:
+      - Lawsuits and legal advice go to Legal, even when a regulator is involved.
+      - Product ads go to Marketing.
+      - Press clippings: ask why they were kept. Policy, regulation or image comes here.
+    series:
+      - id: AFF.GOV
+        name: Government relations
+        types:
+          - id: AFF.REG
+            name: Regulatory filings and agency letters
+            looks_like: Letters to or from agencies and legislators, comments on proposed rules, filings
+            definition: Direct dealings with government and regulators.
+          - id: AFF.LEG
+            name: Legislation tracking and advocacy
+            looks_like: Legislative tracking reports and newsletters, local smoking-ban notes, testimony, grassroots letter campaigns, political contribution requests
+            definition: Following and influencing laws and policy.
+      - id: AFF.MED
+        name: Media and public relations
+        types:
+          - id: AFF.PRS
+            name: Press releases and coverage
+            looks_like: Press releases, press clippings, media inquiries, radio actualities
+            definition: What PM told the press and what the press said.
+          - id: AFF.SPE
+            name: Speeches and statements
+            looks_like: Speeches, prepared statements, Q&A and talking points for the public
+            definition: PM's public voice.
+          - id: AFF.IMG
+            name: Issue ads, programs and corporate image
+            looks_like: Issue and image ads, Youth Smoking Prevention materials, community and outreach programs
+            definition: Shaping how the public sees PM and its issues.
+          - id: AFF.STR
+            name: Communications strategy
+            looks_like: PR and issues plans, issue briefing guides, communications strategy memos
+            definition: Planning PM's public communications.
+
+  - id: LEG
+    name: Legal
+    question: Was it made by or for lawyers, or to protect a legal right?
+    definition: Records of legal disputes, legal advice and legal rights.
+    hints:
+      - Contracts go to their subject (R4). Only keep a contract here if it is about a dispute or a legal right itself.
+      - A law firm's invoice goes to Finance (R9).
+    series:
+      - id: LEG.LIT
+        name: Litigation
+        types:
+          - id: LEG.PLD
+            name: Pleadings and filings
+            looks_like: Complaints, motions, briefs, court orders, settlement agreements and amendments
+            definition: Documents filed in or produced by court cases.
+          - id: LEG.DEP
+            name: Depositions and transcripts
+            looks_like: Deposition and hearing transcripts, witness statements
+            definition: Testimony records.
+          - id: LEG.DSC
+            name: Discovery and productions
+            looks_like: Document requests, production logs and indexes, privilege logs
+            definition: Exchanging evidence in litigation.
+      - id: LEG.ADV
+        name: Legal advice
+        types:
+          - id: LEG.MEM
+            name: Legal memos, opinions and privileged letters
+            looks_like: Memos and opinions from counsel, privileged and joint-defense communications, law firm letters, legal meeting agendas
+            definition: Lawyers advising PM.
+      - id: LEG.RTS
+        name: Legal rights
+        types:
+          - id: LEG.PAT
+            name: Patents and trademarks
+            looks_like: Patent applications and correspondence, trademark filings
+            definition: Protecting inventions and brands.
+          - id: LEG.LIC
+            name: Licenses and legal agreements
+            looks_like: License agreements, legal agreements about rights or disputes
+            definition: Agreements that create or protect a legal right.
+
+  - id: FIN
+    name: Finance
+    question: Is it about money owed, paid, planned or reported?
+    definition: Records of money spent, received, planned or reported. Groups PM's Controllers, Budget and Financial Analysis, and Tax.
+    hints:
+      - Would Accounts Payable need this page to pay, approve or record money? Then it's Finance (R9).
+      - The contract that sets payment terms goes to its subject (R4); the invoice under it comes here.
+      - Employee expense reimbursements come here, not HR.
+    series:
+      - id: FIN.PAY
+        name: Payables and purchasing
+        types:
+          - id: FIN.INV
+            name: Invoices
+            looks_like: Vendor, lab, agency and law firm invoices, invoice approval sheets
+            definition: Bills PM received.
+          - id: FIN.CHK
+            name: Check requests and payments
+            looks_like: Checks and stubs, check requests, payment notices, refunds
+            definition: Money paid or returned.
+          - id: FIN.PO
+            name: Purchase orders
+            looks_like: Purchase orders, purchasing department memos, order cards
+            definition: Authorizing a purchase.
+          - id: FIN.QTE
+            name: Price quotes and estimates
+            looks_like: Vendor price quotations, agency cost estimates and estimate recaps
+            definition: What something will cost.
+          - id: FIN.EXP
+            name: Expense reports
+            looks_like: Employee expense reports and reimbursements
+            definition: Staff spending to be repaid.
+      - id: FIN.BUD
+        name: Budgets and planning
+        types:
+          - id: FIN.BGT
+            name: Budgets and forecasts
+            looks_like: Operating budgets, revised spending plans, forecasts
+            definition: Planned spending.
+          - id: FIN.CST
+            name: Spend and cost reports
+            looks_like: Spend tracking, cost reports, budget vs actual
+            definition: Spending so far.
+      - id: FIN.RPT
+        name: Reporting and tax
+        types:
+          - id: FIN.STM
+            name: Financial statements
+            looks_like: Operating summaries, income statements, general ledger reports
+            definition: PM's own financial results and books.
+          - id: FIN.TAX
+            name: Tax records
+            looks_like: Tax returns, tax filings and correspondence
+            definition: Tax obligations.
+
+  - id: HR
+    name: Human resources
+    question: Is it about a person as an employee or applicant?
+    definition: Records of hiring, employing and managing people. Groups PM's Personnel and Labor Relations.
+    hints:
+      - Plain CVs go here (unsure if the purpose isn't shown). A biographical sketch inside a grant application goes to R&D.
+      - Union contracts and benefits contracts come here (R4).
+    series:
+      - id: HR.PRS
+        name: Personnel
+        types:
+          - id: HR.CVS
+            name: CVs and applications
+            looks_like: CVs and resumes, job applications
+            definition: People applying or being considered.
+          - id: HR.ACT
+            name: Personnel actions and announcements
+            looks_like: Hiring and job postings, appointments, transfers, staffing announcements, appraisals
+            definition: Decisions about employees.
+          - id: HR.BEN
+            name: Pay, benefits and training
+            looks_like: Pay and benefits records, training records and evaluations
+            definition: What employees receive and learn.
+      - id: HR.LAB
+        name: Labor relations
+        types:
+          - id: HR.UNI
+            name: Union contracts and negotiations
+            looks_like: Union contracts, negotiation minutes and proposals
+            definition: Collective agreements with workers.
+          - id: HR.GRV
+            name: Grievances, arbitration and discipline
+            looks_like: Grievances, arbitration decisions, disciplinary records
+            definition: Disputes with or about employees.
+
+  - id: ADM
+    name: Administration and records
+    question: Is it about running the company itself, with no more specific owner?
+    definition: Records of directing the organization and of general administration. Groups executive management and Records Management.
+    hints:
+      - Check every other department first. This is not a default.
+      - A meeting about one department's work goes to that department (R5).
+    series:
+      - id: ADM.MGT
+        name: Management
+        types:
+          - id: ADM.MTG
+            name: Board and management meetings
+            looks_like: Board and management minutes and agendas with no single-department subject
+            definition: Leadership meetings.
+          - id: ADM.POL
+            name: Plans, policies and reorganizations
+            looks_like: Strategic plans, company policies, reorganizations, organizing a function
+            definition: How the company is directed and organized.
+          - id: ADM.ANN
+            name: General announcements
+            looks_like: Company-wide announcements and notices
+            definition: News for everyone.
+      - id: ADM.GEN
+        name: General administration
+        types:
+          - id: ADM.CAL
+            name: Calendars, schedules and office services
+            looks_like: Calendars, schedules, travel and office arrangements, general requests
+            definition: Day-to-day office administration.
+          - id: ADM.RIM
+            name: Records management
+            looks_like: Retention schedules, storage and box records, legal hold notices, records training
+            definition: Managing PM's own records.
+          - id: ADM.TRN
+            name: Transmittals with no visible contents
+            looks_like: Emails or transmittals with readable text but no clear subject
+            definition: Cover notes whose subject can't be seen.

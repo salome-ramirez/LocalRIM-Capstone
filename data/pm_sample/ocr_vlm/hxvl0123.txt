@@ -1,0 +1,13 @@
+The Dependence of the mutagenic effect of Cigarette Condensate on the Age of the Condensate
+
+One test was carried out for each of the condensates of 2R1F, SHIM-5 and 2R1 cigarettes.
+
+Results of the 3 Tests
+
+For each of the 3 cigarettes the following statement is valid: "With a type I error probability less than 0.005 we can say: during the 2nd through to the 8th week the number of revertants decreases with increasing age of the condensate."
+
+Remarks
+
+The following statement is also valid for each of the cigarettes: "With a type I error probability less than 0.005 we can say: during the 2nd through to the 6th week the number of revertants decreases with increasing age of the condensate."
+
+During the 2nd through to the 6th week all values fall strictly monotonously. From the 6th to the 8th week this trend is interrupted. 6 of the 9 values increase. One can assume that the mutagenic effect of the condensate will, at least for a time, not decrease further from about the 8th week.

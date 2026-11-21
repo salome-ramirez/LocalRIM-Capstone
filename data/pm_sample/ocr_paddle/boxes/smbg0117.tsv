@@ -1,0 +1,20 @@
+x1	y1	x2	y2	conf	text
+242.0	100.0	259.0	120.0	62.1	1
+1003.0	1145.0	2025.0	1181.0	99.9	Schema der Fraktionierung von Zigarettenrauchkondensat
+1003.0	1199.0	2042.0	1240.0	99.9	für polycyclische aromatische Kohlenwasserstoffe (=PAH)
+1002.0	1257.0	2136.0	1297.0	91.4	und N-haltica palycyciigohe arematische Heterecyclen (N=PAH)
+1004.0	1436.0	1273.0	1466.0	99.7	Rauchkondensat
+1152.0	1543.0	1766.0	1579.0	97.1	Methano1+Wasser+Cyclohexan 3+1+8
+1006.0	1659.0	1199.0	1694.0	100.0	Cyclohexan
+1795.0	1658.0	2083.0	1688.0	99.9	Methanol+Wasser
+1175.0	1765.0	1597.0	1800.0	99.7	Cyclohexan+Nitromethan
+1006.0	1876.0	1222.0	1907.0	99.8	Nitromethan
+1798.0	1874.0	1992.0	1909.0	99.9	Cyclohexan
+1158.0	1984.0	1651.0	2015.0	97.1	SEPHADEX LH 20-Isopropanol
+1008.0	2089.0	1543.0	2131.0	99.1	(a) PAH (4-7 Ringe) + N-PAH
+1803.0	2088.0	2160.0	2128.0	99.9	(b) PAH (2-3 Ringe)
+1156.0	2201.0	1766.0	2236.0	96.6	SEPHADEX LH 20 -Methano1 + Hexan
+1010.0	2303.0	1717.0	2360.0	96.1	(a.) PAH (4-7 Ringe), Antei1 : 0,03 %
+1010.0	2380.0	1471.0	2436.0	88.5	(a2) N-PAH, Anteil O,3 %
+1422.0	2550.0	1546.0	2585.0	97.6	ABB. 1
+1008.0	2645.0	1207.0	2681.0	99.7	G. GRIMER

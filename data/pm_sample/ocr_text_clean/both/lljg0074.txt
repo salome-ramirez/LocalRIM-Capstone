@@ -1,0 +1,42 @@
+Tucker P., A Numerical Study of Optimal Room Layouts and Devices to
+Minimize Passive Smoking
+Description of the Project::
+Computational fluid dynamics (CFD) has become an important tool to assess the
+performance of ventilation systems, i.e., air flows within rooms and contaminant
+removal from an indoor space. Computer simulations can be done for virtually any
+situation by making a number of reasonable assumptions, with a typical objective
+being to maximize system performance in order to minimize exposure to some
+contaminants of interest. Validation and certification of CFD tools is still an ongoing
+process and Dr Tucker's work will help to address the critical questions of quality and
+trust of CFD results.
+Dr Tucker's work should increase our understanding of smoke distribution in rooms.
+On that basis, CFD should provide an tool that can be used to minimize exposure to
+ETS.
+Evaluation against Philip Morris External Research Agenda:
+1a. Exposure/Biomarkers/Dosimetry, Measures of exposure
+This project is designed to provide Philip Morris with much improved methodology to
+assess the distribution of ETS in any given venue and, as a consequence, determine
+the effectiveness of any given ventilation strategy in minimizing the expsosure of
+non-smokers to ETS. As a consequence, it clearly fits in with the external research
+objective of determining exposure. It is important to note that Philip Morris' current
+interest in exposure tends to involve the exposure of the smoker himself or herself
+with respect to either whole smoke or some component of interest. However,
+exposure of the non-smoker should not be neglected. Harm reduction is as
+important with respect to the non-smoker as it is with respect to the smoker, despite
+the fact that there is little evidence to support many of the putative effects of ETS on
+the non-smoker. Methodologies to evaluate the effectiveness of ETS remediation,
+therefore, are an important aspect of the PM program.
+
+Tucker P., A Numerical Study of Optimal Room Layouts and Devices to Minimize Passive Smoking
+
+Description of the Project::
+
+Computational fluid dynamics (CFD) has become an important tool to assess the performance of ventilation systems, i.e., air flows within rooms and contaminant removal from an indoor space. Computer simulations can be done for virtually any situation by making a number of reasonable assumptions, with a typical objective being to maximize system performance in order to minimize exposure to some contaminants of interest. Validation and certification of CFD tools is still an ongoing process and Dr Tucker’s work will help to address the critical questions of quality and trust of CFD results.
+
+Dr Tucker’s work should increase our understanding of smoke distribution in rooms. On that basis, CFD should provide an tool that can be used to minimize exposure to ETS.
+
+Evaluation against Philip Morris External Research Agenda:
+
+1a. Exposure/Biomarkers/Dosimetry, Measures of exposure
+
+This project is designed to provide Philip Morris with much improved methodology to assess the distribution of ETS in any given venue and, as a consequence, determine the effectiveness of any given ventilation strategy in minimizing the exposures of non-smokers to ETS. As a consequence, it clearly fits in with the external research objective of determining exposure. It is important to note that Philip Morris’ current interest in exposure tends to involve the exposure of the smoker himself or herself with respect to either whole smoke or some component of interest. However, exposure of the non-smoker should not be neglected. Harm reduction is as important with respect to the non-smoker as it is with respect to the smoker, despite the fact that there is little evidence to support many of the putative effects of ETS on the non-smoker. Methodologies to evaluate the effectiveness of ETS remediation, therefore, are an important aspect of the PM program.

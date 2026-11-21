@@ -1,0 +1,30 @@
+x1	y1	x2	y2	conf	text
+1408.0	164.0	1638.0	200.0	95.5	April 29, 1986
+392.0	293.0	1311.0	327.0	99.0	R&D Program Planning Meeting April 8-9, 1986 -- Follow-up
+762.0	358.0	941.0	389.0	99.9	Bonded Ends
+217.0	486.0	1458.0	519.0	99.8	During and following the presentation of the Bonded Cigarette Ends status and
+216.0	519.0	1101.0	552.0	99.6	challenges, discussion primarily concerned three areas:
+216.0	582.0	1474.0	616.0	99.6	Heating of the binder solution - This was suggested as a means to increase the
+216.0	615.0	1442.0	648.0	99.8	electrical conductivity of the material. Conductivity sufficient to achieve
+216.0	647.0	1506.0	682.0	99.5	adequate charging of the particles has been achieved so far only by the addition
+216.0	681.0	1457.0	714.0	98.9	of salt. Heating of the binder will be considered as an additional or alter-
+216.0	713.0	1458.0	745.0	99.3	native means of achieving this result. It was pointed out that this would be
+216.0	745.0	1507.0	778.0	99.1	consistent with the use of heat to obtain microbiological stability and to lower
+218.0	779.0	1261.0	809.0	99.6	the viscosity of the binder and perhaps assist in drop formation.
+216.0	841.0	1410.0	874.0	99.9	Use of multiple jet nozzles - The largest commercial nozzles available are
+217.0	874.0	1443.0	905.0	99.9	capable of application rates only one-tenth to one one-hundredth of the rate
+216.0	904.0	1490.0	939.0	99.8	expected to be needed at production speeds. Nozzles capable of producing drops
+216.0	936.0	1442.0	970.0	99.3	Targe enough to achieve the desired application rates have been designed and
+215.0	967.0	1491.0	1003.0	98.5	built in-house, but charging and deflection of the large drops with their lower
+218.0	1003.0	1491.0	1033.0	99.7	surface-to-volume ratio has not been demonstrated. If we are unable to achieve
+217.0	1034.0	1506.0	1066.0	99.5	the desired results with single large nozzles, a straight-forward scale-up if it
+217.0	1065.0	1473.0	1098.0	99.6	works, whether to launch into the development of a multiple nozzle system will
+218.0	1099.0	1489.0	1129.0	98.6	be considered. Mechanical and electronic design would become much more complex
+220.0	1132.0	760.0	1162.0	99.5	than working with a single nozzle.
+218.0	1194.0	1376.0	1227.0	99.3	Computer control capacity - Concern was expressed regarding the computer
+216.0	1225.0	1412.0	1260.0	99.9	capacity required to control the fluid jet drops at production speeds. We
+218.0	1259.0	1459.0	1292.0	99.9	believe this potential problem area has been addressed by eliminating much of
+220.0	1292.0	1458.0	1322.0	99.9	the flexibility that would be required in a conventional printing application
+221.0	1325.0	1413.0	1355.0	99.9	and by hard wiring. It is not anticipated that computer capacity will be a
+219.0	1356.0	584.0	1387.0	99.9	problem in this system.
+1554.0	1817.0	1596.0	2032.0	100.0	2075629902

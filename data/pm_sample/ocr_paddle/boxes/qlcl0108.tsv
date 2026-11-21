@@ -1,0 +1,61 @@
+x1	y1	x2	y2	conf	text
+1068.0	116.0	1748.0	229.0	100.0	Reddie & Grose
+488.0	173.0	863.0	217.0	98.7	Chartered Patent Agents
+1994.0	185.0	2301.0	219.0	98.2	P. Antony Smith M.A.
+470.0	213.0	881.0	256.0	100.0	European Patent Attorneys
+1993.0	217.0	2303.0	253.0	100.0	F.A.B. Valentine M.A.
+1238.0	231.0	1579.0	278.0	99.9	16 Theobalds Road
+530.0	249.0	821.0	293.0	100.0	Trade Mark Agents
+1981.0	249.0	2314.0	289.0	100.0	Richard C. Abnett M.A.
+1232.0	279.0	1584.0	323.0	100.0	London WC1X 8PL
+1992.0	282.0	2303.0	324.0	100.0	Paul A. Brereton M.A.
+1997.0	316.0	2298.0	355.0	98.1	Keith E. Geering B.A.
+485.0	326.0	860.0	364.0	99.6	Telephone 071-242 0901
+1976.0	348.0	2318.0	390.0	99.4	Nicholas S. Marlow B.Sc.
+485.0	361.0	862.0	405.0	98.0	Fax 071-242 3290/0286
+1994.0	383.0	2297.0	424.0	99.3	Linda J. Harland B.Sc.
+577.0	402.0	768.0	442.0	100.0	Telex 25445
+1962.0	418.0	2330.0	458.0	100.0	Jonathan M. Davies D.Phil
+608.0	439.0	737.0	481.0	100.0	DX 280
+1979.0	452.0	2311.0	493.0	100.0	Patrick A.D. Lloyd B.Sc.
+1989.0	487.0	2302.0	527.0	100.0	Aidan J. Robson M.Sc.
+589.0	556.0	771.0	607.0	100.0	AIRMAIL
+2019.0	551.0	2270.0	595.0	100.0	D.S. Jackson B.Sc.
+1976.0	590.0	2311.0	632.0	98.7	Helen R. Wakerley M.A.
+588.0	612.0	876.0	656.0	100.0	Callinan Lawrie,
+586.0	661.0	837.0	709.0	100.0	Private Bag 7,
+2066.0	658.0	2218.0	702.0	100.0	Consultant
+2016.0	696.0	2269.0	739.0	99.9	John H. Bass B.Sc.
+586.0	712.0	939.0	756.0	99.8	Kew, Victoria 3101,
+587.0	760.0	826.0	804.0	100.0	AUSTRALIA
+1931.0	765.0	2353.0	807.0	99.5	Our VAT No. GB 243 9087 49
+583.0	853.0	1339.0	912.0	99.4	For the attention of Mr.Colin D. Macauley
+1789.0	914.0	2113.0	957.0	98.1	10th October 1994
+1786.0	1014.0	2274.0	1062.0	100.0	Our ref:PAS/BJM/bp/33442
+1788.0	1063.0	2306.0	1108.0	100.0	Your ref:6545/5042/CDM/BL
+581.0	1202.0	934.0	1254.0	99.4	Dear Mr. Macauley,
+850.0	1305.0	1625.0	1350.0	100.0	Australian Patent Application No.18321/92
+850.0	1354.0	1651.0	1398.0	100.0	Philip Morris Products Inc. - Our file:33442
+848.0	1447.0	2274.0	1508.0	99.3	Thank you for your letter of 15th March concerning the two official reports on the
+577.0	1500.0	780.0	1552.0	100.0	application.
+847.0	1599.0	2036.0	1651.0	99.4	In response to the official letter please file the enclosed set of claims.
+846.0	1698.0	1916.0	1750.0	99.7	Please respond to the Examiner with the following arguments:
+844.0	1788.0	2305.0	1852.0	99.4	The process disclosed by US 4253473 (Hibbitts) does not include the step of cooling
+574.0	1841.0	2277.0	1898.0	100.0	the tobacco before the contacting step, which is step e) of the present invention. Hibbitts discloses
+575.0	1889.0	2260.0	1942.0	99.9	only that the internal temperature of the pressure vessel during spray impregnation will vary from
+572.0	1930.0	2264.0	1997.0	99.7	about -8°F to about 56°F (see column 3, lines 29-37). Hibbitts does not teach or suggest the step
+573.0	1984.0	1468.0	2038.0	100.0	of cooling the tobacco before the impregnation step.
+855.0	2083.0	2265.0	2137.0	99.5	Hibbitts uses a sparge tube to spray liquid carbon dioxide onto tobacco instead of
+573.0	2130.0	2274.0	2186.0	99.8	immersing the tobacco in a tub of liquid carbon dioxide as taught in U.S. 1,789,435 (see column 1
+571.0	2177.0	2276.0	2236.0	99.6	"of Hibbitts). In doing so Hibbitts teaches to expand tobacco ""by means of liquid CO2 in a simple,"
+571.0	2226.0	2261.0	2284.0	99.8	"efficient and highly economical manner"" (Hibbitts column 1, lines 66-68; see also column 2, lines"
+570.0	2275.0	2281.0	2335.0	98.8	43-46 and 63-65, column 3, lines 6-8). Thus Hibbitts teaches a more efficient way to apply liquid
+569.0	2326.0	2244.0	2382.0	99.8	carbon dioxide over prior immersion practices. The mixture of liquid and gaseous CO2 to which
+570.0	2375.0	2225.0	2429.0	99.2	the tobacco is contacted is introduced into the vessel by spraying liquid CO2 (see column 3, line
+573.0	2423.0	2295.0	2480.0	99.9	14). However, in our process gaseous CO2 is introduced into the vessel. The use of gaseous rather
+569.0	2472.0	2241.0	2529.0	99.1	than liquid CO2 in the present invention leads to a much lower energy requirement in the present
+569.0	2521.0	2248.0	2579.0	99.2	invention. Also, our process provides a more uniform application of CO2 throughout the tobacco
+2283.0	2512.0	2372.0	2973.0	100.0	2022914043
+568.0	2572.0	1944.0	2625.0	100.0	bed than a sprayed mist of liquid carbon dioxide, as in Hibbitts, would provide.
+1304.0	3016.0	1460.0	3077.0	100.0	R&G
+1001.0	3077.0	1778.0	3123.0	97.1	Patents · Trade Marks · Designs · Design Copyright

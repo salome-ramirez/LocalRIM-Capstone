@@ -1,0 +1,47 @@
+x1	y1	x2	y2	conf	text
+195.0	253.0	1185.0	315.0	98.7	INBIFO Institut für biologische Forschung · Köln
+845.0	333.0	1041.0	375.0	100.0	WRE/MRO
+1122.0	329.0	1448.0	372.0	99.9	RM15(DIV)B24
+1788.0	323.0	1957.0	367.0	99.9	PAGE 1
+208.0	336.0	436.0	383.0	95.7	P -/3080
+520.0	336.0	767.0	376.0	100.0	28.Feb.85
+215.0	661.0	486.0	702.0	100.0	LITERATURE
+249.0	781.0	1960.0	843.0	99.0	(1) Fischer, T., Weber, A., Grandjean, E., Luftverunreinigung
+348.0	829.0	1957.0	884.0	99.2	durch Tabakrauch in Gaststätten, Int. Arch. Occup. Environ.
+349.0	881.0	1026.0	929.0	91.6	Hlth. 41 : 267-280 (1978)
+249.0	961.0	1964.0	1025.0	99.5	(2) Bridge, D.P., Corn, M., Contribution to the assessment of
+351.0	1006.0	1966.0	1069.0	99.7	exposure of nonsmokers to air pollution from cigarette and
+352.0	1052.0	1967.0	1114.0	99.8	cigar smoke in occupied spaces, Environ. Res. 5 : 192-209
+358.0	1112.0	516.0	1158.0	100.0	(1972)
+253.0	1188.0	1968.0	1250.0	98.8	(3) Godin, G., Wright, G, Shephard, R.J., Urban exposure to
+354.0	1233.0	1962.0	1291.0	97.8	carbon monoxide, Arch. Environ. Hlth. 25 : 305-313 (1972)
+252.0	1322.0	1967.0	1385.0	99.2	(4) Grimmer, G., Böhnke, H., Harke, H.-P., Zum Problem des
+352.0	1367.0	1970.0	1428.0	97.6	Passivrauchens: Aufnahme von polycyclischen aromatischen
+354.0	1414.0	1966.0	1471.0	98.7	Kohlenwasserstoffen durch Einatmen von zigarettenrauchhal-
+357.0	1457.0	1966.0	1516.0	98.8	tiger Luft, Int. Arch. Occup. Environ. Hlth. 40 : 93-99
+361.0	1513.0	524.0	1562.0	99.9	(1977)
+255.0	1592.0	1969.0	1652.0	99.4	(5) Jermini, C., Weber, A., Luftverunreinigung durch Zigaretten-
+356.0	1638.0	1726.0	1693.0	99.1	rauch, Sozial- und Präventivmedizin 20 : 213 (1975)
+256.0	1727.0	1970.0	1786.0	99.3	(6) Weber, A., Fischer, T., Sancin, E., Grandjean, E., La pollu-
+357.0	1770.0	1969.0	1829.0	99.5	tion de l'air par la fumée de cigarettes: effects physiolo-
+359.0	1811.0	1967.0	1876.0	98.9	giques et irritations, Sozial- und Präventivmedizin 21 :
+363.0	1871.0	738.0	1917.0	99.3	130-132(1976)
+258.0	1949.0	1971.0	2011.0	99.2	(7) Jermini, C., Weber, A., Grandjean, E., Quantitative Bestim-
+357.0	1994.0	2000.0	2054.0	100.0	mung verschiedener Gasphasenkomponenten des Nebenstromrauches
+358.0	2039.0	1974.0	2098.0	99.8	von Zigaretten in der Raumluft als Beitrag zum Problem des
+359.0	2082.0	1995.0	2145.0	99.7	Passivrauchens, Int. Arch. Occup. Environ. Hlth. 36 : 169-181
+365.0	2141.0	525.0	2189.0	100.0	(1976)
+260.0	2219.0	1974.0	2279.0	99.7	(8) Russell, M.A.H., Cole, P.V., Brown, E., Absorption by non-
+363.0	2265.0	1975.0	2321.0	99.9	smokers of carbon monoxide from room air polluted by tobacco
+365.0	2314.0	1331.0	2365.0	99.0	smoke, The Lancet 1 : 576-578 (1973)
+261.0	2393.0	1972.0	2455.0	97.8	(9) Harke, H.-P., Baars, A., Frahm, B., Peters, H., Schultz,
+363.0	2439.0	1975.0	2497.0	99.9	C., Zum Problem des Passivrauchens, Abhängigkeit der Konzen-
+365.0	2484.0	1976.0	2539.0	99.6	tration von Rauchinhaltsstoffen in der Luft verschieden
+2324.0	2530.0	2415.0	2958.0	100.0	2022818335
+363.0	2524.0	1976.0	2588.0	99.0	großer Räume von der Zahl der verrauchten Zigaretten und der
+365.0	2573.0	1651.0	2628.0	99.0	Zeit, Int. Arch. Arbeitsmed. 29 : 323-339 (1972)
+237.0	2653.0	1979.0	2720.0	98.5	(10) Harke, H.-P., Zum Problem des Passivrauchens, Über den
+365.0	2701.0	1973.0	2757.0	99.4	Einfluß des Rauchens auf die CO-Konzentration in Büroräumen,
+368.0	2749.0	1496.0	2799.0	97.3	Int. Arch. Arbeitsmed. 33 : 199-206 (1974)
+2335.0	2922.0	2392.0	2986.0	97.0	5
+223.0	3229.0	291.0	3258.0	100.0	2284

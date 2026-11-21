@@ -1,0 +1,22 @@
+INBIFO Institut für biologische Forschung GmbH · Köin
+46.KW 92 NDA/MWO X:\QA\CHANGE.DOC
+Serious Change 2
+Change No. : in Protocol/Application: P 0268/2191
+yesno
+Short Title of Study: Ames, Reconstituted Sheet
+Study Director: TME Date Prot./Appl. Approved by Study Director: 18 Aug.95
+Author of Change: TME Date Submitted: 4 Sep.95
+Subject: Table 2, SOP MB 43/3: Zeitpunkt
+Reason(s) for Change:
+Due to low capacity of team MB, the study will be performed on 2 experimental days, one
+strain on one day.
+Present Situation:
+Preparation of application suspension: “am Testtag”
+Change:
+The same application suspensions will be used for each strain and stored between both
+days of experiments at -75 °C.
+Consequences of Change and Measures to be Taken:
+Information of team MB
+p.t.o.
+1Number is assigned by study director.
+ôvecision by study director

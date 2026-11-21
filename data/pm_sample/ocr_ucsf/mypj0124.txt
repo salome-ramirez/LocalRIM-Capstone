@@ -1,0 +1,18 @@
+INBIFO Institut fur biologische Forschung Kbin
+22 .Oct.93 NDA/BRA QAT3208 .WM
+tJt3ERPRUFUNG VON P 0500 / 3208 DURCH QA
+BLATT-NR .t 1 von 2
+J[TEL= Mutagencity of the Mainstream Smoke Condensate of the Research Cigarettes X6D3BGT, X6D3BGU,
+X6D3BGV, and X6D3BGW in the Salmonella Typhimurium Strains TA98 and TA100 (PT)
+(MutagenWlt des Hauptstromrauchkondensates der Testzigaretten X6D3BGT, X6D3BGU, X6D3BGV und
+X6D3BGW in den Salmonella typhimurium Testst2mmen TA98 und TA100 (PT))
+UBERPRUFTER PARAMETER
+BEANSTANDUNG
+Intermediate Report
+Rohdaten
+keine
+"
+PRUF.ZI_ITPUNKT : vor Ausgang des Intermediate Reports
+BEN ~RKUNG : Studie nach den GLP-GrundsAtzen des ChemG
+22.Okt.93 Q
+QA: DATUM/ZN

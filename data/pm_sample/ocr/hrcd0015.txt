@@ -1,0 +1,29 @@
+Tet
+# 1206 <&
+MSDS NO.: 012
+EFF. DATE: 1/22
+MATERIAL SAFETY DATA SHEET
+** 90-842 **
+PHILIP MORRIS USA EMERGENCY CONTACTS:
+EMPLOYEE AND ENVIRONMENTAL PROTECTION CHEMTREC
+P.O. BOX 26603 (800) 424-9300
+RICHMOND, VA. 23261 OR
+(804) 274-2432 WITHIN PHILIP MORRIS
+(804) 274-2416
+I. SUBSTANCE IDENTIFICATION
+Substance: we 90-842 *W
+Trade Name/Synonyns: NACM AC BASE B
+Chemical Family: P.M. BLENDED FLAVOR
+Molecular Formula: TRADE SECRET Mol. Wt.: UNKNOWN
+NFPA Ratings: Health = 1 Fire = 1 Reactivity = 0
+NFPA Scale (0-4): 0 = No Hazard, 4 = Highest Hazard
+II, COMPONENTS
+Component Nane Percent TLV/PEL CAS No.
+PROPYLENE GLYCOL > 1% NONE 57-55-6
+PROPRIETARY COMPONENT(S) > 1% NONE N/A
+Certain specific chemical identities of flavor ingredients are being
+withheld as trade secrets. Disclosure will be made in emergencies
+and in non-emergencies if the need to know is justified in a written
+request to Philip Morris USA. See manufacturer information for the
+correct address.
+O9INTESTSOG

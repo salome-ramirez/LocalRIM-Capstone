@@ -1,0 +1,61 @@
+x1	y1	x2	y2	conf	text
+87.0	71.0	92.0	78.0	38.7	è
+398.0	114.0	1430.0	163.0	98.8	04 JAN. '93 13:51 DR.SARABHAI GMBH 49 551 375244
+2017.0	121.0	2089.0	159.0	100.0	P.1
+1395.0	140.0	2178.0	305.0	100.0	Telefax Copy
+392.0	275.0	1286.0	372.0	100.0	MEDICAL SYSTEMS
+1644.0	293.0	2032.0	334.0	99.9	Weender Landstraße 63b
+1643.0	332.0	1948.0	379.0	99.6	W-3400 Goettingen
+1644.0	377.0	2025.0	421.0	95.8	Telefon 05 51 / 3 56 25 
+1024.0	397.0	1274.0	507.0	99.8	#4271
+1643.0	420.0	1997.0	464.0	97.9	Telefax 05 51 / 37 52 44
+1644.0	466.0	1978.0	507.0	99.3	Telex 96 52 20 sarab d
+1644.0	510.0	1921.0	548.0	99.8	Teletex 18 965 220
+482.0	550.0	1202.0	592.0	94.2	Medical Systems· Weender Landstraße 63 b · W-3400 Gocttingen
+1256.0	553.0	1289.0	586.0	99.6	7
+1641.0	550.0	2051.0	600.0	99.5	Telegrm. RVS, Goettingen
+1642.0	617.0	2139.0	662.0	100.0	Commerzbank AG, Goettingen
+417.0	647.0	479.0	691.0	100.0	An
+1642.0	663.0	2211.0	704.0	97.3	BLZ 260 400 30, Konto-Nr. 62 61 606
+421.0	692.0	690.0	733.0	94.6	Fa. INBIFO
+419.0	734.0	842.0	781.0	99.6	z.Hd. Herrn Heil
+420.0	781.0	743.0	824.0	99.5	Fuggerstr. 3
+422.0	828.0	738.0	866.0	99.4	5000 Kö1n 90
+1763.0	868.0	1987.0	911.0	100.0	4.1.1993
+1613.0	897.0	2055.0	958.0	99.9	Eingegangen
+388.0	992.0	423.0	1030.0	72.2	L
+1720.0	993.0	1973.0	1056.0	91.0	0 4. JAN.199 2
+1596.0	1080.0	1718.0	1186.0	62.0	(e)
+1948.0	1082.0	1978.0	1122.0	100.0	3
+420.0	1185.0	1369.0	1229.0	99.9	Ihre Anfrage nach einen Röntgengerät
+417.0	1314.0	1050.0	1363.0	99.0	Sehr geehrter Herr Heil,
+417.0	1403.0	2066.0	1453.0	99.3	als Anlage füge ich Ihnen einige Unterlagen über den fahrbaren
+418.0	1455.0	813.0	1496.0	97.5	C-Bogen, BV20T:
+419.0	1497.0	925.0	1544.0	99.9	1. Kurzbeschreibung
+417.0	1545.0	713.0	1586.0	95.9	2. 2 Bilder
+416.0	1585.0	1902.0	1628.0	99.2	3. Auf dem als Seite 1 beschrifteten Blatt sehen Sie das
+495.0	1632.0	943.0	1673.0	99.3	aufgebaute Gerät.
+416.0	1671.0	2010.0	1717.0	99.2	4. Auf Sefte 2 ist die Vorgehensweise für Dauerbetrieb unter
+497.0	1715.0	1259.0	1760.0	99.0	"""Durchleuchtung"" dargeste11t."
+416.0	1756.0	2005.0	1805.0	99.0	5. Auf Seite 3 zeigt die Abbildung 48 die Schalttischplatte:
+492.0	1801.0	2110.0	1851.0	98.7	Mit g und h können eine Höhenverstellung durchgeführt werden,
+494.0	1849.0	2065.0	1893.0	99.2	mit f regelen Sie die mA von 0.3 bis 3 mA, mit e können Sie
+497.0	1892.0	2065.0	1936.0	98.4	den kV-Bereich von 55./ 65 oder 75 anwählen, mit a schaltet
+493.0	1936.0	2012.0	1982.0	99.5	man das Gerät ein oder aus, mit c können Netzschwankungen
+494.0	1979.0	1986.0	2029.0	99.9	ausgeglichen werden. Auf Seite 4 sind einige Anwendungen
+497.0	2029.0	814.0	2072.0	98.5	dargeste11t.
+416.0	2065.0	2139.0	2118.0	98.8	"Als Alternative sende ich Ihnen Prospektmaterial über ""Nanodor 2"""
+417.0	2112.0	2090.0	2161.0	99.1	das Gerät besteht auf einer Rö-Röhre und. einem Schaltpult beide
+417.0	2158.0	1958.0	2204.0	99.6	sind auf einem fahrbaren Stativ montiert. Das Gerät kostet
+415.0	2200.0	2010.0	2252.0	96.8	DM 5.O00,- zuzüg1. MWsT. Die technischen Daten entnehmen Sie
+417.0	2247.0	2117.0	2296.0	99.3	bitte aus dem Prospekt. Mit diesem Gerät sind Einzelaktionen wie
+418.0	2297.0	1020.0	2338.0	99.9	Dauerstrahlung möglich.
+415.0	2334.0	2117.0	2386.0	99.1	Für Ihre Fragen stehe ich Ihnen gern zur Verfügung und verbleibe
+416.0	2428.0	1029.0	2469.0	99.5	Mit freundlichen Grüßen
+416.0	2471.0	952.0	2517.0	97.5	Abt. Medical Systems
+432.0	2522.0	790.0	2600.0	95.6	Narablei
+416.0	2599.0	840.0	2641.0	97.2	Dr.med. Sarabhai
+417.0	2681.0	607.0	2727.0	100.0	Anlagen
+2301.0	2724.0	2374.0	3184.0	100.0	2029194468
+556.0	3034.0	2090.0	3075.0	95.0	Gexchäftsführer (Managing Director): Dr. med. Rao V. Sarabhel : Wissenschaftlicher Berater (Scientific Adviser): Prof. Dr. med. K.-P. Schaefer
+791.0	3069.0	1851.0	3108.0	96.1	Eine Abteilung der Dr. Sarabhzi GmbH · Sitz: Göttingen · Registergericht: Göttingen HRB 1631

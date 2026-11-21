@@ -1,0 +1,41 @@
+x1	y1	x2	y2	conf	text
+1015.0	396.0	1370.0	487.0	100.0	RESTRICTED
+281.0	470.0	645.0	501.0	99.9	PROJECT NUMBER: 6906
+1011.0	461.0	1418.0	557.0	100.0	DISTRIBUTION
+282.0	504.0	505.0	534.0	100.0	PROJECT TITLE
+582.0	507.0	891.0	534.0	98.2	Biological Effects of Smoke
+281.0	539.0	727.0	569.0	97.6	PROJECT LEADER : G. M. Nixon
+280.0	572.0	698.0	605.0	98.8	PERIOD COVERED : July, 1991
+286.0	641.0	1007.0	678.0	99.4	I. SALMONELLA/MICROSOME (S/M) ASSAY (D. Stagg)
+331.0	712.0	1314.0	744.0	99.3	A. Objective: To test the biological activity of experimental CSCs and other pertinent
+385.0	748.0	492.0	776.0	100.0	materials.
+332.0	814.0	1312.0	846.0	99.7	B. Results: Twenty-eight CSCs were tested this month in support of the Cross Soluble
+384.0	849.0	1053.0	882.0	100.0	Base Web studies. Also two pure compounds were analyzed.
+331.0	914.0	1314.0	950.0	100.0	C. Plans: Complete ongoing studies and document all results in appropriate memos.
+384.0	951.0	1314.0	983.0	99.2	Continue to test samples for biological activity as they become available. Continue
+384.0	987.0	1209.0	1017.0	98.7	"to evaluate the ""screening"" assay protocol as it is currently being performed."
+329.0	1051.0	522.0	1085.0	100.0	D. References:
+385.0	1115.0	802.0	1142.0	98.1	Jones, R. Notebook No. 8769, p. 141.
+385.0	1173.0	806.0	1204.0	99.7	Stagg, D. Notebook No. 9110, p. 125.
+275.0	1236.0	928.0	1272.0	97.6	II. 3T3 CELL BIOCHEMICAL STUDIES (G. Nizon)
+329.0	1308.0	1310.0	1341.0	98.9	A. Objective: To investigate the induction of (putative) heme oxygenase (HO) in 3T3
+383.0	1343.0	711.0	1373.0	98.8	cells under various conditions.
+329.0	1408.0	1310.0	1440.0	98.5	B. Results: 3T3 whole cell extraction experiments were performed in a continuing
+381.0	1443.0	1312.0	1475.0	98.9	investigation of the induction of (putative) HO. Experiments testing the effects of
+382.0	1478.0	1311.0	1511.0	99.9	buthionine sulfoximine (BSO) pretreatment followed by 12-O-tetradecanoylphorbol-
+384.0	1513.0	1312.0	1543.0	99.8	13-acetate (TPA) or sodium arsenite treatment were repeated using both a 2-hour
+384.0	1548.0	1312.0	1577.0	99.7	[35S] methionine labeling period as in previous experiments, and a 30-minute
+381.0	1580.0	1310.0	1612.0	99.5	labeling period. For the longer labeling period, results were similar for both TPA
+380.0	1614.0	1311.0	1645.0	99.7	and arsenite. For the shorter labeling period, there were dramatic differences between
+380.0	1649.0	1309.0	1680.0	99.9	the two compounds. TPA treatment resulted in a rapid increase in a 32kD protein
+1499.0	1667.0	1545.0	1960.0	100.0	2022173956
+382.0	1683.0	1310.0	1715.0	99.5	(putative HO), with a corresponding decrease in actin levels. The response to
+381.0	1717.0	1309.0	1746.0	99.8	arsenite in the short label protocol was minimal. Cycloheximide (CHX) was used to
+380.0	1749.0	1308.0	1781.0	99.9	inhibit protein synthesis in two different protocols using a short labeling period.
+379.0	1783.0	1310.0	1815.0	99.9	Results paralleled those seen for previous experiments using a two-hour labeling
+379.0	1818.0	1311.0	1850.0	98.9	period. Finally, an experiment testing the effects of several inhibitors of protein
+381.0	1854.0	1309.0	1881.0	99.9	kinase C was repeated using the short and long labeling periods. Results are not yet
+381.0	1886.0	695.0	1915.0	99.7	available for this experiment.
+326.0	1950.0	1309.0	1981.0	99.4	C. Plans: 3T12 cells (transformed 3T3 cells) will be tested for HO induction using the
+378.0	1985.0	1029.0	2019.0	99.4	same experimental protocols which were used for 3T3 cells.
+1212.0	2083.0	1384.0	2124.0	100.0	C91-04121

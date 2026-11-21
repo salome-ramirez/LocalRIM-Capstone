@@ -1,0 +1,41 @@
+x1	y1	x2	y2	conf	text
+632.0	315.0	994.0	352.0	99.8	Product Technologies
+451.0	353.0	1178.0	389.0	100.0	Cigarette Design and Performance Platform
+250.0	428.0	1265.0	462.0	99.5	Mission: Develop the knowledge, technologies, and software tools
+248.0	466.0	1188.0	502.0	100.0	needed to design cigarettes with specific performance targets.
+251.0	543.0	1251.0	576.0	99.4	Seope: Our plan includes the development of a computer-based,
+250.0	580.0	1333.0	614.0	100.0	cigarette-design tool that will allow users to predict the performance of
+248.0	617.0	1355.0	652.0	99.4	both conventional and unconventional products. Cigarette performance
+249.0	656.0	1257.0	690.0	100.0	includes normal delivery parameters, specific smoke components,
+248.0	692.0	1378.0	730.0	99.8	sidestream smoke visibility indices, ignition propensity indices for defined
+249.0	732.0	1322.0	765.0	99.9	tests, and sensory information The model will be the repository of the
+250.0	770.0	1347.0	804.0	99.7	most up-to-date knowledge of the effects of cigarette design on cigarette
+248.0	806.0	1360.0	844.0	100.0	performance. The program must be well engineered so that refinements,
+249.0	846.0	1360.0	880.0	100.0	modifications, improvements, and new knowledge can be easily included
+247.0	881.0	1344.0	918.0	99.3	and verified. The program must be rigorous, flexible, accurate, reliable,
+250.0	921.0	1359.0	954.0	100.0	easily maintained, and exhaustively validated through an assessment of
+251.0	959.0	1366.0	992.0	99.9	the performance of a wide variety of cigarette designs. Any modifications
+250.0	997.0	1362.0	1030.0	100.0	to the program should be accompanied by further experimental cigarette
+250.0	1034.0	1359.0	1068.0	99.4	data that can be added to a database for model validation. The program
+249.0	1071.0	1348.0	1104.0	100.0	must have a user interface that allows users with a wide range of needs
+250.0	1109.0	1337.0	1144.0	99.8	to easily access and exercise the program. The program needs to allow
+251.0	1149.0	1292.0	1183.0	99.6	designers to test new concepts computationally, thereby requiring a
+249.0	1186.0	1286.0	1221.0	100.0	concerted effort to add features and knowledge to the program on a
+252.0	1226.0	518.0	1256.0	97.4	continuing basis.
+252.0	1300.0	1359.0	1334.0	99.6	Assumptions: We assume the availability of: Semiworks to produce the
+251.0	1336.0	1323.0	1373.0	100.0	samples required; PTL to measure their performance; ARD to evaluate
+253.0	1377.0	1207.0	1410.0	99.7	the required chemistry of tobacco, papers, and filters; Product
+252.0	1412.0	1302.0	1447.0	98.5	Development to measure sidestream visibility; Tomorrow to measure
+251.0	1450.0	1282.0	1488.0	100.0	ignition propensity; a panel to assess sensory information; Product
+251.0	1488.0	1358.0	1526.0	98.9	Technology groups to provide tobacco chemistry, smoke generation, and
+252.0	1527.0	1342.0	1561.0	99.7	selective filtration information: and ITD to support the identification of,
+251.0	1564.0	1322.0	1599.0	99.8	conversion to, and maintenance of the best computer platform for the
+252.0	1603.0	345.0	1636.0	100.0	CDM.
+254.0	1677.0	597.0	1716.0	96.6	Project Descriptions.
+349.0	1718.0	576.0	1749.0	100.0	Filter Studies
+394.0	1754.0	1122.0	1788.0	99.8	Effects of carbon filters on gas phase deliveries.
+393.0	1795.0	931.0	1828.0	99.4	Dual concentric filter performance.
+394.0	1832.0	1302.0	1867.0	99.7	Performance of new filter materials and constructions, e.g.,
+1557.0	1858.0	1595.0	2074.0	100.0	2059733130
+396.0	1870.0	1058.0	1904.0	99.3	Crest and formed filters like MBF and SCS.
+398.0	1911.0	821.0	1942.0	100.0	Selective filter performance.

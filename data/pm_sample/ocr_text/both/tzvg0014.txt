@@ -1,0 +1,36 @@
+MSA.PGH LR X438 TEL: 412-363-0966 Oct 5,93 12:06 N0.002 P.04
+RETAIL PROGRAMS WITHOUT UPC/CASH REQUIREMENTS
+PROGRAM %
+(DROP DATE) MEDIA PREMIUMS SURVEYRESPONSE
+1) Alpine/Salem Challenge On Pack Lighter No 0.33%
+(2/17/92)
+2) Alpine 1989 CIP Free Coupon No 2.84
+Consumer Intercept $2 Carton Cpn
+(1/1/89)
+3) B&H Blues '90 CIP Pen No 0.74
+(6/10/90)
+4) B&H CIP Program CIP Pen No 6.52
+(6/15/89) Lighter
+5) B&H Consumer CIP CIP Lighter No 5.36
+(3/1/89)
+6) Bucks National CIP CIP Wallet Yes 5.16
+(10/1/90) Coupon
+7) Cambridge Free Lighter On Pack Lighter No 1.26
+(3/1/93)
+8) Cambridge Lighter Offer On Pack Lighter Yes 3.36
+(6/29/92)
+9) Cambridge Survey/ POS Lighter Yes 2.60 03994
+Free Lighter
+(5/1/91)
+RETAIL PROGRAMS WITHOUT UPC/CASH REQUIREMENTS
+
+PROGRAM (DROP DATE) MEDIA PREMIUMS SURVEY % RESPONSE
+1) Alpine/Salem Challenge (2/17/92) On Pack Lighter No 0.33%
+2) Alpine 1989 Consumer Intercept (1/1/89) CIP Free Coupon $2 Carton Cpn No 2.84
+3) B&H Blues '90 (6/10/90) CIP Pen No 0.74
+4) B&H CIP Program (6/15/89) CIP Pen Lighter No 6.52
+5) B&H Consumer CIP (3/1/89) CIP Lighter No 5.36
+6) Bucks National CIP (10/1/90) CIP Wallet Coupon Yes 5.16
+7) Cambridge Free Lighter (3/1/93) On Pack Lighter No 1.26
+8) Cambridge Lighter Offer (6/29/92) On Pack Lighter Yes 3.36
+9) Cambridge Survey/ Free Lighter (5/1/91) POS Lighter Yes 2.60

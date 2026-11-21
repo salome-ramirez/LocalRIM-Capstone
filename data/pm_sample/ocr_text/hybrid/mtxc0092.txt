@@ -1,0 +1,37 @@
+Magnesite papers
+!!
+1st set of models:
+1. PlEP - 55 g/M2: base, higher porosity,
+sized/perfed by Ecusta
+2. P1EQ - 55 g/M2 base, lower porosity,
+sized/perfed by Ecusta CA
+3. P1ER - 45 g/M2 base, W/Mg(OH)2,
+sized/perfed by Ecusta 68mm cigt rod
+4. P1ES - 45 g/M2 base, w/o Mg(OH)2, 31.5mm filter
+sized/perfed by Ecusta 24.0mm circ.
+125mm filter RTD
+5. PlEP - 55 g/M2 base, higher porosity, Marl no AC filler
+sized/perfed by Écusta 35 +/- 2% vent
+6. P1EQ - 55 g/M2 base, lower porosity,
+sized/perfed by Ecusta CHARC
+7. P1ER - 45 g/M2 base, w/Mg(OB)2,
+sized/perfed by Ecusta
+8. P1ES - 45 g/M2 base, w/o Mg(O8)2,
+sized/perfed by Ecusta
+2nd set of models:
+1. 10-080 - 12 SEC, IC contro1
+2. P1ET - 55 g/M2 base, 10.0 cor base
+sized w/K2succ, perfed Marl
+3. P1EU - 55 g/M2 base, 5.5 cor base no AC
+sized w/K2succ, perfed filler 68mm cigt rod
+4. P1EV - 45 g/M2 base, w/Mg(O)2, 6-7Cor -- CA 31.5mm filter
+sized w/K2succ, perfed 24.0mm circ.
+5. P1EW - 45 g/M2 base, w/0 Mg(OH)2, ~6C 125mm fi1ter RTD
+sized w/K2succ, perfed 35 +/- 28 vent
+6. P1ET - 55 g/M2 base, 10.0 cor base,
+sized w/K2succ, perfed B&H
+Lts
+7. P1ET - 55 g/M2 base, 10.0 cor base, 1-- CHARC filler
+sized w/K2succ, perfed
+All models are scheduled to be made in Semi-works during the week of 3/11/91.
+2021327457

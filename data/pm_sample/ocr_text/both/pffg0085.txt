@@ -1,0 +1,57 @@
+8736
+HOW GOOD ARE THE NUMBERS FOR CIGARETTE
+TAR AT PREDICTING DELIVERIES OF CARBON
+MONOXIDE, HYDROGEN CYANIDE, AND ACROLEIN?
+J. C. Young, J. C. Robinson, W. S. Rickert
+Department of Statistics, University of Waterloo,
+Waterloo, Ontario, N2L 3G1 Canada and Labstat
+Incorporated, Kitchener, Ontario, N2C 1L3 Canada
+Simple and multiple linear regression analyses were performed on the tar,
+nicotine, CO, HCN, and acrolein deliveries of 98 brands of commercially available
+Cunadian cigarettes. Simple linear regressions of CO, HCN, and acrolein on tar and of
+acrolein on CO were not significant at the 5% level for plain cigarettes; all ather
+regressions were very strongly significunt (p < 0.O1). In addition there was strong
+statistical evidence that filter, vented filter, and plain cigarettes have different
+regression relations and different levels of precision associated with the regression
+purameters. With respect to CO, tar level could predict the corresponding CO value
+only within 3.9 mg (filter), 1.9 mg (vented filter), and 3.1 mg (plain). These results
+show that tar delivery alone is an inadequate predictor of gas-phase constituents such
+as CO. Information concerning these constituents is best conveyed by an analytically
+determined value for each component.
+INTRODUCTION
+Since 1954, when the first reports appeared linking cigarette smoking
+to lung cancer, cigarette tar deliveries have steadily declined, resulting in a
+measurable decrease in excess mortality for smokers who switched to
+low-tar brands (Hammond et al., 1976). With respect to specific diseases,
+reductions in mortality rates appear to be greatest for lung cancer, which
+is not surprising since cigarette tar contains at least 40 carcinogens along
+with various tumor initiators and promoters (Hoffmann et al., 1976).
+However, reductions in the rate of coronary heart disease have been less
+dramatic, prompting the suggestion that a gaseous constituent of tobacco
+smoke, such as CO, may be important in the development of this disease
+(Wald, 1976). Indeed, CO was identified in the 1979 report of the U.S.
+Surgeon General as a possible critical factor in a number of conditions
+including coronary heart disease, atherosclerosis and sudden death, chronic (TITLE 17 U.S. CODE)
+respiratory disease, and fetal growth retardation (Richmond, 1979). PROTECTED B- COPYRIGHT LAW NOTICE THIS MATERIAL MAY BE
+This study received financial support from the Department of Health and Welfare, Canada, and
+the Natural Sciences and Engineering Research Council of Canada.
+Requests for reprints should be sent to J. C. Young, Department of Statistics, University of
+Waterloo, Waterloo, Ontario, N2L 3G1 Canada.
+801
+Journal of Toxicology and Environmental Health, 7:801–808, 1981 2075441979
+Copyright © 1981 by Hemisphere Publishing Corporation
+0098-4108/81/040801-08$2.25
+HOW GOOD ARE THE NUMBERS FOR CIGARETTE TAR AT PREDICTING DELIVERIES OF CARBON MONOXIDE, HYDROGEN CYANIDE, AND ACROLEIN?
+
+J. C. Young, J. C. Robinson, W. S. Rickert
+Department of Statistics, University of Waterloo, Waterloo, Ontario, N2L 3G1 Canada and Labstat Incorporated, Kitchener, Ontario, N2C 1L3 Canada
+
+Simple and multiple linear regression analyses were performed on the tar, nicotine, CO, HCN, and acrolein deliveries of 98 brands of commercially available Canadian cigarettes. Simple linear regressions of CO, HCN, and acrolein on tar and of acrolein on CO were not significant at the 5% level for plain cigarettes; all other regressions were very strongly significant (p < 0.01). In addition there was strong statistical evidence that filter, vented filter, and plain cigarettes have different regression relations and different levels of precision associated with the regression parameters. With respect to CO, tar level could predict the corresponding CO value only within 3.9 mg (filter), 1.9 mg (vented filter), and 3.1 mg (plain). These results show that tar delivery alone is an inadequate predictor of gas-phase constituents such as CO. Information concerning these constituents is best conveyed by an analytically determined value for each component.
+
+INTRODUCTION
+
+Since 1954, when the first reports appeared linking cigarette smoking to lung cancer, cigarette tar deliveries have steadily declined, resulting in a measurable decrease in excess mortality for smokers who switched to low-tar brands (Hammond et al., 1976). With respect to specific diseases, reductions in mortality rates appear to be greatest for lung cancer, which is not surprising since cigarette tar contains at least 40 carcinogens along with various tumor initiators and promoters (Hoffmann et al., 1976). However, reductions in the rate of coronary heart disease have been less dramatic, prompting the suggestion that a gaseous constituent of tobacco smoke, such as CO, may be important in the development of this disease (Wald, 1976). Indeed, CO was identified in the 1979 report of the U.S. Surgeon General as a possible critical factor in a number of conditions including coronary heart disease, atherosclerosis and sudden death, chronic respiratory disease, and fetal growth retardation (Richmond, 1979).
+
+This study received financial support from the Department of Health and Welfare, Canada, and the Natural Sciences and Engineering Research Council of Canada.
+
+Requests for reprints should be sent to J. C. Young, Department of Statistics, University of Waterloo, Waterloo, Ontario, N2L 3G1 Canada.

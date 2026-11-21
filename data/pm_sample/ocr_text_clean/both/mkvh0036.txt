@@ -1,0 +1,69 @@
+PHILIP MORRIS U. S. A.
+IXTER-OTTICL CORRESP
+Richmond, Virginia HIGHLY CONFIDENTIAL INFORMATION
+To: Hs. Judy Smith. Date: January 12,
+From: John Tindall
+Subject: . FTC and TIOJ Tar and Nicotine Relationships
+The FTC and TIoJ tar and nicotine data supplied by J.M. Garman on November 11,
+1g89 and January 8, 1990 have been analyzed to: define the relationships:
+between measurements: from the two methods.
+There were forty FTC/TIOJ pairs of tar and nicotine averages for 27 brands.
+Thirteen of the brands ware measured twice each from two different week-ending
+samples. Eight of the brands measured from only one week-ending sample were
+measured at a different time and on a dlfferent machine from all of the other
+brands.
+The statistical analyses were based only on average tar and nicotine values
+and on butt-length differences. Ftc butt lengths were 0, 2, 3, or 5mm: shorter
+than TIoJ butt lengths. The primary differences between the two methods,
+which would cause different results, are butt length and air flow. The FTC
+method (as applied by Philip Morris) has greater air flow through the smoking
+machine and so would be expected to give lower deliveries because of faster
+burning between puffs. Where the two methods differ in butt length, the
+method with the: shorter butt length (more rod available for smoking) would be
+expected to give higher values due to that effect.
+A reasonable way to summarize the relationship between FTC and TIOJ values is
+to relate the difference (TIOJ minus FTC) to the magnitude of the values
+(represented by the average of. FTC: and TIOJ). Intuitively, then, that
+difference should be proportional to the magnitude of the values, and the
+effect of a butt-length difference should be proportional. to both the butt-
+length difference and, again, to the magnitude of: values. Hathematically,
+TD - a (BD) (AV) + b(AV)
+where TD is the tar (or nicotine, ND) difference (TIOJ minus: FTC),
+BD is the butt-length difference (TIoJ minus: FTC),
+AV is the average of FTC and TIOJ deliveries--(ETC+TIOJ)/2, and
+a and. b are regression coefficients.
+The specific relationships which were found were
+TD - -.026(BD)(AV) + .082 (AV) and (1)
+ND - -.025 (BD): (AV) + .098 (AV). (2)
+C90-01025
+
+PHILIP MORRIS U. S. A.
+
+INTER-OFFICE CORRESPONDENCE
+
+Richmond, Virginia
+
+To: Ms. Judy Smith
+Date: January 12, 1990
+
+From: John Tindall
+
+Subject: FTC and TIOJ Tar and Nicotine Relationships
+
+The FTC and TIOJ tar and nicotine data supplied by J.M. Garman on November 11, 1989 and January 8, 1990 have been analyzed to define the relationships between measurements from the two methods.
+
+There were forty FTC/TIOJ pairs of tar and nicotine averages for 27 brands. Thirteen of the brands were measured twice each from two different week-ending samples. Eight of the brands measured from only one week-ending sample were measured at a different time and on a different machine from all of the other brands.
+
+The statistical analyses were based only on average tar and nicotine values and on butt-length differences. FTC butt lengths were 0, 2, 3, or 5mm shorter than TIOJ butt lengths. The primary differences between the two methods, which would cause different results, are butt length and air flow. The FTC method (as applied by Philip Morris) has greater air flow through the smoking machine and so would be expected to give lower deliveries because of faster burning between puffs. Where the two methods differ in butt length, the method with the shorter butt length (more rod available for smoking) would be expected to give higher values due to that effect.
+
+A reasonable way to summarize the relationship between FTC and TIOJ values is to relate the difference (TIOJ minus FTC) to the magnitude of the values (represented by the average of FTC and TIOJ). Intuitively, then, that difference should be proportional to the magnitude of the values, and the effect of a butt-length difference should be proportional to both the butt-length difference and, again, to the magnitude of values. Mathematically,
+
+$$TD = a(BD)(AV) + b(AV)$$
+
+where TD is the tar (or nicotine, ND) difference (TIOJ minus FTC), BD is the butt-length difference (TIOJ minus FTC), AV is the average of FTC and TIOJ deliveries—(FTC+TIOJ)/2, and a and b are regression coefficients.
+
+The specific relationships which were found were
+
+$$TD = -.026(BD)(AV) + .082(AV) \text{ and} \quad (1)$$
+
+$$ND = -.025(BD)(AV) + .098(AV). \quad (2)$$

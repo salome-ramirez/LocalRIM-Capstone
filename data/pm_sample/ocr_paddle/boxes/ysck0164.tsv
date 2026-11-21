@@ -1,0 +1,39 @@
+x1	y1	x2	y2	conf	text
+1512.0	310.0	2116.0	381.0	95.1	PARK 500
+2845.0	284.0	3217.0	404.0	100.0	Confidential
+1.0	333.0	27.0	380.0	51.7	一
+1481.0	578.0	2141.0	646.0	99.8	Chester, Virginia
+619.0	841.0	737.0	901.0	99.9	TO:
+1006.0	839.0	1532.0	902.0	99.9	T. J. Bullock
+1978.0	847.0	2951.0	905.0	97.9	DATE: September 16, 1992
+622.0	975.0	813.0	1030.0	100.0	FROM:
+1004.0	969.0	1457.0	1040.0	99.7	J. T. Bandy
+626.0	1109.0	947.0	1163.0	100.0	SUBJECT:
+974.0	1104.0	1950.0	1170.0	99.3	TRION IONIZER CONVERSION
+621.0	1298.0	2996.0	1376.0	99.6	The attached reguisition for $271,876 is for the purchase of
+622.0	1366.0	2997.0	1441.0	98.4	Trion ionizer conversion kits for Trion electronic filters
+623.0	1435.0	1004.0	1504.0	100.0	plantwide.
+624.0	1567.0	3000.0	1640.0	99.3	The function of the Trions is to remove dust particles and
+625.0	1632.0	2990.0	1711.0	99.1	contaminates from the room air in the processing areas.
+623.0	1700.0	2999.0	1776.0	98.9	However, due to electrical failures the Trions operate at
+627.0	1769.0	3000.0	1842.0	99.5	only 46% efficiency, thus removing less than half the partic-
+627.0	1836.0	2057.0	1903.0	100.0	ulate they were designed to filtrate.
+628.0	1963.0	3004.0	2037.0	98.0	Broken ionization wires is the root cause of most Trion
+630.0	2033.0	3004.0	2104.0	99.6	electrical failures. These key components of the electronic
+633.0	2097.0	3004.0	2173.0	97.9	filter break at a rate of 400 per year, triggering approxi-
+629.0	2165.0	3005.0	2236.0	98.4	mately 100 transformer failures annually. Each year Park 500
+634.0	2230.0	3004.0	2299.0	99.5	spends more than $60,000 in replacement parts and over 1000
+636.0	2292.0	2612.0	2362.0	99.1	labor hours for ionizer wires and related failures.
+635.0	2425.0	3007.0	2486.0	100.0	Technical representatives of Trion Incorporated have recom-
+631.0	2483.0	3008.0	2550.0	99.8	mended replacing the old technology ionizer wires with newer
+633.0	2544.0	3010.0	2620.0	99.4	design long-lasting, spiked ionizer plates. Discussions with
+633.0	2612.0	3011.0	2686.0	99.0	Philip Morris personnel who have experience with spiked
+638.0	2679.0	2997.0	2748.0	100.0	ionizers indicate that they are essentially maintenance free.
+635.0	2802.0	3014.0	2884.0	98.8	If this reguisition is approved by October 16, ionizer
+638.0	2873.0	3010.0	2943.0	99.6	conversion may begin early in November and all units could be
+636.0	2936.0	2578.0	3008.0	98.0	converted by the end of the first quarter of 1993.
+642.0	3137.0	902.0	3196.0	100.0	Attach.
+642.0	3199.0	1152.0	3267.0	99.9	fh/a:g226.jtb
+640.0	3329.0	1273.0	3393.0	97.0	cc: D. A. Clark
+832.0	3395.0	1429.0	3456.0	95.2	G. L. McConnell
+2524.0	3957.0	3134.0	4056.0	100.0	2030520639

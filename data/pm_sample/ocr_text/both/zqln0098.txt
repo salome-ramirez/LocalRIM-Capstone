@@ -1,0 +1,32 @@
+INBIFO Institut für biologische Forschung GmbH · Köln
+19 August 1998 -/PSN
+CHEMICAL/PHYSICAL DETERMINATIONS
+Component/ Frequency Reason Method/Principle Calibration Remarks
+Parameter
+TPM at least once daily main dose parameter gravimetry standard weights glass fiber filter
+particle size 3 times (monthly) deposition probability precipitation in a monodispers Latex aerosol centrifuge
+centrifugal fieid, spheres
+migration in an scanning mobility particle sizer,
+electrostatic field establishment in process
+nicotine once per week main capillary gas certified pure trapping on sulfuric acid-coated
+pharmacologically chromatography substances silicagel
+active component
+CO continuously inert concentration non-dispersive IR light certified calibration after removing particles
+during exposures indicator absorbtion gas
+NO/NOx once per week chemoluminescence certified calibration after removing particles, only
+gas relevant for sidestream smoke
+aldehydes once per week main irritants HPLC certified pure after trapping in
+substances dinitrophenylhydrazine solution
+067931
+X.\PSN\CHEMPHY1.DOC
+127/94
+CHEMICAL / PHYSICAL DETERMINATIONS
+
+| Component/Parameter | Frequency | Reason | Method/Principle | Calibration | Remarks |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| TPM | at least once daily | main dose parameter | gravimetry | standard weights | glass fiber filter |
+| particle size | 3 times (monthly) | deposition probability | precipitation in a centrifugal field, migration in an electrostatic field | monodispers Latex spheres | aerosol centrifuge scanning mobility particle sizer, establishment in process |
+| nicotine | once per week | main pharmacologically active component | capillary gas chromatography | certified pure substances | trapping on sulfuric acid-coated silicagel |
+| CO | continuously during exposures | inert concentration indicator | non-dispersive IR light absorbion | certified calibration gas | after removing particles |
+| NO/NOx | once per week | | chemoluminescence | certified calibration gas | after removing particles, only relevant for sidestream smoke |
+| aldehydes | once per week | main irritants | HPLC | certified pure substances | after trapping in dinitrophenylhydrazine solution |

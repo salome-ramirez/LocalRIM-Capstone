@@ -1,0 +1,37 @@
+MAR-15-1995 16:52 FROM MARKET METRICS TO 12129075306 P.02
+MARKETMETRICS March 15, 1995
+Bernie Ryan
+MSA
+6565 Penn Avenue
+Pittsburgh, PA 15206
+Dear Bernic:
+Yesterday, Amir, Mike and I further discussed how we could go about providing Potential Indices
+(PIs) and providing Market Share Adjusted (MSA) PIs in response to Jeanne Lincoin's request
+made to you carlier this month. As you are aware from our meeting at Market Metrics last week,
+we thought we had worked out a means to accomplish this by the first week in April. During that
+discussion we did, however, present two reservations:
+First, although much data validation could be completed by this time, we were all concerned
+about delivering production/business ready (ocrtified) data in the midst of system development.
+Second, we discussed the fact that Market Metrics had redeveloped the CTS profiles in
+January/February and that we were planning to insert them into IRDD during the 1995
+Demographic update in April. These profiles were reprocessed to take advantage of Charlie
+Getchell's newest approach to regional profile development, Without this modification, brands
+of lower penetration would not be properly demographically represented. Please note the
+profiles existing in RDM I are not impacted by this because that set is not regionalized.
+It is this last concen which prevents us from being able to certify PIs and MSA PIs calculated on
+the current IRDD CTS profiles.
+In summary, the data requested by PM could be availabie at the end of April when the pre
+generated data will be based on the new profiles. Or, if PM approves an interruption in the current
+IRDD schedule, we could take approximately three weeks to load the new profiles and generate all
+the PIs and MSA PIs. Then in April, we would turn around and re-do this work after the 1995
+Demography is placed in IRDD. The exact impact to the schedule would need to be modeled
+through the project management software before we could advise PM.
+I hope this helps to clarify our concerns.
+Sipcerely,
+Ann P. Raezer
+P.S. Copies are being sent to PM per Tim Gourley's request due to the representation of this issue
+on the Issues List.
+cc: Amir Banea, Mike Wirth, Jim Weaver, Charlie Getchell, Tim Gourley, Jeanne Lincoln
+1857 William Penn Way P.O. Box 10097 Lancaster, PA 17605-0097
+717-397-1500 FAX717-397-6821
+TOTAL P.02

@@ -1,0 +1,3 @@
+pages,n,classifier_top1,neighbors_top1,classifier_top2,neighbors_top2
+review queue,194,0.639,0.608,0.851,0.794
+all pages,250,0.7,0.668,0.88,0.82

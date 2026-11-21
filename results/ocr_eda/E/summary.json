@@ -1,0 +1,91 @@
+{
+ "engine": "E",
+ "name": "Archive text layer (UCSF)",
+ "pages_expected": 1400,
+ "pages_read": 1400,
+ "empty_pages": 25,
+ "tokens_median": 172.0,
+ "tokens_p10": 18,
+ "tokens_p90": 426,
+ "wordlike_share_median": 0.6395,
+ "pages_mostly_junk": 425,
+ "pages_with_bates_like_token": 642,
+ "pages_with_own_bates_found": 260,
+ "pages_with_footer_left": 0,
+ "by_group": {
+  "1": {
+   "pages": 873,
+   "tokens_median": 131.0,
+   "wordlike_share_median": 0.617,
+   "empty_pages": 11
+  },
+  "2": {
+   "pages": 5,
+   "tokens_median": 6.0,
+   "wordlike_share_median": 0.429,
+   "empty_pages": 0
+  },
+  "3a": {
+   "pages": 20,
+   "tokens_median": 25.0,
+   "wordlike_share_median": 0.0915,
+   "empty_pages": 3
+  },
+  "3b": {
+   "pages": 35,
+   "tokens_median": 24.0,
+   "wordlike_share_median": 0.385,
+   "empty_pages": 7
+  },
+  "4": {
+   "pages": 467,
+   "tokens_median": 317.0,
+   "wordlike_share_median": 0.72,
+   "empty_pages": 4
+  }
+ },
+ "by_department": {
+  "ADM": {
+   "pages": 26,
+   "tokens_median": 94.0,
+   "wordlike_share_median": 0.5509999999999999,
+   "empty_pages": 1
+  },
+  "AFF": {
+   "pages": 44,
+   "tokens_median": 251.0,
+   "wordlike_share_median": 0.7765,
+   "empty_pages": 1
+  },
+  "FIN": {
+   "pages": 21,
+   "tokens_median": 151.0,
+   "wordlike_share_median": 0.592,
+   "empty_pages": 0
+  },
+  "LEG": {
+   "pages": 19,
+   "tokens_median": 190.0,
+   "wordlike_share_median": 0.668,
+   "empty_pages": 0
+  },
+  "MKT": {
+   "pages": 65,
+   "tokens_median": 199.0,
+   "wordlike_share_median": 0.667,
+   "empty_pages": 2
+  },
+  "QSH": {
+   "pages": 20,
+   "tokens_median": 231.0,
+   "wordlike_share_median": 0.3665,
+   "empty_pages": 0
+  },
+  "RND": {
+   "pages": 55,
+   "tokens_median": 196.0,
+   "wordlike_share_median": 0.639,
+   "empty_pages": 0
+  }
+ }
+}

@@ -1,0 +1,26 @@
+INBIFO Institut fiir biologische Forschung • KSIn
+: unprocessed
+: RL sheet
+: acetone
+: X6D3DAM
+: X6D3DFZ
+: X6D3DBF
+: X6D3DNY
+: X6D4CDL
+: X6D4CUC
+0
+H
+H
+9
+1 .0-I
+0 .5-I
+0
+1
+0
+T
+30
+T
+60
+I 1
+90 120
+DRY CONDENSATE (mg/(mouse x week))

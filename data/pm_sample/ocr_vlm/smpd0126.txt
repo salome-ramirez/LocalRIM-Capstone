@@ -1,0 +1,13 @@
+Philip Morris
+PM 50
+5/9/95
+
+*15L 850 1100°C/1h Slow Cooled
+11L 900 1100°C/1h Quartz-Vac.
+
+Strain Rate:0.16"/min
+
+*Sheet Specimens
+Strain Rate:0.2"/min
+
+2050030114

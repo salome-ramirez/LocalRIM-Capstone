@@ -1,0 +1,16 @@
+1
+Schema der Fraktionierung von Zigarettenrauchkondensat
+für polycyclische aromatische Kohlenwasserstoffe (=PAH)
+und N-haltica palycyciigohe arematische Heterecyclen (N=PAH)
+Rauchkondensat
+Methano1+Wasser+Cyclohexan 3+1+8
+Cyclohexan Methanol+Wasser
+Cyclohexan+Nitromethan
+Nitromethan Cyclohexan
+SEPHADEX LH 20-Isopropanol
+(a) PAH (4-7 Ringe) + N-PAH (b) PAH (2-3 Ringe)
+SEPHADEX LH 20 -Methano1 + Hexan
+(a.) PAH (4-7 Ringe), Antei1 : 0,03 %
+(a2) N-PAH, Anteil O,3 %
+ABB. 1
+G. GRIMER

@@ -1,0 +1,11 @@
+page_no,path,rvl_class,mean_conf,words,rating,note
+1,budget/rvl_train_000784.png,budget,33.1,196,1,
+2,handwritten/rvl_train_001859.png,handwritten,50.9,91,2,
+3,email/rvl_train_055808.png,email,65,78,2,
+4,letter/rvl_train_001804.png,letter,74.1,127,3,
+5,budget/rvl_train_000230.png,budget,80.4,134,3,
+6,news article/rvl_train_025616.png,news article,84.1,810,3,
+7,budget/rvl_train_001124.png,budget,87.3,25,3,
+8,letter/rvl_train_001602.png,letter,89.7,119,3,
+9,letter/rvl_train_000766.png,letter,91.8,289,3,
+10,letter/rvl_train_000526.png,letter,93.8,370,3,

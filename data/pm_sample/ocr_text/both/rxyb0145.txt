@@ -1,0 +1,91 @@
+Chauge Paslo 14Jan 88
+Item
+PROJECT SUMMA
+Project
+Investme 2057563471
+ARCHITECT'S F
+Aerial
+Ground 
+FACILITY HIGI
+Location Pian
+Site Description 3-2
+Foundations 3-2
+Structural Frame 3-2
+Architecture 3-2
+Heating, Ventilation, Air-Conditioning 3-3
+Modifications to Existing Facilities 3-3
+Environmental Controls 3-4
+Building Elevations 3-5
+FUTURE CONSIDERATIONS
+Expansion of Facilities 4-1
+Improved Processes 4-1
+PROCESS DESCRIPTION
+Extraction Process 5-1
+Tobacco Preparation 5-1
+Post-Extraction Tobacco Treatment 5-2
+Stem Preparation 5-2
+Post-Extraction Stem Treatment 5-2
+Process Flow Diagrams 5-3
+Equipment General Arrangements 5-7
+SUPERCRITICAL EXTRACTION EQUIPMENT
+Extraction Vessel 6-1
+Absorption Vessel 6-1
+Circulating Pump 6-1
+Process Heat Exchanger 6-1
+Fill Pump 6-2
+Recovery Compressor 6-2
+Working Vessel 6-2
+Modular Arrangement 6-2
+SAFETY CONSIDERATIONS
+Safety Concerns - Extraction System 7-1
+High Pressure 7-1
+Low Temperatures 7-1 2057563472
+Cyclical Service 7-2
+Fluid Chemistry 7-2
+Carbon Dioxide (CO2) 7-2
+Nicotine 7-2
+Item
+PROJECT SUMMA
+Project
+Investme
+ARCHITECT'S F
+Aerial \
+Ground \
+FACILITY HIGH
+Location Plan
+Site Description 3-2
+Foundations 3-2
+Structural Frame 3-2
+Architecture 3-2
+Heating, Ventilation, Air-Conditioning 3-3
+Modifications to Existing Facilities 3-3
+Environmental Controls 3-4
+Building Elevations 3-5
+FUTURE CONSIDERATIONS
+Expansion of Facilities 4-1
+Improved Processes 4-1
+PROCESS DESCRIPTION
+Extraction Process 5-1
+Tobacco Preparation 5-1
+Post-Extraction Tobacco Treatment 5-2
+Stem Preparation 5-2
+Post-Extraction Stem Treatment 5-2
+Process Flow Diagrams 5-3
+Equipment General Arrangements 5-7
+SUPERCRITICAL EXTRACTION EQUIPMENT
+Extraction Vessel 6-1
+Absorption Vessel 6-1
+Circulating Pump 6-1
+Process Heat Exchanger 6-1
+Fill Pump 6-2
+Recovery Compressor 6-2
+Working Vessel 6-2
+Modular Arrangement 6-2
+SAFETY CONSIDERATIONS
+Safety Concerns - Extraction System 7-1
+High Pressure 7-1
+Low Temperatures 7-1
+Cyclical Service 7-2
+Fluid Chemistry 7-2
+Carbon Dioxide (CO₂) 7-2
+Nicotine 7-2

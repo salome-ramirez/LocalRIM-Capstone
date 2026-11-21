@@ -1,0 +1,49 @@
+PHILIP MORRIS
+U.S.A.
+TOBACCO, PRODUCT STANDARDS
+Type - Bright Belt - Old Grade - CAFO
+DESCRIPTION:
+cove:
+BOCAO
+DATE:
+7/05/9
+LOCATION:
+Bright Leaf
+TYPE:
+Tobacco Standa
+5
+td
+95-02974
+PM EUROPE STATUS: TRNO:
+CONFIDENTIAL: DO NOT DUPLICATE Active
+Processing Method: WLT - Direct
+SIEVE ANALYSIS (Z%): (Q.A. PPI: 340-104V)
++1 Mesh Standard --------------+--------+--+---------
+Run Average Lower Control Limit 58.4
+Indiv. Test Lower Control Limit 52.5
+Total On 2 Mesh ----------- noon n nn nnn nnn rnc c ene 87.0
+Total 8 Mesh + Pan Standard --------------~--------- 2.2 i
+Run Average Upper Control Limit ------------------- 2.4
+Indiv. Test Upper Control Limit ------------------- 3.0
+Pan tenn n ee nee ne nnn nnn nc nner nner eee 0.5
+STEM CONTENT (%): (Q.A. PPI: 340-504¥) .
+Slotted Plate (> 3/32 in. dia.) ]
+{Average less than or equal to) ----------- 0.25 N
+Run Average Upper Control Limit = saesussenuanceeneun 0.29
+Indiv. Test Upper Control Limit -+------------------ 0.50
+Total Stem (Excluding Fiber)
+(Average less than or equal to) ----------- 2.25
+Run Average Upper Control Limit ------------------- 2.45
+Indiv. Test Upper Control Limit ------------------- 2.80
+OVEN VOLATILES (%) (HEARSON METHOD): (Q.A. PPI: 340-234V)
+Indiv. Test Upper Control Limit 13.50
+Run Average Upper Control Limit 13.00
+Target errr rn rrr re nnn een
+Run Average Lower Control Limit 12.00
+Indiv. Test Lower Control Limit 11.50
+CASE NET WEIGHT (Kgs):
+Prepared by:
+(Target)
+sis S.C. Meehan
+Issued To: F.G. Owen
+OPS9SF350e

@@ -1,0 +1,54 @@
+QA-BL Plant Detail Report
+
+DATE
+
+Burley Stem
+Time %OV %NO3-N
+X-Dry H/B X-Dry H/B
+Spec 5/9 5/9 <.50 <.50
+
+Production Dust
+% OV NO3-N % PG % Gly
+X-Dry H/B H/B Time H/B H/B
+3/7 3/7 <.50 1.25 2.10
+
+Day Mix Slurry
+Time Tank Filling Solids Temp pH
+Spec 18.50 150F 18.75 160F
+
+Refined Slurry
+Time Tank Filling Solids Temp pH
+Spec 18.50 150F 18.75 160F
+
+PRODUCTION SUMMARY
+Total IHds. Produced 0/S OV >18 0/S OV <14 0/S PG 0/S GLY 0/S Other 0/S Z-TEST Total I/S
+
+*4 TIMES PER SHIFT* *LINE 1 ONLY*
+
+Monitors
+Auto Analyzer GC
+NH3 2.30 0.10 0.23 2.37 3.31 548 TARGET
+KS
+NO3-N
+PG
+GLY
+PARABEN
+X
+R
+
+Sheet Weights
+Time L-1 L-2 L-3 AVG
+SPEC 11.4 11.4 11.4
+
+Finished Product
+Hhd # PARABEN NH3 KS NO3-N PG Gly QB Shred OV Shred OV
+Spec 700 2.8 .15 <.60 3.0 4.0 I.A. OVEN
+
+COMMENTS
+
+Oven Volatiles
+OB I.A.
+# AVG S.D.
+
+QA SUPERVISOR
+REVISED 6/17/91 JLD (SPODETAIL)

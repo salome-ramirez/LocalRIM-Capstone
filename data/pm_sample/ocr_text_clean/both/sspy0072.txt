@@ -1,0 +1,70 @@
+*PREPRINT EXTENDED ABSTRACT
+Presented Before the Division of Environmental Chemistry
+American Chemical Society
+San Francisco CA Apnl 5-10, 1992
+INTER-LABORATORY STUDY OF
+ENVIRONMENTAL LABORATORY DATA QUALITY
+David E. Kimbrough, Public Health Chemist Il, Janice R. Wakakuwa, Supervtsing Chemist, Southem
+Callfomia Laboratory, Calilomia Department ot Health Services, 1449 W. Temple St. Room 101, Los
+Angeles, CA 90026-5590
+Introduction
+Environmental epidemiological decision making is based on laboratory data supplied by
+commencial and govemment environmental laboratories. Environmental analytical chemistry is an
+especially difficult field because of the wide variety of matrtx types and complexity of many sample
+matrices. This is compounded by the newness and state of flux of the methodology. Laboratory
+capabilitlas range from small "mom and pop" laboratoriès to "chain" laboratorles with larga
+operatdons in many states. The range of technology and skill Is just as extensive.
+There is relatively little data to evatuate the quaßity of these laboratories' performance. The
+EPA's Water Supply (WS) and Water Pollution (WP) performance evaluation (PE) samples are useful
+for laboratories that analyze water samples, but not much else. Water is a very simple sample type
+with few Interferences or matrix effects. In contrast, industrial wastes, soils, and other complex
+sample types require extensive sample preparation techniques and suffer from numerous inter-
+analyte and matrix Interferences.
+As part of its mancate to monitor and to improve environmental taboratory performance the
+Environmental Laboratory Accreditation Program (ELAP). woriing with the Southem Californla
+Laboratory (SCL), distributed two sets of solid matrix PE samples to 199 accredited laboratorles.
+both govemmental aad private. This data offers the first glimpse into environmental laboratory data
+quaßty.
+Experimental
+1) PE Sample Preparation. A large quantity of soßl was collected. It was sieved, mided,
+homogenized, and analyzed for arsenic, cadmium, molybdenum, selenlum, thallum, and Arocior
+1260. There was less than 1.0 mg/kg of the five elements and less than 0.1 mg/kg of Aroclor 1260.
+The soll was divided up Into 10 batches. Five batches were spiked with water soluble salts of the five
+elements at a number of dillerent concentrations. The other five batches were autoclaved and four
+batches were spilked with differing amounta of Arocior 1260 (see Table i). The samples were then re-
+dried, re-milled, re-sieved, and packaged (for a more complete description of sample preparation
+see reference (1))
+2) PE Sample Validation. The elemental PE samples were anatyzad In septuplicate at SCL
+The PC8 samples were analyzed in duplicate. When these measuraments matched the spiked
+values, they were sent out to 30 govemment alfillated taboratories in the U.S. and Canada (these wil
+be referred to as reference laboratories).
+3) PE Sample Distribution. There were 199 laboratories accredited to ELAP for either the
+five elements or PcBs (these wil be relerred to as the accredited laboratories). Each was sent at
+least one complete set of tve elementai or PCB PE samples. Each turmed in onty the final results
+and analytical procedures. A random selection of 10% of the PCB laboratories were sent a
+supplemental report with more detail questions about PC3 procedures.
+841
+*PREPRINT EXTENDED ABSTRACT*
+Presented Before the Division of Environmental Chemistry
+American Chemical Society
+San Francisco CA April 5-10, 1992
+
+INTER-LABORATORY STUDY OF ENVIRONMENTAL LABORATORY DATA QUALITY
+
+David E. Kimbrough, Public Health Chemist II, Janice R. Walshowa, Superviseing Chemist, Southern California Laboratory, California Department of Health Services, 1449 W. Temple St. Room 101, Los Angeles, CA 90025-5998
+
+Introduction
+
+Environmental epidemiological decision making is based on laboratory data supplied by commercial and government environmental laboratories. Environmental analytical chemistry is an especially difficult field because of the wide variety of matrix types and complexity of many sample matrices. This is compounded by the newness and size of flux of the methodology. Laboratory capabilities range from small "room and pop" laboratories to "chain" laboratories with large operations in many states. The range of technology and skill is just as extensive.
+
+There is relatively little data to evaluate the quality of these laboratories' performance. The EPA's Water Supply (WS) and Water Pollution (WP) performance evaluation (PE) samples are useful for laboratories that analyze water samples, but not much else. Water is a very simple sample type with few interferences or matrix effects. In contrast, industrial wastes, soils, and other complex sample types require extensive sample preparation techniques and suffer from numerous interanalyte and matrix interferences.
+
+As part of its mandate to monitor and to improve environmental laboratory performance the Environmental Laboratory Accreditation Program (ELAP), working with the Southern California Laboratory (SCL), distributed two sets of solid matrix PE samples to 199 accredited laboratories, both governmental and private. This data offers the first glimpse into environmental laboratory data quality.
+
+Experimental
+
+1) PE Sample Preparation. A large quantity of soil was collected. It was sleved, milled, homogenized, and analyzed for arsenic, cadmium, molybdenum, selenium, thetium, and Arcoor 1260. There was less than 1.0 mg/kg of this five elements and less than 0.1 mg/kg of Arcoor 1260. The soil was divided up into 10 batches. Five batches were spiked with water soluble salts of the five elements at a number of different concentrations. The other five batches were autoclaved and four batches were spiked with differing amounts of Arcoor 1260 (see Table I). The samples were then re-dried, re-milled, re-slewed, and packaged (for a more complete description of sample preparation see reference (I))
+
+2) PE Sample Validation. The elemental PE samples were analyzed in septupicate at SCL. The PCB samples were analyzed in duplicate. When these measurements matched the spiked values, they were sent out to 30 government affiliated laboratories.
+
+3) PE Sample Distribution. There were 199 laboratories accredited to ELAP for either the five elements or PCBs (these will be referred to as the accredited laboratories). Each was sent at least one complete set of five elemental or PCB PE samples. Each turned in only the final results and analytical procedures. A random selection of 10% of the PCB laboratories were sent a supplemental report with more detail questions about PCB procedures.

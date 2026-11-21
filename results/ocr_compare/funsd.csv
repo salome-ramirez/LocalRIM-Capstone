@@ -1,0 +1,4 @@
+engine,forms,true_words,word_recall,wer,wer_median_form,seconds_per_form,conf_vs_recall_spearman
+A,50,8726,0.747,0.369,0.366,0.57,0.63
+C,50,8726,0.922,0.162,0.116,0.39,0.62
+D,50,8726,0.887,0.24,0.19,4.25,

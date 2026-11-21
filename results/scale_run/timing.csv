@@ -1,0 +1,7 @@
+stage,seconds_per_page,source
+"OCR, PaddleOCR (every page)",0.971,measured Nov 8
+"OCR, vision model (hard pages only, spread over all)",0.214,"45 pages, measured Nov 9"
+Embedding,0.039,measured Nov 12
+Classifier and routing,0.0,measured now (model fitted once in 0 s)
+"RAG suggestion (pages to a person only, spread over all)",3.086,"5.4 s per review page, measured now"
+Total,4.31,"about 1.2 hours per 1,000 pages"

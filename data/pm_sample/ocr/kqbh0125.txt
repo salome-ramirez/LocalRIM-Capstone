@@ -1,0 +1,21 @@
+RSS 121-48 %
+@ time 11752
+ctre
+titrerate of
+anticir.
+stop Y 3+
+stop pH 3
+7:
+2
+ml/min
+start pH
+temp.
+2
+1
+5
+6
+@ ml
+is)
+is)
+8
+EP crit. 1

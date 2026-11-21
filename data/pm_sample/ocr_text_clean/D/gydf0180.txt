@@ -1,0 +1,36 @@
+Nixon, Gerry M.
+
+From: webman@ovid.com
+Sent: Saturday, February 23, 2002 9:26 AM
+Subject: Smoking and Health Weekly Alert AutoAlert: SmkHlth Database: Current Contents/Science Edition <1996 Week 01 to 2002 Week 09>
+
+Total documents retrieved: 78
+
+Date: 23-Feb-2002
+Name: SmkHlth
+Database: Current Contents/Science Edition <1996 Week 01 to 2002 Week 09>
+
+Set Search Results
+001 (smoking or smoker? or cigar$).mp. 26263
+002 ((passive or tobacco or secondhand or mainstream or sidestre am or ms or ss) adj smoke).mp.
+003 second hand smoke.mp. 20
+004 (nicotine or cotinine or ets or (smoke adj (induced or sensi tiv$ or exposure$ or pollution))).mp.
+005 (nicotine or cotinine or ets).mp. 7680
+006 (smoke adj (induced or sensitiv$ or exposure$ or pollution)) 632 .mp.
+007 or/1-6 31468
+008 (cardiovascular or cerebrovascular or ((cardio or cerebro) a dj vascular)).mp.
+009 ((lung or respiratory or pulmonary or circulatory or childho od) adj disease?).mp.
+010 ((heart adj (failure? or disease? or attack?)) or cardiomyop athy or infarct$).mp.
+011 (stroke? or atheroscler$ or arteriosclero$ or hypertension) 85875 .mp.
+012 (diet?3 or nutrit$ or cholesterol$).mp. 66343
+013 (copd or bronchit$ or asthma$ or emphysem$).mp. 27346
+014 (sperm$ or impoten$ or (erectile adj dysfunction) or ova or ovum or ovulat$ or fertilit$ or reproduct$ or viril$).mp.
+015 (embryo$ or f?etus or f?etal or teratogen$).mp. 0
+016 (sids or hypox$ or (birth adj defect?)).mp. 21040
+017 sudden infant death?.mp. 1118
+018 (((room or indoor) adj air) or iaq or (respirable adj partic $)).mp.
+019 (carcinoma$ or cancer$ or carcinogen$ or mutagen$ or neoplas $372067 $ or malignant$ or tumo?r$).mp.
+020 (epidemiol$ or (risk adj factor? or occupational$).mp. 105194
+021 or/8-20 740801
+022 7 and 21 19313
+023 limit 22 to latest update 78

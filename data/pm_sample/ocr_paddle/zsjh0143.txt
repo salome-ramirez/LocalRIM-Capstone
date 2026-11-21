@@ -1,0 +1,71 @@
+10 BRITISH MEDICAL JOURNAL VOLUME 282 3 JANUARY 1981
+Should intake of carbon monoxide be used as a guide to
+intake of other smoke constituents?
+HEATHER ASHTON, R STEPNEY, J W THOMPSON
+Abstract endogenously produced and sources of carbon monoxide
+The relation between blood carboxyhaemoglobin(COHb) other than smoking exist in the environment. Consequentiy a
+and plasma nicotine concentrations was studied in a "background" concentration of carbon monoxide is found in
+group of 12 smokers smoking cigarettes of three levels of people who are not at all exposed to nicotine and tar.
+standard delivery. While the intake of carbon monoxide The a priori grounds for supposing that exposure to carbon
+from a single cigarette was unrelated to the intake of monoxide will be systematically related to exposure to nicotine
+nicotine, presmoking “trough" concentrations of the two and tar are therefore unclear. Recently we showed that cigarette
+substances (reflecting longer-term exposure) were highly smokers titrate intakes of nicotine and carbon monoxide when
+correlated. Various other measures of nicotine exposure switched to cigarettes with higher or lower machine yields of
+were at best only moderately correlated with blood these substances. In the course of the experiment plasma nico-
+nicotine concentrations. tine and blood COHb concentrations were measured. We have
+Thus trough COHb concentrations might be used to analysed further the data in our original study to determine the
+provide a reliable indication of the exposure to nicotine of extent to which nicotine and COHb concentrations are correlated
+individual smokers smoking the same type of cigarette, and whether measuring exposure to carbon monoxide provides
+and of the relative exposure to nicotine of populations a reliable estimate of exposure to nicotine. In addition, we cor-
+smoking cigarettes of different standard deliveries. related plasma nicotine concentrations with two other measures
+of nicotine exposure (mouth-levei nicotine intake as determined
+by butt analysis and urinary excretion of nicotine and cotinine)
+Introduction and with certain variables of smoking behaviour and physio-
+logical variables thought to be related to nicotine intake.
+Carbon monoxide intake has been used to derive an index of
+smoke inhalation from which relative exposure to tar and
+nicotine may be estimated in populations smoking different Subjects and methods
+tobaeco products.' An important practical advantage is that Twelve volunteer smokers (six men, six women) participated in an
+intake of carbon monoxide is easily measured, either as the experiment in which smoking bchaviour and the intake of smoke
+percentage of carboxyhaemoglobin (COHb) in venous blood or constituents were studied when the subjects smoked their usual
+(entirely non-invasively) as a concentration in end-tidal air. The middle-tar, middle-nicotine cigarettes and when they switched to each
+concentration in end-tidal air correlates highly (r=0-97) with of two experimental brands, one giving lower and one higher standard
+COHb concentrations² and would seem to have great potential yields of nicotine, tar, and carbon monoxide. Subjects smoked each
+use in large-scale epidemiological studies. Estimating exposure to type of cigarette over at least two weeks, during which they attended
+nicotine (by measuring its concentration in body fluids), on the the laboratory on two occasions. On each occasion the pattern of
+other hand, is complex, and no direct measure of exposure to puffing used to smoke a single cigarerte was recorded and a venous
+tar in human subjects is currently available. blood sample taken before and immediately after smoking. The pur-
+Extrapolating from carbon monoxide intake to that of tar and pose of the presmoking blood sample was to provide baseline values
+from which to measure the increase in exposure to smoke constituents
+nicotine, however, is not without problems. Carbon monoxide during the consumption of a single cigarette. Since subjects were
+is not closely allied with tar and nicotine in tobacco smoke: requested to refrain from smoking in the half hour before their
+while carbon monoxide is a constituent of the vapour phase, tar laboratory attendance, however, the presmoking concentrations served
+and nicotine are in the particulate phase. Secondly, a small also as resting or trough values, refilecting the exposure to smoke
+proportion of the nicotine available in smoke may be absorbed constituents over a fairly long period of smoking outside the laboratory.
+through the buccal and nasal mucosa (that is, in the absence of Table I shows the mean time between the last cigarette and the sub-
+inhalation), while carbon monoxide is absorbed only when smoke jects' attendance at the laboratory and the number of cigarettes smoked
+before attendance.
+is drawn into the lungs.ª Thirdiy, it has been estimated that after
+inhalation subjects retain over 90% of the nicotine in cigarette
+smoke, 60-80% of the tar (depending on inhalation pattern), TABLE 1—Mean (= SD) time berween smoking of last cigarette and attendance
+but only 60% of the carbon monoxide (D E Creighton. Paper at laboratory and number of cigarcltes smoked before attendance
+presented at the conference on aerosol physics, British American
+Tobacco Co Ltd, Southampton, 1973). Moreover, while it is the Usual High Low
+brands delivery delivery
+extent of absorption of carbon monoxide and nicotine that is Time since last cigarette (min) (n = 11)
+relevant to the effects of these substances on health, with tar it is 49÷36 45 ± 15 37-11
+No of cigarettes smoked (n = 12) 5.2 ±25 49=2.6 5.5 ±1.3
+the pattern of deposition in the respiratory tract that is impor-
+tant. Furthermore, a certain amount of carbon monoxide is •This value is inflated because one subiect had not smaked for faur hours before
+attending the laboratory.
+Plasma nicotine concentrations were assayed by gas chromatography
+Clinical Psychopharmacology Uait, Department of Pharmacological and blood COHb with an IL 182 CO-oximeter. A more cumplete
+Sciences, Uaiversity of Newcastle upon Tyne, Newcsstle upon account of the subjects’ characteristics, the standard deliveries of the
+Tyne NE2 4AB cigarettes used, and the variables measured has alteady been pub-
+HEATHER ASHTON, DM, FRcP, senior lecturer in psychopharmacology lished. Table II shows the standard deliveries of the three types of O
+and consultant clinical pharmacologist cigarette smoked. 9
+R STEPNEY, MA, Msc, junior research associate (present address: Depart- The relation between plasma nicocine and COHb concentrations
+ment of Medicine, University of Cambridge Clinical School, Adden- (and berween plasma nicotine concentrations and orher variables) was
+brooke's Hospital, Cambridge CB2 2QQ) established by between-subject Pearson product moment correlation.
+J W THOMPSON, PHD, MRCP, professor of pharmacology and consultant Each variable was measured twice in all subjects for cach type of
+clinical pharmacologist (AHA(T)) cigarette, so the means of the two valucs were uscd in the correlations.

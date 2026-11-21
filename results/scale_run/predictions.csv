@@ -1,0 +1,1001 @@
+id,tokens,predicted,confidence,second,second_confidence,routed,route_reason,final_test_page
+kqvb0028,4,MKT,0.377,LEG,0.246,review,under 20 tokens,True
+zgfh0109,236,MKT,0.535,LEG,0.184,review,below cutoff,True
+fmcf0126,481,LEG,0.485,RND,0.286,review,below cutoff,False
+gjjf0025,269,MKT,0.768,QSH,0.08,auto-filed,confident,True
+tmwj0130,449,RND,0.723,AFF,0.183,auto-filed,confident,False
+tynp0166,705,LEG,0.474,RND,0.264,review,below cutoff,False
+ytmk0062,217,LEG,0.586,AFF,0.165,auto-filed,confident,False
+mhyy0144,446,RND,0.474,AFF,0.314,review,below cutoff,False
+fswk0177,283,MKT,0.673,FIN,0.165,auto-filed,confident,False
+glcp0150,331,MKT,0.488,RND,0.279,review,below cutoff,False
+sgvp0119,175,MKT,0.526,LEG,0.187,review,below cutoff,False
+lgjn0057,716,QSH,0.709,RND,0.12,auto-filed,confident,False
+fqdp0035,598,MKT,0.538,AFF,0.319,review,below cutoff,False
+zggd0126,400,RND,0.675,LEG,0.192,auto-filed,confident,False
+pnjw0007,365,MKT,0.647,FIN,0.242,auto-filed,confident,False
+grcn0058,149,LEG,0.295,MKT,0.262,review,below cutoff,False
+gljv0172,145,AFF,0.551,RND,0.327,auto-filed,confident,False
+mkyp0009,491,FIN,0.595,MKT,0.3,auto-filed,confident,False
+txnw0111,1518,RND,0.565,AFF,0.351,auto-filed,confident,False
+hpyj0008,1274,RND,0.8,LEG,0.08,auto-filed,confident,True
+gjxw0130,586,AFF,0.321,RND,0.289,review,below cutoff,True
+zlkv0056,506,LEG,0.752,AFF,0.121,auto-filed,confident,False
+kjxd0183,34,MKT,0.642,AFF,0.162,auto-filed,confident,False
+tflx0101,133,LEG,0.412,MKT,0.323,review,below cutoff,False
+sslv0056,775,RND,0.743,MKT,0.114,auto-filed,confident,False
+xryj0105,373,FIN,0.463,MKT,0.15,review,below cutoff,False
+mpnv0220,417,RND,0.47,QSH,0.283,review,below cutoff,False
+hkbk0053,571,RND,0.669,QSH,0.128,auto-filed,confident,False
+qkkg0052,23,LEG,0.452,MKT,0.293,review,below cutoff,False
+nkjm0030,535,MKT,0.543,AFF,0.229,review,below cutoff,False
+fghw0111,381,MKT,0.341,RND,0.316,review,below cutoff,False
+yzwb0053,467,MKT,0.585,AFF,0.292,auto-filed,confident,False
+gjbj0127,488,RND,0.395,MKT,0.318,review,below cutoff,True
+jtmm0063,335,LEG,0.773,AFF,0.078,auto-filed,confident,False
+kyfw0053,894,RND,0.468,AFF,0.421,review,below cutoff,False
+zywl0149,969,RND,0.811,LEG,0.083,auto-filed,confident,True
+yxyj0123,230,RND,0.783,LEG,0.092,auto-filed,confident,True
+nzcp0003,337,MKT,0.663,LEG,0.114,auto-filed,confident,False
+lhnl0038,291,MKT,0.475,FIN,0.43,review,below cutoff,True
+jmbc0088,325,MKT,0.392,LEG,0.286,review,below cutoff,False
+yzdw0126,119,QSH,0.621,MKT,0.11,auto-filed,confident,False
+lpxh0041,645,FIN,0.633,AFF,0.202,auto-filed,confident,True
+hqvj0125,177,FIN,0.388,AFF,0.317,review,below cutoff,False
+pjmd0220,256,FIN,0.661,MKT,0.169,auto-filed,confident,False
+njlh0128,297,MKT,0.586,FIN,0.177,auto-filed,confident,False
+yndn0025,633,MKT,0.696,AFF,0.124,auto-filed,confident,False
+nkmx0015,296,AFF,0.495,RND,0.311,review,below cutoff,False
+mkpf0020,282,FIN,0.501,MKT,0.181,review,below cutoff,False
+llnm0025,76,MKT,0.518,RND,0.341,review,below cutoff,False
+rmyy0009,188,FIN,0.48,MKT,0.331,review,below cutoff,False
+qmfl0120,435,RND,0.638,AFF,0.144,auto-filed,confident,False
+kqcv0184,520,LEG,0.664,AFF,0.16,auto-filed,confident,False
+ytyx0020,400,RND,0.611,MKT,0.178,auto-filed,confident,False
+ksfd0071,196,LEG,0.416,AFF,0.229,review,below cutoff,True
+fhpx0059,19,MKT,0.321,RND,0.202,review,under 20 tokens,False
+znvk0054,1022,AFF,0.329,LEG,0.308,review,below cutoff,False
+yxmy0110,8,AFF,0.441,RND,0.243,review,under 20 tokens,False
+fxyj0024,72,LEG,0.357,MKT,0.284,review,below cutoff,False
+ggmf0112,325,RND,0.654,LEG,0.129,auto-filed,confident,False
+tjvv0024,251,RND,0.756,QSH,0.114,auto-filed,confident,False
+qhmg0109,246,LEG,0.758,AFF,0.103,auto-filed,confident,False
+lmwj0109,251,QSH,0.533,MKT,0.227,review,below cutoff,False
+ylyj0181,425,QSH,0.634,RND,0.217,auto-filed,confident,False
+yxdg0120,923,QSH,0.439,RND,0.373,review,below cutoff,False
+hrcd0036,1056,FIN,0.552,MKT,0.177,auto-filed,confident,True
+xfng0093,1,MKT,0.376,RND,0.193,review,no readable text,False
+rhlj0073,79,RND,0.497,LEG,0.289,review,below cutoff,True
+nzfj0000,1076,LEG,0.537,AFF,0.285,review,below cutoff,False
+gxkv0106,521,FIN,0.426,MKT,0.419,review,below cutoff,True
+ngcm0064,448,LEG,0.583,AFF,0.144,auto-filed,confident,False
+zswj0025,92,AFF,0.509,MKT,0.21,review,below cutoff,False
+tqyl0166,379,LEG,0.467,AFF,0.335,review,below cutoff,True
+skkf0022,236,LEG,0.49,MKT,0.228,review,below cutoff,False
+xnjx0058,67,RND,0.728,LEG,0.108,auto-filed,confident,False
+rtgl0086,415,RND,0.783,LEG,0.104,auto-filed,confident,False
+hjxp0127,9,MKT,0.606,AFF,0.18,review,under 20 tokens,False
+zfpp0052,232,MKT,0.418,RND,0.354,review,below cutoff,False
+qyph0172,676,RND,0.523,AFF,0.339,review,below cutoff,False
+nfcy0164,262,MKT,0.665,AFF,0.15,auto-filed,confident,True
+gnjp0098,384,RND,0.441,MKT,0.205,review,below cutoff,False
+htxg0124,318,AFF,0.645,LEG,0.217,auto-filed,confident,True
+xglp0098,1395,AFF,0.566,MKT,0.255,auto-filed,confident,False
+fglb0012,442,MKT,0.467,RND,0.314,review,below cutoff,False
+ljyy0106,351,RND,0.678,LEG,0.128,auto-filed,confident,False
+rjjd0106,344,RND,0.595,QSH,0.168,auto-filed,confident,False
+sldn0063,369,LEG,0.515,QSH,0.131,review,below cutoff,True
+tmdf0070,58,LEG,0.596,FIN,0.203,auto-filed,confident,False
+mgfp0166,173,LEG,0.316,FIN,0.216,review,below cutoff,False
+tnxv0020,302,MKT,0.607,LEG,0.208,auto-filed,confident,True
+njlj0068,434,FIN,0.36,RND,0.201,review,below cutoff,False
+glnj0115,42,MKT,0.488,AFF,0.232,review,below cutoff,True
+fhyj0059,53,LEG,0.502,MKT,0.131,review,below cutoff,False
+rrxn0109,741,RND,0.578,MKT,0.244,auto-filed,confident,False
+nkkp0217,104,MKT,0.65,AFF,0.218,auto-filed,confident,False
+jrlf0127,642,MKT,0.751,RND,0.119,auto-filed,confident,True
+kjkx0053,214,AFF,0.527,MKT,0.178,review,below cutoff,False
+lsyg0218,472,FIN,0.658,AFF,0.199,auto-filed,confident,False
+zqwv0018,20,LEG,0.657,AFF,0.166,auto-filed,confident,False
+pzxv0145,233,RND,0.347,MKT,0.28,review,below cutoff,False
+ryfw0007,672,MKT,0.769,LEG,0.082,auto-filed,confident,False
+kfpm0106,518,MKT,0.512,FIN,0.362,review,below cutoff,False
+mxgh0125,1070,QSH,0.47,RND,0.438,review,below cutoff,False
+symd0131,188,LEG,0.353,AFF,0.335,review,below cutoff,False
+lfwf0022,235,MKT,0.84,AFF,0.081,auto-filed,confident,False
+xpgf0066,301,LEG,0.763,MKT,0.093,auto-filed,confident,False
+lfjb0068,423,MKT,0.755,AFF,0.091,auto-filed,confident,False
+qkjb0077,906,FIN,0.533,RND,0.162,review,below cutoff,False
+thxk0106,112,LEG,0.429,MKT,0.276,review,below cutoff,False
+lgpk0106,13,MKT,0.407,AFF,0.291,review,under 20 tokens,False
+rxlh0019,205,MKT,0.766,LEG,0.081,auto-filed,confident,False
+kygx0125,8,MKT,0.397,LEG,0.276,review,under 20 tokens,False
+klyy0118,104,AFF,0.402,RND,0.39,review,below cutoff,False
+gnch0182,326,LEG,0.675,AFF,0.164,auto-filed,confident,False
+spwg0115,625,RND,0.698,QSH,0.158,auto-filed,confident,False
+mzgh0061,1130,MKT,0.508,FIN,0.38,review,below cutoff,False
+qmxk0172,294,MKT,0.741,RND,0.105,auto-filed,confident,False
+fzbd0041,255,LEG,0.381,MKT,0.329,review,below cutoff,False
+fsfk0005,284,LEG,0.687,RND,0.101,auto-filed,confident,True
+pgxc0106,696,RND,0.389,AFF,0.334,review,below cutoff,True
+tzvg0014,335,MKT,0.658,AFF,0.145,auto-filed,confident,True
+sxlv0039,154,MKT,0.749,LEG,0.106,auto-filed,confident,False
+tmwv0127,509,QSH,0.437,RND,0.299,review,below cutoff,False
+tpjb0061,677,QSH,0.67,RND,0.134,auto-filed,confident,False
+llvm0181,428,QSH,0.595,RND,0.244,auto-filed,confident,True
+gzhm0167,152,MKT,0.634,AFF,0.251,auto-filed,confident,False
+yrfv0018,1077,AFF,0.457,LEG,0.42,review,below cutoff,True
+pzyw0070,307,FIN,0.522,MKT,0.244,review,below cutoff,False
+nsng0122,241,RND,0.387,AFF,0.372,review,below cutoff,False
+pmmd0162,154,MKT,0.428,RND,0.184,review,below cutoff,False
+pldd0122,325,RND,0.447,AFF,0.269,review,below cutoff,False
+zqln0098,260,RND,0.567,QSH,0.327,auto-filed,confident,False
+rsvj0093,1276,MKT,0.372,AFF,0.314,review,below cutoff,False
+tlxg0119,296,AFF,0.361,MKT,0.265,review,below cutoff,True
+tywj0004,104,MKT,0.465,LEG,0.328,review,below cutoff,False
+jqpd0109,669,AFF,0.497,MKT,0.335,review,below cutoff,False
+mlwp0126,243,RND,0.587,AFF,0.203,auto-filed,confident,False
+hpcw0070,106,MKT,0.783,AFF,0.054,auto-filed,confident,True
+ypjc0062,222,LEG,0.677,AFF,0.117,auto-filed,confident,True
+pxcy0164,15,LEG,0.483,MKT,0.285,review,under 20 tokens,False
+xzfh0085,849,AFF,0.506,MKT,0.254,review,below cutoff,True
+tzyj0055,19,LEG,0.781,AFF,0.1,review,under 20 tokens,False
+lsbk0025,121,RND,0.52,LEG,0.172,review,below cutoff,True
+gfxv0109,308,RND,0.337,AFF,0.322,review,below cutoff,False
+ptwc0064,126,LEG,0.274,RND,0.241,review,below cutoff,True
+mmdg0066,497,AFF,0.318,MKT,0.246,review,below cutoff,False
+zgkh0088,286,RND,0.629,LEG,0.144,auto-filed,confident,True
+hgnk0127,503,RND,0.388,LEG,0.305,review,below cutoff,False
+qlgw0036,84,MKT,0.486,QSH,0.215,review,below cutoff,False
+zqpk0106,21,MKT,0.517,RND,0.165,review,below cutoff,False
+fpmy0038,201,MKT,0.404,AFF,0.244,review,below cutoff,False
+qyvh0070,1637,MKT,0.519,LEG,0.278,review,below cutoff,False
+nsnp0038,398,FIN,0.528,AFF,0.156,review,below cutoff,False
+jzjf0218,459,RND,0.382,AFF,0.291,review,below cutoff,False
+kqnf0165,422,MKT,0.755,AFF,0.117,auto-filed,confident,False
+sjkc0114,28,RND,0.673,AFF,0.166,auto-filed,confident,False
+frvj0054,80,LEG,0.354,RND,0.337,review,below cutoff,False
+kjjl0064,569,MKT,0.635,AFF,0.163,auto-filed,confident,False
+llxf0218,452,RND,0.71,QSH,0.12,auto-filed,confident,False
+szch0116,470,QSH,0.671,MKT,0.116,auto-filed,confident,False
+qqcl0181,239,FIN,0.492,LEG,0.391,review,below cutoff,False
+lxnd0116,610,AFF,0.479,RND,0.409,review,below cutoff,False
+ljhc0083,435,RND,0.709,QSH,0.136,auto-filed,confident,False
+hqlm0012,195,LEG,0.403,MKT,0.268,review,below cutoff,False
+txvv0125,59,MKT,0.494,RND,0.241,review,below cutoff,False
+jrpw0062,144,MKT,0.51,QSH,0.224,review,below cutoff,False
+mrmp0005,191,AFF,0.445,RND,0.356,review,below cutoff,False
+kthl0120,389,RND,0.498,AFF,0.179,review,below cutoff,False
+nkyh0105,662,RND,0.719,LEG,0.169,auto-filed,confident,False
+ssng0052,25,MKT,0.298,QSH,0.275,review,below cutoff,False
+qtxb0131,509,AFF,0.546,RND,0.172,review,below cutoff,False
+rzjb0036,746,LEG,0.525,AFF,0.192,review,below cutoff,False
+lxhj0119,128,RND,0.617,LEG,0.213,auto-filed,confident,False
+srhk0151,441,AFF,0.446,MKT,0.388,review,below cutoff,False
+rkbx0076,99,QSH,0.378,RND,0.246,review,below cutoff,False
+mxvm0105,966,RND,0.355,AFF,0.267,review,below cutoff,False
+yfhx0068,551,MKT,0.68,LEG,0.188,auto-filed,confident,False
+qqpl0109,274,RND,0.542,MKT,0.283,review,below cutoff,False
+jlny0218,1378,RND,0.77,MKT,0.093,auto-filed,confident,False
+xppk0059,916,RND,0.554,LEG,0.241,auto-filed,confident,False
+rycx0041,1790,MKT,0.76,FIN,0.1,auto-filed,confident,False
+krkv0112,570,RND,0.804,QSH,0.102,auto-filed,confident,True
+ffdg0127,160,LEG,0.564,MKT,0.204,auto-filed,confident,True
+lgnf0111,716,RND,0.798,LEG,0.102,auto-filed,confident,False
+mskg0036,662,RND,0.769,AFF,0.102,auto-filed,confident,False
+fxlw0070,117,LEG,0.588,AFF,0.204,auto-filed,confident,False
+tlxf0220,271,FIN,0.44,MKT,0.24,review,below cutoff,False
+rhyb0119,61,LEG,0.273,RND,0.253,review,below cutoff,False
+spxk0120,232,RND,0.303,AFF,0.293,review,below cutoff,True
+gxww0069,229,LEG,0.325,MKT,0.282,review,below cutoff,False
+xqjd0122,26,RND,0.685,MKT,0.115,auto-filed,confident,False
+rpdb0083,219,MKT,0.502,LEG,0.258,review,below cutoff,False
+lzwm0129,409,AFF,0.528,MKT,0.331,review,below cutoff,False
+npcf0069,637,RND,0.432,AFF,0.374,review,below cutoff,False
+zfnf0020,554,RND,0.336,MKT,0.228,review,below cutoff,False
+zfcw0025,413,MKT,0.526,RND,0.327,review,below cutoff,False
+yjcb0076,617,MKT,0.771,AFF,0.122,auto-filed,confident,False
+fjhn0003,116,QSH,0.363,MKT,0.315,review,below cutoff,False
+qfxv0175,1,MKT,0.376,RND,0.193,review,no readable text,False
+ysyv0088,426,RND,0.502,AFF,0.196,review,below cutoff,False
+xkxn0189,126,FIN,0.641,RND,0.178,auto-filed,confident,False
+hkyg0060,77,MKT,0.374,AFF,0.193,review,below cutoff,False
+mkvh0036,584,RND,0.485,QSH,0.254,review,below cutoff,True
+kzlc0083,797,MKT,0.763,RND,0.092,auto-filed,confident,False
+lmvf0107,490,RND,0.786,AFF,0.08,auto-filed,confident,False
+xnld0056,23,LEG,0.369,RND,0.334,review,below cutoff,True
+kkgg0122,168,AFF,0.411,RND,0.228,review,below cutoff,False
+zsnv0151,205,AFF,0.519,MKT,0.257,review,below cutoff,False
+gnlx0093,151,AFF,0.544,LEG,0.308,review,below cutoff,False
+rjby0038,77,RND,0.578,LEG,0.164,auto-filed,confident,False
+qzxj0008,112,LEG,0.393,MKT,0.314,review,below cutoff,False
+hmgy0070,327,AFF,0.685,MKT,0.138,auto-filed,confident,False
+ntmx0130,236,MKT,0.667,LEG,0.107,auto-filed,confident,False
+tzpx0101,92,MKT,0.503,AFF,0.15,review,below cutoff,True
+kfnn0062,105,LEG,0.537,AFF,0.161,review,below cutoff,False
+pncd0083,263,RND,0.44,AFF,0.207,review,below cutoff,False
+yzdm0017,419,QSH,0.581,RND,0.205,auto-filed,confident,False
+qxjf0073,116,FIN,0.546,RND,0.183,review,below cutoff,False
+rtmm0098,60,LEG,0.354,AFF,0.283,review,below cutoff,False
+ttkb0126,33,LEG,0.352,AFF,0.246,review,below cutoff,False
+ztnx0115,1162,RND,0.704,AFF,0.187,auto-filed,confident,False
+ytmg0175,463,LEG,0.657,AFF,0.118,auto-filed,confident,False
+nrbv0006,237,RND,0.735,LEG,0.172,auto-filed,confident,True
+rmjn0169,1072,MKT,0.816,AFF,0.087,auto-filed,confident,False
+mznw0157,341,MKT,0.603,FIN,0.2,auto-filed,confident,False
+xjyl0220,297,RND,0.697,AFF,0.216,auto-filed,confident,False
+fhcw0007,1153,MKT,0.621,RND,0.126,auto-filed,confident,False
+xtlb0119,1192,AFF,0.481,RND,0.302,review,below cutoff,False
+lkml0164,128,MKT,0.667,LEG,0.158,auto-filed,confident,False
+yrfp0109,214,RND,0.624,AFF,0.242,auto-filed,confident,True
+pgky0218,119,RND,0.798,AFF,0.068,auto-filed,confident,True
+kscn0010,109,LEG,0.387,AFF,0.366,review,below cutoff,True
+qswd0076,94,AFF,0.554,RND,0.179,auto-filed,confident,True
+nqwc0119,213,RND,0.677,QSH,0.123,auto-filed,confident,False
+mhky0157,236,FIN,0.383,MKT,0.227,review,below cutoff,True
+hsgx0223,408,MKT,0.556,AFF,0.213,auto-filed,confident,False
+qlln0085,10,RND,0.25,AFF,0.197,review,under 20 tokens,False
+mjbx0105,519,RND,0.658,LEG,0.136,auto-filed,confident,True
+kfxk0157,63,AFF,0.229,FIN,0.226,review,below cutoff,True
+sgph0076,326,RND,0.6,AFF,0.302,auto-filed,confident,False
+hgwn0120,127,RND,0.622,LEG,0.141,auto-filed,confident,False
+rywl0055,630,QSH,0.748,FIN,0.073,auto-filed,confident,False
+kklh0107,206,MKT,0.54,LEG,0.261,review,below cutoff,False
+pyfg0122,11,RND,0.389,MKT,0.358,review,under 20 tokens,False
+sxgm0055,630,AFF,0.405,RND,0.346,review,below cutoff,False
+xmwd0023,318,FIN,0.435,AFF,0.302,review,below cutoff,False
+kpvf0220,258,MKT,0.767,LEG,0.128,auto-filed,confident,True
+psjc0152,380,MKT,0.501,FIN,0.233,review,below cutoff,True
+prpv0064,431,RND,0.706,QSH,0.142,auto-filed,confident,False
+nrcj0121,509,RND,0.467,QSH,0.36,review,below cutoff,False
+tlfv0077,188,MKT,0.629,LEG,0.183,auto-filed,confident,False
+tnjf0124,32,LEG,0.372,MKT,0.293,review,below cutoff,False
+fmdw0070,1237,MKT,0.777,AFF,0.09,auto-filed,confident,False
+jjcx0122,427,MKT,0.611,AFF,0.168,auto-filed,confident,False
+jfbn0067,2021,MKT,0.639,QSH,0.202,auto-filed,confident,False
+xqxj0181,506,FIN,0.532,QSH,0.248,review,below cutoff,True
+nkjv0160,764,MKT,0.736,LEG,0.101,auto-filed,confident,True
+ktfh0162,239,MKT,0.457,AFF,0.256,review,below cutoff,False
+sqkl0125,825,RND,0.447,QSH,0.285,review,below cutoff,False
+grjv0083,56,LEG,0.518,MKT,0.283,review,below cutoff,False
+hnkc0060,195,LEG,0.556,AFF,0.223,auto-filed,confident,False
+rkkn0119,37,MKT,0.494,LEG,0.332,review,below cutoff,False
+lpbw0090,21,LEG,0.445,MKT,0.188,review,below cutoff,False
+xtwb0059,466,LEG,0.412,MKT,0.253,review,below cutoff,False
+ljng0175,574,FIN,0.757,QSH,0.091,auto-filed,confident,False
+trnv0152,349,FIN,0.529,MKT,0.394,review,below cutoff,False
+rqkn0111,598,AFF,0.608,LEG,0.23,auto-filed,confident,False
+nzjc0056,508,LEG,0.388,MKT,0.352,review,below cutoff,False
+lghk0068,563,RND,0.422,LEG,0.295,review,below cutoff,False
+jyhn0023,215,LEG,0.437,MKT,0.341,review,below cutoff,False
+yldc0092,583,RND,0.814,LEG,0.064,auto-filed,confident,False
+tjcb0069,165,LEG,0.421,AFF,0.314,review,below cutoff,True
+nzgp0098,784,RND,0.686,QSH,0.09,auto-filed,confident,False
+phvb0107,532,QSH,0.538,RND,0.233,review,below cutoff,True
+phdg0036,11,MKT,0.248,FIN,0.227,review,under 20 tokens,False
+hljd0074,285,AFF,0.423,RND,0.259,review,below cutoff,False
+hrcd0015,344,QSH,0.646,RND,0.143,auto-filed,confident,False
+stlj0033,348,MKT,0.407,FIN,0.259,review,below cutoff,True
+pffg0085,729,RND,0.746,MKT,0.098,auto-filed,confident,False
+yjdk0065,665,MKT,0.849,AFF,0.052,auto-filed,confident,False
+gjxy0016,197,LEG,0.525,FIN,0.274,review,below cutoff,False
+plkh0060,101,MKT,0.344,LEG,0.331,review,below cutoff,False
+yxwh0004,317,MKT,0.706,FIN,0.189,auto-filed,confident,True
+sgnb0125,294,MKT,0.544,RND,0.211,review,below cutoff,False
+jqdk0019,387,FIN,0.565,LEG,0.263,auto-filed,confident,True
+hfbp0125,179,LEG,0.521,MKT,0.196,review,below cutoff,True
+prkb0053,487,RND,0.45,MKT,0.203,review,below cutoff,False
+lxwx0218,10,LEG,0.439,AFF,0.257,review,under 20 tokens,False
+xtkp0106,367,FIN,0.291,QSH,0.282,review,below cutoff,False
+nqvm0121,240,MKT,0.615,FIN,0.274,auto-filed,confident,False
+kygd0218,263,FIN,0.476,MKT,0.371,review,below cutoff,False
+lpbf0073,26,MKT,0.427,LEG,0.402,review,below cutoff,False
+xpfd0071,190,AFF,0.533,MKT,0.273,review,below cutoff,True
+ztkv0057,520,LEG,0.702,FIN,0.203,auto-filed,confident,False
+pxwp0119,612,LEG,0.355,MKT,0.184,review,below cutoff,False
+mgfd0057,122,LEG,0.644,AFF,0.17,auto-filed,confident,False
+gggg0164,464,QSH,0.583,RND,0.271,auto-filed,confident,False
+snkn0119,379,MKT,0.505,AFF,0.314,review,below cutoff,False
+xlfm0159,584,RND,0.625,AFF,0.245,auto-filed,confident,False
+jyvk0113,260,RND,0.767,LEG,0.131,auto-filed,confident,False
+gtkm0218,269,LEG,0.367,RND,0.214,review,below cutoff,True
+pxmg0080,349,AFF,0.389,MKT,0.269,review,below cutoff,False
+qhfj0130,642,RND,0.365,LEG,0.286,review,below cutoff,False
+jsml0116,251,RND,0.719,AFF,0.094,auto-filed,confident,False
+tzmx0220,273,MKT,0.5,LEG,0.359,review,below cutoff,True
+zsck0024,15,MKT,0.691,QSH,0.119,review,under 20 tokens,False
+nrhk0000,57,RND,0.705,LEG,0.108,auto-filed,confident,False
+qlxh0018,463,LEG,0.665,FIN,0.228,auto-filed,confident,False
+shmv0007,1568,AFF,0.492,MKT,0.409,review,below cutoff,False
+xlgv0057,288,AFF,0.418,LEG,0.238,review,below cutoff,True
+ffmd0108,427,FIN,0.528,RND,0.282,review,below cutoff,False
+pfnl0122,499,LEG,0.435,MKT,0.288,review,below cutoff,False
+ltcg0111,558,MKT,0.655,FIN,0.135,auto-filed,confident,False
+sjyd0012,577,MKT,0.659,AFF,0.16,auto-filed,confident,False
+zzhx0073,302,AFF,0.6,LEG,0.197,auto-filed,confident,False
+qjpn0120,268,RND,0.813,QSH,0.056,auto-filed,confident,False
+rkhh0061,410,AFF,0.484,RND,0.26,review,below cutoff,False
+zykg0006,48,MKT,0.382,RND,0.293,review,below cutoff,True
+rrpv0060,233,AFF,0.515,RND,0.285,review,below cutoff,False
+fxlp0056,797,RND,0.314,AFF,0.293,review,below cutoff,False
+nmwf0104,700,LEG,0.491,FIN,0.276,review,below cutoff,False
+yswp0006,279,MKT,0.507,AFF,0.222,review,below cutoff,False
+zjcv0218,59,MKT,0.332,FIN,0.307,review,below cutoff,False
+phkb0077,352,RND,0.4,AFF,0.353,review,below cutoff,False
+yfwp0071,2221,AFF,0.601,LEG,0.287,auto-filed,confident,False
+ygxn0141,318,AFF,0.537,RND,0.375,review,below cutoff,True
+gzyp0109,900,QSH,0.608,MKT,0.239,auto-filed,confident,False
+tqfp0183,232,MKT,0.346,FIN,0.252,review,below cutoff,False
+smhw0033,196,MKT,0.417,LEG,0.342,review,below cutoff,False
+qkdv0064,184,LEG,0.394,AFF,0.279,review,below cutoff,False
+tkgy0001,506,MKT,0.338,LEG,0.245,review,below cutoff,False
+kynw0108,644,AFF,0.519,RND,0.401,review,below cutoff,False
+ffch0068,615,AFF,0.549,MKT,0.241,review,below cutoff,False
+fpmj0220,335,AFF,0.342,MKT,0.225,review,below cutoff,False
+gncm0065,168,LEG,0.588,FIN,0.171,auto-filed,confident,False
+qjmh0218,608,AFF,0.5,MKT,0.447,review,below cutoff,False
+prng0123,704,RND,0.741,QSH,0.164,auto-filed,confident,False
+kjxb0118,170,LEG,0.628,FIN,0.179,auto-filed,confident,False
+zmgm0172,193,MKT,0.768,AFF,0.103,auto-filed,confident,False
+mzmf0049,588,AFF,0.446,MKT,0.356,review,below cutoff,False
+ppkx0054,70,AFF,0.359,LEG,0.345,review,below cutoff,False
+qhcd0083,128,LEG,0.61,AFF,0.191,auto-filed,confident,False
+xmdc0007,102,LEG,0.438,MKT,0.276,review,below cutoff,False
+zthm0181,643,QSH,0.373,LEG,0.279,review,below cutoff,False
+yqxw0068,385,AFF,0.615,RND,0.121,auto-filed,confident,False
+zfbv0184,323,AFF,0.373,RND,0.335,review,below cutoff,False
+gslp0006,806,MKT,0.727,AFF,0.19,auto-filed,confident,True
+mpfd0054,645,MKT,0.566,QSH,0.209,auto-filed,confident,False
+rlfg0073,413,LEG,0.545,FIN,0.219,review,below cutoff,False
+rrmb0131,565,RND,0.676,AFF,0.135,auto-filed,confident,False
+msvv0153,350,AFF,0.416,MKT,0.23,review,below cutoff,False
+xkcc0120,105,LEG,0.447,AFF,0.249,review,below cutoff,True
+jhkf0064,584,AFF,0.606,QSH,0.129,auto-filed,confident,False
+zgcd0175,370,RND,0.81,AFF,0.088,auto-filed,confident,False
+txjj0114,183,LEG,0.321,MKT,0.256,review,below cutoff,False
+jzhj0024,340,MKT,0.551,RND,0.185,auto-filed,confident,False
+tgbd0083,550,AFF,0.515,RND,0.182,review,below cutoff,True
+fnpx0117,78,RND,0.434,FIN,0.273,review,below cutoff,False
+trfd0041,702,AFF,0.67,LEG,0.222,auto-filed,confident,False
+sfbl0159,121,MKT,0.469,LEG,0.184,review,below cutoff,False
+zjyh0080,483,RND,0.729,AFF,0.08,auto-filed,confident,False
+ynjv0118,157,RND,0.391,LEG,0.172,review,below cutoff,False
+klgh0128,290,RND,0.692,AFF,0.213,auto-filed,confident,False
+yfwd0108,757,FIN,0.644,MKT,0.225,auto-filed,confident,False
+shgg0175,10,MKT,0.258,FIN,0.234,review,under 20 tokens,False
+zzky0073,84,RND,0.456,AFF,0.324,review,below cutoff,False
+zyxv0052,386,MKT,0.481,AFF,0.289,review,below cutoff,False
+qsbb0119,306,LEG,0.318,RND,0.31,review,below cutoff,False
+hlyv0128,809,MKT,0.483,QSH,0.246,review,below cutoff,False
+flvl0053,583,LEG,0.634,RND,0.126,auto-filed,confident,False
+rtkx0068,323,LEG,0.65,MKT,0.135,auto-filed,confident,False
+spwg0068,544,LEG,0.605,FIN,0.139,auto-filed,confident,False
+qncw0127,113,RND,0.835,LEG,0.094,auto-filed,confident,False
+mlvc0012,533,MKT,0.71,RND,0.115,auto-filed,confident,True
+flwd0119,307,LEG,0.603,AFF,0.195,auto-filed,confident,False
+kkhj0130,44,MKT,0.409,RND,0.26,review,below cutoff,False
+plln0019,487,MKT,0.847,FIN,0.07,auto-filed,confident,False
+pmcy0106,200,RND,0.759,LEG,0.078,auto-filed,confident,False
+lljg0074,405,RND,0.544,AFF,0.399,review,below cutoff,False
+lsjd0041,326,MKT,0.53,LEG,0.198,review,below cutoff,False
+lsdh0127,311,RND,0.468,AFF,0.382,review,below cutoff,False
+szwj0128,125,LEG,0.507,FIN,0.152,review,below cutoff,True
+qyxb0071,332,RND,0.493,AFF,0.302,review,below cutoff,True
+ttkg0041,566,MKT,0.634,RND,0.139,auto-filed,confident,False
+ykcf0053,237,RND,0.42,LEG,0.348,review,below cutoff,False
+qqgx0218,407,MKT,0.739,RND,0.078,auto-filed,confident,False
+ppdl0108,113,LEG,0.611,FIN,0.196,auto-filed,confident,False
+rswp0007,588,RND,0.536,AFF,0.342,review,below cutoff,True
+gswv0123,359,FIN,0.455,LEG,0.249,review,below cutoff,False
+mjxg0122,423,RND,0.632,MKT,0.134,auto-filed,confident,False
+sqgv0122,22,QSH,0.3,RND,0.29,review,below cutoff,False
+lmdy0129,85,AFF,0.378,MKT,0.324,review,below cutoff,True
+ljbd0118,657,RND,0.554,QSH,0.131,auto-filed,confident,False
+fscm0154,537,RND,0.509,QSH,0.329,review,below cutoff,False
+yygb0068,235,MKT,0.531,FIN,0.226,review,below cutoff,False
+kgkm0033,835,MKT,0.541,RND,0.269,review,below cutoff,False
+mxvw0122,237,RND,0.462,LEG,0.234,review,below cutoff,True
+nhgy0023,65,MKT,0.337,AFF,0.174,review,below cutoff,False
+krgd0111,9,MKT,0.305,LEG,0.258,review,under 20 tokens,False
+qqvl0179,125,RND,0.801,MKT,0.075,auto-filed,confident,False
+hxlw0074,521,AFF,0.68,LEG,0.161,auto-filed,confident,False
+mzpp0130,578,RND,0.465,AFF,0.305,review,below cutoff,False
+ytky0110,208,RND,0.516,MKT,0.319,review,below cutoff,False
+zslk0114,88,QSH,0.414,RND,0.344,review,below cutoff,False
+fqyf0062,22,RND,0.315,LEG,0.239,review,below cutoff,True
+nxbk0111,241,AFF,0.573,MKT,0.188,auto-filed,confident,True
+jpwb0162,928,MKT,0.695,FIN,0.157,auto-filed,confident,False
+zsnx0088,405,LEG,0.328,RND,0.234,review,below cutoff,True
+fgdj0115,338,RND,0.587,MKT,0.163,auto-filed,confident,True
+nxwj0030,442,FIN,0.704,MKT,0.156,auto-filed,confident,False
+nlvd0073,242,RND,0.622,LEG,0.288,auto-filed,confident,False
+qfdf0017,656,MKT,0.516,AFF,0.15,review,below cutoff,False
+rzvp0052,623,LEG,0.516,AFF,0.174,review,below cutoff,False
+lrhn0106,479,FIN,0.484,MKT,0.428,review,below cutoff,True
+kzfb0004,39,MKT,0.724,RND,0.089,auto-filed,confident,False
+glnk0070,38,MKT,0.526,LEG,0.203,review,below cutoff,True
+qlcl0108,777,RND,0.559,QSH,0.124,auto-filed,confident,False
+sscw0110,538,RND,0.357,AFF,0.328,review,below cutoff,False
+plwg0164,620,QSH,0.624,RND,0.155,auto-filed,confident,False
+gsnc0068,309,LEG,0.657,RND,0.112,auto-filed,confident,False
+mfxw0120,156,RND,0.452,MKT,0.231,review,below cutoff,False
+symm0159,431,QSH,0.389,RND,0.385,review,below cutoff,False
+hfjp0052,418,AFF,0.542,RND,0.239,review,below cutoff,False
+nhmg0218,621,RND,0.67,FIN,0.12,auto-filed,confident,False
+xfpg0165,371,MKT,0.757,LEG,0.08,auto-filed,confident,False
+jfkh0117,605,RND,0.753,AFF,0.104,auto-filed,confident,False
+ysmj0105,520,QSH,0.505,FIN,0.268,review,below cutoff,True
+ysck0164,361,RND,0.361,AFF,0.228,review,below cutoff,False
+pkfd0061,7,MKT,0.568,LEG,0.213,review,under 20 tokens,True
+ythm0128,466,AFF,0.466,LEG,0.272,review,below cutoff,False
+khhj0109,303,QSH,0.618,LEG,0.124,auto-filed,confident,False
+srbg0127,537,MKT,0.488,FIN,0.278,review,below cutoff,False
+yzcd0036,3440,MKT,0.607,AFF,0.152,auto-filed,confident,False
+rlnn0120,215,LEG,0.474,FIN,0.17,review,below cutoff,True
+xjlh0106,183,FIN,0.529,LEG,0.328,review,below cutoff,False
+kyxn0070,118,LEG,0.378,RND,0.246,review,below cutoff,False
+qrgb0072,84,LEG,0.491,AFF,0.274,review,below cutoff,False
+fhhp0011,308,MKT,0.534,FIN,0.17,review,below cutoff,False
+jljf0070,282,FIN,0.692,MKT,0.155,auto-filed,confident,False
+jpfy0076,554,LEG,0.394,AFF,0.363,review,below cutoff,False
+zncm0033,461,MKT,0.53,FIN,0.236,review,below cutoff,False
+xmxv0112,647,MKT,0.562,RND,0.193,auto-filed,confident,False
+nnpk0106,414,MKT,0.718,RND,0.084,auto-filed,confident,False
+tgxb0151,449,RND,0.484,QSH,0.225,review,below cutoff,False
+syld0017,97,MKT,0.368,RND,0.25,review,below cutoff,False
+zqhd0077,584,MKT,0.478,AFF,0.286,review,below cutoff,False
+nqgb0119,534,QSH,0.64,AFF,0.099,auto-filed,confident,False
+pyfk0121,459,FIN,0.438,MKT,0.416,review,below cutoff,False
+jswc0021,139,MKT,0.434,LEG,0.217,review,below cutoff,False
+mhyk0130,246,AFF,0.412,MKT,0.351,review,below cutoff,False
+fyby0111,167,AFF,0.616,RND,0.279,auto-filed,confident,True
+pzjv0052,150,AFF,0.484,LEG,0.336,review,below cutoff,False
+yyxv0091,437,LEG,0.629,MKT,0.218,auto-filed,confident,False
+gtvf0108,502,LEG,0.32,RND,0.248,review,below cutoff,False
+xkvp0021,119,MKT,0.757,QSH,0.107,auto-filed,confident,False
+tlyy0063,248,LEG,0.258,RND,0.258,review,below cutoff,False
+pkyj0093,409,AFF,0.716,LEG,0.194,auto-filed,confident,False
+npdm0058,74,LEG,0.635,FIN,0.108,auto-filed,confident,False
+kmxn0164,309,MKT,0.754,AFF,0.093,auto-filed,confident,False
+fhcj0055,441,QSH,0.686,RND,0.129,auto-filed,confident,False
+mqwy0117,297,LEG,0.286,QSH,0.254,review,below cutoff,False
+hlnj0112,221,RND,0.413,QSH,0.204,review,below cutoff,False
+tlfj0030,237,FIN,0.541,MKT,0.299,review,below cutoff,False
+znkw0061,218,FIN,0.528,MKT,0.348,review,below cutoff,False
+mzmn0127,626,AFF,0.705,RND,0.151,auto-filed,confident,False
+fxlj0181,344,RND,0.513,QSH,0.342,review,below cutoff,False
+jfph0068,376,MKT,0.57,AFF,0.355,auto-filed,confident,False
+kzgv0052,78,RND,0.35,LEG,0.313,review,below cutoff,False
+frvv0170,38,RND,0.716,MKT,0.161,auto-filed,confident,False
+jnnm0109,436,RND,0.774,AFF,0.082,auto-filed,confident,False
+zqnw0090,306,RND,0.502,AFF,0.191,review,below cutoff,False
+nrlj0030,448,MKT,0.491,FIN,0.376,review,below cutoff,False
+pyhc0131,778,RND,0.454,AFF,0.242,review,below cutoff,False
+fpyj0025,129,MKT,0.527,RND,0.177,review,below cutoff,False
+zgkm0164,529,MKT,0.388,FIN,0.306,review,below cutoff,False
+jjlw0160,749,RND,0.464,QSH,0.336,review,below cutoff,False
+jgwf0104,431,LEG,0.684,FIN,0.149,auto-filed,confident,False
+qnxy0019,259,MKT,0.447,LEG,0.242,review,below cutoff,False
+zqgn0043,196,LEG,0.314,RND,0.233,review,below cutoff,False
+mgvh0114,604,MKT,0.603,FIN,0.197,auto-filed,confident,False
+pxgw0115,353,QSH,0.482,RND,0.284,review,below cutoff,False
+qlmn0183,1282,RND,0.633,AFF,0.198,auto-filed,confident,False
+qgmv0025,1,MKT,0.376,RND,0.193,review,no readable text,True
+ffgf0069,673,RND,0.548,MKT,0.126,review,below cutoff,False
+pmfj0167,933,MKT,0.429,AFF,0.299,review,below cutoff,False
+rhkl0167,40,MKT,0.562,AFF,0.142,auto-filed,confident,False
+srvb0060,78,MKT,0.432,LEG,0.372,review,below cutoff,False
+zscj0107,173,FIN,0.453,MKT,0.422,review,below cutoff,False
+rgvc0220,360,LEG,0.288,QSH,0.282,review,below cutoff,False
+fpvk0000,200,RND,0.555,AFF,0.252,auto-filed,confident,False
+kxyh0054,61,AFF,0.428,RND,0.217,review,below cutoff,False
+xjyn0006,267,LEG,0.464,MKT,0.199,review,below cutoff,False
+sngd0062,221,QSH,0.399,LEG,0.235,review,below cutoff,False
+pzkd0120,296,MKT,0.246,QSH,0.239,review,below cutoff,False
+nsvj0064,45,RND,0.502,MKT,0.213,review,below cutoff,True
+tpmj0066,344,RND,0.486,LEG,0.433,review,below cutoff,False
+htfj0053,163,MKT,0.49,RND,0.244,review,below cutoff,False
+klcv0002,63,MKT,0.327,LEG,0.295,review,below cutoff,False
+khll0021,481,RND,0.426,LEG,0.223,review,below cutoff,False
+lsvx0164,208,AFF,0.538,MKT,0.161,review,below cutoff,False
+hrbm0154,729,QSH,0.719,LEG,0.083,auto-filed,confident,True
+tscx0116,485,MKT,0.48,FIN,0.455,review,below cutoff,True
+jnkb0063,218,MKT,0.71,RND,0.145,auto-filed,confident,False
+msgn0106,397,FIN,0.727,MKT,0.113,auto-filed,confident,False
+mgbm0073,1255,RND,0.462,AFF,0.19,review,below cutoff,True
+zljv0069,56,LEG,0.667,AFF,0.147,auto-filed,confident,False
+jkxd0125,161,MKT,0.387,FIN,0.181,review,below cutoff,False
+jxhw0021,5,MKT,0.389,QSH,0.226,review,under 20 tokens,True
+lhjv0111,407,MKT,0.791,RND,0.071,auto-filed,confident,False
+rlfx0069,87,MKT,0.466,LEG,0.279,review,below cutoff,False
+nsdm0061,180,LEG,0.523,FIN,0.191,review,below cutoff,False
+sqdn0109,458,RND,0.657,AFF,0.172,auto-filed,confident,False
+zypk0009,779,MKT,0.673,RND,0.207,auto-filed,confident,False
+flxd0054,683,RND,0.677,AFF,0.24,auto-filed,confident,False
+stkl0111,351,RND,0.677,AFF,0.118,auto-filed,confident,False
+gmcb0044,13,MKT,0.334,LEG,0.238,review,under 20 tokens,True
+jfcp0076,268,RND,0.596,LEG,0.238,auto-filed,confident,True
+qkxx0054,108,AFF,0.445,LEG,0.355,review,below cutoff,False
+ntcj0101,155,AFF,0.404,RND,0.363,review,below cutoff,False
+gzjj0024,659,FIN,0.603,MKT,0.159,auto-filed,confident,False
+jmck0093,351,AFF,0.529,LEG,0.227,review,below cutoff,False
+gxkw0064,205,FIN,0.623,LEG,0.182,auto-filed,confident,False
+fpmb0106,237,RND,0.514,AFF,0.309,review,below cutoff,True
+gfnk0179,136,MKT,0.574,LEG,0.146,auto-filed,confident,False
+tjkp0126,550,LEG,0.677,AFF,0.144,auto-filed,confident,False
+xkfw0013,406,RND,0.819,AFF,0.085,auto-filed,confident,False
+gmyw0057,513,MKT,0.779,FIN,0.109,auto-filed,confident,False
+mhbg0125,344,FIN,0.491,MKT,0.308,review,below cutoff,True
+qxfn0076,183,LEG,0.414,MKT,0.266,review,below cutoff,False
+fyfv0120,441,RND,0.498,AFF,0.356,review,below cutoff,False
+tkhb0068,161,MKT,0.739,LEG,0.117,auto-filed,confident,False
+qgbc0117,138,LEG,0.266,MKT,0.167,review,below cutoff,False
+ksmn0108,350,RND,0.708,MKT,0.105,auto-filed,confident,False
+qrdw0013,450,RND,0.749,QSH,0.127,auto-filed,confident,False
+flgh0004,20,MKT,0.334,LEG,0.254,review,below cutoff,False
+skfp0027,80,LEG,0.527,MKT,0.208,review,below cutoff,False
+xyvy0124,575,LEG,0.497,AFF,0.229,review,below cutoff,False
+gzdx0106,194,MKT,0.758,RND,0.093,auto-filed,confident,False
+slnj0024,284,MKT,0.375,LEG,0.245,review,below cutoff,False
+fqxc0049,457,AFF,0.39,MKT,0.389,review,below cutoff,False
+fxbc0150,395,RND,0.675,QSH,0.139,auto-filed,confident,False
+lkcd0128,299,LEG,0.52,AFF,0.267,review,below cutoff,False
+hjvb0179,1145,RND,0.762,MKT,0.101,auto-filed,confident,False
+nhpk0073,336,AFF,0.588,RND,0.221,auto-filed,confident,False
+jjcj0164,5,LEG,0.37,MKT,0.204,review,under 20 tokens,False
+khng0107,524,QSH,0.543,RND,0.294,review,below cutoff,False
+lqkg0004,1036,MKT,0.535,AFF,0.354,review,below cutoff,False
+ppfc0064,264,RND,0.474,AFF,0.331,review,below cutoff,False
+skpc0117,863,QSH,0.705,MKT,0.096,auto-filed,confident,True
+jgmd0170,126,MKT,0.389,LEG,0.24,review,below cutoff,False
+ptny0217,706,FIN,0.515,MKT,0.246,review,below cutoff,False
+hkwj0179,644,LEG,0.382,RND,0.382,review,below cutoff,False
+hlgj0060,386,MKT,0.473,LEG,0.336,review,below cutoff,False
+qzbk0157,469,MKT,0.724,AFF,0.115,auto-filed,confident,False
+pfbn0067,1480,MKT,0.583,QSH,0.212,auto-filed,confident,False
+npvc0130,38,MKT,0.606,FIN,0.187,auto-filed,confident,False
+gldb0088,329,AFF,0.575,LEG,0.253,auto-filed,confident,False
+gxpw0056,232,LEG,0.465,AFF,0.27,review,below cutoff,False
+tfpm0129,476,MKT,0.33,FIN,0.33,review,below cutoff,False
+qlpd0017,264,FIN,0.431,MKT,0.419,review,below cutoff,False
+nghv0002,313,MKT,0.432,FIN,0.323,review,below cutoff,False
+lppv0018,490,AFF,0.618,RND,0.178,auto-filed,confident,False
+jtlx0061,435,MKT,0.609,LEG,0.159,auto-filed,confident,False
+fyyj0069,479,LEG,0.45,FIN,0.245,review,below cutoff,False
+fkwy0106,436,QSH,0.361,FIN,0.3,review,below cutoff,False
+sqdg0127,119,MKT,0.54,LEG,0.241,review,below cutoff,False
+zydl0066,26,LEG,0.46,MKT,0.225,review,below cutoff,False
+qfdf0122,121,AFF,0.584,MKT,0.21,auto-filed,confident,False
+zknk0025,1214,MKT,0.478,LEG,0.367,review,below cutoff,False
+qhdp0118,77,MKT,0.799,AFF,0.053,auto-filed,confident,False
+xlfc0077,94,MKT,0.55,LEG,0.214,review,below cutoff,False
+xnwj0112,436,RND,0.682,AFF,0.159,auto-filed,confident,False
+htng0004,416,MKT,0.514,FIN,0.179,review,below cutoff,False
+ytxj0038,595,AFF,0.619,LEG,0.208,auto-filed,confident,False
+pgyx0128,623,RND,0.543,AFF,0.151,review,below cutoff,False
+hngv0057,522,QSH,0.61,RND,0.266,auto-filed,confident,False
+xykg0122,21,QSH,0.215,LEG,0.208,review,below cutoff,False
+yqly0122,333,QSH,0.376,RND,0.28,review,below cutoff,False
+ygjk0129,392,MKT,0.771,FIN,0.068,auto-filed,confident,False
+yrkb0053,197,LEG,0.312,AFF,0.312,review,below cutoff,False
+xkll0179,291,RND,0.594,AFF,0.202,auto-filed,confident,False
+qzjf0069,401,RND,0.594,AFF,0.247,auto-filed,confident,False
+hgbl0046,630,MKT,0.387,QSH,0.249,review,below cutoff,False
+lsdj0120,36,MKT,0.337,LEG,0.317,review,below cutoff,False
+mhkg0069,244,MKT,0.699,AFF,0.125,auto-filed,confident,False
+jpvn0001,11,LEG,0.27,MKT,0.256,review,under 20 tokens,False
+fnfm0108,1718,RND,0.562,MKT,0.164,auto-filed,confident,False
+xqfv0044,498,RND,0.483,MKT,0.354,review,below cutoff,False
+srhc0110,508,MKT,0.658,LEG,0.173,auto-filed,confident,False
+zsjh0143,1552,RND,0.7,AFF,0.159,auto-filed,confident,False
+pmnh0105,105,RND,0.416,QSH,0.283,review,below cutoff,False
+rllx0006,208,MKT,0.777,LEG,0.089,auto-filed,confident,False
+tpkv0109,551,QSH,0.338,AFF,0.301,review,below cutoff,False
+xzld0053,678,RND,0.675,AFF,0.215,auto-filed,confident,False
+gqbc0109,229,LEG,0.764,QSH,0.073,auto-filed,confident,False
+gynk0055,723,QSH,0.71,LEG,0.092,auto-filed,confident,False
+ssxk0009,1505,MKT,0.747,FIN,0.072,auto-filed,confident,False
+pnmp0006,354,MKT,0.445,RND,0.312,review,below cutoff,False
+jymc0013,451,LEG,0.715,FIN,0.137,auto-filed,confident,False
+kfjv0018,319,RND,0.702,AFF,0.134,auto-filed,confident,False
+rfvc0083,466,MKT,0.567,AFF,0.34,auto-filed,confident,True
+kxdc0022,191,MKT,0.621,FIN,0.221,auto-filed,confident,False
+tlnm0114,234,AFF,0.431,RND,0.189,review,below cutoff,False
+phng0061,82,RND,0.498,LEG,0.243,review,below cutoff,False
+tfyd0107,86,AFF,0.547,RND,0.253,review,below cutoff,False
+nzpm0010,172,MKT,0.395,LEG,0.32,review,below cutoff,False
+jknx0068,1548,MKT,0.387,RND,0.298,review,below cutoff,False
+tjyl0010,1063,RND,0.693,AFF,0.196,auto-filed,confident,False
+kpdk0058,78,LEG,0.385,MKT,0.285,review,below cutoff,False
+sgyb0072,140,AFF,0.473,LEG,0.276,review,below cutoff,True
+mtxc0092,591,RND,0.489,AFF,0.112,review,below cutoff,True
+qzdf0096,62,AFF,0.441,RND,0.379,review,below cutoff,True
+rhxb0063,500,RND,0.398,AFF,0.308,review,below cutoff,False
+htyc0110,469,RND,0.767,AFF,0.149,auto-filed,confident,False
+hnxd0092,166,RND,0.678,MKT,0.18,auto-filed,confident,False
+ktkj0191,699,AFF,0.457,RND,0.454,review,below cutoff,False
+gnff0073,393,MKT,0.646,RND,0.155,auto-filed,confident,False
+zqmj0172,244,MKT,0.37,AFF,0.366,review,below cutoff,True
+hfmh0172,778,MKT,0.609,LEG,0.175,auto-filed,confident,False
+qpyj0167,312,MKT,0.633,QSH,0.126,auto-filed,confident,False
+qspf0020,49,LEG,0.267,FIN,0.221,review,below cutoff,True
+xnck0172,250,MKT,0.717,LEG,0.096,auto-filed,confident,False
+fqvf0104,636,LEG,0.618,RND,0.203,auto-filed,confident,False
+hsvk0112,12,QSH,0.314,MKT,0.269,review,under 20 tokens,True
+mpxh0068,28,MKT,0.691,LEG,0.199,auto-filed,confident,True
+fklh0088,491,RND,0.579,AFF,0.184,auto-filed,confident,False
+yrlx0054,249,LEG,0.564,AFF,0.251,auto-filed,confident,True
+fndj0119,341,RND,0.385,QSH,0.246,review,below cutoff,False
+ngxx0122,998,RND,0.737,AFF,0.163,auto-filed,confident,False
+lzwm0111,34,RND,0.43,AFF,0.179,review,below cutoff,False
+lthv0110,265,MKT,0.573,LEG,0.26,auto-filed,confident,True
+rnly0071,1005,MKT,0.441,AFF,0.436,review,below cutoff,False
+mjjm0010,15,LEG,0.226,MKT,0.205,review,under 20 tokens,False
+ltgw0170,450,MKT,0.288,AFF,0.277,review,below cutoff,False
+pnjm0073,472,LEG,0.297,AFF,0.264,review,below cutoff,False
+tkxv0221,525,RND,0.746,AFF,0.167,auto-filed,confident,False
+mzwy0113,460,FIN,0.539,MKT,0.205,review,below cutoff,False
+zsxx0033,341,FIN,0.519,MKT,0.316,review,below cutoff,False
+jmhk0179,88,LEG,0.73,AFF,0.084,auto-filed,confident,True
+ppcx0014,17,MKT,0.52,FIN,0.183,review,under 20 tokens,False
+rtjf0076,463,RND,0.445,AFF,0.437,review,below cutoff,True
+grfy0085,892,AFF,0.516,MKT,0.377,review,below cutoff,False
+mnbv0178,34,LEG,0.443,MKT,0.207,review,below cutoff,True
+prgc0053,564,RND,0.433,LEG,0.417,review,below cutoff,False
+ymjw0057,542,RND,0.424,LEG,0.189,review,below cutoff,True
+rnyx0159,636,AFF,0.361,MKT,0.346,review,below cutoff,False
+gmkk0017,1135,QSH,0.493,LEG,0.197,review,below cutoff,False
+pjhj0108,483,LEG,0.506,MKT,0.181,review,below cutoff,False
+hnwb0092,452,QSH,0.399,RND,0.303,review,below cutoff,False
+xynb0053,315,FIN,0.309,LEG,0.276,review,below cutoff,False
+hkcl0014,494,MKT,0.627,AFF,0.13,auto-filed,confident,False
+ykcd0091,346,LEG,0.458,MKT,0.347,review,below cutoff,False
+tfyk0067,542,AFF,0.785,LEG,0.119,auto-filed,confident,False
+kzpg0080,444,MKT,0.669,AFF,0.156,auto-filed,confident,False
+ykpx0101,289,LEG,0.745,QSH,0.096,auto-filed,confident,False
+ptpw0041,47,RND,0.781,LEG,0.094,auto-filed,confident,False
+hngb0119,504,QSH,0.642,MKT,0.128,auto-filed,confident,False
+qmjf0025,628,MKT,0.466,FIN,0.343,review,below cutoff,True
+kpfj0093,487,LEG,0.36,AFF,0.329,review,below cutoff,False
+phgv0017,392,MKT,0.657,FIN,0.122,auto-filed,confident,True
+rzyn0024,56,RND,0.484,AFF,0.194,review,below cutoff,True
+xgcj0022,5,MKT,0.688,LEG,0.128,review,under 20 tokens,False
+nxfl0114,450,RND,0.658,QSH,0.126,auto-filed,confident,False
+jfmn0154,1,MKT,0.376,RND,0.193,review,no readable text,False
+glcg0014,125,MKT,0.796,AFF,0.114,auto-filed,confident,False
+pmvm0070,394,MKT,0.58,RND,0.14,auto-filed,confident,False
+mzwn0057,629,QSH,0.688,RND,0.14,auto-filed,confident,False
+rjjn0010,155,AFF,0.365,LEG,0.282,review,below cutoff,False
+nmyk0125,618,RND,0.643,LEG,0.096,auto-filed,confident,False
+hffc0071,131,RND,0.348,LEG,0.311,review,below cutoff,False
+fhmc0022,896,FIN,0.282,MKT,0.277,review,below cutoff,True
+skgj0106,2904,MKT,0.323,RND,0.229,review,below cutoff,False
+kfxv0072,104,LEG,0.591,FIN,0.23,auto-filed,confident,False
+krjk0177,365,MKT,0.261,LEG,0.226,review,below cutoff,False
+rkyd0127,196,LEG,0.235,RND,0.225,review,below cutoff,False
+tnwl0071,1687,RND,0.714,LEG,0.139,auto-filed,confident,False
+mnjv0053,41,QSH,0.239,AFF,0.229,review,below cutoff,False
+xkgl0119,467,FIN,0.454,LEG,0.416,review,below cutoff,False
+zhcf0170,452,LEG,0.339,AFF,0.238,review,below cutoff,False
+prhn0073,619,RND,0.809,LEG,0.062,auto-filed,confident,False
+rrbk0052,150,AFF,0.396,LEG,0.229,review,below cutoff,False
+mzyj0167,896,MKT,0.443,RND,0.247,review,below cutoff,False
+tpgg0175,16,QSH,0.37,LEG,0.275,review,under 20 tokens,True
+lkvg0090,11,AFF,0.371,MKT,0.222,review,under 20 tokens,False
+rrvk0172,23,MKT,0.576,LEG,0.154,auto-filed,confident,False
+xkkh0128,403,MKT,0.709,RND,0.167,auto-filed,confident,False
+zzgj0119,425,QSH,0.472,RND,0.341,review,below cutoff,True
+jycb0128,97,LEG,0.466,QSH,0.151,review,below cutoff,False
+rnpp0076,84,LEG,0.4,AFF,0.338,review,below cutoff,False
+ppnl0116,572,AFF,0.564,MKT,0.163,auto-filed,confident,False
+rmkm0030,350,MKT,0.683,FIN,0.153,auto-filed,confident,False
+jylp0114,1130,RND,0.768,AFF,0.109,auto-filed,confident,False
+pgkc0076,481,QSH,0.342,RND,0.213,review,below cutoff,False
+mhpk0069,315,LEG,0.375,RND,0.354,review,below cutoff,False
+pmyn0109,251,RND,0.659,LEG,0.136,auto-filed,confident,True
+txpn0001,284,MKT,0.617,AFF,0.165,auto-filed,confident,True
+nzbd0218,573,LEG,0.476,QSH,0.218,review,below cutoff,False
+mzpv0017,16,MKT,0.576,QSH,0.191,review,under 20 tokens,False
+mmxm0220,2,QSH,0.299,RND,0.274,review,under 20 tokens,False
+frmv0183,694,QSH,0.652,MKT,0.132,auto-filed,confident,False
+rqgp0111,398,RND,0.441,LEG,0.26,review,below cutoff,False
+hmmh0020,678,RND,0.609,QSH,0.221,auto-filed,confident,False
+kfvh0124,41,RND,0.708,AFF,0.16,auto-filed,confident,False
+mjfk0033,289,AFF,0.381,MKT,0.287,review,below cutoff,False
+xxnn0010,173,LEG,0.547,QSH,0.151,review,below cutoff,False
+ymdp0105,517,MKT,0.801,LEG,0.054,auto-filed,confident,False
+lrdl0129,67,AFF,0.454,MKT,0.429,review,below cutoff,True
+zybj0101,1245,RND,0.337,AFF,0.262,review,below cutoff,False
+jxhx0041,145,FIN,0.339,MKT,0.292,review,below cutoff,False
+fkbb0109,497,LEG,0.44,RND,0.295,review,below cutoff,False
+jjbg0060,535,MKT,0.661,LEG,0.142,auto-filed,confident,False
+hzwf0006,34,MKT,0.692,QSH,0.121,auto-filed,confident,False
+lgxl0054,434,RND,0.612,AFF,0.224,auto-filed,confident,False
+ghbj0015,718,RND,0.421,MKT,0.189,review,below cutoff,True
+mxkd0127,1,MKT,0.376,RND,0.193,review,no readable text,False
+tnpm0125,845,RND,0.578,AFF,0.231,auto-filed,confident,False
+hhxm0154,778,QSH,0.689,LEG,0.11,auto-filed,confident,False
+gqvn0117,592,AFF,0.374,RND,0.264,review,below cutoff,False
+xlmb0068,168,MKT,0.607,FIN,0.159,auto-filed,confident,False
+lqgm0070,141,LEG,0.634,MKT,0.185,auto-filed,confident,False
+ghph0019,331,MKT,0.787,AFF,0.063,auto-filed,confident,False
+kqfy0112,624,LEG,0.422,FIN,0.348,review,below cutoff,False
+zkvm0021,8,QSH,0.479,LEG,0.154,review,under 20 tokens,False
+kqjf0218,537,QSH,0.363,MKT,0.281,review,below cutoff,False
+jshw0178,1505,RND,0.716,AFF,0.131,auto-filed,confident,False
+znwv0109,252,RND,0.542,MKT,0.206,review,below cutoff,False
+mjfg0089,522,FIN,0.514,MKT,0.279,review,below cutoff,False
+qrlv0071,193,MKT,0.685,LEG,0.13,auto-filed,confident,False
+ztpd0096,119,LEG,0.533,FIN,0.151,review,below cutoff,False
+ltwj0179,1,MKT,0.376,RND,0.193,review,no readable text,False
+qmvy0067,300,RND,0.572,AFF,0.323,auto-filed,confident,False
+zxxb0128,574,LEG,0.665,FIN,0.13,auto-filed,confident,False
+nnxn0178,3636,MKT,0.525,AFF,0.281,review,below cutoff,False
+hgdf0064,565,MKT,0.582,AFF,0.305,auto-filed,confident,False
+lrmx0070,223,LEG,0.62,FIN,0.164,auto-filed,confident,False
+yxhd0021,288,LEG,0.681,FIN,0.206,auto-filed,confident,False
+yhgj0053,124,FIN,0.449,AFF,0.262,review,below cutoff,False
+psly0129,457,FIN,0.431,LEG,0.401,review,below cutoff,True
+mjyb0114,803,RND,0.564,AFF,0.246,auto-filed,confident,False
+mpkx0061,154,MKT,0.741,AFF,0.117,auto-filed,confident,False
+zjfk0157,279,MKT,0.757,AFF,0.14,auto-filed,confident,False
+ylcw0130,159,AFF,0.42,RND,0.192,review,below cutoff,False
+spgy0051,89,AFF,0.577,LEG,0.312,auto-filed,confident,False
+ytfb0061,634,AFF,0.546,MKT,0.389,review,below cutoff,False
+qlkm0033,214,MKT,0.5,RND,0.355,review,below cutoff,False
+frwd0028,203,AFF,0.674,RND,0.117,auto-filed,confident,False
+krpy0076,332,AFF,0.473,RND,0.178,review,below cutoff,False
+jhfc0109,360,AFF,0.341,RND,0.337,review,below cutoff,False
+kmhj0112,781,RND,0.495,AFF,0.166,review,below cutoff,False
+xrcf0130,212,RND,0.506,AFF,0.233,review,below cutoff,False
+nfyj0113,76,RND,0.633,LEG,0.201,auto-filed,confident,False
+rpwb0151,831,RND,0.46,AFF,0.379,review,below cutoff,False
+hfpg0114,28,RND,0.295,LEG,0.269,review,below cutoff,False
+gydf0180,782,RND,0.65,AFF,0.148,auto-filed,confident,False
+qfkb0128,470,LEG,0.637,AFF,0.247,auto-filed,confident,False
+lpjy0169,147,RND,0.53,AFF,0.2,review,below cutoff,False
+jndn0014,188,LEG,0.451,MKT,0.419,review,below cutoff,False
+qzwx0020,369,RND,0.538,QSH,0.318,review,below cutoff,False
+smbg0117,216,RND,0.67,QSH,0.119,auto-filed,confident,False
+yyld0126,177,LEG,0.534,MKT,0.204,review,below cutoff,True
+jmpl0109,249,LEG,0.476,FIN,0.232,review,below cutoff,False
+kkph0114,405,MKT,0.56,FIN,0.253,auto-filed,confident,False
+ltjj0058,282,RND,0.817,LEG,0.073,auto-filed,confident,False
+qtnf0150,591,RND,0.674,AFF,0.137,auto-filed,confident,False
+zmnv0044,621,RND,0.347,MKT,0.32,review,below cutoff,True
+qycn0059,62,FIN,0.66,LEG,0.19,auto-filed,confident,True
+psmb0044,284,MKT,0.665,LEG,0.139,auto-filed,confident,False
+xgvw0069,635,LEG,0.595,AFF,0.183,auto-filed,confident,False
+gyby0070,91,LEG,0.566,AFF,0.192,auto-filed,confident,False
+mkff0180,1162,RND,0.69,AFF,0.19,auto-filed,confident,False
+zxjd0028,467,MKT,0.67,FIN,0.137,auto-filed,confident,True
+sncp0114,42,MKT,0.241,RND,0.237,review,below cutoff,False
+pmnd0106,211,LEG,0.653,QSH,0.178,auto-filed,confident,True
+pxmn0085,512,LEG,0.505,AFF,0.196,review,below cutoff,False
+jjkg0111,119,RND,0.42,MKT,0.404,review,below cutoff,False
+plvg0074,298,AFF,0.433,RND,0.304,review,below cutoff,False
+pjgv0179,489,MKT,0.205,RND,0.174,review,below cutoff,False
+srhm0172,227,LEG,0.444,AFF,0.305,review,below cutoff,False
+jjpg0012,3,LEG,0.456,MKT,0.212,review,under 20 tokens,False
+rmmh0117,190,RND,0.622,QSH,0.174,auto-filed,confident,False
+lrvp0126,45,MKT,0.487,RND,0.227,review,below cutoff,False
+ymvh0014,536,MKT,0.771,RND,0.097,auto-filed,confident,False
+gqwg0060,355,MKT,0.541,FIN,0.364,review,below cutoff,False
+gmjl0064,317,MKT,0.374,FIN,0.302,review,below cutoff,True
+pgfb0126,628,RND,0.554,AFF,0.177,auto-filed,confident,False
+pqvv0178,22,MKT,0.27,QSH,0.258,review,below cutoff,False
+psnk0068,369,MKT,0.541,FIN,0.186,review,below cutoff,False
+lhpf0036,120,LEG,0.636,AFF,0.139,auto-filed,confident,False
+lhfb0167,294,MKT,0.433,RND,0.23,review,below cutoff,False
+qzbm0038,268,AFF,0.454,RND,0.267,review,below cutoff,False
+smmy0112,560,RND,0.681,AFF,0.106,auto-filed,confident,False
+fthv0076,461,AFF,0.374,RND,0.255,review,below cutoff,False
+msxg0112,315,RND,0.837,LEG,0.054,auto-filed,confident,False
+hzxd0053,517,RND,0.482,QSH,0.213,review,below cutoff,False
+ptby0120,461,RND,0.671,MKT,0.09,auto-filed,confident,False
+hnmc0104,6,MKT,0.545,LEG,0.143,review,under 20 tokens,False
+jtvy0066,118,MKT,0.586,QSH,0.277,auto-filed,confident,False
+yhwx0151,213,QSH,0.513,RND,0.222,review,below cutoff,False
+pfkx0025,384,MKT,0.584,LEG,0.13,auto-filed,confident,False
+xfdb0118,780,RND,0.778,AFF,0.124,auto-filed,confident,False
+gxjv0010,698,MKT,0.651,AFF,0.228,auto-filed,confident,True
+xzly0129,440,FIN,0.41,LEG,0.328,review,below cutoff,False
+mznx0020,386,MKT,0.57,LEG,0.201,auto-filed,confident,False
+rkxb0107,559,RND,0.653,QSH,0.118,auto-filed,confident,True
+gndy0092,88,RND,0.726,AFF,0.154,auto-filed,confident,False
+qmcd0110,315,MKT,0.433,RND,0.187,review,below cutoff,False
+xnpv0053,11,LEG,0.347,MKT,0.241,review,under 20 tokens,False
+mnkj0177,196,AFF,0.565,LEG,0.225,auto-filed,confident,False
+khyx0108,380,MKT,0.384,LEG,0.35,review,below cutoff,False
+fxwy0092,289,LEG,0.55,AFF,0.263,auto-filed,confident,False
+phdy0064,189,LEG,0.698,FIN,0.086,auto-filed,confident,False
+lgml0063,622,AFF,0.449,LEG,0.25,review,below cutoff,False
+hyxg0060,336,MKT,0.699,FIN,0.173,auto-filed,confident,True
+qqnf0033,324,FIN,0.569,MKT,0.284,auto-filed,confident,True
+xhyb0076,383,LEG,0.43,AFF,0.301,review,below cutoff,False
+xmpd0172,53,MKT,0.466,LEG,0.145,review,below cutoff,False
+gnmh0112,643,RND,0.677,AFF,0.148,auto-filed,confident,False
+xmpl0111,638,RND,0.707,QSH,0.107,auto-filed,confident,False
+ymdb0053,422,LEG,0.442,MKT,0.385,review,below cutoff,False
+fknp0129,494,MKT,0.753,RND,0.136,auto-filed,confident,False
+qhyw0109,85,MKT,0.832,LEG,0.06,auto-filed,confident,False
+knwh0127,380,LEG,0.458,MKT,0.185,review,below cutoff,False
+gzkm0105,16,MKT,0.747,AFF,0.097,review,under 20 tokens,False
+jfkb0017,268,MKT,0.438,RND,0.365,review,below cutoff,False
+kkwp0116,229,QSH,0.57,RND,0.171,auto-filed,confident,False
+lmxw0064,181,AFF,0.783,LEG,0.086,auto-filed,confident,False
+mkcb0145,778,RND,0.752,AFF,0.124,auto-filed,confident,False
+jsgj0073,3,MKT,0.399,LEG,0.349,review,under 20 tokens,False
+hxvl0123,303,RND,0.791,MKT,0.079,auto-filed,confident,False
+sknd0064,144,RND,0.605,MKT,0.161,auto-filed,confident,False
+mpwy0004,7,LEG,0.292,MKT,0.207,review,under 20 tokens,False
+xxxx0022,250,LEG,0.503,AFF,0.311,review,below cutoff,False
+lhfv0119,506,RND,0.474,QSH,0.382,review,below cutoff,False
+jxwl0130,90,MKT,0.378,RND,0.25,review,below cutoff,False
+xmvh0131,224,FIN,0.406,LEG,0.403,review,below cutoff,False
+sppc0111,623,RND,0.774,AFF,0.112,auto-filed,confident,False
+tlcn0220,495,RND,0.691,AFF,0.192,auto-filed,confident,False
+mnbx0106,278,MKT,0.748,LEG,0.095,auto-filed,confident,False
+mlxw0115,665,RND,0.715,AFF,0.112,auto-filed,confident,True
+jkpk0167,555,AFF,0.416,LEG,0.214,review,below cutoff,False
+pzhy0122,918,MKT,0.558,LEG,0.263,auto-filed,confident,False
+rxmp0124,58,RND,0.692,QSH,0.13,auto-filed,confident,True
+yknk0014,249,MKT,0.62,FIN,0.285,auto-filed,confident,True
+rjbp0126,261,MKT,0.361,LEG,0.289,review,below cutoff,True
+hzhx0009,1336,LEG,0.403,MKT,0.332,review,below cutoff,False
+fnpn0122,443,QSH,0.765,RND,0.07,auto-filed,confident,False
+xfpk0013,892,MKT,0.332,LEG,0.263,review,below cutoff,False
+kqvk0108,125,LEG,0.555,AFF,0.22,auto-filed,confident,False
+rfdx0060,573,QSH,0.275,AFF,0.245,review,below cutoff,False
+jgpv0111,778,RND,0.735,MKT,0.15,auto-filed,confident,True
+ggyd0096,396,LEG,0.502,AFF,0.397,review,below cutoff,True
+nknj0052,93,LEG,0.344,AFF,0.316,review,below cutoff,False
+xhkf0115,301,AFF,0.438,RND,0.375,review,below cutoff,False
+kmkc0064,300,LEG,0.425,FIN,0.274,review,below cutoff,False
+lkkw0071,414,AFF,0.536,RND,0.36,review,below cutoff,False
+lxgk0125,368,MKT,0.463,AFF,0.348,review,below cutoff,False
+rynn0110,233,RND,0.698,LEG,0.126,auto-filed,confident,False
+yqvh0109,175,MKT,0.294,LEG,0.282,review,below cutoff,False
+rldb0069,177,AFF,0.519,RND,0.237,review,below cutoff,False
+tfxy0016,164,QSH,0.358,MKT,0.269,review,below cutoff,False
+tljp0076,182,LEG,0.575,AFF,0.183,auto-filed,confident,False
+thbp0154,791,QSH,0.695,RND,0.129,auto-filed,confident,False
+yrjx0179,114,RND,0.391,LEG,0.263,review,below cutoff,False
+nrbd0036,212,LEG,0.346,MKT,0.277,review,below cutoff,False
+sqdl0064,1007,MKT,0.529,LEG,0.243,review,below cutoff,True
+gskl0119,106,LEG,0.665,FIN,0.158,auto-filed,confident,False
+sfjf0022,163,MKT,0.426,LEG,0.242,review,below cutoff,False
+yldd0012,841,MKT,0.785,FIN,0.073,auto-filed,confident,False
+kzhd0122,186,RND,0.639,LEG,0.151,auto-filed,confident,False
+zzcj0070,430,MKT,0.51,AFF,0.162,review,below cutoff,True
+rpdk0181,280,RND,0.492,LEG,0.189,review,below cutoff,False
+yfyw0109,75,AFF,0.508,LEG,0.317,review,below cutoff,False
+lkjy0111,208,LEG,0.657,AFF,0.103,auto-filed,confident,True
+gtww0122,280,AFF,0.716,MKT,0.111,auto-filed,confident,False
+xxgc0110,168,MKT,0.387,AFF,0.34,review,below cutoff,True
+kpgw0130,98,AFF,0.485,MKT,0.219,review,below cutoff,False
+xjmm0066,422,LEG,0.684,RND,0.101,auto-filed,confident,False
+psld0131,484,AFF,0.678,RND,0.142,auto-filed,confident,False
+zgpn0122,496,LEG,0.701,FIN,0.08,auto-filed,confident,False
+txcc0088,390,RND,0.502,AFF,0.266,review,below cutoff,False
+jpxh0122,387,MKT,0.532,FIN,0.309,review,below cutoff,True
+rmhl0116,246,QSH,0.541,LEG,0.208,review,below cutoff,False
+sjbf0015,861,QSH,0.501,RND,0.356,review,below cutoff,True
+szyh0089,282,AFF,0.481,RND,0.446,review,below cutoff,False
+mgwl0057,256,AFF,0.676,LEG,0.22,auto-filed,confident,True
+gskk0125,181,RND,0.319,LEG,0.296,review,below cutoff,False
+ttpm0122,433,LEG,0.271,FIN,0.23,review,below cutoff,True
+kpmj0071,493,AFF,0.467,LEG,0.259,review,below cutoff,False
+jyfy0144,515,AFF,0.416,MKT,0.354,review,below cutoff,False
+rtvb0052,320,RND,0.422,MKT,0.329,review,below cutoff,True
+lzpc0127,309,MKT,0.633,LEG,0.211,auto-filed,confident,False
+mgcx0167,540,QSH,0.363,RND,0.343,review,below cutoff,False
+jydc0076,534,MKT,0.309,LEG,0.253,review,below cutoff,False
+zrxh0124,442,RND,0.722,AFF,0.172,auto-filed,confident,False
+tmnl0113,109,RND,0.297,LEG,0.267,review,below cutoff,False
+ylbg0080,90,FIN,0.709,LEG,0.135,auto-filed,confident,False
+zhhg0119,294,QSH,0.416,RND,0.196,review,below cutoff,False
+hypm0105,1101,MKT,0.53,AFF,0.132,review,below cutoff,False
+mfhn0105,2,QSH,0.284,MKT,0.264,review,under 20 tokens,False
+ghcn0082,75,LEG,0.316,FIN,0.187,review,below cutoff,False
+gnvk0046,16,MKT,0.598,QSH,0.173,review,under 20 tokens,False
+trgn0154,247,RND,0.753,LEG,0.073,auto-filed,confident,False
+thyy0109,201,LEG,0.424,MKT,0.293,review,below cutoff,False
+zjmy0075,141,MKT,0.53,FIN,0.287,review,below cutoff,False
+xmdv0152,38,MKT,0.565,RND,0.246,auto-filed,confident,False
+pgdb0107,34,MKT,0.322,LEG,0.284,review,below cutoff,False
+yqgm0070,143,LEG,0.646,MKT,0.192,auto-filed,confident,False
+jhmn0003,145,RND,0.591,QSH,0.135,auto-filed,confident,True
+jyfc0084,364,LEG,0.487,QSH,0.234,review,below cutoff,False
+ksmf0150,94,MKT,0.408,QSH,0.199,review,below cutoff,False
+gzvb0175,4,MKT,0.509,QSH,0.199,review,under 20 tokens,True
+qrpv0178,401,MKT,0.635,LEG,0.177,auto-filed,confident,True
+nfjn0004,232,MKT,0.528,LEG,0.291,review,below cutoff,False
+zxbw0015,449,FIN,0.411,QSH,0.263,review,below cutoff,False
+xrbb0052,460,AFF,0.345,MKT,0.21,review,below cutoff,False
+xpyh0073,472,AFF,0.541,RND,0.244,review,below cutoff,False
+ylyl0061,79,LEG,0.634,AFF,0.112,auto-filed,confident,False
+jlfp0070,102,AFF,0.318,RND,0.254,review,below cutoff,False
+mkbb0036,88,LEG,0.472,MKT,0.292,review,below cutoff,False
+rqbv0069,343,RND,0.429,QSH,0.253,review,below cutoff,False
+lgyx0009,733,MKT,0.722,AFF,0.134,auto-filed,confident,False
+yjln0150,438,RND,0.617,QSH,0.14,auto-filed,confident,False
+srny0164,339,MKT,0.69,FIN,0.116,auto-filed,confident,False
+xxcp0105,307,MKT,0.488,RND,0.17,review,below cutoff,False
+xpdy0073,255,AFF,0.346,RND,0.341,review,below cutoff,False
+hpyc0125,1,MKT,0.376,RND,0.193,review,no readable text,False
+pkfw0115,141,RND,0.529,QSH,0.204,review,below cutoff,False
+rkmx0112,331,AFF,0.342,LEG,0.241,review,below cutoff,False
+lpnl0070,508,MKT,0.536,RND,0.125,review,below cutoff,False
+trlp0111,644,LEG,0.512,QSH,0.226,review,below cutoff,True
+pyfm0112,316,RND,0.649,QSH,0.226,auto-filed,confident,False
+ntmp0006,2158,MKT,0.78,FIN,0.098,auto-filed,confident,False
+mzxl0086,205,RND,0.752,LEG,0.159,auto-filed,confident,False
+mnfx0046,175,MKT,0.551,FIN,0.32,auto-filed,confident,False
+tjbk0019,442,MKT,0.82,LEG,0.081,auto-filed,confident,True
+hknx0107,250,LEG,0.48,QSH,0.178,review,below cutoff,False
+rlyh0041,440,MKT,0.785,FIN,0.103,auto-filed,confident,False
+qxkw0025,1300,MKT,0.564,LEG,0.235,auto-filed,confident,False
+hpjv0057,153,LEG,0.373,FIN,0.277,review,below cutoff,False
+nmyy0154,585,QSH,0.714,RND,0.109,auto-filed,confident,False
+ftfd0125,207,MKT,0.618,AFF,0.253,auto-filed,confident,False
+gyvh0090,538,RND,0.468,QSH,0.288,review,below cutoff,True
+qtbm0111,463,RND,0.464,LEG,0.19,review,below cutoff,False
+hqdh0112,398,RND,0.521,LEG,0.227,review,below cutoff,False
+plcf0143,341,RND,0.558,QSH,0.155,auto-filed,confident,False
+qrgk0150,145,RND,0.411,QSH,0.205,review,below cutoff,False
+yxgh0068,172,MKT,0.313,AFF,0.307,review,below cutoff,False
+zymd0117,342,LEG,0.629,FIN,0.229,auto-filed,confident,False
+mhvn0220,278,RND,0.595,FIN,0.247,auto-filed,confident,False
+pzxh0006,130,MKT,0.459,QSH,0.203,review,below cutoff,False
+txlj0093,31,MKT,0.676,LEG,0.099,auto-filed,confident,False
+jlgc0028,6,MKT,0.431,LEG,0.314,review,under 20 tokens,False
+nsvj0121,197,LEG,0.756,AFF,0.15,auto-filed,confident,False
+rsxk0057,340,AFF,0.498,MKT,0.317,review,below cutoff,False
+plxk0128,46,RND,0.755,AFF,0.104,auto-filed,confident,False
+hrpp0005,310,RND,0.748,QSH,0.102,auto-filed,confident,False
+sskx0159,233,FIN,0.371,MKT,0.313,review,below cutoff,False
+llpm0075,7,QSH,0.302,MKT,0.213,review,under 20 tokens,False
+yjxj0167,879,MKT,0.488,AFF,0.22,review,below cutoff,False
+pffv0064,89,LEG,0.484,AFF,0.306,review,below cutoff,False
+hfgp0129,918,QSH,0.463,RND,0.169,review,below cutoff,False
+gtlf0064,71,MKT,0.783,FIN,0.064,auto-filed,confident,True
+fndl0093,95,LEG,0.505,RND,0.407,review,below cutoff,False
+nfjw0143,209,LEG,0.409,AFF,0.276,review,below cutoff,False
+hgld0013,301,AFF,0.638,MKT,0.228,auto-filed,confident,False
+qmpx0060,476,LEG,0.614,MKT,0.257,auto-filed,confident,False
+gznx0055,780,QSH,0.507,RND,0.301,review,below cutoff,False
+lzfj0111,1588,AFF,0.484,MKT,0.319,review,below cutoff,False
+lzmp0122,371,RND,0.491,AFF,0.358,review,below cutoff,False
+rqdp0149,193,MKT,0.567,RND,0.245,auto-filed,confident,False
+tmcf0061,59,MKT,0.353,RND,0.322,review,below cutoff,False
+fnff0120,54,MKT,0.44,LEG,0.19,review,below cutoff,False
+tfbg0085,223,LEG,0.408,MKT,0.172,review,below cutoff,False
+zhnw0068,376,LEG,0.625,AFF,0.177,auto-filed,confident,True
+qxwp0105,540,MKT,0.371,LEG,0.274,review,below cutoff,False
+nkxx0022,93,LEG,0.382,RND,0.309,review,below cutoff,False
+hjld0127,161,RND,0.679,AFF,0.211,auto-filed,confident,False
+qsnb0126,753,RND,0.319,MKT,0.22,review,below cutoff,False
+hjmv0069,238,RND,0.413,LEG,0.21,review,below cutoff,False
+zjfx0109,605,QSH,0.675,RND,0.124,auto-filed,confident,False
+tgdc0012,15,MKT,0.509,LEG,0.246,review,under 20 tokens,False
+lgbl0130,190,RND,0.426,MKT,0.266,review,below cutoff,False
+jjfl0154,812,QSH,0.621,RND,0.189,auto-filed,confident,True
+grjy0116,33,MKT,0.454,LEG,0.295,review,below cutoff,False
+nfnx0038,24,MKT,0.57,AFF,0.192,auto-filed,confident,False
+hxpj0101,526,AFF,0.75,LEG,0.102,auto-filed,confident,False
+mhlg0128,430,LEG,0.392,RND,0.265,review,below cutoff,False
+mmmb0062,431,LEG,0.624,MKT,0.137,auto-filed,confident,False
+krlw0116,362,FIN,0.287,RND,0.195,review,below cutoff,False
+tnkb0092,680,RND,0.644,AFF,0.216,auto-filed,confident,False
+tqgh0123,80,FIN,0.261,QSH,0.228,review,below cutoff,False
+rhcv0117,398,FIN,0.738,QSH,0.084,auto-filed,confident,False
+jljv0006,631,RND,0.478,QSH,0.233,review,below cutoff,False
+xljg0088,481,RND,0.626,LEG,0.218,auto-filed,confident,False
+ymfm0130,273,QSH,0.705,RND,0.146,auto-filed,confident,False
+tndv0106,666,RND,0.551,MKT,0.351,auto-filed,confident,False
+mhkm0113,379,RND,0.77,QSH,0.087,auto-filed,confident,False
+nlyl0063,618,LEG,0.547,AFF,0.215,review,below cutoff,True
+jypd0104,213,RND,0.544,MKT,0.289,review,below cutoff,False
+zlyh0068,408,MKT,0.433,AFF,0.221,review,below cutoff,True
+gtyp0149,161,LEG,0.479,MKT,0.286,review,below cutoff,False

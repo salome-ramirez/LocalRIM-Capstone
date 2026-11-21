@@ -1,0 +1,18 @@
+RECORDS INVENTORY FORM
+
+Inventoried by: Jerri Gravel Telephone: 566-1317 Date: 2/23/90
+Location of Record(s): Primary Lab
+Cost Center #: 15D Cost Center Name: Primary Lab Q.A.
+Code/SDA422 Record Category Administration Vital (Y/N)
+
+File Titles or File Group *Media & Volume Date or Date Range (MM/DD/YY)
+Serrano Highlights <"14" 10/20/89
+
+Form Reviewed By: Jerri Gravel (Records Coordinator)
+Date: 2/23/90
+
+* KEY TO MEDIA CODES:
+D = Diskette
+M = Microfiche
+PT = Paper
+R = Microfilm Roll

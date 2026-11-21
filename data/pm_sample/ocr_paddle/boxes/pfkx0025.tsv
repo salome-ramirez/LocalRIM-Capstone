@@ -1,0 +1,43 @@
+x1	y1	x2	y2	conf	text
+95.0	32.0	104.0	43.0	63.5	D
+46.0	76.0	66.0	102.0	0.0	
+190.0	128.0	591.0	162.0	76.1	PHIIUSA
+894.0	128.0	1533.0	164.0	76.6	TE
+990.0	166.0	1534.0	194.0	72.4	2
+185.0	218.0	239.0	250.0	93.1	TO:
+351.0	213.0	465.0	256.0	100.0	C. Levy
+1074.0	220.0	1356.0	251.0	98.3	DATE: July 25, 1995
+187.0	283.0	277.0	312.0	100.0	FROM:
+352.0	280.0	512.0	314.0	96.7	A. Goldfarb
+186.0	342.0	717.0	380.0	98.8	SUBJECT: M&SS.....Q3 Priorities
+353.0	437.0	1483.0	479.0	99.5	Carolyn, the following provides you with the major initiatives M&SS will be focusing on
+357.0	474.0	640.0	505.0	100.0	during the 3rd quarter.
+353.0	535.0	769.0	568.0	99.3	Brand Information Systems
+376.0	598.0	579.0	634.0	100.0	•Brand Analyst
+471.0	662.0	1411.0	699.0	99.3	-Executive/Industry Overview.....complete and roll out version for Senior
+471.0	694.0	1374.0	731.0	99.5	Management (inclusive of Business Planning triggers) and general user
+470.0	728.0	626.0	763.0	100.0	community.
+470.0	789.0	1387.0	827.0	98.5	-BA version 1. 1.....complete and implement version 1.1 which includes
+470.0	822.0	1438.0	859.0	99.4	functionality defined in original scope but held off so as not to delay the first
+471.0	855.0	1478.0	889.0	98.9	release of BA. Key functional enhancements include.....Publish and Subscribe
+472.0	888.0	688.0	919.0	100.0	and Quick Chart.
+470.0	948.0	1468.0	989.0	99.6	-BA version 1.2..... design 1.2 deliverable which will offer added functionality
+471.0	984.0	1363.0	1019.0	100.0	to the end user community and also provide PM forecast and shipment
+470.0	1014.0	1428.0	1053.0	99.0	information through BA. Actual roll out of version 1.2 will be by year-end.
+375.0	1078.0	496.0	1113.0	97.3	•DataNet
+470.0	1142.0	1495.0	1185.0	99.1	-MapViewer..... provide DataNet users with an easy to use graphical map display
+472.0	1177.0	1216.0	1212.0	99.2	of data output. Release to users is targeted for late August.
+470.0	1239.0	1505.0	1279.0	98.4	-Hierarchical Picker..... develop and release a common picker for brands and geos
+470.0	1273.0	1288.0	1308.0	98.9	across all databases. Release date is projected as late September.
+376.0	1336.0	639.0	1372.0	99.9	•Media Management
+471.0	1400.0	1410.0	1440.0	99.3	-Conduct the business requirements phase for a future Media Management
+470.0	1437.0	1353.0	1472.0	99.9	system. Actual completion of the requirements phase will be October.
+352.0	1499.0	710.0	1532.0	99.6	Promotion Management
+373.0	1559.0	478.0	1598.0	99.0	•PMCS
+467.0	1625.0	1497.0	1669.0	99.4	-PMCS 2.0.....complete development for Marketing and begin system testing for
+470.0	1663.0	723.0	1697.0	99.0	planned Q4 roll out.
+467.0	1724.0	1500.0	1766.0	98.1	-PMCS 2. 1/SFA Ordering..... complete all requirements and design specifications
+1540.0	1720.0	1584.0	1920.0	100.0	2061618528
+469.0	1761.0	775.0	1795.0	100.0	and begin actual coding.
+375.0	1825.0	639.0	1860.0	99.9	•Promotion Analysis
+469.0	1890.0	1440.0	1927.0	99.4	-Roll application out to the user community during the September time frame.

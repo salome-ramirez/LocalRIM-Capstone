@@ -1,0 +1,12 @@
+Basic B8G2F
+MIDAS Order Sheet:
+Basic B8G2F Deal Code: 318
+Displays Product
+FFKS | FF 100 | LTSKS | LT 100 | UL 100 Total
+DISPLAY _| BACKUP BOX Box | BOX | Box S Cases
+POs Nunta 13991| _ 99999 48630| 48640| 48650| _48660| _ 48670
+Section 14 ral 23 23 23
+Section 12_| 123 637 76 76 76 76 76
+Section 13 | 43 _ | 117 16 16 16 16 18
+Page 1
+{ '

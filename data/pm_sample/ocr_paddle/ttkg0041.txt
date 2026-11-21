@@ -1,0 +1,39 @@
+é
+Smoker Survey
+Data Requirements
+Business Summary
+The Smoker Survey was last updated in 1993. Since that time there have been several
+attempts to change and modify the questions however none of the versions were approved.
+In ligħt of an initiative to recertify the direct marketing database, new emphasis in being
+placed on creating a Smoker Survey that captures accurate, actionable and pertinent
+information.
+Data Requirements
+The majority of the questions that are being asked in the new Smoker Survey can be
+mapped directly to data fields used by the old Smoker Survey. Whenever possible, it is
+recommended that new fields be created within the 700 Byte Record in order to reduce the
+number of programming changes required by Richmond IS and the keying vendors.
+Currently, there are approximately 15 bytes of “filler" (i.e. unused space) available within
+the 700 Byte Record. (1 Byte = 1 Character) A break down of each question as well as
+recommended modifications are listed below.
+1. Please fill in exactly what you as for when buying your regular brand -- that is, when
+buying the brand you smoke most often.
+700 Byte Record, Field 41, Regular Brand
+No Change.
+2. Is your regular brand...? • Menthol • Non-Menthol
+700 Byte Record, Field 43, Flavor - allowable values M (menthol), N (non-menthol). U
+(unknown, multiple answers checked)
+No Change.
+3. Do you usually buy...? • Hard Pack/Box • Soft Pack
+700 Byte Record, Field 46, Packaging - allowable values S (soft pack), H (hard pack/box),
+B (both), U (unknown, multiple answers checked)
+No Change.
+4. Is your regular brand...? • Regular/King Size • 100's •120's
+700 Byte Record, Field 42, Length - allowable values N (less than 85's, nonfilter), K
+(regular, king size, 85's), L (100's, long), X (120's, extra long), U (unknown, multiple
+answers checked)
+No Change.
+5. Is your regular brand...? • Full Flavor or Regular • Medium • Lights or Milds
+• Ultra Lights • Lowest or 1 mg. Tar
+700 Byte Record, Field 44, Tar Level - allowable values W (lowest), T (ultra, extra low
+tar), L (light, mild) M (medium), F (full flavor), U (unknown, multiple answers checked)
+No Change. 2072261456

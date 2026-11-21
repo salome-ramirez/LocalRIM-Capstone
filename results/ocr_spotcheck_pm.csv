@@ -1,0 +1,11 @@
+id,position,why_picked,ocr_conf,rating,issues,note,saved_at
+hzwf0006,1114,Confidence under 40,0.0,Poor,Headers or logos lost,,2026-11-08T12:08:59
+jqjf0028,366,Confidence 40-60,46.2,Poor,Faint or low contrast; Tables or columns; Handwriting,,2026-11-08T12:10:04
+mpwy0004,1233,Confidence 40-60,50.5,Good,Sideways Bates / stamps,,2026-11-08T12:10:44
+lhkp0166,220,"Quality & Safety, under 60",55.0,Poor,Faint or low contrast; Sideways Bates / stamps; Rotated,,2026-11-08T12:11:27
+pxdg0001,30,Confidence 60-75,61.3,Poor,Headers or logos lost; Sideways Bates / stamps; Tables or columns,,2026-11-08T12:12:12
+ppvn0086,47,"Quality & Safety, 60-85",61.8,Usable,Tables or columns; Numbers misread; Sideways Bates / stamps,,2026-11-08T12:12:58
+mnpp0120,215,German page,75.6,Usable,German or other language; Handwriting; Sideways Bates / stamps,,2026-11-08T12:13:43
+hnxd0092,1017,Confidence 75-85,77.5,Good,Numbers misread,,2026-11-08T12:14:18
+yrhg0108,374,Confidence 85 and up,88.6,Good,Numbers misread; Sideways Bates / stamps,,2026-11-08T12:15:00
+zfpp0052,480,Confidence 85 and up,93.7,Good,Tables or columns; Sideways Bates / stamps,,2026-11-08T12:15:43

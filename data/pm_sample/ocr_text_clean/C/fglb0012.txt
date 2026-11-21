@@ -1,0 +1,31 @@
+RCV BY:XEROX TELECOPIER 7011 ; 7-14-92 4:07PM CCITT G3 6029410949;# 2
+JJUL:13 '92 16:26 BARRY BONE GP 415 567 0992 SF CA P.P.2
+12. (DO NOT ASK IF RESPONDENT ANSWERED 18" TO Q. 1 -- INSTEAD. SKIP
+TO Q. 19) You said your regular brand ot cigarettes is (READ COMPLETE
+NAME FROM Q's. 7 THROUGH 11). How long have you been smoking this
+exact brand and type of cigarette?
+a. Three months or less
+b. More than three months, up to six months
+C. More than six months, up to one year
+More than one year (SKIP TO Q. 19) 4
+13. Before you started smoking (READ COMPLETE NAME), were you smoking a
+different type of (READ BRAND FAMILY NAME), or an entirely different brand of
+cigarettes?
+a. A difterent type of BRAND FAMILY NAME
+(SKIP TO O. 15 AND OPEN BRAND BOOK TO THE PAGE WITH THE
+BRAND FAMILY NAME FROM Q. 7 TO ENSURE THAT RESPONDENT
+ANSWERS SUBSEQUENT QUESTIONS CORRECTLY.)
+b. An entirely different brand
+0. Don't know (TRY TO CLARIFY -- IF RESPONDENT DOES NOT
+UNDERSTAND, THANK AND TERMINATE. IF CURRENT, COMPLETE
+BRAND IS ONLY BRAND EVER SMOKED, RESPONDENT IS ELIGIBLE
+SKIP TO Q. )
+14. What was your regular brand of cigarettes before you switched to (READ
+COMPLETE NAME FROM Q's. 7 through 11)?
+a.
+(WRITE IN)
+b. No regular brand
+C. Don't know
+15. Was that a filter or non-filter cigarette?
+1. Filter
+2. Non-filter

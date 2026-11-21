@@ -1,0 +1,151 @@
+id,tokens,predicted,confidence,second,second_confidence,routed,route_reason,outcome,true,certainty,tfidf,rag,rag_second,correct,pipeline
+pgxc0106,696,RND,0.389,AFF,0.334,review,below cutoff,labeled,RND,sure,RND,RND,RND,True,RND
+hpyj0008,1274,RND,0.8,LEG,0.08,auto-filed,confident,labeled,RND,sure,RND,,,True,RND
+lpxh0041,645,FIN,0.633,AFF,0.202,auto-filed,confident,labeled,FIN,sure,MKT,,,True,FIN
+ysmj0105,520,QSH,0.505,FIN,0.268,review,below cutoff,labeled,FIN,sure,MKT,QSH,FIN,False,QSH
+nrbv0006,237,RND,0.735,LEG,0.172,auto-filed,confident,labeled,RND,unsure,AFF,,,True,RND
+yyld0126,177,LEG,0.534,MKT,0.204,review,below cutoff,labeled,LEG,unsure,LEG,MKT,LEG,True,MKT
+jmhk0179,88,LEG,0.73,AFF,0.084,auto-filed,confident,labeled,LEG,unsure,LEG,,,True,LEG
+qswd0076,94,AFF,0.554,RND,0.179,auto-filed,confident,labeled,AFF,sure,LEG,,,True,AFF
+zsnx0088,405,LEG,0.328,RND,0.234,review,below cutoff,labeled,QSH,unsure,RND,QSH,MKT,False,QSH
+jgpv0111,778,RND,0.735,MKT,0.15,auto-filed,confident,labeled,RND,sure,RND,,,True,RND
+rtjf0076,463,RND,0.445,AFF,0.437,review,below cutoff,labeled,AFF,sure,AFF,RND,AFF,False,RND
+trlp0111,644,LEG,0.512,QSH,0.226,review,below cutoff,labeled,LEG,sure,LEG,LEG,QSH,True,LEG
+gjbj0127,488,RND,0.395,MKT,0.318,review,below cutoff,labeled,RND,unsure,AFF,RND,MKT,True,RND
+yxwh0004,317,MKT,0.706,FIN,0.189,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+kfxk0157,63,AFF,0.229,FIN,0.226,review,below cutoff,labeled,MKT,sure,MKT,RND,FIN,False,RND
+yknk0014,249,MKT,0.62,FIN,0.285,auto-filed,confident,labeled,FIN,sure,FIN,,,False,MKT
+zlyh0068,408,MKT,0.433,AFF,0.221,review,below cutoff,labeled,MKT,sure,AFF,MKT,AFF,True,MKT
+fsfk0005,284,LEG,0.687,RND,0.101,auto-filed,confident,labeled,LEG,sure,LEG,,,True,LEG
+hsvk0112,12,QSH,0.314,MKT,0.269,review,under 20 tokens,labeled,RND,sure,RND,QSH,RND,False,QSH
+mlxw0115,665,RND,0.715,AFF,0.112,auto-filed,confident,labeled,RND,sure,RND,,,True,RND
+qzdf0096,62,AFF,0.441,RND,0.379,review,below cutoff,labeled,LEG,unsure,AFF,AFF,RND,False,AFF
+tzpx0101,92,MKT,0.503,AFF,0.15,review,below cutoff,labeled,AFF,sure,MKT,MKT,AFF,False,MKT
+gjjf0025,269,MKT,0.768,QSH,0.08,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+ypjc0062,222,LEG,0.677,AFF,0.117,auto-filed,confident,labeled,LEG,sure,LEG,,,True,LEG
+zzgj0119,425,QSH,0.472,RND,0.341,review,below cutoff,labeled,RND,sure,RND,RND,QSH,False,RND
+glnj0115,42,MKT,0.488,AFF,0.232,review,below cutoff,labeled,AFF,sure,LEG,MKT,AFF,False,MKT
+xlgv0057,288,AFF,0.418,LEG,0.238,review,below cutoff,labeled,AFF,sure,AFF,AFF,LEG,True,AFF
+rkxb0107,559,RND,0.653,QSH,0.118,auto-filed,confident,labeled,RND,sure,RND,,,True,RND
+xqxj0181,506,FIN,0.532,QSH,0.248,review,below cutoff,labeled,FIN,unsure,QSH,FIN,QSH,True,FIN
+mtxc0092,591,RND,0.489,AFF,0.112,review,below cutoff,labeled,RND,sure,RND,RND,QSH,True,RND
+rhlj0073,79,RND,0.497,LEG,0.289,review,below cutoff,labeled,AFF,sure,AFF,LEG,LEG,False,LEG
+phvb0107,532,QSH,0.538,RND,0.233,review,below cutoff,labeled,QSH,sure,QSH,QSH,RND,True,QSH
+tnxv0020,302,MKT,0.607,LEG,0.208,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+qrpv0178,401,MKT,0.635,LEG,0.177,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+xpfd0071,190,AFF,0.533,MKT,0.273,review,below cutoff,labeled,AFF,sure,AFF,AFF,MKT,True,AFF
+rfvc0083,466,MKT,0.567,AFF,0.34,auto-filed,confident,labeled,AFF,unsure,AFF,,,False,MKT
+mgbm0073,1255,RND,0.462,AFF,0.19,review,below cutoff,labeled,RND,unsure,MKT,RND,AFF,True,RND
+mkvh0036,584,RND,0.485,QSH,0.254,review,below cutoff,labeled,RND,sure,RND,RND,QSH,True,RND
+lhnl0038,291,MKT,0.475,FIN,0.43,review,below cutoff,labeled,MKT,unsure,MKT,MKT,FIN,True,MKT
+zywl0149,969,RND,0.811,LEG,0.083,auto-filed,confident,labeled,RND,sure,RND,,,True,RND
+xnld0056,23,LEG,0.369,RND,0.334,review,below cutoff,labeled,AFF,unsure,LEG,RND,AFF,False,RND
+sjbf0015,861,QSH,0.501,RND,0.356,review,below cutoff,labeled,QSH,sure,QSH,QSH,RND,True,QSH
+psly0129,457,FIN,0.431,LEG,0.401,review,below cutoff,labeled,LEG,sure,LEG,LEG,FIN,False,LEG
+gmcb0044,13,MKT,0.334,LEG,0.238,review,under 20 tokens,labeled,MKT,unsure,LEG,QSH,RND,True,QSH
+xkcc0120,105,LEG,0.447,AFF,0.249,review,below cutoff,labeled,AFF,sure,AFF,LEG,AFF,False,LEG
+gxkv0106,521,FIN,0.426,MKT,0.419,review,below cutoff,labeled,MKT,sure,FIN,FIN,MKT,False,FIN
+mpxh0068,28,MKT,0.691,LEG,0.199,auto-filed,confident,labeled,LEG,unsure,MKT,,,False,MKT
+zzcj0070,430,MKT,0.51,AFF,0.162,review,below cutoff,labeled,MKT,sure,FIN,MKT,LEG,True,MKT
+glnk0070,38,MKT,0.526,LEG,0.203,review,below cutoff,labeled,MKT,sure,MKT,MKT,LEG,True,MKT
+hrcd0036,1056,FIN,0.552,MKT,0.177,auto-filed,confident,labeled,QSH,unsure,MKT,,,False,FIN
+nkjv0160,764,MKT,0.736,LEG,0.101,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+jjfl0154,812,QSH,0.621,RND,0.189,auto-filed,confident,labeled,QSH,sure,QSH,,,True,QSH
+qyxb0071,332,RND,0.493,AFF,0.302,review,below cutoff,labeled,AFF,sure,AFF,AFF,LEG,False,AFF
+nlyl0063,618,LEG,0.547,AFF,0.215,review,below cutoff,labeled,LEG,sure,MKT,LEG,LEG,True,LEG
+llvm0181,428,QSH,0.595,RND,0.244,auto-filed,confident,labeled,QSH,sure,QSH,,,True,QSH
+xzfh0085,849,AFF,0.506,MKT,0.254,review,below cutoff,labeled,AFF,sure,AFF,AFF,MKT,True,AFF
+jqdk0019,387,FIN,0.565,LEG,0.263,auto-filed,confident,labeled,FIN,sure,FIN,,,True,FIN
+nxbk0111,241,AFF,0.573,MKT,0.188,auto-filed,confident,labeled,AFF,sure,RND,,,True,AFF
+rswp0007,588,RND,0.536,AFF,0.342,review,below cutoff,labeled,LEG,sure,RND,RND,AFF,False,RND
+jfcp0076,268,RND,0.596,LEG,0.238,auto-filed,confident,labeled,RND,sure,AFF,,,True,RND
+ttpm0122,433,LEG,0.271,FIN,0.23,review,below cutoff,labeled,MKT,sure,MKT,MKT,FIN,False,MKT
+yxyj0123,230,RND,0.783,LEG,0.092,auto-filed,confident,labeled,RND,sure,RND,,,True,RND
+zxjd0028,467,MKT,0.67,FIN,0.137,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+ygxn0141,318,AFF,0.537,RND,0.375,review,below cutoff,labeled,AFF,sure,AFF,AFF,RND,True,AFF
+stlj0033,348,MKT,0.407,FIN,0.259,review,below cutoff,labeled,MKT,sure,MKT,MKT,FIN,True,MKT
+mlvc0012,533,MKT,0.71,RND,0.115,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+hpcw0070,106,MKT,0.783,AFF,0.054,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+mnbv0178,34,LEG,0.443,MKT,0.207,review,below cutoff,labeled,MKT,unsure,LEG,RND,LEG,False,RND
+gjxw0130,586,AFF,0.321,RND,0.289,review,below cutoff,labeled,AFF,sure,AFF,AFF,RND,True,AFF
+gmjl0064,317,MKT,0.374,FIN,0.302,review,below cutoff,labeled,FIN,unsure,MKT,MKT,FIN,False,MKT
+ymjw0057,542,RND,0.424,LEG,0.189,review,below cutoff,labeled,QSH,unsure,MKT,QSH,LEG,False,QSH
+fgdj0115,338,RND,0.587,MKT,0.163,auto-filed,confident,labeled,MKT,sure,RND,,,False,RND
+tjbk0019,442,MKT,0.82,LEG,0.081,auto-filed,confident,labeled,MKT,unsure,MKT,,,True,MKT
+jhmn0003,145,RND,0.591,QSH,0.135,auto-filed,confident,labeled,MKT,sure,MKT,,,False,RND
+ggyd0096,396,LEG,0.502,AFF,0.397,review,below cutoff,labeled,AFF,sure,AFF,LEG,AFF,False,LEG
+rlnn0120,215,LEG,0.474,FIN,0.17,review,below cutoff,labeled,FIN,sure,RND,FIN,LEG,False,FIN
+hrbm0154,729,QSH,0.719,LEG,0.083,auto-filed,confident,labeled,QSH,sure,QSH,,,True,QSH
+lkjy0111,208,LEG,0.657,AFF,0.103,auto-filed,confident,labeled,LEG,unsure,LEG,,,True,LEG
+zhnw0068,376,LEG,0.625,AFF,0.177,auto-filed,confident,labeled,LEG,sure,LEG,,,True,LEG
+pgky0218,119,RND,0.798,AFF,0.068,auto-filed,confident,labeled,RND,sure,RND,,,True,RND
+gtlf0064,71,MKT,0.783,FIN,0.064,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+lrhn0106,479,FIN,0.484,MKT,0.428,review,below cutoff,labeled,MKT,sure,MKT,MKT,FIN,False,MKT
+lrdl0129,67,AFF,0.454,MKT,0.429,review,below cutoff,labeled,AFF,sure,AFF,AFF,MKT,True,AFF
+mxvw0122,237,RND,0.462,LEG,0.234,review,below cutoff,labeled,RND,unsure,AFF,RND,LEG,True,RND
+pmyn0109,251,RND,0.659,LEG,0.136,auto-filed,confident,labeled,RND,sure,RND,,,True,RND
+fpmb0106,237,RND,0.514,AFF,0.309,review,below cutoff,labeled,AFF,unsure,MKT,RND,AFF,False,RND
+yrfv0018,1077,AFF,0.457,LEG,0.42,review,below cutoff,labeled,LEG,sure,LEG,LEG,LEG,False,LEG
+pmnd0106,211,LEG,0.653,QSH,0.178,auto-filed,confident,labeled,LEG,sure,LEG,,,True,LEG
+krkv0112,570,RND,0.804,QSH,0.102,auto-filed,confident,labeled,RND,sure,RND,,,True,RND
+xxgc0110,168,MKT,0.387,AFF,0.34,review,below cutoff,labeled,MKT,unsure,AFF,MKT,AFF,True,MKT
+htxg0124,318,AFF,0.645,LEG,0.217,auto-filed,confident,labeled,AFF,sure,AFF,,,True,AFF
+hyxg0060,336,MKT,0.699,FIN,0.173,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+mhky0157,236,FIN,0.383,MKT,0.227,review,below cutoff,labeled,MKT,sure,MKT,FIN,MKT,False,FIN
+txpn0001,284,MKT,0.617,AFF,0.165,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+ptwc0064,126,LEG,0.274,RND,0.241,review,below cutoff,labeled,RND,sure,RND,QSH,RND,False,QSH
+rxmp0124,58,RND,0.692,QSH,0.13,auto-filed,confident,labeled,RND,sure,RND,,,True,RND
+zmnv0044,621,RND,0.347,MKT,0.32,review,below cutoff,labeled,RND,sure,AFF,MKT,RND,True,MKT
+mhbg0125,344,FIN,0.491,MKT,0.308,review,below cutoff,labeled,FIN,sure,MKT,FIN,MKT,True,FIN
+zykg0006,48,MKT,0.382,RND,0.293,review,below cutoff,labeled,MKT,sure,RND,MKT,RND,True,MKT
+zgfh0109,236,MKT,0.535,LEG,0.184,review,below cutoff,labeled,MKT,sure,MKT,MKT,AFF,True,MKT
+psjc0152,380,MKT,0.501,FIN,0.233,review,below cutoff,labeled,MKT,sure,MKT,MKT,FIN,True,MKT
+nfcy0164,262,MKT,0.665,AFF,0.15,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+ksfd0071,196,LEG,0.416,AFF,0.229,review,below cutoff,labeled,AFF,sure,AFF,AFF,MKT,False,AFF
+gyvh0090,538,RND,0.468,QSH,0.288,review,below cutoff,labeled,RND,sure,AFF,RND,QSH,True,RND
+lmdy0129,85,AFF,0.378,MKT,0.324,review,below cutoff,labeled,MKT,sure,MKT,MKT,AFF,False,MKT
+rtvb0052,320,RND,0.422,MKT,0.329,review,below cutoff,labeled,AFF,unsure,AFF,RND,AFF,False,RND
+szwj0128,125,LEG,0.507,FIN,0.152,review,below cutoff,labeled,LEG,sure,LEG,LEG,LEG,True,LEG
+lsbk0025,121,RND,0.52,LEG,0.172,review,below cutoff,labeled,LEG,sure,RND,RND,QSH,False,RND
+ffdg0127,160,LEG,0.564,MKT,0.204,auto-filed,confident,labeled,LEG,sure,MKT,,,True,LEG
+tqyl0166,379,LEG,0.467,AFF,0.335,review,below cutoff,labeled,MKT,unsure,FIN,LEG,AFF,False,LEG
+zgkh0088,286,RND,0.629,LEG,0.144,auto-filed,confident,labeled,RND,sure,RND,,,True,RND
+gzvb0175,4,MKT,0.509,QSH,0.199,review,under 20 tokens,labeled,AFF,unsure,FIN,MKT,QSH,False,MKT
+phgv0017,392,MKT,0.657,FIN,0.122,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+qspf0020,49,LEG,0.267,FIN,0.221,review,below cutoff,labeled,FIN,sure,LEG,LEG,FIN,False,LEG
+sqdl0064,1007,MKT,0.529,LEG,0.243,review,below cutoff,labeled,MKT,sure,MKT,MKT,LEG,True,MKT
+tzmx0220,273,MKT,0.5,LEG,0.359,review,below cutoff,labeled,MKT,sure,MKT,MKT,LEG,True,MKT
+tpgg0175,16,QSH,0.37,LEG,0.275,review,under 20 tokens,labeled,QSH,sure,QSH,QSH,LEG,True,QSH
+tjcb0069,165,LEG,0.421,AFF,0.314,review,below cutoff,labeled,LEG,unsure,RND,LEG,AFF,True,LEG
+mjbx0105,519,RND,0.658,LEG,0.136,auto-filed,confident,labeled,RND,sure,RND,,,True,RND
+tlxg0119,296,AFF,0.361,MKT,0.265,review,below cutoff,labeled,QSH,sure,MKT,QSH,RND,False,QSH
+gtkm0218,269,LEG,0.367,RND,0.214,review,below cutoff,labeled,MKT,unsure,LEG,MKT,RND,False,MKT
+tscx0116,485,MKT,0.48,FIN,0.455,review,below cutoff,labeled,MKT,sure,MKT,FIN,MKT,True,FIN
+tzvg0014,335,MKT,0.658,AFF,0.145,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+spxk0120,232,RND,0.303,AFF,0.293,review,below cutoff,labeled,FIN,unsure,RND,RND,LEG,False,RND
+gxjv0010,698,MKT,0.651,AFF,0.228,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+sgyb0072,140,AFF,0.473,LEG,0.276,review,below cutoff,labeled,AFF,unsure,AFF,AFF,LEG,True,AFF
+ghbj0015,718,RND,0.421,MKT,0.189,review,below cutoff,labeled,QSH,unsure,RND,RND,QSH,False,RND
+yrlx0054,249,LEG,0.564,AFF,0.251,auto-filed,confident,labeled,AFF,sure,AFF,,,False,LEG
+kscn0010,109,LEG,0.387,AFF,0.366,review,below cutoff,labeled,AFF,unsure,LEG,LEG,AFF,False,LEG
+fhmc0022,896,FIN,0.282,MKT,0.277,review,below cutoff,labeled,MKT,sure,FIN,FIN,MKT,False,FIN
+tgbd0083,550,AFF,0.515,RND,0.182,review,below cutoff,labeled,RND,sure,RND,RND,AFF,False,RND
+zqmj0172,244,MKT,0.37,AFF,0.366,review,below cutoff,labeled,AFF,sure,AFF,AFF,MKT,False,AFF
+nsvj0064,45,RND,0.502,MKT,0.213,review,below cutoff,labeled,AFF,sure,MKT,MKT,RND,False,MKT
+fyby0111,167,AFF,0.616,RND,0.279,auto-filed,confident,labeled,AFF,sure,MKT,,,True,AFF
+qqnf0033,324,FIN,0.569,MKT,0.284,auto-filed,confident,labeled,FIN,sure,FIN,,,True,FIN
+gslp0006,806,MKT,0.727,AFF,0.19,auto-filed,confident,labeled,MKT,sure,AFF,,,True,MKT
+qycn0059,62,FIN,0.66,LEG,0.19,auto-filed,confident,labeled,FIN,unsure,LEG,,,True,FIN
+hfbp0125,179,LEG,0.521,MKT,0.196,review,below cutoff,labeled,LEG,sure,LEG,LEG,LEG,True,LEG
+sldn0063,369,LEG,0.515,QSH,0.131,review,below cutoff,labeled,AFF,unsure,LEG,AFF,LEG,False,AFF
+qgmv0025,1,MKT,0.376,RND,0.193,review,under 20 tokens,labeled,MKT,unsure,LEG,QSH,MKT,True,QSH
+kpvf0220,258,MKT,0.767,LEG,0.128,auto-filed,confident,labeled,MKT,sure,LEG,,,True,MKT
+qmjf0025,628,MKT,0.466,FIN,0.343,review,below cutoff,labeled,MKT,sure,QSH,MKT,FIN,True,MKT
+lthv0110,265,MKT,0.573,LEG,0.26,auto-filed,confident,labeled,AFF,sure,MKT,,,False,MKT
+rjbp0126,261,MKT,0.361,LEG,0.289,review,below cutoff,labeled,LEG,sure,LEG,MKT,LEG,False,MKT
+jpxh0122,387,MKT,0.532,FIN,0.309,review,below cutoff,labeled,FIN,sure,FIN,FIN,MKT,False,FIN
+rzyn0024,56,RND,0.484,AFF,0.194,review,below cutoff,labeled,MKT,sure,MKT,MKT,RND,False,MKT
+mgwl0057,256,AFF,0.676,LEG,0.22,auto-filed,confident,labeled,AFF,sure,AFF,,,True,AFF
+yrfp0109,214,RND,0.624,AFF,0.242,auto-filed,confident,labeled,RND,sure,RND,,,True,RND
+jrlf0127,642,MKT,0.751,RND,0.119,auto-filed,confident,labeled,MKT,sure,MKT,,,True,MKT
+skpc0117,863,QSH,0.705,MKT,0.096,auto-filed,confident,labeled,QSH,sure,QSH,,,True,QSH

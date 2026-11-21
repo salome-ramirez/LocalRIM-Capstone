@@ -1,0 +1,48 @@
+INBIFO Institut für biologische Forschung GmbH - Köln
+19 August 1998
+~-IPSN
+CHEMICAL / PHYSICAL DETERMINATIONS
+electrostatic field
+nicotine once per week main capillary gas
+pharmacologically
+active component
+centrifugal field,
+migration in an
+spheres
+Component/ | Frequency Reason Method/Principle | Calibration Remarks
+Parameter
+TPM at least once daily | main dose parameter | gravimetry standard weights glass fiber filter
+particle size 3 times (monthly) | deposition probability | precipitation in a monodispers Latex | aerosol centrifuge
+scanning mobility particle sizer,
+establishment in process
+chromatography
+certified pure
+substances
+co
+continuously
+during exposures
+once per week
+inert concentration
+indicator
+non-dispersive JR light
+absorbtion
+— L
+certified calibration
+gas
+gas
+trapping on sulfuric acid-coated
+silicagel
+after removing particles
+NO/NOx chemoluminescence certified calibration | after removing particles, only
+relevant for sidestream smoke
+aldehydes
+once per week
+main irritants
+HPLC
+certified pure
+substances
+after trapping in
+dinitrophenylhydrazine solution
+Teécszpgoz
+XAPSNICHEMPHY1.D0C
+12794

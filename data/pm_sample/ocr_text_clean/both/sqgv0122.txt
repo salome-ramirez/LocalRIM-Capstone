@@ -1,0 +1,13 @@
+
+-80%
+Cv 70%
+with 60% at 3=
+△P
+$C_V = Q \sqrt{\frac{3g}{\Delta P}}$
+
+3" - at 60% with $C_V = 44$
+
+70% $C_V = 70$
+
+- 80% $C_V = 110$
+

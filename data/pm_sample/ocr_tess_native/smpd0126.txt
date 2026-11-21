@@ -1,0 +1,22 @@
+Philip Morris
+*15L 850
+11L 900
+Strain Rate:0.16"/min
+PITOEOOSO?
+1100°C/1h
+Slow Cooled
+1100°C/1h
+Quartz-Vac.
+PM 50
+13.79
+12.41
+*Sheet Specimens
+Strain Rate:0.2"/min
+18.00
+12.72
+14.66
+43.94
+19.16
+42.24
+4.28
+5/9/95

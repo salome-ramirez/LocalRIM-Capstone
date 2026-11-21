@@ -1,0 +1,43 @@
+84!-174'
+CODE: 84,052'1
+DATE : May 21, 1984
+POL TEST NUMBER : 3279
+dtL---"' :
+N L,-
+R
+. : ~,:-!i '
+.~ .- " /~C '-k '
+TITLE : Marlboro 85mm with CRL-TC (100r chieuron-cut RL-TC) versus Marlboro .
+85mm with NOD1RL-TC Replacing CRL-TC
+TEST REDUESTER': R .J . Mitchell
+POL STUDY LEADER : McKay, C .L .
+PREPARED BY: McKay, C .L .
+PURPOSE : To determine any subjective differences between thee
+control and experimental cigarettes
+.
+PROCEDURE (BALLOT) : Sequential Monadic Ballot
+(NV1i-B)
+SAMPLE SIZE : 1200
+% RETURNED : 78% '
+SMOKER GRbUPS :'
+Number returned-Power Value
+Marlboro 85mm
+250
+.475
+Winston 85mm
+302
+.537'
+Full Flavor 85mm (excludingl
+234
+.454
+Mar 1 bo~ro and Wi nston simoikers )
+ANALYTICAL SUMMARY : The cigarettes were not different in any of the
+characteristics tested .
+CLOSE-OUT DATE : February G, 1984
+RESULTS'DISCU'SSED WITH REQUESTER (DATE) : March 5, 1984
+COMMENTS : The results based on this sample of control and experimental
+did not indicate a-diffe .rence between the cigarettes .
+PLANS : No further, testing is planned at this time .
+*Power : The probability of declaring a significant difference at
+p-0 .10 when the real populationi difference corresponds to a 55 :45
+split for each of the smoker groups .

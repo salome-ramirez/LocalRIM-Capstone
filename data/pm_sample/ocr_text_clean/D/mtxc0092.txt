@@ -1,0 +1,24 @@
+Magnesite papers
+
+1st set of models:
+
+1. P1EP - 55 g/M2 base, higher porosity, sized/perfed by Ecusta
+2. P1EQ - 55 g/M2 base, lower porosity, sized/perfed by Ecusta -- CA
+3. P1ER - 45 g/M2 base, w/Mg(OH)2, sized/perfed by Ecusta
+4. P1ES - 45 g/M2 base, w/o Mg(OH)2, sized/perfed by Ecusta
+5. P1EP - 55 g/M2 base, higher porosity, sized/perfed by Ecusta
+6. P1EQ - 55 g/M2 base, lower porosity, sized/perfed by Ecusta -- CHARC
+7. P1ER - 45 g/M2 base, w/Mg(OH)2, sized/perfed by Ecusta
+8. P1ES - 45 g/M2 base, w/o Mg(OH)2, sized/perfed by Ecusta
+
+2nd set of models:
+
+1. 10-080 - 12 SEC, IC control
+2. P1ET - 55 g/M2 base, 10.0 cor base, sized w/K2succ, perfed
+3. P1EU - 55 g/M2 base, 5.5 cor base, sized w/K2succ, perfed
+4. P1EV - 45 g/M2 base, w/Mg(OH)2, -- CA
+5. P1EW - 45 g/M2 base, w/o Mg(OH)2, -- CA
+6. P1ET - 55 g/M2 base, 10.0 cor base, sized w/K2succ, perfed
+7. P1ET - 55 g/M2 base, 10.0 cor base, sized w/K2succ, perfed
+
+All models are scheduled to be made in Semi-works during the week of 3/11/91.

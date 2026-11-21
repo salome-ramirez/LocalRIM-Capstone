@@ -1,0 +1,55 @@
+4
+ENVIRONMENTAL RESEARCH, SECTION A 77, 9–19 (1998)
+ARTICLE NO. ER973821
+Does Weather Confound or Modify the Association
+of Particulate Air Pollution with Mortality?
+An Analysis of the Philadelphia Data, 1973–1980
+Jonathan Samet,* Scott Zeger,* Julia Kelsall,* Jing Xu,* and Laurence Kalkstein†
+*The Johns Hopkins University School of Public Health, Baltimore, Maryland 21205; and †Center for Climatic Research,
+The University of Delaware, Newark, Delaware 19711
+Received July 30, 1997
+models give qualitatively different results than TSI,
+Because weather has the potential to confound or which attributes more of the pollution effect to SO2
+modify the pollution-mortality relationship, re- than to TSP. Model fit is substantially poorer with
+searchers have developed several approaches for TSI. This pattern was repeated in analyses of sum-
+controlling it in estimating the independent effect mer and winter months, which included SSC. In
+of air pollution on mortality. This report considers summary, using synoptic weather categories in re-
+the consequences of using alternative approaches gression models does not meaningfully change the
+to controlling for weather and explores modifica- association between mortality and air pollution in-
+tion of air pollution effects by weather, as weather dexes. We also found little evidence that weather
+patterns could plausibly alter air pollution's effect conditions modified the effect of pollution, regard-
+on health. We analyzed 1973-1980 total mortality less of the approach used to represent weather.
+data for Philadelphia using four weather models 1998 Academic Press
+and compared estimates of the effects of TSP and Key Words: particulate air pollution; daily mor-
+SO, on mortality using a Poisson regression model. tality; weather models; synoptic approach; model
+Two synoptic categories developed by Kalkstein fit.
+were selected—the Temporal Synoptic Index (TSI)
+and the Spatial Synoptic Classification (SSC)—and
+compared with (1) descriptive models developed by
+Schwartz and Dockery (S-D); and (2) LOESS, a non- INTRODUCTION
+parametric function of the previous day's temper-
+ature and dew point. We considered model fit using Recent investigations have shown associations be-
+Akaike's Information Criterion (AIC) and changes
+in the estimated effects of TSP and SO2. In the full- tween measures of air pollution and daily mortality
+year analysis, S-D is better than LOESS at predicit- counts (Dockery and Pope, 1994). Concern has been
+ing mortality, and S-D and LOESS are better than raised that these associations could reflect uncon-
+TSI, as measured by AIC. When TSP or SO2 was fit trolled effects of weather on mortality. The associ-
+alone, the results were qualitatively similar, re- ation of temperature—and, more generally,
+gardless of how weather was controlled; when TSP weather—with mortality has long been known (El-
+and SO2 were fit simultaneously, the S-D and LOESS lis, 1972). Because of the potential for weather to
+either confound or modify the pollution-mortality
+relationship, researches have "controlled" for
+Research described in this article was conducted under con- weather in estimating the independent effect of air
+tract to the Health Effects Institute, an organization jointly
+funded by the Environmental Protection Agency (EPA Assistance pollution on mortality. The usual analytic approach
+Award R824835) and automotive manufacturers. The contents of is to include variables for weather-typically
+this article do not necessarily reflect the views of the Health measures of temperature and humidity—in regres-
+Effects Institute, nor do they necessarily reflect the views and sion models that describe the effects of air pollution
+policies of the Environmental Protection Agency or motor vehicle variables on mortality. A model may yield a biased 2063605830
+or engine manufacturers. Any studies cited in this paper that
+involve humans were conducted in accordance with national and estimate of the effect of pollution on mortality if an
+institutional guidelines for the protection of human subjects. incorrect set of variables for weather is used or if the
+9
+0013-9351/98 $25.00
+Copyright : 1998 by Academic Press
+All rights of reproduction in any form reserved.

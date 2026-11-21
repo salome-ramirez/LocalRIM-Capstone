@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+.venv-ocr/
+
+# Documents and page images, downloaded by scripts/download_pdfs.py
+data/pm_sample/pdf/
+data/pm_sample/images_native/
+
+# Built by scripts/build_archive.py and written by the app
+outputs/app/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Downloaded by pipeline/01_sample and pipeline/02_ocr scripts
+data/pm_sample/images/
+data/funsd/

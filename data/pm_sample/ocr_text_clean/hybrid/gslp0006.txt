@@ -1,0 +1,41 @@
+COUPLED WITH SWITCH SELL
+Rep - "Hello, I represent Philip Morris and I notice you are a smoker."
+Consumer - "Yes I am"
+Rep - Would you like to be eligible to receive free cigarette samples, discount coupons, and other promotional
+offers mailed directiy to your home such as these (show current materials such as Marlboro catalog, etc.) with no
+obligation on your part to ever purchase anything?"
+Consumer - “yes, I would" [or they will have some objection - probably] "but I don't smoke your brand."
+Rep - That's fine with us. We would like to be able to send you the promotional materials anyway. That way if
+you do decide to try a different brand in the future, you may be able to save yourself some money or you can give
+the information to one of your friends who does smoke the brand. It only takes a minute or so to fill out the card."
+Rep - [hands customer card and thanks them.]
+Consumer - [takes card and walks away or looks at card and objects to the amount of information requested.]
+Rep - [If customer objects to the amount of information requested, handle with] "The reason we are asking these
+questions is to insure that if we send you samples, coupons, etc., we send you items that would be of interest and
+use to you. We want to do our best to insure we don't waste your time or ours. Please take it and fill it out. I
+think you will be happy with the results." [Hands customer the survey and thanks them.]
+(If customer still does not want the survey, thank them for their time and attention and tell them to please come
+back and get one if they change their mind.]
+If ar any time the customer walks away do not pursue them, but thank them for taking the time to talk with you.
+END OF CONSUMER SURVEY SCRIPT, BEGINNING OF SWITCH SELL.
+IF AT ANY TIME DURING THE SWITCH SELL THE CONSUMER SHOWS ANY RESISTANCE, END
+THE ATTEMPT TO SWITCH SELL. The major objective is to get the information on the survey card.
+[Have surveys on clip boards with pencil or pen on string available to fill out the survey. If the customer is in a
+hurry, allow them to take the survey with them, but the object is to switch sell them while they are filling out the
+form.]
+REP - "I noticed you smoke (consumer's brand)", or "What brand are you smoking now?"
+Consumer - "I smoke - (brand.)"
+REP - "That's a good brand. Would you consider trying our (brand from brand selection card) today?" [Give
+benefit statements for brand and inform them of any brand promotions that may apply to their selection.
+Consumer - "Okay" [or some objection.]
+Rep - [Handle the objection by agreeing with the consumer's right to purchase whatever they want or agreeing
+with whatever the core of their objection was and close with], "but I really think you may prefer our brand. It is
+the (repeat major benefit statements)."
+If custormer still objects - thank him or her for taking the time to talk with you and collect the survey or make sure
+the consumer takes a blank one with them.
+REP - [If consumer has no objection or when you have over come their objection - offer to exchange the pack or
+carton for them while they finish filling out the survey.] 'If you like, I will put that (pack or carton) back on the
+shelf for you while you are filling out the survey and get you one of (brand we are switching them to.)" [Make
+the switch, thank the consumer. and collect the survey. Drop collected surveys in nearest mailbox.]
+NOTE: The Background Information on PM Brands section in your ASK Manual contains benefit statements for
+our brands.

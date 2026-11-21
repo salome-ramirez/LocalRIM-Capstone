@@ -1,0 +1,48 @@
+TO: Mr. J. E. Wickham DATE: March 12, 1981
+FROM: Elizabeth Chambers
+SUBJECT: Virginia Panel - 3833
+Submitted by J. Swain
+DINZ = Red J2 and Black C8 = Control Y82-1 Mar1boro 85 Cigarettes
+With RL-1
+D1OA = Red C8 and Black J2 = Experimental Y82-1 Marlboro 85 Cigarettes
+With RL-5, Class VIII
+The experimental Y82-1 Marlboro 85 cigarettes (DlOA) with RL-5,
+Class VIII were not different from the control Y82-1 Marlboro 85
+cigarettes (DlNZ) with RL-1 in any of the characteristics tested.
+Control Experimental
+Y82-1 Marlboro 85 Y82-1 Marlboro 85
+With RL-1 With RL-5, Class VIII
+IBM Code D1NZ D10A
+Smoke
+Butt Length, mm 28 28
+FTC Tar, mg/cigt. 15.1 15.1
+Nicotine, mg/cigt. 0.94 0.96
+Puffs/cigt. 8.7 8.4
+Filtration Eff., % 49 48
+Cigarette
+Total RTD, in. of H2O 4.8 4.7
+Static Burn. Time, min. 8.2 7.8
+Length, mm 84.1 84.1
+Circumference, mm 25.0 24.9
+Paper
+Additive, type Cit. Cit.
+Porosity, sec. 23 21
+Filter
+RTD, in. of H2O 2.9 3.0
+Length, mm 21.0 21.0
+Weight, g 0.15 0.14
+Tipping paper length, mm 25 25
+Dilution, % 10 9
+Filler
+Total alkaloids, Z 1.48 1.54
+Total reducing sugars, % 5.8 5.8
+Wt. of tob., g 0.758 0.758
+Rod Density, g/cc 0.242 0.243
+Reconstituted Tob., 7 22.6 26.5
+1 Floated Material, % 12.4 12.9
+E.S., % 4.7 5.5
+一 EC:rrs
+cc: Mr. T. T. Goodale Mr. F. L. Daylor Dr. J. Swain
+Dr. W. F. Gannon Mr. H. G. Daniel Ms. F. West
+1 Mr. L. F. Meyer Mr. H. L. Spielberg Ms. A. Cantile
+Mr. J. S. Osmalov Mr. S. R. Wagoner

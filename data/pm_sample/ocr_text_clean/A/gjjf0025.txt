@@ -1,0 +1,50 @@
+MSA/PMCS Regs
+MSA/Stars data for PMCS Allocations |
+7 |
+For Each Retail_account_in SPACE: i
+(PM Brands ONLY)
+Stars % share| Stars %
+change Vs contribution
+MSAPI (Market Share | Stars Actual last 13 | (Store to
+PM Brand adjusted Pl) Share weeks market)
+Marlboro
+Marlboro Menthol
+Benson and Hedges _
+Benson and Hedges Menthd
+Merit
+Merit Ultra_Light
+Merit Ultima
+Virginia Slims
+Virginia Slims Menthol
+Basic
+Basic Menthol
+Cambridge
+Alpine
+Parliament
+Daves (If Available)
+[>< [>< |><|>< ]>< [><
+DE |DE | >K [>< [>< ] >< | >< 1 >< [>< [>< J >< | >< [>< J ><
+DS | >< [>< | DK ] 0K | DK | >< | >< 1 DK |< [>< [><] >K I>
+DS [D6 |< [9K | >< | >< | >< [DK [>< | DK [>< [DK [D6 OK
+X> |><1><] >< >< [>< p<
+Competitors brand
+Camel
+GPC
+Montclair
+Kent
+Carlton
+Winston
+Salem
+Doral
+Newport
+Misty
+Kool
+Monarch
+Capri
+NOW
+Vantage
+><} ><] >< I>< [>< | >< >< >>>< ]>< | >< >< ]>< | ><
+[PS | PS [DK | DK [E |DE |DE [>< | >< | DK | 9K | OK [DK |> ><
+Brand_ categories
+Page 1
+ZPOZEIT SIOZ

@@ -1,0 +1,74 @@
+DAILY INFLUENT
+FLOW (GPM),
+Average
+LINE I
+Maximum
+Total Daily Flow (MGD)
+FLOW (GPM), LINE II
+Average
+Maximum
+Total Daily Flow, MGD
+FLOW (GPM),
+Average
+LINE III
+Maximum
+Total Daily Flow, MGD
+‘TOTAL FLOW (GPM),
+LINES I, II, I[II
+FLOW (GPM), BOILER HOUSE
+Average
+Maximum
+Total Daily Flow, MGD
+TOTAL DALLY FLOW,
+LINES I, II, III AND
+BOILER HOUSE
+FLUMES CALIBRATED (check)
+AMMONIA (PPM)
+Maximum Line I
+Maximum Line II
+Maximum Line III
+SUSPENDED SOLIDS (PPM)
+Combined Influent
+__
+SPILLS
+Number
+WWREP-I
+DATE ©)-
+Yo2
+(08
+7/50
+273
+5053
+1 F33
+Line I —
+13n
+446&
+tt! &
+Time
+Time
+hw -% 3 oe
+WASTEWATER REPORT He
+N
+<#ß 24-HR
+7-3 3-11 TOTALS
+345 e
+y4 2
+357 253
+f5a 348
+A734
+529 L7
+605 SEG
+2029
+L230 (OC-7 3 L655)
+AIS 307
+225 gra
+. 7123
+(#¢AS5 (BIO 2.04433
+Line II — Line III ~_
+(SS 2h
+24~HOUR
+COMPOSITE
+L4xO
+Type Quantity
+Type Quantity
+2030563403

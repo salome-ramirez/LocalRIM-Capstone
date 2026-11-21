@@ -1,0 +1,11 @@
+block	par	line	left	top	width	height	conf	text
+1	1	1	573	636	362	75	95.0	Investor
+1	1	1	972	635	422	75	96.0	Relations
+1	1	1	1432	636	165	74	96.0	and
+1	1	2	481	758	402	75	95.0	Financial
+1	1	2	923	756	768	77	96.0	Communications
+2	1	1	747	886	114	49	96.0	Tony
+2	1	1	880	886	187	49	96.0	Hughes,
+2	1	1	1088	886	98	38	96.0	Vice
+2	1	1	1206	886	215	38	96.0	President
+3	1	1	103	1497	288	38	17.0	PIEGASShOG

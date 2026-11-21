@@ -1,0 +1,5 @@
+An essential sensor is a device that senses the initiation of a puff by the person operating the device. The sensor can be a sensor that reads to the flow of air into the mouthpiece which loads to the user's mouth; it can be a pressure sensor that senses the lowered pressure near the liquid to be nebulized due to the start of a puff by the operator; it could be a movement detection sensor that senses the deformation of the capsule as the operator starts a puff and causes lowered pressure in the capsule; thus allowing this surface in the capsule to deform inward to relieve the change in pressure.
+
+The preferred method is to sense the change of pressure in the capsule so the operator starts to puff using a pressure sensor.
+
+Note: we can reference our prior art for the Pressure Sensor.

@@ -1,0 +1,28 @@
+April 29, 1986
+R&D Program Planning Meeting April 8-9, 1986 -- Follow-up
+Bonded Ends
+During and following the presentation of the Bonded Cigarette Ends status and
+challenges, discussion primarily concerned three areas:
+Heating of the binder solution - This was suggested as a means to increase the
+electrical conductivity of the material. Conductivity sufficient to achieve
+adequate charging of the particles has been achieved so far only by the addition
+of salt. Heating of the binder will be considered as an additional or alter-
+native means of achieving this result. It was pointed out that this would be
+consistent with the use of heat to obtain microbiological stability and to lower
+the viscosity of the binder and perhaps assist in drop formation.
+Use of multiple jet nozzles - The largest commercial nozzles available are
+capable of application rates only one-tenth to one one-hundredth of the rate
+expected to be needed at production speeds. Nozzles capable of producing drops
+large enough to achieve the desired application rates have been designed and
+built in-house, but charging and deflection of the large drops with their lower
+surface-to-volume ratio has not been demonstrated. If we are unable to achieve
+the desired results with single large nozzles, a straight-forward scale-up if it
+works, whether to launch into the development of a multiple nozzle system will
+be considered. Mechanical and electronic design would become much more complex
+than working with a single nozzle.
+Computer contro] capacity - Concern was expressed regarding the computer
+capacity required to control the fluid jet drops at production speeds. We
+believe this potential problem area has been addressed by eliminating much of
+the flexibility that would be required in a conventional printing application
+and by hard wiring. It is not anticipated that computer capacity will be a
+problem in this system.

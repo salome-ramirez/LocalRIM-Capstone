@@ -1,0 +1,35 @@
+CiRCi CONTRACT . RESEARCH CENTER
+ANIMAL SHIPMENTS
+Project no .~ B
+I
+ANIMAL
+.
+SHIPMENT'~
+NO .
+I
+NUMBER OF
+ANIMALS
+EXPECT- ACTUAL
+TED
+DATE OF DATE OF
+ORDER !ARRIVAL
+i -
+AGE AT
+ARRIVAL
+(days)
+;,MEAN BODY
+. INITIALS i
+':WEIGHT WITHIN
+124 H AFTER ARRIVAL
+;
+(grams) j SD I APO
+(a)
+!2,c>
+ol 'br1,, ys ; f2~4r qi
+SI SE ~(
+~ 2 i~. ~ ~
+0
+Distribution : Project Management File
+------ ------------ ------- -
+(a) animal protection officer
+ses

@@ -1,0 +1,40 @@
+Art All/Pack
+
+3/13
+
+CALLBACK
+
+Merit Free (Art)
+265
+87 101 25
+13
+
+Next (Art)
+255
+75 89 23
+15
+
+Merit Free Ultra (Art)
+158
+48 15 9
+12
+
+- flavour low
+90
+23 7
+6
+
+- ultra low
+68
+17 2
+6
+
+Control Merit Free
+180
+51 13 18
+2
+
+How many Cultivar/Now
+N = 338
+
+* Reflects those promoters that did not want to continue with the stocky, they promoted less often their packs.

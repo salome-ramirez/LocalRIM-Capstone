@@ -1,0 +1,4 @@
+batch,status,documents,reviewed,skipped,valid,excluded,no_fit,unsure,unsure_share,secondary_share,non_english,resaved_docs,median_min_between_saves,first_saved,last_saved,dept_RND,dept_MKT,dept_AFF,dept_LEG,dept_ADM,dept_FIN,dept_QSH,"exclude_folder cover, no contents shown",exclude_blank or unreadable,exclude_Out of scope (HR)
+1,complete,100,99,1,92,7,0,31,0.313,0.859,6,3,0.73,2026-11-06T23:21,2026-11-07T19:07,24,19,18,9,8,8,6,3.0,3,1.0
+2,complete,100,99,1,95,4,0,31,0.313,1.0,2,4,0.6,2026-11-07T14:37,2026-11-07T19:07,18,27,16,9,11,7,7,0.0,3,1.0
+3,in progress,100,64,0,63,1,0,20,0.312,1.0,2,0,0.53,2026-11-07T18:04,2026-11-07T19:01,13,19,10,1,7,6,7,0.0,1,0.0

@@ -1,0 +1,30 @@
+Revised
+Timetable for Discount YAMS Proiect
+PHASE
+TIME
+DATE
+LOCATION ;
+Planning Meeting
+11 :00am-1 :30pm
+September 14
+New York
+Consumer Exploration
+9:00am-5:00pm
+October 5 & 6
+Chicago
+Idea Development
+9 :00am-5:00pm
+October 19 & 20
+Chicago
+Consumer Refinement
+9 :00am-5:00pm
+November 2 & 3
+Chicago
+Concept Optimization
+9 :00am-5:00pm
+November 16 &17
+Chicago
+Recommendation Meeting
+TBD
+December 1
+New York

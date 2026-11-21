@@ -1,0 +1,64 @@
+x1	y1	x2	y2	conf	text
+263.0	311.0	1042.0	344.0	100.0	RE: Draft letter to the editor, publication by Sun, Glantz et al
+262.0	384.0	1350.0	420.0	98.5	In their study, Sun et al1 investigated the question whether the β-adrenergic system is
+262.0	421.0	1373.0	453.0	99.0	involved in environmental tobacco smoke (ETS) induced etherosclerosis. Although not
+262.0	454.0	1363.0	487.0	100.0	mentioned in the article, this question is of vital importance to the validity of the animal
+263.0	488.0	1346.0	518.0	99.4	model used, because the involvement of the adrenergic system would suggest that the
+263.0	519.0	1411.0	552.0	99.2	model actually measures an artifact, i.e. the exposure related stress, and not a toxicological
+262.0	549.0	485.0	587.0	100.0	property of ETS.
+264.0	614.0	1391.0	647.0	100.0	"As a result of their study the authors conclude that ""Metoproiol did not protect against the"
+261.0	656.0	1321.0	691.0	99.8	effect of ETS on etherosclerosis, suggesting that the β -adrenergic system is not the
+262.0	694.0	1300.0	724.0	99.8	"mechanism of ETS-induced etherosclerosis."" However, the data presented in this"
+261.0	723.0	1389.0	757.0	99.9	publication do not allow the authors to draw this conclusion; in fact, the data indicate that
+264.0	758.0	879.0	788.0	98.6	the opposite conclusion is more likely to be true.
+261.0	818.0	1399.0	853.0	99.2	The authors report on a distinct reduction of arterial lesions in ETS exposed rabbits due to
+263.0	854.0	1335.0	884.0	98.9	"the continuous infusion of Metoproiol. They characterize this as ""slight...tendencies"
+262.0	883.0	1353.0	917.0	99.4	"(which) require some caution in interpreting our conclusion..."" without discussing the"
+261.0	916.0	933.0	948.0	99.1	magnitude of this interaction of ETS and Metoproiol.
+263.0	981.0	1385.0	1011.0	99.9	By the use of their evaluation model (general linear model) the authors could separate the
+261.0	1011.0	1330.0	1045.0	99.9	effect which was blockable by Metropoiol from the total effect. The article gives the
+261.0	1045.0	1353.0	1077.0	99.9	"statistical significance of this ""effect portion"" but fails to report its magnitude. A more"
+262.0	1076.0	1130.0	1109.0	99.7	informative presentation of their results with a split into the portions:
+356.0	1107.0	521.0	1141.0	99.9	- Diet effect,
+357.0	1140.0	1009.0	1173.0	99.7	"- ETS-independent, ""unspecific"" Metoproiol effect,"
+356.0	1172.0	991.0	1206.0	98.9	"- Metropoiol-blockable ETS effect (""interaction""),"
+358.0	1206.0	816.0	1232.0	99.8	- Non-blockable residual ETS effect
+262.0	1236.0	1416.0	1269.0	99.8	would be the following table (calculation with the same approaches used by the authors but
+260.0	1270.0	590.0	1310.0	100.0	with different software2).
+563.0	1339.0	711.0	1376.0	100.0	Pulmonary
+1063.0	1340.0	1170.0	1372.0	100.0	Arteries
+548.0	1374.0	726.0	1404.0	100.0	Artery Means
+1039.0	1374.0	1224.0	1401.0	100.0	Pooled Means
+258.0	1403.0	362.0	1438.0	100.0	Portion
+518.0	1402.0	762.0	1436.0	100.0	(Affected Area, %)
+837.0	1402.0	945.0	1438.0	100.0	p-Value
+1011.0	1405.0	1388.0	1436.0	98.2	(Affected Area, %) p-Value
+261.0	1467.0	401.0	1499.0	100.0	Diet Effect
+557.0	1464.0	627.0	1501.0	100.0	24.8
+837.0	1464.0	919.0	1500.0	100.0	0.001
+1064.0	1464.0	1130.0	1498.0	100.0	31.8
+1292.0	1464.0	1390.0	1500.0	100.0	<0.000
+262.0	1532.0	471.0	1565.0	99.5	"""Unspec"" Meto-"
+259.0	1560.0	428.0	1600.0	100.0	proiol Effect
+576.0	1559.0	627.0	1596.0	100.0	7.8
+837.0	1559.0	921.0	1595.0	100.0	0.422
+1080.0	1559.0	1132.0	1596.0	100.0	9.5
+1305.0	1559.0	1388.0	1595.0	100.0	0.225
+260.0	1626.0	492.0	1662.0	100.0	Metoproiol x ETS
+260.0	1662.0	401.0	1693.0	100.0	Interaction
+558.0	1657.0	629.0	1694.0	100.0	17.4
+836.0	1657.0	921.0	1693.0	100.0	0.215
+1080.0	1656.0	1132.0	1693.0	100.0	6.0
+1304.0	1656.0	1387.0	1693.0	100.0	0.589
+259.0	1723.0	439.0	1757.0	100.0	Residual ETS
+258.0	1755.0	345.0	1791.0	100.0	Effect
+576.0	1754.0	626.0	1790.0	100.0	8.3
+836.0	1753.0	921.0	1789.0	100.0	0.288
+1066.0	1753.0	1132.0	1788.0	100.0	13.4
+1305.0	1752.0	1387.0	1789.0	100.0	0.089
+261.0	1856.0	1395.0	1898.0	99.8	1Yi-Ping Sun, MD: Bo-qing Zhu, MD; Richard E. Sievers, BS; Stanton A. Glantz, PhD;
+1496.0	1870.0	1530.0	2066.0	100.0	2063832428
+276.0	1892.0	1405.0	1927.0	99.1	William W. Parmley, MD, Metoproiol Duess Not Attenuate Atheroscierosis in Lipid-Fed
+275.0	1925.0	1420.0	1958.0	99.8	Rabbits Exposed to Environmental Tobacco Smoke Circulation 1994; 89 S, P 2260-2264.
+259.0	1959.0	1372.0	1999.0	100.0	2GLM, SAS/STAT Users Guide, Version 6, Fourth Edition (1990), SAS Institute Inn,
+276.0	1995.0	411.0	2033.0	99.8	Cary, NC

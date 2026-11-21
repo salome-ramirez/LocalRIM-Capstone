@@ -1,0 +1,23 @@
+id,position,assigned_group,answer,reviewer_group,note,saved_at
+hzwf0006,1114,4,Wrong,2,Photo ad on a light background; brightness may have pulled it into group 4. Belongs in 2 Photographic ads.,2026-11-09T14:53:20
+jqjf0028,366,1,Correct,,Dot-matrix fax report with handwriting and a dark strip on the right edge; harder than typical group 1 but still a clean typed page.,2026-11-09T15:01:10
+mpwy0004,1233,4,Wrong,3b,Logo cover page (black block with large letters on white); closer to a graphic than a report or form. Possibly 3b.,2026-11-09T15:07:51
+lhkp0166,220,4,Wrong,3a,"Smudged folder cover; dark bands of scan noise over most of the page. Degraded scan, not a graphic.",2026-11-09T15:11:06
+pxdg0001,30,4,Wrong,3b,"Shaded chart (age by year) with legend; a graphic, not a report or form.",2026-11-09T15:16:13
+ppvn0086,47,1,Unsure,,"Clean scan, but a technical drawing with a title block, not typed text. Clean like group 1, graphic like 3b.",2026-11-09T15:20:10
+mnpp0120,215,1,Correct,,Clean typed form (INBIFO file index sheet) with a few handwritten entries; no scan noise.,2026-11-09T15:26:03
+hnxd0092,1017,1,Unsure,,"Clean scan, but mostly a bar chart with a typed header and caption. Clean like group 1, graphic like 3b.",2026-11-09T15:30:14
+yrhg0108,374,1,Correct,,Clean typed telex on white; dark speckle only along the edges.,2026-11-09T15:36:19
+zfpp0052,480,1,Correct,,,2026-11-09T15:40:13
+msgy0003,292,2,Correct,,"Photograph of a cardboard store display on a dark background; a photo ad, not a typed page.",2026-11-09T16:53:57
+zykg0006,720,2,Correct,,"Photograph of a billboard (colors inverted); a photo ad, not a typed page.",2026-11-09T17:06:04
+fjhn0003,600,2,Correct,,Photographed print ad (colors inverted).,2026-11-09T17:23:29
+jhmn0003,1310,2,Correct,,Photographed print ad (colors inverted).,2026-11-09T17:27:26
+gzkm0105,1225,3a,Correct,,Folder cover with a sideways label; heavy speckle and dark bands across the page.,2026-11-09T17:30:45
+ltwj0179,1132,3a,Correct,,Folder cover with a handwritten tab; heavy dark noise across the whole page.,2026-11-09T17:33:53
+khhj0109,833,3a,Correct,,Typed spec sheet with heavy smudging over the top half and dark edges.,2026-11-09T17:36:50
+lxdd0115,255,3a,Correct,,Typed org chart under heavy speckle across the whole page.,2026-11-09T17:59:33
+lpbw0090,665,3b,Unsure,,"Solid black folder cover with a white sideways label; dark but not noisy, and not a graphic. Fits no group cleanly.",2026-11-09T18:03:16
+qzwx0020,1160,3b,Wrong,3a,"Typed report with a solid black band across the top and heavy speckle down the right edge; degraded scan, not a graphic.",2026-11-09T18:08:35
+mzpv0017,1100,3b,Correct,,Printed ad illustration in high contrast black and white; a graphic.,2026-11-09T18:11:48
+nqvm0121,692,3b,Correct,,Printed ad with four coupons; high-contrast graphic.,2026-11-09T18:14:24

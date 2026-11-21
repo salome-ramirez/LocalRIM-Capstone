@@ -1,0 +1,40 @@
+- 48 -
+SUPERCAPACITORS AND ELDC'S FROM ENIGINERING INDEX
+1
+TI'. - SUPER .CAPACITOR'- A .NEW'BACK-UP POWER SOURCE .
+AU - ROWAND DOUGLAS
+OS- NEC Electronics
+SO - New Electbonics v 2&n 15 Jul 21 1987'p 17(NW'ELAC)
+LA - ENGLISH (EN)
+.
+DT - JA . (Journal Article)
+TC - A . (Applications)
+.
+AB - The super capacitor is a small-sized, non-polar high-capacitance electric double-layer
+capacitor.. It works by storing electric charges in an electric double-layer surface of activecar
+.bon and elctrolyte
+. The super capacitor occupies only 1/1100th the volume of an aluminum
+electrolytic capacitor of equivalent value, .but offerscapacitance up .into farad units, .enabling it
+to be used as .a back-uppower soureein electronic appliances or as the current source ftir ac-
+tuators and electromagnetic .valves.
+2'
+AE - 036334
+TI - IMPROV'ED. SELF-DISCHARGE CHARACTERISTICS OF'THE ELECTRIC DOUBLE
+LAYER CAPACITOR.
+.
+AU - SUZUKI TETSUO; KATSU KEITARO; OKAMOTO KOUICHI
+OS. - NEC, Tokyo ; Jpn
+SO - NEC Res Dcv n 82 Jul 1966 p 118-123 (NECRAU)
+LA - ENGLISH (EN)
+DT' - JA (Journal Article)
+TC - T (Theoretical); X (Ezpcrimcntal)
+AB - SeUf-discharge characteristics of the Super Capacitor have been improved by using amm
+ionpermeable : porousseparator of less porocity. The Super Capacitor is an electric doublee
+layer capacitor (EDLC) which has several pairs of carbon paste elcctrodes .separated by an ion
+permeable . separator soaked io a, dilute sulfuric acid electrolyte . The self-discharge current of
+the EDLC depends greatly on the pore volume of the separator and decreases with decreasing
+pore volume. Wheni the required backup current issmal0, such as 10' mu A or less, ., the self-
+discharge currcnt cannot .be ignored, and this capacitor's backup time capability for unexpected
+power shutdowns will be extended compared with former EDLC . As the cqpivalent scricssesiss
+tanceincreascs with, improvementt in self-discharge, this capacitor is suitable forbackup u'tiich
+requires a relatively small current over a long time . (Author abstract) 33 refs :

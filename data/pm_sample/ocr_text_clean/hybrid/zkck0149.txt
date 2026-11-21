@@ -1,0 +1,57 @@
+NMR IN BIOMEDICINE, VOL. 6, 000-000 (1994) Peter Hedera foi
+2D and 3D High Resolution Gradient Echo
+Functional Imaging of the Brain: Venous
+Contributions to Signal in Motor Cortex Studies
+E. M. Haacke,†§*, A. Hopkins, S. Lal,§ P. Buckley,¶ L. Friedman, H. Meltzer,1 P. Hedcra, ††
+R. Friedland,†† S. Kleln,‡ L. Thompson, D. Detterman, J. Tkach§§ and J. S. Lewin1
+†Mallinckrodt Iostitute of Radio:ogy, Washington University School of Medicine, 510 S. Kingshighway Bivd, St. Louis,
+MO 63l10, US^, Department of Anatomy, §Department of Physics, Department of Psychiatry, ††Alzheimer Center,
+Department of Psychology, and 11Departnent of Radiology, Čase Western Reserve University, Cleveland, OH 44106.
+USA. §§ Department of Radiology, Cleveland Clinic Foundation, Cleveland, OH 44106, USA
+Recent emphasis on high resolution gradient echo studies in functional imnging has led to the conclusion that
+there are likely three domains of response to the blood circulation in the brain when considering feld
+inhomogeneity effects of the venous blood pre- and during activation. The first is a coherent effect due to large or
+macroscopic vessels on the order of the size of the voxel (ca 200-500 um in most studles). These cnn lead to very
+Iarge signal changes (up to 100%). The second is at the venule level (ca 50–200 µum) and is associnted with smaller
+parenchymal changes (usually ca 10% or less). The third is at the capillary level and is associated with much
+smaller signal changes at 1.5 T and even up to 4 T. The actual signal changes depend on field strength and
+sequence design. In this paper, we present our experience in detecting the first two domalns with 2D and 3D
+gradient echo imaging at 1.5 T. We find that high resolution enables visualization of the larger small veins in
+motor cortex studies and that, on occasion, it is possible to sec the venule effects as well. We suggest a simple
+model to explain the large signal changes based on susceptibillty changes and partial volume effects.
+Comparisons of the functional imaging đata to this model and to MR angiographic studies are also shown as
+evidence of the venous sources of the susceptibility chages.
+Dedication in Memoriam of these modalitics. Multiple detector electrocncepha-
+lographic and magnctocnccphalographic systems are
+This paper is dedicatcd to Amos Hopkins. He was an now becoming available for rapid tempornl resolution
+untiring advocatc of MR functional imaging and its and, when registered with siructurai MRI, offer
+future rolc in ncurological rescarch. His understanding excellent opportunities for functional ncuroimaging.
+and depth of knowledge led to uniquc papers in this These EEG systems can achievc millisecond sampling
+arcn rclated to O17 imaging. diffusion imaging, and but suffer from the ill-posed naturc of the problem
+functional imaging. Amos was persistent and yet gentle since the local tissue conductivitics arc not known
+in his ways. His cnthusiasm and cnergy will be greatly (although MR may help overcome this problem).
+missed by all thosc who have interacted with him. MR perfusion/diffusion have bccn uscd with contrast
+agents’ to predict ccrebral blood flow using gradient
+ccho and echo-planar techniques:*These dynamic tech-
+niqucs are fast enough to allow tracer methods to be
+INTRODUCTION applied. Although T, changes werc initinlly the focus of
+contrast agents, T‡ agents such as clysprosium werc
+also cvaluated.9 Several papers clenrly showed the
+Functional ncuroimaging and its application to the dcpendence of thc signal changcs with oxygenation as a
+study of human mental processes (both in normal and function of the susccptibility.9.iº Flow itsclf has also
+discased states) is acknowlcdged as one of the most been used to measure functional imaging changcs.-u
+fundlamental and challenging aspects of current neuro- Thesc changes are usually quitc small in signal inten-
+scicncc rescarch.' Until rclativcly recently, this sity. The small signal changes havc generally required
+rescarch has relied predominantly on positron emission special processing methods when multiple 2D scans
+tomography and its associated radionuclide studics and have been acquired.
+on singlc photon cmission computed tomography. Our efforts have been directed toward understanding
+Thesc modalitics have indeed yicided valuable infor- the sources of thc signal changes using gralicnt ccho
+mation on mental functioning but are constrained by imaging. Stemming from thc usc of thcsc scqucnccs,
+technological shortcomings which include relativcly arguments have appeared that brain parcnchymal
+poor tcmporal (onc image pcr minute) and spatial changes arc casily secn at 1.5T and that percentage 8
+(50~100 mm³ voxcl size)² resolution. In addition, their changes can be quite large.'ª We proposed* that such
+reliance upon radioligands, while offering the distinct changes could only be due to larger vessels (i.c., thosc
+alvantage of being able to image a large group of on thc order of the voxcl sizc). Thc mechanism sug-
+chemical substanccs, also limits the general practicality gested was a simplc two-component molel that led to
+Author te whom correspondence sliould be addressed. dramatic changes in signal as the voxel size decreased
+C0C 0057. 318010110100 00 Raiual 00 722772 1002

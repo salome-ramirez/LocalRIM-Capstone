@@ -1,0 +1,41 @@
+x1	y1	x2	y2	conf	text
+874.0	384.0	1383.0	433.0	96.4	PHILIP MORRIS U.S.A.
+617.0	455.0	1709.0	507.0	98.5	INTEROFFICE CORRESPONDENCE
+960.0	529.0	1367.0	583.0	99.1	Richmond, Virginia
+245.0	702.0	327.0	753.0	100.0	To:
+531.0	705.0	755.0	753.0	99.9	D.B. Losee
+1646.0	713.0	1936.0	761.0	99.8	Date: 1/27/93
+519.0	763.0	1422.0	872.0	89.7	s.C. Deevi Seetaarama c. Deevi
+245.0	805.0	385.0	857.0	100.0	From:
+245.0	908.0	424.0	967.0	100.0	Subject:
+530.0	914.0	841.0	965.0	100.0	Weekly Report
+251.0	1021.0	2023.0	1082.0	99.9	1. Norton indicated their willingness to accelerate their delivery schedule on delivering blades
+245.0	1071.0	1974.0	1136.0	99.2	with thicknesses ranging from 0.015 mil to 0.030 ml. Norton also agreed to formulate our
+248.0	1133.0	712.0	1181.0	99.9	compositions, if needed.
+553.0	1174.0	705.0	1251.0	91.4	Ni3 Al
+246.0	1236.0	1909.0	1295.0	99.7	2. We received NiA13 from Oak Ridge National Lab. for evaluation as a possible heater
+244.0	1292.0	1897.0	1351.0	99.3	material. A small piece was given to Willie for obtaining heaters by EDM technique. I
+246.0	1347.0	2078.0	1405.0	98.4	suggested cutting of the material using a Mo wire as opposed to a brass wire since Mo wire has a
+246.0	1401.0	2015.0	1461.0	99.4	high strength and can cut faster without much damage to the material. Another small piece of
+247.0	1456.0	1934.0	1514.0	99.6	the material will be sent Stony Brook for depositing Zirconia and NiAl. We will also be
+247.0	1511.0	1586.0	1566.0	99.9	sending a small piece to Alabama for laser cutting of serpentine blades.
+246.0	1617.0	2054.0	1677.0	99.7	3. Temperature measurement data obtained on integral heaters with and without the cartridges is
+247.0	1673.0	548.0	1723.0	100.0	being analyzed.
+244.0	1777.0	1977.0	1840.0	100.0	4. Several heaters coated with nickel aluminide were pulsed during the last couple of weeks.
+244.0	1834.0	1975.0	1892.0	99.3	Heaters coated with 1 mil and 1.5 mil were pulsed at different energies to attain a maximum
+240.0	1877.0	2065.0	1953.0	98.3	temperature of 600C, 820℃, 10501150 C, and 1250C. Blades coated with 1 mil thick coating
+242.0	1937.0	2025.0	2002.0	98.5	survived 10,000 pulses at all the above temperatures except at 1150 ℃ and 1250C. In the case
+243.0	1989.0	2016.0	2058.0	99.4	of a blade heated to 1150℃, the blade survived for only 24 pulses, and a hot spot was noticed
+245.0	2051.0	2004.0	2109.0	99.1	after the third pulse. The blade broke into two pieces after the 24th pulse. The temperature at
+241.0	2099.0	1998.0	2163.0	99.3	the hot spot was more than 1250C. In the case of a blade heated to 1250℃, the blade twisted
+241.0	2153.0	2064.0	2219.0	99.2	and broke into two pieces after few pulses. Another blade was heated to 1250 C in a steady state
+243.0	2214.0	1941.0	2269.0	99.7	mode, and the blade exhibited creep behavoir in a minute, and showed intense hot spot for
+241.0	2268.0	1913.0	2324.0	99.4	several minutes before it broke into pieces within eight minutes. All these blades will be
+241.0	2323.0	912.0	2374.0	100.0	examined using several techniques.
+238.0	2424.0	2032.0	2484.0	99.7	Heaters coated with 1.5 mil coating also showed roughly the same features as the 1.0 mil blade.
+2110.0	2498.0	2181.0	2922.0	100.0	2020267378
+241.0	2532.0	1984.0	2587.0	99.8	A 1 mil blade coated and heat treated in argon has shown no signs of failure even after 6000
+238.0	2587.0	376.0	2638.0	99.7	pulses.
+238.0	2689.0	601.0	2739.0	100.0	Battery Evaluation
+240.0	2743.0	1972.0	2794.0	100.0	1. Testing with the nominal C/10 charging for NICd cells continues to go well, and the most
+237.0	2797.0	1485.0	2848.0	100.0	noteworthy points after 54 days are given in Fran's weekly report.

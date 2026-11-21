@@ -1,0 +1,74 @@
+x1	y1	x2	y2	conf	text
+1936.0	29.0	2445.0	148.0	75.8	Copay, handed toRB
+956.0	72.0	1614.0	126.0	99.5	PHILIP MORRIS U. S. A.
+746.0	154.0	1852.0	208.0	99.0	INTER-OFFICE CORRESPONDENCE
+2004.0	148.0	2244.0	237.0	92.2	at 3.40m
+2107.0	225.0	2427.0	302.0	83.4	on Mana 0.81
+1069.0	247.0	1520.0	293.0	97.3	RICHMOND, VIRGINIA
+102.0	422.0	173.0	469.0	99.9	To:
+403.0	423.0	835.0	474.0	97.9	Dr. T. Sanders
+1516.0	424.0	1625.0	467.0	100.0	Date:
+1695.0	426.0	2127.0	480.0	99.1	March 10, 1981
+100.0	523.0	208.0	567.0	100.0	From:
+406.0	525.0	806.0	578.0	100.0	Andrew Frisch
+100.0	622.0	274.0	668.0	99.9	Subject:
+401.0	628.0	2099.0	690.0	100.0	Evaluation of Cigarettes Containing WS-14 as an Additive
+523.0	788.0	2280.0	845.0	100.0	Two cigarettes as per your request have been evaluated for
+401.0	840.0	2223.0	896.0	99.7	pyrolysis products arising from the addition of WS-14. Each
+407.0	893.0	1930.0	946.0	98.9	cigarette employed in the study is described below:
+527.0	995.0	586.0	1040.0	100.0	1.
+635.0	992.0	2218.0	1044.0	99.9	Merit 85 with WS-14 7244-119B added to the filler at
+644.0	1043.0	1632.0	1097.0	99.7	a level of 3.1mg WS-14/cigarette.
+646.0	1092.0	1079.0	1146.0	100.0	IBM Code DOBMQ
+524.0	1196.0	574.0	1241.0	78.0	2.
+640.0	1190.0	2191.0	1250.0	100.0	Merit 85 with WS-14 7565-11 added to the paper at a
+645.0	1245.0	1573.0	1297.0	98.7	level of 5.5mg WS-14/cigarette.
+648.0	1297.0	1080.0	1344.0	100.0	IBM Code DOBMR
+636.0	1388.0	2283.0	1453.0	100.0	Merit 85 with no WS-14 added to either filler or paper
+525.0	1398.0	583.0	1444.0	100.0	3.
+646.0	1445.0	1079.0	1495.0	100.0	IBM Code DOFQM
+520.0	1544.0	2278.0	1595.0	98.8	No. 3 above or the control cigarette was used to establish
+406.0	1595.0	2251.0	1647.0	100.0	the background which was later subtracted from samples Nos. 1
+404.0	1645.0	2277.0	1700.0	98.9	and 2. All smokings were performed by Karen Barlow of Project
+404.0	1696.0	2249.0	1751.0	100.0	2525, and mass spectrometry services were provided by Project
+404.0	1747.0	2217.0	1801.0	99.7	O108. Analytical parameters, previously established by 2501
+401.0	1794.0	2193.0	1857.0	99.9	in the 14C-WS-14 studies, were used to obtain the following
+404.0	1854.0	640.0	1902.0	100.0	results.
+402.0	1954.0	593.0	2007.0	100.0	Sample
+1727.0	1951.0	2339.0	2002.0	100.0	Micrograms Delivered
+646.0	2007.0	900.0	2056.0	100.0	Compound
+976.0	1996.0	1641.0	2054.0	95.9	Absolute Values1 Ave
+1724.0	2002.0	2127.0	2054.0	100.0	Per Cigarette
+464.0	2012.0	499.0	2054.0	99.6	#
+1071.0	2055.0	1486.0	2106.0	95.5	delivered (ug)
+464.0	2107.0	502.0	2152.0	100.0	1
+580.0	2107.0	784.0	2156.0	100.0	Filler
+644.0	2157.0	804.0	2207.0	100.0	WS-14
+979.0	2156.0	1257.0	2207.0	100.0	50.2,56.4
+1516.0	2152.0	1648.0	2203.0	100.0	53.3
+1817.0	2152.0	1977.0	2205.0	100.0	213.2
+643.0	2209.0	805.0	2258.0	100.0	Amide
+1007.0	2208.0	1107.0	2257.0	100.0	0.1
+1546.0	2203.0	1648.0	2256.0	100.0	0.1
+1876.0	2204.0	1978.0	2256.0	100.0	0.4
+643.0	2261.0	863.0	2306.0	100.0	Nitrile
+977.0	2256.0	1347.0	2306.0	100.0	not detected
+463.0	2361.0	522.0	2407.0	100.0	2
+578.0	2360.0	745.0	2410.0	100.0	Paper
+641.0	2407.0	805.0	2456.0	100.0	WS-14
+981.0	2407.0	1256.0	2452.0	100.0	57.8,64.5
+1515.0	2402.0	1648.0	2452.0	100.0	61.2
+1817.0	2402.0	1978.0	2452.0	100.0	244.0
+2220.0	2398.0	2289.0	2677.0	100.0	126364
+641.0	2454.0	805.0	2507.0	100.0	Amide
+1007.0	2456.0	1345.0	2507.0	99.9	1.4,1.5,0.6
+1545.0	2450.0	1648.0	2503.0	100.0	1.2
+1874.0	2450.0	1981.0	2506.0	100.0	4.8
+641.0	2507.0	863.0	2555.0	100.0	Nitrile
+1005.0	2505.0	1228.0	2559.0	100.0	0.5,0.5
+1546.0	2501.0	1648.0	2553.0	100.0	0.5
+1874.0	2500.0	1981.0	2554.0	100.0	2.0
+644.0	2599.0	1709.0	2660.0	98.7	1For one quarter of a Cambridge pad
+517.0	2699.0	2193.0	2755.0	99.5	"The basic question, ""does the composition of mainstream"
+397.0	2748.0	2219.0	2808.0	100.0	pyrolysis products change as a result of moving the additive
+404.0	2802.0	2220.0	2852.0	99.8	"from the filler to the paper?"" has now been answered. While"

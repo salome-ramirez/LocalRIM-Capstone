@@ -1,0 +1,18 @@
+F 宁 FEB 1 6.2001
+DRAFT 7
+TOTAL EXPOSURE STUDY: DATA ANALYSIS PLAN
+PILOT STUDY
+1) Introduction
+2) Data Collection and Management
+3) Statistical Analyses
+a) Purpose
+b) Descriptive presentation of data
+日日 Descriptive statistics for selected questionnaire variables
+Descriptive Statistics of biomarkers of exposure and effect
+c) Statistical tests
+d) Dose-Response Relationships
+D日 Basic model
+Model refinement
+e) Subject Variability
+Intra-subject variability and inter-subject variability
+PM3006641100

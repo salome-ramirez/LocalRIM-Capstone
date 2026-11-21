@@ -1,0 +1,34 @@
+PROJECT AGREEMENT
+Consultant: Izar Associates, Inc.
+Consultant Project Manager: Larry Hendricks
+Address: 4 Emery Avenue
+City: Randolph State: NY Zip: 07869
+PMUSA Project Manager: Mark Cavone
+Address: 120 Park Avenue
+City: New York State: NY Zip: 10017
+In accordance with the terms of the Master Consulting Services Agreement between the
+parties (the “Master Agreement”) dated January 1, 1999, which terms are incorporated herein by
+reference, and this project agreement (the “Project Agreement”), Consultant will provide the
+services (the "Services") described herein. Capitalized terms not defined in this Project
+Agreement will have the meaning set forth in the Master Agreement.
+1. Services.
+(a) Consultant will provide consulting and technical analysis services to PM USA's
+Fulfillment department related to the development of specific computer programs to be used by
+PM USA for the fulfillment and/or tracking of merchandise to be offered to smokers 21 years of
+age and older (each such computer program, a “Project", and collectively, the “Projects”). Such
+services will include, but not be limited to, the following:
+(i) provide written requirements for computer program functionality for a
+Project, as designated by PM USA (the “Requirements");
+(ii) manage the development of functional specifications and computer code
+prepared by outside vendors designated by PM USA in accordance with
+the Requirements for use by PM USA on a Project;
+(iii) review outside vendor functional specifications and computer code as set
+forth in Paragraph 1 (a) (ii) to ensure that such functional specifications
+and computer code perform in accordance with the Requirements;
+(iv) manage the development of test plans for the functional specifications and
+computer codes prepared by outside vendors; and
+(v) review outside vendor test plans and test results to ensure that such test
+results are in compliance with the Requirements.
+Consultant will perform services pursuant to this Project Agreement at PM USA’s 2080690347
+facilities described above through Arlene Zalaznick (“Consultant's Employee"). Consultant's
+Employee will be regular full-time employee of Consultant. At no time will PM USA be deemed

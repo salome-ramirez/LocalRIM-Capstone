@@ -1,0 +1,327 @@
+Exptoitour / Exporiasur No. 35 12/34/
+3 CRC SPAL
+AV DU HEAGE 3 F
+1940 TAVHNT
+ Numero os reterence
+ Destnatare spon arcn
+TNBIFO
+UGGBASTRASSE
+10 8a,3 am 13 P.A C
+cosan 22000
+14 Osciarans Reoresencas 4 15  P. . 17 C P. i
+18
+EREA 
+wcovy
+ÁER
+ 19 Cu
+21 lonote et nanité ou my n  anpon ac trancesnt la tronbere 24 N  
+ifag an
+as L son 26 Mac• 27 Leu de chargemend
+à bon TAVENTEM
+29   L  
+3
+Homore e natuo 
+n APPAHETLS JOHTAMEDECTNE AUTRE
+
+hn H   
+37.M   20 Conxpedt
+
+VOC
+10100 
+carra
+2X3
+o
+
+Base a roos on Ep 1 4 Rlepon oe paormere
+CCUEES COPTABLES
+so Procca oc x0 S.gneure O BUREAU DE CEPART
+ Bu repréeenté car
+casusge
+y Uou ex cate
+4 2028717060
+2G Caco 2 Bureeu  an  paye
+OA UON
+noc
+CAM
+CVNAN2AI/9S
+ C6·1.1.E
+Dla (cate m):
+Storeture: mme
+Exemplaire pour l'expéditeur / l'exportateur
+
+9 Expéditeur / Exportateur No. 05 95
+CRC SPRL
+AVI DU PEAGE 11 10
+1940 ZAVENTEM
+
+3 Formules
+8 Articles
+7 Numéro de reference
+
+8 Destination No.
+TNBEFO
+FUSGBRSTRASSE
+D 5000
+
+9 Ressponse financier No.
+
+10 Pays premiers
+11 Pays transection
+12 P.A.C.
+
+14 Declarant/Representant No.
+TTEGLER EYNATTEN
+
+15 Pays de expédition / d'immigration ERI
+
+16 Pays d'origine
+
+17 Pays de destination RFA
+
+18 Identite et nationalité du moyen de transport au départ
+< AXPEQPQC
+
+19 Cou
+20 Conditions de transit
+
+21 Identite et nationalité du moyen de transport acal franchement la frontière
+< AX 250240
+
+22 Valeur de la nature
+004
+
+23 Nature de la variation
+
+25 Mode transport à la frontière
+
+26 Mode transport à la frontière
+
+27 Lieu de chargement
+ZAVENTEM
+
+30 Localisation des marchandises
+
+31 Marques et numéro / nom de marque et nature
+APPARETUS POCHT AMEDECINE AUTRE
+
+32 Arce
+33 Code des marchandises
+19 0000
+
+34 Code P. origine
+15
+
+35 Masse brute (kg)
+
+37 NEU ME
+10
+
+38 Masse necte (kg)
+
+40 Déclaration summaire Document precedent NEANT
+
+41 Codes supprimées
+
+FACT. INT. 14
+
+44 Vérification Documents procédus Certifications et laboratoires
+
+45 Calcul des impostions
+Type Base d'imposition Date Montant UP Report de paiement
+
+46 Certification de rentrapport
+
+50 Principale No. Signature:
+C BUREAU DE DEPART
+
+11 Bureau ce passage prévue (et pays)
+Représent par
+Lieu et case
+
+52 Garance non valuée pour
+Code
+
+53 Bureau de destination et pays
+
+D CONTROLE PAR LE BUREAU DE DEPART
+Requiset:
+Scanne apposée: Nombre:
+marques:
+Date (case annuée):
+Signature:
+
+12/34/90
+75 00019
+
+15 Pays de expédition / d'immigration ERI
+
+16 Pays d'origine
+
+17 Pays de destination RFA
+
+18 Identite et nationalité du moyen de transport au départ
+< AXPEQPQC
+
+19 Cou
+20 Conditions de transit
+
+21 Identite et nationalité du moyen de transport acal franchement la frontière
+< AX 250240
+
+22 Valeur de la nature
+004
+
+23 Nature de la variation
+
+25 Mode transport à la frontière
+
+26 Mode transport à la frontière
+
+27 Lieu de chargement
+ZAVENTEM
+
+30 Localisation des marchandises
+
+31 Marques et numéro / nom de marque et nature
+APPARETUS POCHT AMEDECINE AUTRE
+
+32 Arce
+33 Code des marchandises
+19 0000
+
+34 Code P. origine
+15
+
+35 Masse brute (kg)
+
+37 NEU ME
+10
+
+38 Masse necte (kg)
+
+40 Déclaration summaire Document precedent NEANT
+
+41 Codes supprimées
+
+FACT. INT. 14
+
+44 Vérification Documents procédus Certifications et laboratoires
+
+45 Calcul des impostions
+Type Base d'imposition Date Montant UP Report de paiement
+
+46 Certification de rentrapport
+
+50 Principale No. Signature:
+C BUREAU DE DEPART
+
+11 Bureau ce passage prévue (et pays)
+Représent par
+Lieu et case
+
+52 Garance non valuée pour
+Code
+
+53 Bureau de destination et pays
+
+D CONTROLE PAR LE BUREAU DE DEPART
+Requiset:
+Scanne apposée: Nombre:
+marques:
+Date (case annuée):
+Signature:
+
+12/34/90
+75 00019
+
+15 Pays de expédition / d'immigration ERI
+
+16 Pays d'origine
+
+17 Pays de destination RFA
+
+18 Identite et nationalité du moyen de transport au départ
+< AXPEQPQC
+
+19 Cou
+20 Conditions de transit
+
+21 Identite et nationalité du moyen de transport acal franchement la frontière
+< AX 250240
+
+22 Valeur de la nature
+004
+
+23 Nature de la variation
+
+25 Mode transport à la frontière
+
+26 Mode transport à la frontière
+
+27 Lieu de chargement
+ZAVENTEM
+
+30 Localisation des marchandises
+
+31 Marques et numéro / nom de marque et nature
+APPARETUS POCHT AMEDECINE AUTRE
+
+32 Arce
+33 Code des marchandises
+19 0000
+
+34 Code P. origine
+15
+
+35 Masse brute (kg)
+
+37 NEU ME
+10
+
+38 Masse necte (kg)
+
+40 Déclaration summaire Document precedent NEANT
+
+41 Codes supprimées
+
+FACT. INT. 14
+
+44 Vérification Documents procédus Certifications et laboratoires
+
+45 Calcul des impostions
+Type Base d'imposition Date Montant UP Report de paiement
+
+46 Certification de rentrapport
+
+50 Principale No. Signature:
+C BUREAU DE DEPART
+
+11 Bureau ce passage prévue (et pays)
+Représent par
+Lieu et case
+
+52 Garance non valuée pour
+Code
+
+53 Bureau de destination et pays
+
+D CONTROLE PAR LE BUREAU DE DEPART
+Requiset:
+Scanne apposée: Nombre:
+marques:
+Date (case annuée):
+Signature:
+
+12/34/90
+75 00019
+
+15 Pays de expédition / d'immigration ERI
+
+16 Pays d'origine
+
+17 Pays de destination RFA
+
+18 Identite et nationalité du moyen de transport au départ
+< AXPEQPQC
+
+19

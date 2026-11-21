@@ -1,0 +1,37 @@
+x1	y1	x2	y2	conf	text
+777.0	611.0	1587.0	665.0	100.0	PHILIP MORRIS EUROPE
+790.0	745.0	1574.0	794.0	100.0	RESEARCH & DEVELOPMENT
+748.0	867.0	1623.0	922.0	100.0	Inter-Office Correspondence
+301.0	1067.0	382.0	1107.0	100.0	To:
+560.0	1065.0	993.0	1105.0	100.0	Distribution list
+302.0	1141.0	432.0	1182.0	100.0	From:
+559.0	1139.0	832.0	1176.0	100.0	Renaud-J.M.
+301.0	1217.0	430.0	1253.0	100.0	Date:
+557.0	1211.0	918.0	1255.0	99.8	August 6, 1993
+303.0	1285.0	1272.0	1334.0	99.2	Subject: MH-30 inter-laboratory study
+302.0	1420.0	1625.0	1470.0	99.3	cc: E.B. Sanders / R. Ferguson (Richmond) / J. Babey
+300.0	1553.0	1523.0	1596.0	100.0	Distribution : C. Copple, Universal Leaf Tobacco
+684.0	1600.0	1248.0	1640.0	99.2	B. Gerstenberg, INBIFO
+685.0	1643.0	1250.0	1683.0	97.4	R. Davis, R&D Richmond
+685.0	1689.0	1320.0	1726.0	96.6	A. Schroth, R&D Neuchâtel
+303.0	1831.0	541.0	1867.0	100.0	OBJECTIVE
+301.0	1897.0	1978.0	1945.0	100.0	To carry out an interlaboratory comparison of the determination of
+300.0	1942.0	2004.0	1990.0	99.9	MH-30 by HPLC [1] and to compare HPLC figures with results obtained
+301.0	1989.0	1442.0	2032.0	98.1	by the standard colorimetric method ISO-4876.
+304.0	2135.0	969.0	2169.0	99.6	PARTICIPATING LABORATORIES
+300.0	2199.0	1693.0	2250.0	100.0	The following five laboratories took part to the study:
+350.0	2270.0	1352.0	2316.0	98.9	PM-USA1 (CPA laboratory) : HPLC method
+352.0	2339.0	833.0	2385.0	97.9	PM-USA2 (S.S. Yang)
+1064.0	2344.0	1350.0	2382.0	100.0	HPLC method
+352.0	2412.0	592.0	2453.0	100.0	PM-Europe
+1065.0	2413.0	1350.0	2451.0	100.0	HPLC method
+350.0	2479.0	925.0	2521.0	100.0	Universal Leaf Tobacco
+1064.0	2483.0	1350.0	2521.0	100.0	HPLC method
+304.0	2552.0	514.0	2589.0	99.5	- INBIFO
+998.0	2552.0	1275.0	2592.0	97.5	: ISO-4876
+2146.0	2600.0	2217.0	2968.0	100.0	2501231953
+305.0	2766.0	489.0	2800.0	100.0	SAMPLES
+300.0	2826.0	1954.0	2883.0	99.7	Tobaccc samples containing MH-30 at five different levels ranging
+303.0	2874.0	1854.0	2924.0	99.9	from 40 to 170 ppm were selected. For each level, 6 replicate
+302.0	2917.0	1979.0	2968.0	100.0	analyses were carried out. Tobaccos were analyzed over two days as
+302.0	2961.0	1593.0	3010.0	98.4	described in the note accompanying the samples [2].

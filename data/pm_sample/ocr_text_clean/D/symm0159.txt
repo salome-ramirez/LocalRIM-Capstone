@@ -1,0 +1,49 @@
+Certificate of Analysis
+
+1. Identification
+
+CAS Number: Catalogue Number: M325700
+
+Product: 4-(N-Methyl-N-nitrosamino)-4-(3-pyridyl)-1-butane-1-ol
+
+Synonyms: (iso-NNAL)
+
+Structure:
+
+Molecular Formula: C10H15N3O2
+
+Molecular Weight: 209.25
+
+Source of Product: Synthetic
+
+2. Analytical Information
+
+Lot Number: 2-RWR-145-1
+
+Malting Point: N/A
+
+Boiling Point: N/A
+
+Atmosphere: Air
+
+Appearance of Product: amber oil
+
+Solubility: CHCl3
+
+Method for Determining Identity: nmr spectroscopic analysis, and tlc
+
+Stability: Expires 1/13/03
+
+Purity: estimated to be greater than 98%
+
+Recommended Storage Conditions: Freezer
+
+Additional Information:
+ttc conditions: SiO2; CHCl3; MeOH 4:1, Visualized with UV; Rf=0.47, single spot
+1H-nmr conforms to structure
+
+120 mg left in stock
+
+Stephen P. Douglas, Ph.D.
+
+January 13, 2000

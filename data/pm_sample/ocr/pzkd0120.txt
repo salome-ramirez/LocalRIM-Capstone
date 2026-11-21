@@ -1,0 +1,47 @@
+PARK 500 COOLING TOWER EVALUATION
+July 1992
+LINE I TOWERS
+TOWER _ CONDITION RECOMMENDATION
+HVAC Tower 1. Louvers have deteriorated Replace with stainless steel
+10-059
+2. Fan blades appear cracked Die check and replace if
+necessary
+1. Grated covers permit foreign material Replace grating with solid hinged
+into distribution basin covers
+2. Distribution nozzles are partially
+plugged
+Evaporator Tower
+21-107
+Clean and replace nozzles as
+required
+3. Inside fill is partially plugged
+Clean or replace fill as required
+4. Fan guards have deteriorated
+Replace guards with mild steel
+5. South distribution basin is not
+accessible
+Install access ladders
+6. Open roof drains between towers are
+unsafe
+Cover with grating
+7, Basin pans have badly deteriorated
+Evaporator Tower
+21-009
+1. Grated covers permit foreign material
+into distribution basin
+2. Distribution nozzles are partially
+plugged
+Replace grating with solid hinged
+Blast & coat, or replace as
+required
+covers
+Clean and replace nozzles as
+Tequired
+3. Inside fill is partially plugged
+Clean or replace fill as required
+4. Fan guards have deteriorated
+Replace guards with mild steel
+5. South distribution basin is not
+accessible
+Install access ladders
+2030656081

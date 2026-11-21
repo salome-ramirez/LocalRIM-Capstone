@@ -1,0 +1,18 @@
+5716SS1 V3R7M0 961108 COPY FILE QS36F/J5799GR J5799RST 11/11/97 13:07:10 Page 1
+
+From file : QS36F/J5799GR Member : J5799RST Record format : J5799RST
+Record length : 600
+To file : *PRINT
+
+RCDNBR *...+...1 ...+...2 ...+...3 ...+...4 ...+...5 ...+...6 ...+...7 ...+...8 ...+...9 ...+...0
+
+989002 2590300936566757MR DAVIER A MOLINA
+B
+9 262 25903109365667562590320936566755
+970426TEAM BEACH TONEL. 4916544
+
+P C10 1 A H
+
+1 records copied to member or label *N in file QSYSPRT in library QSYS. 1012699 records excluded.
+
+***** END OF COMPUTER PRINTOUT *****

@@ -1,0 +1,40 @@
+x1	y1	x2	y2	conf	text
+706.0	481.0	1490.0	539.0	100.0	Draft for discussion purposes only
+710.0	691.0	2731.0	766.0	99.9	Studies to be performed by John Hearn Neal Nunnally and Dawn
+711.0	767.0	1791.0	832.0	100.0	Anderson on 11/5/2003 at Ashland
+715.0	891.0	1018.0	965.0	100.0	Objective
+707.0	977.0	2710.0	1040.0	99.0	To investigate smoking topography of K series EHCSS and Mariboro Lights (MLs) with
+711.0	1043.0	2729.0	1098.0	99.6	CreSSmicro measurement device and to examine variability in measurement between dry
+709.0	1105.0	1816.0	1165.0	100.0	air and particulate (smoke). Using 2 second puff.
+715.0	1283.0	1007.0	1348.0	100.0	Materials
+711.0	1405.0	1015.0	1474.0	100.0	Cigarettes
+707.0	1488.0	1614.0	1546.0	100.0	ML to be supplied by Sensory Research
+707.0	1547.0	1689.0	1609.0	97.8	K series EHCSS to be supplied by Ashland
+715.0	1666.0	1523.0	1722.0	100.0	CreSSmicro device Series 2
+707.0	1746.0	1537.0	1808.0	100.0	To be supplied by Sensory Research
+709.0	1861.0	1279.0	1927.0	98.5	Setting scale factor
+711.0	1945.0	2628.0	2004.0	97.8	Set scale factor using 50- 80cc (1 sec 50cc square and 1/2 sine wave puffs on smoking
+708.0	2006.0	1613.0	2066.0	100.0	machine puff), check with 30 and 80ml.
+717.0	2125.0	1014.0	2190.0	100.0	Variables
+707.0	2208.0	2515.0	2266.0	99.9	Puff Volume (Particulate=35, 60, 85 Air=20, 35, 40, 50, 60, 85, 100), Cigarette
+706.0	2268.0	2679.0	2335.0	99.7	Smoke(CS, with or without), Puff Profile (sine, square of ½ triangle), Cigarette (ML or
+707.0	2334.0	2593.0	2392.0	99.1	K), Number of CreSS devices (3), Number of Cigarettes, Threshold setting (factory
+707.0	2396.0	984.0	2460.0	100.0	setting=20).
+707.0	2509.0	1418.0	2580.0	100.0	Topography Parameters
+704.0	2592.0	2687.0	2656.0	99.4	Puff Volume (PV), Puff Duration (PD), Peak Flow (PF), Puff Number (PN), Inter-Puff-
+706.0	2658.0	1587.0	2717.0	99.2	Interval (IPI)= 28 seconds (2scc puff).
+1579.0	2814.0	1776.0	2922.0	53.2	0C
+717.0	2898.0	1379.0	2965.0	99.5	Questions of interest
+793.0	2979.0	2640.0	3046.0	99.2	1. How accurately does the device measure topography parameters (PV, PD, PF,
+870.0	3042.0	992.0	3108.0	100.0	PN).
+1166.0	3054.0	1317.0	3132.0	59.8	?vol
+791.0	3108.0	1892.0	3171.0	98.4	2. Below what point can puffs not be measured
+791.0	3172.0	1840.0	3233.0	95.7	3. Do measurement ameng between devices
+790.0	3232.0	2673.0	3293.0	99.6	4. Do measurements differ according to whether air or CS is used- is this linear or
+876.0	3299.0	1393.0	3352.0	100.0	nonlinear with volume
+792.0	3360.0	2239.0	3416.0	99.8	5. Does the type of smoke (EHCSS or MLs) make a difference
+792.0	3423.0	1870.0	3481.0	98.9	6. Do measurements change with puff number
+709.0	3662.0	1479.0	3718.0	99.0	A. Livermore November 5 2003
+2581.0	3949.0	3109.0	4023.0	100.0	PM3006474472
+2759.0	4055.0	3158.0	4120.0	100.0	3006474472
+204.0	4236.0	509.0	4284.0	99.5	3006474472

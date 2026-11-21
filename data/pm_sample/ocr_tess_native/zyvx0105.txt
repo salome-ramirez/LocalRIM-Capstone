@@ -1,0 +1,25 @@
+N
+N
+2
+FORM 46.KW 84 ERO/MWO MwO25 B28
+ÜBERPRÜFUNG DURCH QA-UNIT
+TITEL: 21-Day Inhalation Study with Sidestream Cigarette Smoke of Standard Reference
+Cigarette 2R1 on Rats
+CO Concentration: 5, 16 and 50 ug/l (PT)
+UBERPRUFTER PARAMETER: Subprotocol AC
+PRUFZEITPUNKT: vor Ausgang des Subprotocols
+VERTEILER: UHA, DPR, MSP, ATE, QA
+bOesPpss202
+KONSEQUENZ
+P 0500/3114
+KENNINISNAHME DURCH
+PROQJEKTLEITER: DPR a
+ASSISTENTPROJEKTLEITER: APE“ 7% #7.
+TEAMLEITER AC: MSP 2C/ ee
+DATUM/ZN: 24May 80 Fy ||
+|
+UHA, DaTUM/zN4. Juni 4720
+sha
+UO - Bunyosiog ayosiBojolg 4N} INSU! OFIGNI
+BEMERKUNGEN
+23.Mai 85

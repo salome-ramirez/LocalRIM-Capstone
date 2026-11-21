@@ -1,0 +1,36 @@
+V RESTRICTED
+“ PROJECT TTL: Bilogeal Effects of Smoke DISTRIBUTION
+PROJECT LEADER: G.M. Nixon
+PERIOD COVERED : July, 1991
+I, SALMONELLA/MICROSOME (S/M) ASSAY (D. Stagg)
+A. Objective: To test the biological activity of experimental CSCs and other pertinent
+materials.
+B. Results: Twenty-eight CSCs were tested this month in support of the Cross Soluble
+Base Web studies. Also two pure compounds were analyzed.
+C. Plans: Complete ongoing studies and document all results in appropriate memos.
+Continue to test samples for biological activity as they become available. Contime
+to evaluate the “screening” assay protocol as it is currently being performed.
+D. References:
+Jones, R. Notebook No. 8769, p. 141.
+Stagg, D. Notebook No. 9110, p. 125.
+IL 3T3 CELL BIOCHEMICAL STUDIES (G. Nixon)
+A. Objective: To investigate the induction of (putative) heme oxygenase (HO) in 3T3
+cells under various conditions.
+B. Results: 3T3 whole cell extraction experiments were performed in a continuing
+investigation of the induction of (putative) HO. Experiments testing the effects of
+buthionine sulfoximine (BSO) pretreatment followed by 12-O-tetradecanoyiphorbol-
+13-acetate (TPA) or sodium arsenite treatment were repeated using both a 2-hour
+[35S] methionine labeling period as in previous experiments, and a 30-minute
+labeling period. For the longer labeling period, results were similar for both TPA
+the two compounds. TPA treatment resulted in a rapid increase in a 32kD protein
+(putative HO), with a corresponding decrease in actin levels. The response to
+arsenite in the short label protocol was minimal. Cycloheximide (CHX) was used to
+inhibit protein synthesis in two different protocols using a short labeling period.
+Results paralleled those seen for previous experiments using a two-hour labeling
+period. Finally, an experiment testing the effects of several inhibitors of protein
+kinase C was repeated using the short and long labeling periods. Results are not yet
+available for this experiment,
+C. Plans: 3712 cells (transformed 3T3 cells) will be tested for HO induction using the
+same experimental protocols which were used for 3T3 cells.
+C91-04121
+ISEELTZ202

@@ -1,0 +1,8 @@
+group,questions,found_in_top_8,found_first,cited_a_relevant_record,declined_wrongly,correctly_declined,median_seconds
+all answerable,14.0,13.0,10.0,12.0,1.0,,
+client,9.0,9.0,6.0,8.0,0.0,,
+handwritten,2.0,2.0,2.0,2.0,0.0,,
+no shared words,1.0,0.0,0.0,0.0,1.0,,
+several records,2.0,2.0,2.0,2.0,0.0,,
+not in archive,1.0,,,,,1.0,
+time,,,,,,,18.8

@@ -1,0 +1,9 @@
+block	par	line	left	top	width	height	conf	text
+1	1	1	925	1776	101	25	92.0	SURGEON
+1	1	1	1039	1777	114	25	53.0	SENERAL'S
+1	1	1	1164	1779	108	24	61.0	WARNING:
+1	1	1	1284	1779	86	30	94.0	Cigarette
+1	1	2	925	1812	77	24	91.0	Smoke
+1	1	2	1020	1813	107	24	82.0	Conigins
+1	1	2	1146	1813	81	25	76.0	Carbon
+1	1	2	1246	1815	124	25	92.0	Monoxide.

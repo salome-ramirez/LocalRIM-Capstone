@@ -1,0 +1,57 @@
+x1	y1	x2	y2	conf	text
+937.0	105.0	1592.0	163.0	99.1	PHILIP MORRIS U. S. A.
+732.0	190.0	1829.0	244.0	97.2	INTER-OFFICE CORRESPONDENCE
+1052.0	283.0	1498.0	327.0	98.7	RICHMOND,VIRGINIA
+1645.0	337.0	2390.0	436.0	100.0	RESTRICTED DISTRIBUTION
+93.0	454.0	162.0	497.0	99.8	To:
+1496.0	455.0	1602.0	499.0	100.0	Date:
+331.0	471.0	762.0	524.0	99.9	Dr. E. B. Sanders
+1656.0	474.0	1987.0	534.0	99.4	June 11, 1985
+93.0	555.0	197.0	595.0	99.7	From:
+330.0	573.0	690.0	624.0	99.9	A. H. Warfield
+91.0	653.0	262.0	698.0	100.0	Subject:
+332.0	675.0	1932.0	736.0	99.9	TRIP REPORT -- CONFERENCE ON ORGANIC AND BIOLOGICAL CHEMISTRY OF
+332.0	728.0	1983.0	789.0	99.3	CARCINOGENIC AND CARCINOSTATIC AGENTS CONTAINING NITROGEN-NITROGEN
+332.0	784.0	1641.0	838.0	99.8	BONDS; HARPERS FERRY, WEST VIRGINIA, MAY 17-21, 1985
+454.0	984.0	2338.0	1050.0	99.9	The above meeting was held at the Cliffside Inn just outside of Harpers
+329.0	1035.0	2343.0	1105.0	98.5	Ferry. Approximately 100 people were in attendance. Most of these are employed
+334.0	1088.0	2340.0	1156.0	99.7	in universities and research institutes, with a few from government, and very
+331.0	1141.0	2340.0	1204.0	98.9	few from industry. In effect, it was an international meeting, since there were
+330.0	1192.0	2327.0	1254.0	99.5	as many countries represented as for the Banff meeting on nitrosamines in 1983.
+334.0	1245.0	2339.0	1304.0	99.5	In fact, many of the principal people in nitrosamine research in the world were
+336.0	1296.0	483.0	1343.0	100.0	there.
+455.0	1394.0	2333.0	1457.0	99.8	There were three full days of oral presentations, and one evening of poster
+334.0	1445.0	2329.0	1508.0	98.4	sessions. There were papers on various aspects of the chemistry, metabolism,
+335.0	1496.0	2333.0	1557.0	99.1	and biological activity of nitrosamines and a number of related classes of
+335.0	1548.0	1964.0	1607.0	99.3	compounds. The papers were all presented in single sessions.
+2033.0	1554.0	2329.0	1605.0	99.7	The overall
+335.0	1596.0	1808.0	1662.0	99.0	quality of the papers was excellent, with a few exceptions.
+455.0	1698.0	2337.0	1765.0	100.0	There were no abstracts or preprints available. Consequently, the only
+339.0	1754.0	2333.0	1813.0	98.5	information on most of the papers is the notes I took, and some of the speakers
+335.0	1802.0	2335.0	1865.0	99.6	covered the material very rapidly. This was due to the fact that they were only
+335.0	1854.0	2338.0	1912.0	98.6	expecting about 30 papers, and had planned to allow 20-25 minutes for each. The
+337.0	1905.0	2333.0	1962.0	99.8	large number of papers accepted forced the limitation of the presentations to 12
+333.0	1953.0	2333.0	2013.0	98.7	minutes. However, I was able to still get a lot of useful information which I
+335.0	2003.0	1606.0	2061.0	99.9	have summarized below in the order of presentation.
+453.0	2101.0	2342.0	2167.0	99.2	S. S. Hecht (AHF): Chemistry, DNA binding, and carcinogenesis of TSNA and
+335.0	2153.0	2336.0	2216.0	99.2	related model compounds. NDMA, NNN and NNK were bioassayed in F344 rats for
+335.0	2205.0	2334.0	2265.0	98.8	tumorigenicity. NNK was more potent than NDMA. The annual exposure of snuff
+335.0	2253.0	2335.0	2317.0	98.2	dippers to NNK is 0.3 mmol/Kg. The relative rate of methylation of DNA was
+331.0	2307.0	2337.0	2366.0	98.9	measured by HPLC/fluorescense. DMNA methylates DNA faster than does NNK. O-6
+331.0	2356.0	1477.0	2416.0	98.4	Methyl guanine was the compound measured.
+1558.0	2362.0	2341.0	2417.0	99.9	Obviously, other factors are
+338.0	2405.0	2332.0	2465.0	99.8	involved, since the results of the DNA methylation studies do not correlate with
+334.0	2454.0	2333.0	2518.0	98.5	the biological results. Pyridyl oxobutylation gives an intermediate which is
+333.0	2506.0	2326.0	2564.0	98.5	mutagenic. The adduct was isolated and identified -- a deoxyguanosine adduct.
+331.0	2553.0	2335.0	2615.0	98.7	A Deoxycytidine adduct was also isolated in 10% yield. NNN adducts with DNA
+330.0	2606.0	2337.0	2667.0	97.9	were also found -- there were 5'- and 2'- adducts. Keto nitrosourethanes are
+334.0	2660.0	1950.0	2720.0	99.9	potent mutagens, but aldehyde-nitrosourethanes are non-mutagenic.
+1946.0	2728.0	2033.0	2777.0	100.0	NO
+684.0	2777.0	764.0	2840.0	99.5	NH
+371.0	2807.0	863.0	2970.0	79.9	NYNY?
+1221.0	2827.0	1293.0	2875.0	99.7	HO
+302.0	2903.0	404.0	2995.0	97.2	hd
+1910.0	2914.0	2379.0	3021.0	86.1	0518
+1211.0	2979.0	1287.0	3032.0	99.9	HO
+712.0	3024.0	1243.0	3080.0	100.0	DEOXYGUANOSINE ADDUCT
+1434.0	3034.0	1930.0	3086.0	100.0	KETO-NITROSOURETHANE

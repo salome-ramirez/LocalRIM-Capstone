@@ -1,0 +1,10 @@
+CHEMICAL / PHYSICAL DETERMINATIONS
+
+| Component/Parameter | Frequency | Reason | Method/Principle | Calibration | Remarks |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| TPM | at least once daily | main dose parameter | gravimetry | standard weights | glass fiber filter |
+| particle size | 3 times (monthly) | deposition probability | precipitation in a centrifugal field, migration in an electrostatic field | monodispers Latex spheres | aerosol centrifuge scanning mobility particle sizer, establishment in process |
+| nicotine | once per week | main pharmacologically active component | capillary gas chromatography | certified pure substances | trapping on sulfuric acid-coated silicagel |
+| CO | continuously during exposures | inert concentration indicator | non-dispersive IR light absorbion | certified calibration gas | after removing particles |
+| NO/NOx | once per week | | chemoluminescence | certified calibration gas | after removing particles, only relevant for sidestream smoke |
+| aldehydes | once per week | main irritants | HPLC | certified pure substances | after trapping in dinitrophenylhydrazine solution |

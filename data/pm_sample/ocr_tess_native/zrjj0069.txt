@@ -1,0 +1,59 @@
+Basic B8G2F
+MIDAS Order Sheet:
+Basic
+B8G2F
+Displays
+Deal Code:
+pest
+Product
+DISPLAY
+BACKUP
+FF KS
+BOX
+FF 100
+BOX
+LTSKS | LT 100
+BOX BOX
+99999
+48630
+48640
+48650 48660
+Section 11
+Section 12
+&
+e
+23
+76
+Section 13
+16
+Section 14
+125
+Section 21
+Section 22
+Section 23
+-
+62
+287
+185
+79
+tyr,
+f
+” 155]
+Section 32
+Section 33
+Section 35
+Section 36
+134
+127
+140
+29
+Section 42
+Sectlon 43
+Sectlon 44
+Section 45
+! E
+Sectlon 51
+Section 52
+Section 53
+2081089202
+Page 1

@@ -1,0 +1,48 @@
+2000 Time Magazine
+Marlboro Schedule (Assumes every 3rd week)
+By Issue Date (On-Sale 5 days Prior)
+
+JAN
+FEB
+MARCH
+APR
+MAY
+JUNE
+JULY
+AUG
+SEPT
+OCT
+NOV
+DEC
+
+BC (9)
+CSP (5)
+2CP1 /Pages 2-3
+STU's
+
+3 17 24 31 7 14 21 28 6 13 20 27 3 10 17 24 1 8 15 22 29 6 12 19 26 3 10 17 24 31 7 14 21 28 4 11 18 25 2 9 16 23 30 6 13 20 27 4 11 18 25
+
+BC 1/24
+BC 3/27
+BC 5/8
+BC 5/29
+BC 6/19 BC Company/7SP
+BC 7/24
+BC 9/11
+BC 10/30
+BC 12/11
+
+CSP 1/31
+CSP 2/28
+Miles 5/22 SP
+Miles 6/8 SP
+CSP 8/14
+CSP 9/25
+CSP 11/20
+
+2CP1 2/14
+4/17 2CP1 RC
+Miles 6/12
+Miles 7/10
+SP 8/20
+SP 10/16

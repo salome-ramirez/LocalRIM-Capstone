@@ -1,0 +1,2 @@
+variant,pages,classifier_top1,rag_top1,classifier_top2,rag_top2,agrees_with_classifier_first,cites_a_source,seconds_per_page
+C,194,0.639,0.706,0.851,0.866,0.706,1.0,5.31

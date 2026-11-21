@@ -1,0 +1,67 @@
+PROJECT"SUMMARY REPORT
+NO. -/1234 TITLE 42 d-inhalation study on rats with continuous
+and intermittent smoke exposure
+PART 4: Histopathology
+DATE Ju1y 27, 1977 FINAL X
+INTERIM
+EXPERIMENT
+Comparison of smoke inhalation in long daily sessions, smoke dilu-
+tion 1:123 (continuous exposure) and several short exposures with
+intermittent pauses, smoke dilution 1:23, both types delivering
+similar "daily TPM doses".
+Cigarette x6d3ru (net); 4o male rats in the control group and 5
+6o in each dose group; exposures on 42 consecutive days;
+GROUP DAILY SMOKE TPM NICOTINE CO DAILY
+EXPOSURE CONCEN- CONCEN- CONCEN- CONCEN- TPM "DOSE"
+TRATION TRATION TRATION TRATION
+(min) (%) (mg/1) (μg/1) (ppm) (min x mg/1)
+O-GR 420 sham 0 0 0 0
+control
+1-GR 210 0.81 0.66 57 297 138
+2-GR 420 0.81 0.63 54 300 263
+3-GR 4×10 4.35 3.56 238 1732 142
+4-GR 4×20 4.35 3.84 267 1717 307
+Resting periods between exposures were 5o and 1oo min for
+3-GR and 4-GR; dissections after 14, 21, 28, 35 and 42 d.
+p.t.o.
+DISTRIBUTION REFERENCES 2062554720
+DROS -/1234, PART 1 to 4
+DRRY -/1234, Supplement: Histopathology
+DRHA
+SPECIAL FILE
+FILE
+PROJECT "SUMMARY" REPORT
+
+NO. -/1234 TITLE 42 d-inhalation study on rats with continuous and intermittent smoke exposure
+PART 4: Histopathology
+
+DATE July 27, 1977 FINAL X
+INTERIM □
+
+EXPERIMENT
+
+Comparison of smoke inhalation in long daily sessions, smoke dilution 1:123 (continuous exposure) and several short exposures with intermittent pauses, smoke dilution 1:23, both types delivering similar "daily TPM doses".
+Cigarette x6d3ru (net); 40 male rats in the control group and 60 in each dose group; exposures on 42 consecutive days;
+
+GROUP DAILY EXPOSURE (min) SMOKE CONCENTRATION (%) TPM CONCENTRATION (mg/l) NICOTINE CONCENTRATION (µg/l) CO CONCENTRATION (ppm) DAILY TPM "DOSE" (min x mg/l)
+
+o-GR 42o sham control 0 0 0 0 0
+
+1-GR 21o 0.81 0.66 57 297 138
+
+2-GR 42o 0.81 0.63 54 300 263
+
+3-GR 4x1o 4.35 3.56 238 1732 142
+
+4-GR 4x2o 4.35 3.84 267 1717 307
+
+Resting periods between exposures were 50 and 100 min for 3-GR and 4-GR; dissections after 14, 21, 28, 35 and 42 d.
+
+p.t.o.
+
+DISTRIBUTION REFERENCES
+DROS -/1234, PART 1 to 4
+DRRY -/1234, Supplement: Histopathology
+DRHA
+SPECIAL FILE
+FILE

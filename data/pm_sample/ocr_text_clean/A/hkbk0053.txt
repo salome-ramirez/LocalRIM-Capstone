@@ -1,0 +1,37 @@
+Philip Morris USA Confidential
+PHILIP MORRIS U.S.A.
+INTEROFFICE CORRESPONDENCE
+Richmond, Virginia
+To: Walter Hempfling Date: September 15, 1995
+From: WillLewis ,
+Subject: Low Weight Cigarette Mainstream Smoke Analysis - Basic Components -
+Activity 2A12
+I. Introduction:
+Cigarette models with various tobacco filler weights were analyzed by gas
+chromatography (GC) to ascertain differences in selected basic components of mainstream smoke
+relative to the reduction in filler weight. The six sample codes, cigarette target weights, filler
+target weights, and average puff counts are shown in Table I (1). The cigarette targeted filler
+weights range from 650 mg to 850 mg, with 750 mg as the normal filler weight of a cigarette.
+This range reflects a 200 mg difference between the lowest (DL 22) and highest weight model
+(@L 27) and includes a + 100 mg weight difference relative to the 750 mg cigarette model.
+Analytical data pertaining to these cigarette models have been reported (1).
+Table L
+Sample Code Cigarette Target Filler Target Average Puff
+Weight (g) Weight (g) Count -
+7.6
+0.869 0.652 .
+0.921 0.700 8.4
+0.941 0.720
+0.970 0.752
+1.017 0.800
+1,067 0.850
+I. Method:
+All cigarette models were conditioned at 75°F and 60% relative humidity for at least 48
+hours prior to use. Four runs, using ten cigarettes each, were made at random for each model.
+Prior to smoking, all cigarettes were marked at tipping plus 3 mm. Mainstream smoke from these
+models was generated and collected using a 20-port Borgwaldt smoking machine with an
+electrostatic trap (2). Electrostatic tubes were weighed before and after each run to determine the
+weight of smoke condensate. During smoke condensate collection, the output voltage was set at
+18 kV and the current limit was set for 0.21 mA. The smoke condensate was rinsed from the
+DOC CODE: P0622 10
+68E968050%

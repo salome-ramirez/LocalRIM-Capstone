@@ -1,0 +1,125 @@
+Kequest: 
+Request Type : 
+Activity: 
+Description: 04190 
+#1 
+reb 17 Z000 2:56PM 
+?OLU4iyo-2 
+riiKinson-iiaiiosaj'eora 
+iteoorceti x>y ; 
+Date Suomittea: 
+i>ace iteceivcu: 
+U^/U4/UU 
+inn 
+Date Compietea: 
+02/17/00 
+P00120 
+Approved By: 
+PETERS,LINDA W. 
+00-0023 - REMAKE POL #04190 MARLBORO ULTRA LIGHTS MENTHOL Trade 
+S e c r e t 
+Information 
+Keaactea 
+CONTROL 
+00.AE.141 
+Categories/Tests 
+Target 
+Average 
+Smoke 
+ETC Butt Length, mm 
+FTC Tar (Filtrona), mg/cigt 
+FTC TPM (Filtrona), mg/cigt. 
+FTC Nic. (Filtrona) mg/cigt 
+FTC Water (Filtrona) mg/cigt 
+FTC Puffs/cigt(Filtrona) 
+Tar/Puff, mg 
+Cigarette 
+Total RTD. mm of H20 
+Circumference, mm 
+Paper 
+Permeability, CORESTA Units 
+Filter 
+RTD,mmofH20 
+Tipping Paper Length, mm 
+Tipping Paper Color 
+Ventilation, % 
+Filler 
+Tobacco Weight, g (Unequil.) 
+Oven Volatiles,% (Pack) 
+Menthol 
+Smoke, mg/cigt (Filtrona) 
+TPM, mg/cigt. (Filtrona) 
+Puffs/Cigt (Filtrona) 
+Menthol/Puff, mg 
+36.0 
+5.5 
+6.5 
+0.46 
+0.49 
+7.8 
+0.7 
+117 
+24.82 
+25 
+125 
+32.0 
+White 
+50 
+0.621 
+13.8 
+0.45 
+6.8 
+7.8 
+0.06 
+StdDev 
+0.44 
+0.50 
+0.034 
+0.034 
+0.43 
+3.2 
+0.084 
+2.3 
+3.2 
+1.8 
+0.0017 
+0.23 
+0.013 
+0.14 
+0.12 
+H 
+8 
+8 
+8 
+8 
+8 
+15 
+10 
+10 
+13 
+15 
+3 
+2 
+7 
+7 
+8 
+Notations: 
+I Trade Secret 
+00.AE.141' 
+-POL04190-REMAKE MARLBORO UL MEN 
+n _ _ , _ i 
+CONTROLS PACKED 1/28/00 
+!errefluestor, due to shipping date, menthol will be aged for 10 days instead of 14 days.. 
+All tests were conducted in the Philip Morris U.S.A., Product Testing Laboratory with the exception of those tests denoted by a (1). 
+These tests were performed by Philip Morris U.S.A. Analytical Methods and Applications Division. The test results relate to the 
+samples submitted to the Product Testing Laboratory during the stated time period. Extrapolation outside this time period is nolfc 
+appropriate. 
+Doc-Code: P0622 
+Page 1 
+O 
+o 
+o 
+00 
+o 
+CO 
+2076080347 

@@ -1,0 +1,36 @@
+- 48 -
+SUPERCAPACITORS AND ELDC’S FROM ENGINERING INDEX
+1
+TI. - SUPER CAPACITOR - A NEW BACK-UP POWER SOURCE.
+AU - ROWAND DOUGLAS
+OS - NEC Electronics
+SO - New Electronics:v 20:n 15 Jul 21 1987'p: 17 (NWELAC)
+LA. - ENGLISH (EN)
+DT. - JA.(Joumal Article)
+TC - A.(Applications)
+AB - The super capacitor is a small-sized, non-polar high-capacitance electric double-layer
+capacitor. It works by: storing electric charges in an electric double-layer surface: of. active: car-
+bon and elcctrolyte. The super capacitor occupies only: 1/100th the volume of an aluminum
+electrolytic capacitor of equivalent value, but offers:capacitance up. into farad units, enabling it
+to be used as.a back-up: power source.in electronic appliances or as the current source for ac-
+tuators and electromagnetic. valves,
+AE - 036334
+TI - IMPROVED. SELF-DISCHARGE CHARACTERISTICS OF' THE ELECTRIC DOUBLE
+LAYER CAPACITOR.
+AU. - SUZUKI TETSUO; KATSU KEITARO;: OKAMOTO KOUICHI
+OS. - NEC, Tokyo; Jpn
+SO - NEC Res Dev n 82 Jul 1986 p 118-123 (NECRAU)
+LA: - ENGLISH (EN):
+DT: - JA Goumal Article)
+TC - T (Theoretical); X (Experimental)
+AB - Self-discharge characteristics of the Super Capacitor have been improved by using an:
+ion permeable: porous. separator of less porocity. The Super Capacitor is an electric double
+layer capacitor (EDLC) which has several pairs of carbon paste electrodes.scparaied. by an ion
+permeable. separator soaked in aı dilute sulfuric acid elécirolyte. The self-discharge current of
+the EDLC depends: greatly on the pore volume of the separator and dcercascs wiih decreasing
+pore volume, When the required backup current is. small, such as 10:mu A or less,. the self-
+discharge: current cannol.be ignored, and this capacitor’s backup time capability for unexpected
+power shutdowns will be extended compared with former EDLC. As the cquivalent series resis:
+lance’ increases with. improvement. in self-discharge, this capacitor is suttable for backup which
+requires a selalively small current over a long time. (Author abstract) 3. refs:
+9ESSSTOZOL

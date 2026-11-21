@@ -1,0 +1,65 @@
+path,type_id,type_name,series_id,function_id,outcome,also_fits,certainty,note,taxonomy_file,saved_at
+scientific publication/rvl_train_022954.png,RND.SCI.LIT,External scientific literature,RND.SCI,RND,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T21:34:37
+email/rvl_train_052294.png,MKT.PUB.MED,Media coverage and press materials,MKT.PUB,MKT,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T21:35:50
+advertisement/rvl_train_001152.png,MKT.ADV.CRE,Advertising and promotional materials,MKT.ADV,MKT,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T21:38:12
+specification/rvl_train_000421.png,RND.PRD.SPEC,Product and material specifications,RND.PRD,RND,labeled,LEG.REG.COR,unsure,,rim_taxonomy_v0.yaml,2026-10-28T21:39:41
+handwritten/rvl_train_001290.png,,,,,no_fit,,unsure,,rim_taxonomy_v0.yaml,2026-10-28T21:46:38
+handwritten/rvl_train_000026.png,,,,,no_fit,,sure,,rim_taxonomy_v0.yaml,2026-10-28T21:47:20
+form/rvl_train_000576.png,LEG.REG.COR,Regulatory and government correspondence,LEG.REG,LEG,labeled,ADM.GEN.COR,unsure,,rim_taxonomy_v0.yaml,2026-10-28T21:49:22
+email/rvl_train_055655.png,LEG.CON.AGR,Contracts and agreements,LEG.CON,LEG,labeled,ADM.GEN.COR,unsure,,rim_taxonomy_v0.yaml,2026-10-28T21:52:25
+specification/rvl_train_000206.png,RND.SCI.RPT,Internal research reports,RND.SCI,RND,labeled,RND.PRD.SPEC,sure,,rim_taxonomy_v0.yaml,2026-10-28T21:54:08
+email/rvl_train_050895.png,FIN.PLAN.BUD,Budgets and financial reports,FIN.PLAN,FIN,labeled,MKT.PUB.MED,unsure,,rim_taxonomy_v0.yaml,2026-10-28T21:58:39
+scientific publication/rvl_train_025580.png,RND.SCI.LIT,External scientific literature,RND.SCI,RND,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T21:58:54
+specification/rvl_train_000363.png,RND.PRD.SPEC,Product and material specifications,RND.PRD,RND,labeled,,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:00:29
+questionnaire/rvl_train_000352.png,RND.PRD.SPEC,Product and material specifications,RND.PRD,RND,labeled,,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:01:36
+budget/rvl_train_001462.png,MKT.RES.SUR,Consumer research,MKT.RES,MKT,labeled,MKT.PUB.MED,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:02:30
+resume/rvl_train_022733.png,MKT.ADV.CRE,Advertising and promotional materials,MKT.ADV,MKT,labeled,MKT.PUB.MED,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:03:44
+memo/rvl_train_024554.png,RND.SCI.RPT,Internal research reports,RND.SCI,RND,labeled,RND.PRD.SPEC,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:05:10
+advertisement/rvl_train_001390.png,MKT.ADV.CRE,Advertising and promotional materials,MKT.ADV,MKT,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:05:32
+advertisement/rvl_train_001343.png,MKT.ADV.CRE,Advertising and promotional materials,MKT.ADV,MKT,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:06:00
+budget/rvl_train_001654.png,FIN.PLAN.BUD,Budgets and financial reports,FIN.PLAN,FIN,labeled,MKT.ADV.CRE,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:07:35
+form/rvl_train_000494.png,ADM.GEN.COR,General administrative records,ADM.GEN,ADM,labeled,LEG.LIT.ADV,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:09:49
+form/rvl_train_000755.png,LEG.REG.COR,Regulatory and government correspondence,LEG.REG,LEG,labeled,,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:10:44
+presentation/rvl_train_026135.png,MKT.ADV.CRE,Advertising and promotional materials,MKT.ADV,MKT,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:11:53
+resume/rvl_train_023709.png,HR.REC.APP,Candidate applications,HR.REC,HR,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:12:11
+advertisement/rvl_train_001234.png,MKT.ADV.CRE,Advertising and promotional materials,MKT.ADV,MKT,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:12:30
+questionnaire/rvl_train_000893.png,LEG.REG.COR,Regulatory and government correspondence,LEG.REG,LEG,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:13:20
+form/rvl_train_000068.png,MKT.ADV.CRE,Advertising and promotional materials,MKT.ADV,MKT,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:14:39
+scientific report/rvl_train_051566.png,RND.SCI.RPT,Internal research reports,RND.SCI,RND,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:15:30
+scientific publication/rvl_train_023597.png,RND.SCI.LIT,External scientific literature,RND.SCI,RND,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:15:38
+scientific report/rvl_train_050071.png,RND.SCI.LIT,External scientific literature,RND.SCI,RND,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:15:47
+questionnaire/rvl_train_000346.png,HR.ADM.EMP,Employee administration,HR.ADM,HR,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:23:29
+memo/rvl_train_024321.png,FIN.AP.INV,Invoices and payment records,FIN.AP,FIN,labeled,RND.SCI.RPT,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:24:46
+form/rvl_train_000519.png,MKT.ADV.CRE,Advertising and promotional materials,MKT.ADV,MKT,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:25:10
+news article/rvl_train_023286.png,RND.SCI.LIT,External scientific literature,RND.SCI,RND,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:25:30
+resume/rvl_train_022630.png,HR.REC.APP,Candidate applications,HR.REC,HR,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:25:37
+handwritten/rvl_train_001392.png,MKT.ADV.CRE,Advertising and promotional materials,MKT.ADV,MKT,labeled,ADM.GOV.MTG,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:37:06
+advertisement/rvl_train_000256.png,MKT.ADV.CRE,Advertising and promotional materials,MKT.ADV,MKT,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:38:10
+specification/rvl_train_001193.png,RND.SCI.RPT,Internal research reports,RND.SCI,RND,labeled,RND.PRD.SPEC,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:39:48
+file folder/rvl_train_000320.png,ADM.GEN.COR,General administrative records,ADM.GEN,ADM,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:41:04
+scientific report/rvl_train_049627.png,RND.SCI.RPT,Internal research reports,RND.SCI,RND,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:41:53
+memo/rvl_train_024624.png,RND.SCI.RPT,Internal research reports,RND.SCI,RND,labeled,,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:44:18
+invoice/rvl_train_028387.png,FIN.AP.INV,Invoices and payment records,FIN.AP,FIN,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:44:29
+handwritten/rvl_train_001386.png,ADM.GEN.COR,General administrative records,ADM.GEN,ADM,labeled,MKT.ADV.CRE,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:45:26
+file folder/rvl_train_000224.png,LEG.LIT.ADV,Litigation and legal advice,LEG.LIT,LEG,labeled,,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:46:11
+form/rvl_train_000435.png,ADM.GEN.COR,General administrative records,ADM.GEN,ADM,labeled,LEG.CON.AGR,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:46:53
+specification/rvl_train_001370.png,RND.PRD.SPEC,Product and material specifications,RND.PRD,RND,labeled,RND.SCI.RPT,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:49:27
+invoice/rvl_train_028092.png,FIN.AP.INV,Invoices and payment records,FIN.AP,FIN,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:49:35
+email/rvl_train_050859.png,,,,,no_fit,,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:50:11
+budget/rvl_train_001605.png,FIN.AP.INV,Invoices and payment records,FIN.AP,FIN,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T22:50:26
+letter/rvl_train_001602.png,LEG.LIT.ADV,Litigation and legal advice,LEG.LIT,LEG,labeled,RND.PRD.SPEC,unsure,,rim_taxonomy_v0.yaml,2026-10-28T22:52:16
+budget/rvl_train_001761.png,FIN.PLAN.BUD,Budgets and financial reports,FIN.PLAN,FIN,labeled,MKT.ADV.CRE,unsure,,rim_taxonomy_v0.yaml,2026-10-28T23:04:07
+letter/rvl_train_000630.png,ADM.GEN.COR,General administrative records,ADM.GEN,ADM,labeled,,unsure,,rim_taxonomy_v0.yaml,2026-10-28T23:05:00
+letter/rvl_train_000073.png,RND.SCI.RPT,Internal research reports,RND.SCI,RND,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T23:05:44
+resume/rvl_train_023876.png,HR.REC.APP,Candidate applications,HR.REC,HR,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T23:06:06
+handwritten/rvl_train_000831.png,RND.SCI.RPT,Internal research reports,RND.SCI,RND,labeled,RND.PRD.SPEC,sure,,rim_taxonomy_v0.yaml,2026-10-28T23:07:16
+advertisement/rvl_train_001813.png,MKT.ADV.CRE,Advertising and promotional materials,MKT.ADV,MKT,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T23:08:02
+scientific report/rvl_train_052716.png,RND.SCI.RPT,Internal research reports,RND.SCI,RND,labeled,,sure,,rim_taxonomy_v0.yaml,2026-10-28T23:08:31
+news article/rvl_train_023934.png,MKT.ADV.CRE,Advertising and promotional materials,MKT.ADV,MKT,labeled,,unsure,,rim_taxonomy_v0.yaml,2026-10-28T23:08:52
+presentation/rvl_train_028796.png,RND.SCI.RPT,Internal research reports,RND.SCI,RND,labeled,RND.SCI.LIT,unsure,,rim_taxonomy_v0.yaml,2026-10-28T23:09:31
+email/rvl_train_055134.png,ADM.GOV.MTG,Meeting and management records,ADM.GOV,ADM,labeled,MKT.PUB.MED,unsure,,rim_taxonomy_v0.yaml,2026-10-28T23:15:52
+letter/rvl_train_001574.png,,,,,no_fit,,sure,,rim_taxonomy_v0.yaml,2026-11-02T19:58:23
+budget/rvl_train_001089.png,FIN.AP.INV,Invoices and payment records,FIN.AP,FIN,labeled,,sure,,rim_taxonomy_v0.yaml,2026-11-02T19:58:34
+questionnaire/rvl_train_000568.png,MKT.RES.SUR,Consumer research,MKT.RES,MKT,labeled,MKT.ADV.CRE,sure,,rim_taxonomy_v0.yaml,2026-11-02T20:00:39
+invoice/rvl_train_025002.png,FIN.AP.INV,Invoices and payment records,FIN.AP,FIN,labeled,MKT.RES.SUR,sure,,rim_taxonomy_v0.yaml,2026-11-02T20:02:44
+resume/rvl_train_025453.png,RND.SCI.RPT,Internal research reports,RND.SCI,RND,labeled,HR.REC.APP,unsure,,rim_taxonomy_v0.yaml,2026-11-02T20:03:33

@@ -1,0 +1,82 @@
+£050060067
+DATE
+QA-BL Plant Detail Report
+SHIFT
+n
+Refined Slurry
+Day Mix Slurry
+Production Dust
+Burley Stem
+pH
+Solids] Temp
+18.75} 160F
+Tank
+Pulling
+pH
+18.50{ 150F
+Fliting [Solids| Temp
+Time
+Spec
+N
+HB
+<.50
+X-Dry
+50
+PRODUCTION SUMMARY
+9
+5/
+ZONV
+X-Dry| H/B
+9 5/
+*4 TIMES PER SHIFT*
+#LINE 1 ONLY*
+M
+C
+0
+—
+A
+C
+0
+Z
+W/SPEED-UP
+TEST SAMPLES
+S
+Blo
+zs
+& |i
+[om
+v{
+18
+wo
+S
+I
+©]
+[om
+Cc
+18 \
+&D S
+viz
+>
+| fon
+A
+c S
+fo)
+~_
+3
+<
+COMMENTS
+n
+a
+—
+vm
+sl
+Ü
+_
+o
+>
+s
+U
+>
+©
+QA SUPERVISOR
+REVISED 6717791 JLD (SPDETAIL)

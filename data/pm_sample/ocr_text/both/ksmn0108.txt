@@ -1,0 +1,50 @@
+84-174 RETRIEVE 10-4-84P
+CODE: 840521
+DATE: May 21, 1984
+POL TEST NUMBER: 3279 durre # 2307
+TITLE: MarIboro B5mm with CRL-TC (100% cheuron-cut RL-TC) versus Mar1boro
+B5mm with NOD RL-TC Rep1acing CRL-TC
+TEST REQUESTER: R.J. Mitche11
+POL STUDY LEADER: McKay, C.L.
+PREPARED BY: McKay, C.L.
+PURPOSE: To determine any subjective differences between the
+control and experimental cigarettes.
+PROCEDURE (BALLOT): Sequential Monadic Ballot (NU1-B)
+SAMPLE SIZE: 1200 % RETURNED: 78%
+SMOKER GROUPS: Number returned-Power Value
+Mar1boro 85mm 250 .475
+Winston 85mm 302 .537
+Fu11 Flavor 85mm (excluding 234 .454
+Marlboro and Winston smokers)
+2S
+ANALYTICAL SUMMARY: The cigarettes were not different in any of the
+characteristics tested.
+CLOSE-OUT DATE: February 6, 1984
+EATSD4
+COMEETS: Tha aa
+ddds
+PLrrrrt me
+pPat
+p=0.10 when the real population difference corresponds to a 55:45
+split for each of the smoker groups.
+2024002592
+CODE: 840521
+DATE: May 21, 1984
+POL TEST NUMBER: 3279
+TITLE: Marlboro 85mm with CRL-TC (100% chevron-cut RL-TC) versus Marlboro 85mm with NOD RL-TC Replacing CRL-TC
+TEST REQUESTER: R.J. Mitchell
+POL STUDY LEADER: McKay, C.L.
+PREPARED BY: McKay, C.L.
+PURPOSE: To determine any subjective differences between the control and experimental cigarettes.
+PROCEDURE (BALLOT): Sequential Monadic Ballot (NV1-B)
+SAMPLE SIZE: 1200 % RETURNED: 78%
+SMOKER GROUPS: Number returned-Power Value
+Marlboro 85mm 250 .475
+Winston 85mm 302 .537
+Full Flavor 85mm (excluding Marlboro and Winston smokers)
+ANALYTICAL SUMMARY: The cigarettes were not different in any of the characteristics tested.
+CLOSE-OUT DATE: February 6, 1984
+RESULTS DISCUSSED WITH REQUESTER (DATE): March 5, 1984
+COMMENTS: The results based on this sample of control and experimental did not indicate a difference between the cigarettes.
+PLANS: No further testing is planned at this time.
+*Power: The probability of declaring a significant difference at p=0.10 when the real population difference corresponds to a 55:45 split for each of the smoker groups.

@@ -1,0 +1,41 @@
+MSA/PMCS Reqs
+MSA/Stars data for PMCS Allocations
+For Each Retail account in SPACE:
+(PM Brands ONLY)
+Stars % share Stars %
+change Vs contribution
+MSAPI (Market Share Stars Actual last 13 (Store to
+PM Brand adjusted PI) Share weeks market)
+Marlboro X X X X
+Marlboro Menthol X X X X
+Benson and Hedges X X X X
+Benson and Hedges Menthd X X X X
+Merit X X X X
+Merit Ultra Light X X X X
+Merit Ultima X X X X
+Virginia Slims X X X X
+Virginia Slims Menthol X X X X
+Basic X X X X
+Basic Menthol X X X X
+完abidge X X X X
+Alpine X X X X
+Parliament X X X X
+Daves (If Available)
+Competitors brand
+Camel X X
+GPC X X
+Montclair X X
+Kent X X
+Carlton X X
+Winston X X
+Salem X X
+Doral X X
+Newport X X
+Misty X X
+Kool X X
+Monarch X X
+Capri X X
+NOW X X
+Vantage X X 2061632642
+Brand categories
+Page 1

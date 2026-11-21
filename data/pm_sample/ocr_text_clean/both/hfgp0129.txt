@@ -1,0 +1,43 @@
+RL PROCESS SYSTEMS IMPROVEMENT TEAM
+CONTROL & IMPROVEMENT PLAN Rovision Date: 6/29/94
+START ITEAM QC/SIT STATUS
+NO DATE PROBLEM EVIDENCE OBJECTIVE MEMBERS TEAM LEADER END DATES INFO
+28a 4/90 We frequantly shut the RL TQM - Downtime, Efficienoy, Install a continuous doctor V. Loving L. Murphy (SIT) LI - 10/93 On scheduled - to be
+procoss down to chango Total Good Produotion blade (7,900 Ibs per day). J. Brown R. Garg (TL) LII - 10/93 completed by 7/94
+doctor blades. LIlI - Completo
+42 5/12/ Some of the product which Product solubles P-charts for Reduco product solubles variation C. Burke D. Jenkins P-
+91 we ship to our oustomers predicted out of specification. so that 1) predicted product out of J. Dillon (SIT/TL) D. On hold until yield team mak
+may oxoood the specification P-Bar UCLp speo for percent solublos is con- C. Milton C- recommendation
+limit wo havo agreo to 17 0.56 2.76 istat .2) J. Johnston A-
+meot. 117 0771 3.18 within week standard deviation of P. Werkmeister
+LIII 1.45 4.36 solublos moasuroments is consist- (R) Note: Neod to Rocyclo through
+ently < 1.0% sol. (UCLs). PDCA.
+44 11/91 Exceseive sand in the stock -Shoot breaks caused by sand Reduoo Li machino downtime J. Lusk A.V.A. (SIT) P - 8/92 Ll Complete.
+chest to the hoadbox stroake. due to sand ocourroncos by 95%. L. Pullano R. Garg (TL) D - 5/93 MOE to SIT 6/1
+causes machine downtime -Sand build up in headbox, SBW V. Loving (R) LI LII LIl on target
+14T-D
+and limite machino speod. tank, oouoh pit. Potontial 70,000/yr savings. J. Deck (R) C 5/94 11/94
+-SBW oloaner pluggago. A 6/94 12/94
+TQM - Downtime
+54 8/19/ Tho curront variation of Previous probiam solving toama Reduco tho amount of variation in R. Garg AVA (SIT) Final phaso of MOE boing developed.
+92 stock consistonoy to the and oporator oxportiso have Stock Consistonoy to tho Machino J. Simpson A. Tudor (TL) installation 4/94. Roport back to SIT 7/13/94
+4PAOJA Primary rofiners is too groat, identifiod that tho variation Chest by 50% (as measured by Lab K. Moring
+rosulting In variation of conslstency hae tho groatost Conaistoncy Tost) D. Mertz
+refined stock that is groator impact on inconsistont refining. Currently: 1 Sigma = .22 F. McFoo Closo out August, 1994.
+than dosirod by Park 500. Thoy havo also identified that Objective: 1 Sigma = .11 B. Shopo
+tho groatost variation in Objeotivo agroed to is for L-3 only.
+oonslstonoy ocours boforo the TQM impactod: baso web wt
+Primary refinors in Stock Prop. variabllity and finishod sheet ov
+varlability.
+Potontlal $20,000/year savings.
+blalapalooalo l
+ou1
+RL PROCESS SYSTEMS IMPROVEMENT TEAM
+CONTROL & IMPROVEMENT PLAN
+Revision Date: 6/29/94
+
+NO. START DATE PROBLEM EVIDENCE OBJECTIVE TEAM MEMBERS QC/SIT TEAM LEADER END DATES STATUS INFO
+28a 4/90 We frequently shut the RL process down to change doctor blades. TQM - Downtime, Efficiency, Total Good Production Install a continuous doctor blade (7,900 lbs per day). V. Loving J. Brown L. Murphy (SIT) R. Garg (TL) LI - 10/93 LII - 10/93 LIII - Complete On scheduled - to be completed by 7/94
+42 5/12/91 Some of the product which we ship to our customers may exceed the specification limit we have agreed to meet. Product solubles P-charts for predicted out of specification. P-Bar UCLp LI 0.56 2.76 LII 0.71 3.18 LIII 1.45 4.36 Reduce product solubles variation so that 1) predicted product out of spec for percent solubles is consistently < 1.0% (UCLp) and 2) within week standard deviation of solubles measurements is consistently < 1.0% sol. (UCLs). C. Burke J. Dillon C. Milton J. Johnston P. Werkmeister (R) D. Jenkins (SIT/TL) P - D - C - A - On hold until yield team make recommendation
+44 11/91 Excessive sand in the stock chest to the headbox causes machine downtime and limits machine speed. -Sheet breaks caused by sand streaks. -Sand build up in headbox, SBW tank, couch pit. -SBW cleaner pluggage. TQM - Downtime Reduce LI machine downtime due to sand occurrences by 95%. Potential $70,000/yr savings. J. Lusk L. Pullano V. Loving (R) J. Deck (R) A.V.A. (SIT) R. Garg (TL) P - 8/92 D - 5/93 LI LII C 5/94 11/94 A 6/94 12/94 LI Complete. MOE to SIT 6/1 LII on target
+54 8/19/92 The current variation of stock consistency to the Primary refiners is too great, resulting in variation of refined stock that is greater than desired by Park 500. Previous problem solving teams and operator expertise have identified that the variation consistency has the greatest impact on inconsistent refining. They have also identified that the greatest variation in consistency occurs before the Primary refiners in Stock Prep. Reduce the amount of variation in Stock Consistency to the Machine Chest by 50% (as measured by Lab Consistency Test) Currently: 1 Sigma = .22 Objective: 1 Sigma = .11 Objective agreed to is for L-3 only. TQM impacted: base web wt variability and finished sheet ov variability. Potential $20,000/year savings. R. Garg J. Simpson K. Moring D. Mertz F. McFee B. Shope AVA (SIT) A. Tudor (TL) Final phase of installation 4/94. Close out August, 1994. MOE being developed. Report back to SIT 7/13/94

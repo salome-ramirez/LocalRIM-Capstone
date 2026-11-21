@@ -1,0 +1,57 @@
+x1	y1	x2	y2	conf	text
+629.0	367.0	1875.0	440.0	100.0	PARK 500 COOLING TOWER EVALUATION
+1163.0	446.0	1340.0	504.0	98.6	July 1992
+183.0	562.0	560.0	617.0	99.8	LINE I TOWERS
+320.0	709.0	511.0	755.0	100.0	TOWER
+958.0	701.0	1249.0	752.0	98.8	CONDITION
+1685.0	698.0	2185.0	746.0	100.0	RECOMMENDATION
+211.0	798.0	505.0	845.0	100.0	HVAC Tower
+673.0	792.0	1257.0	843.0	99.3	1. Louvers have deteriorated
+1585.0	785.0	2142.0	842.0	99.9	Replace with stainless steel
+214.0	856.0	358.0	907.0	100.0	10-059
+668.0	942.0	1269.0	996.0	100.0	2. Fan blades appear cracked
+1586.0	938.0	2093.0	989.0	100.0	Die check and replace if
+1585.0	1004.0	1782.0	1056.0	100.0	necessary
+214.0	1189.0	589.0	1240.0	100.0	Evaporator Tower
+673.0	1184.0	1500.0	1237.0	100.0	1. Grated covers permit foreign material
+1587.0	1178.0	2273.0	1235.0	100.0	Replace grating with solid hinged
+210.0	1243.0	362.0	1296.0	100.0	21-107
+671.0	1242.0	1119.0	1292.0	100.0	into distribution basin
+1587.0	1241.0	1724.0	1288.0	100.0	covers
+671.0	1332.0	1394.0	1383.0	100.0	2. Distribution nozzles are partially
+1589.0	1325.0	2179.0	1378.0	99.0	Clean and replace nozzles as
+667.0	1385.0	842.0	1451.0	100.0	plugged
+1586.0	1382.0	1762.0	1439.0	100.0	required
+672.0	1478.0	1336.0	1534.0	100.0	3. Inside fill is partially plugged
+1591.0	1474.0	2242.0	1527.0	100.0	Clean or replace fill as required
+675.0	1569.0	1324.0	1624.0	98.7	4. Fan guards have deteriorated
+1588.0	1561.0	2220.0	1621.0	99.1	Replace guards with mild steel
+673.0	1661.0	1344.0	1715.0	100.0	5. South distribution basin is not
+1590.0	1657.0	2019.0	1709.0	100.0	Install access ladders
+672.0	1721.0	881.0	1773.0	100.0	accessible
+675.0	1801.0	1492.0	1861.0	99.4	6. Open roof drains between towers are
+1592.0	1801.0	1980.0	1855.0	100.0	Cover with grating
+673.0	1865.0	814.0	1919.0	100.0	unsafe
+676.0	1953.0	1445.0	2013.0	99.3	7. Basin pans have badly deteriorated
+1590.0	1950.0	2145.0	2006.0	98.8	Blast & coat, or replace as
+1590.0	2010.0	1765.0	2063.0	100.0	required
+221.0	2198.0	596.0	2247.0	100.0	Evaporator Tower
+680.0	2192.0	1506.0	2245.0	99.6	1. Grated covers permit foreign material
+1592.0	2189.0	2280.0	2243.0	99.4	Replace grating with solid hinged
+215.0	2254.0	367.0	2308.0	100.0	21-009
+678.0	2253.0	1125.0	2304.0	100.0	into distribution basin
+1592.0	2256.0	1730.0	2302.0	100.0	covers
+677.0	2344.0	1401.0	2395.0	100.0	2. Distribution nozzles are partially
+1596.0	2340.0	2185.0	2390.0	100.0	Clean and replace nozzles as
+677.0	2403.0	848.0	2464.0	100.0	plugged
+1592.0	2398.0	1770.0	2458.0	100.0	required
+678.0	2493.0	1340.0	2547.0	100.0	3. Inside fill is partially plugged
+1597.0	2488.0	2249.0	2542.0	99.1	Clean or replace fill as required
+680.0	2585.0	1330.0	2639.0	100.0	4. Fan guards have deteriorated
+1595.0	2578.0	2226.0	2638.0	100.0	Replace guards with mild steel
+679.0	2673.0	1351.0	2727.0	100.0	5. South distribution basin is not
+1596.0	2670.0	2025.0	2723.0	100.0	Install access ladders
+678.0	2735.0	888.0	2787.0	100.0	accessible
+50.0	2880.0	147.0	2988.0	36.7	2
+1248.0	2931.0	1290.0	2985.0	100.0	1
+1668.0	2931.0	2115.0	3006.0	100.0	2030656081

@@ -1,0 +1,26 @@
+PHILIP MORRIS U. S. A.
+INTER-OFFICE CORRESPONDENCE
+Richmond, Virginia
+
+RESTRICTED
+DISTRIBUTION
+
+To: R. A. Comes
+Date: May 17, 1990
+From: L. H. Thompson
+Subject: Salmonella/Microsome (S/M) Assay: Evaluation of 8857-63 and 8857-92
+
+Two pure compounds (8857-63 and 8857-92) were submitted for both mutagenicity and toxicity evaluation in the S/M assay over a broad dose range (0.0001-10.0 mg/plate). Both compounds were tested in tester strains TA98 and TA100 with and without metabolic activation (S9).
+
+From the 100 mg/ml stock solution prepared in DMSO (1), serial dilutions were made, and the following doses tested: 0.0001, 0.001, 0.01, 0.1, 1.0, and 10.0 mg/plate. Samples were tested randomly according to the standard operating procedure (2,3). Acceptable responses were obtained for all of the controls (see attached control data).
+
+Both compounds formed precipitates when the 10.0 mg/plate dose was added to the assay constituents. Test results indicated that there was no mutagenicity for either compound under any of the test conditions (see attached experimental data). Sample 8857-63 exhibited a >50% kill (cell death) at the two highest doses tested (1.0 and 10.0 mg/plate) in both tester strains. Sample 8857-92 was not toxic in either strain.
+
+References
+1. Comes, R. A. Personal communication to L. H. Thompson.
+2. Thompson, L. H. Notebook No. 8902, pp.181-187.
+3. Sherwood, Karen Rapp. Salmonella/Microsome (S/M) Assay: Standard operating procedure for tester strains TA98 and TA100. PM special report. Accession No.87-080; 1987 July 31.
+
+cc: Dr. C. K. Ellis
+Dr. R. W. McCuen
+Dr. G. J. Patskan

@@ -1,0 +1,68 @@
+RE: Draft letter to the editor, publication by Sun, Glantz et al
+In their study, Sun et al1 investigated the question whether the β-adrenergic system is
+involved in environmental tobacco smoke (ETS) induced etherosclerosis. Although not
+mentioned in the article, this question is of vital importance to the validity of the animal
+model used, because the involvement of the adrenergic system would suggest that the
+model actually measures an artifact, i.e. the exposure related stress, and not a toxicological
+property of ETS.
+As a result of their study the authors conclude that "Metoproiol did not protect against the
+effect of ETS on etherosclerosis, suggesting that the β -adrenergic system is not the
+mechanism of ETS-induced etherosclerosis." However, the data presented in this
+publication do not allow the authors to draw this conclusion; in fact, the data indicate that
+the opposite conclusion is more likely to be true.
+The authors report on a distinct reduction of arterial lesions in ETS exposed rabbits due to
+the continuous infusion of Metoproiol. They characterize this as "slight...tendencies
+(which) require some caution in interpreting our conclusion..." without discussing the
+magnitude of this interaction of ETS and Metoproiol.
+By the use of their evaluation model (general linear model) the authors could separate the
+effect which was blockable by Metropoiol from the total effect. The article gives the
+statistical significance of this "effect portion" but fails to report its magnitude. A more
+informative presentation of their results with a split into the portions:
+- Diet effect,
+- ETS-independent, "unspecific" Metoproiol effect,
+- Metropoiol-blockable ETS effect ("interaction"),
+- Non-blockable residual ETS effect
+would be the following table (calculation with the same approaches used by the authors but
+with different software2).
+Pulmonary Arteries
+Artery Means Pooled Means
+Portion (Affected Area, %) p-Value (Affected Area, %) p-Value
+Diet Effect 24.8 0.001 31.8 <0.000
+"Unspec" Meto-
+proiol Effect 7.8 0.422 9.5 0.225
+Metoproiol x ETS
+Interaction 17.4 0.215 6.0 0.589
+Residual ETS
+Effect 8.3 0.288 13.4 0.089
+1Yi-Ping Sun, MD: Bo-qing Zhu, MD; Richard E. Sievers, BS; Stanton A. Glantz, PhD;
+William W. Parmley, MD, Metoproiol Duess Not Attenuate Atheroscierosis in Lipid-Fed
+Rabbits Exposed to Environmental Tobacco Smoke Circulation 1994; 89 S, P 2260-2264. 2063832428
+2GLM, SAS/STAT Users Guide, Version 6, Fourth Edition (1990), SAS Institute Inn,
+Cary, NC
+RE: Draft letter to the editor, publication by Sun, Glantz et al
+
+In their study, Sun et al investigated the question whether the β-adrenergic system is involved in environmental tobacco smoke (ETS) induced etherosclerosis. Although not mentioned in the article, this question is of vital importance to the validity of the animal model used, because the involvement of the adrenergic system would suggest that the model actually measures an artifact, i.e. the exposure related stress, and not a toxicological property of ETS.
+
+As a result of their study the authors conclude that "Metoproiol did not protect against the effect of ETS on etherosclerosis, suggesting that the β-adrenergic system is not the mechanism of ETS-induced etherosclerosis." However, the data presented in this publication do not allow the authors to draw this conclusion; in fact, the data indicate that the opposite conclusion is more likely to be true.
+
+The authors report on a distinct reduction of arterial lesions in ETS exposed rabbits due to the continuous infusion of Metoproiol. They characterize this as "slight...tendencies (which) require some caution in interpreting our conclusion..." without discussing the magnitude of this interaction of ETS and Metoproiol.
+
+By the use of their evaluation model (general linear model) the authors could separate the effect which was blockable by Metoproiol from the total effect. The article gives the statistical significance of this "effect portion" but fails to report its magnitude. A more informative presentation of their results with a split into the portions:
+
+- Diet effect,
+- ETS-independent, "unspecific" Metoproiol effect,
+- Metoproiol-blockable ETS effect ("interaction"),
+- Non-blockable residual ETS effect
+
+would be the following table (calculation with the same approaches used by the authors but with different software$^2$).
+
+| Portion | Pulmonary Artery Means (Affected Area, %) | p-Value | Arteries Pooled Means (Affected Area, %) | p-Value |
+| :--- | :--- | :--- | :--- | :--- |
+| Diet Effect | 24.8 | 0.001 | 31.8 | <0.000 |
+| "Unspec" Metoproiol Effect | 7.8 | 0.422 | 9.5 | 0.225 |
+| Metoproiol x ETS Interaction | 17.4 | 0.215 | 6.0 | 0.589 |
+| Residual ETS Effect | 8.3 | 0.288 | 13.4 | 0.089 |
+
+$^1$Yi-Ping Sun, MD: Bo-qing Zhu, MD; Richard E. Sievers, BS; Stanton A. Glantz, PhD; William W. Parmley, MD, Metoproiol Duess Not Attenuate Atherosclerosis in Lipid-Fed Rabbits Exposed to Environmental Tobacco Smoke Circulation 1994; 89 S, P 2260-2264.
+
+$^2$GLM, SAS/STAT Users Guide, Version 6, Fourth Edition (1990), SAS Institute Inn, Cary, NC.

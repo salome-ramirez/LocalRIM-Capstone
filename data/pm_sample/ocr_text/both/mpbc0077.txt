@@ -1,0 +1,106 @@
+Page 1 of 5
+EVALUATION PROCESS OWNER NAVIGATION GUIDELINE
+DOES CHANGE INVOLVE: PROCESS OWNER:
+CIGARETTE
+DESIGN Cigarette Requirements: Commercial Product & Process Development
+Cigarette Length
+Tobacco Rod Circumference Domestic Brands
+Tobacco Rod Length
+Filter Lengt1
+Total RTD International Brands
+Seam Adhesive
+Filler Type
+Cigarette Paper
+Rod Ink
+Print Die
+Dilution Target
+FTC Tar
+Tipping Requirements:
+Distance Between Rows
+Band Width
+Tipper Cut Length
+Patch Size (Glue Roller)
+Tipping Paper Permeability
+Tipping Length
+In Line Laser (ON/OFF)
+Tipping Adhesive
+Menthol Requirments:
+Menthol in Smoke
+Menthol in Cigarette
+Application Method (Foil or Filler)
+Physical Measurement Requirements:
+Cigarette paper width
+Calculated volume
+Calculated density
+Moisture Recuirments:
+Pack OV (24 hour)
+Pack Firmness
+Loose ends
+Target Weight Requirements:
+Paper and Paste
+Rod weight
+Tipping and Adhesive
+Total less Plug
+Plug
+Total weight 100 cigs.
+Filler Weight 2072569078
+Document Control Number: OP-IR-005-011
+Doc. Owner: Head, Operations Document Control and Records Management (Doug Miller); Operations Planning Issue Date: 12/6/99 DRAFT
+EVALUATION PROCESS OWNER NAVIGATION GUIDELINE
+
+DESIGN CONTROL
+CIGARETTE DESIGN
+
+DOES CHANGE INVOLVE:
+Cigarette Requirements:
+Cigarette Length
+Tobacco Rod Circumference
+Tobacco Rod Length
+Filter Length
+Total RTD
+Seam Adhesive
+Filler Type
+Cigarette Paper
+Rod Ink
+Print Die
+Dilution Target
+FTC Tar
+
+Tipping Requirements:
+Distance Between Rows
+Band Width
+Tipper Cut Length
+Patch Size (Glue Roller)
+Tipping Paper Permeability
+Tipping Length
+In Line Laser (ON/OFF)
+Tipping Adhesive
+
+Menthol Requirements:
+Menthol in Smoke
+Menthol in Cigarette
+Application Method (Foil or Filler)
+
+Physical Measurement Requirements:
+Cigarette paper width
+Calculated volume
+Calculated density
+
+Moisture Requirements:
+Pack OV (24 hour)
+Pack Firmness
+Loose ends
+
+Target Weight Requirements:
+Paper and Paste
+Rod weight
+Tipping and Adhesive
+Total less Plug
+Plug
+Total weight 100 cigs.
+Filler Weight
+
+PROCESS OWNER:
+Commercial Product & Process Development
+Domestic Brands
+International Brands

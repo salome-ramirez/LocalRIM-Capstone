@@ -1,0 +1,2 @@
+review_pages,classifier_top1,rag_top1,classifier_top2,rag_top2,rag_only_right,classifier_only_right,mcnemar_exact_p
+88,0.466,0.614,0.784,0.875,18,5,0.0106

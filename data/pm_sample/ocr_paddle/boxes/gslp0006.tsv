@@ -1,0 +1,43 @@
+x1	y1	x2	y2	conf	text
+514.0	154.0	1024.0	184.0	98.0	COUPLED WITH SWITCH SELL
+57.0	210.0	945.0	250.0	99.1	"Rep - ""Hello, I represent Philip Morris and I notice you are a smoker."""
+55.0	265.0	351.0	303.0	98.2	"Consumer - ""Yes I am"""
+56.0	325.0	1484.0	367.0	99.5	Rep - Would you like to be eligible to receive free cigarette samples, discount coupons, and other promotional
+55.0	357.0	1483.0	399.0	99.4	offers mailed directiy to your home such as these (show current materials such as Marlboro catalog, etc.) with no
+57.0	390.0	695.0	425.0	99.8	"obligation on your part to ever purchase anything?"""
+54.0	444.0	1383.0	487.0	98.7	"Consumer - “yes, I would"" [or they will have some objection - probably] ""but I don't smoke your brand."""
+56.0	503.0	1485.0	544.0	99.2	Rep - That's fine with us. We would like to be able to send you the promotional materials anyway. That way if
+55.0	535.0	1483.0	577.0	99.1	you do decide to try a different brand in the future, you may be able to save yourself some money or you can give
+55.0	566.0	1480.0	607.0	99.2	"the information to one of your friends who does smoke the brand. It only takes a minute or so to fill out the card."""
+57.0	624.0	632.0	658.0	99.9	Rep - [hands customer card and thanks them.]
+56.0	679.0	1417.0	720.0	99.5	Consumer - [takes card and walks away or looks at card and objects to the amount of information requested.]
+56.0	735.0	1482.0	777.0	99.5	"Rep - [If customer objects to the amount of information requested, handle with] ""The reason we are asking these"
+55.0	768.0	1483.0	808.0	98.6	questions is to insure that if we send you samples, coupons, etc., we send you items that would be of interest and
+55.0	800.0	1482.0	837.0	99.0	use to you. We want to do our best to insure we don't waste your time or ours. Please take it and fill it out. I
+56.0	829.0	1165.0	868.0	98.7	"think you will be happy with the results."" [Hands customer the survey and thanks them.]"
+56.0	883.0	1481.0	926.0	99.5	(If customer still does not want the survey, thank them for their time and attention and tell them to please come
+57.0	916.0	603.0	953.0	99.9	back and get one if they change their mind.]
+55.0	971.0	1436.0	1014.0	99.5	If ar any time the customer walks away do not pursue them, but thank them for taking the time to talk with you.
+55.0	1028.0	1206.0	1068.0	100.0	END OF CONSUMER SURVEY SCRIPT, BEGINNING OF SWITCH SELL.
+53.0	1084.0	1479.0	1124.0	98.4	IF AT ANY TIME DURING THE SWITCH SELL THE CONSUMER SHOWS ANY RESISTANCE, END
+53.0	1114.0	1344.0	1160.0	98.9	THE ATTEMPT TO SWITCH SELL. The major objective is to get the information on the survey card.
+56.0	1173.0	1480.0	1215.0	98.6	[Have surveys on clip boards with pencil or pen on string available to fill out the survey. If the customer is in a
+54.0	1204.0	1479.0	1247.0	99.1	hurry, allow them to take the survey with them, but the object is to switch sell them while they are filling out the
+53.0	1233.0	141.0	1270.0	96.1	form.]
+54.0	1291.0	1189.0	1332.0	98.9	"REP - ""I noticed you smoke (consumer's brand)"", or ""What brand are you smoking now?"""
+54.0	1348.0	466.0	1385.0	99.0	"Consumer - ""I smoke - (brand.)"""
+53.0	1403.0	1476.0	1449.0	99.5	"REP - ""That's a good brand. Would you consider trying our (brand from brand selection card) today?"" [Give"
+52.0	1436.0	1353.0	1481.0	99.9	benefit statements for brand and inform them of any brand promotions that may apply to their selection.
+53.0	1492.0	562.0	1532.0	98.3	"Consumer - ""Okay"" [or some objection.]"
+52.0	1550.0	1475.0	1595.0	99.9	Rep - [Handle the objection by agreeing with the consumer's right to purchase whatever they want or agreeing
+53.0	1581.0	1474.0	1627.0	99.1	"with whatever the core of their objection was and close with], ""but I really think you may prefer our brand. It is"
+54.0	1615.0	523.0	1651.0	99.9	"the (repeat major benefit statements)."""
+1531.0	1628.0	1577.0	1927.0	100.0	2060154558
+50.0	1671.0	1473.0	1715.0	99.7	If custormer still objects - thank him or her for taking the time to talk with you and collect the survey or make sure
+53.0	1704.0	577.0	1738.0	99.9	the consumer takes a blank one with them.
+50.0	1759.0	1473.0	1803.0	99.2	REP - [If consumer has no objection or when you have over come their objection - offer to exchange the pack or
+49.0	1791.0	1473.0	1836.0	98.9	carton for them while they finish filling out the survey.] 'If you like, I will put that (pack or carton) back on the
+50.0	1822.0	1473.0	1867.0	99.3	"shelf for you while you are filling out the survey and get you one of (brand we are switching them to.)"" [Make"
+51.0	1856.0	1292.0	1897.0	99.4	the switch, thank the consumer. and collect the survey. Drop collected surveys in nearest mailbox.]
+48.0	1910.0	1472.0	1955.0	99.6	NOTE: The Background Information on PM Brands section in your ASK Manual contains benefit statements for
+51.0	1948.0	196.0	1975.0	100.0	our brands.

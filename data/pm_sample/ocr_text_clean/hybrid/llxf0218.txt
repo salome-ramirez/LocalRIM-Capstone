@@ -1,0 +1,37 @@
+Draft for discussion purposes only
+Studies to be performed by John Hearn Neal Nunnally and Dawn
+Anderson on 11/5/2003 at Ashland
+Objective
+To investigate smoking topography of K series EHCSS and Mariboro Lights (MLs) with
+CreSSmicro measurement device and to examine variability in measurement between dry
+air and particulate (smoke). Using 2 second puff.
+Materials
+Cigarettes
+ML to be supplied by Sensory Research
+K series EHCSS to be supplied by Ashland
+CreSSmicro device Series 2
+To be supplied by Sensory Research
+Setting scale factor
+Set scale factor using 50- 80cc (1 sec 50cc square and 1/2 sine wave puffs on smoking
+machine puff), check with 30 and 80ml.
+Variables
+Puff Volume (Particulate=35, 60, 85 Air=20, 35, 40, 50, 60, 85, 100), Cigarette
+Smoke(CS, with or without), Puff Profile (sine, square of ½ triangle), Cigarette (ML or
+K), Number of CreSS devices (3), Number of Cigarettes, Threshold setting (factory
+setting=20).
+Topography Parameters
+Puff Volume (PV), Puff Duration (PD), Peak Flow (PF), Puff Number (PN), Inter-Puff-
+Interval (IPI)= 28 seconds (2scc puff).
+0C
+Questions of interest
+1. How accurately does the device measure topography parameters (PV, PD, PF,
+PN). ?vol
+2. Below what point can puffs not be measured
+3. Do measurement ameng between devices
+4. Do measurements differ according to whether air or CS is used- is this linear or
+nonlinear with volume
+5. Does the type of smoke (EHCSS or MLs) make a difference
+6. Do measurements change with puff number
+A. Livermore November 5 2003
+
+

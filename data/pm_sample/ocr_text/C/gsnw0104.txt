@@ -1,0 +1,38 @@
+CODE:
+PHILIPMORRIS BOCAO
+DATE:
+U.S.A. 7/05/95
+LOCATION:
+TOBACCO PRODUCT STANDARDS Bright Leaf
+DESCRIPTION: TYPE:
+Type - Bright Belt - Old Grade - CAFO Tobacco Standard
+PM EUROPE STATUS: TRNO:
+CONFIDENTIAL: DO NOT DUPLICATE Active 95-02974
+Processing Method: WLT - Direct
+SIEVE ANALYSIS (%): (Q.A. PPI: 340-104V)
++1 Mesh Standard 60.0
+Run Average Lower Control Limit 58.4
+Indiv. Test Lower Control Limit 52.5
+Total On 2 Mesh 87.0
+Total 8 Mesh + Pan Standard 2.2
+Run Average Upper Control Limit 2.4
+Indiv. Test Upper Control Limit 3.0
+Pan 0.5
+STEM CONTENT (%): (Q.A. PPI: 340-504V)
+Slotted Plate (> 3/32 in. dia.)
+(Average less than or equal to) 0.25
+Run Average Upper Control Limit 0.29
+Indiv. Test Upper Control Limit 0.50
+Total Stem (Excluding Fiber)
+(Average less than or equal to) 2.25
+Run Average Upper Control Limit 2.45
+Indiv. Test Upper Control Limit 2.80
+OVEN VOLATILES (%) (HEARSON METHOD): (Q.A. PPI: 34O-234V)
+Indiv. Test Upper Control Limit 13.50
+Run Average Upper Control Limit 13.00
+Target 12.50
+Run Average Lower Control Limit 12.00
+Indiv. Test Lower Control Limit 11.50
+CASE NET WEIGHT (Kgs): (Target) 190.0 2056466540
+Prepared by: s/s S.C. Meehan
+Issued To: F.G. Owen

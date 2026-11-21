@@ -1,0 +1,87 @@
+# Assign 4009 # Ballot
+Ballot Response d
+N # Panelist 15101
+#Seq #? date Resp Question Description
+; 1 52 Interview Date : (MM/DD/YY)
+: 98 PLACES/TIMES SELF-RESTRICT? (Does the consumer have any
+! other places/times he/she self restricts?)
+3 23 AWARE OF ACCORD? (Had the consumer heard of Accord prior
+} to coming to the COC ?)
+{ 4 99 HOW? (How had the consumer heard of Accord prior to coming to
+{ the COG?)
+i 5 87 WHAT HAPPENED WHEN RECEIVED BROCHURE? D0003
+i 6 88 REASONS CALLED 800 NUMBER/LIKES:
+7 130 THINGS POSSIBLY MIGHT LIKE: (was there anything that you
+; thought you might like about the product idea after reading the
+: brochure.) ©
+H 8 89 THINGS POSSIBLY MIGHT NOT LIKE: (was there anything that
+! you thought you might not like about the product idea after reading
+i the brochure?)
+i 9 168 Expected price minimum? (what would be the minimum price the
+H ‘consumer would expect to pay?)
+i 10 169 Expected price maximum? (what Is the maximum price the
+] consumer would expect to pay?)
+$ “ 30 TYPE OF ADULT SMOKER FOR ACCORD? where 1= smokers
+H like me, 2 = other smokers, 3 = not sure, 4 = smokers like me &
+other smokers, 5 = smokers concemed about others
+; 12 9 ADDITIONAL COMMENTS:
+13 1 Interviewer Name :
+14 2 Scribe :
+15 5 Interview Start Time :
+16 6 Interview End Time :
+7 97 ACCORD TRIED? (yin)
+18 10 VIDEO SHOWN? (Did the interviewer show the consumer a video vo003
+2) YIN
+19 115 IF YES, ID# OF VIDEO?
+20 90 HOW COMPARES WITH EXPECTATIONS, where 1 = better, 2 =
+same, 3 = different
+21 131 LIKES (what consumer likes about Accord after trying)
+22 132 DISLIKES (what consumer dislikes about Accord after trying?).
+23 7 LIKING (If the consumer tried an Accord cigarette, how much did 7001562
+N he/she like it overall?)
+$ where 1 = dislike very much, 7 = like very much
+24 75 a Why? (Why did the consumer give that particular “Overall Liking”
+°
+M score?)
+rs) 18 w #TRIED (How many Accord cigarettes did the consumer smoke ?) T001562
+; 2 8 8 MARKET TRIAL INTEREST ? (If the product became available on
+“ the market, would the consumer be interested in trying the product
+} 2) YIN
+——
+Friday, April 24, 1998 # Panelist 15101
+E60EZ0990Z
+Item Id Item Type Value -Int/Txt/Vch
+G
+6
+G
+®
+<000000
++00 0<
+STUDY #2
+Part# 800 Type S
+04/15/98
+Gesignated smoking areas outside of job
+0
+Busband opened first, consumer read whole brochure immediately,
+thought it gave enough info
+titerested in non- smoke future, wailed one day before she called
+Being able to smone around non- smokers
+‚
+Bone right now
+950
+0
+Bandra
+Bannette
+06:10 p
+06:42 p
+9
+9
+0
+1
+{Go not have to worry about burning anything
+Getting use to longer , harder puff
+5
+Qaste is good , have to get use to puffs
+2
+6
+Page I of 2

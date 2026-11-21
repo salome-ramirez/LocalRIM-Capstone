@@ -1,0 +1,37 @@
+ALPINE
+1991 QUARTERLY BUDGET RECAP *
+FIRST QUARTER SECOND QUARTER THIRD QUARTER FOURTH QUARTER TOTAL YEAR
+$MM % SMM % $MM % $MM % $MM %
+PRINT
+MAGAZINES 0.0 0.0% 0.0 0.0% 0.0 0.0% 0.0 0.0% 0.0 0.0%
+ROP 0.0 0.0% 0.0 0.0% 0.0 0.0% 0.0 0.0% 0.0 0.0%
+SUPPS/FSI'S 0.0 0.0% 0.0 0.0% 0.0 0.0% 0.0 0.0% 0.0 0.0%
+PRINT TOTAL 0.0 0.0% 0.0 0.0% 0.0 0.0% 0.0 0.0% 0.0 0.0%
+OOH
+CORPORATE POOL 0.6 42.9% 1.3 100.0% 0.0 0.0% 0.8 100.0% 2.7 77.1%
+OUT-OF-POCKET 0.8 57.1% 0.0 0.0% 0.0 0.0% 0.0 0.0% 0.8 22.9%
+11
+OOH TOTAL 1.4 100.0% 1.3 100.0% 0.0 0.0% 0.8 100.0% 3.5 100.0%
+SPENDING TOTAL $MM 1.4 100.0% 1.3 100.0% 0.0 0.0% 0.8 100.0% 3.5 100.0%
+% 40.0% 37.1% 0.0% 22.9% 100.0%
+*BASED ON CURRENT PLANNED EXPENDITURES.
+06651
+ALPINE
+1991 QUARTERLY BUDGET RECAP *
+
+| | FIRST QUARTER | SECOND QUARTER | THIRD QUARTER | FOURTH QUARTER | TOTAL YEAR |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| | $MM | % | $MM | % | $MM | % |
+| PRINT | | | | | | |
+| MAGAZINES | 0.0 | 0.0% | 0.0 | 0.0% | 0.0 | 0.0% |
+| ROP | 0.0 | 0.0% | 0.0 | 0.0% | 0.0 | 0.0% |
+| SUPPS/FSI'S | 0.0 | 0.0% | 0.0 | 0.0% | 0.0 | 0.0% |
+| PRINT TOTAL | 0.0 | 0.0% | 0.0 | 0.0% | 0.0 | 0.0% |
+| OOH | | | | | | |
+| CORPORATE POOL | 0.6 | 42.9% | 1.3 | 100.0% | 0.8 | 100.0% | 2.7 | 77.1% |
+| OUT-OF-POCKET | 0.8 | 57.1% | 0.0 | 0.0% | 0.0 | 0.0% | 0.8 | 22.9% |
+| OOH TOTAL | 1.4 | 100.0% | 1.3 | 100.0% | 0.8 | 100.0% | 3.5 | 100.0% |
+| SPENDING TOTAL $MM | 1.4 | 100.0% | 1.3 | 100.0% | 0.8 | 100.0% | 3.5 | 100.0% |
+| % | 40.0% | | 37.1% | | 0.0% | 22.9% | 100.0% |
+
+*BASED ON CURRENT PLANNED EXPENDITURES.

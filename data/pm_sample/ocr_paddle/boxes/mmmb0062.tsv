@@ -1,0 +1,36 @@
+x1	y1	x2	y2	conf	text
+224.0	338.0	724.0	365.0	99.8	Mail Department will receive entries & claims
+220.0	397.0	327.0	433.0	100.0	Entries
+221.0	463.0	644.0	492.0	98.9	Entries will be sorted into GID/no GID
+318.0	498.0	693.0	522.0	100.0	No GID will be processed as usual
+318.0	526.0	971.0	554.0	99.7	GID will be left in the envelope and forwarded to Extraction
+219.0	585.0	1281.0	616.0	99.3	Extraction will verify Ids based on list. (IMPORTANT must be kept by date and processed daily)
+317.0	617.0	679.0	645.0	97.9	GID – entry and id match exactly
+413.0	649.0	1372.0	673.0	98.7	Mail has already included in the count so entries will be returned to Sherrill and included
+412.0	678.0	561.0	706.0	95.7	"In ""last tray”."
+315.0	736.0	816.0	763.0	99.8	No GID – entry and id definitely do not match
+412.0	768.0	1330.0	795.0	99.4	A copy of the entry and the id is made to accommodate the survey request. Mail will
+414.0	800.0	1293.0	824.0	99.9	already have included in the count so the originals are given back to Sherrill to be
+412.0	829.0	657.0	856.0	95.9	included in “last tray”.
+315.0	888.0	946.0	916.0	98.5	? GID – match is close but need a second opinion from Ed
+410.0	918.0	1320.0	949.0	99.9	copy is made and given to Rick for input from Ed and the originals are held pending
+412.0	950.0	1309.0	977.0	99.5	input, which needs to be fairly quick. Once a determination has been made we will
+409.0	979.0	766.0	1007.0	100.0	process them as indicated above.
+218.0	1042.0	320.0	1070.0	99.8	Claims:
+313.0	1101.0	873.0	1130.0	97.5	GID – claim and id match exactly– process as usual
+309.0	1192.0	1360.0	1224.0	99.4	No GID - claim info & id definitely do not match. Photocopy claim & id for survey purposes and
+312.0	1226.0	547.0	1252.0	100.0	then process as usual.
+312.0	1285.0	943.0	1312.0	99.1	? GID – match is close but need a second opinion from Ed
+311.0	1314.0	1360.0	1345.0	100.0	copy is made and given to Rick for input from Ed and the originals are held pending input, which
+312.0	1348.0	1350.0	1372.0	98.6	needs to be fairly quick. Once a determination has been made we will process them as indicated
+308.0	1374.0	387.0	1402.0	100.0	above.
+215.0	1468.0	697.0	1498.0	99.5	REQUESTS FOR GAME PIECES
+309.0	1531.0	869.0	1562.0	100.0	Mail will forward to First St.- For Daily Processing.
+307.0	1594.0	881.0	1621.0	99.5	Fulfillment will batch accordingly. (see batch sheet)
+309.0	1654.0	1097.0	1681.0	99.4	Fulfilling those with only all the correct certification statement & SASE.
+406.0	1715.0	1306.0	1741.0	98.8	The certification statements along with a copy of the batch sheet will be sent to Jan.
+308.0	1775.0	1163.0	1802.0	99.6	All entries received will be redirected to Sherrill with a copy of the batch sheet.
+307.0	1834.0	1351.0	1866.0	99.6	All non-compliant requests will be stored at First Street but a copy of the batch sheet will be sent
+304.0	1865.0	642.0	1900.0	98.6	to Acct., Rick, & Carie Miller.
+642.0	1867.0	934.0	1918.0	93.5	Jayce Neloon
+1514.0	1887.0	1556.0	2101.0	100.0	2080462002

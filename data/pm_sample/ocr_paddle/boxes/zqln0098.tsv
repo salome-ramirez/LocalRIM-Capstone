@@ -1,0 +1,69 @@
+x1	y1	x2	y2	conf	text
+219.0	93.0	903.0	128.0	98.4	INBIFO Institut für biologische Forschung GmbH · Köln
+222.0	138.0	418.0	169.0	96.6	19 August 1998
+731.0	134.0	813.0	171.0	97.5	-/PSN
+224.0	266.0	948.0	300.0	99.8	CHEMICAL/PHYSICAL DETERMINATIONS
+188.0	399.0	401.0	440.0	99.4	Component/
+452.0	395.0	641.0	445.0	100.0	Frequency
+715.0	394.0	851.0	440.0	100.0	Reason
+1027.0	399.0	1310.0	436.0	100.0	Method/Principle
+1360.0	398.0	1549.0	435.0	100.0	Calibration
+1625.0	397.0	1779.0	435.0	100.0	Remarks
+188.0	445.0	369.0	483.0	100.0	Parameter
+183.0	510.0	252.0	549.0	100.0	TPM
+452.0	515.0	680.0	549.0	100.0	at least once daily
+717.0	516.0	984.0	546.0	99.9	main dose parameter
+1023.0	514.0	1159.0	552.0	100.0	gravimetry
+1359.0	515.0	1572.0	546.0	100.0	standard weights
+1623.0	512.0	1819.0	548.0	97.8	glass fiber filter
+184.0	575.0	339.0	615.0	100.0	particle size
+450.0	576.0	671.0	613.0	100.0	3 times (monthly)
+717.0	577.0	979.0	611.0	100.0	deposition probability
+1024.0	578.0	1228.0	612.0	100.0	precipitation in a
+1358.0	579.0	1597.0	610.0	100.0	monodispers Latex
+1624.0	578.0	1849.0	609.0	100.0	aerosol centrifuge
+1025.0	615.0	1220.0	649.0	97.7	centrifugal fieid,
+1357.0	614.0	1463.0	650.0	100.0	spheres
+1023.0	677.0	1210.0	711.0	100.0	migration in an
+1625.0	678.0	2013.0	708.0	98.8	scanning mobility particle sizer,
+1023.0	712.0	1233.0	745.0	99.9	electrostatic field
+1625.0	715.0	1936.0	745.0	96.5	establishment in process
+183.0	777.0	287.0	812.0	100.0	nicotine
+451.0	777.0	640.0	813.0	100.0	once per week
+713.0	775.0	783.0	812.0	100.0	main
+1024.0	778.0	1181.0	813.0	100.0	capillary gas
+1358.0	776.0	1524.0	811.0	99.9	certified pure
+1623.0	774.0	2017.0	810.0	100.0	trapping on sulfuric acid-coated
+717.0	815.0	940.0	849.0	100.0	pharmacologically
+1023.0	814.0	1226.0	850.0	100.0	chromatography
+1358.0	815.0	1504.0	846.0	100.0	substances
+1623.0	813.0	1729.0	849.0	95.9	silicagel
+717.0	853.0	940.0	884.0	100.0	active component
+182.0	911.0	236.0	952.0	99.8	CO
+451.0	916.0	610.0	950.0	100.0	continuously
+716.0	918.0	947.0	948.0	100.0	inert concentration
+1024.0	917.0	1299.0	948.0	99.8	non-dispersive IR light
+1359.0	916.0	1594.0	947.0	100.0	certified calibration
+1626.0	916.0	1920.0	947.0	100.0	after removing particles
+451.0	952.0	672.0	988.0	100.0	during exposures
+715.0	951.0	828.0	986.0	100.0	indicator
+1024.0	952.0	1157.0	984.0	100.0	absorbtion
+1353.0	953.0	1411.0	993.0	99.9	gas
+183.0	1015.0	297.0	1050.0	99.9	NO/NOx
+451.0	1015.0	639.0	1053.0	98.2	once per week
+1026.0	1018.0	1276.0	1045.0	100.0	chemoluminescence
+1359.0	1017.0	1594.0	1047.0	98.4	certified calibration
+1626.0	1017.0	1984.0	1048.0	100.0	after removing particles, only
+1353.0	1053.0	1411.0	1093.0	99.7	gas
+1624.0	1053.0	2002.0	1083.0	100.0	relevant for sidestream smoke
+184.0	1117.0	316.0	1152.0	97.3	aldehydes
+450.0	1116.0	640.0	1152.0	100.0	once per week
+715.0	1116.0	881.0	1150.0	100.0	main irritants
+1021.0	1113.0	1104.0	1152.0	100.0	HPLC
+1358.0	1116.0	1524.0	1150.0	99.9	certified pure
+1625.0	1116.0	1824.0	1150.0	99.9	after trapping in
+1357.0	1153.0	1504.0	1185.0	100.0	substances
+1624.0	1150.0	2012.0	1186.0	100.0	dinitrophenylhydrazine solution
+385.0	1434.0	571.0	1485.0	91.6	067931
+1165.0	1476.0	1401.0	1500.0	98.9	X.\PSN\CHEMPHY1.DOC
+1427.0	1501.0	1477.0	1524.0	98.5	127/94

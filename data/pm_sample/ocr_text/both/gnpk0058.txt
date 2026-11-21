@@ -1,0 +1,50 @@
+2/4/97 PMV [B1050BIO.XLS Inlife all]
+Inlife Observations, B1050 up to day of study:91, 01 Oct.96
+Parameter 0-GR 1-GR 2-GR 3-GR 4-GR 5-GR
+sham refL ref H test L test H 1R4FH
+decr. spont. act. 0 0 14 0 16 23
+incr. spont. act. 0 1 2 2 1 1
+decr. react. sound & touch 0 0 3 0 3 1
+incr. react. sound & touch 1 17 12 15
+decr. turning reflex 1 52 18790 44 52
+decr. gripping ability 1 48 38 49
+closed. eyelids. 0 1 0 3
+Harderian gland secr. 40 34 47 33 37
+trembling 0 0 0 3 0 1 6
+abnormal breathing 0 0 0 0 2
+hair, rough 0 24 48 20 49 51
+hair, wet 112 227 251 238 241 262
+hair, discoloration 64 163 211 163 194 218
+hair, loss 2 1 6 0 3 5
+skin changes 0 8 1 8 8
+spunow 0 100 57 3 61 66
+high-legged gait 0 1 0 1 1
+overgrown incissors 1 0 2 0 3 3
+000146 number of rats observed 263 266 263 272 256 272
+50517301
+B1050 - P0500/3258 In-life observations
+Inlife Observations, B1050
+up to day of study: 91, 01 Oct. 96
+
+Parameter 0-GR sham 1-GR ref L 2-GR ref H 3-GR test L 4-GR test H 5-GR 1R4F H
+
+decr. spont. act. 0 0 14 0 16 23
+incr. spont. act. 0 1 2 2 1 1
+decr. react. sound & touch 0 0 3 0 3 1
+incr. react. sound & touch 1 5 17 18 12 15
+decr. turning reflex 1 8 52 7 44 52
+decr. gripping ability 1 9 48 9 38 49
+closed. eyelids. 0 0 1 0 0 3
+Harderian gland secr. 40 43 34 47 33 37
+trembling 0 0 3 0 1 6
+abnormal breathing 0 0 0 0 0 2
+hair, rough 0 24 48 20 49 51
+hair, wet 112 227 251 238 241 262
+hair, discoloration 64 163 211 163 194 218
+hair, loss 2 1 6 0 3 5
+skin changes 0 3 8 1 8 8
+wounds 0 5 57 3 61 66
+high-legged gait 0 0 1 0 1 1
+overgrown incissors 1 0 2 0 3 3
+
+number of rats observed 263 266 263 272 256 272

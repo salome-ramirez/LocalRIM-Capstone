@@ -1,0 +1,5 @@
+id,tokens,predicted,confidence,routed,route_reason
+kqvb0028,4,MKT,0.377,review,under 20 tokens
+fqyf0062,22,RND,0.315,review,below cutoff
+pkfd0061,7,MKT,0.568,review,under 20 tokens
+jxhw0021,5,MKT,0.389,review,under 20 tokens

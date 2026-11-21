@@ -1,0 +1,140 @@
+2C}50(36t39b7
+SHIFT
+QA-BL Plant Detai l Report
+BLjr l ey S tem
+Time
+yoV
+y N03-N
+X Dry
+W/B
+X Ory
+Wi8
+Spec
+5/9
+5/9
+< .50
+< .50
+Rvg
+Produc t i on Ous t
+X OV
+X-Ory
+317
+W/B
+3i7
+N03-N
+W/B
+< .50
+1 P n P1Ran
+z
+PRODUCT I ON SUf1f1ARY
+iotal
+llhds .
+Produced
+0iS
+DV
+>18
+0iS
+0V
+<14
+Total
+I/S
+0/S
+PG
+0/S
+GLY
+0/S
+Other
+0iS
+Z-TEST
+Sov°I
+Time
+Rvg
+SWECO
+Rvg
+y PG
+W/B
+1 .25
+l: Gly
+W/B
+2 .10
+*4 TIMES PER SHIFT*
+*LINE 1 ONLY*
+Mor-i i tors
+~
+Ruto Rnalyzer
+GC
+N113
+KS
+N03-N
+PG
+GLY
+PRRROEN
+•
+2 .30
+0.10
+0.23
+2.37
+3.31
+548
+TRRGET
+x
+R
+COMMENTS
+gals
+Shee t IJe i gh ts
+Time
+SPEC
+RVG
+L-1
+11 .4
+L-2
+11 .4
+L-3
+11 .4
+Oven Volatiles
+#
+W/SPEED-UP
+TEST SAMPLES
+RVG
+S:D .
+0B
+1 .R .
+RVG
+TIME
+DATE
+Day Mix Slurry
+Refined Slurry
+Time
+Fiii„, Solids
+Temp
+pH
+e~-„g Sol ids
+Temp
+pH
+Spec
+18 .50
+150F
+18 .75
+160F
+Rvg
+S .D .
+F- i n i shecl ProdLac t
+Nhd #
+Spec
+RVG
+S .D .
+PRRRBEN
+700
+NH3
+2 .8
+KS IN03-NI PG
+.15 1 < .60 1 3 .0
+Gly
+4 .0
+as
+Stred OV
+l .R .
+5hred ON
+OVEN
+QA SUPERVISOR
+REVISED 6/17/91 JLD (SPDETRIL)

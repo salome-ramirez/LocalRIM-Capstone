@@ -1,0 +1,58 @@
+PHILIP MORRIS
+U .S.A .
+• I OESCRIPTICN :
+•
+•
+TOBACCO PRODUCT STANDARDS
+Type - Bright Belt - Old Grade - CAFO
+PM EUROPE
+CONFIDENTIAL : DO NOT DUPLICATE
+Processing Method : WLT - Direct
+Indiv . Test Lower Control Limit
+CODE :
+DATE :
+BOCAO
+7/05/95
+LXATIPtl :
+Bright Leaf
+iYPE :
+Tobacco Standard
+STATUS: TR`l0 :
+Active 95-02974
+SIEVE ANALYSIS (%) : (Q .A. PPI : 340-104V)
++1 Mesh Standard ---------------------------------- 60 .0
+Run Average Lower Control Limit ------------------- 58 .4
+Total On 2 Mesh ------------------------------------- 87 .0
+52 .5
+Total 8 Mesh + Pan Standard ------------------------ 2 .2
+Run Average Upper Control Limit ------------------- 2 .4
+Indiv . Test Upper Control Limit ------------------- 3 .0
+Pan
+STEM CONTENT (%) : (Q .A . PPI : 340-504V)
+Slotted Plate (> 3/32 in . dia .)
+Total
+(Average less than or equal
+Run Average Upper Control Limit
+Indiv . Test Upper Control Limit
+Stem (Excluding Fiber)
+(Average less than or
+Run Average Upper Control
+Indiv . Test Upper Control
+0 .5
+to) ----------- 0 .25
+equal to) ----------- 2 .25
+Limit -------------------
+Limit
+0 .29
+0 .50
+2 .45
+2 .80
+OVEN VOLATILES (9) (HEARSON METHOD) : (Q .A . PPI : 340-234V)
+Indiv . Test Upper Control Limit ------------------- 13 .50
+Run Average Upper Control Limit ------------------- 13 .00
+Target -------------------------------------------- 12 .50
+Run Average Lower Control Limit ------------------- 12 .00
+Indiv . Test Lower Control Limit ------------------- 11 .50
+CASE NET WEIGHT (Kgs) : (Target) ----------------------- 190 .0
+Prepared by ; s/s S .C . Meehan
+Issued To : F .G . Owen

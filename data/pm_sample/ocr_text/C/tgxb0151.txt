@@ -1,0 +1,37 @@
+PHILIP MORRIS U. S. A. CONFIDENTIAL
+INTER-OFFICE CORRE SPONDENCE
+Richmond, Virginia
+To: F. Daylor Date: February 21, 1990
+From: W.N. Einolf
+Subject: GC/MS Analysis of Sample AB-133
+Sample AB-133 was prepared by S. Phillips for GC analysis by diluting
+with dichloromethane (1:21, v:v). A 1 μ1 injection of the dilute solution
+was made on a fused silica capillary column coated with DBwAx. The Table
+below refers to the two chromatograms, and lists those GC peaks examined by
+GC/Ms. The identifications were made from the best matches of the mass
+spectrum with those in our libraries. Where the relative retention times
+match with those of authentic compounds, an asterisk (*) follows the RRT
+value. Note that this same sample type has been analyzed as AA-233, with a
+memo sent to you on March 20, 1989.
+Scan# RRT Area% MW Identification
+199 0.148 0.03 116 butyl acetate
+235- 0.185* 67.21 130 isoamyl acetate
+244
+281- 0.217* 32.43 130 amyl acetate
+287
+309 0.233 0.03 88 isoamyl alcohol
+351 0.264* 0.12 88 amyl alcohol
+1324 1.000 0.15 232 decanophenone (internal standard)
+Notebook reference: 8866, p.40
+CC: R. Ferguson
+M. Zimmermann
+File
+205 2
+1
+1
+6
+7
+8
+5
+5
+2051197855

@@ -1,0 +1,20 @@
+Effoctive Date: t2-9-70
+Brand - Benson & Hedges"P.L."
+Length99.4mm
+Circumference-24.8.mm
+Filler- Legg
+Machine Type - Mark VIII
+Reason for Change 5% Reduction in Filler based on previous
+filler weight of 0.9298135 gms
+Authorized by: Mr.B.A. Soyars
+Paper Width - 27:5 mm
+Filler Weight - 74.4 mm. (gms) 0.9251644
+Paper & Paste - 74.4 mm. (gms) 0.0466389
+Rod Weight - 74.4 mm. (gms) 0.9718033
+Tipping & Adhesive - 32 mm. (gms) 0.0448001
+Total Less Plug (gms) 1.0166034
+Volume (Cubic Millimeters) 3641.3867
+Density (Cgms/cc.) 25.4069
+Filler Weight (Lbs/1,000 Cigts.) 2.0396
+OBSOLETE
+SOF 6-12-70

@@ -1,0 +1,41 @@
+2
+INB Bln
+7
+C
+B O BLATT-NR.: 1 von 2
+TITEL: Discrimination of CSC from 2R1F and X6D3DAM in the 2-Stage Transformation Assay Using 10T1/2 Cells
+(PT)
+PRÜFZEITPUNKT: 24.Jan.92
+ÜBERPRÜFTER PARAMETER BEANSTANDUNG
+Transformationstest
+SOP keine
+Auswertung 11
+Beschriftung 1
+Protokollierung ł
+BEMERKUNG: Studie nach den GLP-Grundsätzen des ChemG
+27.Jan.92 0
+QA: DATUM/ZN
+
+4088
+INBIFO Institut für biologische Forschung · Köln
+27.Jan.92 NDA/BRA QAT3171.WM
+
+ÜBERPRÜFUNG VON P 0500/3171 DURCH QA
+BLATT-NR.: 1 von 2
+
+TITEL: Discrimination of CSC from 2R1F and X6D3DAM in the 2-Stage Transformation Assay Using 10T1/2 Cells (PT)
+
+PRÜFZEITPUNKT: 24.Jan.92
+
+ÜBERPRÜFTER PARAMETER BEANSTANDUNG
+
+Transformationstest
+SOP keine
+Auswertung "
+Beschriftung "
+Protokollierung "
+
+BEMERKUNG: Studie nach den GLP-Grundsätzen des ChemG
+
+27.Jan.92
+QA: DATUM/ZN

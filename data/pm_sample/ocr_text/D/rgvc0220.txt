@@ -1,0 +1,18 @@
+5/21/90 Meeting
+
+J. M. Whitman D. A. Clork Paul Kooter
+W. F. Jenkin P. O. Groenburg Jonie Guggenheim
+J. E. Nouren G. C. McConnell?
+
+7,000 lb/hr vs 10,000 lb/hr design point feeder
+General discussion on equipment availability vs. Equipment speed. Excess Equipment capability (speed) translates into minimum line downtime as when something else breaks (feeder goes off) and then cranks up to excess speed to conserve or catch-up.
+
+2) Synergistic effect of all plant projects to reach max capability of plant systems.
+
+3) Does this feeder get used x % of the time. What will the actual % of run time be?
+
+4) Add effect of loss of blend integrity during downtime for equipment.
+
+Add effect of charge in residence time on quality of product.
+
+(Short run, quality effect, downtime, - Net effect through production.)

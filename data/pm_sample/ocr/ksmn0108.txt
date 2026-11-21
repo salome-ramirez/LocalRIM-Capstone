@@ -1,0 +1,31 @@
+84-174
+CODE: 94@521
+aieve 10-4-34 pp
+DATE: May 21, 1984 7
+220
+POL TEST NUMBER: 3279 Change bea
+TITLE: Mariboro 65mm with CRL-TC (188% chevron-cut RL-TC) versus Marlboro
+85mm with NOD RL-TC Replacing CRL-TC
+TEST REQUESTER: R.J. Mitchell
+POL STUDY LEADER: McKay, C.L.
+PREPARED BY: McKay, C.L.
+PURPOSE: To determine any subjective differences between the
+control and experimental cigarettes.
+PROCEDURE (BALLOT): Sequential Monadic Ballot (NV1-B)
+SAMPLE SIZE: 1288 % RETURNED: 78%
+SMOKER GROUPS: Number returned-Power Value
+Marlboro 85mm 258 475
+Winston 85mm 302 537
+Full Flavor 85mm (excluding 234 +454
+Marlboro and Winston smokers)
+ANALYTICAL SUMMARY: The cigarettes were not different in any of the
+characteristics tested.
+CLOSE-OUT DATE: February 6, 1984
+RESULTS DISCUSSED WITH REQUESTER (DATE): March S, 1984
+COMMENTS: The results based on this sample of control and experimental
+did not. indicate a difference between the cigarettes.
+PLANS: No further testing is planned at this time.
+*Power: The probability of declaring a significant difference at
+p=8.18 when the real population difference corresponds to a 55:45
+split for each of the smoker groups.
+Z6SZ0O0VZOZ

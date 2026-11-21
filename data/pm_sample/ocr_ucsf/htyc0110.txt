@@ -1,0 +1,69 @@
+PROJECT"SUMMARY"REPORT
+N0, -/1234
+TITLE 42 d-inhalation study on rats with continuous
+and intermittent smoke exposure
+PART 4 : Histopathology
+DATE July 27, 1977 FINAL
+INTERIM ~
+EXPERIMENT
+Comparison of smoke inhalation in long daily sessions, smoke dil .u-
+tion 1 :123 (continuous exposure) and several short exposures with
+intermittent pauses, smoke dilution 1 :23, both types delivering
+similar "daily TPM doses" .
+Cigarette x6d3ru (net) ; 4o male rats in the control drbup and
+6o in each dose group ; exposures on 42 consecutive days
+;
+GROUP DAILY SMOKE TPM NICOTINE CO DAILY
+EXPOSURE CONCEN- CONCEN- CONCEN- CONCEN- TPM "DOSE"
+TRATION TRATION TRATION TRATION
+(min)
+(!ug/1)
+(ppm)
+(min. x nig/1)
+o-GR
+42o
+sham
+control
+0
+0
+0
+1-GR
+21o
+0 .81
+0 .66
+57
+297
+138
+2-GR
+42o
+0 .81
+0 .63
+54
+300
+263
+3-GR
+4x1o
+4 .35
+3 .56
+238
+1732
+142
+4-GR
+4x2o
+4 .35
+3 .84
+267
+1717
+307
+Resting periods between exposures were 5o and 10o min for
+3-GR and 4-GR ; dissections after 14, 21, 28, 35 and 42 d
+.
+p .t .o .
+DISTRIBUTION REFERENCES
+DROS
+DRRY
+DRHA
+SPECIAL FILE
+FILE
+-/1234, PART 1 to 4
+-/1234, Supplement : Histopathology

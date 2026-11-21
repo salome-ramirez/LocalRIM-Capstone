@@ -1,0 +1,95 @@
+{
+ "engine": "B",
+ "name": "Tesseract, original resolution",
+ "pages_expected": 1400,
+ "pages_read": 1400,
+ "empty_pages": 8,
+ "tokens_median": 158.0,
+ "tokens_p10": 24,
+ "tokens_p90": 392,
+ "wordlike_share_median": 0.743,
+ "pages_mostly_junk": 210,
+ "pages_with_bates_like_token": 1074,
+ "pages_with_own_bates_found": 529,
+ "pages_with_footer_left": 0,
+ "conf_median": 87.0,
+ "pages_under_60_conf": 184,
+ "seconds_mean": 1.68,
+ "seconds_total_min": 39.2,
+ "by_group": {
+  "1": {
+   "pages": 873,
+   "tokens_median": 120.0,
+   "wordlike_share_median": 0.722,
+   "empty_pages": 4
+  },
+  "2": {
+   "pages": 5,
+   "tokens_median": 11.0,
+   "wordlike_share_median": 0.758,
+   "empty_pages": 1
+  },
+  "3a": {
+   "pages": 20,
+   "tokens_median": 44.0,
+   "wordlike_share_median": 0.6745000000000001,
+   "empty_pages": 0
+  },
+  "3b": {
+   "pages": 35,
+   "tokens_median": 39.0,
+   "wordlike_share_median": 0.71,
+   "empty_pages": 1
+  },
+  "4": {
+   "pages": 467,
+   "tokens_median": 298.0,
+   "wordlike_share_median": 0.793,
+   "empty_pages": 2
+  }
+ },
+ "by_department": {
+  "ADM": {
+   "pages": 26,
+   "tokens_median": 73.0,
+   "wordlike_share_median": 0.6995,
+   "empty_pages": 0
+  },
+  "AFF": {
+   "pages": 44,
+   "tokens_median": 250.0,
+   "wordlike_share_median": 0.847,
+   "empty_pages": 0
+  },
+  "FIN": {
+   "pages": 21,
+   "tokens_median": 133.0,
+   "wordlike_share_median": 0.68,
+   "empty_pages": 0
+  },
+  "LEG": {
+   "pages": 19,
+   "tokens_median": 173.0,
+   "wordlike_share_median": 0.75,
+   "empty_pages": 0
+  },
+  "MKT": {
+   "pages": 65,
+   "tokens_median": 182.0,
+   "wordlike_share_median": 0.76,
+   "empty_pages": 0
+  },
+  "QSH": {
+   "pages": 20,
+   "tokens_median": 152.0,
+   "wordlike_share_median": 0.5435000000000001,
+   "empty_pages": 0
+  },
+  "RND": {
+   "pages": 55,
+   "tokens_median": 178.0,
+   "wordlike_share_median": 0.736,
+   "empty_pages": 0
+  }
+ }
+}

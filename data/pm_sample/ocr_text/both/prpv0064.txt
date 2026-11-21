@@ -1,0 +1,56 @@
+INBiFO Institut für biologische Forschung : Köln
+30.KW 91 KHOMWO \QA\EINSTUF.WM
+EINSTUFUNG (1,2)/ÄNDERUNG DER EINSTUFUNG (3)
+Die geplante Prüfung
+Projekt-Nr. P ......./...
+(1) - ist ohne Einschränkung nach den Grundsätzen der Guten Laborpraxis (GLP) gemäß dem
+Gesetz zum Schutz vor gefährlichen Stoffen vom 14.Mrz.1990, Sechster Abschnitt, Gute
+Laborpraxis, § 19a, durchzuführen (a).
+(2) - braucht nicht nach (1) durchgeführt zu werden, d. h. es kann überall da, wo die Einhaltung
+der formalen GLP-Bedingungen zu nicht gerechtfertigter Erschwerung der Arbeiten führt,
+auf deren Einhaltung ganz oder teilweise verzichtet werden (a).
+(3) - die nach Einstufung vom. ..... gemäß (1) durchgeführt werden sollte, wird nach
+(2) herabgestuft (a)(b).
+Bemerkung, besondere Anweisungen des Leiters der Prüfeinrichtung:
+Datum Datum
+PKZ ZN PKZ ZN 2082112955
+Leiter der Prüfeinrichtung Prüfleiter
+Verteiler: SD, QA
+(2) Falls nicht zutreffend streichen!
+(b) Die Anderung der Einstufung einer Prüfung, die ohne Einschränkung nach den Grundsätzen der
+Guten Laborpraxis durchgeführt werden sollte, in eine Einstufung der Prüfung, wonach diese
+mit Einschränkung nach den Grundsätzen der Guten Laborpraxis durchgeführt werden darf,
+heißt Herabstufung.
+C5>0
+So06
+INBIFO Institut für biologische Forschung · Köln
+30.KW 91 KHO/MWO \QA\EINSTUF.WM
+
+EINSTUFUNG (1,2)/ÄNDERUNG DER EINSTUFUNG (3)
+
+Die geplante Prüfung
+
+Projekt-Nr. P .../...
+
+(1) - ist ohne Einschränkung nach den Grundsätzen der Guten Laborpraxis (GLP) gemäß dem Gesetz zum Schutz vor gefährlichen Stoffen vom 14.Mrz.1990, Sechster Abschnitt, Gute Laborpraxis, § 19a, durchzuführen (a).
+
+(2) - braucht nicht nach (1) durchgeführt zu werden, d. h. es kann überall da, wo die Einhaltung der formalen GLP-Bedingungen zu nicht gerechtfertigter Erschwerung der Arbeiten führt, auf deren Einhaltung ganz oder teilweise verzichtet werden (a).
+
+(3) - die nach Einstufung vom ... gemäß (1) durchgeführt werden sollte, wird nach (2) herabgestuft (a)(b).
+
+Bemerkung, besondere Anweisungen des Leiters der Prüfeinrichtung:
+
+Datum
+
+PKZ ZN
+
+Leiter der Prüfeinrichtung
+
+PKZ ZN
+
+Prüfleiter
+
+Verteiler: SD, QA
+
+(a) Falls nicht zutreffend streichen!
+(b) Die Änderung der Einstufung einer Prüfung, die ohne Einschränkung nach den Grundsätzen der Guten Laborpraxis durchgeführt werden sollte, in eine Einstufung der Prüfung, wonach diese mit Einschränkung nach den Grundsätzen der Guten Laborpraxis durchgeführt werden darf, heißt Herabstufung.

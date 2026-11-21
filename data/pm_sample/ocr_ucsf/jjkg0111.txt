@@ -1,0 +1,12 @@
+2M62053CIIS
+Examples of C02 concentration profiles :
+Four trains taken on Nov . 30th .
+C02 conc. (ppm)
+20
+40 60
+Time (min .)
+Fare caracterization
+80
+New com . N/S 68% occ Old dir : N/S 43-66%
+100
+------ I .C., S, 65% occ New com . N/S 56-15%

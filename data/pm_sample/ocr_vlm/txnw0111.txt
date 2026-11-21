@@ -1,0 +1,38 @@
+Environmental Tobacco Smoke in Airliners — Health Issues
+W. Allan Crawford, O.B.E.
+Independent Consultant, Environmental Health & Aviation Medicine, Sydney, NSW, Australia. Fellow In Aerospace Medicine
+
+Introduction
+
+An airliner is a pressurised, airborne, air-conditioned, densely populated, tourist and business facility at an altitude not dissimilar to Albuquerque, NM or Denver, Colorado and a relative humidity not unlike Antarctica. The environment around the facility is lethal with regard to temperature and atmospheric pressure. Ozone is the only toxic substance in that atmosphere which may intrude Minor ionising radiations will pass through the facility and its contents.
+
+Modern office spaces are usually, air-conditioned, not so densely populated, facilities with multiple endogenous pollutions depending on the nature of work and entrainment of various chemicals and particulates from general urban pollutions. Ionising radiations may also be present.
+
+The airliner and offices are polluted by people who release gases such as CO₂, inter alia. These people release, on occasion, hostile viruses and bacteria, shed dead skin particles, fungal spores, and emit body odours. Clothing particulates and furnishing particulates are released by general scuffing.
+
+The only visible pollution is likely to be tobacco smoke, either exhaled mainstream smoke or sidestream smoke curling off the burning end of a cigarette. Both are rapidly diluted by natural diffusion and by the high ventilation rates — up to 18 air changes per hour in modern aircraft. The aroma of tobacco smoke, some call it odour, may be sensed as may that of ozone or of beverages, alcoholic and otherwise, when food services are not in operation. The aromas from delicious foodstuffs pervade from time to time. Personal scented toiletries are variable in quality, quantity and acceptability to fellow passengers.
+
+In the practice of aviation medicine there is, and always has been, a full understanding of the need to thoroughly measure the environment in which aviators operate. This includes the atmospheric pressure in the flight station, the partial pressure of the components of the atmosphere with specific regard to oxygen and possible contaminants, notably carbon monoxide, anti-freeze fumes and, in the 1960s, ozone. The development during and after the 1939-45 war, of oxygen systems and pressurisation of flight stations and cabins permitted the development of high altitude passenger airliners. The cabin environment is controlled to pressures which ensure no adverse effect from the reduced partial pressure of oxygen. No build-up of noxious gases or odours, produced by contaminants and human emissions, was achieved by ventilation system development.
+
+The pioneering studies of Muramatsu et al. in 1984 recorded an arithmetic mean level of nicotine of 15.2 µg/m³ in commercial aircraft in Japan, prior to the introduction of smoking and non-smoking areas. These authors further reported in 1987 levels of 5.3 µg/m³ in the non-smoking areas and 13.5 µg/m³ in the smoking sections. Also in 1987, Oldaker and Conrad reported on a detailed study in standard domestic airline flights. The apparatus was portable and the air sampling intake was within 15 cm of an adult passenger's breathing zone when the seat adjacent to the person sampling was unoccupied and within 45 cm of the breathing zone when the apparatus was positioned on the knees of the person sampling. The air vents above these seats were closed during sampling. Estimates were made of the numbers of passengers, the numbers smoking and the number of cigarettes smoked in some Boeing 727-200s, 737-200s and 737-300s flights. In one in-flight assessment the spatial variability of nicotine from forward in the non-smoking zone, at the boundary between zones and in the smoking zone was made. A gradient was found in the concentrations in these zones of 0.03, 1.9 and 2.3, and 42.2 µg/m³. There were 20 persons in the smoking zone.
+
+Oldaker and Conrad's results are summarised in Table 1. (NS — Non-smoking, S — Smoking, ND — Not Detected)
+
+| Aircraft | Seating | NL | Nicotine concn. | µg m³ | mean |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 727-200 | NS | 10 | ND(0.03) — 24.2 | 2.6 | |
+| | S | 8 | 0.4 — 42.2 | 6.8 | |
+| 737-200 | NS | 29 | ND(0.04) — 40.2 | 7.7 | |
+| | S | 11 | ND(0.08) — 112.4 | 6.5 | |
+| 737-300 | NS | 10 | ND(0.4) — 17.2 | 4.2 | |
+| | S | 7 | 0.7(2) — 76.7 | 21.5 | |
+| Total | NS | 49 | ND(0.03) — 40.2 | 5.5 | |
+| | S | 26 | ND(0.08) — 112.4 | 9.2 |
+
+Table 1. Summary of results from sampling nicotine in aircraft
+
+They concluded that segregation is effective, as are the ventilation systems and that non-smoking passengers are exposed to the mean nicotine equivalent of smoking 0.0041 to 0.0082 of a cigarette in flights of about 1 hour duration and that such levels of exposure are very low. The range of equivalent values were 0.0004-0.0369.
+
+Further studies have been conducted on Boeing 747LR aircraft with the co-operation of Japan Air Lines and, using more advanced, second generation samplers, recorded nicotine, and particulates, including RSP (Respirable Suspended Particulates).
+
+The results of research in B.747s by Oldaker et al. were analysed by Drake and presented to the US Air Transportation Research International Forum in Washington DC on 18th February 1988. These are given in

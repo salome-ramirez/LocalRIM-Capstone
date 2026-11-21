@@ -1,0 +1,94 @@
+—-—-
+VZ86Z0990Z
+#Assign 229
+Ballot Response n 334
+#Seq #2? date Resp Question Description
+erog
+©
+11
+12
+13
+14
+Wednesday, January 07, 1998
+38
+39
+40
+RAFBSLmanss
+8
+® 8 I 8 88
+©
+a
+©®
+N
+S
+Did the consumer receive a 24 to 48 hour callback ? (Y/N)
+What date/time did the consumer receive the 24-48 hour callback?
+On the 24-48 hour call back, did the interviewer reach the consumer
+or leave a message ? (where 1 = reached consumer, 2 = left a
+message, 3 = did not reach at all)
+Did the consumer log any problems during the 24-48 hour callback
+call ? (Y/N)
+(If YES, then refer to the PROBLEMS section of the COC
+Application)
+Who made the callback call ?
+Interviewer Name :
+Scribe :
+Interview Start Time :
+Interview End Time :
+Interview Date : (MM/DD/YY)
+Date of Placement : IRAC0036
+Did you get a chance to smoke Accord? (Y/N)
+IFNo, then why didn=t you get a chance to smoke Accord?
+How did it go? (How did the consumer~s home trial week go? e.g.,
+Likes & Dislikes)
+If Yes, # smoked (about how many Accord cigarettes did you get a
+chance to smoke?)
+Where? In what situations? (did you get a chance to smoke Accord
+cigarettes)
+‘About how many of your own brand did you smoke? (during your
+trial week with Accord)
+When & where did you smoke your own cigarettes?
+Was anyone else with you? How did they react? (when you smoked
+the Accord cigarette.
+Any questions or issues (about using accord)?
+Owner~s guide - did you refer to it ? (where 1 = didn~t read, 2= U0002
+read, 3 = helpful, 4 = not helpful)
+Behavioral adjustments? (what are some of the things you adjusted
+to while smoking accord & how did you adjust?
+Discovered benefits (what are some of the things you discovered &
+Why? (Why did the consumer give that particular "Overall Liking”
+score?)
+If the product came on the market tomorrow, how interested would
+the consumer be in buying it ?
+(where 1 = extremely dis-interested, 7 = extremely interested)
+# Panelist 334 Panelist Nam
+QxO
+ARRXQARBDADA
+STUDY #2 Part # 3
+Item Id Item Type Value -Int/Txt/Vch
+o
+CANDACE ADAMS
+KIM KAWA
+12:10 P
+12:40 P
+01/07/98
+02/10/97
+y
+0
+DIKES : NOT HAVING TO SEARCH FOR MISPLACED LIGHTER &
+MATCHES
+DISLIKES : MORE SMOKE WITH REG. CIGT RATHER THAN
+ACCORD
+300
+THOUGHT GREAT IDEA - RESTAURANT, PARTIES, HOME, CAR
+20
+WOULD FORGET ACCORD
+INTERESTED, WANTED TO TRY
+NOTICED THAT CIGARETTES TOOK MORE SPACE IN ASHTRAY
+THAN CONVENTIONAL CIGT - WORRIED.
+3
+WELL - GETTING USED TO IN FRONT OF OTHERS:
+BASY AROUND NON-SMOKERS
+BIAINLY PUFFS
+6
+Page 1 of 2

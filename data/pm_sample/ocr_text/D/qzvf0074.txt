@@ -1,0 +1,15 @@
+Comparison of Measured and Predicted Massachusetts Smoke Nicotine Yields for Standard Reference Cigarettes (Laboratory #2)
+
+Smoke Nicotine Yield (mg/cig)
+
+1R5F (74% Filter Ventilation)
+1R4F (29% Filter Ventilation)
+1R3F (No Filter Ventilation)
+2R1F (No Filter Ventilation)
+
+University of Kentucky Reference Cigarette
+
+Standard FTC Testing Conditions Mean Values (mg/cig)
+Massachusetts Guidelines (Vents Half Blocked) Mean Values (mg/cig)
+Massachusetts Guidelines (Predicted from Original Equation)
+Massachusetts Guidelines (Predicted from Revised Equation)

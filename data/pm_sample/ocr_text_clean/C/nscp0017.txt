@@ -1,0 +1,24 @@
+Response Surface Analysis For Ignition Propansity 09:36 Wednesday, Febxuary 9, 1994 79
+Duck4l Model From Bandad Section Independant Variables
+Contour plot of B POS*PERM BR.
+B POS
+40
+30
+20
+1
+1 1 1 1 1 1
+二 +8 1 十 十1 十一 舞 F m 置 4 F 排 打目 H AI 1
++ H 1
+10 1一十○○** *X〇+十1 1 + 十 + + o x + + + +
+O O X * O X * 十○X美 十○X美* 十○X阿并井 x x X x x X o x X O X汗 **
+W W W w W w w
+并并 并并 并并 林井 井普 ## 井* * ★ 大 ★井 * ★ ★ ★ * ★ * 大井 阿大井
+0 十 4 非 1 非 o1 建 * ** *
+-+-----+--+----+--+-+-+---++-+--+-+--
+.0
+R
+TOmbS IGP CD41 Symbol IGP CD41 Symbol IGP CD41 Symbo1 IGP CD41
+-0.504- -0.047 0.868 1.326 xxxxxx 2.241- 2.698 美类 3.613 - 4.071
+-0.047 - 0.411 +++++ 1.326 1.783 Wwwww 2.698 - 3.156
+0.411 ~ 0.868 00000 1.783 2.241 ★大大★★ 3.156 - 3.613
+NOTE: 540 obs hidden.

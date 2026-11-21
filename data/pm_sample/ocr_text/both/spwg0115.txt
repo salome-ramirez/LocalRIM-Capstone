@@ -1,0 +1,100 @@
+0739
+XE wu1/0/ 0436 11
+m  p rch
+0
+E 8874675 inbi d
+dr. t.s. osdene
+director of research
+and extramural studies
+philip morris research center
+richmond
+with the request to forward to dr. r. pages
+E no. 3477 14.jan.83 no27(div)a7 drwk/no a 0500/3077.06
+X page 1
+intermediate report a o5oo/3o77.06 (a)
+
+1 titlcoccstc cconds
+1 aurle gl  ee guti g
+stuu din
+F test substance : (s)-(-)-6-cyclopropylnicotine
+cr-numben (s-number) : cr-2070 (s-2853 a (h))
+1 relative molecular mass : 202.30 (196 (c))
+date of receipt : 20.oct.82
+X date of determinations, week 1982: 47 and 48
+
+consec. amplitude conc. in amp li tude change of
+no. and without test organ with test frequency
+batch substance bath substance
+E (mm) (umol/l) (mm) (0/0) (0/0)
+1 a 43 133 46 107.0 -4.6
+L 36 178 39 108.3 -3.0
+34 237 38 111.8 -6.3
+E 33 316 37 112.1 -5.2
+32 422 37 115.6 -10.0
+32 562 36 112.5 -10.3
+X 2 a 25 133 30 120.0 -3.3
+藍夏 25 178 30 120.0 -3.3
+24 ?37 32 133.3 -6.9
+26 316 32 123.1 -3.4
+?6 4?2 31 119.2 -5.0
+26 562 (d) 32 123.1 -7.1
+E table 1
+concentration-response relation, cr-2o7o
+X
+愛源 2501582991
+1 14
+uk
+footnotes (a,b,c,d) see page 3
+
+4 ---nlease cut here-
+E
+wui 01/14 0436
+pm rd rch
+8874675 inb1 d
+
+dr. t.s. osdene
+director of research
+and extramural studies
+philip morris research center
+richmond
+
+with the request to forward to dr. r. pages
+
+no. 3477 14.jan.83 no27(div)a7 drwk/no a 0500/3077.06
+
+intermediate report a 0500/3077.06 (a)
+
+title: synthetic compounds
+auricle, guinea pig
+
+study director: dr. rer. nat. a. du moulin
+
+test substance : (s)-(-)-6-cyclopropylnicotine
+cr-number (s-number) : cr-2070 (s-2853 a (h))
+relative molecular mass : 202.30 (196 (c))
+date of receipt : 20.oct.82
+date of determinations, week 1982: 47 and 48
+
+----------------------------------------------------------
+consec. no. and batch amplitude without test substance (mm) conc. in organ bath (umol/L) amplitude with test substance (mm) (o/o) change of frequency (o/o)
+----------------------------------------------------------
+1 a 43 133 46 107.0 -4.6
+36 178 39 108.3 -3.0
+34 237 38 111.8 -6.3
+33 316 37 112.1 -5.2
+32 422 37 115.6 -10.0
+32 562 36 112.5 -10.3
+
+2 a 25 133 30 120.0 -3.3
+25 178 30 120.0 -3.3
+24 237 32 133.3 -6.9
+26 316 32 123.1 -3.4
+26 422 31 119.2 -5.0
+26 562 (d) 32 123.1 -7.1
+
+table 1
+concentration-response relation, cr-2070
+
+footnotes (a,h,c,d) see page 3
+
+please cut here

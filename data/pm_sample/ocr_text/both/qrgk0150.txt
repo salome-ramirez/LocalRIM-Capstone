@@ -1,0 +1,23 @@
+Data from Ashland with varjous puffing regimns
+55/60/4 70/6014
+35/60/2 55/1514/70/15/4
+25 55/15/
+(mg/cig) 20 2 35/10/
+70/301
+15 TPM
+ H2O
+Consitutet value 10 Tar
+5
+0
+0 0.2 0.4 0.6 0.8 1
+PM523 Nicne  /(cig)
+ou0150
+Data from Ashland with various puffing regimens
+
+Consitutet value (mg/cig)
+
+Nicotine (mg/cig)
+
+TPM
+H2O
+Tar

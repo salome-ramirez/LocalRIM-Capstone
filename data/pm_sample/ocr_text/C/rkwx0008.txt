@@ -1,0 +1,27 @@
+training kc-Automation visit 9/99 ENHTRAIN.DOC 03.09.1999
+Enhanced training on
+SMCU
+Controller i/o and wiring diagrams
+- show all sensor inputs
+name Source code name Wiring name in IN
+SMCU
+port free light barrier In_LS_PortFree() LB PORTFREE IN1
+butt length sensor Stummellaenge_LS_Bit() LB_BUTTLENGTH INO
+Synchronisation light barrier interrupt routine LB_SYNC IN12
+- show all push button inputs
+push button Source code name Wiring name in IN
+(maint./moment.) SMCU
+ejector maintained IN_SW_Auswerfer() SW EJECTOR IN6
+insertor maintained IN_SW_Einfuehrer() SW_INSERTOR IN5
+halog.spot maintained IN_SW_Zuendlampe() SW HSL IN8
+motor maintained IN_SW_Motor() SW_MOTOR IN2
+ejector momentary IN_PB_Auswerfer() PB EJECTOR N4
+insertor momentary IN_PB_Einfuehrer() PB_INSERTOR IN3
+halog.spot momentary IN PB HSL PB_HSL IN7
+- show actor outputs
+actor name Source code name Wiring name in OUT
+SMCU
+cigarette drum ACT_Magazin() Drumfeeder_valve OUT8
+cigarette loader ACT_Einfuehrer() Insert_Valve OUT9
+ejector ACT_Auswerfer() Ejector_Valve OUT11
+halogen spot lamp set_analog_out(0,xxx) Voltage Control AOUT1 2067550469

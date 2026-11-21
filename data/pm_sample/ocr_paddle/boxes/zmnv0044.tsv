@@ -1,0 +1,44 @@
+x1	y1	x2	y2	conf	text
+960.0	19.0	999.0	49.0	99.9	TO
+1167.0	16.0	1335.0	46.0	100.0	12129075306
+1383.0	15.0	1455.0	45.0	99.8	P.02
+171.0	25.0	532.0	55.0	98.3	MAR-15-1995 16:52 FROM
+564.0	23.0	776.0	51.0	99.9	MARKET METRICS
+579.0	219.0	1076.0	284.0	100.0	MARKETMETRICS
+1230.0	266.0	1422.0	300.0	100.0	March 15, 1995
+291.0	342.0	440.0	374.0	93.8	Bernie Ryan
+289.0	372.0	365.0	409.0	100.0	MSA
+293.0	410.0	513.0	439.0	99.9	6565 Penn Avenue
+290.0	440.0	555.0	476.0	99.7	Pittsburgh, PA 15206
+291.0	508.0	443.0	540.0	99.4	Dear Bernic:
+290.0	569.0	1404.0	608.0	99.8	Yesterday, Amir, Mike and I further discussed how we could go about providing Potential Indices
+291.0	603.0	1372.0	641.0	99.8	(PIs) and providing Market Share Adjusted (MSA) PIs in response to Jeanne Lincoin's request
+289.0	635.0	1398.0	673.0	99.3	made to you carlier this month. As you are aware from our meeting at Market Metrics last week,
+290.0	670.0	1401.0	707.0	98.6	we thought we had worked out a means to accomplish this by the first week in April. During that
+291.0	707.0	901.0	739.0	99.7	discussion we did, however, present two reservations:
+335.0	772.0	1386.0	810.0	99.7	First, although much data validation could be completed by this time, we were all concerned
+336.0	807.0	1412.0	844.0	99.1	about delivering production/business ready (ocrtified) data in the midst of system development.
+336.0	843.0	1328.0	879.0	99.8	Second, we discussed the fact that Market Metrics had redeveloped the CTS profiles in
+336.0	876.0	1325.0	913.0	99.3	January/February and that we were planning to insert them into IRDD during the 1995
+335.0	908.0	1385.0	945.0	98.6	Demographic update in April. These profiles were reprocessed to take advantage of Charlie
+336.0	942.0	1416.0	980.0	99.6	Getchell's newest approach to regional profile development, Without this modification, brands
+336.0	978.0	1348.0	1013.0	98.5	of lower penetration would not be properly demographically represented. Please note the
+335.0	1012.0	1327.0	1048.0	99.9	profiles existing in RDM I are not impacted by this because that set is not regionalized.
+286.0	1078.0	1399.0	1114.0	99.4	It is this last concen which prevents us from being able to certify PIs and MSA PIs calculated on
+289.0	1116.0	655.0	1146.0	99.7	the current IRDD CTS profiles.
+286.0	1179.0	1320.0	1215.0	99.5	In summary, the data requested by PM could be availabie at the end of April when the pre
+286.0	1214.0	1414.0	1249.0	99.8	generated data will be based on the new profiles. Or, if PM approves an interruption in the current
+286.0	1247.0	1408.0	1282.0	99.1	IRDD schedule, we could take approximately three weeks to load the new profiles and generate all
+286.0	1282.0	1366.0	1315.0	99.5	the PIs and MSA PIs. Then in April, we would turn around and re-do this work after the 1995
+286.0	1315.0	1347.0	1350.0	99.9	Demography is placed in IRDD. The exact impact to the schedule would need to be modeled
+285.0	1350.0	1081.0	1383.0	99.8	through the project management software before we could advise PM.
+286.0	1420.0	746.0	1451.0	98.1	I hope this helps to clarify our concerns.
+282.0	1513.0	407.0	1554.0	94.8	Sipcerely,
+1512.0	1605.0	1565.0	1821.0	100.0	2072164445
+285.0	1619.0	457.0	1650.0	99.7	Ann P. Raezer
+283.0	1683.0	1409.0	1722.0	98.8	P.S. Copies are being sent to PM per Tim Gourley's request due to the representation of this issue
+285.0	1723.0	494.0	1751.0	100.0	on the Issues List.
+281.0	1787.0	1380.0	1822.0	97.6	cc: Amir Banea, Mike Wirth, Jim Weaver, Charlie Getchell, Tim Gourley, Jeanne Lincoln
+462.0	1940.0	1154.0	1970.0	98.3	1857 William Penn Way P.O. Box 10097 Lancaster, PA 17605-0097
+651.0	1968.0	987.0	1994.0	98.2	717-397-1500 FAX717-397-6821
+1347.0	2036.0	1499.0	2064.0	99.7	TOTAL P.02

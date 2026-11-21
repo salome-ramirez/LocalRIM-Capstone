@@ -1,0 +1,45 @@
+The Role of the Host in the Development of in vivo Models
+for Carcinogenesis Studies*
+Carrie E Whitmire, Charles F. Demoise, and Richard E. Kouri
+Departmentiof Experimental Oncology, Viral-Chemical Carcinogenesis Section, Bethesda, MD 20014, USA
+ABSTRACT
+The development of cancer depends upon the-integrated response of the
+host to the carcinogen and to the initial transformation event. Genet-
+ic factors determine the host's potential to respond to chemical and
+viral carcinogens, while endogenous and exogenous environmental factors
+influence the realization of the genetic potential. In chemical carcino-
+genesis, inducibility (the capacity to metabolize polycyclic aromatic
+hydrocarbons (PAh) to the ultimate carcinogen) has been demonstrated
+to be under genetic control; however, tumors will occur to a lesser
+degree and after a longer delay when large doses of PAll are administered
+to noninducible mice. Aryl hydrocarbon hydroxylase induction by non-
+carcinogenic materials may also influence-the effects of PAH carcino-
+gens
+In viral carcinogenesis, evidence points to genetic transmission of
+C hVer
+hoed
+yes
+errrn
+d
+or neoplasia in the host.
+The development of cancer from the initial transformed cells (chemical
+and/or viral induced) is dependent on the host response which is in-
+fluenced by numerous factors. Immunosurveillance is probably the first
+line of defense against these transformed cells. Genetic control of
+immunocompetence is evidenced by the variety of responses to various
+antigenetic stimuli in genotypically different strains of mice. Imnuno-
+suppressive effects of carcinogens, drugs, infections, etc., appear
+to make possible the initial act of establishing clones of transformed
+cells by overriding the immunocompetence of the host. Other factos re-
+lated to diet, aging, stress, etc., effect the host control over Tne
+carcinogenic event and may be related to the increased susceptibility
+to carcinogens and/or the increase in the incidence of "spontaneous
+tumors
+In our laboratory, we have undertaken studies to provide the best
+possible mouse model system for studying respiratory carcinogenesis.
+These studies with inbred mice have included the determination of rel-
+ative susceptibility to various carcinogens, AHH inducibility, type C
+This work was supported by the Council for Tobacco Research and by
+Contract NO1-CP 4324O within the Virus Cancer Program of the National
+Cancer Institute, National Institutes of Health, U.S. PublicHealth
+Service.

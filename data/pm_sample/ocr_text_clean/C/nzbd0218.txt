@@ -1,0 +1,45 @@
+5716SS1 V3R7MO 961108 COPY FILE QS36F/J5799GR J5799RST 11/11/97 13:07:10 Page 1
+From file QS36F/J5799GR Member J5799RST Record format J5799RST
+Record Length 600
+To file. *PRINT
+4 RCDNBR *...+... 1 ...+... 2 ...+... 3 ... +... 4 ...+... 5 ...+.. +...7.+... 8.+.. 9.+... 0
+六 Reda tial
+6 989002 2590300936566757MR DAVTER A MOL TNA cted iden Conf onal Pers
+B p Red (a ent fid Con al son Per 916071285818506590797282A02000FS00G021997-08-1
+8 9 262 25903109365667562590320936566755
+9 970426TEAM BEACH TOWET. 401c544
+10 cted Reda tial iden Conf onal Pers
+E1 P C10 1 A H
+12
+13 52
+4 records copied to member or label *N in file Q8Y8PRT library QgYS. 1012699 recorda excluded
+15
+16
+2i
+17. ***** END OF COMPUTER PR INTOUT ** * **
+18 21
+18
+08 22
+2 型
+232 2H
+30
+24 34
+25 30
+34
+26.
+Dattt0 22 1 字明
+28 F
+5男 39
+30
+31
+32 2445847
+第第翼器字 485 5 2
+甲事
+5
+58
+59
+45 50
+46
+12
+47 8 450 5152 5 .3
+54筆55 明昭品留的日四六問拜周

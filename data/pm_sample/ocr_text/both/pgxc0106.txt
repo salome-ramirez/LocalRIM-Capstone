@@ -1,0 +1,74 @@
+.5
+Atacent2
+PHI A
+THEEORETNI COOOEROCE
+Rionnia
+To: R. Carchman Date: June 30, 1992
+From: S. Wahab, and T. Michalik,
+Subject: Isolation of cDNA sequences for PMT (60 kD polypeptide) by
+polymerase chain reaction.(PCR): II. Amplification of a 1.2 kb
+CDNA fragment by RNA PCR.
+Putrescine N-methyltransferase (PMT) is one of the key enzymes involved
+in the biosynthesis of nicotine in tobacco plants. Project 1904 has isolated
+and purified a putative PMT enzyme with an apparent molecular weight of 60
+kD. Amino acid sequences were obtained from the N-terminus of the intact 60
+kD protein and other partially digested polypeptides of the 60 kD protein
+(1). These amino acid sequences were used to synthesize oligonucleotide
+primers for isolating the PMT gene sequence by RNA polymerase chain reaction
+(PCR) (2).
+PCR is an enzymatic amplification method of specific genomic or cloned
+sequences in the presence of DNA primers and templates. The target DNA
+sequence is defined by DNA primers flanking that sequence. The amplification
+of DNA is performed by a DNA polymerase enzyme such as Taq DNA polymerase.
+This enzyme is very stable at relatively high temperatures, which is ideal
+for use in a temperature cycling process to amplify DNA. Because RNA is used
+as the template, the first step in RNA PCR is the synthesis of a cDNA strand
+by reverse transcriptase.
+RNA PCR technology was utilized in-house to isolate cDNA sequences
+coding for the putative PMT gene. Purified poly(A+) RNA fractions from
+tobacco roots, harvested from the PM greenhouse, were used as templates in
+these RNA PCR experiments. The following oligonucleotides were used as
+forward and reverse RNA PCR primers in these experiments (3, 4):
+P-19: (13-19 amino acids of PMT1.PRO)
+5' - ATC GGA TCC TAY TAY CAR TAY GAR GGI GC - 3'
+P-20: (13-20 amino acids of PMT1.PRO)
+5' - TAY TAY CAR TAY GAR GGI GCI TT - 3
+P-21: (1-7 amino acids of PMT4.PRO)
+5' - ATG GAA TTC CRT TYT CNG TDA TRA ACA T - 3' 2028678130
+P-22: (1-8 amino acids of PMT4.PRO)
+5' AAN CCR TTY TCN GTD ATR AAC AT - 3'
+Where: R=A/G, Y=C/T, H=A/T/C, D=A/T/G, B=G/T/C, N=A/G/C/T, AND I=deoxyinosine
+Primers P-19 and P-20 were generated from amino acid sequences of the
+N-terminus (PMT1.PRO) of the intact 60kD protein. Primers P-21 and P-22 were
+PHILIP MORRIS  U. S. A.
+INTER-OFFICE CORRESPONDENCE
+Richmond, Virginia
+
+To: R. Carchman
+Date: June 30, 1992
+
+From: S. Wahab, and T. Michalik,
+
+Subject: Isolation of cDNA sequences for PMT (60 kD polypeptide) by polymerase chain reaction. (PCR): II. Amplification of a 1.2 kb cDNA fragment by RNA PCR.
+
+Putrescine N-methyltransferase (PMT) is one of the key enzymes involved in the biosynthesis of nicotine in tobacco plants. Project 1904 has isolated and purified a putative PMT enzyme with an apparent molecular weight of 60 kD. Amino acid sequences were obtained from the N-terminus of the intact 60 kD protein and other partially digested polypeptides of the 60 kD protein (1). These amino acid sequences were used to synthesize oligonucleotide primers for isolating the PMT gene sequence by RNA polymerase chain reaction (PCR) (2).
+
+PCR is an enzymatic amplification method of specific genomic or cloned sequences in the presence of DNA primers and templates. The target DNA sequence is defined by DNA primers flanking that sequence. The amplification of DNA is performed by a DNA polymerase enzyme such as Taq DNA polymerase. This enzyme is very stable at relatively high temperatures, which is ideal for use in a temperature cycling process to amplify DNA. Because RNA is used as the template, the first step in RNA PCR is the synthesis of a cDNA strand by reverse transcriptase.
+
+RNA PCR technology was utilized in-house to isolate cDNA sequences coding for the putative PMT gene. Purified poly(A+) RNA fractions from tobacco roots, harvested from the PM greenhouse, were used as templates in these RNA PCR experiments. The following oligonucleotides were used as forward and reverse RNA PCR primers in these experiments (3,4):
+
+P-19: (13-19 amino acids of PMT1.PRO)
+5' - ATC GGA TCC TAY TAY CAR TAY GAR GGI GC - 3'
+
+P-20: (13-20 amino acids of PMT1.PRO)
+5' - TAY TAY CAR TAY GAR GGI GCI TT - 3'
+
+P-21: (1-7 amino acids of PMT4.PRO)
+5' - ATG GAA TTC CRT TYT CNG TDA TRA ACA T - 3'
+
+P-22: (1-8 amino acids of PMT4.PRO)
+5' AAN CCR TTY TCN GTD ATR AAC AT - 3'
+
+Where: R=A/G, Y=C/T, H=A/T/C, D=A/T/G, B=G/T/C, N=A/G/C/T, AND I=deoxyinosine
+
+Primers P-19 and P-20 were generated from amino acid sequences of the N-terminus (PMT1.PRO) of the intact 60kD protein. Primers P-21 and P-22 were

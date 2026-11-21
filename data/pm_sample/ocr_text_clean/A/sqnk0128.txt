@@ -1,0 +1,22 @@
+Weekly Status Report for Aerosol Research (2704)
+To: D. B. Losee
+From: P. J. Lipowicz
+Date: 2 July 1992
+Tung is working full time with Joe Dobbs and Barry Fischer on the Short
+Cycle Impregnation Process.
+Murphy has disclosed a Beta heater design which would be manufacterd by
+integrated circuit technology. The essence of the design is that the
+heater is composed of multiple parallel heaters. Each heater has a
+fairly high resistance, so contact resistance is less of a problem.
+The
+pros and cons of this idea are still being worked out.
+Murphy has assembled a unit for subjective testing of a cold-swept device
+using Spargate for flavor.
+My modeling work indicates that coagulation and condensation can be
+considered as one process. My current model is able to produce the
+correct size distribution for smoke with very little input information.
+The implications for Beta are that fast tobacco heating rates will
+produce larger sizes.
+Longer residence time in the cartridge will
+produce larger sizes.
+Improved mixing should reduce size.

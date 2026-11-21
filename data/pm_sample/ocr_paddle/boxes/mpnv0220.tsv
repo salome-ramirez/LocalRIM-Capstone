@@ -1,0 +1,42 @@
+x1	y1	x2	y2	conf	text
+1902.0	525.0	2398.0	579.0	99.4	ORRESPONDENCE
+1512.0	588.0	2185.0	644.0	99.9	CHESTERVIRGINIA
+2546.0	715.0	2755.0	783.0	99.9	9/21/9
+1777.0	773.0	2102.0	866.0	100.0	Confidential
+794.0	819.0	898.0	869.0	99.9	To:
+1114.0	817.0	1581.0	873.0	92.8	SITeam Hombers
+794.0	875.0	959.0	927.0	100.0	From:
+1112.0	873.0	1458.0	934.0	97.2	D. C. Budd
+1682.0	830.0	2207.0	955.0	98.5	Philip Morris v. ABC
+794.0	926.0	1716.0	991.0	94.0	SubjeCt: SIT CEI #37 UPDATE
+921.0	1149.0	2729.0	1227.0	99.4	Attached for your review is the documentation of the ACT
+802.0	1208.0	2758.0	1282.0	98.4	"""STAGE"" of PDCA for SIT C&I #37, (component usage) along with"
+795.0	1260.0	2304.0	1333.0	94.8	"Action Plan SIT agreed to in the *CißCk"" stage."
+922.0	1371.0	2725.0	1443.0	100.0	As you recall the team objective was to demonstrate with
+798.0	1424.0	2776.0	1501.0	99.4	TQM's that we do on average feed the blend formula assigned by
+799.0	1478.0	2789.0	1555.0	99.2	the Leaf Department (deviation to average within +/- .1o units
+799.0	1536.0	1119.0	1598.0	100.0	from 0.0).
+924.0	1642.0	2794.0	1716.0	99.9	After analyzing the post measures of effectiveness, two of
+801.0	1697.0	2858.0	1770.0	99.1	the component groupings still failed to meet the +/- .10 percent
+800.0	1752.0	2857.0	1823.0	99.1	deviation objective. They were VST and KST. The blend deviation
+798.0	1801.0	2398.0	1879.0	100.0	for these groups was +1.11 and -1.42 respectively.
+927.0	1911.0	2860.0	1986.0	100.0	It should be noted that during the data collection period no
+801.0	1968.0	2861.0	2040.0	100.0	adjustments were made to the pullsheet loading sequences for the
+794.0	2015.0	2638.0	2098.0	99.3	VST and KST component groups. The data indicates that by
+800.0	2076.0	2892.0	2150.0	99.6	computing the number of containers required in a sequence for the
+798.0	2128.0	2865.0	2209.0	99.1	VST and KST groups separately, a larger percent of deviation from
+805.0	2191.0	1517.0	2250.0	100.0	targeted usage occurs.
+928.0	2293.0	2668.0	2371.0	100.0	To reduce this deviation the team feels that the Excel
+802.0	2353.0	2898.0	2426.0	99.4	program used to configure pullsheets needs to be expanded so that
+803.0	2408.0	2705.0	2477.0	100.0	all the stem components can be computed together instead of
+802.0	2460.0	2898.0	2533.0	99.7	separately, this should eliminate the large imbalance between the
+802.0	2510.0	2837.0	2589.0	99.3	"two groups and may eliminate the need to ""adjust"" pullsheets to"
+802.0	2567.0	2281.0	2637.0	99.7	regain balance between the VST and KST groups.
+930.0	2672.0	2798.0	2746.0	99.9	Therefore the teams decision in A3b is to expand the Excel
+802.0	2728.0	2837.0	2801.0	99.8	program and use the new methodology to configure the pullsheets
+801.0	2783.0	2900.0	2854.0	99.1	needed for the upcoming blend change, collect data for four weeks
+803.0	2835.0	2774.0	2910.0	99.8	and then analyze the data using the methods used for the team
+802.0	2893.0	1648.0	2948.0	100.0	measures of effectiveness.
+2283.0	3619.0	2820.0	3725.0	100.0	2030723163
+2801.0	4052.0	3200.0	4127.0	100.0	2030723163
+251.0	4266.0	551.0	4316.0	95.5	2080723168

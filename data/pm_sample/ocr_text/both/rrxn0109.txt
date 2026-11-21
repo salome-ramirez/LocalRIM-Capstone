@@ -1,0 +1,63 @@
+Page 1
+Home Testing Institute
+Completed Sample Requests 7/19/24
+MARLBORO 80 & 85 RECULAR & MENTHOL
+HTI
+Project
+Code Description of Test Date Shipped Results
+2000/2001 Production Marlboro vs. 3/17/67 Marlboro 2Y No Pr
+FINAL Marlboro "Y" Marlboro 40% 47% 13%
+10/9/67 Other Filter 337 43% 237
+Production RCB
+2005/2006 Marlboro 85's w RCB 6/28/67 Marlboro Marlboro No PT
+FINAL POL Data 38% 37% 25%
+10/9/67 BL RCB
+51.2 48.8
+B&H
+Marlboro 85's 100's No Pr
+2004/7801 Marlboro 85's vs. B&H 100's 7/5/67 NME 36% 487* 177
+FINAL NF 317 43% 267
+4/16/68
+Production Marlboro
+1900/3358 Production Marlboro vs. Sample 11/24/67 Marlboro  RKS No Pri
+FINAL Marlboro RKS 4.5 Marlboro 53%* 30% 16%
+6/21/68 Other 40%* 297 31%
+Marlboro
+3359/1009 Marlboro King 85 vs. Winston 12/13/67 4.5% RKS Winston 85 No Pr
+FINAL King 85 RKS 4.5 Filter 33% 27% 407
+4/17/68
+Marlboro Marlboro
+2102/2007 Marlboro 85 (25.2mm circum) vs. 1/31/68 25.2 mm 24.8 mm No Pr
+FINAL Marlboro 85 (24.8mm circum) Marlboro 42% 42% 17%
+4/24/68 Other 417 337 25%
+Exper. Production
+2114/2115 Experimental Marlboro 85  2/6/68 Marlboro Marlboro No Pr
+FINAL Longest blend-20 vs. Production Marlboro 40% 43% 17%
+4/24/68 Marlboro 85 NMF 35% 42% 23% 1001856607
+Exper. Production
+2107/2108 Experimental 80mm Marlboro which 2/23/68 Marlboro Marlboro No Pr
+FINAL is identical in all respects ex- Marlboro 35% 41% 23%
+6/6/68 cept overtipping should be 24.5mm NMF 41% 45% 142
+vs. Production 80mm Marlboro 
+22.5mm overtipping
+Home Testing Institute
+Completed Sample Requests
+MARLBORO 80 & 85 REGULAR & MENTHOL
+
+HTI Project Code Description of Test Date Shipped Results
+2000/2001 FINAL 10/9/67 Production Marlboro vs. Marlboro "Y" 3/17/67 Marlboro 40% 47% No Pre
+10/9/67 Marlboro Other Filter 33% 43% 23%
+2005/2006 FINAL 10/9/67 Marlboro 85's w RCB 6/28/67 Production Marlboro 38% RCB Marlboro 37% No Pre
+10/9/67 BL 51.2 RCB 48.8
+2004/7801 FINAL 4/16/68 Marlboro 85's vs. B&H 100's 7/5/67 NMF Marlboro 85's 36% B&H 100's 48%* No Pre
+4/16/68 NF 31% 43% 26%
+1900/3358 FINAL 6/21/68 Production Marlboro vs. Sample Marlboro RKS 4.5 11/24/67 Production Marlboro 53%* Marlboro w RKS 30% No Pre
+6/21/68 Marlboro Other 40%* 29% 31%
+3359/1009 FINAL 4/17/68 Marlboro King 85 vs. Winston King 85 RKS 4.5 12/13/67 Marlboro 4.5% RKS Winston 85 No Pre
+4/17/68 Filter 33% 27% 40%
+2102/2007 FINAL 4/24/68 Marlboro 85 (25.2mm circum) vs. Marlboro 85 (24.8mm circum) 1/31/68 Marlboro 25.2 mm Marlboro 24.8 mm No Pre
+4/24/68 Marlboro Other 41% 33% 25%
+2114/2115 FINAL 4/24/68 Experimental Marlboro 85 w Longest blend-20 vs. Production Marlboro 85 2/6/68 Exper. Marlboro 40% Production Marlboro 43% No Pre
+4/24/68 Marlboro NMF 35% 42% 23%
+2107/2108 FINAL 6/6/68 Experimental 80mm Marlboro which is identical in all respects except overtipping should be 24.5mm vs. Production 80mm Marlboro w 22.5mm overtipping 2/23/68 Exper. Marlboro 35% Production Marlboro 41% No Pre
+6/6/68 Marlboro NMF 41% 45% 14%

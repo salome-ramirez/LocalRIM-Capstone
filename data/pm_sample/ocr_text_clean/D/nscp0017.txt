@@ -1,0 +1,15 @@
+Response Surface Analysis For Ignition Propensity
+Duck41 Model From Banded Section Independent Variables
+
+Contour plot of B_POS*PERM_BR.
+
+
+
+PERM_BR
+
+Symbol IGP_CD41 Symbol IGP_CD41 Symbol IGP_CD41 Symbol IGP_CD41
+-0.504 -0.047 ===== 0.868 -1.326 XXXXX 2.241 -2.698 #####
+-0.047 -0.411 +++++ 1.326 -1.783 WWWW 2.698 -3.156
+----- 0.411 -0.868 00000 1.783 -2.241 ***** 3.156 -3.613
+
+NOTE: 540 obs hidden.

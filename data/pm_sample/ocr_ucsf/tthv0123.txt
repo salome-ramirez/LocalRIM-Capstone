@@ -1,0 +1,86 @@
+t
+ENVIRONMENTAL RESEARCH, SECTION A 77, 9-19 (1998)
+ARTICLE No . ER973821
+Does Weather Confound or Modify the Association
+of Particulate Air Pollution with Mortality?
+An Analysis of the Philadelphia Data, 1973-1980'
+Jonathan Samet,* Scott Zeger,* Julia Kelsall,* Jing Xu,* and Laurence KalksteinT
+*?'he Johns Hopkins University School of Public Health . Baltimore, Maryland 21205; and tCenter for Climatic Research,
+The Universit,y of Delaware, Newark, Delaware 19711
+Received July 30, 1997
+Because weather has the potential to confound or
+modify the pollution-mortality relationship, re-
+searchers have developed several approaches for
+controlling it in estimating the independent effect
+of air pollution on mortality . This report considers
+the consequences of using alternative approaches
+to controlling for weather and explores modifica-
+tion of air pollution effects by weather, as weather
+patterns could plausibly alter air pollution's effect
+on health. We analyzed 1973-1980 total mortality
+data for Philadelphia using four weather models
+and compared estimates of the effects of TSP and
+SOr on mortality using a Poisson regression model .
+Two synoptic categories developed by Kalkstein
+were selected-the Temporal Synoptic Index (TSI)
+and the Spatial Synoptic Classification (SSC)-and
+compared with (1) descriptive models developed by
+Schwartz and Dockery (S-D) ; and (2) LOESS, a non-
+parametric function of the previous day's temper-
+ature and dew point. We considered model fit using
+Akaike's Information Criterion (AIC) and changes
+in the estimated effects of TSP and SOZ . In the full-
+year analysis, S-D is better than LOESS at predicit-
+ing mortality, and S-D and LOESS are better than
+TSI, as measured by AIC. When TSP or SO2 was fit
+alone, the results were qualitatively similar, re-
+gardless of how weather was controlled ; when TSP
+and SO, were fit simultaneously, the S-D and LOESS
+'Research described in this article was conducted under con-
+tract to the Health Effects Institute, an organization jointly
+funded by the Environmental Protection Agency (EPA Assistance
+Award R824835) and automotive manufacturers . The contents of
+this article do not necessarily reflect the views of the Health
+Effects Institute, nor do they necessarily reflect the views and
+policies of the Environmental Protection Agency or motor vehicle
+or engine manufacturers . Any studies cited in this paper that
+involve humans were conducted in accordance with national and
+institutional guidelines for the protection of human subjects .
+9
+models give qualitatively different results than TSI,
+which attributes more of the pollution effect to SO2
+than to TSP. Model fit is substantially poorer with
+TSI. This pattern was repeated in analyses of sum-
+mer and winter months, which included SSC . In
+summary, using synoptic weather categories in re-
+gression models does not meaningfully change the
+association between mortality and air pollution in-
+dexes. We also found little evidence that weather
+conditions modified the effect of pollution, regard-
+less of the approach used to represent weather .
+r' 1998 Academic Press
+Key Words: particulate air pollution ; daily mor-
+tality; weather models; synoptic approach ; model
+fit .
+INTRODUCTION
+Recent investigations have shown associations be-
+tween measures of air pollution and daily mortality
+counts (Dockery and Pope, 1994) . Concern has been
+raised that these associations could reflect uncon-
+trolled effects of weather on mortality . The associ-
+ation of temperature-and, more generally,
+weather-with mortality has long been known (El-
+lis, 1972) . Because of the potential for weather to
+either confound or modify the pollution-mortality
+relationship, researches have "controlled" for
+weather in estimating the independent effect of air
+pollution on mortality. The usual analytic approach
+is to include variables for weather-typically
+measures of temperature and humidity-in regres-
+sion models that describe the effects of air pollution
+variables on mortality . A model may yield a biased
+estimate of the effect of pollution on mortality if an
+incorrect set of variables for weather is used or if the
+0013-9351/98 $25.00
+Copyright I~ 1998 by Academic Press
+All rights of reproduction in any form reserved .

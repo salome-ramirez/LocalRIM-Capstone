@@ -1,0 +1,32 @@
+ÜBERPRÜFUNG DURCH QA-UNIT
+P 0500/3114
+
+TITEL: 21-Day Inhalation Study with Sidestream Cigarette Smoke of Standard Reference
+Cigarette 2R1 on Rats
+CO Concentration: 5, 16 and 50 ug/1 (PT)
+
+ÜBERPRÜFTER PARAMETER: Subprotocol AC
+
+KENNTNISNAHME DURCH
+PROJEKTLEITER: DPR
+ASSISTENTPROJEKTLEITER: ATE
+TEAMLEITER AC: MSP 24. Mai 85
+
+DATUM/ZN: 24.May 85 Pr
+
+PRÜFZEITPUNKT: vor Ausgang des Subprotocols
+
+UHA, DATUM/ZN 4. Juni
+
+BEANSTANDUNG
+keine
+
+KONSEQUENZ
+-
+
+BEMERKUNGEN
+-
+
+VERKTEILER: UHA, DPR, MSP, ATE, QA
+
+202846201

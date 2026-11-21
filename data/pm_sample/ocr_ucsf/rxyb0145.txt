@@ -1,0 +1,77 @@
+Item
+PROJECT SUMMA
+Project
+Investme
+ARCHITECT'S F
+Aerial 1
+Ground 1
+61 `7 ~ R-7 e'~'
+FACILITY HIG I
+Location ria n
+Site Description
+J- L
+Foundations
+3- 2
+Structural Frame
+3-2
+Architecture
+3- 2
+Heating, Ventilation, Air-Ct:nditioning
+3- 3
+Modifications to Exisuino F~.ciliti-:~ s
+Environmental Controls
+3- 4
+Building Elevations
+3- 5
+FUTURE CONSIDERATION S
+Expansion of Facilities
+4- 1
+Improved Processes
+4- 1
+PROCESS DESCRIPTIO N
+Extraction Process
+5- 1
+Tobacco Preparation
+5- 1
+Post-Extraction Tobacco Treatment
+5- 2
+Stem Preparation
+5-2
+Post-Extraction Stem Treatment
+5- 2
+Process Flow Diaarars
+5- 3
+Equipment General Arrangements
+5- 7
+SUPERCRITICAL EXTRACTION EQUIPMEN T
+Extraction Vessel
+6- 1
+Absorption Vessel
+6- 1
+Circulating Pump
+6- 1
+Process Heat Exchanger
+6- 1
+Fill Pump
+6-2
+Recovery Compressor
+6-2
+Working Vessel
+6- 2
+Modular Arrangement
+6-2
+SAFETY CONSIDERATIONS
+Safety Concerns - Extraction System
+7- 1
+High Pressure
+7- 1
+Low Temperatures
+7- 1
+Cyclical Service
+7- 2
+Fluid Chemistry
+7- 2
+Carbon Dioxide (C02)
+7- 2
+Nicotine
+7-2

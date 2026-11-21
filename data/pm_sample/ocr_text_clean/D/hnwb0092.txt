@@ -1,0 +1,49 @@
+ANALYTICAL RESEARCH DIVISION SERVICE REQUEST AND DATA REPORT
+
+Submitter: Bart Floud
+Ext. 5134
+Request Code # (P90376)
+Co-Submitter
+Ext.
+Sample Code (POAIV-2 (11.6-0.2))
+
+Project No. 417-1
+Date Submitted 10/5/90
+Date Completed
+
+Sample Description:
+47 g/m² V2-5 eight liter sized with aquatic
+KH₂PO₄/malonic acid solutions for Superclims
+
+Submitter N.B. Ref.
+
+Int'l. Test #:
+
+SAMPLE CODES
+
+UNIT OF MEASUREMENT
+POAIV-1
+POAIV-2
+POAIV-1
+POAIV-2
+POAIX-1
+POAIX-2
+POAIX-1
+POAIX-2
+POAIX-2
+
+ANALYSES
+Ca by ICP % 12.28 12.30 11.74 11.63 11.49 11.68 10.37 9.43 8.28 8.30
+P by ICP % 1.52 1.46 2.21 2.44 1.84 1.60 1.46 1.42 1.50 1.48
+malonic acid % 1.6 1.6 X X 1.8 1.8 1.6 1.7 1.6 1.6
+
+% CaCO₃ 30.7 30.7 29.3 29.0 28.7 29.2 25.9 23.5 20.7 20.7
+% KH₂PO₄ 6.7 6.4 9.7 10.7 8.1 7.0 6.4 6.2 6.6 6.5
+
+Comments: expect 11.5% malonic acid
+
+Nerl results by 10/10/90.
+
+PROGRAM Studio/Letus
+
+Refrigerate □ Save sample for submitter □

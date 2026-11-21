@@ -1,0 +1,19 @@
+PROJECT TITLE: SMOKE RESEARCH
+PERIOD COVERED: May, 1993
+
+I. SUBJECT: Conventional Cigarette/Baseline Study
+
+A. Objective: To establish a baseline profile of chemical and physical components related to critical properties of conventional cigarettes. The reference cigarette 1R4F will be used to determine and/or confirm deliveries of specified components in sidestream and mainstream smoke. The initial studies will focus on the sidestream components.
+
+B. Results:
+1. The list of "critical components" has been divided among team members and determination of appropriate analytical procedures have begun.
+
+2. Mainstream and sidestream TPM, tar, nicotine and water deliveries were determined on the 8-port smoking machine. These results were reported in a memo.
+
+3. Cambridge pads and XAD-4 resin were evaluated for their sidestream smoke collection efficiencies for 3-vinylpyridine and quinoline from the 8-port smoking machine. Eight 1R4F cigarettes were smoked under normal conditions with two Cambridge pads in-line. The front and rear pads were separately extracted to evaluate retention and potential sample breakthrough. It was determined that breakthrough does occur under the standard 5 L/min. flow and that wide variations in breakthrough are evident. However, the complex workup procedure may well be a significant contributor to the variations observed. In contrast, XAD-4 resin tubes provided a more efficient and rapid analysis. By connecting three tubes in series to collect sidestream from three 1R4F cigarettes at 1 L/min. (total flow through the chimney = 5 L/min.), a quantitative recovery for both compounds was established. Quantification by selected ion monitoring of masses 105 and 129 was conducted by GC/MS.
+
+4. 1R4F and IM13 cigarettes were smoked in the sidestream smoke chamber. Sidestream constituents including aldehydes, nitric oxide, ammonia, CO and CO2 were measured. This data was reported in a memo. Several efforts have been made to collect aldehydes from sidestream smoke using a single port smoker set up at 8-port type smoking conditions. Collection of sidestream smoke into dnph-acetonitrile solution fails to trap formaldehyde although other aldehydes are detected. Formaldehyde appears to collect on the walls of the glass smoke chamber. Additional runs using a modified device are underway.
+
+5. Reassembly and testing of FTIR and GC instrumentation is in progress for other identified smoke components. Two 20-port smoking machines are being set up for use in the baseline and for future studies.
+
+5. A series of side stream chamber runs was completed for 1R4F and IM13. Analyses are complete and the information is being summarized.

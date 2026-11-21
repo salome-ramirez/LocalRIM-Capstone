@@ -1,0 +1,32 @@
+Method number P-16
+ASH OF CIGARETTE PAPER AT 525°C AND ACID
+INSOLUBLE ASH OF CIGARETTE PAPER
+I. INTRODUCTION AND SUMMARY
+The residue after ignition of cigarette paper at 525 C for -d
+n
+22 hours is reported as the percent ash. The organic materials 6
+3
+are combusted and the inorganic materials such as calcium, No 02
+ponnnnes
+sinrnmhe STORAGE
+noasor
+volatilization. The soluble portion of the ash is dissolved in
+2N HCl, and the insoluble ash is determined gravimetrically on
+the residue.
+This method is primarily used to estimate the carbonate
+content in paper which may affect the efficiency of laser
+perforation. Total Ash of Cigarette Paper (Method Number P-14)
+remains the routine method for determination of cigarette paper
+ash.
+The relative standard deviation at the 2-Sigma level is ±2%
+for ash for a cigarette paper monitor selected to contain acid
+insoluble ash. This paper monitor yields 27% acid insoluble ash
+and the relative standard deviation at the 2-Sigma levels is ±3%
+for acid insoluble ash.
+II. SAMPLE REQUIREMENTS
+Total sample recommended: 4 grams 2501259336
+Sample recommended per determination: 1 gram
+Replicate determinations normally made: 2
+Man-hours per determination: 1 hour
+Man-hours for replicates: 1.5 hours/2 determinations
+Total elapsed time: 9 hours/2 determinations

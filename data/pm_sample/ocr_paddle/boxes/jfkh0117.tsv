@@ -1,0 +1,45 @@
+x1	y1	x2	y2	conf	text
+286.0	353.0	687.0	406.0	100.0	PROJECT TITLE:
+859.0	353.0	1294.0	403.0	98.1	SMOKE RESEARCH
+286.0	414.0	742.0	463.0	99.8	PERIOD COVERED:
+855.0	412.0	1073.0	468.0	99.6	May, 1993
+355.0	529.0	400.0	579.0	75.9	1.
+500.0	526.0	1539.0	581.0	99.9	SUBJECT Conventional Cigarette/Baseline Study
+505.0	640.0	2137.0	697.0	99.9	A. Objective: To establish a baseline profile of chemical and physical components
+589.0	699.0	2109.0	754.0	100.0	related to critical properties of conventional cigarettes. The reference cigarette
+595.0	754.0	1937.0	808.0	99.3	1R4F will be used to determine and/or confirm deliveries of specified
+592.0	807.0	2126.0	866.0	98.7	components in sidestream and mainstream smoke. The initial studies will focus
+593.0	871.0	1186.0	919.0	100.0	on the sidestream components.
+503.0	981.0	764.0	1036.0	100.0	B. Results:
+594.0	1034.0	2132.0	1092.0	99.6	"1. The list of ""critical components"" has been divided among team members and"
+593.0	1093.0	1810.0	1149.0	100.0	determination of appropriate analytical procedures have begun.
+593.0	1204.0	2053.0	1259.0	99.6	2. Mainstream and sidestream TPM, tar, nicotine and water deliveries were
+594.0	1262.0	2072.0	1317.0	100.0	determined on the 8-port smoking machine. These results were reported in a
+594.0	1329.0	732.0	1371.0	100.0	memo.
+593.0	1427.0	2135.0	1487.0	100.0	3. Cambridge pads and XAD-4 resin were evaluated for their sidestream smoke
+594.0	1484.0	2158.0	1541.0	99.4	collection efficiencies for 3-vinylpyridine and quinoline from the 8-port smoking
+593.0	1539.0	2142.0	1597.0	99.5	machine. Eight 1R4F cigarettes were smoked under normal conditions with two
+594.0	1593.0	2082.0	1655.0	100.0	Cambridge pads in-line. The front and rear pads were separately extracted to
+594.0	1650.0	2082.0	1708.0	99.5	evaluate retention and potential sample breakthrough. It was determined that
+594.0	1705.0	1989.0	1764.0	99.9	breakthrough does occur under the standard 5 L/min. flow and that wide
+593.0	1761.0	1957.0	1821.0	99.7	variations in breakthrough are evident. However, the complex workup
+592.0	1811.0	2091.0	1878.0	99.7	procedure may well be a significant contributor to the variations observed. In
+593.0	1871.0	2084.0	1931.0	100.0	contrast, XAD-4 resin tubes provided a more efficient and rapid analysis. By
+593.0	1925.0	2131.0	1987.0	99.8	connecting three tubes in series to collect sidestream from three 1R4F cigarettes
+594.0	1981.0	2132.0	2041.0	99.4	at 1 L/min. (total flow through the chimney = 5 L/min.), a quantitative recovery
+593.0	2036.0	2132.0	2096.0	99.0	for both compounds was established. Quantification by selected ion monitoring
+596.0	2095.0	1558.0	2148.0	100.0	of masses 105 and 129 was conducted by GC/MS.
+595.0	2200.0	2085.0	2259.0	99.4	4. 1R4F and IM13 cigarettes were smoked in the sidestream smoke chamber.
+596.0	2255.0	2068.0	2315.0	99.7	Sidestream constituents including aldehydes, nitric oxide, ammonia, CO and
+596.0	2309.0	2097.0	2368.0	98.7	CO2 were measured. This data was reported in a memo. Several efforts have
+595.0	2364.0	2022.0	2421.0	99.8	been made to collect aldehydes from sidestream smoke using a single port
+596.0	2416.0	2030.0	2477.0	99.4	smoker set up at 8-port type smoking conditions. Collection of sidestream
+596.0	2469.0	2117.0	2529.0	100.0	smoke into dnph-acetonitrile solution fails to trap formaldehyde although other
+2160.0	2500.0	2248.0	2961.0	100.0	2023954523
+597.0	2521.0	2060.0	2584.0	100.0	aldehydes are detected. Formaldehyde appears to collect on the walls of the
+598.0	2574.0	2097.0	2640.0	99.6	glass smoke chamber. Additional runs using a modified device are underway.
+598.0	2683.0	2091.0	2746.0	99.9	5. Reassembly and testing of FTIR and GC instrumentation is in progress for
+598.0	2740.0	2112.0	2799.0	99.8	other identified smoke components. Two 20-port smoking machines are being
+599.0	2794.0	1581.0	2856.0	99.9	set up for use in the baseline and for future studies.
+600.0	2899.0	2066.0	2963.0	100.0	5. A series of side stream chamber runs was completed for 1R4F and IM13.
+601.0	2959.0	1844.0	3022.0	100.0	Analyses are complete and the information is being summarized.

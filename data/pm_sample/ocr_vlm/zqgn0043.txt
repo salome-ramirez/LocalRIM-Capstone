@@ -1,0 +1,32 @@
+Proposed Meeting Agenda -- Portfolio Manager Project Team
+
+Introduction -- Bob Mikulay/Arthur/Roy
+- promotion Systems end-state
+- how Portfolio Manager fits in
+- introduce team
+
+Review Process findings/opportunities
+- introduce components of “Planning for Success”
+- review AS IS process
+- review TO BE process
+
+Roles & Expectations
+- time requirements
+- deliverables
+
+Business Guidelines Exercise
+- review those gathered to date
+- break out into 2 groups of 5
+- validate/add/delete rules
+- review as team
+- assign team member(s) to gain concensus on rules
+
+Review Storyboard
+- assign individual(s) to work through business scenarios with technical team
+- also, review information requirements with technical team
+
+Review Key Components for Success
+- Gatekeeper roles/responsibilities
+- Approval process and guidelines
+- Change management
+- Business guidelines and metric maintenance

@@ -1,0 +1,23 @@
+From: Schorp, Matthias
+Sent: Tuesday, February 29, 2000 9:07 AM
+To: Hirnikel, Daniel J.; Poget, Laurent; Lau, Raymond; 'Ulrich Kreuter'
+Cc: Piade, Jean-Jacques; Sanders, Edward
+Subject: Review of test protocol for SmokeStation test
+Dear Colleagues.
+Please find attached our a draft test protocol of the SmokeStation test for your review.
+In brief, this test is to determine the effective ventilation rate (EVR) as previously described
+by Bohanon at IAQ 99 (see attached pdf). Most unfortunately, this paper is pretty confusing
+(so that I and Dr. Kreuter couldn't totally figure out what's going on) and I would need your
+input (see chapter 3, pink insert). Also, please fill in some brief statements where indicated.
+It looks as if everybody is on board for the measurements in Richmond, starting Monday
+March 20th till Friday 24th. Since we are running out of time I would be grateful for your
+review by March 6. Further details on our programme in Richmond will follow shortly.
+<< File: Test SmokeStation_Internal Review Draft_1.doc >>
+<< File: 2_679.pdf >>
+Matthias K Schor
+PHILUP MORRIS EUROPY
+CH-2006 N00CH4761
+Tel +41 32 888 5633
+FAY +41 32 888 5776
+Mobile +41 79 606 3932
+Emat schorp.matthias@pminti.ch

@@ -1,0 +1,94 @@
+Appendix 11.
+FEBS 21054 FEBS Letters 438 (1998) 201-205
+Genotyping of human cytochrome P450 2A6 (CYP2A6),
+a nicotine C-oxidase
+Mikael Oscarson", Harriet Gullsténb, Arja Rautiob, Maria Luisa Bernal°, Blanca Sinuesc,
+Marja-Liisa Dahl, Jari H. Stengårdº, Olavi Pelkonenb, Hannu Rauniob,
+Magnus Ingelman-Sundberg*
+*Division of Molecular Toxicology, Institute of Environmental Medicine, Karolinska Institutet, Box 210. S-171 77 Stockholm. Sweden
+"Department of Pharmacology and Toxicology. University of Oulu. Kajaanintie 52 D. FIN-90220 Oulu, Finland
+°Depariment of Pharmacology und Physiology. University of Zaragoza. Domingo Miral sín, ES-5009 Zaragoza, Spain
+aDivision of Clinical Pharmacology. Department of Medical Laboratory Sciences and Technology. Karolinska Institutet, Huddinge University Hospital.
+S-141 86 Huddinge. Sweden
+"Department of Epidemiology and Health Promotion, National Public Health Institute, Mannerheimintie 166, F1N-00300 Helsinki. Finland
+Received 22 September 1998
+Cytochrome P450 2A6 (CYP2A6) was first identified as the
+Abstract Cytochrome P450 2A6 (CYP2A6) is a polymorphic
+enzyme responsible for the oxidation of certain precarcinogens human coumarin 7-hydroxylase [3,4] and has been shown to
+and drugs and is the major nicotine C-oxidase. The role of activate a variety of precarcinogens such as 4-(methylnitros-
+CYP2A6 for nicotine elimination was emphasised recently by the amino)-1-(3-pyridyl)-1-butanone, N-nitrosodiethylamine, afla-
+finding that smokers carrying defective CYP2A6 alleles toxin B1, 4,4'-methylene-bis(2-chloroaniline), 1,3-butadiene
+consumed fewer cigarettes [Pianezza et al. (1998) Nature 393, and 2,6-dichlorobenzonitrile (see [5-7] and references therein).
+750]. The method used for CYP2A6 genotyping has, however, In addition, CYP2A6 is involved in the metabolism of certain
+been found to give erroneous results with respect to the coumarin pharmaceuticals, such as methoxyflurane [8], halothane [9],
+hydroxylase phenotype, a probe reaction for the CYP2A6 (+)-cis-3,5-dimethyl-2-(3-pyridyl)thiozolidin-4-onehydro-
+enzyme. The present study describes an allele-specific PCR chloride (SM-12502) [10], losigamone [11], letrozole [12], vai-
+genotyping method that identifies the major defective CYP2A6
+allele and accurately predicts the phenotype. An allele frequency proic acid [13], and disulfiram [14]. Nicotine is primarily me-
+of 1-3% was observed in Finnish, Spanish, and Swedish tabolised to cotinine in humans and this reaction has been
+populations, much lower than described previousty. shown to be catalysed mainly by CYP2A6, as well as the
+© 1998 Federation of European Biochemical Societies. subseguent 3'-hydroxylation of cotinine [15-18].
+In vivo phenotyping studies using coumarin as a probe drug
+Key words: Cytochrome P450; Coumarin; Allele; Genotype; have shown a pronounced interindividual variability in the
+Phenotype; Methoxyflurane expression of CYP2A6 [19-21]. A similar variability has also
+been observed when CYP2A6 was measured in human liver
+microsomes, with some livers lacking the enzyme [4,22,23].
+1. Introduction The explanation is inherent in a polymorphism and three dif-
+ferent apparently defective allelic variants of the CYP2A6
+Cytochromes P450 is a superfamily of haem thiolate en- gene have been described, CYP2A6*2' encodes an enzyme
+zymes involved in the metabolism of numerous endogenous with a Leul60 → His substitution, which yields an inactive en-
+and exogenous compounds including steroid hormones, fatty zyme in a vaccinia virus-based expression system [3]. One
+acids, precarcinogens, and a variety of clinically used drugs. A individual was recently reported to be homozygous for this
+pronounced interindividual variability in the expression of allele and lacked coumarin 7-hydroxylation capacity in vivo
+drug-metabolising P450s exists because of genetic and envi- [25]. The rare CYP2A6*3 allele, generated through a gene
+ronmental factors. Based on the genetic variation, subjects are conversion between CYP2A6 and CYP2A7, was also pro-
+classified into poor (PM), extensive (EM), or ultrarapid me- posed to be inactive [26]. Recently, it has been reported that
+tabolisers (UM) [1] and accordingly a pronounced interindi- some Japanese individuals had a part of the CYP2A6 gene
+vidual difference in the metabolism of and sensitivity to drugs deleted and subjects homozygous for this allele also exhibited
+and other xenobiotics is seen [1,2]. PMs for CYP2D6 or the PM phenotype {27].
+CYP2C19, enzymes which metabolise many clinically used A genotyping method for detection of the CYP2A6*2 and
+drugs, have a reduced metabolic capacity which can result CYP2A6*3 alleles, based on PCR amplification combined
+in higher plasma concentrations and increased risk of adverse with diagnostic restrictión enzyme digestion, has been de-
+effects at ordinary drug dosages, whereas UMs, carrying du- scribed previously {26]. Studies using this method have re-
+plicated or multiduplicated genes, do not achieve therapeutic vealed pronounced interethnic differences in the frequencies
+drug levels. In addition, prodrugs such as proguanil and co- of the CYP2A6 alleles [26,28] and shown that CYP2A6*2 is
+deine need to be metabolically activated by these enzymes, the major defective allele in Northern European populations.
+and are therefore inactive in PMs. However, certain individuals classified as homozygous for the
+CYP2A6*2 allele actually exhibited CYP2A6 activity in vivo
+*Corresponding author. Fax: (46) (8) 337 327.
+E-mail: magnus.ingelman-sundberg@imm.ki.se
+In this report we have used the nomenclature system for CYP2A6
+Abbreviations: CYP or P450, cytochrome P450; PM, poor metaboli- alleles proposed by Daly et al. [24]: CYP2A6*1, 2A6wt; CYP2A6*2,
+ser; PCR, polymerase chain reaction 2A6vl: CYP2A6*3, 2A6v2.
+0014-5793/98/$19.00 © 1998 Federation of European Biochemical Societies. All rights reserved. 2505335339
+PII:S0014-5793(98)01297-6
+Genotyping of human cytochrome P450 2A6 (CYP2A6), a nicotine C-oxidase
+
+Mikael Oscarson\textsuperscript{n}, Harriet Gullstén\textsuperscript{b}, Arja Rautio\textsuperscript{b}, Maria Luisa Bernal\textsuperscript{c}, Blanca Sinues\textsuperscript{c}, Marja-Liisa Dahl\textsuperscript{d}, Jari H. Stengård\textsuperscript{e}, Olavi Pelkonen\textsuperscript{b}, Hannu Raunio\textsuperscript{b}, Magnus Ingelman-Sundberg\textsuperscript{a,*}
+
+\textsuperscript{a} Division of Molecular Toxicology, Institute of Environmental Medicine, Karolinska Institutet, Box 210, S-171 77 Stockholm, Sweden
+\textsuperscript{b} Department of Pharmacology and Toxicology, University of Oulu, Kajaanintie 52 D, FIN-90220 Oulu, Finland
+\textsuperscript{c} Department of Pharmacology and Physiology, University of Zaragoza, Domingo Miral sin, ES-5009 Zaragoza, Spain
+\textsuperscript{d} Division of Clinical Pharmacology, Department of Medical Laboratory Sciences and Technology, Karolinska Institutet, Huddinge University Hospital, S-141 86 Huddinge, Sweden
+\textsuperscript{e} Department of Epidemiology and Health Promotion, National Public Health Institute, Mannerheimintie 166, FIN-00300 Helsinki, Finland
+
+Received 22 September 1998
+
+Abstract Cytochrome P450 2A6 (CYP2A6) is a polymorphic enzyme responsible for the oxidation of certain precarcinogens and drugs and is the major nicotine C-oxidase. The role of CYP2A6 for nicotine elimination was emphasised recently by the finding that smokers carrying defective CYP2A6 alleles consumed fewer cigarettes [Planezza et al. (1998) Nature 393, 750]. The method used for CYP2A6 genotyping has, however, been found to give erroneous results with respect to the coumarin hydroxylase phenotype, a probe reaction for the CYP2A6 enzyme. The present study describes an allele-specific PCR genotyping method that identifies the major defective CYP2A6 allele and accurately predicts the phenotype. An allele frequency of 1–3% was observed in Finnish, Spanish, and Swedish populations, much lower than described previously.
+
+© 1998 Federation of European Biochemical Societies.
+
+Key words: Cytochrome P450; Coumarin; Allele; Genotype; Phenotype; Methoxyflurane
+
+1. Introduction
+
+Cytochromes P450 is a superfamily of haem thiolate enzymes involved in the metabolism of numerous endogenous and exogenous compounds including steroid hormones, fatty acids, precarcinogens, and a variety of clinically used drugs. A pronounced interindividual variability in the expression of drug-metabolising P450s exists because of genetic and environmental factors. Based on the genetic variation, subjects are classified into poor (PM), extensive (EM), or ultrarapid metabolisers (UM) [1] and accordingly a pronounced interindividual difference in the metabolism of and sensitivity to drugs and other xenobiotics is seen [1,2]. PMs for CYP2D6 or CYP2C19, enzymes which metabolise many clinically used drugs, have a reduced metabolic capacity which can result in higher plasma concentrations and increased risk of adverse effects at ordinary drug dosages, whereas UMs, carrying duplicated or multiduplicated genes, do not achieve therapeutic drug levels. In addition, prodrugs such as proguanil and codeine need to be metabolically activated by these enzymes, and are therefore inactive in PMs.
+
+Corresponding author. Fax: (46) (8) 337 327.
+E-mail: magnus.ingelman-sundberg@imm.ki.se
+
+Abbreviations: CYP or P450, cytochrome P450; PM, poor metaboliser; PCR, polymerase chain reaction
+
+Cytochrome P450 2A6 (CYP2A6) was first identified as the human coumarin 7-hydroxylase [3,4] and has been shown to activate a variety of precarcinogens such as 4-(methylnitrosamino)-1-(3-pyridyl)-1-butanone, N-nitrosodiethylamine, aflatoxin B1, 4,4'-methylene-bis(2-chloroaniline), 1,3-butadiene and 2,6-dichlorobenzonitrile (see [5–7] and references therein). In addition, CYP2A6 is involved in the metabolism of certain pharmaceuticals, such as methoxyflurane [8], halothane [9], (+)-cis-3,5-dimethyl-2-(3-pyridyl) thiozolidin-4-one hydrochloride (SM-12502) [10], losigamone [11], letrozole [12], valproic acid [13], and disulfiram [14]. Nicotine is primarily metabolised to cotinine in humans and this reaction has been shown to be catalysed mainly by CYP2A6, as well as the subsequent 3'-hydroxylation of cotinine [15–18].
+
+In vivo phenotyping studies using coumarin as a probe drug have shown a pronounced interindividual variability in the expression of CYP2A6 [19–21]. A similar variability has also been observed when CYP2A6 was measured in human liver microsomes, with some livers lacking the enzyme [4,22,23]. The explanation is inherent in a polymorphism and three different apparently defective allelic variants of the CYP2A6 gene have been described. CYP2A6*2 encodes an enzyme with a Leu\textsuperscript{100}→His substitution, which yields an inactive enzyme in a vaccinia virus-based expression system [3]. One individual was recently reported to be homozygous for this allele and lacked coumarin 7-hydroxylation capacity in vivo [25]. The rare CYP2A6*3 allele, generated through a gene conversion between CYP2A6 and CYP2A7, was also proposed to be inactive [26]. Recently, it has been reported that some Japanese individuals had a part of the CYP2A6 gene deleted and subjects homozygous

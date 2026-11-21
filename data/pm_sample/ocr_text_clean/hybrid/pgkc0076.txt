@@ -1,0 +1,32 @@
+PC00237
+PHILIP MORRIS U.S.A.
+INTER-OFFICE CORRESPONDENCE
+QA RICHMOND,VIRGINIA
+udițs &
+nalysis Date: October 31, 1997
+To: S. Capocelli
+From: D. J. Evers
+SUBJECT: DIRECT MATERIAL QUALITY REPORT, THIRD QUARTER 1997
+Attached is the Supplier Commodity Support group report for the third quarter 1997. This report is
+now being generated out of the SAP database for direct materials.
+SAP captures and handles data more effectively than in previous direct material and QA systems.
+The data is now real-time and quantifiable. As a result, there have been several changes from the
+1996 reporting format. These changes are summarized below:
+Percent Acceptance and Severity results by factory have been replaced by Quality Rating
+and # Of Mandatory Copy/Sensory headings on the Direct Materials Quality Summary page.
+Percent Acceptance goals and first quarter values in Table I, Buying Plan Summary
+Comparison, have been replaced by Quality Rating goals and values respectively.
+Percent Acceptance results for the current quarter only are now displayed on Table II, Volume
+Received vs. Volume Rejected.
+Severity results headings on all tables have been replaced by the heading # Of Mandatory
+Copy/Sensory.
+The Quality Rating values replacing Percent Acceptance data now represent a composite score
+that includes factory audit results, manufacturing complaints, critical quality survey element results,
+quality objectives, corrective actions, recurring issues, mandatory copy/sensory and incoming
+rejections.
+Distribution:
+J. E. Branam D. A. Clark D.G. Johnson R. A. Miles W. A. Speicher
+J. L. Calloway H. G. Coleman D. B. Knudson M. M. Mobrem C. U. Spellmeyer
+D. H. Carminucci T. G. Cox R. D. Latshaw P. M. Rankin D. P. Ward
+J. A. Carboni D. R. Donaher H. P. Long S. T. Ripley C. J. Young
+S. L. Cline T. E. Henry E. A. McDaniel C. E. Stariha

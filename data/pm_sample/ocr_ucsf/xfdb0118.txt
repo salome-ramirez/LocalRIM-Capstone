@@ -1,0 +1,98 @@
+INBIFO Institut fur biologische Forschung • Koln
+PROJECT SUMMARY REPORT
+NO . -/3oo3
+TITLE 42 d-smoke inhalation study on rats
+with cigarette types 2R1, X6D8XJ,
+X6D8ADN, X6D8ADX
+Part 3: Biological,Data
+DATE: lo.JAN .83
+FINAL
+X .
+DRRS/KL/RM
+INTERIM
+. . .
+EXPERIMENT
+Effects causal by smoke from cigarettes of different composition on the
+respiratory tract of rats . The response of the laryngeal epithelium and
+changes of number and function of free lung cells was of special interest .
+Animals :• male CD-rats, 6o per group ; age on start of inhalation approx .
+53 d
+Smoke : cigarettes 2R1, Xj, ADN and ADX ; dilutions o.5 : 145, 0 .5
+: 135,
+1
+: 145 and 1
+: 5o; TPM between o .21 and o .31 mg/i ; nicotine
+between o .2 and lo microgram/l ; CO between 156 and 464 ppm
+Exposure : 21o and 42o min/d ; 42 consecutive days with 3 days training ;
+dissections after 7, 14, 21, 35-and 42 d and after additional
+21 d of recovery _
+RESULTS
+--= - -•- - -- ----- -- -
+GROUP
+ZREATMENT
+DURATION OF TPM DAILY NICOTINE CO NITRIC
+(cigarette
+smoke/air
+dilution)
+TFE DAILY
+EXPOSURE
+(min)
+CONC . TPM DOSE CONC .
+(mg/1) (min x m3/1) (u9/1)
+CONC. OXIDE
+CONC .
+(ppm) (Ppn)
+o-GR
+sham smoking
+42o
+0 0 0
+0 0
+1-GR
+2R1 ;o .5 :145
+21o
+o.258 54 10
+156 2.4
+2-GR
+XJ;o.5:135
+21o
+o.264 55 5
+172 4.2
+3-GR
+ADN ;1 :145
+21 o
+o. 2o7 43 0 .2
+342 2.9
+4-GR
+ADX ;1 :5o
+21o
+o.3o7 64 o .4
+456 2.o
+5-GR
+2R1 ;o.5:145
+42o
+o.258 1o8 10
+157 2.4
+6-GR
+XJ;o .5 :135
+42o
+o.264 111 5
+173 4 .2
+7-GR
+ADN;1 :145
+42o
+o.2o7 87 o.2
+344 2 .9 •
+8-GR
+ADX;1 :5o
+42o
+o.3o7 129 o .4
+464 2.o
+DISTRIBUTION
+DRRS
+HRO
+SPECIAL FILE
+FILE
+2KVrS3
+REFERENCES
+-/3oo3, PART 1
+-/3oo3, PART 2

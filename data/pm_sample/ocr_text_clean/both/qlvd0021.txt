@@ -1,0 +1,38 @@
+SEND A NOTE E04
+Send to: lmcalpin
+From: Ruediger-A. Walk
+To : 十
+Subject: 'farewell party'
+Dear Ms. McAlpin:
+Dr. Walk will be in Washington for the party. He will arrive in
+Washington from Taipei on Tuesday, 28 Peb.95 (flight United Airlines, UA844,
+at approx. 19:00) and will stay till Saturday, 4 Mar.95 (departure:
+17:50, flight Lufthansa, LH419).
+Would yeu be so kind to make hotel reservation at the Washington
+Park Hyatt for him?
+Thank you in advance.
+Best regards,
+Barbara
+(secretary to Dr. Walk)
+PF1 Top PF2 Bottom PF3 Erase Line PF4 Add Line PF5 Nulls Off PF6 Format
+PF7 Send PF8 Proofread PF9 Help PF10 Next PF11 Previous PF12 Cancel
+
+Send to: lmcalpin
+From: Ruediger-A. Walk
+To:
+Subject: 'farewell party'
+
+Dear Ms. McAlpin:
+
+Dr. Walk will be in Washington for the party. He will arrive in Washington from Taipei on Tuesday, 28 Feb.95 (flight United Airlines, UA844, at approx, 19:00) and will stay till Saturday, 4 Mar.95 (departure: 17:50, flight Lufthansa, LH419).
+
+Would you be so kind to make hotel reservation at the Washington Park Hyatt for him?
+
+Thank you in advance.
+
+Best regards,
+Barbara
+(secretary to Dr. Walk)
+
+PF1 Top PF2 Bottom PF3 Erase Line PF4 Add Line PF5 Nulls Off PF6 Format
+PF7 Send PF8 Proofread PF9 Help PF10 Next PF11 Previous PF12 Cancel

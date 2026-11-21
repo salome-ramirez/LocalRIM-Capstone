@@ -1,0 +1,45 @@
+PHILIP MORRIS U. S. A.
+INTER-OFFICE CORRESPONDENCE
+Richmond, Virginia RESTRICTED
+DISTRIBUTION
+To: .I. L. Uydess Date: August 30, 1989
+From: .L. H. Thompson
+Subject: .Salmonella/Microsome (S/M) Assay -- Effects of Reverse Phase
+Chromatography of Burley CEL Soluble Fraction (BuS1)
+Reverse phase liquid chromatography methodology was used by M. Core and 1
+R. Izac to separate a burley CEL soluble fraction (BuSl) into two fractions
+(F1 and F2). A complete description of the fractionation scheme and the
+resulting samples has been documented (l). No sharp distinctions between
+the two fractions were observed based upon chromatographic analysis (1).
+The weight ratio of fraction 1 to fraction 2 was found to be about 3:1 (1).
+These samples, along with a BuSl control were oversprayed onto bright
+baseweb (Br Bw) and made into cigarettes (2). The IT CSCs from these test
+and control cigarettes were evaluated in the S/M assay to determine any
+differential activities (3).
+The four smokings from each sample as well as the preparation of the
+CSCs (10 mg/ml) were done by members of Project 6912 (2,4) and stored at
+-80°C until tested. The CSC yield data are shown in Table 1. It should be
+noted that the F2 cigarette had a substantially higher CSC yield than both
+the control and Fl cigarette (-70% higher). F2 was visibly much darker in
+color than Fl (5). All samples were tested randomly according to the
+standard test procedures (3,6). As shown in the addendum, the control data
+were within the normal ranges. The attached experimental data demonstrate
+that dose-responses were observed for these samples and that the responses
+were at least twice the background level.
+Table 1 also gives the results from the four smokings and analysis of
+variance (performed using "Minitab"). There were no differences among the
+control (BuSl cigarettes) and the cigarettes made with the two test
+fractions. However, a closer look at the data suggests that the higher
+slope value for smoking 3 of the F2 cigarette is an obvious outlier
+influencing the separation of means. When the slope value for smoking 3 of
+the F2 cigarette was omitted from the analysis, F2 CSC was significantly
+lower in specific activity (S.A.) than F1 CSC and the CSC control. While
+this finding may indicate that the chromatography utilized did produce a
+less active fraction, there is no evidence from the S/M assay that would
+invalidate any of the data obtained and reported here (including the outlier
+from smoking 3 of the F2 cigarette). Therefore, the initial conclusions
+drawn from Table 1 (no differences among any samples) will remain.
+Additionally, the magnitude of differences in S.A.s among the samples is not 2023410791
+enough to warrant a retest for further validation of these results. Because
+the crossed soluble/baseweb study is ongoing, other fractionation schemes
+will be applied in an effort to identify active components.

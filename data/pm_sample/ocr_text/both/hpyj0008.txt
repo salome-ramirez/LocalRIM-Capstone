@@ -1,0 +1,75 @@
+4
+ERAO p  pog
+F0       1131 Dopo
+o
+Research Section
+Evaluation of the potential effects of ingredients added to cigarettes.
+Part 4: subchronic inhalation toxicity*
+P.M. Vanscheeuwijcka*, A. Teredesaib, P.M. Terpstraa, J. Verbeecka, P. Kuhlb,
+B. Gerstenbergb, S. Gebelb, E.L. Carmines
+*CRC Contract Research Center', Tollaan 101c, B-1932 Zaventem, Belgiun
+bINBIFO Institut für Biologische Forschung1, Fuggerstr. 3, D-51149 Köln, Germany
+Philip Morris U.S.A., Research Center, Richmond, VA 23261-6583. USA
+Accepted l July 2001
+Abstract
+Mainstream smoke from blended research cigarettes with (test) and without (control) the addition of ingredients to the tobacco
+was assayed for inhalation toxicity. In total, 333 ingredients commonly used in cigarette manufacturing were assigned to three dif-
+ferent groups. Each group of ingredients was introduced at a low and a high level to the test cigarettes. Male and female Sprague-
+Dawley rats were exposed nose-only either to fresh air (sham) or diluted mainstream smoke from the test, the control, or the
+Reference Cigarette 1R4F at a concentration of 150 µg total particulate matter/l for 90 days, 6 h/day, 7 days/week. A 42-day post-
+inhalation period was included to evaluate reversibility of possible findings. There were no remarkable differences in in-life obser-
+vations or gross pathology between test and control groups. An increase in activity of liver enzymes, known to be due to the high
+smoke dose, revealed no toxicologically relevant differences between the test and control groups. No toxicological differences were
+seen between the test and control groups for smoke-related hematological changes, such as a decrease in total leukocyte count. The
+basic smoke-related histopathological effects, which were more pronounced in the upper respiratory tract than in the lower
+respiratory tract, were hyperplasia and squamous metaplasia of the respiratory epithelium, squamous metaplasia and atrophy of
+the olfactory epithelium, and accumulation of pigmented alveolar macrophages. There were no relevant qualitative or quantitative
+differences in findings in the respiratory tract of the rats exposed to the smoke from the control and test cigarettes. The data indicate
+that the addition of these 333 commonly used ingredients, added to cigarettes in three groups, did not increase the inhalation
+toxicity of the smoke, even at the exaggerated levels used. © 2001 Elsevier Science Ltd. All rights reserved.
+Keywords: Tobacco; Ingredient; Flavor; Cigarette smoke; Biological activity; Subchronic inhalation
+1. Introduction smoke (Triest, 1979). Cigarette manufacturers have used
+ingredients for many years, and a complete list of
+Ingredients are used in cigarette manufacturing to important ingredients used by the major US tobacco
+smooth or intensify taste, odor or pungency of the companies was published in 1994 (TR Staff Report,
+1994). Individual ingredients are added to tobacco filler
+Abbreviations: 5'HCOT, 5'-hydroxycotinine; c3'HCOT, cis-3'- at relatively low levels, usually 2% or less; hence, their
+hydroxycotinine; CMH, Cochran-Mantel-Haenszel test; CO, carbon contribution to the composition of cigarette smoke is
+monoxide; COT, cotinine; GSD, geometrical standard deviation; HbCO, expected to be low. Some of these ingredients are vola-
+carboxyhemoglobin; HE, hematoxylin-cosin; IARC, International tile and may be transferred unchanged into cigarette
+Agency for Researeh on Cancer; IG, ingredient group; ISO, International
+Organization for Standardization; MMAD, mass median aerodynamic smoke. Other less volatile ones may be subject to pyro-
+diameter; MS, mainstream smoke; NCOT, norcotinine; NNIC, nor- lysis and combustion (Hoffman and Hoffman, 1997),
+nicotine; NN'O, nicotine-N-oxide; OECD, Organisation for Economic and this has raised concern about potential biological
+Cooperation and Development; ppm, parts per million; RSD, relative
+standard deviation; S.D., standard deviation; t3'HCOT, trans-3'- activity in ingredient-supplemented cigarette products. 2067325315
+hydroxycotinine; TPM, total particulate matter The effects of some of these ingredients as single
+* Portions of the results of this work were presented at the 39th ingredients or mixtures of ingredients in cigarette main-
+Annual Meeting of the Society of Toxicology in Philadelphia, PA, USA. stream smoke (MS) have been evaluated (Gaworski et al.,
+*Corresponding author, Tel.: + 32-2-721-5047; fax: + 32-2-725-1209.
+E-mail address: Vanscheeuwijck.Patrick@pmintl.ch(P.M. 1997); however, the effects of many of the ingredients
+Vanscheeuwijck). were not thoroughly evaluated in an inhalation study,
+1 CRC and INBIFO are Philip Morris research laboratories. and the effects that might result from the addition of
+0278-6915/01/$ - see front matter © 2001 Elsevier Science Ltd. All rights reserved.
+P11:S0278-6915(01)00089-8
+Evaluation of the potential effects of ingredients added to cigarettes. Part 4: subchronic inhalation toxicity
+
+P.M. Vanscheeuwijck a,*, A. Teredesai b, P.M. Terpstra a, J. Verbeeck a, P. Kuhl b, B. Gerstenberg b, S. Gebel b, E.L. Carmines c
+
+aCRC Contract Research Center, Tollaan 101c, B-1932 Zaventem, Belgium
+bINBIFO Institut für Biologische Forschung, Fuggerstr. 3, D-51149 Köln, Germany
+cPhilip Morris U.S.A., Research Center, Richmond, VA 23261-6583, USA
+
+Accepted 1 July 2001
+
+Abstract
+
+Mainstream smoke from blended research cigarettes with (test) and without (control) the addition of ingredients to the tobacco was assayed for inhalation toxicity. In total, 333 ingredients commonly used in cigarette manufacturing were assigned to three different groups. Each group of ingredients was introduced at a low and a high level to the test cigarettes. Male and female Sprague-Dawley rats were exposed nose-only either to fresh air (sham) or diluted mainstream smoke from the test, the control, or the Reference Cigarette 1R4F at a concentration of 150 µg total particulate matter/l for 90 days, 6 h/day, 7 days/week. A 42-day post-inhalation period was included to evaluate reversibility of possible findings. There were no remarkable differences in in-life observations or gross pathology between test and control groups. An increase in activity of liver enzymes, known to be due to the high smoke dose, revealed no toxicologically relevant differences between the test and control groups. No toxicological differences were seen between the test and control groups for smoke-related hematological changes, such as a decrease in total leukocyte count. The basic smoke-related histopathological effects, which were more pronounced in the upper respiratory tract than in the lower respiratory tract, were hyperplasia and squamous metaplasia of the respiratory epithelium, squamous metaplasia and atrophy of the olfactory epithelium, and accumulation of pigmented alveolar macrophages. There were no relevant qualitative or quantitative differences in findings in the respiratory tract of the rats exposed to the smoke from the control and test cigarettes. The data indicate that the addition of these 333 commonly used ingredients, added to cigarettes in three groups, did not increase the inhalation toxicity of the smoke, even at the exaggerated levels used. © 2001 Elsevier Science Ltd. All rights reserved.
+
+Keywords: Tobacco; Ingredient; Flavor; Cigarette smoke; Biological activity; Subchronic inhalation
+
+1. Introduction
+
+Ingredients are used in cigarette manufacturing to smooth or intensify taste, odor or pungency of the smoke (Triest, 1979). Cigarette manufacturers have used ingredients for many years, and a complete list of important ingredients used by the major US tobacco companies was published in 1994 (TR Staff Report, 1994). Individual ingredients are added to tobacco filler at relatively low levels, usually 2% or less; hence, their contribution to the composition of cigarette smoke is expected to be low. Some of these ingredients are volatile and may be transferred unchanged into cigarette smoke. Other less volatile ones may be subject to pyrolysis and combustion (Hoffman and Hoffman, 1997), and this has raised concern about potential biological activity in ingredient-supplemented cigarette products.
+
+The effects of some of these ingredients as single ingredients or mixtures of ingredients in cigarette mainstream smoke (MS) have been evaluated (Gaworski et al., 1997); however, the effects of many of the ingredients were not thoroughly evaluated in an inhalation study, and the effects that might result from the addition of

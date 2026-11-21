@@ -1,0 +1,39 @@
+PHILIP MORRIS U. S. A.
+IMTER-OFFICE CORRESPONDE
+Richmond, Virginia
+To: . MS. Judy Smith Date: January 12, £9
+Pro: + John Tindall
+Subject: . FIC and TIOJ Tar and Nicotine Relationships
+Gui e G
+The FTC and TIOJ tar and nicotine data. supplied by J.M. Garman on November 11,“ ey,
+1989 and January 8, 1990 have been analyzed to define the relationships: %
+between measurements. from the two methods. ad
+There were forty FTC/TIOJ pairs of tar. and! nicotine averages for 27 brands.
+thirteen of the brands ware measured twice: each from two different week-ending.
+samples. Eight of the brands measured from only one week-ending sample vere
+measured at a different time and on a different machine from all of the other
+brands.
+The statistical analyses were based only on average tar and! nicotine values:
+and on butt-length differences, FIC butt lengths were 0, 2, 3, or Smm shorter.
+than TIOJ. butt lengths. The primary differences. between. the two methods,
+which would cause different results, are butt length and air flow. The FIC
+mathod (as applied by Philip Morris) has greater. air flow through the smoking
+machine and 90 would be expected to give lower deliveries because of faster
+burning between puffs. Where the two methods differ in butt length, the
+method with the: shorter butt length (more rod available for. smoking) would be
+expected to give higher values due to that effect.
+A reasonable way to summarize the relationship batween FTC and TIOJ values is
+to relate the difference (TIOJ minus FTC) to the magnitude of the values
+(represented by the average of FIC and. TIOJ). Intuitively, then, that
+difference should. be proportional to the magnitude of the values, and the
+effect of a butt-length. difference should! be proportional to both the butt-
+length difference and, again, to the magnitude of values. Mathematically,
+‘TD = a{BD) (AV) + b{AV}
+where TD is the tar (or nicotine, ND) difference (TIOJ minus FTC),
+8D is the butt-length difference (TIOJ minus: FTC),
+AV is the average of FIC and TIOJ deliveries--(FTC+TIOJ)/2, and
+a and b are regression coefficients.
+The specific relationships which were found were
+TD = -,026(BD) (AV) + .082(AV) and ay
+ND © =.025(BD):(AV) + .098 (AV). (2%
+C90-01025

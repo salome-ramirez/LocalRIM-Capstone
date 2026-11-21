@@ -1,0 +1,37 @@
+INBIFO Institut für biologische Forschung · Köln
+: unprocessed
+3.0 : RL sheet
+: acetone
+: X6D3DAM
+2 : X6D3DFZ
+2.5 日 : X6D3DBF
+: X6D3DNY
+日 : X6D4CDL
+MMERS 日 : X6D4CUC
+2.0
+1.5
+4
+1.0
+0.5
+0
+5011 10B 0 30 09 06 120
+DRY CONDENSATE (mg/(mouse x week))
+
+a
+4987
+INBIFO Institut für biologische Forschung · Köln
+
+RATIO MALIGNANT/BENIGN TUMORS
+
+: unprocessed
+: RL sheet
+
+: acetone
+: X6D3DAM
+: X6D3DFZ
+: X6D3DBF
+: X6D3DNY
+: X6D4CDL
+: X6D4CUC
+
+DRY CONDENSATE (mg/(mouse x week))

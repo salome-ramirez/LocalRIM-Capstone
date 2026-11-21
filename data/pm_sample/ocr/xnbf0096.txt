@@ -1,0 +1,31 @@
+From Massoud Mobrem 12/17/97
+This information will be used to statistically evaluate Low Side Stream
+Paper samples in Round Robin.
+F -Test (Std/sta)? Critical “F” is in table, degrees of
+freedom (n-1)
+A. Formula or
+B. Import from Tools (Data analysis)
+F Test in Excel
+1. COV (Coefficient of variation
+COV = Std/Avg
+use var = from Excel
+Fin. TO get critical (.05,4,4)
+Avg. .
+Std.
+var.
+F Test Large var/small var =
+**Critical = Finy (.05,4,4)
+T Test (2 tail)
+Must do F test first to determine type of T test (2 or 3) check help
+Tf critical F is larger than F test # then use 2 type, if smaller use 3
+type. See help in Excel under T test)
+To do Regression
+Tools, data analysis, regression, PM = Y, SWM =X, ok
+70 sOM —~
+TINV(Ttest (J4:J8, K4:K8, 2,2),8) PSomngh,
+Z
+Critical T Tinv(0.05,8)
+Tae)
+aw 3
+ky
+8029219202

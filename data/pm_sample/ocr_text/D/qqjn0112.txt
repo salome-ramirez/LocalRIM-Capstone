@@ -1,0 +1,29 @@
+INTER-OFFICE CORRESPONDENCE
+
+To: M. Messier/Y. Wong (R&D MIS)
+Date: May 19, 1989
+From: E. de Borst
+C.C.: C. Allemand
+H. Berger
+Subject: CHANGE REQUEST - SYPMOD AND TYPP APPLICATIONS
+M. Schulz
+
+1. PROBLEM DESCRIPTION
+
+It has become obligatory to control the amount of pesticides contained in our products being sold in certain countries; and in particular, the Pesticide MH30 for Germany. As a means to control, the PME and Affiliate Leaf Depts. make use of computer support models to assist in the selection of tobacco grades and lots to be used in cigarette fabrication; these 2 models being the TYPP on the EDC mainframe and the P.C. based Blend Development Model located in the HQ Leaf Department. These models make use of TLA data contained in the SYPMOD Application which does not presently contain a data field for MH30. The Blenders are currently calculating and entering data manually into their models.
+
+As legislation in this area continues in the direction of greater control, it is possible that additional pesticides or other chemical substances, though not currently known, may be needed to be analysed and controlled.
+
+2. PROJECT OBJECTIVES
+
+As selected raw tobacco lots have been and will continue to be chemically analysed for MH30 content, historical data is being accumulated. The HQ Blending Dept. is asking that the TLA Application and the TYPP Application be modified to handle this additional attribute. The modifications should be such as to be able to accommodate additional attributes not yet known or defined.
+
+3. BENEFITS
+
+These modifications will help render more efficient use of Blending expertise.
+
+4. PROJECT SCOPE
+
+FUNCTIONAL
+
+HQ Blending and Affiliate Leaf Depts.

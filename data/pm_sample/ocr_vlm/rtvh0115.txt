@@ -1,0 +1,16 @@
+INBIFO Institut für biologische Forschung · Köln
+
+RATIO MALIGNANT/BENIGN TUMORS
+
+: unprocessed
+: RL sheet
+
+: acetone
+: X6D3DAM
+: X6D3DFZ
+: X6D3DBF
+: X6D3DNY
+: X6D4CDL
+: X6D4CUC
+
+DRY CONDENSATE (mg/(mouse x week))

@@ -1,0 +1,36 @@
+Mail Department will receive entries & claims
+Entries
+Entries will be sorted into GID/no GID
+No GID will be processed as usual
+GID will be left in the envelope and forwarded to Extraction
+Extraction will verify Ids based on list. (IMPORTANT must be kept by date and processed daily)
+GID - entry and id match exactly
+Mail has already included in the count so entries will be returned to Sherrill and included
+In "last tray" .
+No GID - entry and id definitely do not match
+A copy of the entry and the id is made to accommodate the survey request . Mail will
+already have included in the count so the originals are given back to Sherrill to be
+included in "last tray" .
+? GID - match is close but need a second opinion from Ed
+copy is made and given to Rick for input from Ed and the originals are held pending
+input, which needs to be fairly quick . Once a determination has been made we will
+process them as indicated above .
+Claims :
+GID - claim and id match exactly- process as usual
+No GID - claim info & id definitely do not match . Photocopy claim & id for survey purposes and
+then process as usual .
+.
+? GID -match is close but need a second opinion from Ed
+copy is made and given to Rick for input from Ed and the originals are held pending input, which
+needs to be fairly quick . Once a determination has been made we will process them as indicated
+above .
+REQUESTS FOR GAME PIECES
+Mail will forward to First St .- For Daily Processing .
+Fulfillment will batch accordingly . (see batch sheet) .
+Fulfilling those with only all the correct certification statement & SASE .
+The certification statements along with a copy of the batch sheet will be sent to Jan
+.
+All entries received will be redirected to Sherrill with a copy of the batch sheet
+.
+All non-compliant requests will be stored at First Street but a copy of the batch sheet will be sent
+to Acct ., Rick, & Carie Miller. 4~ 7UA"~

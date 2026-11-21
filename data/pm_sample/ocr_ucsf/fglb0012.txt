@@ -1,0 +1,50 @@
+RCV
+BY:XER0`X. TELECO°;ER 7a11 f 7-14-02
+4:07FI9
+CCITT G:3-i
+502541G'349; -tF 2
+;,J1jL-.11S '92 15:26 BGRRV"30N_ GF 415 567 999Z SF CR
+F^F.c
+2,
+(DO NOT ASK IF RESPONDENT ANSWERED "18" TO C. 1-- INSTEAD, SKIP
+TO 0. It 9) You said your regular brand of cigarettes is (READ COMPLETE
+NAME FROM Q's. 7 T HROUGti 11), Hcw long have you been smoking this
+exact brand and type of oigarette?
+8,
+Three months or less
+b,
+More Than three months, up to six rnon05
+o.
+More than six months, up to one year
+More than one year (SKIP TO t7, 19)
+13.
+8efore you started smoking (READ COMPLETE NAME), were you smoking a
+different type of (READ BRAND FAMIL Y NAME), or an entirely diiferent brand of
+cigarettes?
+a,
+A difterent type of BRAND FAMILY NAME
+(SKIP TO 0. 15 AND OPEN BRAND 800KTO THE PAGE WITH THE
+BRAND FAMILY NAME FROM Q. 7 TO ENSURE THAT RESPONDENT
+ANSWERS SUBSEQUENT QUESTIONS CORRECTLY,)
+b.
+An entlrely d(fferent brand
+a.
+Don`t know (TRY TO CLAS?lF'Y -- IF RESPONDENT DOES NOT
+UNDERSTANp, THANK AND TERMJNATE, IF CURREN7', COMPLEI"i~
+BRAND IS ONLY ?RAND EVER SMOKED, RESPONDENT IS ELIG3BLE --
+SKJPTOQ. )
+14,
+What was your rEgular brand of cigarettes before you switched to (READ
+COMPLETE NAME FROM Q's, 7 thro:;g^, 11)?
+a.
+(WRITE IN)
+b.
+No regu!ar nrand
+c.
+Don't know
+15.
+Was that a filter or non•fil,er clgarette?
+1.
+Filter
+2.
+Non-filter

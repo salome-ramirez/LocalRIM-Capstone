@@ -1,0 +1,39 @@
+From Massoud Mobrem 12/17/97
+
+This information will be used to statistically evaluate Low Side Stream Paper samples in Round Robin.
+
+F -Test $(\text{Std/Std})^2$ Critical "F" is in table, degrees of freedom (n-1)
+
+A. Formula or
+B. Import from Tools (Data analysis)
+
+F Test in Excel
+
+1. COV (Coefficient of variation
+   COV = Std/Avg
+   use var = from Excel
+
+$F_{\text{inv.}}$ To get critical $(.05,4,4)$
+
+Avg.
+Std.
+Var.
+
+F Test Large var/small var =
+
+**Critical $F_{\text{inv.}}$ $(.05,4,4)$
+
+T Test (2 tail)
+
+Must do F test first to determine type of T test (2 or 3) check help
+
+If critical F is larger than F test # then use 2 type, if smaller use 3 type. See help in Excel under T test
+
+To do Regression
+Tools, data analysis, regression, PM = Y, SWM = X, ok
+
+TINV(Ttest (J4:J8, K4:K8, 2,2),8)
+
+Critical T Tinv(0.05,8)
+
+( T inverse )

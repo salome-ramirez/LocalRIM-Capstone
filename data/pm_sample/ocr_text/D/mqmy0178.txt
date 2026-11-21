@@ -1,0 +1,35 @@
+an aortic murmur (Hb 12·7 g/dl, MCV 78 fl) and had undergone aortic valve surgery and was taking warfarin. On April 15 her Hb was 10·3 g/dl (MCV 71 fl). Carcinoembryonic antigen was 2·5 ng/ml (normal). Sigmoidoscopy, barium enema, air contrast barium enema, and upper gastrointestinal and small-bowel X-ray series were negative, but colonoscopy revealed two adenocarcinomas 45 cm and 60 cm from the anus. Left colectomy was done on May 3. She is now well, on warfarin and without symptoms 15 months post-colectomy.
+
+Cost 3—This 80-year-old woman was admitted to hospital on July 21, 1982, in biventricular failure. She had aortic stenosis and regurgitation, atrial fibrillation, and had had two attacks of bacterial endocarditis. She mentioned having seen blood in her stools intermittently for a few months and had had vague abdominal distress for years. She was on warfarin. Rectal examination showed blood plus brown stool on the fingertip. Hb 15·1 g/dl, MCV 99 fl, prothrombin time 16·7 s (control 11·4). Sigmoidoscopy showed blood but was negative to 24 cm. Barium enema was negative but difficult to interpret because of retained stool. Carcinoembryonic antigen was 0·9 ng/ml (normal). Colonoscopy revealed a 2 cm multi-lobulated polyp 40 cm from the anus which was removed. The remainder of the colon was negative. The polyp was reported as containing adenocarcinoma. She has had no further gastrointestinal bleeding and is currently well and taking warfarin. An extensive study of drug-induced gastrointestinal bleeding failed to mention that anticoagulants may unmask occult colon carcinoma. Persistent rectal bleeding should always be investigated, even when the patient is taking warfarin because of serious cardiovascular problems. In these three cases, all in women aged 55, 80, and 80 taking warfarin, colon cancer was diagnosed and successfully treated.
+
+Medical Service,
+Choate Symmes Health Services, Inc,
+Symmes Hospital,
+Atlanta, Massachusetts, USA,
+and Boston University School of Medicine
+
+ROBERT J. CAREY
+
+CONSISTENCY OF RESEARCH DATA ON PASSIVE SMOKING AND LUNG CANCER
+
+SIR,—Dr Hirayama (Dec 17, p 1425) noted a consistency among five studies of passive smoking and lung cancer, all of which seem to show a significant effect. However, one study seems out of step—namely, the American Cancer Society (ACS) cohort, reanalysed by Garfinkel. Since the Garfinkel study is so large (179 739 non-smoking women) it is puzzling that it should differ so profoundly from Hirayama's (91 540 non-smoking women) and from the Greek study. One explanation, put forward by Garfinkel and Hammond and Selikoff, is that husbands' smoking habits are not good surrogates for the total tobacco smoke exposure of non-smoking wives; and Friedman et al have suggested that although traditional Greek and Japanese wives' passive smoking may have depended almost entirely on their husbands' smoking habits, contemporary (1981) US spouses' smoking habits appear to be an inaccurate index of passive smoking.
+
+The ACS cohort was studied over the period 1960–72, and in 1965 about 38% of US women aged 16 or more were in the civilian labour force, not much different from the figure a decade earlier (35%). It is thus likely that about 38% of the ACS study group were exposed to tobacco smoke at work. Garfinkel used husbands' smoking habits as an index for their wives' exposure, but he did not differentiate between women who may have been exposed to smoking while at work and those who were not. This potential confounding effect can be estimated. Lowrey and I have estimated that a passive smoker in the USA typically inhales 1·46 mg of tobacco tar daily, this being a probability-weighted mean calculated from modelled exposures at work or in the home, which is where Americans spend 88% of their time. Hirayama found that the risk of passive smoking was about 7 lung-cancer deaths per 100 000 person-years at risk. Let us hypothesise for passive smoking a risk of 5 lung-cancer deaths per 100 000 person-years for every mg/day of tobacco tar.
+
+Of the 179 739 women in the Garfinkel study, 28% had non-smoking husbands. Thus the "controls" numbered 50 327 and the total "exposed" were 129 412. Let us assume that for both groups of women, control and exposed, 38% were employed and exposed to ambient tobacco smoke while at work. Typical US non-smoking adults are estimated to inhale 1·82 mg of tobacco tar per average day at work and 0·45 mg per average day at home, an exposure ratio of 4:1; this is because, although domestic and workplace effective air change rates are similar, workplace smoker densities tend to be far higher. Let us further assume that the basal rate of lung cancer deaths in these women from causes other than passive smoking is 8·7 per 100 000 (the age-adjusted rate for non-smoking women married to non-smokers in Hirayama's study). The ACS cohort can now be broken down as follows:
+
+Group
+"True" controls: do not work, husbands do not smoke
+"Tainted" controls: work, husbands do not smoke
+"Exposed" workers: work, husbands smoke
+"Exposed" non-workers: do not work, husbands smoke
+
+Rate
+8·7 (8·7+0)
+17·8 (8·7+9·1)
+12·16
+20·05 (8·7+2·25+9·10)
+10·95 (8·7+2·25)
+14·41
+
+The ratio of risks (all exposed: all controls) is thus 1·19. The ratio (averaged over husbands' heavy and light smoking categories) in the Garfinkel study was 1·20. The ratio of risks for "all exposed" and "

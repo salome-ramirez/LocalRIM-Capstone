@@ -1,0 +1,79 @@
+x1	y1	x2	y2	conf	text
+847.0	61.0	1584.0	114.0	100.0	PHILIP MORRIS INCORPORATED
+826.0	122.0	1600.0	167.0	100.0	INTER-OFFICE CORRESPONDENCE
+916.0	190.0	1526.0	232.0	99.9	100 Park Avenue, New York, N.Y. 10017
+336.0	303.0	792.0	347.0	99.9	Mr. A.J. Bissmeyer
+1615.0	305.0	1716.0	346.0	100.0	Date:
+1803.0	299.0	2093.0	354.0	98.6	May 8, 1978
+333.0	399.0	1066.0	449.0	100.0	Marketing Research Department
+67.0	413.0	177.0	456.0	100.0	From:
+334.0	501.0	1066.0	548.0	100.0	New Brand Share Weekly Report
+69.0	515.0	212.0	558.0	100.0	Subject:
+336.0	650.0	2117.0	701.0	98.5	The attached tables show weekly and four-week moving average shares for
+334.0	699.0	2110.0	753.0	99.4	new brands in specified markets updated through week ending April 28th.
+334.0	801.0	761.0	847.0	100.0	New Developments:
+335.0	848.0	2159.0	902.0	99.5	The attached tables have been revised, starting with week ending March 3,
+338.0	900.0	2091.0	952.0	99.6	to include data through June. For back data, please refer to previous
+338.0	956.0	914.0	1009.0	97.9	updates of this report.
+335.0	1049.0	2118.0	1100.0	99.9	Additional markets have been added for Newport Lights. We have changed
+339.0	1101.0	2140.0	1152.0	100.0	the format for reporting Camel Lights to include new markets since their
+337.0	1151.0	1637.0	1201.0	100.0	expansion into national distribution as of March 27.
+886.0	1254.0	1093.0	1299.0	95.3	Month of
+1284.0	1254.0	1592.0	1299.0	98.9	# of Markets
+1689.0	1258.0	2041.0	1299.0	100.0	Current 4 Week
+914.0	1308.0	1061.0	1350.0	100.0	Intro.
+1362.0	1309.0	1542.0	1351.0	100.0	Covered
+1686.0	1309.0	2016.0	1350.0	97.2	Average Share
+337.0	1356.0	666.0	1400.0	98.0	R.J. Reynolds
+387.0	1407.0	690.0	1451.0	99.9	Camel Lights
+937.0	1400.0	1044.0	1453.0	100.0	9/77
+1410.0	1404.0	1468.0	1451.0	100.0	23
+1840.0	1402.0	1919.0	1453.0	100.0	.57
+336.0	1509.0	715.0	1553.0	97.1	Liggett & Myers
+386.0	1556.0	568.0	1601.0	93.9	Lark II
+935.0	1549.0	1044.0	1605.0	100.0	6/77
+1437.0	1555.0	1469.0	1602.0	100.0	1
+1842.0	1552.0	1920.0	1605.0	100.0	.34
+337.0	1656.0	568.0	1701.0	99.9	Lorillard
+387.0	1709.0	741.0	1753.0	100.0	Newport Lights
+912.0	1702.0	1042.0	1753.0	100.0	10/77
+1411.0	1705.0	1468.0	1753.0	100.0	13
+1842.0	1706.0	1917.0	1754.0	100.0	.27
+388.0	1757.0	765.0	1804.0	99.9	Old Gold Lights
+936.0	1753.0	1043.0	1805.0	100.0	8/77
+1434.0	1757.0	1471.0	1804.0	100.0	7
+1841.0	1757.0	1918.0	1805.0	100.0	.31
+339.0	1863.0	560.0	1901.0	95.9	Comments :
+336.0	1909.0	2219.0	1956.0	99.8	Average shares for Camel Lights in the 5 original test areas have increased
+339.0	1959.0	2218.0	2006.0	99.0	since the brand expanded to national distribution. Their current four week
+338.0	2010.0	2240.0	2057.0	98.8	average is .72.  In the 18 additional markets, average shares for the latest
+338.0	2056.0	989.0	2112.0	100.0	four week period were .51.
+335.0	2158.0	2141.0	2213.0	100.0	Lark II's average shares have been decreasing slightly and are currently
+337.0	2209.0	2193.0	2269.0	99.5	at .34. Average shares for Newport Lights in 13 markets are down slightly
+341.0	2262.0	2141.0	2314.0	98.4	from previous weeks from .30 to .27. Average shares for Old Gold Lights
+339.0	2314.0	1308.0	2361.0	99.0	are also down slightly from .35 to .31.
+1332.0	2358.0	2313.0	2590.0	76.7	Barlara S. I Wenrskei
+2389.0	2484.0	2442.0	2796.0	100.0	2049311058
+1312.0	2567.0	1867.0	2612.0	100.0	Barbara S.G. Weinstein
+337.0	2616.0	520.0	2666.0	99.9	BSGW:hg
+338.0	2670.0	615.0	2711.0	100.0	Attachments
+340.0	2773.0	458.0	2812.0	99.7	CC:
+458.0	2768.0	717.0	2813.0	99.9	T.A. Budne
+962.0	2773.0	1242.0	2814.0	95.9	R.H. Cremin
+1460.0	2773.0	1693.0	2815.0	99.6	T.R. Keim
+1935.0	2773.0	2217.0	2817.0	99.9	F.E. Resnik
+463.0	2822.0	767.0	2863.0	99.6	H.B..Coleman
+963.0	2821.0	1240.0	2868.0	100.0	J.J. Gillis
+1462.0	2825.0	1741.0	2870.0	100.0	J.T. Landry
+1938.0	2827.0	2192.0	2872.0	99.3	J. Spector
+465.0	2873.0	809.0	2914.0	99.6	J.E. Corr, Jr.
+964.0	2875.0	1314.0	2916.0	99.6	C.H. Goldsmith
+1463.0	2876.0	1766.0	2917.0	99.1	J.E. Lincoln
+1936.0	2875.0	2266.0	2922.0	99.9	J.L. Thompson
+464.0	2921.0	865.0	2961.0	99.9	R.A. Fitzmaurice
+965.0	2925.0	1265.0	2966.0	99.9	J. Granville
+1461.0	2924.0	1816.0	2968.0	98.1	R.R. Millhiser
+1938.0	2926.0	2191.0	2970.0	96.1	J.N. Zoler
+463.0	2976.0	716.0	3017.0	99.8	E. Fortner
+965.0	2977.0	1266.0	3018.0	99.9	J.P. Jeb Lee
+1463.0	2978.0	1741.0	3022.0	99.9	J.J. Morgan

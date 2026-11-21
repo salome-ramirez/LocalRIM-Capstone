@@ -1,0 +1,5999 @@
+{
+ "updated": "Nov 20, 2026 23:31",
+ "data_as_of": "Nov 7, 2026 19:07",
+ "deadline": "2026-11-23",
+ "pipeline": [
+  {
+   "step": "Sample",
+   "status": "done",
+   "value": "1,403 documents randomly sampled"
+  },
+  {
+   "step": "Filing system",
+   "status": "done",
+   "value": "8 departments, 19 series, 55 record types"
+  },
+  {
+   "step": "Labels",
+   "status": "done",
+   "value": "250 development labels"
+  },
+  {
+   "step": "Reading / OCR",
+   "status": "done",
+   "value": "Five text sources compared; PaddleOCR selected"
+  },
+  {
+   "step": "Classifier",
+   "status": "done",
+   "value": "Sentence embeddings and TF-IDF both scored macro F1 0.60 on the final test"
+  },
+  {
+   "step": "Routing and review",
+   "status": "done",
+   "value": "41% qualified for automatic filing; the remaining test pages were routed for review"
+  }
+ ],
+ "sample": {
+  "drawn": 1403,
+  "labeling_pool": 400,
+  "funnel": [
+   {
+    "label": "Philip Morris Records",
+    "count": 5250814
+   },
+   {
+    "label": "Public",
+    "count": 4740682
+   },
+   {
+    "label": "Public, scanned paper",
+    "count": 4466295
+   },
+   {
+    "label": "Drawn at random",
+    "count": 1403
+   },
+   {
+    "label": "Reviewed",
+    "count": 262
+   },
+   {
+    "label": "Valid labels",
+    "count": 250
+   }
+  ]
+ },
+ "taxonomy": {
+  "departments": 8,
+  "series": 19,
+  "types": 55,
+  "skims": [
+   {
+    "label": "Generic categories",
+    "pages": 64,
+    "reviewed": 64,
+    "valid": 60,
+    "no_fit": 4,
+    "excluded": 4,
+    "unsure": 0.417,
+    "current": false
+   },
+   {
+    "label": "Philip Morris departments",
+    "pages": 100,
+    "reviewed": 100,
+    "valid": 98,
+    "no_fit": 0,
+    "excluded": 2,
+    "unsure": 0.245,
+    "current": true
+   }
+  ],
+  "tree": [
+   {
+    "name": "Research and development",
+    "series": [
+     {
+      "name": "Research studies",
+      "types": [
+       {
+        "id": "RND.REP",
+        "name": "Study and lab reports",
+        "count": 17
+       },
+       {
+        "id": "RND.PRO",
+        "name": "Research proposals and plans",
+        "count": 13
+       },
+       {
+        "id": "RND.NTS",
+        "name": "Lab notes and sample records",
+        "count": 7
+       }
+      ]
+     },
+     {
+      "name": "Scientific reference",
+      "types": [
+       {
+        "id": "RND.ART",
+        "name": "Published articles",
+        "count": 8
+       },
+       {
+        "id": "RND.ABS",
+        "name": "Conference abstracts",
+        "count": 1
+       },
+       {
+        "id": "RND.BIB",
+        "name": "Bibliographies, reviews and science news",
+        "count": 9
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Quality, safety and health",
+    "series": [
+     {
+      "name": "Product quality",
+      "types": [
+       {
+        "id": "QSH.SPC",
+        "name": "Specifications and standards",
+        "count": 10
+       },
+       {
+        "id": "QSH.FRM",
+        "name": "Formulas and blends",
+        "count": 1
+       },
+       {
+        "id": "QSH.TST",
+        "name": "Test methods and QA reports",
+        "count": 5
+       },
+       {
+        "id": "QSH.CMP",
+        "name": "Product complaints and tampering",
+        "count": 0
+       }
+      ]
+     },
+     {
+      "name": "Environment, health and safety",
+      "types": [
+       {
+        "id": "QSH.MSD",
+        "name": "Material safety data sheets",
+        "count": 2
+       },
+       {
+        "id": "QSH.SAF",
+        "name": "Safety procedures and incidents",
+        "count": 1
+       },
+       {
+        "id": "QSH.ENV",
+        "name": "Environmental and waste notices",
+        "count": 1
+       },
+       {
+        "id": "QSH.MED",
+        "name": "Medical, first aid and workers' compensation",
+        "count": 0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Marketing and sales",
+    "series": [
+     {
+      "name": "Brand",
+      "types": [
+       {
+        "id": "MKT.ADS",
+        "name": "Ads and ad proofs",
+        "count": 2
+       },
+       {
+        "id": "MKT.PLN",
+        "name": "Campaigns, brand plans and media",
+        "count": 13
+       },
+       {
+        "id": "MKT.COR",
+        "name": "Consumer correspondence",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "name": "Market research",
+      "types": [
+       {
+        "id": "MKT.SRV",
+        "name": "Consumer surveys and research",
+        "count": 6
+       },
+       {
+        "id": "MKT.CMP",
+        "name": "Competitor research",
+        "count": 11
+       }
+      ]
+     },
+     {
+      "name": "Sales and trade marketing",
+      "types": [
+       {
+        "id": "MKT.PRM",
+        "name": "Promotions, coupons and sweepstakes",
+        "count": 10
+       },
+       {
+        "id": "MKT.EVT",
+        "name": "Sponsorships and events",
+        "count": 14
+       },
+       {
+        "id": "MKT.RET",
+        "name": "Retailer and wholesaler dealings",
+        "count": 6
+       },
+       {
+        "id": "MKT.SLS",
+        "name": "Sales and field reports",
+        "count": 2
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Corporate affairs",
+    "series": [
+     {
+      "name": "Government relations",
+      "types": [
+       {
+        "id": "AFF.REG",
+        "name": "Regulatory filings and agency letters",
+        "count": 4
+       },
+       {
+        "id": "AFF.LEG",
+        "name": "Legislation tracking and advocacy",
+        "count": 6
+       }
+      ]
+     },
+     {
+      "name": "Media and public relations",
+      "types": [
+       {
+        "id": "AFF.PRS",
+        "name": "Press releases and coverage",
+        "count": 16
+       },
+       {
+        "id": "AFF.SPE",
+        "name": "Speeches and statements",
+        "count": 1
+       },
+       {
+        "id": "AFF.IMG",
+        "name": "Issue ads, programs and corporate image",
+        "count": 7
+       },
+       {
+        "id": "AFF.STR",
+        "name": "Communications strategy",
+        "count": 10
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Legal",
+    "series": [
+     {
+      "name": "Litigation",
+      "types": [
+       {
+        "id": "LEG.PLD",
+        "name": "Pleadings and filings",
+        "count": 5
+       },
+       {
+        "id": "LEG.DEP",
+        "name": "Depositions and transcripts",
+        "count": 2
+       },
+       {
+        "id": "LEG.DSC",
+        "name": "Discovery and productions",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "name": "Legal advice",
+      "types": [
+       {
+        "id": "LEG.MEM",
+        "name": "Legal memos, opinions and privileged letters",
+        "count": 4
+       }
+      ]
+     },
+     {
+      "name": "Legal rights",
+      "types": [
+       {
+        "id": "LEG.PAT",
+        "name": "Patents and trademarks",
+        "count": 5
+       },
+       {
+        "id": "LEG.LIC",
+        "name": "Licenses and legal agreements",
+        "count": 2
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Finance",
+    "series": [
+     {
+      "name": "Payables and purchasing",
+      "types": [
+       {
+        "id": "FIN.INV",
+        "name": "Invoices",
+        "count": 3
+       },
+       {
+        "id": "FIN.CHK",
+        "name": "Check requests and payments",
+        "count": 3
+       },
+       {
+        "id": "FIN.PO",
+        "name": "Purchase orders",
+        "count": 5
+       },
+       {
+        "id": "FIN.QTE",
+        "name": "Price quotes and estimates",
+        "count": 5
+       },
+       {
+        "id": "FIN.EXP",
+        "name": "Expense reports",
+        "count": 0
+       }
+      ]
+     },
+     {
+      "name": "Budgets and planning",
+      "types": [
+       {
+        "id": "FIN.BGT",
+        "name": "Budgets and forecasts",
+        "count": 3
+       },
+       {
+        "id": "FIN.CST",
+        "name": "Spend and cost reports",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "name": "Reporting and tax",
+      "types": [
+       {
+        "id": "FIN.STM",
+        "name": "Financial statements",
+        "count": 1
+       },
+       {
+        "id": "FIN.TAX",
+        "name": "Tax records",
+        "count": 0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Human resources",
+    "series": [
+     {
+      "name": "Personnel",
+      "types": [
+       {
+        "id": "HR.CVS",
+        "name": "CVs and applications",
+        "count": 0
+       },
+       {
+        "id": "HR.ACT",
+        "name": "Personnel actions and announcements",
+        "count": 0
+       },
+       {
+        "id": "HR.BEN",
+        "name": "Pay, benefits and training",
+        "count": 0
+       }
+      ]
+     },
+     {
+      "name": "Labor relations",
+      "types": [
+       {
+        "id": "HR.UNI",
+        "name": "Union contracts and negotiations",
+        "count": 0
+       },
+       {
+        "id": "HR.GRV",
+        "name": "Grievances, arbitration and discipline",
+        "count": 0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Administration and records",
+    "series": [
+     {
+      "name": "Management",
+      "types": [
+       {
+        "id": "ADM.MTG",
+        "name": "Board and management meetings",
+        "count": 0
+       },
+       {
+        "id": "ADM.POL",
+        "name": "Plans, policies and reorganizations",
+        "count": 4
+       },
+       {
+        "id": "ADM.ANN",
+        "name": "General announcements",
+        "count": 0
+       }
+      ]
+     },
+     {
+      "name": "General administration",
+      "types": [
+       {
+        "id": "ADM.CAL",
+        "name": "Calendars, schedules and office services",
+        "count": 5
+       },
+       {
+        "id": "ADM.RIM",
+        "name": "Records management",
+        "count": 9
+       },
+       {
+        "id": "ADM.TRN",
+        "name": "Transmittals with no visible contents",
+        "count": 8
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "labels": {
+  "target": 250,
+  "valid": 250,
+  "reviewed": 262,
+  "uncertain_share": 0.32,
+  "low_count_rule": 15,
+  "by_department": [
+   {
+    "id": "RND",
+    "name": "Research and development",
+    "certain": 40,
+    "uncertain": 15,
+    "projected": 55
+   },
+   {
+    "id": "QSH",
+    "name": "Quality, safety and health",
+    "certain": 10,
+    "uncertain": 10,
+    "projected": 20
+   },
+   {
+    "id": "MKT",
+    "name": "Marketing and sales",
+    "certain": 50,
+    "uncertain": 15,
+    "projected": 65
+   },
+   {
+    "id": "AFF",
+    "name": "Corporate affairs",
+    "certain": 30,
+    "uncertain": 14,
+    "projected": 44
+   },
+   {
+    "id": "LEG",
+    "name": "Legal",
+    "certain": 14,
+    "uncertain": 5,
+    "projected": 19
+   },
+   {
+    "id": "FIN",
+    "name": "Finance",
+    "certain": 13,
+    "uncertain": 8,
+    "projected": 21
+   },
+   {
+    "id": "ADM",
+    "name": "Administration and records",
+    "certain": 13,
+    "uncertain": 13,
+    "projected": 26
+   }
+  ],
+  "outcomes": [
+   {
+    "label": "Labeled, certain",
+    "count": 170
+   },
+   {
+    "label": "Labeled, uncertain",
+    "count": 80
+   },
+   {
+    "label": "No fit",
+    "count": 0
+   },
+   {
+    "label": "Excluded: folder, no contents shown",
+    "count": 3
+   },
+   {
+    "label": "Excluded: blank or unreadable",
+    "count": 7
+   },
+   {
+    "label": "Excluded: out of scope (HR)",
+    "count": 2
+   }
+  ],
+  "pairs": [
+   {
+    "a": "Finance",
+    "b": "Marketing",
+    "count": 14
+   },
+   {
+    "a": "Quality",
+    "b": "R&D",
+    "count": 12
+   },
+   {
+    "a": "Corp. affairs",
+    "b": "Marketing",
+    "count": 11
+   },
+   {
+    "a": "Corp. affairs",
+    "b": "Legal",
+    "count": 10
+   },
+   {
+    "a": "Corp. affairs",
+    "b": "R&D",
+    "count": 10
+   },
+   {
+    "a": "Admin",
+    "b": "Quality",
+    "count": 8
+   },
+   {
+    "a": "Admin",
+    "b": "Corp. affairs",
+    "count": 8
+   },
+   {
+    "a": "Admin",
+    "b": "Marketing",
+    "count": 6
+   },
+   {
+    "a": "Legal",
+    "b": "Marketing",
+    "count": 6
+   },
+   {
+    "a": "Marketing",
+    "b": "R&D",
+    "count": 6
+   },
+   {
+    "a": "Admin",
+    "b": "Legal",
+    "count": 6
+   }
+  ],
+  "progress": [
+   {
+    "date": "2026-11-06",
+    "valid": 34
+   },
+   {
+    "date": "2026-11-07",
+    "valid": 250
+   }
+  ],
+  "batches": [
+   {
+    "batch": "Batch 1",
+    "certain": 62,
+    "uncertain": 30,
+    "set_aside": 7,
+    "skipped": 1,
+    "remaining": 0
+   },
+   {
+    "batch": "Batch 2",
+    "certain": 65,
+    "uncertain": 30,
+    "set_aside": 4,
+    "skipped": 1,
+    "remaining": 0
+   },
+   {
+    "batch": "Batch 3",
+    "certain": 43,
+    "uncertain": 20,
+    "set_aside": 1,
+    "skipped": 0,
+    "remaining": 36
+   },
+   {
+    "batch": "Batch 4",
+    "certain": 0,
+    "uncertain": 0,
+    "set_aside": 0,
+    "skipped": 0,
+    "remaining": 100
+   },
+   {
+    "batch": "Batch 5",
+    "certain": 0,
+    "uncertain": 0,
+    "set_aside": 0,
+    "skipped": 0,
+    "remaining": 100
+   },
+   {
+    "batch": "Batch 6",
+    "certain": 0,
+    "uncertain": 0,
+    "set_aside": 0,
+    "skipped": 0,
+    "remaining": 100
+   },
+   {
+    "batch": "Batch 7",
+    "certain": 0,
+    "uncertain": 0,
+    "set_aside": 0,
+    "skipped": 0,
+    "remaining": 100
+   },
+   {
+    "batch": "Batch 8",
+    "certain": 0,
+    "uncertain": 0,
+    "set_aside": 0,
+    "skipped": 0,
+    "remaining": 100
+   },
+   {
+    "batch": "Batch 9",
+    "certain": 0,
+    "uncertain": 0,
+    "set_aside": 0,
+    "skipped": 0,
+    "remaining": 100
+   },
+   {
+    "batch": "Batch 10",
+    "certain": 0,
+    "uncertain": 0,
+    "set_aside": 0,
+    "skipped": 0,
+    "remaining": 100
+   },
+   {
+    "batch": "Batch 11",
+    "certain": 0,
+    "uncertain": 0,
+    "set_aside": 0,
+    "skipped": 0,
+    "remaining": 100
+   },
+   {
+    "batch": "Batch 12",
+    "certain": 0,
+    "uncertain": 0,
+    "set_aside": 0,
+    "skipped": 0,
+    "remaining": 100
+   },
+   {
+    "batch": "Batch 13",
+    "certain": 0,
+    "uncertain": 0,
+    "set_aside": 0,
+    "skipped": 0,
+    "remaining": 100
+   },
+   {
+    "batch": "Batch 14",
+    "certain": 0,
+    "uncertain": 0,
+    "set_aside": 0,
+    "skipped": 0,
+    "remaining": 100
+   },
+   {
+    "batch": "Batch 15",
+    "certain": 0,
+    "uncertain": 0,
+    "set_aside": 0,
+    "skipped": 0,
+    "remaining": 3
+   }
+  ],
+  "set_aside_rate": 0.046,
+  "needed": 262,
+  "skipped": 2,
+  "excluded": 12,
+  "by_batch": [
+   {
+    "batch": "Batch 1",
+    "reviewed": 99,
+    "valid": 92,
+    "excluded": 7,
+    "unsure": 31,
+    "unsure_share": 0.326,
+    "skipped": 1,
+    "by_department": [
+     {
+      "id": "RND",
+      "name": "Research and development",
+      "certain": 17,
+      "uncertain": 7
+     },
+     {
+      "id": "QSH",
+      "name": "Quality, safety and health",
+      "certain": 3,
+      "uncertain": 3
+     },
+     {
+      "id": "MKT",
+      "name": "Marketing and sales",
+      "certain": 13,
+      "uncertain": 6
+     },
+     {
+      "id": "AFF",
+      "name": "Corporate affairs",
+      "certain": 13,
+      "uncertain": 5
+     },
+     {
+      "id": "LEG",
+      "name": "Legal",
+      "certain": 7,
+      "uncertain": 2
+     },
+     {
+      "id": "FIN",
+      "name": "Finance",
+      "certain": 4,
+      "uncertain": 4
+     },
+     {
+      "id": "ADM",
+      "name": "Administration and records",
+      "certain": 5,
+      "uncertain": 3
+     }
+    ],
+    "outcomes": [
+     {
+      "label": "Labeled, certain",
+      "count": 62
+     },
+     {
+      "label": "Labeled, uncertain",
+      "count": 30
+     },
+     {
+      "label": "No fit",
+      "count": 0
+     },
+     {
+      "label": "Excluded: folder, no contents shown",
+      "count": 3
+     },
+     {
+      "label": "Excluded: blank or unreadable",
+      "count": 3
+     },
+     {
+      "label": "Excluded: out of scope (HR)",
+      "count": 1
+     }
+    ],
+    "pairs": [
+     {
+      "a": "Quality",
+      "b": "R&D",
+      "count": 6
+     },
+     {
+      "a": "Corp. affairs",
+      "b": "Legal",
+      "count": 5
+     },
+     {
+      "a": "Corp. affairs",
+      "b": "Marketing",
+      "count": 5
+     },
+     {
+      "a": "Admin",
+      "b": "Quality",
+      "count": 5
+     },
+     {
+      "a": "Corp. affairs",
+      "b": "R&D",
+      "count": 4
+     },
+     {
+      "a": "Finance",
+      "b": "Marketing",
+      "count": 4
+     },
+     {
+      "a": "Corp. affairs",
+      "b": "Finance",
+      "count": 3
+     },
+     {
+      "a": "Legal",
+      "b": "Marketing",
+      "count": 3
+     },
+     {
+      "a": "Marketing",
+      "b": "R&D",
+      "count": 3
+     }
+    ],
+    "type_counts": {
+     "RND.REP": 10,
+     "MKT.EVT": 8,
+     "AFF.PRS": 5,
+     "RND.PRO": 5,
+     "AFF.IMG": 4,
+     "RND.NTS": 4,
+     "QSH.SPC": 4,
+     "ADM.RIM": 4,
+     "AFF.STR": 4,
+     "FIN.PO": 4,
+     "AFF.LEG": 3,
+     "RND.ART": 3,
+     "LEG.MEM": 3,
+     "MKT.CMP": 3,
+     "LEG.PLD": 3,
+     "ADM.TRN": 2,
+     "MKT.RET": 2,
+     "MKT.PLN": 2,
+     "QSH.TST": 2,
+     "LEG.PAT": 2,
+     "AFF.REG": 2,
+     "RND.BIB": 2,
+     "FIN.BGT": 2,
+     "MKT.SLS": 1,
+     "FIN.CHK": 1,
+     "MKT.PRM": 1,
+     "LEG.DEP": 1,
+     "MKT.SRV": 1,
+     "MKT.COR": 1,
+     "FIN.QTE": 1,
+     "ADM.CAL": 1,
+     "ADM.POL": 1
+    }
+   },
+   {
+    "batch": "Batch 2",
+    "reviewed": 99,
+    "valid": 95,
+    "excluded": 4,
+    "unsure": 31,
+    "unsure_share": 0.316,
+    "skipped": 1,
+    "by_department": [
+     {
+      "id": "RND",
+      "name": "Research and development",
+      "certain": 15,
+      "uncertain": 3
+     },
+     {
+      "id": "QSH",
+      "name": "Quality, safety and health",
+      "certain": 5,
+      "uncertain": 2
+     },
+     {
+      "id": "MKT",
+      "name": "Marketing and sales",
+      "certain": 22,
+      "uncertain": 5
+     },
+     {
+      "id": "AFF",
+      "name": "Corporate affairs",
+      "certain": 11,
+      "uncertain": 5
+     },
+     {
+      "id": "LEG",
+      "name": "Legal",
+      "certain": 6,
+      "uncertain": 3
+     },
+     {
+      "id": "FIN",
+      "name": "Finance",
+      "certain": 3,
+      "uncertain": 4
+     },
+     {
+      "id": "ADM",
+      "name": "Administration and records",
+      "certain": 3,
+      "uncertain": 8
+     }
+    ],
+    "outcomes": [
+     {
+      "label": "Labeled, certain",
+      "count": 65
+     },
+     {
+      "label": "Labeled, uncertain",
+      "count": 30
+     },
+     {
+      "label": "No fit",
+      "count": 0
+     },
+     {
+      "label": "Excluded: blank or unreadable",
+      "count": 3
+     },
+     {
+      "label": "Excluded: out of scope (HR)",
+      "count": 1
+     }
+    ],
+    "pairs": [
+     {
+      "a": "Admin",
+      "b": "Corp. affairs",
+      "count": 5
+     },
+     {
+      "a": "Corp. affairs",
+      "b": "Legal",
+      "count": 5
+     },
+     {
+      "a": "Finance",
+      "b": "Marketing",
+      "count": 5
+     },
+     {
+      "a": "Admin",
+      "b": "Marketing",
+      "count": 4
+     },
+     {
+      "a": "Corp. affairs",
+      "b": "Marketing",
+      "count": 4
+     },
+     {
+      "a": "Quality",
+      "b": "R&D",
+      "count": 3
+     },
+     {
+      "a": "Corp. affairs",
+      "b": "R&D",
+      "count": 3
+     },
+     {
+      "a": "Admin",
+      "b": "R&D",
+      "count": 3
+     },
+     {
+      "a": "Admin",
+      "b": "Legal",
+      "count": 3
+     }
+    ],
+    "type_counts": {
+     "MKT.PRM": 8,
+     "AFF.PRS": 7,
+     "RND.BIB": 6,
+     "AFF.STR": 5,
+     "MKT.EVT": 5,
+     "MKT.CMP": 4,
+     "MKT.PLN": 4,
+     "QSH.SPC": 4,
+     "ADM.TRN": 4,
+     "RND.ART": 3,
+     "ADM.CAL": 3,
+     "MKT.SRV": 3,
+     "LEG.PAT": 3,
+     "RND.PRO": 3,
+     "RND.REP": 3,
+     "ADM.RIM": 3,
+     "RND.NTS": 2,
+     "FIN.INV": 2,
+     "LEG.LIC": 2,
+     "LEG.PLD": 2,
+     "AFF.REG": 2,
+     "MKT.RET": 2,
+     "LEG.DEP": 1,
+     "MKT.SLS": 1,
+     "LEG.DSC": 1,
+     "ADM.POL": 1,
+     "FIN.PO": 1,
+     "RND.ABS": 1,
+     "AFF.IMG": 1,
+     "QSH.ENV": 1,
+     "QSH.SAF": 1,
+     "AFF.LEG": 1,
+     "FIN.BGT": 1,
+     "FIN.QTE": 1,
+     "QSH.MSD": 1,
+     "FIN.CST": 1,
+     "FIN.STM": 1
+    }
+   },
+   {
+    "batch": "Batch 3",
+    "reviewed": 64,
+    "valid": 63,
+    "excluded": 1,
+    "unsure": 20,
+    "unsure_share": 0.317,
+    "skipped": 0,
+    "by_department": [
+     {
+      "id": "RND",
+      "name": "Research and development",
+      "certain": 8,
+      "uncertain": 5
+     },
+     {
+      "id": "QSH",
+      "name": "Quality, safety and health",
+      "certain": 2,
+      "uncertain": 5
+     },
+     {
+      "id": "MKT",
+      "name": "Marketing and sales",
+      "certain": 15,
+      "uncertain": 4
+     },
+     {
+      "id": "AFF",
+      "name": "Corporate affairs",
+      "certain": 6,
+      "uncertain": 4
+     },
+     {
+      "id": "LEG",
+      "name": "Legal",
+      "certain": 1,
+      "uncertain": 0
+     },
+     {
+      "id": "FIN",
+      "name": "Finance",
+      "certain": 6,
+      "uncertain": 0
+     },
+     {
+      "id": "ADM",
+      "name": "Administration and records",
+      "certain": 5,
+      "uncertain": 2
+     }
+    ],
+    "outcomes": [
+     {
+      "label": "Labeled, certain",
+      "count": 43
+     },
+     {
+      "label": "Labeled, uncertain",
+      "count": 20
+     },
+     {
+      "label": "No fit",
+      "count": 0
+     },
+     {
+      "label": "Excluded: blank or unreadable",
+      "count": 1
+     }
+    ],
+    "pairs": [
+     {
+      "a": "Finance",
+      "b": "Marketing",
+      "count": 5
+     },
+     {
+      "a": "Quality",
+      "b": "R&D",
+      "count": 3
+     },
+     {
+      "a": "Corp. affairs",
+      "b": "R&D",
+      "count": 3
+     },
+     {
+      "a": "Marketing",
+      "b": "R&D",
+      "count": 2
+     },
+     {
+      "a": "Admin",
+      "b": "Corp. affairs",
+      "count": 2
+     },
+     {
+      "a": "Corp. affairs",
+      "b": "Marketing",
+      "count": 2
+     },
+     {
+      "a": "Finance",
+      "b": "R&D",
+      "count": 2
+     },
+     {
+      "a": "Admin",
+      "b": "Legal",
+      "count": 2
+     },
+     {
+      "a": "Admin",
+      "b": "HR",
+      "count": 2
+     }
+    ],
+    "type_counts": {
+     "MKT.PLN": 7,
+     "RND.PRO": 5,
+     "RND.REP": 4,
+     "MKT.CMP": 4,
+     "AFF.PRS": 4,
+     "QSH.TST": 3,
+     "FIN.QTE": 3,
+     "FIN.CHK": 2,
+     "MKT.RET": 2,
+     "ADM.TRN": 2,
+     "AFF.IMG": 2,
+     "RND.ART": 2,
+     "ADM.RIM": 2,
+     "MKT.ADS": 2,
+     "QSH.SPC": 2,
+     "MKT.SRV": 2,
+     "ADM.POL": 2,
+     "AFF.LEG": 2,
+     "AFF.SPE": 1,
+     "QSH.FRM": 1,
+     "RND.NTS": 1,
+     "LEG.MEM": 1,
+     "RND.BIB": 1,
+     "AFF.STR": 1,
+     "MKT.PRM": 1,
+     "MKT.EVT": 1,
+     "ADM.CAL": 1,
+     "QSH.MSD": 1,
+     "FIN.INV": 1
+    }
+   }
+  ],
+  "type_counts": {
+   "RND.REP": 17,
+   "AFF.PRS": 16,
+   "MKT.EVT": 14,
+   "RND.PRO": 13,
+   "MKT.PLN": 13,
+   "MKT.CMP": 11,
+   "MKT.PRM": 10,
+   "QSH.SPC": 10,
+   "AFF.STR": 10,
+   "ADM.RIM": 9,
+   "RND.BIB": 9,
+   "ADM.TRN": 8,
+   "RND.ART": 8,
+   "AFF.IMG": 7,
+   "RND.NTS": 7,
+   "AFF.LEG": 6,
+   "MKT.RET": 6,
+   "MKT.SRV": 6,
+   "QSH.TST": 5,
+   "LEG.PLD": 5,
+   "LEG.PAT": 5,
+   "FIN.PO": 5,
+   "FIN.QTE": 5,
+   "ADM.CAL": 5,
+   "LEG.MEM": 4,
+   "AFF.REG": 4,
+   "ADM.POL": 4,
+   "FIN.CHK": 3,
+   "FIN.BGT": 3,
+   "FIN.INV": 3,
+   "MKT.SLS": 2,
+   "LEG.DEP": 2,
+   "LEG.LIC": 2,
+   "QSH.MSD": 2,
+   "MKT.ADS": 2,
+   "MKT.COR": 1,
+   "LEG.DSC": 1,
+   "RND.ABS": 1,
+   "QSH.ENV": 1,
+   "QSH.SAF": 1,
+   "AFF.SPE": 1,
+   "QSH.FRM": 1,
+   "FIN.CST": 1,
+   "FIN.STM": 1
+  },
+  "settling": {
+   "steps": [
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100,
+    105,
+    110,
+    115,
+    120,
+    125,
+    130,
+    135,
+    140,
+    145,
+    150,
+    155,
+    160,
+    165,
+    170,
+    175,
+    180,
+    185,
+    190,
+    195,
+    200,
+    205,
+    210,
+    215,
+    220,
+    225,
+    230,
+    235,
+    240,
+    245,
+    250
+   ],
+   "series": {
+    "RND": [
+     0.3,
+     0.28,
+     0.267,
+     0.229,
+     0.225,
+     0.244,
+     0.26,
+     0.236,
+     0.25,
+     0.246,
+     0.243,
+     0.24,
+     0.237,
+     0.247,
+     0.256,
+     0.263,
+     0.26,
+     0.276,
+     0.273,
+     0.261,
+     0.25,
+     0.256,
+     0.246,
+     0.244,
+     0.25,
+     0.248,
+     0.24,
+     0.232,
+     0.231,
+     0.23,
+     0.224,
+     0.223,
+     0.217,
+     0.216,
+     0.226,
+     0.221,
+     0.22,
+     0.224,
+     0.224,
+     0.223,
+     0.227,
+     0.227,
+     0.226,
+     0.221,
+     0.221,
+     0.22,
+     0.22
+    ],
+    "QSH": [
+     0.0,
+     0.04,
+     0.033,
+     0.057,
+     0.05,
+     0.067,
+     0.06,
+     0.073,
+     0.067,
+     0.077,
+     0.071,
+     0.08,
+     0.075,
+     0.071,
+     0.067,
+     0.063,
+     0.06,
+     0.057,
+     0.055,
+     0.061,
+     0.058,
+     0.056,
+     0.062,
+     0.067,
+     0.064,
+     0.062,
+     0.067,
+     0.071,
+     0.069,
+     0.067,
+     0.071,
+     0.069,
+     0.072,
+     0.07,
+     0.068,
+     0.067,
+     0.065,
+     0.073,
+     0.076,
+     0.074,
+     0.073,
+     0.08,
+     0.078,
+     0.081,
+     0.079,
+     0.082,
+     0.08
+    ],
+    "MKT": [
+     0.35,
+     0.32,
+     0.333,
+     0.343,
+     0.3,
+     0.267,
+     0.26,
+     0.236,
+     0.233,
+     0.246,
+     0.243,
+     0.227,
+     0.225,
+     0.224,
+     0.211,
+     0.221,
+     0.23,
+     0.219,
+     0.218,
+     0.209,
+     0.217,
+     0.216,
+     0.223,
+     0.222,
+     0.221,
+     0.228,
+     0.22,
+     0.239,
+     0.25,
+     0.242,
+     0.253,
+     0.251,
+     0.25,
+     0.249,
+     0.242,
+     0.262,
+     0.26,
+     0.259,
+     0.257,
+     0.256,
+     0.25,
+     0.249,
+     0.261,
+     0.26,
+     0.263,
+     0.257,
+     0.26
+    ],
+    "AFF": [
+     0.25,
+     0.24,
+     0.2,
+     0.2,
+     0.225,
+     0.222,
+     0.22,
+     0.218,
+     0.2,
+     0.2,
+     0.2,
+     0.187,
+     0.175,
+     0.188,
+     0.2,
+     0.189,
+     0.2,
+     0.2,
+     0.191,
+     0.191,
+     0.192,
+     0.184,
+     0.177,
+     0.17,
+     0.171,
+     0.172,
+     0.18,
+     0.174,
+     0.175,
+     0.176,
+     0.171,
+     0.171,
+     0.172,
+     0.184,
+     0.184,
+     0.179,
+     0.185,
+     0.18,
+     0.181,
+     0.186,
+     0.182,
+     0.182,
+     0.178,
+     0.174,
+     0.175,
+     0.176,
+     0.176
+    ],
+    "LEG": [
+     0.0,
+     0.04,
+     0.1,
+     0.114,
+     0.125,
+     0.133,
+     0.12,
+     0.109,
+     0.133,
+     0.123,
+     0.114,
+     0.107,
+     0.113,
+     0.106,
+     0.1,
+     0.095,
+     0.09,
+     0.086,
+     0.091,
+     0.096,
+     0.1,
+     0.104,
+     0.1,
+     0.111,
+     0.107,
+     0.103,
+     0.107,
+     0.103,
+     0.1,
+     0.097,
+     0.094,
+     0.097,
+     0.1,
+     0.097,
+     0.095,
+     0.092,
+     0.09,
+     0.088,
+     0.086,
+     0.084,
+     0.086,
+     0.084,
+     0.083,
+     0.081,
+     0.079,
+     0.078,
+     0.076
+    ],
+    "FIN": [
+     0.05,
+     0.04,
+     0.033,
+     0.029,
+     0.025,
+     0.022,
+     0.04,
+     0.055,
+     0.05,
+     0.046,
+     0.057,
+     0.067,
+     0.087,
+     0.082,
+     0.078,
+     0.084,
+     0.08,
+     0.076,
+     0.091,
+     0.096,
+     0.092,
+     0.096,
+     0.092,
+     0.089,
+     0.086,
+     0.083,
+     0.08,
+     0.077,
+     0.075,
+     0.085,
+     0.088,
+     0.086,
+     0.083,
+     0.081,
+     0.084,
+     0.082,
+     0.08,
+     0.078,
+     0.076,
+     0.079,
+     0.082,
+     0.08,
+     0.078,
+     0.081,
+     0.079,
+     0.082,
+     0.084
+    ],
+    "ADM": [
+     0.05,
+     0.04,
+     0.033,
+     0.029,
+     0.05,
+     0.044,
+     0.04,
+     0.073,
+     0.067,
+     0.062,
+     0.071,
+     0.093,
+     0.087,
+     0.082,
+     0.089,
+     0.084,
+     0.08,
+     0.086,
+     0.082,
+     0.087,
+     0.092,
+     0.088,
+     0.1,
+     0.096,
+     0.1,
+     0.103,
+     0.107,
+     0.103,
+     0.1,
+     0.103,
+     0.1,
+     0.103,
+     0.106,
+     0.103,
+     0.1,
+     0.097,
+     0.1,
+     0.098,
+     0.1,
+     0.098,
+     0.1,
+     0.098,
+     0.096,
+     0.102,
+     0.104,
+     0.106,
+     0.104
+    ]
+   },
+   "batch_ends": [
+    92,
+    187
+   ]
+  }
+ },
+ "ocr": {
+  "funsd": {
+   "forms": 50,
+   "words": 8726,
+   "wer": 0.369,
+   "cer": 0.263,
+   "recall": 0.747,
+   "spearman": 0.63,
+   "points": [
+    {
+     "conf": 83.4,
+     "recall": 0.527
+    },
+    {
+     "conf": 79.9,
+     "recall": 0.49
+    },
+    {
+     "conf": 88.3,
+     "recall": 0.939
+    },
+    {
+     "conf": 76.1,
+     "recall": 0.317
+    },
+    {
+     "conf": 79.1,
+     "recall": 0.675
+    },
+    {
+     "conf": 81.5,
+     "recall": 0.582
+    },
+    {
+     "conf": 82.5,
+     "recall": 0.614
+    },
+    {
+     "conf": 76.4,
+     "recall": 0.208
+    },
+    {
+     "conf": 73.7,
+     "recall": 0.748
+    },
+    {
+     "conf": 92.2,
+     "recall": 0.942
+    },
+    {
+     "conf": 88.8,
+     "recall": 0.906
+    },
+    {
+     "conf": 78.6,
+     "recall": 0.586
+    },
+    {
+     "conf": 87.8,
+     "recall": 0.939
+    },
+    {
+     "conf": 74.5,
+     "recall": 0.469
+    },
+    {
+     "conf": 84.8,
+     "recall": 0.877
+    },
+    {
+     "conf": 68.1,
+     "recall": 0.657
+    },
+    {
+     "conf": 83.6,
+     "recall": 0.79
+    },
+    {
+     "conf": 81.7,
+     "recall": 0.655
+    },
+    {
+     "conf": 84.2,
+     "recall": 0.889
+    },
+    {
+     "conf": 73.3,
+     "recall": 0.664
+    },
+    {
+     "conf": 66.4,
+     "recall": 0.42
+    },
+    {
+     "conf": 71.0,
+     "recall": 0.761
+    },
+    {
+     "conf": 83.6,
+     "recall": 0.71
+    },
+    {
+     "conf": 79.3,
+     "recall": 0.792
+    },
+    {
+     "conf": 84.9,
+     "recall": 0.911
+    },
+    {
+     "conf": 70.0,
+     "recall": 0.735
+    },
+    {
+     "conf": 78.3,
+     "recall": 0.72
+    },
+    {
+     "conf": 63.7,
+     "recall": 0.968
+    },
+    {
+     "conf": 74.5,
+     "recall": 0.849
+    },
+    {
+     "conf": 85.4,
+     "recall": 0.911
+    },
+    {
+     "conf": 83.4,
+     "recall": 0.927
+    },
+    {
+     "conf": 77.1,
+     "recall": 0.56
+    },
+    {
+     "conf": 88.2,
+     "recall": 0.975
+    },
+    {
+     "conf": 89.7,
+     "recall": 0.952
+    },
+    {
+     "conf": 88.3,
+     "recall": 0.919
+    },
+    {
+     "conf": 82.4,
+     "recall": 0.712
+    },
+    {
+     "conf": 77.3,
+     "recall": 0.625
+    },
+    {
+     "conf": 86.7,
+     "recall": 0.822
+    },
+    {
+     "conf": 62.2,
+     "recall": 0.667
+    },
+    {
+     "conf": 52.7,
+     "recall": 0.533
+    },
+    {
+     "conf": 86.1,
+     "recall": 0.826
+    },
+    {
+     "conf": 90.5,
+     "recall": 0.923
+    },
+    {
+     "conf": 88.2,
+     "recall": 0.828
+    },
+    {
+     "conf": 90.0,
+     "recall": 0.805
+    },
+    {
+     "conf": 74.9,
+     "recall": 0.845
+    },
+    {
+     "conf": 87.1,
+     "recall": 0.856
+    },
+    {
+     "conf": 81.3,
+     "recall": 0.86
+    },
+    {
+     "conf": 82.3,
+     "recall": 0.852
+    },
+    {
+     "conf": 78.7,
+     "recall": 0.768
+    },
+    {
+     "conf": 84.9,
+     "recall": 0.896
+    }
+   ]
+  },
+  "spotcheck": [
+   {
+    "page_type": "Budget",
+    "conf": 33.1,
+    "rating": 1
+   },
+   {
+    "page_type": "Handwritten",
+    "conf": 50.9,
+    "rating": 2
+   },
+   {
+    "page_type": "Email",
+    "conf": 65.0,
+    "rating": 2
+   },
+   {
+    "page_type": "Letter",
+    "conf": 74.1,
+    "rating": 3
+   },
+   {
+    "page_type": "Budget",
+    "conf": 80.4,
+    "rating": 3
+   },
+   {
+    "page_type": "News article",
+    "conf": 84.1,
+    "rating": 3
+   },
+   {
+    "page_type": "Budget",
+    "conf": 87.3,
+    "rating": 3
+   },
+   {
+    "page_type": "Letter",
+    "conf": 89.7,
+    "rating": 3
+   },
+   {
+    "page_type": "Letter",
+    "conf": 91.8,
+    "rating": 3
+   },
+   {
+    "page_type": "Letter",
+    "conf": 93.8,
+    "rating": 3
+   }
+  ],
+  "pilot_by_type": [
+   {
+    "type": "Resume",
+    "conf": 88.9
+   },
+   {
+    "type": "Email",
+    "conf": 87.5
+   },
+   {
+    "type": "Memo",
+    "conf": 84.7
+   },
+   {
+    "type": "Letter",
+    "conf": 84.4
+   },
+   {
+    "type": "Scientific publication",
+    "conf": 83.1
+   },
+   {
+    "type": "Presentation",
+    "conf": 81.6
+   },
+   {
+    "type": "News article",
+    "conf": 79.9
+   },
+   {
+    "type": "Scientific report",
+    "conf": 79.3
+   },
+   {
+    "type": "Questionnaire",
+    "conf": 78.3
+   },
+   {
+    "type": "Form",
+    "conf": 72.8
+   },
+   {
+    "type": "Specification",
+    "conf": 72.1
+   },
+   {
+    "type": "Budget",
+    "conf": 70.8
+   },
+   {
+    "type": "Invoice",
+    "conf": 64.5
+   },
+   {
+    "type": "Advertisement",
+    "conf": 63.5
+   },
+   {
+    "type": "File folder",
+    "conf": 52.2
+   },
+   {
+    "type": "Handwritten",
+    "conf": 37.8
+   }
+  ],
+  "engines": {
+   "names": {
+    "A": "Tesseract, 150 dpi (baseline)",
+    "B": "Tesseract, original resolution",
+    "C": "PaddleOCR",
+    "D": "GLM-OCR (vision model)",
+    "E": "Archive's text layer (reference)"
+   },
+   "backbone": "C",
+   "reference": [
+    "E"
+   ],
+   "analyses": {
+    "A": {
+     "engine": "A",
+     "name": "Tesseract, 150 dpi (baseline)",
+     "pages_expected": 1400,
+     "pages_read": 1400,
+     "empty_pages": 9,
+     "tokens_median": 151.0,
+     "tokens_p10": 19,
+     "tokens_p90": 378,
+     "wordlike_share_median": 0.7455,
+     "pages_mostly_junk": 223,
+     "pages_with_bates_like_token": 1086,
+     "pages_with_own_bates_found": 560,
+     "pages_with_footer_left": 0,
+     "conf_median": 87.1,
+     "pages_under_60_conf": 165,
+     "seconds_mean": 1.29,
+     "seconds_total_min": 30.0,
+     "by_group": {
+      "1": {
+       "pages": 873,
+       "tokens_median": 113.0,
+       "wordlike_share_median": 0.728,
+       "empty_pages": 2
+      },
+      "2": {
+       "pages": 5,
+       "tokens_median": 2.0,
+       "wordlike_share_median": 0.5,
+       "empty_pages": 2
+      },
+      "3a": {
+       "pages": 20,
+       "tokens_median": 16.5,
+       "wordlike_share_median": 0.5489999999999999,
+       "empty_pages": 1
+      },
+      "3b": {
+       "pages": 35,
+       "tokens_median": 25.0,
+       "wordlike_share_median": 0.667,
+       "empty_pages": 2
+      },
+      "4": {
+       "pages": 467,
+       "tokens_median": 290.0,
+       "wordlike_share_median": 0.799,
+       "empty_pages": 2
+      }
+     },
+     "by_department": {
+      "ADM": {
+       "pages": 26,
+       "tokens_median": 73.0,
+       "wordlike_share_median": 0.716,
+       "empty_pages": 0
+      },
+      "AFF": {
+       "pages": 44,
+       "tokens_median": 228.0,
+       "wordlike_share_median": 0.8514999999999999,
+       "empty_pages": 0
+      },
+      "FIN": {
+       "pages": 21,
+       "tokens_median": 133.0,
+       "wordlike_share_median": 0.667,
+       "empty_pages": 0
+      },
+      "LEG": {
+       "pages": 19,
+       "tokens_median": 177.0,
+       "wordlike_share_median": 0.75,
+       "empty_pages": 0
+      },
+      "MKT": {
+       "pages": 65,
+       "tokens_median": 147.0,
+       "wordlike_share_median": 0.739,
+       "empty_pages": 0
+      },
+      "QSH": {
+       "pages": 20,
+       "tokens_median": 143.0,
+       "wordlike_share_median": 0.5545,
+       "empty_pages": 0
+      },
+      "RND": {
+       "pages": 55,
+       "tokens_median": 171.0,
+       "wordlike_share_median": 0.735,
+       "empty_pages": 0
+      }
+     }
+    },
+    "B": {
+     "engine": "B",
+     "name": "Tesseract, original resolution",
+     "pages_expected": 1400,
+     "pages_read": 1400,
+     "empty_pages": 8,
+     "tokens_median": 158.0,
+     "tokens_p10": 24,
+     "tokens_p90": 392,
+     "wordlike_share_median": 0.743,
+     "pages_mostly_junk": 210,
+     "pages_with_bates_like_token": 1074,
+     "pages_with_own_bates_found": 529,
+     "pages_with_footer_left": 0,
+     "conf_median": 87.0,
+     "pages_under_60_conf": 184,
+     "seconds_mean": 1.68,
+     "seconds_total_min": 39.2,
+     "by_group": {
+      "1": {
+       "pages": 873,
+       "tokens_median": 120.0,
+       "wordlike_share_median": 0.722,
+       "empty_pages": 4
+      },
+      "2": {
+       "pages": 5,
+       "tokens_median": 11.0,
+       "wordlike_share_median": 0.758,
+       "empty_pages": 1
+      },
+      "3a": {
+       "pages": 20,
+       "tokens_median": 44.0,
+       "wordlike_share_median": 0.6745000000000001,
+       "empty_pages": 0
+      },
+      "3b": {
+       "pages": 35,
+       "tokens_median": 39.0,
+       "wordlike_share_median": 0.71,
+       "empty_pages": 1
+      },
+      "4": {
+       "pages": 467,
+       "tokens_median": 298.0,
+       "wordlike_share_median": 0.793,
+       "empty_pages": 2
+      }
+     },
+     "by_department": {
+      "ADM": {
+       "pages": 26,
+       "tokens_median": 73.0,
+       "wordlike_share_median": 0.6995,
+       "empty_pages": 0
+      },
+      "AFF": {
+       "pages": 44,
+       "tokens_median": 250.0,
+       "wordlike_share_median": 0.847,
+       "empty_pages": 0
+      },
+      "FIN": {
+       "pages": 21,
+       "tokens_median": 133.0,
+       "wordlike_share_median": 0.68,
+       "empty_pages": 0
+      },
+      "LEG": {
+       "pages": 19,
+       "tokens_median": 173.0,
+       "wordlike_share_median": 0.75,
+       "empty_pages": 0
+      },
+      "MKT": {
+       "pages": 65,
+       "tokens_median": 182.0,
+       "wordlike_share_median": 0.76,
+       "empty_pages": 0
+      },
+      "QSH": {
+       "pages": 20,
+       "tokens_median": 152.0,
+       "wordlike_share_median": 0.5435000000000001,
+       "empty_pages": 0
+      },
+      "RND": {
+       "pages": 55,
+       "tokens_median": 178.0,
+       "wordlike_share_median": 0.736,
+       "empty_pages": 0
+      }
+     }
+    },
+    "C": {
+     "engine": "C",
+     "name": "PaddleOCR, original resolution",
+     "pages_expected": 1400,
+     "pages_read": 1400,
+     "empty_pages": 2,
+     "tokens_median": 153.0,
+     "tokens_p10": 27,
+     "tokens_p90": 400,
+     "wordlike_share_median": 0.761,
+     "pages_mostly_junk": 211,
+     "pages_with_bates_like_token": 1287,
+     "pages_with_own_bates_found": 1224,
+     "pages_with_footer_left": 0,
+     "conf_median": 97.7,
+     "pages_under_60_conf": 9,
+     "seconds_mean": 0.98,
+     "seconds_total_min": 22.9,
+     "by_group": {
+      "1": {
+       "pages": 873,
+       "tokens_median": 114.0,
+       "wordlike_share_median": 0.736,
+       "empty_pages": 2
+      },
+      "2": {
+       "pages": 5,
+       "tokens_median": 41.0,
+       "wordlike_share_median": 0.796,
+       "empty_pages": 0
+      },
+      "3a": {
+       "pages": 20,
+       "tokens_median": 21.5,
+       "wordlike_share_median": 0.6819999999999999,
+       "empty_pages": 0
+      },
+      "3b": {
+       "pages": 35,
+       "tokens_median": 56.0,
+       "wordlike_share_median": 0.76,
+       "empty_pages": 0
+      },
+      "4": {
+       "pages": 467,
+       "tokens_median": 298.0,
+       "wordlike_share_median": 0.825,
+       "empty_pages": 0
+      }
+     },
+     "by_department": {
+      "ADM": {
+       "pages": 26,
+       "tokens_median": 70.5,
+       "wordlike_share_median": 0.7015,
+       "empty_pages": 0
+      },
+      "AFF": {
+       "pages": 44,
+       "tokens_median": 250.0,
+       "wordlike_share_median": 0.8765000000000001,
+       "empty_pages": 0
+      },
+      "FIN": {
+       "pages": 21,
+       "tokens_median": 139.0,
+       "wordlike_share_median": 0.681,
+       "empty_pages": 0
+      },
+      "LEG": {
+       "pages": 19,
+       "tokens_median": 181.0,
+       "wordlike_share_median": 0.751,
+       "empty_pages": 0
+      },
+      "MKT": {
+       "pages": 65,
+       "tokens_median": 210.0,
+       "wordlike_share_median": 0.782,
+       "empty_pages": 0
+      },
+      "QSH": {
+       "pages": 20,
+       "tokens_median": 178.0,
+       "wordlike_share_median": 0.6565000000000001,
+       "empty_pages": 0
+      },
+      "RND": {
+       "pages": 55,
+       "tokens_median": 172.0,
+       "wordlike_share_median": 0.748,
+       "empty_pages": 0
+      }
+     }
+    },
+    "D": {
+     "engine": "D",
+     "name": "Vision-language model",
+     "pages_expected": 1400,
+     "pages_read": 1398,
+     "empty_pages": 0,
+     "tokens_median": 148.5,
+     "tokens_p10": 23,
+     "tokens_p90": 392,
+     "wordlike_share_median": 0.806,
+     "pages_mostly_junk": 148,
+     "pages_with_bates_like_token": 513,
+     "pages_with_own_bates_found": 150,
+     "pages_with_footer_left": 0,
+     "seconds_mean": 5.81,
+     "seconds_total_min": 135.3,
+     "by_group": {
+      "1": {
+       "pages": 872,
+       "tokens_median": 107.0,
+       "wordlike_share_median": 0.7755000000000001,
+       "empty_pages": 0
+      },
+      "2": {
+       "pages": 5,
+       "tokens_median": 48.0,
+       "wordlike_share_median": 0.818,
+       "empty_pages": 0
+      },
+      "3a": {
+       "pages": 20,
+       "tokens_median": 43.0,
+       "wordlike_share_median": 0.7785,
+       "empty_pages": 0
+      },
+      "3b": {
+       "pages": 35,
+       "tokens_median": 45.0,
+       "wordlike_share_median": 0.879,
+       "empty_pages": 0
+      },
+      "4": {
+       "pages": 466,
+       "tokens_median": 285.0,
+       "wordlike_share_median": 0.856,
+       "empty_pages": 0
+      }
+     },
+     "by_department": {
+      "ADM": {
+       "pages": 26,
+       "tokens_median": 73.5,
+       "wordlike_share_median": 0.7355,
+       "empty_pages": 0
+      },
+      "AFF": {
+       "pages": 44,
+       "tokens_median": 240.0,
+       "wordlike_share_median": 0.8965000000000001,
+       "empty_pages": 0
+      },
+      "FIN": {
+       "pages": 21,
+       "tokens_median": 147.0,
+       "wordlike_share_median": 0.704,
+       "empty_pages": 0
+      },
+      "LEG": {
+       "pages": 19,
+       "tokens_median": 178.0,
+       "wordlike_share_median": 0.791,
+       "empty_pages": 0
+      },
+      "MKT": {
+       "pages": 65,
+       "tokens_median": 182.0,
+       "wordlike_share_median": 0.814,
+       "empty_pages": 0
+      },
+      "QSH": {
+       "pages": 20,
+       "tokens_median": 176.0,
+       "wordlike_share_median": 0.629,
+       "empty_pages": 0
+      },
+      "RND": {
+       "pages": 55,
+       "tokens_median": 169.0,
+       "wordlike_share_median": 0.768,
+       "empty_pages": 0
+      }
+     }
+    },
+    "E": {
+     "engine": "E",
+     "name": "Archive text layer (UCSF)",
+     "pages_expected": 1400,
+     "pages_read": 1400,
+     "empty_pages": 25,
+     "tokens_median": 172.0,
+     "tokens_p10": 18,
+     "tokens_p90": 426,
+     "wordlike_share_median": 0.6395,
+     "pages_mostly_junk": 425,
+     "pages_with_bates_like_token": 642,
+     "pages_with_own_bates_found": 260,
+     "pages_with_footer_left": 0,
+     "by_group": {
+      "1": {
+       "pages": 873,
+       "tokens_median": 131.0,
+       "wordlike_share_median": 0.617,
+       "empty_pages": 11
+      },
+      "2": {
+       "pages": 5,
+       "tokens_median": 6.0,
+       "wordlike_share_median": 0.429,
+       "empty_pages": 0
+      },
+      "3a": {
+       "pages": 20,
+       "tokens_median": 25.0,
+       "wordlike_share_median": 0.0915,
+       "empty_pages": 3
+      },
+      "3b": {
+       "pages": 35,
+       "tokens_median": 24.0,
+       "wordlike_share_median": 0.385,
+       "empty_pages": 7
+      },
+      "4": {
+       "pages": 467,
+       "tokens_median": 317.0,
+       "wordlike_share_median": 0.72,
+       "empty_pages": 4
+      }
+     },
+     "by_department": {
+      "ADM": {
+       "pages": 26,
+       "tokens_median": 94.0,
+       "wordlike_share_median": 0.5509999999999999,
+       "empty_pages": 1
+      },
+      "AFF": {
+       "pages": 44,
+       "tokens_median": 251.0,
+       "wordlike_share_median": 0.7765,
+       "empty_pages": 1
+      },
+      "FIN": {
+       "pages": 21,
+       "tokens_median": 151.0,
+       "wordlike_share_median": 0.592,
+       "empty_pages": 0
+      },
+      "LEG": {
+       "pages": 19,
+       "tokens_median": 190.0,
+       "wordlike_share_median": 0.668,
+       "empty_pages": 0
+      },
+      "MKT": {
+       "pages": 65,
+       "tokens_median": 199.0,
+       "wordlike_share_median": 0.667,
+       "empty_pages": 2
+      },
+      "QSH": {
+       "pages": 20,
+       "tokens_median": 231.0,
+       "wordlike_share_median": 0.3665,
+       "empty_pages": 0
+      },
+      "RND": {
+       "pages": 55,
+       "tokens_median": 196.0,
+       "wordlike_share_median": 0.639,
+       "empty_pages": 0
+      }
+     }
+    }
+   },
+   "pages_by_group": [
+    {
+     "group": "1",
+     "engine": "A",
+     "pages": 873,
+     "median_tokens": 113.0,
+     "median_wordlike": 0.726,
+     "empty_pages": 2
+    },
+    {
+     "group": "1",
+     "engine": "B",
+     "pages": 873,
+     "median_tokens": 120.0,
+     "median_wordlike": 0.72,
+     "empty_pages": 4
+    },
+    {
+     "group": "1",
+     "engine": "C",
+     "pages": 873,
+     "median_tokens": 114.0,
+     "median_wordlike": 0.736,
+     "empty_pages": 2
+    },
+    {
+     "group": "1",
+     "engine": "D",
+     "pages": 873,
+     "median_tokens": 107.0,
+     "median_wordlike": 0.776,
+     "empty_pages": 0
+    },
+    {
+     "group": "1",
+     "engine": "E",
+     "pages": 873,
+     "median_tokens": 131.0,
+     "median_wordlike": 0.617,
+     "empty_pages": 11
+    },
+    {
+     "group": "2",
+     "engine": "A",
+     "pages": 5,
+     "median_tokens": 2.0,
+     "median_wordlike": 0.5,
+     "empty_pages": 2
+    },
+    {
+     "group": "2",
+     "engine": "B",
+     "pages": 5,
+     "median_tokens": 11.0,
+     "median_wordlike": 0.758,
+     "empty_pages": 1
+    },
+    {
+     "group": "2",
+     "engine": "C",
+     "pages": 5,
+     "median_tokens": 41.0,
+     "median_wordlike": 0.796,
+     "empty_pages": 0
+    },
+    {
+     "group": "2",
+     "engine": "D",
+     "pages": 5,
+     "median_tokens": 48.0,
+     "median_wordlike": 0.818,
+     "empty_pages": 0
+    },
+    {
+     "group": "2",
+     "engine": "E",
+     "pages": 5,
+     "median_tokens": 6.0,
+     "median_wordlike": 0.429,
+     "empty_pages": 0
+    },
+    {
+     "group": "3a",
+     "engine": "A",
+     "pages": 20,
+     "median_tokens": 16.5,
+     "median_wordlike": 0.528,
+     "empty_pages": 1
+    },
+    {
+     "group": "3a",
+     "engine": "B",
+     "pages": 20,
+     "median_tokens": 44.0,
+     "median_wordlike": 0.661,
+     "empty_pages": 0
+    },
+    {
+     "group": "3a",
+     "engine": "C",
+     "pages": 20,
+     "median_tokens": 21.5,
+     "median_wordlike": 0.682,
+     "empty_pages": 0
+    },
+    {
+     "group": "3a",
+     "engine": "D",
+     "pages": 20,
+     "median_tokens": 43.0,
+     "median_wordlike": 0.778,
+     "empty_pages": 0
+    },
+    {
+     "group": "3a",
+     "engine": "E",
+     "pages": 20,
+     "median_tokens": 25.0,
+     "median_wordlike": 0.091,
+     "empty_pages": 3
+    },
+    {
+     "group": "3b",
+     "engine": "A",
+     "pages": 35,
+     "median_tokens": 25.0,
+     "median_wordlike": 0.667,
+     "empty_pages": 2
+    },
+    {
+     "group": "3b",
+     "engine": "B",
+     "pages": 35,
+     "median_tokens": 39.0,
+     "median_wordlike": 0.708,
+     "empty_pages": 1
+    },
+    {
+     "group": "3b",
+     "engine": "C",
+     "pages": 35,
+     "median_tokens": 56.0,
+     "median_wordlike": 0.76,
+     "empty_pages": 0
+    },
+    {
+     "group": "3b",
+     "engine": "D",
+     "pages": 35,
+     "median_tokens": 45.0,
+     "median_wordlike": 0.879,
+     "empty_pages": 0
+    },
+    {
+     "group": "3b",
+     "engine": "E",
+     "pages": 35,
+     "median_tokens": 24.0,
+     "median_wordlike": 0.382,
+     "empty_pages": 7
+    },
+    {
+     "group": "4",
+     "engine": "A",
+     "pages": 467,
+     "median_tokens": 290.0,
+     "median_wordlike": 0.799,
+     "empty_pages": 2
+    },
+    {
+     "group": "4",
+     "engine": "B",
+     "pages": 467,
+     "median_tokens": 298.0,
+     "median_wordlike": 0.793,
+     "empty_pages": 2
+    },
+    {
+     "group": "4",
+     "engine": "C",
+     "pages": 467,
+     "median_tokens": 298.0,
+     "median_wordlike": 0.825,
+     "empty_pages": 0
+    },
+    {
+     "group": "4",
+     "engine": "D",
+     "pages": 467,
+     "median_tokens": 285.0,
+     "median_wordlike": 0.856,
+     "empty_pages": 0
+    },
+    {
+     "group": "4",
+     "engine": "E",
+     "pages": 467,
+     "median_tokens": 317.0,
+     "median_wordlike": 0.72,
+     "empty_pages": 4
+    }
+   ],
+   "review_overall": [
+    {
+     "engine": "A",
+     "pages": 22.0,
+     "good": 5.0,
+     "usable": 4.0,
+     "poor": 13.0,
+     "words_found": 1.64,
+     "spelling": 1.82,
+     "rank_score": 0.27,
+     "rank_score_candidates": 0.14
+    },
+    {
+     "engine": "B",
+     "pages": 22.0,
+     "good": 3.0,
+     "usable": 9.0,
+     "poor": 10.0,
+     "words_found": 1.95,
+     "spelling": 2.5,
+     "rank_score": 0.42,
+     "rank_score_candidates": 0.27
+    },
+    {
+     "engine": "C",
+     "pages": 22.0,
+     "good": 11.0,
+     "usable": 10.0,
+     "poor": 1.0,
+     "words_found": 3.32,
+     "spelling": 3.36,
+     "rank_score": 0.86,
+     "rank_score_candidates": 0.82
+    },
+    {
+     "engine": "D",
+     "pages": 22.0,
+     "good": 17.0,
+     "usable": 4.0,
+     "poor": 1.0,
+     "words_found": 3.14,
+     "spelling": 3.68,
+     "rank_score": 0.82,
+     "rank_score_candidates": 0.77
+    },
+    {
+     "engine": "E",
+     "pages": 22.0,
+     "good": 2.0,
+     "usable": 11.0,
+     "poor": 9.0,
+     "words_found": 1.68,
+     "spelling": 2.18,
+     "rank_score": 0.12,
+     "rank_score_candidates": null
+    }
+   ],
+   "review_by_group": [
+    {
+     "group": "1",
+     "engine": "A",
+     "pages": 6.0,
+     "good": 3.0,
+     "usable": 2.0,
+     "poor": 1.0,
+     "words_found": 2.67,
+     "spelling": 2.33,
+     "rank_score": 0.29,
+     "rank_score_candidates": 0.17
+    },
+    {
+     "group": "1",
+     "engine": "B",
+     "pages": 6.0,
+     "good": 2.0,
+     "usable": 4.0,
+     "poor": 0.0,
+     "words_found": 3.0,
+     "spelling": 3.17,
+     "rank_score": 0.42,
+     "rank_score_candidates": 0.22
+    },
+    {
+     "group": "1",
+     "engine": "C",
+     "pages": 6.0,
+     "good": 5.0,
+     "usable": 1.0,
+     "poor": 0.0,
+     "words_found": 4.0,
+     "spelling": 3.5,
+     "rank_score": 0.96,
+     "rank_score_candidates": 0.94
+    },
+    {
+     "group": "1",
+     "engine": "D",
+     "pages": 6.0,
+     "good": 5.0,
+     "usable": 1.0,
+     "poor": 0.0,
+     "words_found": 3.5,
+     "spelling": 3.67,
+     "rank_score": 0.71,
+     "rank_score_candidates": 0.67
+    },
+    {
+     "group": "1",
+     "engine": "E",
+     "pages": 6.0,
+     "good": 2.0,
+     "usable": 4.0,
+     "poor": 0.0,
+     "words_found": 3.33,
+     "spelling": 3.17,
+     "rank_score": 0.12,
+     "rank_score_candidates": null
+    },
+    {
+     "group": "2",
+     "engine": "A",
+     "pages": 4.0,
+     "good": 0.0,
+     "usable": 0.0,
+     "poor": 4.0,
+     "words_found": 0.25,
+     "spelling": 0.75,
+     "rank_score": 0.12,
+     "rank_score_candidates": 0.08
+    },
+    {
+     "group": "2",
+     "engine": "B",
+     "pages": 4.0,
+     "good": 0.0,
+     "usable": 1.0,
+     "poor": 3.0,
+     "words_found": 1.0,
+     "spelling": 1.75,
+     "rank_score": 0.38,
+     "rank_score_candidates": 0.25
+    },
+    {
+     "group": "2",
+     "engine": "C",
+     "pages": 4.0,
+     "good": 2.0,
+     "usable": 2.0,
+     "poor": 0.0,
+     "words_found": 2.75,
+     "spelling": 3.25,
+     "rank_score": 0.88,
+     "rank_score_candidates": 0.83
+    },
+    {
+     "group": "2",
+     "engine": "D",
+     "pages": 4.0,
+     "good": 4.0,
+     "usable": 0.0,
+     "poor": 0.0,
+     "words_found": 3.25,
+     "spelling": 3.75,
+     "rank_score": 0.88,
+     "rank_score_candidates": 0.83
+    },
+    {
+     "group": "2",
+     "engine": "E",
+     "pages": 4.0,
+     "good": 0.0,
+     "usable": 2.0,
+     "poor": 2.0,
+     "words_found": 0.75,
+     "spelling": 2.25,
+     "rank_score": 0.25,
+     "rank_score_candidates": null
+    },
+    {
+     "group": "3a",
+     "engine": "A",
+     "pages": 4.0,
+     "good": 0.0,
+     "usable": 2.0,
+     "poor": 2.0,
+     "words_found": 1.5,
+     "spelling": 2.75,
+     "rank_score": 0.38,
+     "rank_score_candidates": 0.17
+    },
+    {
+     "group": "3a",
+     "engine": "B",
+     "pages": 4.0,
+     "good": 0.0,
+     "usable": 3.0,
+     "poor": 1.0,
+     "words_found": 1.75,
+     "spelling": 3.25,
+     "rank_score": 0.56,
+     "rank_score_candidates": 0.42
+    },
+    {
+     "group": "3a",
+     "engine": "C",
+     "pages": 4.0,
+     "good": 2.0,
+     "usable": 1.0,
+     "poor": 1.0,
+     "words_found": 3.0,
+     "spelling": 3.75,
+     "rank_score": 0.75,
+     "rank_score_candidates": 0.67
+    },
+    {
+     "group": "3a",
+     "engine": "D",
+     "pages": 4.0,
+     "good": 3.0,
+     "usable": 1.0,
+     "poor": 0.0,
+     "words_found": 3.5,
+     "spelling": 4.0,
+     "rank_score": 0.81,
+     "rank_score_candidates": 0.75
+    },
+    {
+     "group": "3a",
+     "engine": "E",
+     "pages": 4.0,
+     "good": 0.0,
+     "usable": 1.0,
+     "poor": 3.0,
+     "words_found": 1.0,
+     "spelling": 2.0,
+     "rank_score": 0.0,
+     "rank_score_candidates": null
+    },
+    {
+     "group": "3b",
+     "engine": "A",
+     "pages": 4.0,
+     "good": 1.0,
+     "usable": 0.0,
+     "poor": 3.0,
+     "words_found": 2.25,
+     "spelling": 1.75,
+     "rank_score": 0.38,
+     "rank_score_candidates": 0.17
+    },
+    {
+     "group": "3b",
+     "engine": "B",
+     "pages": 4.0,
+     "good": 0.0,
+     "usable": 1.0,
+     "poor": 3.0,
+     "words_found": 2.25,
+     "spelling": 1.5,
+     "rank_score": 0.44,
+     "rank_score_candidates": 0.25
+    },
+    {
+     "group": "3b",
+     "engine": "C",
+     "pages": 4.0,
+     "good": 0.0,
+     "usable": 4.0,
+     "poor": 0.0,
+     "words_found": 3.25,
+     "spelling": 2.75,
+     "rank_score": 0.75,
+     "rank_score_candidates": 0.67
+    },
+    {
+     "group": "3b",
+     "engine": "D",
+     "pages": 4.0,
+     "good": 3.0,
+     "usable": 1.0,
+     "poor": 0.0,
+     "words_found": 3.0,
+     "spelling": 4.0,
+     "rank_score": 0.94,
+     "rank_score_candidates": 0.92
+    },
+    {
+     "group": "3b",
+     "engine": "E",
+     "pages": 4.0,
+     "good": 0.0,
+     "usable": 1.0,
+     "poor": 3.0,
+     "words_found": 1.25,
+     "spelling": 0.75,
+     "rank_score": 0.0,
+     "rank_score_candidates": null
+    },
+    {
+     "group": "4",
+     "engine": "A",
+     "pages": 4.0,
+     "good": 1.0,
+     "usable": 0.0,
+     "poor": 3.0,
+     "words_found": 1.0,
+     "spelling": 1.25,
+     "rank_score": 0.19,
+     "rank_score_candidates": 0.08
+    },
+    {
+     "group": "4",
+     "engine": "B",
+     "pages": 4.0,
+     "good": 1.0,
+     "usable": 0.0,
+     "poor": 3.0,
+     "words_found": 1.25,
+     "spelling": 2.5,
+     "rank_score": 0.31,
+     "rank_score_candidates": 0.25
+    },
+    {
+     "group": "4",
+     "engine": "C",
+     "pages": 4.0,
+     "good": 2.0,
+     "usable": 2.0,
+     "poor": 0.0,
+     "words_found": 3.25,
+     "spelling": 3.5,
+     "rank_score": 0.94,
+     "rank_score_candidates": 0.92
+    },
+    {
+     "group": "4",
+     "engine": "D",
+     "pages": 4.0,
+     "good": 2.0,
+     "usable": 1.0,
+     "poor": 1.0,
+     "words_found": 2.25,
+     "spelling": 3.0,
+     "rank_score": 0.81,
+     "rank_score_candidates": 0.75
+    },
+    {
+     "group": "4",
+     "engine": "E",
+     "pages": 4.0,
+     "good": 0.0,
+     "usable": 3.0,
+     "poor": 1.0,
+     "words_found": 1.25,
+     "spelling": 2.25,
+     "rank_score": 0.25,
+     "rank_score_candidates": null
+    }
+   ],
+   "funsd": [
+    {
+     "engine": "A",
+     "forms": 50,
+     "true_words": 8726,
+     "word_recall": 0.747,
+     "wer": 0.369,
+     "wer_median_form": 0.366,
+     "seconds_per_form": 0.57,
+     "conf_vs_recall_spearman": 0.63
+    },
+    {
+     "engine": "C",
+     "forms": 50,
+     "true_words": 8726,
+     "word_recall": 0.922,
+     "wer": 0.162,
+     "wer_median_form": 0.116,
+     "seconds_per_form": 0.39,
+     "conf_vs_recall_spearman": 0.62
+    },
+    {
+     "engine": "D",
+     "forms": 50,
+     "true_words": 8726,
+     "word_recall": 0.887,
+     "wer": 0.24,
+     "wer_median_form": 0.19,
+     "seconds_per_form": 4.25,
+     "conf_vs_recall_spearman": null
+    }
+   ],
+   "group_check": [
+    {
+     "assigned_group": "1",
+     "Correct": 4,
+     "Wrong": 0,
+     "Unsure": 2,
+     "moved_to": null
+    },
+    {
+     "assigned_group": "2",
+     "Correct": 4,
+     "Wrong": 0,
+     "Unsure": 0,
+     "moved_to": null
+    },
+    {
+     "assigned_group": "3a",
+     "Correct": 4,
+     "Wrong": 0,
+     "Unsure": 0,
+     "moved_to": null
+    },
+    {
+     "assigned_group": "3b",
+     "Correct": 2,
+     "Wrong": 1,
+     "Unsure": 1,
+     "moved_to": "3a"
+    },
+    {
+     "assigned_group": "4",
+     "Correct": 0,
+     "Wrong": 4,
+     "Unsure": 0,
+     "moved_to": "2, 3a, 3b, 3b"
+    }
+   ],
+   "scan_groups": [
+    {
+     "id": "1",
+     "name": "Clean typed files",
+     "pages": 873
+    },
+    {
+     "id": "2",
+     "name": "Photographic ads",
+     "pages": 5
+    },
+    {
+     "id": "3a",
+     "name": "Degraded scans",
+     "pages": 20
+    },
+    {
+     "id": "3b",
+     "name": "Graphics and clippings",
+     "pages": 35
+    },
+    {
+     "id": "4",
+     "name": "Clean reports, forms, tables",
+     "pages": 467
+    }
+   ],
+   "orientation": {
+    "pages": 1400,
+    "turn_suggested": 131,
+    "turn_kept": 50
+   },
+   "text_options": {
+    "options": [
+     "C",
+     "hybrid",
+     "both",
+     "D"
+    ],
+    "pages": 1400,
+    "hybrid_from_D": 60,
+    "no_D_reading": 2
+   }
+  },
+  "k_check": {
+   "tried": [
+    {
+     "k": 2,
+     "inertia": 6021.5,
+     "silhouette": 0.736,
+     "sizes": [
+      1314,
+      86
+     ],
+     "used": false
+    },
+    {
+     "k": 3,
+     "inertia": 4524.1,
+     "silhouette": 0.706,
+     "sizes": [
+      1302,
+      93,
+      5
+     ],
+     "used": false
+    },
+    {
+     "k": 4,
+     "inertia": 3406.5,
+     "silhouette": 0.392,
+     "sizes": [
+      873,
+      467,
+      55,
+      5
+     ],
+     "used": true
+    },
+    {
+     "k": 5,
+     "inertia": 2511.3,
+     "silhouette": 0.442,
+     "sizes": [
+      841,
+      441,
+      58,
+      55,
+      5
+     ],
+     "used": false
+    },
+    {
+     "k": 6,
+     "inertia": 2039.2,
+     "silhouette": 0.413,
+     "sizes": [
+      626,
+      578,
+      94,
+      58,
+      39,
+      5
+     ],
+     "used": false
+    },
+    {
+     "k": 7,
+     "inertia": 1711.7,
+     "silhouette": 0.417,
+     "sizes": [
+      625,
+      574,
+      93,
+      58,
+      33,
+      12,
+      5
+     ],
+     "used": false
+    },
+    {
+     "k": 8,
+     "inertia": 1501.1,
+     "silhouette": 0.425,
+     "sizes": [
+      611,
+      565,
+      93,
+      64,
+      33,
+      17,
+      12,
+      5
+     ],
+     "used": false
+    }
+   ],
+   "final": {
+    "groups": 5,
+    "silhouette": 0.393,
+    "sizes": [
+     873,
+     467,
+     35,
+     20,
+     5
+    ]
+   }
+  }
+ },
+ "classifier": {
+  "pages": 250,
+  "folds": 5,
+  "final_test_pages": 150,
+  "hybrid_vs_paddle": {
+   "pages": 250,
+   "text_differs": 7,
+   "prediction_differs": 3
+  },
+  "embedding": {
+   "model": "Qwen3-Embedding-0.6B",
+   "size": 1024
+  },
+  "tfidf": {
+   "A": {
+    "macro_f1": 0.467,
+    "macro_f1_sd": 0.116,
+    "accuracy": 0.536,
+    "folds": [
+     0.382,
+     0.537,
+     0.625,
+     0.34,
+     0.452
+    ]
+   },
+   "C": {
+    "macro_f1": 0.557,
+    "macro_f1_sd": 0.069,
+    "accuracy": 0.604,
+    "folds": [
+     0.544,
+     0.566,
+     0.624,
+     0.446,
+     0.603
+    ]
+   },
+   "C_with_bates": {
+    "macro_f1": 0.557,
+    "macro_f1_sd": 0.069,
+    "accuracy": 0.604,
+    "folds": [
+     0.544,
+     0.566,
+     0.624,
+     0.446,
+     0.603
+    ]
+   },
+   "D": {
+    "macro_f1": 0.53,
+    "macro_f1_sd": 0.048,
+    "accuracy": 0.592,
+    "folds": [
+     0.55,
+     0.5,
+     0.598,
+     0.471,
+     0.531
+    ]
+   },
+   "both": {
+    "macro_f1": 0.528,
+    "macro_f1_sd": 0.052,
+    "accuracy": 0.596,
+    "folds": [
+     0.515,
+     0.5,
+     0.612,
+     0.476,
+     0.539
+    ]
+   },
+   "hybrid": {
+    "macro_f1": 0.563,
+    "macro_f1_sd": 0.074,
+    "accuracy": 0.612,
+    "folds": [
+     0.555,
+     0.566,
+     0.642,
+     0.446,
+     0.603
+    ]
+   },
+   "majority": {
+    "macro_f1": 0.069,
+    "macro_f1_sd": 0.001,
+    "accuracy": 0.26,
+    "folds": [
+     0.069,
+     0.07,
+     0.069,
+     0.069,
+     0.068
+    ]
+   }
+  },
+  "embeddings": {
+   "hybrid": {
+    "macro_f1": 0.683,
+    "macro_f1_sd": 0.066,
+    "accuracy": 0.696,
+    "folds": [
+     0.641,
+     0.794,
+     0.624,
+     0.674,
+     0.684
+    ]
+   },
+   "hybrid_with_bates": {
+    "macro_f1": 0.667,
+    "macro_f1_sd": 0.051,
+    "accuracy": 0.684,
+    "folds": [
+     0.641,
+     0.755,
+     0.624,
+     0.654,
+     0.663
+    ]
+   },
+   "A": {
+    "macro_f1": 0.615,
+    "macro_f1_sd": 0.1,
+    "accuracy": 0.633,
+    "folds": [
+     0.612,
+     0.746,
+     0.493,
+     0.674,
+     0.551
+    ]
+   }
+  },
+  "bates_probe": {
+   "macro_f1": 0.307,
+   "macro_f1_sd": 0.008,
+   "accuracy": 0.356,
+   "folds": [
+    0.317,
+    0.296,
+    0.312,
+    0.307,
+    0.305
+   ]
+  },
+  "per_department": {
+   "tfidf": {
+    "RND": 0.741,
+    "MKT": 0.676,
+    "AFF": 0.6,
+    "QSH": 0.571,
+    "LEG": 0.488,
+    "FIN": 0.343
+   },
+   "embeddings": {
+    "RND": 0.781,
+    "MKT": 0.763,
+    "QSH": 0.684,
+    "FIN": 0.651,
+    "LEG": 0.633,
+    "AFF": 0.588
+   }
+  },
+  "confusion": {
+   "labels": [
+    "AFF",
+    "FIN",
+    "LEG",
+    "MKT",
+    "QSH",
+    "RND"
+   ],
+   "guesses": [
+    "AFF",
+    "FIN",
+    "LEG",
+    "MKT",
+    "QSH",
+    "RND"
+   ],
+   "counts": [
+    [
+     25,
+     1,
+     8,
+     6,
+     0,
+     4
+    ],
+    [
+     1,
+     14,
+     3,
+     2,
+     1,
+     0
+    ],
+    [
+     7,
+     1,
+     31,
+     4,
+     1,
+     1
+    ],
+    [
+     3,
+     4,
+     5,
+     50,
+     1,
+     2
+    ],
+    [
+     0,
+     1,
+     1,
+     3,
+     13,
+     2
+    ],
+    [
+     5,
+     1,
+     5,
+     1,
+     2,
+     41
+    ]
+   ]
+  },
+  "certainty": {
+   "embeddings": {
+    "sure": {
+     "pages": 170,
+     "accuracy": 0.782
+    },
+    "unsure": {
+     "pages": 80,
+     "accuracy": 0.512
+    }
+   },
+   "tfidf": {
+    "sure": {
+     "pages": 170,
+     "accuracy": 0.724
+    },
+    "unsure": {
+     "pages": 80,
+     "accuracy": 0.375
+    }
+   }
+  },
+  "routing": {
+   "target": 0.9,
+   "pages": 250,
+   "auto_filed": 56,
+   "auto_correct": 51,
+   "accuracy_auto_filed": 0.911,
+   "by_fold": [
+    {
+     "fold": 1,
+     "threshold_from_training": 0.6,
+     "auto_filed": 21,
+     "coverage": 0.42,
+     "accuracy_auto_filed": 0.857
+    },
+    {
+     "fold": 2,
+     "threshold_from_training": 1.01,
+     "auto_filed": 0,
+     "coverage": 0.0,
+     "accuracy_auto_filed": null
+    },
+    {
+     "fold": 3,
+     "threshold_from_training": 0.7,
+     "auto_filed": 4,
+     "coverage": 0.08,
+     "accuracy_auto_filed": 1.0
+    },
+    {
+     "fold": 4,
+     "threshold_from_training": 0.6,
+     "auto_filed": 14,
+     "coverage": 0.28,
+     "accuracy_auto_filed": 0.929
+    },
+    {
+     "fold": 5,
+     "threshold_from_training": 0.65,
+     "auto_filed": 17,
+     "coverage": 0.333,
+     "accuracy_auto_filed": 0.941
+    }
+   ],
+   "curve_embeddings": [
+    {
+     "threshold": 0.3,
+     "auto_filed": 241,
+     "coverage": 0.964,
+     "accuracy_auto_filed": 0.71
+    },
+    {
+     "threshold": 0.35,
+     "auto_filed": 221,
+     "coverage": 0.884,
+     "accuracy_auto_filed": 0.733
+    },
+    {
+     "threshold": 0.4,
+     "auto_filed": 197,
+     "coverage": 0.788,
+     "accuracy_auto_filed": 0.761
+    },
+    {
+     "threshold": 0.45,
+     "auto_filed": 170,
+     "coverage": 0.68,
+     "accuracy_auto_filed": 0.824
+    },
+    {
+     "threshold": 0.5,
+     "auto_filed": 135,
+     "coverage": 0.54,
+     "accuracy_auto_filed": 0.889
+    },
+    {
+     "threshold": 0.55,
+     "auto_filed": 112,
+     "coverage": 0.448,
+     "accuracy_auto_filed": 0.902
+    },
+    {
+     "threshold": 0.6,
+     "auto_filed": 88,
+     "coverage": 0.352,
+     "accuracy_auto_filed": 0.92
+    },
+    {
+     "threshold": 0.65,
+     "auto_filed": 62,
+     "coverage": 0.248,
+     "accuracy_auto_filed": 0.935
+    },
+    {
+     "threshold": 0.7,
+     "auto_filed": 36,
+     "coverage": 0.144,
+     "accuracy_auto_filed": 0.944
+    },
+    {
+     "threshold": 0.75,
+     "auto_filed": 18,
+     "coverage": 0.072,
+     "accuracy_auto_filed": 0.889
+    },
+    {
+     "threshold": 0.8,
+     "auto_filed": 6,
+     "coverage": 0.024,
+     "accuracy_auto_filed": 1.0
+    },
+    {
+     "threshold": 0.85,
+     "auto_filed": 0,
+     "coverage": 0.0,
+     "accuracy_auto_filed": null
+    },
+    {
+     "threshold": 0.9,
+     "auto_filed": 0,
+     "coverage": 0.0,
+     "accuracy_auto_filed": null
+    }
+   ],
+   "curve_tfidf": [
+    {
+     "threshold": 0.3,
+     "auto_filed": 233,
+     "coverage": 0.932,
+     "accuracy_auto_filed": 0.618
+    },
+    {
+     "threshold": 0.35,
+     "auto_filed": 206,
+     "coverage": 0.824,
+     "accuracy_auto_filed": 0.631
+    },
+    {
+     "threshold": 0.4,
+     "auto_filed": 173,
+     "coverage": 0.692,
+     "accuracy_auto_filed": 0.676
+    },
+    {
+     "threshold": 0.45,
+     "auto_filed": 124,
+     "coverage": 0.496,
+     "accuracy_auto_filed": 0.726
+    },
+    {
+     "threshold": 0.5,
+     "auto_filed": 78,
+     "coverage": 0.312,
+     "accuracy_auto_filed": 0.808
+    },
+    {
+     "threshold": 0.55,
+     "auto_filed": 56,
+     "coverage": 0.224,
+     "accuracy_auto_filed": 0.786
+    },
+    {
+     "threshold": 0.6,
+     "auto_filed": 37,
+     "coverage": 0.148,
+     "accuracy_auto_filed": 0.811
+    },
+    {
+     "threshold": 0.65,
+     "auto_filed": 20,
+     "coverage": 0.08,
+     "accuracy_auto_filed": 0.8
+    },
+    {
+     "threshold": 0.7,
+     "auto_filed": 5,
+     "coverage": 0.02,
+     "accuracy_auto_filed": 0.8
+    },
+    {
+     "threshold": 0.75,
+     "auto_filed": 0,
+     "coverage": 0.0,
+     "accuracy_auto_filed": null
+    },
+    {
+     "threshold": 0.8,
+     "auto_filed": 0,
+     "coverage": 0.0,
+     "accuracy_auto_filed": null
+    },
+    {
+     "threshold": 0.85,
+     "auto_filed": 0,
+     "coverage": 0.0,
+     "accuracy_auto_filed": null
+    },
+    {
+     "threshold": 0.9,
+     "auto_filed": 0,
+     "coverage": 0.0,
+     "accuracy_auto_filed": null
+    }
+   ],
+   "units": [
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ]
+  }
+ },
+ "rag": {
+  "review_pages": 194,
+  "approaches": [
+   {
+    "name": "Similar filed pages vote",
+    "top1": 0.608,
+    "top2": 0.794
+   },
+   {
+    "name": "Classifier",
+    "top1": 0.639,
+    "top2": 0.851
+   },
+   {
+    "name": "Language model, no classifier hints",
+    "top1": 0.706,
+    "top2": 0.866
+   },
+   {
+    "name": "RAG suggestion (with classifier's top two)",
+    "top1": 0.732,
+    "top2": 0.871
+   }
+  ],
+  "paired_A": {
+   "only_rag": 24,
+   "only_classifier": 6,
+   "p": 0.0014
+  },
+  "paired_C": {
+   "only_rag": 31,
+   "only_classifier": 18,
+   "p": 0.0854
+  },
+  "changed_answer": 34,
+  "seconds_per_page": 5.57,
+  "model": "Qwen3 8B (local, Ollama)",
+  "neighbors": 5
+ },
+ "final_test": {
+  "pages": 150,
+  "cutoff": 0.55,
+  "target": 0.9,
+  "scores": {
+   "macro_f1": {
+    "value": 0.601,
+    "low": 0.506,
+    "high": 0.679
+   },
+   "accuracy": {
+    "value": 0.633,
+    "low": 0.56,
+    "high": 0.707
+   },
+   "auto_share": {
+    "value": 0.413,
+    "low": 0.34,
+    "high": 0.487
+   },
+   "auto_accuracy": {
+    "value": 0.871,
+    "low": 0.781,
+    "high": 0.944
+   },
+   "pipeline_accuracy": {
+    "value": 0.72,
+    "low": 0.647,
+    "high": 0.787
+   },
+   "tfidf_macro_f1": {
+    "value": 0.603,
+    "low": 0.507,
+    "high": 0.682
+   }
+  },
+  "auto_filed": 62,
+  "auto_correct": 54,
+  "per_department": [
+   {
+    "department": "AFF",
+    "pages": 31,
+    "f1": 0.49,
+    "ci_low": 0.3,
+    "ci_high": 0.646
+   },
+   {
+    "department": "FIN",
+    "pages": 13,
+    "f1": 0.48,
+    "ci_low": 0.211,
+    "ci_high": 0.696
+   },
+   {
+    "department": "LEG",
+    "pages": 20,
+    "f1": 0.542,
+    "ci_low": 0.343,
+    "ci_high": 0.696
+   },
+   {
+    "department": "MKT",
+    "pages": 47,
+    "f1": 0.739,
+    "ci_low": 0.629,
+    "ci_high": 0.835
+   },
+   {
+    "department": "QSH",
+    "pages": 12,
+    "f1": 0.636,
+    "ci_low": 0.348,
+    "ci_high": 0.848
+   },
+   {
+    "department": "RND",
+    "pages": 27,
+    "f1": 0.719,
+    "ci_low": 0.577,
+    "ci_high": 0.835
+   }
+  ],
+  "rag": {
+   "review_pages": 88,
+   "classifier_top1": 0.466,
+   "rag_top1": 0.614,
+   "classifier_top2": 0.784,
+   "rag_top2": 0.875,
+   "only_rag": 18,
+   "only_classifier": 5,
+   "p": 0.0106
+  },
+  "certainty": [
+   {
+    "certainty": "sure",
+    "pages": 116,
+    "accuracy": 0.681
+   },
+   {
+    "certainty": "unsure",
+    "pages": 34,
+    "accuracy": 0.471
+   }
+  ],
+  "curve": [
+   {
+    "threshold": 0.3,
+    "auto_filed": 145,
+    "coverage": 0.967,
+    "accuracy_auto_filed": 0.655
+   },
+   {
+    "threshold": 0.35,
+    "auto_filed": 139,
+    "coverage": 0.927,
+    "accuracy_auto_filed": 0.662
+   },
+   {
+    "threshold": 0.4,
+    "auto_filed": 124,
+    "coverage": 0.827,
+    "accuracy_auto_filed": 0.694
+   },
+   {
+    "threshold": 0.45,
+    "auto_filed": 110,
+    "coverage": 0.733,
+    "accuracy_auto_filed": 0.745
+   },
+   {
+    "threshold": 0.5,
+    "auto_filed": 90,
+    "coverage": 0.6,
+    "accuracy_auto_filed": 0.789
+   },
+   {
+    "threshold": 0.55,
+    "auto_filed": 62,
+    "coverage": 0.413,
+    "accuracy_auto_filed": 0.871
+   },
+   {
+    "threshold": 0.6,
+    "auto_filed": 49,
+    "coverage": 0.327,
+    "accuracy_auto_filed": 0.959
+   },
+   {
+    "threshold": 0.65,
+    "auto_filed": 38,
+    "coverage": 0.253,
+    "accuracy_auto_filed": 0.974
+   },
+   {
+    "threshold": 0.7,
+    "auto_filed": 21,
+    "coverage": 0.14,
+    "accuracy_auto_filed": 1.0
+   },
+   {
+    "threshold": 0.75,
+    "auto_filed": 11,
+    "coverage": 0.073,
+    "accuracy_auto_filed": 1.0
+   },
+   {
+    "threshold": 0.8,
+    "auto_filed": 4,
+    "coverage": 0.027,
+    "accuracy_auto_filed": 1.0
+   },
+   {
+    "threshold": 0.85,
+    "auto_filed": 0,
+    "coverage": 0.0,
+    "accuracy_auto_filed": null
+   },
+   {
+    "threshold": 0.9,
+    "auto_filed": 0,
+    "coverage": 0.0,
+    "accuracy_auto_filed": null
+   }
+  ],
+  "excluded": {
+   "pages": 4,
+   "to_a_person": 4,
+   "by_token_rule": 3
+  },
+  "units": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "confidence_quartiles": [
+   0.444,
+   0.518,
+   0.649
+  ],
+  "labels_as_of": "Nov 12, 2026",
+  "record_type_depth": {
+   "pages": 150,
+   "department": 0.733,
+   "series": 0.527,
+   "record_type": 0.393,
+   "record_type_or_also_fits": 0.553
+  },
+  "under_20_tokens": {
+   "pages": 8,
+   "of": 154,
+   "valid": 5,
+   "excluded": 3
+  },
+  "thin_auto_filed": {
+   "max_tokens": 60,
+   "pages": 2,
+   "shortest": 28,
+   "wrong": 1
+  }
+ },
+ "scale_run": {
+  "pages": 1000,
+  "auto_filed": 428,
+  "to_a_person": 572,
+  "reasons": {
+   "below cutoff": 524,
+   "under 20 tokens": 41,
+   "no readable text": 7
+  },
+  "projected_wrong": {
+   "value": 55.2,
+   "low": 24.0,
+   "high": 93.7
+  },
+  "rag_agrees": 0.736,
+  "timing": [
+   {
+    "stage": "OCR, PaddleOCR (every page)",
+    "seconds": 0.971
+   },
+   {
+    "stage": "OCR, vision model (hard pages only, spread over all)",
+    "seconds": 0.214
+   },
+   {
+    "stage": "Embedding",
+    "seconds": 0.039
+   },
+   {
+    "stage": "Classifier and routing",
+    "seconds": 0.0
+   },
+   {
+    "stage": "RAG suggestion (pages to a person only, spread over all)",
+    "seconds": 3.086
+   }
+  ],
+  "departments": [
+   {
+    "department": "AFF",
+    "training_share": 0.176,
+    "predicted_share_all": 0.12,
+    "auto_filed_pages": 32,
+    "rag_suggested_share": 0.157
+   },
+   {
+    "department": "FIN",
+    "training_share": 0.084,
+    "predicted_share_all": 0.062,
+    "auto_filed_pages": 18,
+    "rag_suggested_share": 0.072
+   },
+   {
+    "department": "LEG",
+    "training_share": 0.18,
+    "predicted_share_all": 0.191,
+    "auto_filed_pages": 64,
+    "rag_suggested_share": 0.175
+   },
+   {
+    "department": "MKT",
+    "training_share": 0.26,
+    "predicted_share_all": 0.3,
+    "auto_filed_pages": 136,
+    "rag_suggested_share": 0.29
+   },
+   {
+    "department": "QSH",
+    "training_share": 0.08,
+    "predicted_share_all": 0.07,
+    "auto_filed_pages": 30,
+    "rag_suggested_share": 0.121
+   },
+   {
+    "department": "RND",
+    "training_share": 0.22,
+    "predicted_share_all": 0.257,
+    "auto_filed_pages": 148,
+    "rag_suggested_share": 0.185
+   }
+  ],
+  "spotcheck": {
+   "checked": 19,
+   "agree": 16,
+   "excluded": 1
+  },
+  "confidence_quartiles": [
+   0.429,
+   0.528,
+   0.653
+  ]
+ },
+ "archive_check": {
+  "rounds": [
+   {
+    "answerable": 14,
+    "cited": 13,
+    "out_of_archive": 3,
+    "declined": 3,
+    "median_seconds": 18.0
+   },
+   {
+    "answerable": 14,
+    "cited": 12,
+    "out_of_archive": 1,
+    "declined": 1,
+    "median_seconds": 18.8
+   }
+  ],
+  "answerable": 28,
+  "cited": 25,
+  "out_of_archive": 4,
+  "declined": 4,
+  "support": {
+   "fully": 19,
+   "partly": 6,
+   "not": 2,
+   "declined": 1
+  }
+ },
+ "app_archive": {
+  "records": 761,
+  "departments": 7
+ },
+ "decisions": [
+  {
+   "id": "D-13",
+   "date": "Nov 2",
+   "decision": "Classify from the record keeper's perspective",
+   "why": "The same page can belong to different departments in different organizations.",
+   "stage": "labels"
+  },
+  {
+   "id": "D-15",
+   "date": "Nov 2",
+   "decision": "Five-fold cross-validation",
+   "why": "Too few labels per department for a fixed test set.",
+   "stage": "classifier"
+  },
+  {
+   "id": "D-16",
+   "date": "Nov 5",
+   "decision": "Build the categories from Philip Morris's departments",
+   "why": "Ground the labels in how the client filed its records.",
+   "stage": "labels"
+  },
+  {
+   "id": "D-27",
+   "date": "Nov 5",
+   "decision": "Score at the department level",
+   "why": "Measure whether a record reaches the right office of record. For model scoring, Administration is merged into Legal; the charts of manual labels keep the original departments.",
+   "stage": "classifier"
+  },
+  {
+   "id": "D-29",
+   "date": "Nov 6",
+   "decision": "Run OCR on every pilot page",
+   "why": "Embeddings and scan-quality tests need text for every page.",
+   "stage": "ocr"
+  },
+  {
+   "id": "D-30",
+   "date": "Nov 6",
+   "decision": "Fix page rotation by keeping the more confident reading",
+   "why": "The orientation check alone turned 18% of pages the wrong way.",
+   "stage": "ocr"
+  },
+  {
+   "id": "D-32",
+   "date": "Nov 6",
+   "decision": "Restrict sampling to Philip Morris records",
+   "why": "The benchmark pilot mixed several companies; the taxonomy is Philip Morris's.",
+   "stage": "sample"
+  },
+  {
+   "id": "D-33",
+   "date": "Nov 6",
+   "decision": "Freeze taxonomy v3: 8 departments, 55 record types",
+   "why": "Capture the finest detail at labeling; types can be merged later.",
+   "stage": "labels"
+  },
+  {
+   "id": "D-35",
+   "date": "Nov 6",
+   "decision": "Raise the target to 250 if a department projects under 15",
+   "why": "Class balance decides the label count, declared in advance.",
+   "stage": "labels"
+  },
+  {
+   "id": "D-37",
+   "date": "Nov 6",
+   "decision": "Keep Bates numbers and archive metadata out of the models",
+   "why": "They can reveal the department and inflate scores.",
+   "stage": "classifier"
+  },
+  {
+   "id": "D-38",
+   "date": "Nov 7",
+   "decision": "Label to 250 after the 50-label checkpoint",
+   "why": "Quality, Finance and HR projected under 15 at 200; their handling is decided by counts at the end of labeling.",
+   "stage": "labels"
+  },
+  {
+   "id": "D-39",
+   "date": "Nov 7",
+   "decision": "Human resources out of scope for this project",
+   "why": "Only 2 of the 262 reviewed documents belonged to it, too few to model; both were excluded with a recorded reason.",
+   "stage": "labels"
+  },
+  {
+   "id": "D-40",
+   "date": "Nov 7",
+   "decision": "Leave out pages that failed to download",
+   "why": "Two documents in the labeled range returned a web page instead of the scan, so they were never seen. They are recorded as not retrieved, not as reviewed or excluded.",
+   "stage": "labels"
+  },
+  {
+   "id": "D-41",
+   "date": "Nov 7",
+   "decision": "Train and validate on the 250 labels; test on fresh pages",
+   "why": "Five-fold cross-validation on the labels; 1,000 new documents are filed by the finished model, and a blind-labeled set of them forms the final test (size set by D-48).",
+   "stage": "final"
+  },
+  {
+   "id": "D-42",
+   "date": "Nov 7",
+   "decision": "Establish a pool of 400 pages for labeling",
+   "why": "Three downloads failed, so three replacements were drawn; the 1,000-document scale batch follows them.",
+   "stage": "sample"
+  },
+  {
+   "id": "D-43",
+   "date": "Nov 8",
+   "decision": "Keep the original PDFs and every archive field",
+   "why": "The first download kept only a reduced image of each first page. All documents were fetched again by ID; the original record is kept and working images are made from it.",
+   "stage": "sample"
+  },
+  {
+   "id": "D-44",
+   "date": "Nov 8",
+   "decision": "Compare five text sources (four OCR runs and the archive's own text layer) before building the classifier",
+   "why": "The project depends on reading the pages well, and the first engine had been a default nobody compared.",
+   "stage": "ocr"
+  },
+  {
+   "id": "D-45",
+   "date": "Nov 8",
+   "decision": "Group pages by scan quality from the image alone",
+   "why": "Different scan problems need different fixes; the groups were found before any OCR ran.",
+   "stage": "ocr"
+  },
+  {
+   "id": "D-46",
+   "date": "Nov 8",
+   "decision": "Keep the file number in the OCR text, but not in what the classifier reads",
+   "why": "Reading the file number is a real records capability; letting the model use a litigation stamp to decide the department would be a shortcut.",
+   "stage": "ocr"
+  },
+  {
+   "id": "D-47",
+   "date": "Nov 8",
+   "decision": "Accept the sampling rules as they ran",
+   "why": "A code audit checked the draw: it was proportional to the archive, and the duplicate rule keeps every sampled document distinct.",
+   "stage": "sample"
+  },
+  {
+   "id": "D-48",
+   "date": "Nov 8",
+   "decision": "Final test of 150 blind labels",
+   "why": "A larger test gives a tighter estimate of how well the system files pages it has never seen.",
+   "stage": "final"
+  },
+  {
+   "id": "D-49",
+   "date": "Nov 8",
+   "decision": "Test OCR on 22 pages, at least 4 of each kind of scan",
+   "why": "A first check on mostly clean pages flattered one engine; every engine had to be judged on hard pages too.",
+   "stage": "ocr"
+  },
+  {
+   "id": "D-50",
+   "date": "Nov 8",
+   "decision": "Save the position of every word read",
+   "why": "The layout question needs to know where words sit on the page.",
+   "stage": "ocr"
+  },
+  {
+   "id": "D-51",
+   "date": "Nov 9",
+   "decision": "Treat the archive's own text as a reference, not a candidate",
+   "why": "A client's new scans would not come with an archive's text layer, so it shows whether local OCR is worth running but cannot be chosen.",
+   "stage": "ocr"
+  },
+  {
+   "id": "D-52",
+   "date": "Nov 9",
+   "decision": "PaddleOCR is the reading engine",
+   "why": "Chosen by the winning rule set before results: it found the most words correctly on forms with known text, and it is the only top engine that also gives each word's position and a confidence score, at under a second per page.",
+   "stage": "ocr"
+  },
+  {
+   "id": "D-53",
+   "date": "Nov 9",
+   "decision": "Choose the text the classifier reads by how well it files",
+   "why": "Each engine is strongest on different pages, so four versions of the text are compared on filing accuracy and the best one is used.",
+   "stage": "classifier"
+  },
+  {
+   "id": "D-54",
+   "date": "Nov 10",
+   "decision": "Classify each document from its first page",
+   "why": "It matches how every labeled page was judged, from the first page only; whole-document classification is future work.",
+   "stage": "classifier"
+  },
+  {
+   "id": "D-55",
+   "date": "Nov 12",
+   "decision": "Re-fetch the archive's metadata, every field under its own name",
+   "why": "The first download shifted values into the wrong columns (e.g. box); found before any result used it.",
+   "stage": "sample"
+  },
+  {
+   "id": "D-56",
+   "date": "Nov 12",
+   "decision": "Fix the five folds once: departments balanced, archive boxes kept together",
+   "why": "Every model is scored on the same split, and a page is never tested against a near-copy from its own box.",
+   "stage": "classifier"
+  },
+  {
+   "id": "D-57",
+   "date": "Nov 12",
+   "decision": "The classifier reads the hybrid text",
+   "why": "It scored highest by the rule set in advance, effectively tied with PaddleOCR alone.",
+   "stage": "classifier"
+  },
+  {
+   "id": "D-58",
+   "date": "Nov 12",
+   "decision": "File automatically only at 90% expected accuracy",
+   "why": "A records standard set before any routing result; the cutoff is chosen on training folds only.",
+   "stage": "routing"
+  },
+  {
+   "id": "D-59",
+   "date": "Nov 12",
+   "decision": "Represent each page by its meaning with a local embedding model",
+   "why": "Word counts missed pages whose purpose differs from their topic; meaning raised macro F1 from 0.56 to 0.68.",
+   "stage": "classifier"
+  },
+  {
+   "id": "D-60",
+   "date": "Nov 12",
+   "decision": "Review suggestions come from a small local language model (Qwen3 8B)",
+   "why": "It runs on the same PC, so pages never leave the machine; one model is kept frozen for the evaluation.",
+   "stage": "routing"
+  },
+  {
+   "id": "D-61",
+   "date": "Nov 12",
+   "decision": "Judge the suggestion against the classifier's own first choice, with and without its hints",
+   "why": "A rule set before results: the suggestion must be right more often than the classifier on the pages a person reviews.",
+   "stage": "routing"
+  },
+  {
+   "id": "D-62",
+   "date": "Nov 12",
+   "decision": "Freeze the whole pipeline before the final test",
+   "why": "Every setting was written down before a single test page was predicted, including the 0.55 cutoff (chosen on the pooled cross-validated predictions), so the final numbers could not be tuned to the test.",
+   "stage": "final"
+  },
+  {
+   "id": "D-63",
+   "date": "Nov 12",
+   "decision": "Score the 150 held-back pages once and report what fell short",
+   "why": "Auto-filing reached 87% against a 90% target, and meaning tied word counts on new pages; both are findings, and nothing was changed after scoring.",
+   "stage": "final"
+  },
+  {
+   "id": "D-64",
+   "date": "Nov 12",
+   "decision": "Run the frozen pipeline on 1,000 new pages",
+   "why": "Answers the client's practical question: how much is filed alone, how much reaches a person, and how long it takes.",
+   "stage": "final"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+x1	y1	x2	y2	conf	text
+196.0	175.0	908.0	210.0	97.9	INBiFO Institut für biologische Forschung : Köln
+203.0	219.0	715.0	248.0	98.6	30.KW 91 KHOMWO \QA\EINSTUF.WM
+202.0	334.0	1163.0	384.0	99.5	EINSTUFUNG (1,2)/ÄNDERUNG DER EINSTUFUNG (3)
+206.0	473.0	488.0	513.0	99.7	Die geplante Prüfung
+210.0	833.0	523.0	864.0	96.7	Projekt-Nr. P ......./...
+210.0	908.0	1492.0	945.0	99.1	(1) - ist ohne Einschränkung nach den Grundsätzen der Guten Laborpraxis (GLP) gemäß dem
+305.0	948.0	1493.0	983.0	99.5	Gesetz zum Schutz vor gefährlichen Stoffen vom 14.Mrz.1990, Sechster Abschnitt, Gute
+304.0	987.0	810.0	1027.0	99.9	Laborpraxis, § 19a, durchzuführen (a).
+210.0	1063.0	1494.0	1102.0	99.2	(2) - braucht nicht nach (1) durchgeführt zu werden, d. h. es kann überall da, wo die Einhaltung
+304.0	1104.0	1492.0	1141.0	99.8	der formalen GLP-Bedingungen zu nicht gerechtfertigter Erschwerung der Arbeiten führt,
+305.0	1142.0	1129.0	1179.0	99.3	auf deren Einhaltung ganz oder teilweise verzichtet werden (a).
+212.0	1222.0	653.0	1258.0	99.9	(3) - die nach Einstufung vom.
+779.0	1219.0	1494.0	1259.0	98.2	..... gemäß (1) durchgeführt werden sollte, wird nach
+307.0	1262.0	605.0	1299.0	100.0	(2) herabgestuft (a)(b).
+211.0	1341.0	1119.0	1379.0	99.9	Bemerkung, besondere Anweisungen des Leiters der Prüfeinrichtung:
+209.0	1653.0	304.0	1688.0	99.9	Datum
+796.0	1655.0	890.0	1687.0	100.0	Datum
+1519.0	1676.0	1573.0	1879.0	100.0	2082112955
+210.0	1729.0	282.0	1766.0	99.9	PKZ
+438.0	1729.0	493.0	1764.0	99.9	ZN
+797.0	1731.0	868.0	1765.0	100.0	PKZ
+1026.0	1729.0	1080.0	1764.0	99.1	ZN
+211.0	1770.0	555.0	1807.0	99.4	Leiter der Prüfeinrichtung
+798.0	1772.0	925.0	1803.0	100.0	Prüfleiter
+214.0	1891.0	453.0	1925.0	97.8	Verteiler: SD, QA
+214.0	1987.0	681.0	2023.0	98.5	(2) Falls nicht zutreffend streichen!
+212.0	2013.0	1504.0	2056.0	99.8	(b) Die Anderung der Einstufung einer Prüfung, die ohne Einschränkung nach den Grundsätzen der
+265.0	2045.0	1505.0	2086.0	99.8	Guten Laborpraxis durchgeführt werden sollte, in eine Einstufung der Prüfung, wonach diese
+264.0	2075.0	1503.0	2117.0	99.0	mit Einschränkung nach den Grundsätzen der Guten Laborpraxis durchgeführt werden darf,
+266.0	2111.0	529.0	2145.0	96.7	heißt Herabstufung.
+205.0	2173.0	253.0	2196.0	57.8	C5>0
+377.0	2244.0	1348.0	2284.0	64.0	So06

@@ -1,0 +1,27 @@
+Procedure 2-29 A&B Worksheet
+
+DATE 10 Dec 92
+TECHNICIAN M. WOMACK
+
+TOTAL SUSPENDED SOLIDS, ppm
+TOTAL SOLIDS, ppm
+% VOLATILE SOLIDS
+
+Footnotes:
+1. Also known as VSS (volatile suspended solids).
+2. Crucible weights only as applicable, may not be necessary with microwave.
+3. Filter is not used with the Total Solids.
+4. Find effluent composite does not use the microwave.
+
+SAMPLE 3. TIME (S) SAMPLE VOLUME ML or HEIGHT. gm. (A) HEIGHT OF FILTER (& CRUCIBLE) + DRED RESIDUE gm. (B) HEIGHT OF FILTER (& CRUCIBLE) gm. 2. TSS (TOTAL SUSPENDED SOLIDS) 6 (A-B) x 10 ppm (S) (C) HEIGHT OF FILTER (& CRUCIBLE) + ASHED 2. SAMPLE gm. TOTAL SOLIDS 2 6 (A-B) x 10 ppm (S) % VOLATILES 6 $\frac{(A-C) \times 10}{(S)} \times 100$ TSS
+
+Eff 1 1105 500 87.7058 87.6985 14.6 14.8
+
+2 500 79.3706 79.3631 15.0
+
+Blunk — 24.4411 24.4411 6
+
+Dec 100 26.2712 26.2690 22
+
+Confidential
+Phip Morris v. ABC

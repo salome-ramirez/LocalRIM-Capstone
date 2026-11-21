@@ -1,0 +1,200 @@
+RL PROCESS SYSTEMS IMPROVEMENT TEAM
+CONTROL & IMPROVEMENT PLAN
+Revision Date : 6/29/94
+SraRr ~ IG
+I
+;I
+~ 6 .
+t
+N ~I~ ~i~ll
+II!
+~ 7
+u
+a
+II ,
+l
+~ I
+ti
+~
+Illu ' II~V~ I, IIHI, ~~I
+I
+I f
+H~ 6
+~l
+l
+l
+l
+l~~
+1 i~ll ,,, i
+i
+! ~
+III~, I
+~
+~ I~
+l i
+~ I~ II ~I
+lifl t
+I
+I
+~
+S TA7U£ ,
+.,
+1 h I~ui~ ,
+.
+N4 ;
+,,
+,,,, . ,,,
+DATE i PR06LEM
+!
+,
+f
+- i III !!~ u,
+I u
+,
+1
+,
+!
+,
+,
+,
+if
+,
+l
+.rl
+Il,l
+f
+;
+h,,
+,
+. ,
+,
+!!
+I~AATES u,,, i :,
+I'E
+',
+INFO
+J
+28a
+4/90 We frequently shut the RL
+TQM - Downtime, Efficiency,
+Install a continuous doctor
+V . Loving
+L. Murphy (SIT)
+LI - 10/93
+On scheduled - to be
+process down to change
+Total Good Production
+blade (7,900 lbs per day) .
+J. Brown
+R. Garg (TL)
+LII - 10/93
+completed by 7/94
+doctor blades .
+LIII - Complete
+42
+5/12/ Some of the product which
+Product solubles P-charts for
+Reduce product solublas variation
+C. Burke
+D . Jenkins
+P -
+91
+we ship to our customers
+predicted out of specification .
+so that 1) predicted product out of
+J. Dillon
+(SIT/TL)
+D-
+On hold until yield team mak
+may exceed the specification
+P-Bar UCLp
+speo for percent eolublee is con-
+C . Milton
+C -
+recommendatiori
+limit we have agree to
+LI 0.56 2.76
+sistently < 1 .0% (UCLp) and 2)
+J . Johnston
+A -
+meet .
+LII 0.71 3 .18
+within week standard deviation of
+P. Warkmeister
+LIII 1 .45 4 .36
+solubles measurements is consist-
+(R)
+Note : Need to Recycle throu gh
+ently < 1 .0% sol. (UCLs) .
+PDCA .
+44
+11/91 Excessive sand in the stock
+-Sheet breaks caused by sand
+Reduce LI machine downtime
+J . Lusk
+A.V .A. (SIT)
+P - 8/92
+LI Complete.
+chest to the headbox
+streaks .
+due to sand occurrences by 95% .
+L. Pullano
+R . Garg (TL)
+D- 5/93
+MOE to SIT 6/1
+,. T. .
+causes machine downtime
+-Sand build up In headbox, SBW
+V . Loving (R)
+LI LII
+LII on target
+and limits machine speed .
+tank, couch pit .
+Potential 470,000/yr savings .
+J . Dock (R)
+C 5/94 11 /94
+-SBW cleaner pluggage .
+A 6/94 12/94
+TQM - Downtime
+54
+8/19/ The current variation of
+Previous problem solving teams
+Reduce the amount of variation in
+R. Garg
+AVA (SIT)
+Final phase of
+MOE being developed .
+92
+stock consistency to the
+and operator expertise have
+Stock Consistency to the Machine
+J. Simpson
+A. Tudor (TL)
+installation 4I94.
+Report back to SIT 7/13/94
+Primary refiners is too great,
+identified that the variation
+Chest by 50% (as measured by Lab
+K . Moring
+resulting in variation of
+consistency has the greatest
+Consistency Test)
+D. Martz
+refined stock that is greater
+impact on Inconsistent refining .
+Currently: 1 Sigma = .22
+F. McFee
+Close out August, 199 4 .
+then desired by Park 500 .
+They have also Identified that
+Objective : 1 Sigma ~ .11
+B. Shope
+the greatest variation in
+Objective agreed to is for L-3 only.
+consistency occurs before the
+TQM impacted : base web wt
+Primary refiners In Stock Prep .
+variability and finished sheet ov
+variability.
+Potential 820 000/ ear savin s .
+^" 14TC+ESC.iOC, blslaohomeit.xle\page 1

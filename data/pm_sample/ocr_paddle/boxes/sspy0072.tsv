@@ -1,0 +1,48 @@
+x1	y1	x2	y2	conf	text
+567.0	613.0	933.0	640.0	97.8	*PREPRINT EXTENDED ABSTRACT
+473.0	634.0	1047.0	666.0	99.7	Presented Before the Division of Environmental Chemistry
+579.0	658.0	855.0	683.0	99.9	American Chemical Society
+546.0	679.0	916.0	705.0	94.9	San Francisco CA Apnl 5-10, 1992
+575.0	721.0	927.0	743.0	99.9	INTER-LABORATORY STUDY OF
+488.0	740.0	1016.0	766.0	97.3	ENVIRONMENTAL LABORATORY DATA QUALITY
+341.0	784.0	1167.0	810.0	95.2	David E. Kimbrough, Public Health Chemist Il, Janice R. Wakakuwa, Supervtsing Chemist, Southem
+341.0	807.0	1165.0	831.0	96.4	Callfomia Laboratory, Calilomia Department ot Health Services, 1449 W. Temple St. Room 101, Los
+343.0	829.0	550.0	850.0	94.7	Angeles, CA 90026-5590
+342.0	871.0	451.0	892.0	99.3	Introduction
+407.0	910.0	1168.0	937.0	99.2	Environmental epidemiological decision making is based on laboratory data supplied by
+342.0	933.0	1167.0	958.0	97.9	commencial and govemment environmental laboratories. Environmental analytical chemistry is an
+343.0	953.0	1166.0	980.0	96.6	especially difficult field because of the wide variety of matrtx types and complexity of many sample
+342.0	975.0	1167.0	1000.0	99.0	matrices. This is compounded by the newness and state of flux of the methodology. Laboratory
+342.0	996.0	1166.0	1022.0	96.4	"capabilitlas range from small ""mom and pop"" laboratoriès to ""chain"" laboratorles with larga"
+343.0	1017.0	1007.0	1042.0	97.2	operatdons in many states. The range of technology and skill Is just as extensive.
+407.0	1058.0	1168.0	1083.0	94.9	There is relatively little data to evatuate the quaßity of these laboratories' performance. The
+342.0	1078.0	1168.0	1104.0	99.3	EPA's Water Supply (WS) and Water Pollution (WP) performance evaluation (PE) samples are useful
+342.0	1099.0	1168.0	1126.0	99.1	for laboratories that analyze water samples, but not much else. Water is a very simple sample type
+342.0	1121.0	1167.0	1145.0	98.1	with few Interferences or matrix effects. In contrast, industrial wastes, soils, and other complex
+343.0	1144.0	1165.0	1166.0	97.8	sample types require extensive sample preparation techniques and suffer from numerous inter-
+344.0	1166.0	608.0	1186.0	97.9	analyte and matrix Interferences.
+408.0	1206.0	1168.0	1230.0	97.7	As part of its mancate to monitor and to improve environmental taboratory performance the
+342.0	1226.0	1168.0	1252.0	96.4	Environmental Laboratory Accreditation Program (ELAP). woriing with the Southem Californla
+343.0	1249.0	1164.0	1272.0	98.0	Laboratory (SCL), distributed two sets of solid matrix PE samples to 199 accredited laboratorles.
+343.0	1269.0	1166.0	1294.0	98.3	both govemmental aad private. This data offers the first glimpse into environmental laboratory data
+342.0	1291.0	407.0	1316.0	85.8	quaßty.
+338.0	1328.0	463.0	1357.0	99.9	Experimental
+411.0	1374.0	1167.0	1398.0	95.9	1) PE Sample Preparation. A large quantity of soßl was collected. It was sieved, mided,
+343.0	1395.0	1166.0	1419.0	97.7	homogenized, and analyzed for arsenic, cadmium, molybdenum, selenlum, thallum, and Arocior
+344.0	1417.0	1166.0	1439.0	99.1	1260. There was less than 1.0 mg/kg of the five elements and less than 0.1 mg/kg of Aroclor 1260.
+343.0	1436.0	1168.0	1462.0	96.9	The soll was divided up Into 10 batches. Five batches were spiked with water soluble salts of the five
+343.0	1458.0	1169.0	1483.0	97.2	elements at a number of dillerent concentrations. The other five batches were autoclaved and four
+343.0	1479.0	1168.0	1504.0	95.5	batches were spilked with differing amounta of Arocior 1260 (see Table i). The samples were then re-
+343.0	1501.0	1168.0	1526.0	98.7	dried, re-milled, re-sieved, and packaged (for a more complete description of sample preparation
+344.0	1522.0	491.0	1546.0	97.1	see reference (1))
+408.0	1561.0	1166.0	1587.0	96.6	2) PE Sample Validation. The elemental PE samples were anatyzad In septuplicate at SCL
+343.0	1583.0	1169.0	1608.0	96.9	The PC8 samples were analyzed in duplicate. When these measuraments matched the spiked
+344.0	1606.0	1167.0	1628.0	97.5	values, they were sent out to 30 govemment alfillated taboratories in the U.S. and Canada (these wil
+344.0	1627.0	673.0	1649.0	95.6	be referred to as reference laboratories).
+408.0	1666.0	1169.0	1691.0	99.4	3) PE Sample Distribution. There were 199 laboratories accredited to ELAP for either the
+343.0	1687.0	1170.0	1713.0	98.3	five elements or PcBs (these wil be relerred to as the accredited laboratories). Each was sent at
+343.0	1707.0	1169.0	1732.0	95.8	least one complete set of tve elementai or PCB PE samples. Each turmed in onty the final results
+344.0	1729.0	1169.0	1751.0	98.5	and analytical procedures. A random selection of 10% of the PCB laboratories were sent a
+344.0	1750.0	924.0	1774.0	98.3	supplemental report with more detail questions about PC3 procedures.
+741.0	1880.0	786.0	1902.0	99.7	841
+1478.0	1890.0	1544.0	2132.0	100.0	2025808054

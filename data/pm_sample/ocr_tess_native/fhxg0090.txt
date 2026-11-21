@@ -1,0 +1,100 @@
+Handsheets from the University of Maine
+CIGTCODE —— PAPER DESCRIPTION
+H1385 XHVA-SA
+H1386 XHVA-5SB
+H1387 XHVA-SC
+H1388 XHVA-6B
+H1389 XHUZ-4A
+H1390 XHUZ-4B
+H1391 XHUZ-4C:
+H1392 XHUZ-3A
+gmt
+45.0
+45.0
+45.0
+45.0
+45.0
+45.0
+45.0
+45.0
+POROSITY SIZING CATION
+17.5
+15.2
+14.9
+14.6.
+82
+8.8
+69
+8.6
+8.0% K, Succ 32
+7.3% K, Cit 2.8
+12:7% KH Mal 3.5
+10.4% 7:3 KC:CA 2.8
+5.0% K, Succ 2.0
+6.8% K, Cit 2.6
+12:0% KH Mal 3.3
+10.1% 7:3 KC:CA 2.7
+CIGTCODE ATT SBT
+H1385
+H1386
+H1387
+H1388
+H1389
+H1390
+H1391
+H1392
+47
+42
+39
+38
+31
+31
+28
+34!
+6.9
+TA
+7.6
+77
+9.6
+8.6
+99
+8.7
+EC
+0.63:
+0.54
+0.50
+0.48:
+0.37
+0.37.
+0.33,
+0.42
+4.35
+3.83
+3.80
+3.70
+3.55:
+3.18.
+3.27
+3:65
+* Ash Appearance Descriptors (Subjective evaluations):
+A, Adhesion [1 = excellent: cling; 5. =no-cling}
+Cc, Color
+[1 = white;. 5:= black]
+F, Fall Off [1 =noash falls off; 5 = all ash falls off]
+{1 = perfectly. solid; 5 = large flakes]
+8, Solidity
+PAPER COMPOSITION:
+8:7 1,4,1,2
+22 1,3,1,3:
+28 1,3,1,3:
+30 1,3,1,3:
+46 1,3,2,3:
+46 1,3,2,3:
+52 1,3,1,3.
+39 2,3,2,3:
+9vb4Z0DZOZ
+XHVA Series: Nominally 15% 8934-186A Eitelite and 15% Albacar Calcium Carbonate. Analyses
+showed that the targets. were significantly. missed: 8.7 to:9.1 % eitelite and 10.2 to 11.7% CaCO,
+being found.
+XHUZ Series: Nominally 15% 8934-+166A Eitelite and 15% Baymag Magnesite P90-709: Analyses |
+were consistent with eitelite levels of 8.7 to 9:9% and magnesite levels of 7.4 to 7.9%.

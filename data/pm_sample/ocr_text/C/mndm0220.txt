@@ -1,0 +1,38 @@
+Research
+Abstract
+roject Title: AP-1 signaling in cardiomyocyte hypertrophy and apoptosis
+nvestigator(s): Prof. Dr. Dr. H. M. Piper (PI), Dr. G. Taimor (CoPI)
+ustitution: Physiological Institute, Justus-Liebig-University, Giessen
+Abstract: In the space below, please provide a destríptive summary of your proposed research project.
+The pathogenesis of heart failure is still only poorly understood. The transition from compensated hypertrophy
+to failure is accompanied by a progressive apoptotic loss of cardiomyocytes. Interestingly, stimuli of
+hypertrophy as well as apoptosis șhare the AP-I signaling complex as a central regulatory element. AP-1 is a
+composite transcription factor, whose subunit composition and interaction with other transcription factors may
+vary. It can be hypothesized that under conditions favoring cardiac growth or apoptosis the composition of the
+AP-1 complex differs and, due to this difference, different AP-1 controlled pathways become activated.
+Variations in AP-1 transcription complexes may trigger the transition from hypertrophy to apoptosis in the
+myocardialcells.
+It is the cenral aim of this project to identify on the cellular level the different compositions of AP-1 complexes
+under hypertrophy and apoptosis inducing conditions. Isolated cardiomyocytes from adult rat are used as
+model. The a-adrenoceptor agonist phenylephrine and the NO-donor SNAP will be used as examplatory stimuli
+for induction of AP-1 mediated hypertrophy and apoptosis, respectively. The expression of AP-1 components,
+of interacting transcription factors, of target genes controlled by these specific AP-1 complexes and AP-1
+driven “doynstream” genes specific for one or the other kind of stimulus will be identified with suitable
+molecular techniques. The causal roles of transcription factors and other genes will be tested with use of decoy
+or antisense oligonucleotides. It will also be tested if adenoviral overexpression of identified pro-apoptotic AP-
+1 components or dependent genes can transform hypertrophic stimuli into apoptotic processes or if pro-
+hypertrophic genes protect the cells against apoptotic stimuli. Finally, the relevance of the results obtained in
+the cellular model will be evaluated in an established in vivo model of cardiac hypertrophy and failure, i.e. the
+SHR-sp rat. The expression of the previously identified transcription factors and other genes, related to
+hypertrophy or apoptosis, will be analyzed in these rats at the stages of compensated hypertrophy, transition to
+heart failure and at manifest failure. A provocation test performed on hearts isolated from these animals will
+functionally demonstrate their rlative propensity for apoptosis.
+In summary, the project is designed to analyze on the molecular level the role of AP-1 signaling as a central
+switch for induction of hypertrophy or apoptosis and heart failure.
+Pihor Sept.12, 2001
+Signature, Principal Investigator Date
+Philip Morris RESTRICTED 111
+F1 2001 Rescarch Focus Proprietary to Investigator
+PM3001372773
+3001372773
+3001372773

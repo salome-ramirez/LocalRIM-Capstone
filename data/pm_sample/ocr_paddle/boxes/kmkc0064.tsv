@@ -1,0 +1,31 @@
+x1	y1	x2	y2	conf	text
+193.0	225.0	690.0	255.0	97.6	39.KW 90 WRE/MWO LAUF_INB.WM
+198.0	433.0	967.0	472.0	99.9	Erläuterungen zum Laufzettel für Dokumente
+196.0	553.0	1149.0	589.0	99.3	(1) Dokumententyp auf dem Laufzettel eintragen (Report, Protocol, Application o. å.).
+195.0	612.0	1402.0	646.0	99.6	(2) Jede Weitergabe des Dokuments ist auf der Vorderseite durch Ausgangsdatum beim Weitergebenden und
+236.0	646.0	1083.0	673.0	99.0	Eingangsdatum beim Empfänger mit Datum und Zeichen zu dokumentieren.
+196.0	701.0	1315.0	735.0	99.6	(3) Die in der folgenden Tabelle aufgeführten Stationen sind für jedes Dokument in der angegebenen
+234.0	731.0	1362.0	762.0	99.1	Reihenfolge zu durchlaufen und auf der Vorderseitę des Laufzettels einzutragen. Treten geplante oder
+234.0	761.0	1402.0	791.0	100.0	unvorhergesehene Abweichungen auf, so müssen diese Abweichungen in der folgenden Tabelle vermerkt
+234.0	792.0	327.0	817.0	100.0	werden:
+275.0	913.0	399.0	941.0	100.0	STATION
+699.0	917.0	874.0	941.0	100.0	BEMERKUNG
+1127.0	915.0	1238.0	946.0	100.0	DATUM
+1304.0	915.0	1355.0	949.0	100.0	ZN
+275.0	991.0	451.0	1021.0	100.0	Freigabe Autor
+277.0	1070.0	623.0	1097.0	100.0	Freigabe SD bzw. Coordinator
+270.0	1142.0	365.0	1180.0	100.0	Editing
+272.0	1219.0	455.0	1257.0	100.0	DP-Meeting (a)
+274.0	1299.0	413.0	1330.0	100.0	GLP-Check
+275.0	1376.0	470.0	1407.0	100.0	Language-Check
+274.0	1453.0	534.0	1486.0	100.0	LR-Standards-Prüfung
+274.0	1530.0	426.0	1564.0	100.0	QA-Freigabe
+278.0	1611.0	609.0	1638.0	100.0	Approval GM oder Reviewer
+273.0	1685.0	364.0	1717.0	100.0	Binden
+274.0	1761.0	373.0	1792.0	100.0	Versand
+83.0	1822.0	142.0	2153.0	91.6	2 4. Sep. 1990  QA
+1496.0	1831.0	1551.0	2034.0	81.5	50853
+194.0	1895.0	1455.0	1933.0	59.5	 a nts
+232.0	1929.0	980.0	1958.0	62.3	ed e
+193.0	2135.0	1270.0	2169.0	47.1	(a   gt
+372.0	2244.0	1352.0	2281.0	69.4	So6

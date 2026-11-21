@@ -1,0 +1,159 @@
+to 
+o 
+cy> 
+a\ 
+o 
+ro 
+oo 
+Ballot Response 
+^Assign 
+229 
+# Panelist 
+334 
+#Seq 
+#? 
+dateResp Question Description 
+1 
+2 
+3 
+38 
+39 
+40 
+25, 
+26 
+42 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+41 
+1 
+2 
+5 
+6 
+52 
+53 
+56 
+57 
+54 
+58 
+59 
+61 
+62 
+60 
+65 
+67 
+63 
+64 
+75 
+47 
+JtRallnt 
+P 
+o 
+ft) P O 
+0^ pu H- hh 
+0 P-i H-a 
+(D 
+(n 
+ST^DF # 2 
+Parf# 3 
+7>/><? S 
+Item Id 
+Item Type Value - Int/Txt/ Vch 
+to 
+o 
+Did the consumer receive a 24 to 48 hour callback ? (Y/N) 
+What date/time did the consumer receive the 24-48 hour callback? 
+On the 24-48 hour call back, did the Interviewer reach the consumer 
+or leave a message ? (where 1 = reached consumer, 2 = left a 
+message, 3 = did not reach at all) 
+Did the consumer log any problems during the 24-48 hour callback 
+call ? (Y/N) 
+(If YES, then refer to the PROBLEMS section of the COC 
+Application) 
+Who made the callback call ? 
+Interviewer Name: 
+Scribe: 
+Interview Start Time: 
+Interview End Time: 
+Interview Date: (MM/DD/YY) 
+Date of Placement: 
+Did you get a chance to smoke Accord? (Y/N) 
+If No, then why didn-t you get a chance to smoke Accord? 
+How did it go? (How did the consumers home trial week go? e.g., 
+Likes & Dislikes) 
+If Yes, # smoked (about how many Accord cigarettes did you get a 
+chance to smoke?) 
+Where? In what situations? (did you get a chance to smoke Accord 
+cigarettes) 
+About how many of your own brand did you smoke? (during your 
+trial week with Accord) 
+When & where did you smoke your own cigarettes? 
+Was anyone else with you? How did they react? (when you smoked 
+the Accord cigarette. 
+Any questions or issues (about using accord)? 
+Owner~s guide - did you refer to it ? (where 1 = didn-t read, 2 = 
+read, 3 = helpful, 4 = not helpful) 
+Behavioral adjustments? (what are some of the things you adjusted 
+to while smoking accord & how did you adjust? 
+Discovered benefits (what are some of me things you discovered & 
+hrwxf riirf \jmi Hie/vw/arr Hiorn? 
+IRAC0036 
+U0002 
+CO 
+to 
+Why? (Why did the consumer give that particular "Overall Liking" 
+score?) 
+If the product came on the market tomorrow, how interested would 
+the consumer be in buying it ? 
+(where 1 = extremely dis-interested, 7 = extremely interested) 
+CANDACE ADAMS 
+KIM KAWA 
+12:10 P 
+12:40 P 
+01/07/98 
+92/10/97 
+9 
+0 
+DIKES : NOT HAVING TO SEARCH FOR MISPLACED LIGHTER & 
+MATCHES 
+DISLIKES : MORE SMOKE WITH REG. CIGT RATHER THAN 
+ACCORD 
+300 
+JHOUGHT GREAT IDEA - RESTAURANT, PARTIES, HOME, CAR 
+20 
+WOULD FORGETACCORD 
+INTERESTED, WANTED TO TRY 
+BOTICED THAT CIGARETTES TOOK MORE SPACE IN ASHTRAY 
+THAN CONVENTIONAL CIGT - WORRIED 
+3 
+WELL - GETTING USED TO IN FRONT OF OTHERS 
+EASY AROUND NON-SMOKERS 
+o 3 
+M i-i m 
+P fC fE tD 
+l-h rt O 
+MAINLY PUFFS 
+Wednesday, January 07,1998 
+# Panelist 
+334 
+Panelist Nam* 
+.>.s**i-r «'H^^w''wafl^!^* ji^«^'4*^ 
+i f-**MSt»*yf#frt»^«»ft"»*i 
+'mw&p'imwfrfr 
+Page 1 of 2 

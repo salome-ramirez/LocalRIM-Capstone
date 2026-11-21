@@ -1,0 +1,41 @@
+x1	y1	x2	y2	conf	text
+259.0	202.0	1397.0	235.0	98.8	**This report is confidential to the business of the company: it should
+259.0	234.0	1396.0	264.0	99.8	be carefully handled, is not transferable to another individual, and is
+257.0	259.0	649.0	299.0	97.0	not to be photocopied.**
+257.0	319.0	360.0	356.0	100.0	86-108
+739.0	353.0	981.0	383.0	99.0	POL REPORT 5162
+259.0	414.0	566.0	444.0	98.2	DATE: June 4, 1986
+260.0	474.0	614.0	505.0	98.6	POL TEST NUMBER: 5162
+259.0	534.0	1254.0	568.0	98.9	TITLE: Project Blue - Ginger Ale Menthol with K Blend 85mm vs
+261.0	566.0	952.0	599.0	98.3	Ginger Ale Menthol with Marlboro Blend 85mm
+259.0	623.0	662.0	657.0	98.6	TEST REQUESTER: J. Smith
+259.0	681.0	727.0	721.0	99.6	POL STUDY LEADER: M. Fleming
+260.0	742.0	631.0	779.0	99.4	PREPARED BY: D. Purvis
+261.0	806.0	1272.0	840.0	98.4	PURPOSE: To determine acceptability of Ginger Ale Menthol with
+260.0	838.0	1209.0	871.0	99.8	Marlboro Blend 85mm vs Ginger Ale Menthol with K Blend 85mm
+261.0	898.0	1032.0	932.0	98.2	PROCEDURE [BALLOT]: Sequentia] Monadic NV-60/SB
+262.0	958.0	537.0	990.0	98.7	SAMPLE SIZE: 318
+931.0	958.0	1176.0	990.0	100.0	% RETURNED: 78
+262.0	1019.0	485.0	1050.0	100.0	SMOKER GROUPS:
+710.0	1020.0	935.0	1051.0	100.0	Usable Returns
+261.0	1079.0	459.0	1113.0	100.0	Newport 85mm
+804.0	1077.0	858.0	1113.0	100.0	237
+260.0	1137.0	1352.0	1172.0	99.4	ANALYTICAL SUMMARY: The Ginger Ale Menthol with Marlboro Blend 85mm
+260.0	1168.0	1321.0	1203.0	99.4	cigarettes were different from the Ginger Ale Menthol with K Biend
+260.0	1199.0	1285.0	1234.0	100.0	85mm cigarettes in puff count, static burning time, ventilation,
+261.0	1229.0	1362.0	1264.0	98.3	total alkaloids and reducing sugars, tobacco weight, and rod density.
+261.0	1258.0	789.0	1297.0	100.0	Both cigarettes had cork tipping.
+263.0	1319.0	649.0	1353.0	98.4	CIGARETTES MADE: 2/7/86
+724.0	1316.0	1428.0	1356.0	99.9	CIGARETTES SHIPPED: (3 sequential mailings)
+1093.0	1352.0	1396.0	1383.0	99.6	2/10/86 mailing (1)
+1092.0	1380.0	1397.0	1415.0	97.8	3/14/86 mailing (2)
+1092.0	1409.0	1396.0	1447.0	98.0	4/14/86 mailing (3)
+261.0	1467.0	648.0	1503.0	98.5	CLOSE-OUT DATE: 4/29/86
+261.0	1528.0	1031.0	1563.0	99.6	RESULTS DISCUSSED WITH REQUESTER [DATE]: 5/8/86
+260.0	1588.0	1299.0	1624.0	99.6	COMMENTS: This test is part of the Project Blue Phase I testing.
+262.0	1618.0	969.0	1654.0	100.0	The results have been summarized in a memo.*
+262.0	1678.0	1361.0	1713.0	99.3	PLANS: The K Blend with Creme Flavoring will be tested against Kool,
+261.0	1709.0	1283.0	1744.0	100.0	Salem, and Newport among the respective smokers of those brands.
+1533.0	1731.0	1578.0	1976.0	100.0	2040064097
+260.0	1827.0	1186.0	1863.0	97.7	*Memo to Ms. J. Smith from M. Fleming, dated May 19, 1986,
+280.0	1859.0	758.0	1891.0	99.9	"""Project Blue Phase I Results"""

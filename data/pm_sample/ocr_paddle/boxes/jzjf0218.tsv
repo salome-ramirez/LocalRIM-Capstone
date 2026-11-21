@@ -1,0 +1,47 @@
+x1	y1	x2	y2	conf	text
+1429.0	319.0	2008.0	368.0	100.0	10. ACCORD QUESTIONS
+1309.0	453.0	2298.0	513.0	100.0	DRAFT ACCORD QUESTIONNAIRES
+1598.0	651.0	1836.0	710.0	100.0	Baseline
+569.0	771.0	2764.0	832.0	99.8	Thank you for your recent purchase of the Accord Electrically Heated Cigarette Smoking System.
+573.0	830.0	2647.0	882.0	99.4	Because Accord is a new cigarette and represents a new way to smoke, we are interested in
+572.0	883.0	2649.0	938.0	99.6	monitoring your experience with the product over time. You will be paid $5.00 for your time.
+575.0	1003.0	2352.0	1058.0	99.7	1. Did you read and understand the Consent Form when you enrolled in this study?
+654.0	1054.0	836.0	1112.0	100.0	Yes
+657.0	1110.0	1820.0	1165.0	99.2	No, (If no, read the consent form to the participant.)
+570.0	1227.0	1550.0	1289.0	98.0	2. Do you agree to participate in this survey?
+654.0	1284.0	836.0	1339.0	100.0	Yes
+655.0	1338.0	1735.0	1395.0	98.3	"No, (If no, ""Thank you for your time, goodbye"".)"
+574.0	1513.0	2330.0	1565.0	100.0	Please answer the following questions about you and your smoking behavior:
+571.0	1617.0	2758.0	1676.0	98.9	3. How old are you? (Drop down, if under 18 display warning “You cannot participate in this study, you
+660.0	1675.0	1241.0	1728.0	99.5	"must be over 18 years old"")"
+574.0	1782.0	1487.0	1837.0	99.0	4. Are you male or female? Radío buttons
+653.0	1836.0	1256.0	1894.0	98.5	 Male (Go to Question 6)
+657.0	1891.0	1310.0	1947.0	96.8	 Female (Go to Question 5)
+571.0	2001.0	1574.0	2056.0	98.9	5. To your knowledge, are you now pregnant?
+657.0	2056.0	2858.0	2111.0	98.2	 Yes, (Thank you, however, as stated in the Informed Consent, pregnant women are excluded from
+740.0	2111.0	1530.0	2166.0	99.3	participation in this study. Goodbye.)
+655.0	2161.0	814.0	2218.0	88.3	 No
+654.0	2219.0	1175.0	2270.0	100.0	Don't know/Not sure
+656.0	2272.0	979.0	2324.0	99.8	No answer
+572.0	2381.0	1054.0	2433.0	99.9	6. Do you live alone?
+655.0	2437.0	1268.0	2489.0	99.0	Yes (Omit questions 27)
+658.0	2490.0	1244.0	2543.0	97.4	 No (Show question 27)
+571.0	2597.0	1647.0	2652.0	99.6	7. At what age did you smoke your first cigarette?
+567.0	2704.0	2803.0	2763.0	99.8	8. How old were you when you started smoking on a regular basis? (That is, when you began purchasing
+658.0	2761.0	1802.0	2816.0	99.6	cigarettes and smoking at least one cigarette per day.)
+659.0	2869.0	964.0	2922.0	100.0	All Drop-down
+567.0	2975.0	2389.0	3033.0	99.9	9. Did anyone in your family smoke regularly (every day) when you were growing up?
+654.0	3033.0	901.0	3086.0	100.0	Mother
+655.0	3087.0	889.0	3141.0	100.0	Father
+653.0	3139.0	875.0	3193.0	100.0	Sister
+654.0	3196.0	909.0	3249.0	100.0	Brother
+655.0	3249.0	1207.0	3304.0	99.8	Other Family member
+660.0	3306.0	898.0	3360.0	100.0	Drop down
+574.0	3412.0	2748.0	3467.0	99.7	10. When you buy cigarettes, do you usually buy cigarettes by the pack of by the carton? Radio buttons
+654.0	3470.0	998.0	3519.0	99.3	By the pack
+653.0	3522.0	1027.0	3571.0	99.9	By the carton
+562.0	3764.0	2228.0	3813.0	99.1	© -- 2003 – Confidential & Proprietary -- Guardiant/Philip Morris – Accord Questions 1.0
+2787.0	3767.0	2817.0	3812.0	99.6	1
+2580.0	3949.0	3108.0	4023.0	100.0	PM3006459132
+2759.0	4055.0	3158.0	4120.0	100.0	3006459132
+202.0	4235.0	510.0	4288.0	95.1	3006469132

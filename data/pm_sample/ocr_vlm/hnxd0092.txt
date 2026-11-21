@@ -1,0 +1,13 @@
+INBIFO Institut für biologische Forschung GmbH · Köln
+PRIORITY
+P 0500/3216 94/9/26 Page 1
+
+RELATIVE NUMBER OF FREE LUNG CELLS (%)
+
+LYMPHOCYTES PMNL
+
+TEST ATMOSPHERE SHAM HIGH RASS SHAM HIGH RASS
+
+Figure Relative Numbers of Free Lung Cells, Flow Cytometric Differential Cell Counting, Improved Assay
+
+Remarks: Columns with error bars represent means and standard errors (N = 8).

@@ -1,0 +1,12 @@
+2
+95 Prree 224
+Int FMrrans
+810
+000
+298
+COLUMN
+280
+270
+260
+5 18 15
+level of CENTER

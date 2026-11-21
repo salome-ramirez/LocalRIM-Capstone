@@ -1,0 +1,49 @@
+Table 2: JES/FT measures for recovery of pesticides with solution FT determined by 13 laboratories (the determinations by pesticide: 2 samples with 2 replications)
+
+| Pesticide | r1 | Solution r2 | r4 | total |
+| :--- | :--- | :--- | :--- | :--- |
+| e-HCH | 0.0995 | 0.4975 | 0.9950 | 4.9750 |
+| e-NCH | 0.1000 | 0.5000 | 1.0000 | 5.0000 |
+| e-NCH | 0.1005 | 0.5025 | 1.0050 | 5.0250 |
+| e-NCH (Lindurde) | 0.1020 | 0.5100 | 1.0200 | 5.1000 |
+| Mortecor | 0.1020 | 0.5100 | 1.0200 | 5.1000 |
+| Aldrin | 0.1020 | 0.5100 | 1.0200 | 5.1000 |
+| Insecticloro oxide | 0.1025 | 0.5125 | 0.9950 | 4.9750 |
+| Tram-chlorourea | 0.1095 | 0.5175 | 0.9950 | 4.9750 |
+| o,p-000 | 0.1095 | 0.5175 | 0.9950 | 4.9750 |
+| methylene farnesate | 0.1010 | 0.5000 | 1.0100 | 5.0000 |
+| DL-glutin | 0.1015 | 0.5075 | 0.1050 | 5.0500 |
+| o,p-000 | 0.1005 | 0.5025 | 1.0000 | 5.0000 |
+| o,p-000 | 0.1005 | 0.5025 | 1.0000 | 5.0000 |
+| Estrin | 0.1000 | 0.5000 | 1.0000 | 5.0000 |
+| b-Erdulcifene | 0.1000 | 0.5000 | 1.0000 | 5.0000 |
+| p,p-000 | 0.1010 | 0.5056 | 0.1010 | 5.0510 |
+| o,p-000 | 0.1015 | 0.5057 | 0.1050 | 5.0750 |
+| p,p-007 | 0.1005 | 0.5025 | 1.0050 | 5.0250 |
+
+Table 2: JES/FT measures for recovery of pesticides with solution FT determined by 13 laboratories (the determinations by pesticide: 2 samples with 2 replications)
+
+| Pesticide | r1 | Solution r2 | r4 | total |
+| :--- | :--- | :--- | :--- | :--- |
+| e-HCH | 1.26 | 0.45 | 0.60 | 1.01 |
+| e-NCH | 1.25 | 0.80 | 1.00 | 1.25 |
+| e-NCH (Lindurde) | 1.26 | 1.02 | 1.00 | 1.26 |
+| Mortecor | 1.96 | 0.54 | 0.54 | 1.96 |
+| Aldrin | 1.05 | 0.55 | 1.00 | 1.05 |
+| Insecticloro oxide | 1.05 | 1.25 | 1.25 | 1.05 |
+| Tram-chlorourea | 1.05 | 1.15 | 1.15 | 1.05 |
+| o,p-000 | 1.04 | 0.87 | 1.00 | 1.04 |
+| methylene farnesate | 1.24 | 1.35 | 1.35 | 1.24 |
+| DL-glutin | 1.09 | 1.00 | 1.00 | 1.09 |
+| o,p-000 | 1.14 | 0.52 | 0.52 | 1.14 |
+| o,p-000 | 1.22 | 1.25 | 1.10 | 1.22 |
+| o,p-000 | 1.16 | 1.10 | 1.10 | 1.16 |
+| Estrin | 1.16 | 1.07 | 1.07 | 1.16 |
+| b-Erdulcifene | 1.16 | 1.07 | 1.07 | 1.16 |
+| p,p-000 | 1.14 | 0.77 | 0.77 | 1.14 |
+| o,p-000 | 1.14 | 0.77 | 0.77 | 1.14 |
+| o,p-000 | 1.16 | 0.77 | 0.77 | 1.16 |
+| o,p-000 | 1.16 | 0.77 | 0.77 | 1.16 |
+| p,p-007 | 1.29 | 1.10 | 1.10 | 1.29 |
+
+Total: 1.16 0.97 0.66 0.94 0.77 1.62 0.78 0.60 0.54 1

@@ -1,0 +1,65 @@
+x1	y1	x2	y2	conf	text
+81.0	211.0	97.0	227.0	72.5	c
+1117.0	221.0	1460.0	250.0	99.9	Philip Morris USA Confidential
+675.0	326.0	1015.0	356.0	99.7	PHILIP MORRIS U.S.A.
+478.0	373.0	1215.0	405.0	99.0	INTEROFFICE CORRESPONDENCE
+710.0	419.0	980.0	456.0	99.7	Richmond, Virginia
+230.0	535.0	287.0	572.0	100.0	To:
+419.0	534.0	650.0	574.0	100.0	Walter Hempfling
+1081.0	537.0	1421.0	571.0	99.8	Date: September 15, 1995
+230.0	605.0	322.0	641.0	100.0	From:
+419.0	602.0	590.0	639.0	93.7	Will Lewis.
+231.0	675.0	351.0	714.0	99.4	Subject:
+420.0	676.0	1403.0	709.0	99.2	Low Weight Cigarette Mainstream Smoke Analysis - Basic Components -
+421.0	710.0	610.0	747.0	100.0	Activity 2A12
+231.0	822.0	454.0	856.0	99.9	I. Introduction:
+327.0	893.0	1460.0	929.0	99.1	Cigarette models with various tobacco filler weights were analyzed by gas
+232.0	927.0	1460.0	967.0	99.6	chromatography (GC) to ascertain differences in selected basic components of mainstream smoke
+231.0	968.0	1460.0	1003.0	99.9	relative to the reduction in filler weight. The six sample codes, cigarette target weights, filler
+231.0	1004.0	1459.0	1041.0	99.9	target weights, and average puff counts are shown in Table I (1). The cigarette targeted filler
+232.0	1041.0	1459.0	1079.0	99.9	weights range from 650 mg to 850 mg, with 750 mg as the normal filler weight of a cigarette.
+234.0	1080.0	1460.0	1113.0	99.1	This range reflects a 200 mg difference between the lowest (DL 22) and highest weight model
+234.0	1118.0	1458.0	1153.0	99.4	(DL 27) and includes a ± 100 mg weight difference relative to the 750 mg cigarette model.
+234.0	1158.0	1173.0	1193.0	99.6	Analytical data pertaining to these cigarette models have been reported (1).
+797.0	1235.0	906.0	1270.0	91.0	Table L.
+425.0	1312.0	822.0	1346.0	100.0	Sample Code Cigarette Target
+891.0	1312.0	1069.0	1346.0	100.0	Filler Target
+1055.0	1312.0	1251.0	1346.0	100.0	Average Puff
+640.0	1346.0	783.0	1387.0	99.9	Weight (g)
+906.0	1346.0	1049.0	1387.0	99.3	Weight (g)
+1113.0	1349.0	1200.0	1382.0	100.0	Count
+420.0	1383.0	511.0	1418.0	97.3	DL 22
+641.0	1385.0	720.0	1417.0	100.0	0.869
+891.0	1385.0	968.0	1417.0	100.0	0.652
+1171.0	1384.0	1224.0	1419.0	100.0	7.6
+420.0	1420.0	510.0	1456.0	99.4	DL 23
+642.0	1421.0	719.0	1454.0	100.0	0.921
+892.0	1420.0	968.0	1454.0	100.0	0.700
+1174.0	1422.0	1223.0	1455.0	100.0	8.4
+421.0	1459.0	511.0	1492.0	99.4	DL 24
+641.0	1459.0	719.0	1492.0	100.0	0.941
+891.0	1459.0	968.0	1492.0	100.0	0.720
+1173.0	1458.0	1222.0	1494.0	100.0	8.8
+421.0	1496.0	509.0	1529.0	99.2	DL 25
+642.0	1496.0	720.0	1529.0	100.0	0.970
+891.0	1496.0	968.0	1529.0	100.0	0.752
+1173.0	1496.0	1220.0	1529.0	100.0	9.1
+420.0	1531.0	511.0	1566.0	93.0	DL 26
+643.0	1533.0	719.0	1566.0	100.0	1.017
+891.0	1531.0	969.0	1567.0	100.0	0.800
+1172.0	1531.0	1223.0	1567.0	100.0	9.6
+421.0	1570.0	508.0	1603.0	99.2	DL 27
+642.0	1570.0	718.0	1604.0	100.0	1.067
+892.0	1570.0	968.0	1604.0	100.0	0.850
+1162.0	1570.0	1225.0	1604.0	100.0	10.6
+234.0	1652.0	402.0	1687.0	95.6	II. Method:
+329.0	1728.0	1458.0	1762.0	99.8	All cigarette models were conditioned at 75°F and 60% relative humidity for at least 48
+233.0	1767.0	1458.0	1802.0	99.0	hours prior to use. Four runs, using ten cigarettes each, were made at random for each model.
+233.0	1805.0	1460.0	1838.0	99.5	Prior to smoking, all cigarettes were marked at tipping plus 3 mm. Mainstream smoke from these
+1533.0	1812.0	1578.0	2109.0	100.0	2050896389
+233.0	1842.0	1460.0	1876.0	99.9	models was generated and collected using a 20-port Borgwaldt smoking machine with an
+234.0	1879.0	1460.0	1911.0	100.0	electrostatic trap (2). Electrostatic tubes were weighed before and after each run to determine the
+233.0	1915.0	1461.0	1950.0	99.8	weight of smoke condensate. During smoke condensate collection, the output voltage was set at
+236.0	1955.0	1458.0	1985.0	99.6	18 kV and the current limit was set for 0.21 mA. The smoke condensate was rinsed from the
+232.0	2070.0	459.0	2103.0	96.7	DOC CODE: P0622
+843.0	2072.0	877.0	2104.0	100.0	10

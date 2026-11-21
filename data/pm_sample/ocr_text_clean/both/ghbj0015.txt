@@ -1,0 +1,94 @@
+Beta Series B Design Conformance Testing Summary
+4. Charger Operational Conformance
+Operational conformance to specification for the "B" series charger design was
+evaluated by sampling plan via the following tests:
+075CC2P Lighter Slot Recharge Time Test
+062CC1P Exit Air Temperature Safety Test
+064CC1P Charger Case Temperature Test
+019CC1P Cleaning Power Interruption Response Test
+052CC1P Lighter/Battery Installation into Charger
+Lighter Slot Recharge Time
+This test verifies that the time required to charge a battery in the lighter siot (while
+installed in the lighter) does not exceed 40 minutes. Revision 2P of this test also collected
+informational data on other charger functions as indicated below:
+0 75 CC2 P
+Length of Length of
+first secand
+Elapsed Elapsed interval interval
+tim e to tim e to between between Peak Peak
+Grean Max Chg. cleaning cleaníng cleaning cleaning
+LED Max chg Voitage cycles cycles voltage current
+CHGR# (m inutes) Voltage (m inutes) (m inutes) (m inutes) (volts) (am ps)
+401 31 7.56 14 13 13 18.22 2.42
+107 31.39 7.67 7 13 13 18.23 2.48
+321 34 7.35 25 13 13 17.86 2.26
+430 38 7.33 28 13 13 18.13 2.44
+12 31 6.6 13 13 13 15.92 2.29
+Percentage of sample population failing the Lighter Slot Recharge Time-Test: 0% 5
+hango Seo tost Name- 0035S 1P
+Exit Air Temperature Safety Test
+Charger Case Temperature Test xivm
+These tests verify that the case temperature and exit air temperature during active
+cleaning do not, present a safety hazard. a tompornture
+A 5 charger sample was tested. Case temperature criterion was max. = 70º C. Exit air 6
+criterion was max. = 100° C.
+Test # 064CC1P 062CC1P
+Maximum Case Maximum Exit Air
+Temp during cleaning Temp during cleaning
+CHGR# (degrees C) (degrees C)
+1 67.24 50.97
+40 66.03 49.38
+42 57.4 43.03
+52 60.45 52.22
+287 64.39 46.22
+Average 63.102 48.364
+Percentage of sample population failing the Exit Air Temperature Sefery Test: 0% ε
+Percentage of sample population failing the Charger Case Temperature Test: 0%
+Philip Morris Ultra Trade Secret Doc. Code PO622
+Beta Series B Design Conformance Testing Summary
+
+4. Charger Operational Conformance
+
+Operational conformance to specification for the "B" series charger design was evaluated by sampling plan via the following tests:
+
+075CC2P Lighter Slot Recharge Time Test
+062CC1P Exit Air Temperature Safety Test
+064CC1P Charger Case Temperature Test
+019CC1P Cleaning Power Interruption Response Test
+052CC1P Lighter/Battery Installation into Charger
+
+Lighter Slot Recharge Time
+
+This test verifies that the time required to charge a battery in the lighter slot (while installed in the lighter) does not exceed 40 minutes. Revision 2P of this test also collected informational data on other charger functions as indicated below:
+
+| CHGR# | Elapsed time to Green LED (minutes) | Max chg Voltage | Elapsed time to Max Chg. Voltage (minutes) | Length of first interval between cleaning cycles (minutes) | Length of second interval between cleaning cycles (minutes) | Peak cleaning voltage (volts) | Peak cleaning current (amps) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 401 | 31 | 7.56 | 14 | 13 | 13 | 18.22 | 2.42 |
+| 107 | 31.39 | 7.67 | 7 | 13 | 13 | 18.23 | 2.48 |
+| 321 | 34 | 7.35 | 25 | 13 | 13 | 17.86 | 2.26 |
+| 430 | 38 | 7.33 | 28 | 13 | 13 | 18.13 | 2.44 |
+| 12 | 31 | 6.6 | 13 | 13 | 13 | 15.92 | 2.29 |
+
+Percentage of sample population failing the Lighter Slot Recharge Time Test: 0%
+
+Exit Air Temperature Safety Test
+
+Charger Case Temperature Test
+
+These tests verify that the case temperature and exit air temperature during active cleaning do not present a safety hazard.
+
+A 5 charger sample was tested. Case temperature criterion was max. = 70° C. Exit air criterion was max. = 100° C.
+
+| Test # | 064CC1P | 062CC1P |
+| :--- | :--- | :--- |
+| CHGR# | Maximum Case Temp during cleaning (degrees C) | Maximum Exit Air Temp during cleaning (degrees C) |
+| 1 | 67.24 | 50.97 |
+| 40 | 66.03 | 49.38 |
+| 42 | 57.4 | 43.03 |
+| 52 | 60.45 | 52.22 |
+| 287 | 64.39 | 46.22 |
+| Average | 63.102 | 48.364 |
+
+Percentage of sample population failing the Exit Air Temperature Safety Test: 0%
+
+Percentage of sample population failing the Charger Case Temperature Test: 0%

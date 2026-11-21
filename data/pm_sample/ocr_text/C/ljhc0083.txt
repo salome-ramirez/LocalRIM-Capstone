@@ -1,0 +1,39 @@
+Product Technologies
+Cigarette Design and Performance Platform
+Mission: Develop the knowledge, technologies, and software tools
+needed to design cigarettes with specific performance targets.
+Seope: Our plan includes the development of a computer-based,
+cigarette-design tool that will allow users to predict the performance of
+both conventional and unconventional products. Cigarette performance
+includes normal delivery parameters, specific smoke components,
+sidestream smoke visibility indices, ignition propensity indices for defined
+tests, and sensory information The model will be the repository of the
+most up-to-date knowledge of the effects of cigarette design on cigarette
+performance. The program must be well engineered so that refinements,
+modifications, improvements, and new knowledge can be easily included
+and verified. The program must be rigorous, flexible, accurate, reliable,
+easily maintained, and exhaustively validated through an assessment of
+the performance of a wide variety of cigarette designs. Any modifications
+to the program should be accompanied by further experimental cigarette
+data that can be added to a database for model validation. The program
+must have a user interface that allows users with a wide range of needs
+to easily access and exercise the program. The program needs to allow
+designers to test new concepts computationally, thereby requiring a
+concerted effort to add features and knowledge to the program on a
+continuing basis.
+Assumptions: We assume the availability of: Semiworks to produce the
+samples required; PTL to measure their performance; ARD to evaluate
+the required chemistry of tobacco, papers, and filters; Product
+Development to measure sidestream visibility; Tomorrow to measure
+ignition propensity; a panel to assess sensory information; Product
+Technology groups to provide tobacco chemistry, smoke generation, and
+selective filtration information: and ITD to support the identification of,
+conversion to, and maintenance of the best computer platform for the
+CDM.
+Project Descriptions.
+Filter Studies
+Effects of carbon filters on gas phase deliveries.
+Dual concentric filter performance.
+Performance of new filter materials and constructions, e.g.,
+Crest and formed filters like MBF and SCS.
+Selective filter performance. 2059733130

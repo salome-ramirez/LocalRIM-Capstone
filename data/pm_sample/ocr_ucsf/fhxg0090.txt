@@ -1,0 +1,140 @@
+Handsheets fmom the University of Maine
+CDGT CODE
+AP RX
+[tIffi!Q
+g(tIq'
+POROSITY
+SIZING %CATDON
+H1385
+XHVA-5A .
+45.0.
+17.5
+8.0% K, Succ
+3.2
+H1386
+KHVA-5B
+45.0
+15.2 .
+7.3% K, Cit
+2.8
+H1387
+XHVA-5C
+45.0:
+14.9
+12:7% 1+'.I-I INlal
+3.5
+H1388
+JCHVA-6B'
+45.0
+14.6
+10.4% 7:3 KC:CA 2 .8
+H1389
+XHUZ•4A
+45.0
+8!2
+5.0% K, Succ
+2.0
+H1390
+XHUZT4B
+45.0
+8:8
+6.8% K, Cit
+2.6
+H1391
+XHUZ.4C'
+45.0
+6.9
+12:0% KH Brlal
+3.3
+H1392
+XHUZ.3A
+45.0
+8'.6
+10.1% 7:3 KC:CA 2.7
+CIOT CODE
+%A"IT
+M '
+LL
+E.C.xSBT
+%REDUCTTON
+ASH:A.C.F.S
+H1385
+47
+6.9
+0.63
+4.35'
+8!7
+1,4,1,2
+H1386
+42
+7 .1
+0.54
+3.83
+22
+1,3;1,3'
+H1387
+H13'88
+39
+38
+7 .6
+7.7
+0.50
+0.48,
+3180
+3.70
+28
+30
+1,3,1,3
+1,3,1,3
+H'13$9
+31
+9.6
+0.37
+3.55
+46
+1,3,2,3
+H!1390
+31
+8.6
+0.37
+3.18
+46
+1,3,2,3
+Hi1391
+28'
+9.9
+0.33
+3127
+52
+1,3,1,3
+HQ392
+34'
+8.7
+0.42
+.
+3.65
+39
+2,3,2,3
+Ash Appearance Descriptors (Subjective evaluations) :
+0
+A,
+Adhesion [1=excellenrcling; 5:=nocling]
+N
+C,
+Color
+[I = white;5'= black]
+F,
+Fall Off
+[1 = no ash falls off; 5 = all ash falls oft]
+S ;
+Solidirty
+[1 = perfectly solid; 5 =large fdhhes]
+~
+~
+PAPER COIMPOSITIO'N :
+~
+XHVA Series: Nominally 15% 8934-186A Eitelite and 15% Albacar Calcium Carbonate . Analyses
+showed that the targets were signaficantly missed : 8.7 to 9.1 % eitelite and 10.2 to 11 .7% CaCO,
+being found.
+XHUZ Series : Nominally 15% 8934L166A Eitelite and 15% B:aymag Magnesite P90-709: Analyses
+were. cornsistent.with eitelate levels of 8 .7'to 9:9%d andmagnesirte levels of 7.4 to 7:9%, .

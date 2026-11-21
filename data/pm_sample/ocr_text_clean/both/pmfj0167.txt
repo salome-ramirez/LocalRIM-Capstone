@@ -1,0 +1,94 @@
+Ballot Response # Assign 229 # Ballot 2
+Pe STUy 2 Part 3 Type S
+* Panelist 334 edac Confide Persona
+O
+#Seq #？ date Resp Question Description te Item Id Item Type Value - Int / Txt / Vch
+1 38 Did the consumer receive a 24 to 48 hour callback ? (Y/N) G 0
+2 39 What date/time did the consumer receive the 24-48 hour callback? K 0
+3 40 On the 24-48 hour call back, did the interviewer reach the consumer G 0
+or leave a message ? (where 1 = reached consumer, 2 = left a
+message, 3 = did not reach at all)
+42 Did the consumer log any problems during the 24-48 hour callback K 0
+call ? (Y/N)
+(If YES, then refer to the PROBLEMS section of the COC
+Application)
+5 41 Who made the callback call ? G 0
+6 1 Interviewer Name : G CANDACE ADAMS
+7 2 Scribe : G KIM KAWA
+8 5 Interview Start Time : G 12:10 P
+9 6 Interview End Time : G 2:0 P
+10 52 ne G 01/07/98
+11 53 Date of Placement : IRAC0036 K 02/10/97
+12 56 Did you get a chance to smoke Accord? (Y/N) K 5
+13 57 If No, then why didn-t you get a chance to smoke Accord? K 0
+14 54 How did it go? (How did the consumer~s home trial week go? e.g., K DIKES : NOT HAVING TO SEARCH FOR MISPLACED LIGHTER &
+Likes & Dislikes) MATCHES
+DISLIKES : MORE SMOKE WITH REG. CIGT RATHER THAN
+ACCORD
+15 58 If Yes, # smoked (about how many Accord cigarettes did you get a K 300
+chance to smoke?)
+16 59 Where? In what situations? (did you get a chance to smoke Accord K THOUGHT GREAT IDEA - RESTAURANT, PARTIES, HOME, CAR
+cigarettes)
+17 61 About how many of your own brand did you smoke? (during your G 20
+trial week with Accord)
+18 62 When & where did you smoke your own cigarettes? G WOULD FORGET ACCORD
+19 60 Was anyone else with you? How did they react? (when you smoked K INTERESTED, WANTED TO TRY
+the Accord cigarette.
+20 65 Any questions or issues (about using accord)? G JOTICED THAT CIGARETTES TOOK MORE SPACE IN ASHTRAY
+THAN CONVENTIONAL CIGT - WORRIED
+21 67 Owner~s guide - did you refer to it ? (where 1 = didn-t read, 2 = U0002 U 3
+read, 3 = helpful, 4 = not helpful)
+22 63 Behavioral adjustments? (what are some of the things you adjusted K WELL - GETTING USED TO IN FRONT OF OTHERS
+to while smoking accord & how did you adjust?
+23 64 206 Discovered benefits (what are some of the things you discovered & K BASY AROUND NON-SMOKERS
+how did vou discoverr them?
+or IRS
+Ω acte Red on ma ueee Trad
+Hto
+25. 75 9824 Why? (Why did the consumer give that particular "Overall Liking" G MAINLY PUFFS
+score?)
+26 47 If the product came on the market tomorrow, how interested would K 6
+the consumer be in buying it ?
+(where 1 = extremely dis-interested, 7 = extremely interested)
+Wednesday, January 07, 1998 # Panelist 334 Panelist Namd Re Page 1 of 2
+p Personal
+Ω 0 H Confide
+Ω a
+十
+0
+Ballot Response
+# Assign 229 # Ballot 2
+# Panelist 334
+STUDY # 2 Part # 3 Type S
+
+# Seq # ? date Resp Question Description Item Id Item Type Value - Int / Txt / Vch
+1 38 Did the consumer receive a 24 to 48 hour callback? (Y/N) G 0
+2 39 What date/time did the consumer receive the 24-48 hour callback? K 0
+3 40 On the 24-48 hour call back, did the interviewer reach the consumer or leave a message? (where 1 = reached consumer, 2 = left a message, 3 = did not reach at all) G 0
+4 42 Did the consumer log any problems during the 24-48 hour callback call? (Y/N) (If YES, then refer to the PROBLEMS section of the COC Application) K 0
+5 41 Who made the callback call? G 0
+6 1 Interviewer Name: G CANDACE ADAMS
+7 2 Scribe: G KIM KAWA
+8 5 Interview Start Time: G 12:10 P
+9 6 Interview End Time: G 12:40 P
+10 52 Interview Date: (MM/DD/YY) G 01/07/98
+11 53 Date of Placement: IRAC0036 K 02/10/97
+12 56 Did you get a chance to smoke Accord? (Y/N) K 8
+13 57 If No, then why didn~t you get a chance to smoke Accord? K 0
+14 54 How did it go? (How did the consumer~s home trial week go? e.g., Likes & Dislikes) K DIKES: NOT HAVING TO SEARCH FOR MISPLACED LIGHTER & MATCHES DISLIKES: MORE SMOKE WITH REG. CIGT RATHER THAN ACCORD
+15 58 If Yes, # smoked (about how many Accord cigarettes did you get a chance to smoke?) K 300
+16 59 Where? In what situations? (did you get a chance to smoke Accord cigarettes) K THOUGHT GREAT IDEA - RESTAURANT, PARTIES, HOME, CAR
+17 61 About how many of your own brand did you smoke? (during your trial week with Accord) G 20
+18 62 When & where did you smoke your own cigarettes? G WOULD FORGET ACCORD
+19 60 Was anyone else with you? How did they react? (when you smoked the Accord cigarette. K INTERESTED, WANTED TO TRY
+20 65 Any questions or issues (about using accord)? G NOTICED THAT CIGARETTES TOOK MORE SPACE IN ASHTRAY THAN CONVENTIONAL CIGT - WORRIED
+21 67 Owner~s guide - did you refer to it? (where 1 = didn~t read, 2 = read, 3 = helpful, 4 = not helpful) U0002 U 3
+22 63 Behavioral adjustments? (what are some of the things you adjusted to while smoking accord & how did you adjust?) K WELL - GETTING USED TO IN FRONT OF OTHERS
+23 64 Discovered benefits (what are some of the things you discovered & how did you discover them?) K EASY AROUND NON-SMOKERS
+
+25 75 Why? (Why did the consumer give that particular "Overall Liking" score?) G MAINLY PUFFS
+26 47 If the product came on the market tomorrow, how interested would the consumer be in buying it? (where 1 = extremely dis-interested, 7 = extremely interested) K 6
+
+Wednesday, January 07, 1998
+# Panelist 334 Panelist Name
+Page 1 of 2

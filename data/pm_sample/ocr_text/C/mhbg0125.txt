@@ -1,0 +1,27 @@
+1 15 P.4
+HT IP MORRIS DATABASE MARKETTNG
+1993 MSA BUDGET
+PROJECT BUDGET
+Trade Database $170,000
+Support Rollout to PM Regions 2, 3, 4, 5
+Promotion Response Project 2
+A) Process Coupon/Response Data 10,000
+From 1992(P) and 1993
+B) Build Promotion/Coupon Responder Database
+Design/Set-Up For Promotion Offer Responders 50,000
+- Design/Set-Up For Coupon Redeemers 30,000
+Update The Database*
+Weekly Peamors o Ofters 50,000
+Qrly 39,000
+Total $129,000 - $140,000
+C) Develop PC-Based Predictive Models
+1. To Predict Offer Response
+2. To Predict Coupon Redemption
+Develop Models $ 45,000
+Develop Software For Macintosh 40,000
+Update/ketine Quarterly (3 times in 1993) 45,000
+(ta $130,000
+Tutal 1003 MSA Budget $429,000 - $440,000
+NE lion's shuire of budget item is fixed cost (i. e., development of 2042009280
+update software): variable cost is based on number of records
+input tor update process and number of update procedures.

@@ -1,0 +1,29 @@
+Response Surface Analysis For Ignition Propensity 09:36 Wednesday, February 9, 1994 79
+Duck41 Model From Banded tion Independent Variabii
+Contour plot of B_POS*PERM BR.
+2091203742
+B_Pos |
+i
+40+ . 2. foe . . . : .
+| . . . . . . . . + . . . . . . .
+30 + . . . . . . . . . . . .
+f Dot Dolo Polo fo fof ot Z DD :
+204 8 8 RD
+a
+ee ee
+Loe oF 4 4 4 4 4 4 4 4# 4 m m m m m = w me ee =m @ = = x »
+20+ 0 0 0 0 # + + + + 4 Ft 4 4 4 HF O4 HF HF F + HF HF F O HF HF +
+| x X © © © 0 © ® 0 © 0, © © © 9 0 0 . 0 0 0 ©0 © © © © © ©
+[wow wo ox x X x X X X X X X X X ¥ KX X X X X X X X RK X X
+[oe m # * * * WW WW W W W W W W W W W W W W W W W W W
+| * %* 8 4 8 4 E E E E HH RR RR ® R OR O ® * O# * * %*
+o+ # %# # # # # P F F # F F 4 F F $ # F F F F E 4 F $ _ % F
+|
+- at ant H Hrn nr SEn aal AA a D
+2.5 2.6 2.7 2.8 2.9 3.0 3.2 3.2 3.3 3.43.5 3.6 3.7 3.8 3.9 4.0 4.1 4.2 4.3 4.4 4.5 4.6 4.7 4.8 4.9 5.0
+PERM BR
+IGP_CDAL Symbol IGP_cD41 symbol IGP_CD41 symbol IGP_cb41
+-0.504 ~ -0.047 === 0.868 - 1.326 XXXXX = «2.241 - 2,698 HHA 3.613 - 4.071
+-0.047 - 0.411 HHt — 1.326 - 1.783 WHWHH — 2.698 - 3.156
+0.411 - 0.868 00000 — 1.783 - 2.241 seeet — 3.156 - 3.613
+NOTE: 540 obs hidden.

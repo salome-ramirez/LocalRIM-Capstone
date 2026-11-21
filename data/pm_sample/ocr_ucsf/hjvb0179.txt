@@ -1,0 +1,178 @@
+^ B 
+Site Perforflpce Markers 
+PM-TESMC/01/02 
+JAN 0 8 2004 
+CalJ Center 
+No. Subjects Screened (telephone) 
+No. Subjects Scheduled 
+No. Subjects Completed 
+No. Subjects Removed 
+No. of Subjects Completed and Evaluable 
+8-Dec-03 
+-
+0 
+4,699 
+36 
+4,663 
+Site Activity 
+No. of Active Sites 
+No. of Inactive Sites 
+No. Sites with Low Enrollment (< 10 subjects/4 weeks) 
+Status of Samples 
+0 
+40 
+-
+Received | Analyzed 
+15-Dec-03 
+0 
+4,701 
+36 
+4,665 
+0 
+40 
+-
+29-Dec-03 
+" 
+o 
+4,706 
+41 
+4,665 
+0 
+40 
+-
+Received 
+Analyzed 
+Received 
+Analyzed 
+No. of Samples Received/Analyzed by, Harrogate 
+Nicotine and Metabolites (aglycones/total) 
+4-ABP-Hb 
+11-dehydro-thromboxane 82 
+8-epi-prostagIandih F2alpha 
+4,621 
+4,286 
+4,554 
+t. 
+4,554 
+4621/4600 
+3,608 
+4,208 
+4,150 
+4,632 
+4,286 
+4,554 
+4,554 
+4621/4621 
+3,696 
+4,435 
+4,354 
+4,632 
+4,286 
+4,554 
+4,554 
+4621/4621 
+3,696 
+4,538 
+4,396 
+8-Jan-04 
+-
+o 
+4,708 
+44 
+4,664 
+0 
+40 
+-
+Received ( Analyzed 
+4,632 
+4,286 
+4,554 
+4,554 
+4621/4621 
+3,696 
+4,536 
+4,401 
+No. of Samples Received/Analyzed by MDS 
+NNAL (Total/Free) 
+3-HPMA 
+DHBMA 
+MHBMA 
+1-OH-Pyfene 
+No. of Subjects Consented for Sample Banking (blood/urine) 
+No. of Subjects with Missing, Broken, Hemolytic samples, etc. 
+Status of Data 
+No. of CRFs Completed/Frozen/Signed 
+No. of Questionnaires Scanned 
+No. of Topography Downloads/No. of Smokers 
+No. of Subject Files Transferred to MDS Data Management 
+(CRFs/Topography/Questionnaire) 
+No. of Subjects Completed in Database 
+4087/3939 
+3,810 
+3,975 
+3,936 
+3,916 
+3317/3440 
+3,602 
+3,937 
+0 
+3,602 
+3,028/3,067 
+1,052 
+4,139/2,422/1,232 
+4,599 
+2,541 
+3,472/0/4,304 
+0 
+4087/3939 
+.3,8^3 
+3,975 
+3,936 
+3,916 
+3317/3440 
+3,602 
+3,937 
+0 
+3,602 
+3,028/3,067 
+692 
+4,112/2,555/1,229 
+4,599 
+2,541 
+3,784/0/4,304 
+0 
+4708/4560 
+4,643 
+4,668 
+4,628 
+4,687 
+3317/3440 
+3,602 
+3,937 
+0 
+3,602 
+3,037/3,075 
+692 
+4,359/2,244/2,004 
+4,599 
+2,541 
+3,784/0/4,304 
+0 
+4708/4560 
+4,643 
+4,668 
+4,628 
+4,687 
+3317/3440 
+3,602 
+3,937 
+0 
+3,602 
+3,036/3,074 
+691 
+4,417/1,797/2,517 
+4,672 
+2,541 
+3,784/0/4,304 
+0 
+1/8/2004 

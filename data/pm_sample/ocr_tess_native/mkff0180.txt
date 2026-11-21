@@ -1,0 +1,57 @@
+Available online at www.sciencedirect.com
+' ScienceDirect
+$
+www.elsevier.com/locate/foodchemtox
+Food and Chemical Toxicology 45 (2007) 1039-1050
+Formation of polycyclic aromatic hydrocarbons from tobacco: The
+link between low temperature residual solid (char) and PAH formation
+Thomas E. McGrath *, Jan B. Wooten, W. Geoffrey Chan, Mohammad R. Hayaligol
+Philip Morris USA, Research Center, 4201 Commerce Road, Richmond, VA 23234, USA
+Received 3 February 2006; accepted 12 December 2006
+Abstract
+The formation of condensed ring polycyclic aromatic hydrocarbons (PAHs) from the pyrolysis of ground tobacco in helium over the
+temperature range of 350-600 °C was investigated. PAH yields in the ng/g range were detected and the maximum yields of all PAHs
+studied including benzo[a]pyrene (B[a]P) and benzo[ajanthracene (B[aJA) occurred between 500 and 550°C. The pathway to PAH
+formation in the 350-600 °C temperature range is believed to proceed via a carbonization process where the residual solid (char) under-
+goes a chemical transformation and rearrangement to give a more condensed polycyclic aromatic structure that upon further heating
+evolves PAH moieties. Extraction of tobacco with water led to a two fold increase in the yields of most PAHs studied. The extraction
+process removed low temperature non-PAH-forming components, such as alkaloids, organic acids and inorganic salts, and concentrated
+instead (on a per unit weight basis) tobacco components such as cell wall bio-polymers and lipids. Hexane extraction of the tobacco
+removed lipophilic components, previously identified as the main source of PAH precursors, but no change in PAH yields was observed
+from the hexane-extracted tobacco. Tobacco cell wall components such as cellulose, hemicellulose, and lignin are identified as major low
+temperature PAH precursors. A link between the formation of a low temperature char that evolves PAHs upon heating is established and
+the observed ng/g yields of PAHs from tobacco highlights a low temperature solid phase formation mechanism that may be operable in a
+burning cigarette.
+© 2007 Elsevier Ltd. All rights reserved.
+Keywords: Low temperature pyrolysis; Polycyclic aromatic hydrocarbons; Tobacco
+1. Introduction Although studied for over 50 years, the formation of
+PAHs from tobacco and tobacco components, in particu-
+The formation of polycyclic aromatic hydrocarbons
+(PAHs) from combustion processes involving biomass and
+tobacco have been extensively studied. Numerous reports
+and reviews exist in the literature that address the detection
+and quantification of PAHs, the toxicity and biological
+activity of PAHs, and the effect of changing reaction condi-
+tions such as residence time, temperature, and heating rate
+on PAH formation. The results of such studies have led to
+various proposed precursors and formation mechanisms.
+* Corresponding author. Current address: Philip Morris Products SA,
+Avenue des Sports 42, 1400 Yverdon, Switzerland. Tel.: +41 24 447 5029;
+fax: +41 24 426 6777.
+E-mail address: Thorius. MeCirathGapmintl.eom (T.E. McGrath).
+0278-6915/8 - see front matter © 2007 Elsevier Ltd. All rights reserved.
+doi:10.1016/}.fct.2006. 12.010
+lar, the formation of benzo[a]pyrene (B[a]P) in mainstream
+cigarette smoke, is still an area of active research (Ding
+et al., 2005; Counts ct al.. 2005; Torikaiu et al.. 2004,
+2005; Wornat et al., 2001; Britt et al., 2001, 2003: Herring
+et al., 2003: McGrath et al., 2001. 2003, 2005; Waymack
+and Kellogg, 2001; Hajaligol ct al, 1999, 2001; Kellogg
+and Waymack, 2001; Sharma et al.. 2003; Sharma and
+Hajaligol, 2003: Allain ct al.. 2003; Li ct al., 2003). There
+are generally two accepted mechanisms in the literature
+for PAH formation from tobacco. The first mechanism
+involves the pyrogenesis of PAHs by the thermal degrada-
+tion of organic tobacco components to small reactive mol-
+ecules and/or free radicals during the high temperature
+pyrolysis processes, followed by recombination reactions

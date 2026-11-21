@@ -1,0 +1,35 @@
+PHILIP MORRIS U.S.A.
+INTEROFFICE CORRESPONDENCE
+Richmond, Virginia
+To: D.B. Losee Date: 1/27/93
+From: S.C. Deevi Spe lant. c - ket
+Subject: Weekly Report
+1. Norton indicated their willingness fo accelerate their delivery schedule on delivering blades
+with thicknesses ranging from 0.015’ %l to 0.030 "aH. Norton also agreed to formulate our
+compositions, if needed.
+Nig, @
+2. We received NES from Oak Ridge National Lab. for evaluation as a possible heater
+material. A small piece was given to Willie for obtaining heaters by EDM technique. I
+suggested cutting of the material using a Mo wire as opposed to a brass wire since Mo wire has «
+high strength and can cut faster without much damage to the materiali Another small piece of
+the material will be sent Stony Brook for depositing Zirconia and’ NiAl. We will/also be
+sending a small piece to Alabama for laser cutting of serpentine blades.
+3. Temperature measurement data obtained on integraliheaters with and without the cartridges is
+being analyzed.
+4. Several heaters coated with nickel aluminide were pulsed during the last couple of weeks.
+Heaters coated with 1 mil and 1.5 mil werg pulsed at djfferent energies to attain a maximum
+temperature of 600 C, 820°C, 1050%1 150 C, and 1250 C. Blades coated with 1 mil thick coating
+survived 10,000 pulses atall the above temperatures except at 1/150 Cand 1250°C. In the case
+of a blade heated to 1150 C, the blade survived for only 24 pulses, andia hot spot' was noticed
+after the thirdpulse. The blade broke into two pieces after the 24th pulse. The temperature at
+the hot spot was more than 1250°C. In the case of a blade heated to 1250°C, the blade twisted
+and broke into two pieces after few pulses. Another blade was heated to 1250 Cina steady state
+mode, and the blade exhibited creep behavoir in a minute, and showed intense hot spot for
+several minutes before it broke into pieces within eight minutes. All these blades will be
+examined using several techniques.
+Heaters coated with 1.5 mil coating also showed roughly the same features as the 1.0 mil blade.
+A 1 mil blade coated and heat treated in argon has shown no signs of failure even after 6000
+pulses.
+Battery Evaluation
+1. Testing with the nominal C/10 charging for NICd cells continues to go well, and the most
+noteworthy points after 54 days are given in.Fran's weekly report.

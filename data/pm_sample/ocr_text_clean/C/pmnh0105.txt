@@ -1,0 +1,13 @@
+INBIFO Institut für biologische Forschung GmbH
+140
+ABSCL (M) 120
+100
+80
+60
+40
+AA5 20,
+一
+148/921201 0 20 40 09 08 100 120 140
+MWSC-I-X6D2KS CONCENTRATION (mg/I)
+
+5191

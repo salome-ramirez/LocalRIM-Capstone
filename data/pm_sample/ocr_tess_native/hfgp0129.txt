@@ -1,0 +1,109 @@
+28a} 4/90
+42 | 5/12/
+91
+44 111/91
+54 | 8/19/
+92
+We frequently shut the RL
+process down to change
+doctor blades.
+Some of the product which
+we ship to our customers
+may exceed the specification
+limit wo have agree to
+meet.
+Excessive sand in the stock
+chest to the headbox
+causes machine downtime
+and limits machine speed.
+Tho current variation of
+stock consistency to the
+Primary refiners is too great,
+resulting In variation of
+refined stock that is greater
+than desired by Park 500.
+éEATCESZO?
+RL PROCESS SYSTEMS IMPROVEMENT TEAM
+TaM- Downtime, Efficienoy,
+Total Good Production
+Product solubles P-charts for
+predicted out of specification.
+P-Bar UCLp
+ul 0.56 2.76
+0.71 3.18
+1.45 4.36
+-Sheet breaks caused by sand
+streaks,
+-Sand build up in headbox, SBW
+tank, couch pit.
+-SBW cleaner pluggage.
+TQM - Downtime
+Previous problem solving teams
+and operator expertise have
+identified that the variation
+consistency has the greatest
+impact on Inconsistent refining.
+They havo also Identified that
+the greatest variation in
+consistency ocours before the
+Primary refiners in Stock Prep.
+CONTROL & IMPROVEMENT PLAN
+T "l[l" i Mh ile ae
+Install a continuous doctor
+blade (7,900 Ibs per day).
+Reduce product solubles variation
+so that 1) predicted product out of
+spec for percent solubles is con-
+sistently < 1.0% (UCLp) and 2)
+within week standard deviation of
+solubfes measurements is consist-
+ently < 1.0% sol. (UCLs).
+Reduce Li machine downtime
+due to sand occurrences by 95%.
+Potential $70,000/yr savings.
+Reduce the amount of variation in
+Stock Consistency to the Machine
+Chest by 50% (as measured by Lab
+Consistency Test)
+Currently: 1 Sigma = .22
+Objective: 1 Sigma = .11
+Objective agreed to is for L-3 only.
+TQM Impacted: base web wt
+variability and finished sheet ov
+varlability.
+Potentlal $20,000/year savings.
+J. Johnston
+D. Jenkins
+(SIT/TL)
+P, Werkmeister ;
+{R)
+J. Lusk
+L. Pullano
+V. Loving (R)
+J. Deck (R)
+A.V.A. (SIT)
+R. Garg (TL)
+AVA (SIT)
+A. Tudor (TL)
+Lil - 10/93
+Lilt - Complete
+Revision Date: 6/29/94
+On scheduled - to be
+completed by 7/34
+On hold until yield team mak
+recommendation
+Note: Need to Recycle through
+P- 8/92
+D - 6/93
+Ll Lil
+c 5/94 11/94
+A 6/94 12/94
+Final phasoe of
+installation 4/94.
+Lt Complete.
+MOE to SIT 6/1
+Lil on target
+MOE being developed.
+Report back to SIT 7/13/94
+Close out August, 1994,
+bla\achomalt.xls\page 1

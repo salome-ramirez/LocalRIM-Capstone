@@ -1,0 +1,101 @@
+path,type_id,type_name,series_id,function_id,outcome,also_fits,certainty,note,taxonomy_file,saved_at
+letter/rvl_train_000112.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T16:08:22
+file folder/rvl_train_000351.png,,,,,exclude,,sure,Unreadable folder/envelope cover; INBIFO (PM research lab) letterhead; Bates 2501543921,rim_taxonomy_v2.yaml,2026-11-05T16:39:18
+memo/rvl_train_024431.png,QSH.QAS,Product quality and specifications,QSH.QA,QSH,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T18:59:39
+scientific report/rvl_train_048919.png,LEG.LGL,"Litigation, legal advice and patents",LEG.CNL,LEG,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:01:54
+budget/rvl_train_000092.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,HR.PER,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:04:59
+budget/rvl_train_001011.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,FIN.ACC,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:07:37
+questionnaire/rvl_train_001183.png,MKT.BRA,Brand advertising and consumer research,MKT.BRD,MKT,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:08:42
+email/rvl_train_050372.png,MKT.TRA,Sales and trade marketing,MKT.TRD,MKT,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:09:58
+letter/rvl_train_002000.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:11:49
+resume/rvl_train_024744.png,RND.RES,Research studies and results,RND.STU,RND,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:13:51
+budget/rvl_train_000500.png,,,,,exclude,,sure,"Folder cover, tab dated Sept. ‘83, Bates number only; no contents shown.",rim_taxonomy_v2.yaml,2026-11-05T19:15:06
+questionnaire/rvl_train_000064.png,MKT.BRA,Brand advertising and consumer research,MKT.BRD,MKT,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:18:19
+form/rvl_train_000703.png,RND.RES,Research studies and results,RND.STU,RND,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:19:06
+advertisement/rvl_train_001721.png,MKT.BRA,Brand advertising and consumer research,MKT.BRD,MKT,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:19:36
+budget/rvl_train_001561.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:20:29
+news article/rvl_train_024094.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:21:47
+news article/rvl_train_022904.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:22:30
+budget/rvl_train_000945.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,MKT.BRA,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:23:37
+handwritten/rvl_train_000481.png,QSH.QAS,Product quality and specifications,QSH.QA,QSH,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:25:04
+budget/rvl_train_001760.png,MKT.BRA,Brand advertising and consumer research,MKT.BRD,MKT,labeled,FIN.ACC,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:26:37
+questionnaire/rvl_train_001960.png,MKT.BRA,Brand advertising and consumer research,MKT.BRD,MKT,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:27:42
+news article/rvl_train_023431.png,MKT.TRA,Sales and trade marketing,MKT.TRD,MKT,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:28:20
+budget/rvl_train_000551.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,MKT.TRA,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:51:22
+resume/rvl_train_023678.png,RND.RES,Research studies and results,RND.STU,RND,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:52:33
+email/rvl_train_055393.png,ADM.MGT,Management and administration,ADM.GEN,ADM,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:53:35
+form/rvl_train_000894.png,MKT.TRA,Sales and trade marketing,MKT.TRD,MKT,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:54:34
+scientific publication/rvl_train_025070.png,RND.LIT,Scientific literature,RND.REF,RND,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:56:00
+scientific publication/rvl_train_024769.png,RND.LIT,Scientific literature,RND.REF,RND,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:56:45
+budget/rvl_train_000650.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T19:57:23
+resume/rvl_train_024449.png,HR.PER,Personnel and labor relations,HR.PRS,HR,labeled,,unsure,,rim_taxonomy_v2.yaml,2026-11-05T19:58:17
+resume/rvl_train_024901.png,HR.PER,Personnel and labor relations,HR.PRS,HR,labeled,,unsure,,rim_taxonomy_v2.yaml,2026-11-05T19:58:45
+memo/rvl_train_024592.png,LEG.LGL,"Litigation, legal advice and patents",LEG.CNL,LEG,labeled,ADM.MGT,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:18:03
+budget/rvl_train_000155.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:19:11
+form/rvl_train_000835.png,ADM.MGT,Management and administration,ADM.GEN,ADM,labeled,,unsure,,rim_taxonomy_v2.yaml,2026-11-05T20:20:19
+budget/rvl_train_000038.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,MKT.BRA,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:21:37
+resume/rvl_train_022846.png,HR.PER,Personnel and labor relations,HR.PRS,HR,labeled,,unsure,,rim_taxonomy_v2.yaml,2026-11-05T20:22:50
+email/rvl_train_055730.png,ADM.MGT,Management and administration,ADM.GEN,ADM,labeled,,unsure,,rim_taxonomy_v2.yaml,2026-11-05T20:24:08
+invoice/rvl_train_026152.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:24:56
+news article/rvl_train_022969.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,FIN.ACC,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:25:39
+file folder/rvl_train_000177.png,LEG.LGL,"Litigation, legal advice and patents",LEG.CNL,LEG,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:27:16
+questionnaire/rvl_train_001420.png,MKT.BRA,Brand advertising and consumer research,MKT.BRD,MKT,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:28:31
+email/rvl_train_055169.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:29:22
+resume/rvl_train_024058.png,HR.PER,Personnel and labor relations,HR.PRS,HR,labeled,,unsure,,rim_taxonomy_v2.yaml,2026-11-05T20:30:05
+invoice/rvl_train_027327.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:31:44
+resume/rvl_train_023034.png,RND.RES,Research studies and results,RND.STU,RND,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:32:39
+scientific report/rvl_train_052592.png,RND.RES,Research studies and results,RND.STU,RND,labeled,FIN.ACC,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:34:20
+file folder/rvl_train_000959.png,MKT.BRA,Brand advertising and consumer research,MKT.BRD,MKT,labeled,MKT.TRA,unsure,,rim_taxonomy_v2.yaml,2026-11-05T20:36:06
+email/rvl_train_052041.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,LEG.LGL,unsure,,rim_taxonomy_v2.yaml,2026-11-05T20:43:30
+resume/rvl_train_024686.png,HR.PER,Personnel and labor relations,HR.PRS,HR,labeled,RND.RES,unsure,,rim_taxonomy_v2.yaml,2026-11-05T20:44:20
+resume/rvl_train_024068.png,RND.RES,Research studies and results,RND.STU,RND,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:45:12
+scientific publication/rvl_train_025837.png,RND.LIT,Scientific literature,RND.REF,RND,labeled,AFF.PUB,unsure,,rim_taxonomy_v2.yaml,2026-11-05T20:46:24
+form/rvl_train_000083.png,RND.RES,Research studies and results,RND.STU,RND,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:47:28
+memo/rvl_train_022836.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:48:46
+email/rvl_train_051086.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,,unsure,,rim_taxonomy_v2.yaml,2026-11-05T20:51:23
+questionnaire/rvl_train_001732.png,MKT.BRA,Brand advertising and consumer research,MKT.BRD,MKT,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:52:51
+specification/rvl_train_001167.png,RND.RES,Research studies and results,RND.STU,RND,labeled,QSH.QAS,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:54:15
+budget/rvl_train_000712.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:54:54
+resume/rvl_train_023420.png,RND.RES,Research studies and results,RND.STU,RND,labeled,HR.PER,unsure,,rim_taxonomy_v2.yaml,2026-11-05T20:55:47
+budget/rvl_train_000578.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:57:14
+scientific publication/rvl_train_024261.png,RND.LIT,Scientific literature,RND.REF,RND,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:58:27
+form/rvl_train_000501.png,MKT.TRA,Sales and trade marketing,MKT.TRD,MKT,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T20:59:30
+presentation/rvl_train_027483.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,RND.RES,sure,,rim_taxonomy_v2.yaml,2026-11-05T21:00:20
+scientific report/rvl_train_052549.png,RND.LIT,Scientific literature,RND.REF,RND,labeled,RND.RES,unsure,,rim_taxonomy_v2.yaml,2026-11-05T21:00:59
+questionnaire/rvl_train_000990.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,FIN.ACC,unsure,,rim_taxonomy_v2.yaml,2026-11-05T21:02:00
+news article/rvl_train_023563.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,FIN.ACC,unsure,,rim_taxonomy_v2.yaml,2026-11-05T21:02:44
+invoice/rvl_train_027828.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,RND.RES,sure,,rim_taxonomy_v2.yaml,2026-11-05T21:03:32
+presentation/rvl_train_025307.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T21:03:59
+news article/rvl_train_025616.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,RND.LIT,unsure,,rim_taxonomy_v2.yaml,2026-11-05T21:04:36
+letter/rvl_train_001846.png,RND.RES,Research studies and results,RND.STU,RND,labeled,QSH.SAF,sure,,rim_taxonomy_v2.yaml,2026-11-05T21:05:19
+invoice/rvl_train_026780.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,AFF.PUB,sure,,rim_taxonomy_v2.yaml,2026-11-05T21:06:20
+handwritten/rvl_train_000870.png,QSH.QAS,Product quality and specifications,QSH.QA,QSH,labeled,AFF.PUB,unsure,,rim_taxonomy_v2.yaml,2026-11-05T21:07:07
+file folder/rvl_train_000920.png,QSH.QAS,Product quality and specifications,QSH.QA,QSH,labeled,RND.RES,unsure,,rim_taxonomy_v2.yaml,2026-11-05T21:08:01
+specification/rvl_train_000564.png,QSH.QAS,Product quality and specifications,QSH.QA,QSH,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T21:08:44
+handwritten/rvl_train_000659.png,MKT.BRA,Brand advertising and consumer research,MKT.BRD,MKT,labeled,AFF.PUB,unsure,,rim_taxonomy_v2.yaml,2026-11-05T21:10:06
+budget/rvl_train_001454.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,MKT.BRA,sure,,rim_taxonomy_v2.yaml,2026-11-05T21:11:16
+resume/rvl_train_024350.png,RND.RES,Research studies and results,RND.STU,RND,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T21:12:39
+invoice/rvl_train_026804.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,ADM.MGT,sure,,rim_taxonomy_v2.yaml,2026-11-05T21:13:17
+questionnaire/rvl_train_000833.png,HR.PER,Personnel and labor relations,HR.PRS,HR,labeled,ADM.MGT,unsure,,rim_taxonomy_v2.yaml,2026-11-05T21:14:19
+presentation/rvl_train_027386.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,LEG.LGL,sure,,rim_taxonomy_v2.yaml,2026-11-05T21:15:04
+letter/rvl_train_000971.png,RND.RES,Research studies and results,RND.STU,RND,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T21:15:38
+specification/rvl_train_002006.png,QSH.SAF,"Environment, health and safety",QSH.EHS,QSH,labeled,RND.RES,sure,,rim_taxonomy_v2.yaml,2026-11-05T21:16:31
+news article/rvl_train_025145.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T21:17:24
+invoice/rvl_train_026056.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,MKT.BRA,sure,,rim_taxonomy_v2.yaml,2026-11-05T21:18:13
+scientific publication/rvl_train_023516.png,RND.LIT,Scientific literature,RND.REF,RND,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T23:03:41
+budget/rvl_train_001026.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,MKT.BRA,sure,,rim_taxonomy_v2.yaml,2026-11-05T23:04:47
+email/rvl_train_055170.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,HR.PER,unsure,,rim_taxonomy_v2.yaml,2026-11-05T23:06:17
+questionnaire/rvl_train_000299.png,MKT.BRA,Brand advertising and consumer research,MKT.BRD,MKT,labeled,RND.RES,sure,,rim_taxonomy_v2.yaml,2026-11-05T23:07:32
+file folder/rvl_train_000614.png,RND.RES,Research studies and results,RND.STU,RND,labeled,QSH.QAS,sure,,rim_taxonomy_v2.yaml,2026-11-05T23:08:24
+letter/rvl_train_000928.png,MKT.TRA,Sales and trade marketing,MKT.TRD,MKT,labeled,AFF.PUB,unsure,,rim_taxonomy_v2.yaml,2026-11-05T23:09:17
+file folder/rvl_train_000370.png,RND.RES,Research studies and results,RND.STU,RND,labeled,QSH.QAS,unsure,,rim_taxonomy_v2.yaml,2026-11-05T23:09:35
+presentation/rvl_train_026999.png,MKT.BRA,Brand advertising and consumer research,MKT.BRD,MKT,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T23:10:04
+news article/rvl_train_023221.png,RND.RES,Research studies and results,RND.STU,RND,labeled,MKT.BRA,sure,,rim_taxonomy_v2.yaml,2026-11-05T23:10:21
+advertisement/rvl_train_001777.png,MKT.BRA,Brand advertising and consumer research,MKT.BRD,MKT,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T23:14:37
+scientific report/rvl_train_051119.png,RND.LIT,Scientific literature,RND.REF,RND,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T23:15:10
+budget/rvl_train_001241.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T23:15:38
+resume/rvl_train_022920.png,LEG.LGL,"Litigation, legal advice and patents",LEG.CNL,LEG,labeled,HR.PER,unsure,,rim_taxonomy_v2.yaml,2026-11-05T23:16:46
+resume/rvl_train_024228.png,RND.RES,Research studies and results,RND.STU,RND,labeled,HR.PER,sure,,rim_taxonomy_v2.yaml,2026-11-05T23:17:51
+invoice/rvl_train_027820.png,FIN.ACC,"Accounting, purchasing and budgets",FIN.MGT,FIN,labeled,,sure,,rim_taxonomy_v2.yaml,2026-11-05T23:18:20
+letter/rvl_train_000817.png,AFF.PUB,"Government, media and public relations",AFF.REL,AFF,labeled,LEG.LGL,sure,,rim_taxonomy_v2.yaml,2026-11-05T23:20:55
+specification/rvl_train_000349.png,QSH.SAF,"Environment, health and safety",QSH.EHS,QSH,labeled,RND.RES,sure,,rim_taxonomy_v2.yaml,2026-11-05T23:21:44

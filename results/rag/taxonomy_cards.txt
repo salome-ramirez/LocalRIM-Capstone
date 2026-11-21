@@ -1,0 +1,108 @@
+## Research and development (RND)
+Question: Was it created to discover, test or report scientific knowledge?
+Definition: Records of research PM carried out, commissioned or collected.
+Hint: Routine testing of what the plant produces is Quality, not research.
+Hint: Published in a journal or book means Scientific reference, whoever wrote it.
+Hint: A lab analysis of a competitor's product is a study report here; a competitor's market share or ads is Marketing.
+- RND.REP Research studies > Study and lab reports: Study reports, lab results, progress and status reports, contract lab reports, competitor product analyses, panel tests of prototypes
+- RND.PRO Research studies > Research proposals and plans: Research proposals, grant applications and biographical sketches, study concepts and designs, research priorities and plans
+- RND.NTS Research studies > Lab notes and sample records: Lab notebooks, handwritten experiment notes, sample logs, service request and data sheets
+- RND.ART Scientific reference > Published articles: Journal articles and reprints, book chapters, published rebuttals and letters
+- RND.ABS Scientific reference > Conference abstracts: Conference and symposium abstracts, meeting programs with abstracts
+- RND.BIB Scientific reference > Bibliographies, reviews and science news: Literature reviews, bibliographies, reading lists, unpublished review manuscripts, news about scientific findings kept by R&D
+
+## Quality, safety and health (QSH)
+Question: Does it define, check or protect the product, the plant or the people making it?
+Definition: Records that set and check product standards, and that keep operations and workers safe. Groups PM's Lab Services/QA, Environmental Health and Safety, and Medical.
+Hint: A consumer complaint about the product itself is Quality.
+Hint: An experiment to learn something new is Research, not Quality.
+Hint: Specification + effective date + "supersedes" + approval = a production standard.
+- QSH.SPC Product quality > Specifications and standards: Cigarette, filter, paper and material specifications, standards, effective dates, "supersedes specification dated"
+- QSH.FRM Product quality > Formulas and blends: Blend and casing formulas, flavor formulas in production, recipe sheets
+- QSH.TST Product quality > Test methods and QA reports: QA test results against a standard, test methods, lab log sheets, ISO and industry standards work
+- QSH.CMP Product quality > Product complaints and tampering: Consumer complaints about the product, complaint unit records and talking points, tampering reports
+- QSH.MSD Environment, health and safety > Material safety data sheets: MSDS for chemicals, flavors, adhesives, reagents
+- QSH.SAF Environment, health and safety > Safety procedures and incidents: Safety procedures, accident and incident reports, loss prevention
+- QSH.ENV Environment, health and safety > Environmental and waste notices: Environmental permits, waste and emissions records, environmental notices
+- QSH.MED Environment, health and safety > Medical, first aid and workers' compensation: First aid and medical department records, workers' compensation
+
+## Marketing and sales (MKT)
+Question: Is it meant to sell products, or to understand smokers, competitors and the trade?
+Definition: Records of promoting and selling products. Groups PM's brand groups, Marketing Research and Sales/Trade Marketing.
+Hint: Budgets, spend reports and invoices go to Finance, even for a campaign (R9).
+Hint: Ads about issues or the company's image go to Corporate affairs. Ads that sell a brand stay here.
+Hint: Ordinary smokers surveyed by a research firm is a consumer survey; trained panelists testing prototypes is R&D.
+- MKT.ADS Brand > Ads and ad proofs: Print ads, ad proofs with agency slug lines, magazine pages kept for an ad, radio and TV scripts
+- MKT.PLN Brand > Campaigns, brand plans and media: Campaign and brand plans, media plans and buying decisions, agency briefs, packaging and design work, brand decisions
+- MKT.COR Brand > Consumer correspondence: Letters from and to smokers about brands, offers or ads (not product complaints)
+- MKT.SRV Market research > Consumer surveys and research: Survey questionnaires and screeners, focus group notes, ad concept tests, tracking studies, consumer research reports about PM's own brands
+- MKT.CMP Market research > Competitor research: Competitors' market share, ads, prices, promotions and launches, industry ad spend comparisons
+- MKT.PRM Sales and trade marketing > Promotions, coupons and sweepstakes: Coupons, mail-in offers, loyalty and name-generation programs, sweepstakes, fulfillment reports
+- MKT.EVT Sales and trade marketing > Sponsorships and events: Sponsored events, bar and venue promotions, tournaments, sponsorship plans and tickets
+- MKT.RET Sales and trade marketing > Retailer and wholesaler dealings: Trade circulars, retailer and wholesaler files, merchandising and display orders, new product notices to the trade
+- MKT.SLS Sales and trade marketing > Sales and field reports: Sales results, distribution and pre-sell reports, field sales updates
+
+## Corporate affairs (AFF)
+Question: Is it aimed at government, regulators, the press or the public?
+Definition: Records of PM's relations with government, regulators, the media and the public.
+Hint: Lawsuits and legal advice go to Legal, even when a regulator is involved.
+Hint: Product ads go to Marketing.
+Hint: {'Press clippings': 'ask why they were kept. Policy, regulation or image comes here.'}
+- AFF.REG Government relations > Regulatory filings and agency letters: Letters to or from agencies and legislators, comments on proposed rules, filings
+- AFF.LEG Government relations > Legislation tracking and advocacy: Legislative tracking reports and newsletters, local smoking-ban notes, testimony, grassroots letter campaigns, political contribution requests
+- AFF.PRS Media and public relations > Press releases and coverage: Press releases, press clippings, media inquiries, radio actualities
+- AFF.SPE Media and public relations > Speeches and statements: Speeches, prepared statements, Q&A and talking points for the public
+- AFF.IMG Media and public relations > Issue ads, programs and corporate image: Issue and image ads, Youth Smoking Prevention materials, community and outreach programs
+- AFF.STR Media and public relations > Communications strategy: PR and issues plans, issue briefing guides, communications strategy memos
+
+## Legal (LEG)
+Question: Was it made by or for lawyers, or to protect a legal right?
+Definition: Records of legal disputes, legal advice and legal rights.
+Hint: Contracts go to their subject (R4). Only keep a contract here if it is about a dispute or a legal right itself.
+Hint: A law firm's invoice goes to Finance (R9).
+- LEG.PLD Litigation > Pleadings and filings: Complaints, motions, briefs, court orders, settlement agreements and amendments
+- LEG.DEP Litigation > Depositions and transcripts: Deposition and hearing transcripts, witness statements
+- LEG.DSC Litigation > Discovery and productions: Document requests, production logs and indexes, privilege logs
+- LEG.MEM Legal advice > Legal memos, opinions and privileged letters: Memos and opinions from counsel, privileged and joint-defense communications, law firm letters, legal meeting agendas
+- LEG.PAT Legal rights > Patents and trademarks: Patent applications and correspondence, trademark filings
+- LEG.LIC Legal rights > Licenses and legal agreements: License agreements, legal agreements about rights or disputes
+
+## Finance (FIN)
+Question: Is it about money owed, paid, planned or reported?
+Definition: Records of money spent, received, planned or reported. Groups PM's Controllers, Budget and Financial Analysis, and Tax.
+Hint: Would Accounts Payable need this page to pay, approve or record money? Then it's Finance (R9).
+Hint: The contract that sets payment terms goes to its subject (R4); the invoice under it comes here.
+Hint: Employee expense reimbursements come here, not HR.
+- FIN.INV Payables and purchasing > Invoices: Vendor, lab, agency and law firm invoices, invoice approval sheets
+- FIN.CHK Payables and purchasing > Check requests and payments: Checks and stubs, check requests, payment notices, refunds
+- FIN.PO Payables and purchasing > Purchase orders: Purchase orders, purchasing department memos, order cards
+- FIN.QTE Payables and purchasing > Price quotes and estimates: Vendor price quotations, agency cost estimates and estimate recaps
+- FIN.EXP Payables and purchasing > Expense reports: Employee expense reports and reimbursements
+- FIN.BGT Budgets and planning > Budgets and forecasts: Operating budgets, revised spending plans, forecasts
+- FIN.CST Budgets and planning > Spend and cost reports: Spend tracking, cost reports, budget vs actual
+- FIN.STM Reporting and tax > Financial statements: Operating summaries, income statements, general ledger reports
+- FIN.TAX Reporting and tax > Tax records: Tax returns, tax filings and correspondence
+
+## Administration and records (ADM)
+Question: Is it about running the company itself, with no more specific owner?
+Definition: Records of directing the organization and of general administration. Groups executive management and Records Management.
+Hint: Check every other department first. This is not a default.
+Hint: A meeting about one department's work goes to that department (R5).
+- ADM.MTG Management > Board and management meetings: Board and management minutes and agendas with no single-department subject
+- ADM.POL Management > Plans, policies and reorganizations: Strategic plans, company policies, reorganizations, organizing a function
+- ADM.ANN Management > General announcements: Company-wide announcements and notices
+- ADM.CAL General administration > Calendars, schedules and office services: Calendars, schedules, travel and office arrangements, general requests
+- ADM.RIM General administration > Records management: Retention schedules, storage and box records, legal hold notices, records training
+- ADM.TRN General administration > Transmittals with no visible contents: Emails or transmittals with readable text but no clear subject
+
+## Rules
+R1: Purpose over format. A letter, memo, form or handwritten note can belong to any department. Ask why it was created or kept, not what it looks like.
+R2: Documents from outsiders (law firms, agencies, vendors, scientists, consumers, other companies) go to the department they serve at PM.
+R3: Office of record. If a record category has an official home at PM, use it even when another department holds a copy. Budgets and invoices go to Finance; personnel files and the CVs of PM employees and job applicants go to HR. CVs and biographical sketches inside research proposals or grant applications go to R&D.
+R4: Contracts go to their subject. Union and benefits contracts go to HR, supplier contracts to Finance. Legal keeps litigation, legal advice and patents.
+R5: Meeting notes and agendas go to the department of the meeting's subject. Cover sheets and transmittals take the type of what they carry, when that shows on the page.
+R6: Mark "unsure" and add a short note when you hesitate. Unsure labels are kept and measure label noise.
+R7: Exclude a document (with a reason) only if it is blank, unreadable, or not a business record. Folder covers and separator sheets that show only a date, tab or Bates number are excluded too; a folder whose label shows its contents takes that type (R5).
+R8: Non-tobacco businesses PM owned (Kraft, General Foods, Miller and others) are excluded. Note "non-tobacco - company or brand".
+R9: Money pages. If Accounts Payable would need the page to pay, approve or record money, or it reports PM's own budgets or results, it goes to Finance, whatever the activity behind it. A report that only mentions dollars goes to the department whose work it reports.
+R10: Duplicates. A page that repeats another document already in the set is excluded. Note "duplicate of <id>".

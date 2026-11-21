@@ -1,0 +1,47 @@
+'98 Continuity - Direct Mall Taperprece
+12
+• Direct group funding/mailing Marlboro 0-19% loyal, Competitve 0-79% loyai (in boid) Assumptions: 84
+• Malling to cost same as 1997 volume mailing ($10 per piece)
+• Catalog estimated at $.20 11.30
+Bucket Quanity Continuity Cost Cost by Age Cost by Behavior Bonus Miles Coupons
+Marlboro 80% loyal 21-29 Current redeemers 726,684 $ 1,090,026 50
+Marlboro 20-79% toyal 21-29 Current redeemers 42,176 $ 63,264 100
+Marlboro 0-19% loyal 21-29 Current redeemers 40,183 $ 8,037 0 yes
+Competítve 80% loyal 21-29 Current Redeemers 5,829 $ 8,744 50
+Competitve 0-79% Ioyal 21-29 Current Hedeemers 12,410 $ 2,482 $ 1,172,552 0 yes
+
+Marlboro 80% loyal 30-55 Current redeemers 1,897,486 $ 2,466,732 0
+Marlboro 20-79% loyal 30-55 Current redeemers 346,101 $ 519,152 50
+Mariboro 0-19% loyal 30-55 Current redeemers 396,251 $ 79,250 0 yes
+Competitve 80% Ioyal 30-55 Current Redeemers 14,852 $ 22,278 50
+Competitve 0-79% loyal 30-55 Current Redeemers 93,281 $ 18,656 $ 3,106,068 0 yes
+2F
+Marlboro 0-19% loyal 56-75 Current redeemers 67,858 $ 13,572 0 yes
+Competitve 0-79% loyal 56-75 Current Redeemers 13,841 $ 2,768 $ 57,274 S 4,335,894 0 yes
+Marlboro 80% loyal 21-29 Prior redeemers 462,985 $ 694,478 100
+Marlboro 20-79% loyal 21-29 Prior redeemers 34,863 S 52,295 125
+Marlboro 0-19% loyal 21-29 Prior redeemers 52,913 S 79,370 125
+Competitive 80% loyal 21-29 Prior redeemers 2,364 ES 3,546 100
+or 宗282 5 4,456 $ 834,144 0 yes
+Marlboro 80% loyal 30-55 Prior redeemers 973,849 $ 1,460,774 50
+Marlboro 20-79% loyal 30-55 Prior redeemers 187,054 S 280,581 100
+Marlboro 0-19% loyal 30-55 Prior redeemers 235,888 $ 353,832 100
+Competitive 80% loyal 30-55 Prlor redeemers 7,497 S 11,246 50
+Competitive 0-79% loyal 30-55 Prior redeemers 115,112 23,022 $ 2,129,454 0 yes
+Marlboro 0-19% loyal 56-75 Prior redeemers 28,841 $ 43,262 0
+Competitive 0-79% loyal 56-75 Prior redeemers 16,004 $ 3,201 9 80,730 $ 3,044,329 0 yes
+Marlboro 80% loyal 21-29 New to database 209,659 S 314,489 50
+Maríboro 20-79% loyal 21-29 New to database 32 48 100
+Marlboro 0-19% loyal 21-29 New to database 54,747 10,949 0 yes
+Compelitive 80% loyal 21-29 New to database 13,166 S 19,749 50
+Competitive 0-79% loyal 21-29 New to database 92,624 S 138,936 $ 484,171 100
+号 心
+Marlboro 80% loyal 30-55 New to database 78,696 $ 118,044 50
+Mariboro 20-79% loyal 30-55 New to database 358 $ 537 50
+Marlboro 0-19% loyal 30-55 New to database 199,748 S 39,950 0 yes
+Competitive 80% loyal 30-55 New to database 2,035 $ 3,053 50
+Competitive 0-79% loyal 30-55 New to database 291,912 S 437,868 $ 599,451 50
+Marlboro 0-19% loyal 56-75 New to database 20,111 $ 4,022 0 yes
+Competitive 0-79% loyal 56-75 New to database 69,800 S 104,700 9 549.643 $ 1,633,265 0
+TOTAL COST $ 9,013,487
+02410

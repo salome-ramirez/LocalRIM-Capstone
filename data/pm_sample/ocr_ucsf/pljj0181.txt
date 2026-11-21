@@ -1,0 +1,50 @@
+LOOP GRAPHIC 
+INSTRUMENT INTERCONNECTION DIAGRAM 
+TAG NO 
+FIELD 
+MACHINE, 
+TRAY 
+> 
+WATER 
+IS* 
+o 
+o 
+F C V : " 3 3 5 A ~ AS 
+IOO PSIG 
+M EK 
+0 _ ^ 5 W " S — 
+17 VAC 
+J S £ 3 * 
+"M'd&r* 
+• b < l 
+'/s/Mert-. zz- 
+6°&7 
+TB-3 
+StE 
+H 
+ELECT. DWG. 
+& & / ~ 2L-2-
+s*i 
+P»ID 0WS.N0. 
+MOTES » COMMITS. 
+^ACTUATED ON OPERATOR OEMAJtO. 
+J 
+otrt 
+*W&#IC 
+ttSfiL 
+BY 
+\\$*l 
+iHiT^tATO** 
+REVISION 
+NO DATE 
+BY 
+REVISTOTT 
+PARK 5 0 0 
+LOOP TITLE 
+FELT WASHJ? 
+DUMP VALVEgf 
+PROJECT WQ. 
+DHK 
+DHK 
+^* 
+# 

@@ -1,0 +1,63 @@
+2
+5 
+2
+date 89-09-20 time 11:44
+GET PH 4 # 152
+C00= .087 
+pH(init) 7.81
+V/ml PH
+EP1 .800 4.86
+RS1 .0480
+RS2 0584
+RS3 121.48 2
+stop volt.reached
+dote 89-09-20 time 11:52
+GET PH 4# 153
+C00= .087 9
+pH(init) 10.91
+RS1 0480
+#EP not correspondine
+2051391195
+GET PH 共 153
+pause 4004 5
+titr.dosimat
+electr. input
+titr.rate .75 ml/min
+anticip. 50
+stop V 5.00 ml
+stop pH 3.00
+start pH 7.50
+temp. 25.0 ℃
+EP crit. 1
+date 89-09-20 time 11:44
+GET pH 4 # 152
+C00= .087 s
+pH(init) 7.81
+V/ml pH
+EP1 .800 4.86
+RS1 .0480
+RS2 .0584
+RS3 121.48 %
+stop volt.reached
+========
+
+date 89-09-20 time 11:52
+GET pH 4 # 153
+C00= .087 s
+pH(init) 10.91
+RS1 .0480
+#EP not corresponding
+========
+
+2051391195
+GET pH 4 # 153
+pause 3 s
+titr.dosimat 2
+electr. input 1
+titr.rate .75 ml/min
+anticip. 50
+stop V 5.00 ml
+stop pH 3.00
+start pH 7.50
+temp. 25.0 °C
+EP crit. 1

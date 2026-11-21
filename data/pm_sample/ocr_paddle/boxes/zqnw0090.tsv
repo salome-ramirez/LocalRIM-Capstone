@@ -1,0 +1,75 @@
+x1	y1	x2	y2	conf	text
+870.0	146.0	1372.0	184.0	99.9	RST20 RELEASE APPROVAL
+928.0	190.0	1312.0	223.0	100.0	Supporting Document Form
+184.0	222.0	267.0	259.0	100.0	Area*
+200.0	265.0	640.0	296.0	100.0	Marketing and Consumer Research
+1120.0	263.0	1239.0	302.0	100.0	Manager
+1806.0	272.0	1877.0	311.0	95.9	Date
+1121.0	300.0	1248.0	338.0	100.0	Signature
+185.0	335.0	341.0	373.0	100.0	Sub-Title**
+200.0	380.0	702.0	410.0	99.2	Internal Panel and COC Testing Results
+1123.0	378.0	1360.0	416.0	99.9	Director Signature
+1806.0	384.0	1881.0	428.0	100.0	Date
+188.0	455.0	260.0	493.0	99.9	Item
+278.0	454.0	355.0	496.0	100.0	Spec
+513.0	452.0	602.0	492.0	100.0	Name
+834.0	457.0	992.0	488.0	100.0	Description
+1099.0	456.0	1228.0	492.0	100.0	Outcome
+1409.0	461.0	1487.0	495.0	99.8	Issue
+1775.0	467.0	1949.0	503.0	100.0	RST20 Issue
+211.0	492.0	241.0	527.0	99.0	#
+303.0	491.0	333.0	524.0	99.8	#
+450.0	490.0	666.0	523.0	73.1	Pr  c.)
+805.0	489.0	1021.0	522.0	71.5	(Pro c ic.)
+1094.0	492.0	1236.0	525.0	79.1	(Okay/Ilssue)
+1368.0	497.0	1529.0	535.0	68.9	Desion
+1718.0	505.0	2008.0	539.0	99.7	Recommendation***
+202.0	564.0	222.0	591.0	99.8	1
+389.0	562.0	708.0	591.0	99.1	Subjective acceptance relative
+749.0	560.0	1070.0	593.0	99.2	Four types of internal sensory
+1094.0	559.0	1164.0	599.0	100.0	Okay
+390.0	593.0	707.0	622.0	100.0	to marketplace benchmarks of
+752.0	595.0	1066.0	622.0	100.0	panels, quantitative replicated
+392.0	626.0	698.0	650.0	98.4	Merit Ultra .ights and Salem
+751.0	627.0	1011.0	651.0	99.9	measures on key sensory
+392.0	657.0	520.0	685.0	99.9	Ultra Lights
+751.0	657.0	1022.0	684.0	99.8	parameters. (One type of
+751.0	687.0	987.0	714.0	100.0	panel is same used for
+753.0	720.0	1036.0	744.0	99.9	subjective release of other
+753.0	750.0	1041.0	774.0	97.3	new and modified domestic
+753.0	781.0	1023.0	805.0	99.9	and international brands.)
+204.0	875.0	226.0	900.0	100.0	4
+393.0	873.0	687.0	900.0	99.8	Cleaning method minimizes
+755.0	874.0	1067.0	898.0	99.0	Internal Diary Panel extended
+1099.0	866.0	1167.0	906.0	97.2	Okay
+394.0	905.0	712.0	932.0	100.0	odor in the lighter and charger
+754.0	903.0	988.0	930.0	99.9	use studies of Accord
+755.0	936.0	1064.0	960.0	98.3	development prototypes and,
+755.0	967.0	1061.0	990.0	97.8	most recently, of commercial
+753.0	994.0	831.0	1023.0	96.3	model.
+1364.0	1024.0	1640.0	1090.0	90.8	Lingrring adon
+1343.0	1083.0	1612.0	1146.0	86.9	(rcom, clothus)
+206.0	1120.0	251.0	1152.0	99.5	5-6
+395.0	1120.0	717.0	1149.0	100.0	Research conducted at Peryam
+1101.0	1145.0	1170.0	1184.0	100.0	Okay
+1380.0	1139.0	1593.0	1181.0	68.0	A-d smaró
+394.0	1149.0	547.0	1180.0	98.8	& Kroll, 1997
+1379.0	1176.0	1660.0	1227.0	90.9	visib.lit, tost
+1378.0	1213.0	1647.0	1279.0	82.8	Cavdectod
+206.0	1274.0	238.0	1307.0	96.1	9-
+397.0	1274.0	726.0	1304.0	99.8	Reliability and Funetionality of
+757.0	1275.0	1063.0	1301.0	100.0	Diary and consumer research
+1103.0	1269.0	1171.0	1307.0	99.9	Okay
+211.0	1303.0	244.0	1336.0	100.0	14
+397.0	1305.0	726.0	1334.0	100.0	Features under extended use by
+758.0	1305.0	1059.0	1332.0	100.0	of prototypes up through the
+398.0	1342.0	515.0	1363.0	100.0	consumers.
+758.0	1335.0	1034.0	1362.0	98.4	E2 pre-commercial model
+758.0	1365.0	1060.0	1391.0	99.6	show that commereial model
+761.0	1398.0	1062.0	1422.0	100.0	features perform as expected
+762.0	1429.0	1054.0	1453.0	100.0	with ongoing consumer use.
+188.0	1533.0	336.0	1557.0	99.8	Doc. Code: P0622
+1936.0	1543.0	2093.0	1567.0	98.0	Form: Rev 1, 6/8/98
+190.0	1559.0	419.0	1580.0	99.7	Philip Morris USA Confidential
+628.0	1551.0	856.0	1596.0	100.0	2064704403
+189.0	1582.0	484.0	1606.0	46.1	Wd

@@ -1,0 +1,68 @@
+From Massoud Mobrem 12/17/97
+This information will be used to statistically evaluate Low Side Stream
+Paper samples in Round Robin.
+F -Test (Std/std)² Critical "F" is in table, degrees of
+freedom (n-1)
+A. Formula or
+B. Import from Tools (Data analysis)
+F Test in Excel
+1. COv (Coefficient of variation
+coV = Std/Avg
+use var = from Excel
+Finv. To get critical (.05,4,4)
+Avg.
+std.
+Var.
+F Test Large var/small var =
+**Critical = Finv (.05,4,4)
+T Test (2 tail)
+Must do F test first to determine type of T test (2 or 3) check help
+If critical F is larger than F test # then use 2 type, if smaller use 3
+type. See help in Excel under T test)
+To do Regression
+Tools, data analysis, regression, PM = Y, SWM = X , ok
+-pm swm
+Critical T Tinv(0.05,8)
+个 203
+(Tinversa)
+2076125708
+LRm
+From Massoud Mobrem 12/17/97
+
+This information will be used to statistically evaluate Low Side Stream Paper samples in Round Robin.
+
+F -Test $(\text{Std/Std})^2$ Critical "F" is in table, degrees of freedom (n-1)
+
+A. Formula or
+B. Import from Tools (Data analysis)
+
+F Test in Excel
+
+1. COV (Coefficient of variation
+   COV = Std/Avg
+   use var = from Excel
+
+$F_{\text{inv.}}$ To get critical $(.05,4,4)$
+
+Avg.
+Std.
+Var.
+
+F Test Large var/small var =
+
+**Critical $F_{\text{inv.}}$ $(.05,4,4)$
+
+T Test (2 tail)
+
+Must do F test first to determine type of T test (2 or 3) check help
+
+If critical F is larger than F test # then use 2 type, if smaller use 3 type. See help in Excel under T test
+
+To do Regression
+Tools, data analysis, regression, PM = Y, SWM = X, ok
+
+TINV(Ttest (J4:J8, K4:K8, 2,2),8)
+
+Critical T Tinv(0.05,8)
+
+( T inverse )

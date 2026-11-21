@@ -1,0 +1,71 @@
+D
+
+PHIIUSA TE
+2
+TO: C. Levy DATE: July 25, 1995
+FROM: A. Goldfarb
+SUBJECT: M&SS.....Q3 Priorities
+Carolyn, the following provides you with the major initiatives M&SS will be focusing on
+during the 3rd quarter.
+Brand Information Systems
+•Brand Analyst
+-Executive/Industry Overview.....complete and roll out version for Senior
+Management (inclusive of Business Planning triggers) and general user
+community.
+-BA version 1. 1.....complete and implement version 1.1 which includes
+functionality defined in original scope but held off so as not to delay the first
+release of BA. Key functional enhancements include.....Publish and Subscribe
+and Quick Chart.
+-BA version 1.2..... design 1.2 deliverable which will offer added functionality
+to the end user community and also provide PM forecast and shipment
+information through BA. Actual roll out of version 1.2 will be by year-end.
+•DataNet
+-MapViewer..... provide DataNet users with an easy to use graphical map display
+of data output. Release to users is targeted for late August.
+-Hierarchical Picker..... develop and release a common picker for brands and geos
+across all databases. Release date is projected as late September.
+•Media Management
+-Conduct the business requirements phase for a future Media Management
+system. Actual completion of the requirements phase will be October.
+Promotion Management
+•PMCS
+-PMCS 2.0.....complete development for Marketing and begin system testing for
+planned Q4 roll out.
+-PMCS 2. 1/SFA Ordering..... complete all requirements and design specifications
+and begin actual coding. 2061618528
+•Promotion Analysis
+-Roll application out to the user community during the September time frame.
+PHILIP MORRIS USA
+INTER-OFFICE CORRESPONDENCE
+120 PARK AVENUE, NEW YORK, NY 10017-5592
+
+TO: C. Levy
+FROM: A. Goldfarb
+DATE: July 25, 1995
+
+SUBJECT: M&SS.....Q3 Priorities
+
+Carolyn, the following provides you with the major initiatives M&SS will be focusing on during the 3rd quarter.
+
+Brand Information Systems
+
+• Brand Analyst
+  - Executive/Industry Overview...complete and roll out version for Senior Management (inclusive of Business Planning triggers) and general user community.
+  - BA version 1.1...complete and implement version 1.1 which includes functionality defined in original scope but held off so as not to delay the first release of BA. Key functional enhancements include...Publish and Subscribe and Quick Chart.
+  - BA version 1.2...design 1.2 deliverable which will offer added functionality to the end user community and also provide PM forecast and shipment information through BA. Actual roll out of version 1.2 will be by year-end.
+
+• DataNet
+  - MapViewer...provide DataNet users with an easy to use graphical map display of data output. Release to users is targeted for late August.
+  - Hierarchical Picker...develop and release a common picker for brands and geos across all databases. Release date is projected as late September.
+
+• Media Management
+  - Conduct the business requirements phase for a future Media Management system. Actual completion of the requirements phase will be October.
+
+Promotion Management
+
+• PMCS
+  - PMCS 2.0...complete development for Marketing and begin system testing for planned Q4 roll out.
+  - PMCS 2.1/SFA Ordering...complete all requirements and design specifications and begin actual coding.
+
+• Promotion Analysis
+  - Roll application out to the user community during the September time frame.

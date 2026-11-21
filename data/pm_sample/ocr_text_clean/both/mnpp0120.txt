@@ -1,0 +1,27 @@
+INBIFO Institut für biologische Forschung · Köln
+19.Jun.84 DRWK/RZ RZ40 (DIV) B24
+FILE DRWK
+REFNR
+F0499
+SCHLAGWORTE (max. 80 Zeichen)
+Nisnt RAP, Mar.85
+BEMERKUNG (max. 80 Zeichen)
+# motes, agenda
+4
+2KW83
+INBIFO Institut für biologische Forschung · Köln
+19. Jun. 84 DRWK/RZ RZ40 (DIV) B24
+
+FILE DRWK
+==========
+
+REFNR
+F0499
+
+SCHLAGWORTE (max. 80 Zeichen)
+
+RAP, Max. 85
+
+BEMERKUNG (max. 80 Zeichen)
+
+# Notes, agenda

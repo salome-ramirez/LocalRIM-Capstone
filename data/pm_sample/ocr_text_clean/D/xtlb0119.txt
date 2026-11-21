@@ -1,0 +1,23 @@
+Nicotine vs Placebo Gum in General Medical Practice
+
+John R. Hughes, MD; Steven W. Gust, PhD; Robert M. Keenan; James W. Fenwick, PhD; Margaret L. Healey, PhD
+
+Three hundred fifteen smokers who attended a family practice clinic and wished to quit smoking were assigned in a random, double-blind manner to receive either nicotine (2 mg) or placebo gum. Smokers initially received brief advice from a physician and nurse, a slide presentation and written materials (29 to 35 minutes), and a single follow-up visit (12 to 20 minutes) one week after cessation. After corrections for marital status and income, 10% of those who received nicotine gum and 7% of those who received placebo gum reported continuous abstinence for 11 months and passed observer and biochemical verification (this difference was not statistically significant). We conclude that, when used in a nonselected group of smokers along with a brief intervention in a general medical practice, the pharmacologic effects of nicotine gum to increase cessation are either small or nonexistent.
+
+(JAMA 1989;261:1300-1305)
+
+NICOTINE gum is an effective aid to smoking cessation when used with a behavioral program in smoking cessation clinics or, in some instances, with a behavioral program in general medical practices. In fact, the Food and Drug Administration-approved use for the gum specifically states that the gum is to be used only with a behavioral program (Nicorette package insert, Merrell Dow Pharmaceuticals, Cincinnati, 1984). However, 99.5% of those given the gum are not in such a program but rather receive gum during a brief visit with their physician. This is because few smokers seen in general practice are willing to attend behavioral programs (<2% in one study).
+
+It is unclear whether nicotine gum is effective when used with brief interventions. Ten trials randomly assigned smokers to advice alone vs advice plus nicotine gum and determined long-term cessation (Table 1). Six found higher quit rates in the gum group and four did not. Three trials showed a statistically significant advantage with the addition of nicotine gum. In the six positive trials, the absolute increase in long-term quit rates with use of nicotine gum ranged from 4% to 7%. except one study found a 16% increase. The relative increase in quit rates ranged from 1.3 to 2.7 times more cessation in the nicotine gum group than in the group not receiving gum.
+
+Two of the previously cited trials and two other studies randomly assigned smokers to receive either nicotine or placebo gum along with a brief intervention. One study reported 8% higher quit rates with nicotine gum over placebo gum at six-month follow-up.
+
+We believed another placebo-controlled trial of nicotine gum and brief intervention was indicated for two reasons. First, the prior positive placebo-controlled trial selected only highly motivated subjects, failed to biochemically verify all abstainers, and failed to report one-year outcome. On the other hand, the prior negative placebo-controlled trial used populations known to be resistant to smoking cessation treatment, failed to provide adequate physician training, and lacked appropriate follow-up. We planned our trial to avoid these problems and to provide results more generalizable to the typical smoker/physician interaction that occurs in a general medical practice.
+
+SUBJECTS AND METHODS
+
+Subjects
+
+Three hundred fifteen smokers were recruited from two nonacademic, family practice clinics of a health maintenance organization. The clinics were located in suburban Minneapolis. Subjects were recruited both by physician referral and by word of mouth. Recruitment occurred between November 1984 and June 1985, which was nine to 16 months after nicotine gum began being marketed in the United States.
+
+Inclusion criteria were daily cigarette smoking, a desire to stop smoking (as indicated by willingness to set a quit date within two weeks), and the ability to chew gum. Exclusion criteria were prior use of nicotine gum, use of tobacco other than cigarettes, and a contraindication to nicotine gum. Since referring

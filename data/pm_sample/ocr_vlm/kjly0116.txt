@@ -1,0 +1,18 @@
+RESTRICTED DISTRIBUTION
+
+To: Dr. E. B. Sanders
+Date: June 11, 1985
+From: A. H. Warfield
+Subject: TRIP REPORT -- CONFERENCE ON ORGANIC AND BIOLOGICAL CHEMISTRY OF CARCINOGENIC AND CARCINOSTATIC AGENTS CONTAINING NITROGEN-NITROGEN BONDS; HARPERS FERRY, WEST VIRGINIA, MAY 17-21, 1985
+
+The above meeting was held at the Cliffside Inn just outside of Harpers Ferry. Approximately 100 people were in attendance. Most of these are employed in universities and research institutes, with a few from government, and very few from industry. In effect, it was an international meeting, since there were as many countries represented as for the Banff meeting on nitrosamines in 1983. In fact, many of the principal people in nitrosamine research in the world were there.
+
+There were three full days of oral presentations, and one evening of poster sessions. There were papers on various aspects of the chemistry, metabolism, and biological activity of nitrosamines and a number of related classes of compounds. The papers were all presented in single sessions. The overall quality of the papers was excellent, with a few exceptions.
+
+There were no abstracts or preprints available. Consequently, the only information on most of the papers is the notes I took, and some of the speakers covered the material very rapidly. This was due to the fact that they were only expecting about 30 papers, and had planned to allow 20-25 minutes for each. The large number of papers accepted forced the limitation of the presentations to 12 minutes. However, I was able to still get a lot of useful information which I have summarized below in the order of presentation.
+
+S. S. Hecht (AHF): Chemistry, DNA binding, and carcinogenesis of TSNA and related model compounds. NDMA, NNN and NNK were bioassayed in F344 rats for tumorigenicity. NNK was more potent than NDMA. The annual exposure of snuff dippers to NNK is 0.3 mmol/Kg. The relative rate of methylation of DNA was measured by HPLC/fluorescence. DMNA methylates DNA faster than does NNK. 0-6 Methyl guanine was the compound measured. Obviously, other factors are involved, since the results of the DNA methylation studies do not correlate with the biological results. Pyridyl oxobutylation gives an intermediate which is mutagenic. The adduct was isolated and identified -- a deoxyguanosine adduct. A Deoxycytidine adduct was also isolated in 10% yield. NNN adducts with DNA were also found -- there were 5'- and 2'- adducts. Keto nitrosourethanes are potent mutagens, but aldehyde-nitrosourethanes are non-mutagenic.
+
+DEOXYGUANOSINE ADDUCT
+
+KETO-NITROSOURETHANE

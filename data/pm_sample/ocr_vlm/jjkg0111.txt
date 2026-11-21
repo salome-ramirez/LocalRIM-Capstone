@@ -1,0 +1,16 @@
+Examples of CO2 concentration profiles:
+Four trains taken on Nov. 30th.
+
+CO2 conc. (ppm)
+
+Time (min.)
+
+Fare characterization
+
+New com. N/S 68% occ
+
+Old dir. N/S 43-66%
+
+I.C., S, 65% occ
+
+New com. N/S 56-15%

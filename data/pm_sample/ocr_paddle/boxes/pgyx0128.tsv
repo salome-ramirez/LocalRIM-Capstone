@@ -1,0 +1,44 @@
+x1	y1	x2	y2	conf	text
+1066.0	183.0	1600.0	227.0	97.7	PHILIP MORRIS U. S. A.
+1943.0	215.0	2246.0	322.0	100.0	RECEIVED
+767.0	271.0	1899.0	320.0	99.7	INTER-OFFICECORRESPONDENCE
+1914.0	328.0	2216.0	427.0	82.7	AN 1 5 1992
+1136.0	366.0	1533.0	417.0	100.0	Richmond, Virginia
+1872.0	428.0	2235.0	556.0	100.0	CLIFF LILLY
+438.0	553.0	519.0	605.0	100.0	To:
+666.0	557.0	1036.0	605.0	98.6	Dr. K. S. Houghton
+1639.0	554.0	2089.0	602.0	98.4	Date: January 13, 1991
+440.0	648.0	574.0	699.0	97.5	From:
+666.0	650.0	904.0	698.0	100.0	Ted Sanders
+441.0	744.0	629.0	793.0	100.0	Subject:
+658.0	741.0	2233.0	797.0	99.1	Paper Technology Update for the Weeks of December 23, December 30, and
+664.0	808.0	873.0	857.0	100.0	January6
+446.0	994.0	855.0	1035.0	100.0	Reduced Sidestream
+580.0	1111.0	696.0	1162.0	100.0	Trim
+582.0	1234.0	2238.0	1287.0	99.7	Considerable attention has been devoted to the single-wrap Superslims. A rapid
+443.0	1296.0	2236.0	1348.0	100.0	analysis of QA data on cigarettes produced at Louisville through December would tend to
+441.0	1356.0	2236.0	1412.0	99.3	suggest that a consistent sidestream reduction of 70% would not be achieved with currently
+443.0	1420.0	2233.0	1474.0	98.5	specified 10-062A paper (53 g/m² basis weight, 10.5% MKP, and 10.5 Coresta), although
+443.0	1482.0	2233.0	1535.0	98.7	additional work must be done to confirm this supposition. It appears that the sidestream
+441.0	1542.0	2236.0	1594.0	99.7	reduction range which would be achieved using this paper would be 66-69%. As a
+441.0	1605.0	2236.0	1658.0	99.7	consequence, four approaches have been proposed to redesign the paper with the goal of
+443.0	1666.0	1204.0	1719.0	99.7	completing the redesign by early March.
+581.0	1786.0	2235.0	1844.0	99.5	The first approach is to modify the process which is used to coat and dry the paper to
+445.0	1852.0	2232.0	1899.0	99.8	increase the extent of the reaction between MKP and the calcium carbonate filler. As has been
+441.0	1911.0	2236.0	1967.0	99.6	reported previously, when this reaction is allowed to proceed to a greater extent, through either
+442.0	1974.0	2237.0	2027.0	100.0	increasing the temperature of the coating solution or increasing the drying time, the amount of
+443.0	2036.0	2235.0	2086.0	99.9	water-extractable phosphate decreases, and the sidestream reduction increases. The four
+442.0	2096.0	2241.0	2153.0	99.6	papers, reported on previously, made using the in-line size press in Spotswood (8.5, 10.5, and
+448.0	2160.0	2237.0	2210.0	99.9	12.5 Coresta, with the 10.5 Coresta produced at two different drying regimens) were received
+444.0	2220.0	2237.0	2271.0	99.5	last week and have been submitted for analysis. However, a rapid analysis carried out at
+2324.0	2249.0	2387.0	2683.0	100.0	2020020057
+444.0	2280.0	2240.0	2335.0	99.6	Spotswood of the two 10.5 Coresta papers indicates that there may not be significantly less
+442.0	2342.0	2238.0	2394.0	99.2	extractable phosphate in the paper dried for a longer time. Nevertheless, cigarettes will be
+443.0	2402.0	2237.0	2453.0	98.7	made at Louisville next week. It is possible that sufficient control of the process can not be
+444.0	2463.0	2232.0	2513.0	99.2	obtained with the in-line size press at Spotswood, which would preclude this approach.
+447.0	2523.0	2237.0	2577.0	100.0	(Although, it is likely that this approach would succeed if the coating and drying were carried
+444.0	2585.0	1779.0	2635.0	100.0	out at Ancram, the additional expense makes this option unacceptable.)
+584.0	2704.0	2237.0	2759.0	99.2	The second approach is to respecify the paper with respect to Coresta permeability
+444.0	2766.0	2235.0	2818.0	99.7	and/or MKP level. The 8.5 Coresta paper received last week from Spotswood would be one
+443.0	2824.0	2238.0	2884.0	99.4	appropriate candidate, and the availability of other base sheets is being investigated This
+444.0	2888.0	2241.0	2944.0	98.7	approach will clearly achieve the desired sidestream reduction; however, it will also lead to an

@@ -1,0 +1,91 @@
+Ballot Response # Assign 4009 # Ballot
+n 4 uO P STU  2 Parrt# 800 Type S
+# Panelist 15101 Ω acte Red 十 0
+H- O a H
+心 D S
+#Seq #? date Resp Question Description Item Id Item Type Value - Int / Txt / Vch
+1 52 Interview Date : (MM/DD/YY) G 04/15/98
+2 98 PLACES/TIMES SELF-RESTRICT? (Does the consumer have any G designated smoking areas outside of job
+other places/times he/she self restricts?)
+3 23 AWARE OF ACCORD? (Had the consumer heard of Accord prior G 0
+to coming to the COC ?)
+4 99 HOW? (How had the consumer heard of Accord prior to coming to G 0
+the COC?)
+5 87 WHAT HAPPENED WHEN RECEIVED BROCHURE? D0003 D Gusband opened first, consumer read whole brochure immediately,
+thought it gave enough info
+6 88 REASONS CALLED 800 NUMBER/LIKES: G Interested in non- smoke future, waited one day before she called
+7 130 THINGS POSSIBLY MIGHT LIKE: (was there anything that you G ßeing able to smoke around non- smokers
+thought you might like about the product idea after reading the
+brochure.)
+8 89 THINGS POSSIBLY MIGHT NOT LIKE: (was there anything that G ßone right now
+you thought you might not like about the product idea after reading
+the brochure?)
+9 168 Expected price minimum? (what would be the minimum price the G 050
+consumer would expect to pay?)
+10 169 Expected price maximum? (what is the maximum price the G 0
+consumer would expect to pay?)
+11 30 TYPE OF ADULT SMOKER FOR ACCORD? where 1 = smokers G 4
+like me, 2 = other smokers, 3 = not sure, 4 = smokers like me &
+other smokers, 5 = smokers concerned about others
+12 96 ADDITIONAL COMMENTS: G 0
+13 1 Interviewer Name : G θandra
+14 2 Scribe : G Dannette
+15 5 Interview Start Time : G 06:10 p
+16 6 Interview End Time : G 06:42 p
+17 97 ACCORD TRIED? (y/n) G 0
+18 10 IVde £0003 A 0
+N/人 (2
+19 115 F V VEO' A 0
+20 90 HOW COMPARES WITH EXPECTATIONS, where 1 = better, 2 = G 1
+same, 3 = different
+21 131 LIKES (what consumer likes about Accord after trying) G do not have to worry about burning anything
+22 132 DISLIKES (what consumer dislikes about Accord after trying?). G getting use to longer , harder puff
+23 17 LIKING (If the consumer tried an Accord cigarette, how much did T001562 T 5
+he/she like it overall?)
+where 1 = dislike very much, 7 = like very much
+24 75 2066023093 Why? (Why did the consumer give that particular "Overall Liking" G aste is good , have to get use to puffs
+score?)
+25 18 #TRIED (How many Accord cigarettes did the consumer smoke ?) T001562 T 2
+26 8 MARKET TRIAL INTEREST ? (If the product became available on G 8
+the market, would the consumer be interested in trying the product
+?) Y/N
+GC Re 巴 O 0 Conf na ers Page 1 of 2
+Friday, April 24, 1998 # Panelist 15101 Panelist Name pea ap 1
+2066023093 nt O
+Ballot Response
+# Assign 4009 # Ballot 4
+# Panelist 15101
+
+STUDY # 2 Part # 800 Type S
+
+#Seq #? date Resp Question Description Item Id Item Type Value - Int / Txt / Vch
+1 52 Interview Date : (MM/DD/YY) G 04/15/98
+2 98 PLACES/TIMES SELF-RESTRICT? (Does the consumer have any other places/limes he/she self restricts?) G Designated smoking areas outside of job
+3 23 AWARE OF ACCORD? (Had the consumer heard of Accord prior to coming to the COC?) G 0
+4 99 HOW? (How had the consumer heard of Accord prior to coming to the COC?) G 0
+5 87 WHAT HAPPENED WHEN RECEIVED BROCHURE? D0003 D Busband opened first, consumer read whole brochure immediately, thought it gave enough info
+6 88 REASONS CALLED 800 NUMBER/LIKES: G Interested in non-smoke future, waited one day before she called
+7 130 THINGS POSSIBLY MIGHT LIKE: (was there anything that you thought you might like about the product idea after reading the brochure.) G Being able to smoke around non-smokers
+8 89 THINGS POSSIBLY MIGHT NOT LIKE: (was there anything that you thought you might not like about the product idea after reading the brochure?) G None right now
+9 168 Expected price minimum? (what would be the minimum price the consumer would expect to pay?) G $50
+10 169 Expected price maximum? (what is the maximum price the consumer would expect to pay?) G 0
+11 30 TYPE OF ADULT SMOKER FOR ACCORD? where 1 = smokers like me, 2 = other smokers, 3 = not sure, 4 = smokers like me & other smokers, 5 = smokers concerned about others G 4
+12 96 ADDITIONAL COMMENTS: G 0
+13 1 Interviewer Name: G Bandra
+14 2 Scribe: G Bannette
+15 5 Interview Start Time: G 06:10 p
+16 6 Interview End Time: G 06:42 p
+17 97 ACCORD TRIED? (y/n) G 9
+18 10 VIDEO SHOWN? (Did the interviewer show the consumer a video?) V 9
+19 115 IF YES, ID# OF VIDEO? V 0
+20 90 HOW COMPARES WITH EXPECTATIONS, where 1 = better, 2 = same, 3 = different G 1
+21 131 LIKES (what consumer likes about Accord after trying) G Do not have to worry about burning anything
+22 132 DISLIKES (what consumer dislikes about Accord after trying?). G Getting use to longer, harder puff
+23 17 LIKING (If the consumer tried an Accord cigarette, how much did he/she like it overall?) T 5
+24 75 Why? (Why did the consumer give that particular "Overall Liking" score?) G Taste is good, have to get use to puffs
+25 18 #TRIED (How many Accord cigarettes did the consumer smoke?) T001562 T 2
+26 8 MARKET TRIAL INTEREST? (If the product became available on the market, would the consumer be interested in trying the product?) G 8
+
+Friday, April 24, 1998
+# Panelist 15101 Panelist Name
+Page 1 of 2

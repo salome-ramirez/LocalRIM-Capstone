@@ -1,0 +1,96 @@
+1, Store Name:
+2. Retail Account # (8 digits):
+3. Territory #:
+4. Call #:
+5, Trade Class: (Circle One)
+C-Store/Supermarkel/Drug/Grocery/Other
+8. CPW:
+7. Retall Masters:
+8. Overhead Pack Merchandiser
+Sign: PM/Competitor/None!
+9. 2 PM Premium B-Displays: YIN
+MARLBORO ADVENTURE TEAM
+10. Miles on Pack:
+11. If NO, which packings don’t:
+YIN
+20.
+21
+22.
+23.
+24.
+25.
+26.
+27.
+Are any packings In distribution:
+Are any packings out-of-stock:
+Visibility: Front Counter/Rear Shelf/None|
+POS: YIN
+Price Call Out YIN
+Promotion: AO¢/incentive/None|
+Pack Price (lese any discount): s
+. Merchandising:
+„ Distribution:
+. Pack Price: s
+. Carton Price: $
+(Circte all that apply)
+B-Display / Carton Fixture / Dump Bin / Other
+. Competitive B/W and Private Label:
+Avall|Prices:
+Name |abie7|Pack
+Monarch YN Is
+ec YN Is
+Ask Aetalier: what brands’ smokers are now
+buying B&H Special Kings?
+YIN
+Counter/Floor/None
+Interior/Exterior/None|
+12. 2-Pack Promo Accepted:
+13. Display:
+14, POS:
+15. “Aisles For Miles”: YIN
+16. Are Store Personnel Familiar with
+. Are the following Premium Brands visible:
+YIN
+YIN
+YIN
+Virginia Slims
+Merit
+B&H _100's
+“Alsies For Miles":
+17. Usual Pack Price
+18. Deal Price: $_. for _ packs
+(example: $3.70 for 2 packs)
+149. Other MAT Promos: (Circle all that apply)
+Flashlight
+2-Pack with Flexcard
+“Win the Gear" store sweepstakes
+Other
+Djeep Lighter
+(fill In)
+LEVE9TSEIS
+Competitive:
+|. NEW ITEMS:
+Camel
+Winston Select
+Private StockY /N |s .
+Best Value [Y/N |s
+[van fs -
+{ta In other)
+. Which Brand Above is Best Positioned:
+(circle one number:) 12345
+. Price of Cambridge and Doral w/o coupon:
+Pack Price: x $
+Carton Price: $
+. Coupon Values:
+Predominant] Highest
+Cambridge
+Doral
+Newport
+Kool
+Salem
+Field Sales Force Comments:
+Savannah Lights
+Crown's of London
+|. Retailer & Consumer Comments:
+V. Sims 10-Pack
+Vantage Convertible

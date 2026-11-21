@@ -1,0 +1,53 @@
+x1	y1	x2	y2	conf	text
+954.0	386.0	1471.0	426.0	98.6	PHILIP MORRIS U. S. A.
+594.0	472.0	1122.0	514.0	99.6	INTER-OFFICE
+1228.0	473.0	1848.0	514.0	100.0	CORRESPONDENCE
+1619.0	511.0	1927.0	615.0	100.0	RESTRICTED
+1021.0	562.0	1431.0	603.0	99.7	Richmond, Virginia
+1601.0	590.0	1959.0	704.0	99.5	DISTRIBUTION
+316.0	739.0	388.0	778.0	100.0	To:
+532.0	736.0	826.0	780.0	97.8	.I. L. Uydess
+1426.0	736.0	1928.0	780.0	99.1	Date: August 30, 1989
+317.0	826.0	438.0	865.0	100.0	From:
+533.0	823.0	874.0	868.0	99.8	.L. H. Thompson
+318.0	909.0	1913.0	954.0	98.5	Subject: .Salmonella/Microsome (S/M) Assay -- Effects of Reverse Phase
+551.0	955.0	1732.0	998.0	99.1	Chromatography of Burley CEL Soluble Fraction (BuS1)
+431.0	1126.0	2053.0	1174.0	99.7	Reverse phase liquid chromatography methodology was used by M. Core and
+2217.0	1143.0	2241.0	1181.0	22.6	1
+316.0	1172.0	2046.0	1215.0	99.2	R. Izac to separate a burley CEL soluble fraction (BuSl) into two fractions
+322.0	1215.0	2048.0	1261.0	98.5	(F1 and F2). A complete description of the fractionation scheme and the
+319.0	1259.0	2047.0	1303.0	98.9	resulting samples has been documented (l). No sharp distinctions between
+320.0	1304.0	2039.0	1347.0	98.3	the two fractions were observed based upon chromatographic analysis (1).
+319.0	1345.0	2040.0	1390.0	99.8	The weight ratio of fraction 1 to fraction 2 was found to be about 3:1 (1).
+319.0	1391.0	2047.0	1434.0	98.9	These samples, along with a BuSl control were oversprayed onto bright
+318.0	1434.0	2049.0	1477.0	99.2	baseweb (Br Bw) and made into cigarettes (2). The IT CSCs from these test
+319.0	1475.0	2049.0	1521.0	98.7	and control cigarettes were evaluated in the S/M assay to determine any
+320.0	1518.0	958.0	1562.0	99.6	differential activities (3).
+434.0	1605.0	2050.0	1649.0	98.6	The four smokings from each sample as well as the preparation of the
+321.0	1650.0	2049.0	1694.0	98.8	CSCs (10 mg/ml) were done by members of Project 6912 (2,4) and stored at
+323.0	1693.0	2052.0	1737.0	99.0	-80°C until tested. The CSC yield data are shown in Table 1. It should be
+316.0	1735.0	2051.0	1780.0	99.8	noted that the F2 cigarette had a substantially higher CSC yield than both
+321.0	1779.0	2053.0	1822.0	98.5	the control and Fl cigarette (-70% higher). F2 was visibly much darker in
+319.0	1823.0	2051.0	1866.0	98.7	color than Fl (5). All samples were tested randomly according to the
+318.0	1864.0	2049.0	1909.0	99.2	standard test procedures (3,6). As shown in the addendum, the control data
+316.0	1909.0	2047.0	1951.0	98.8	were within the normal ranges. The attached experimental data demonstrate
+321.0	1953.0	2045.0	1993.0	99.7	that dose-responses were observed for these samples and that the responses
+316.0	1996.0	1253.0	2037.0	99.1	were at least twice the background level.
+433.0	2079.0	2049.0	2124.0	98.7	Table 1 also gives the results from the four smokings and analysis of
+316.0	2122.0	2047.0	2169.0	99.2	"variance (performed using ""Minitab""). There were no differences among the"
+317.0	2166.0	2048.0	2212.0	97.4	control (BuSl cigarettes) and the cigarettes made with the two test
+317.0	2208.0	2048.0	2254.0	97.8	fractions. However, a closer look at the data suggests that the higher
+318.0	2251.0	2048.0	2299.0	98.3	slope value for smoking 3 of the F2 cigarette is an obvious outlier
+319.0	2293.0	2048.0	2342.0	99.6	influencing the separation of means. When the slope value for smoking 3 of
+319.0	2337.0	2048.0	2385.0	98.6	the F2 cigarette was omitted from the analysis, F2 CSC was significantly
+319.0	2377.0	2051.0	2427.0	98.8	lower in specific activity (S.A.) than F1 CSC and the CSC control. While
+319.0	2421.0	2050.0	2471.0	98.6	this finding may indicate that the chromatography utilized did produce a
+319.0	2463.0	2051.0	2513.0	98.3	less active fraction, there is no evidence from the S/M assay that would
+2171.0	2466.0	2253.0	2934.0	100.0	2023410791
+320.0	2507.0	2050.0	2558.0	99.9	invalidate any of the data obtained and reported here (including the outlier
+319.0	2549.0	2051.0	2602.0	99.5	from smoking 3 of the F2 cigarette). Therefore, the initial conclusions
+318.0	2592.0	2046.0	2646.0	98.3	drawn from Table 1 (no differences among any samples) will remain.
+316.0	2636.0	2051.0	2687.0	99.9	Additionally, the magnitude of differences in S.A.s among the samples is not
+320.0	2678.0	2051.0	2730.0	99.4	enough to warrant a retest for further validation of these results. Because
+320.0	2720.0	2051.0	2773.0	99.7	the crossed soluble/baseweb study is ongoing, other fractionation schemes
+319.0	2768.0	1659.0	2813.0	98.4	will be applied in an effort to identify active components.

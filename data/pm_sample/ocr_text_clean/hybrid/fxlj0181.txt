@@ -1,0 +1,32 @@
+TRADE SECRET - PRODUCED BY PHILIP MORRIS - SUBJECTTO S, INC ET AL
+A DISTRIBUTED EXCEPT AS PROVIDED IN THE COURT'S ORDER. DOGUMENT AND LTS CONTENTS SHALL NOT BE USED, SHOWN OR
+PARK 5 0 0
+INTER-OFFICE CORRESPONDENCE
+Chester, Virginia
+To: Distribution Date: 01/04/91
+From: R. K. Garg
+SubjeCT: NEW HOT PLATE "OUICK" CONSISTENCY TEST
+Precise consistency measurement is always desirable for
+refining control in the sheet forming process. It has been
+addressed again and again that error in freeness measurement
+is due to error in consistency measurement. It is necessary
+to measure consistency accurately every time freeness
+measurement is being performed.
+A quick consistency test method has been developed for
+tobacco stock and it has been tested statistically for its
+accuracy, linearity and reproducibility. The hot plate
+method showed a 50% reduction in measurement error in
+measurement of Canadian Standard freeness of stock
+compared to Foxboro consistency method on Line III.
+Attached is a test request, test method and data sheet for
+new quick consistency test method. Please share this
+information with Area Senior Operator. Also, see attached
+;table for training schedule which will start next week.
+gn/a:a9.rkg
+Distribution: All Stock Prep Supervisors
+All Machine Room Supervisors
+Process Control Group
+C: D. L. Barfield
+W. G. Estes
+A. O. Hayes
+D. C. Saunders

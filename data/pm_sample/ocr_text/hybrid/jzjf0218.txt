@@ -1,0 +1,45 @@
+10. ACCORD QUESTIONS
+DRAFT ACCORD QUESTIONNAIRES
+Baseline
+Thank you for your recent purchase of the Accord Electrically Heated Cigarette Smoking System.
+Because Accord is a new cigarette and represents a new way to smoke, we are interested in
+monitoring your experience with the product over time. You will be paid $5.00 for your time.
+1. Did you read and understand the Consent Form when you enrolled in this study?
+Yes
+No, (If no, read the consent form to the participant.)
+2. Do you agree to participate in this survey?
+Yes
+No, (If no, "Thank you for your time, goodbye".)
+Please answer the following questions about you and your smoking behavior:
+3. How old are you? (Drop down, if under 18 display warning “You cannot participate in this study, you
+must be over 18 years old")
+4. Are you male or female? Radío buttons
+ Male (Go to Question 6)
+ Female (Go to Question 5)
+5. To your knowledge, are you now pregnant?
+ Yes, (Thank you, however, as stated in the Informed Consent, pregnant women are excluded from
+participation in this study. Goodbye.)
+ No
+Don't know/Not sure
+No answer
+6. Do you live alone?
+Yes (Omit questions 27)
+ No (Show question 27)
+7. At what age did you smoke your first cigarette?
+8. How old were you when you started smoking on a regular basis? (That is, when you began purchasing
+cigarettes and smoking at least one cigarette per day.)
+All Drop-down
+9. Did anyone in your family smoke regularly (every day) when you were growing up?
+Mother
+Father
+Sister
+Brother
+Other Family member
+Drop down
+10. When you buy cigarettes, do you usually buy cigarettes by the pack of by the carton? Radio buttons
+By the pack
+By the carton
+© -- 2003 – Confidential & Proprietary -- Guardiant/Philip Morris – Accord Questions 1.0 1
+PM3006459132
+3006459132
+3006469132

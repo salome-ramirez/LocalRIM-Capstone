@@ -1,0 +1,190 @@
+BallotResponse 
+# Assign 
+4009 
+# Panelist 15101 
+#Seq 
+#? 
+dateResp Question Description 
+# Ballot 
+3 Mi „ o T) 
+rt H- ^J 3 (T> 
+H- CL " 
+ill hj 
+fu 
+CD 
+J 
+M to 
+.Vlf/DF # 2 
+Item Id 
+Item Type Value - hit / Txt / Vch 
+Parttt 800 
+Type S 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+52 
+98 
+23 
+99 
+87 
+88 
+130 
+89 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+168 
+169 
+30 
+96 
+1 
+2 
+5 
+6 
+97 
+10 
+115 
+90 
+131 
+132 
+17 
+75 
+18 
+8 
+to 
+o 
+o 
+to 
+o 
+vo 
+u 
+Interview Date: (MM/DD/YY) 
+G 
+PLACES/TIMES SELF-RESTRICT? (Does the consumer have any 
+G 
+other places/times he/she self restricts?) 
+AWARE OF ACCORD? 
+(Had the consumer heard of Accord prior 
+G 
+to coming to the COG ?) 
+HOW? (How had the consumer heard of Accord prior to coming to 
+G 
+the COC?) 
+WHAT HAPPENED WHEN RECEIVED BROCHURE? 
+D0003 
+D 
+REASONS CALLED 800 NUMBER/LIKES: 
+G 
+THINGS POSSIBLY MIGHT LIKE: (was there anything that you 
+G 
+thought you might like about the product Idea after reading the 
+brochure.) 
+THINGS POSSIBLY MIGHT NOT LIKE: (was there anything that 
+G 
+you thought you might not like about the product idea after reading 
+the brochure?) 
+Expected price minimum? (what would be the minimum price the 
+G 
+consumer would expect to pay?) 
+Expected price maximum? (what is the maximum price the 
+G 
+consumer would expect to pay?) 
+TYPE OF ADULT SMOKER FOR ACCORD? where 1 = smokers 
+G 
+like me, 2 = other smokers, 3 = not sure, 4 = smokers like me & 
+other smokers, 5 = smokers concerned about others 
+ADDITIONAL COMMENTS: 
+G 
+Interviewer Name: 
+G 
+Scribe: 
+G 
+Interview Start Time : 
+G 
+Interview End Time: 
+G 
+ACCORD TRIED? (y/n) 
+G 
+VIDEO SHOWN? (Did the interviewer show the consumer a video 
+V0003 
+V 
+?) 
+Y/N 
+IF YES, ID# OF VIDEO? 
+V 
+HOW COMPARES WITH EXPECTATIONS, where 1 = better, 2 = 
+G 
+same, 3 = different 
+LIKES (what consumer likes about Accord after trying) 
+G 
+DISLIKES (what consumer dislikes about Accord after trying?). 
+G 
+LIKING (If the consumer tried an Accord cigarette, how much did 
+T001562 
+T 
+he/she like it overall?) 
+where 1 = dislike very much, 7 = like very much 
+Why? (Why did the consumer give that particular "Overall Liking" 
+G 
+score?) 
+ffTRIED (How many Accord cigarettes did the consumer smoke ?) 
+T001562 
+T 
+MARKET TRIAL INTEREST ? (If the product became available on 
+G 
+the market, would the consumer be interested in trying the product 
+?) Y/N 
+04/15/98 
+designated smoking areas outside of job 
+0 
+Busband opened first, consumer read whole brochure immediately, 
+thought it gave enough info 
+Interested in non- smoke future, waited one day before she called 
+Being able to smoke around non- smokers 
+Bone right now 
+$50 
+0 
+4 
+0 
+Sandra 
+Bannette 
+06:10 p 
+06:42 p 
+9 
+9 
+0 
+1 
+So not have to worry about burning anything 
+getting use to longer, harder puff 
+5 
+teste is good , have to get use to puffs 
+Friday, April 24,1998 
+# Panelist 
+15101 
+Panelist Name 
+a x> 
+rt a> H- a n 3 
+m 
+fu tt) y (D hj 
+M p r. M en 
+i urn i n i m i l i u m i H M m m 
+Page 1 of 2 

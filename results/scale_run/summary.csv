@@ -1,0 +1,16 @@
+measure,value
+pages,1000
+auto_filed,428
+auto_filed_share,0.428
+to_a_person,572
+reason_below_cutoff,524
+reason_under_20_tokens,41
+reason_no_readable_text,7
+projected_wrong_auto_filed,55.2
+projected_wrong_low,24.0
+projected_wrong_high,93.7
+final_test_auto_filed_share,0.403
+confidence_quartiles_scale,"[0.429, 0.528, 0.653]"
+confidence_quartiles_final_test,"[0.435, 0.515, 0.643]"
+rag_answered,572 of 572
+rag_agrees_with_classifier_first,0.736

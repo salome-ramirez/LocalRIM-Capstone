@@ -1,0 +1,19 @@
+{
+ "settings_auto": {
+  "use_doc_unwarping": false,
+  "use_textline_orientation": true,
+  "device": "gpu",
+  "use_doc_orientation_classify": true
+ },
+ "settings_plain": {
+  "use_doc_unwarping": false,
+  "use_textline_orientation": true,
+  "device": "gpu",
+  "use_doc_orientation_classify": false
+ },
+ "footer_band": 0.05,
+ "paddleocr": "3.7.0",
+ "paddle": "3.2.0",
+ "model_load_seconds": 2.4,
+ "started": "Sun Nov  8 18:42:33 2026"
+}

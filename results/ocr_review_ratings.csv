@@ -1,0 +1,141 @@
+id,position,engine,reading_slot,rating,words_found,spelling,issues,note,rank,n_readings,saved_at
+hzwf0006,1114,E,1,Usable,About half,Most,Headers or logos lost; Extra junk text,,,,2026-11-08T17:40:01
+hzwf0006,1114,B,2,Poor,Few,All or nearly all,Headers or logos lost; Extra junk text,,,,2026-11-08T17:40:01
+hzwf0006,1114,A,3,Poor,None,None,Headers or logos lost,,,,2026-11-08T17:40:01
+jqjf0028,366,B,1,Usable,About half,Most,Extra junk text,,,,2026-11-08T17:48:21
+jqjf0028,366,E,2,Usable,Most,Most,Extra junk text; Tables or columns,,,,2026-11-08T17:48:21
+jqjf0028,366,A,3,Poor,None,None,Extra junk text; Rotated,,,,2026-11-08T17:48:21
+mpwy0004,1233,B,1,Good,Most,Most,Headers or logos lost; Sideways Bates / stamps,,,,2026-11-08T17:51:21
+mpwy0004,1233,A,2,Good,Most,Most,Headers or logos lost; Sideways Bates / stamps,,,,2026-11-08T17:51:21
+mpwy0004,1233,E,3,Usable,About half,Most,Extra junk text; Scan noise or smudging; Sideways Bates / stamps,,,,2026-11-08T17:51:21
+lhkp0166,220,E,1,Poor,None,None,Scan noise or smudging; Extra junk text; Sideways Bates / stamps,,,,2026-11-08T17:53:50
+lhkp0166,220,A,2,Poor,None,None,Scan noise or smudging; Extra junk text; Sideways Bates / stamps,,,,2026-11-08T17:53:50
+lhkp0166,220,B,3,Poor,None,None,Scan noise or smudging; Extra junk text; Sideways Bates / stamps,,,,2026-11-08T17:53:50
+pxdg0001,30,B,1,Poor,Few,Most,Tables or columns; Extra junk text; Headers or logos lost; Sideways Bates / stamps,,,,2026-11-08T17:56:33
+pxdg0001,30,E,2,Usable,Few,Most,Extra junk text; Tables or columns; Sideways Bates / stamps,,,,2026-11-08T17:56:33
+pxdg0001,30,A,3,Poor,Few,About half,Tables or columns; Extra junk text; Sideways Bates / stamps; Headers or logos lost,,,,2026-11-08T17:56:33
+ppvn0086,47,E,1,Usable,Most,Most,Extra junk text; Tables or columns; Numbers misread; Sideways Bates / stamps,,,,2026-11-08T17:59:47
+ppvn0086,47,B,2,Usable,About half,Most,Extra junk text; Tables or columns; Numbers misread,,,,2026-11-08T17:59:47
+ppvn0086,47,A,3,Usable,About half,About half,Extra junk text; Tables or columns; Sideways Bates / stamps,,,,2026-11-08T17:59:47
+mnpp0120,215,B,1,Usable,Most,Most,Handwriting; German or other language; Sideways Bates / stamps; Extra junk text,,,,2026-11-08T18:02:49
+mnpp0120,215,E,2,Usable,Most,Most,Handwriting; German or other language; Extra junk text,,,,2026-11-08T18:02:49
+mnpp0120,215,A,3,Usable,Most,About half,Handwriting; German or other language; Sideways Bates / stamps; Extra junk text,,,,2026-11-08T18:02:49
+hnxd0092,1017,B,1,Good,Most,Most,Tables or columns; Numbers misread; Sideways Bates / stamps; German or other language,,,,2026-11-08T18:06:53
+hnxd0092,1017,E,2,Good,Most,Most,Numbers misread; Tables or columns; German or other language,,,,2026-11-08T18:06:53
+hnxd0092,1017,A,3,Good,Most,Most,Tables or columns; Numbers misread; Sideways Bates / stamps; German or other language,,,,2026-11-08T18:06:53
+yrhg0108,374,E,1,Good,Most,Most,Numbers misread; Sideways Bates / stamps,,,,2026-11-08T18:09:40
+yrhg0108,374,B,2,Good,All or nearly all,Most,Handwriting; Numbers misread; Sideways Bates / stamps,,,,2026-11-08T18:09:40
+yrhg0108,374,A,3,Good,All or nearly all,Most,Numbers misread; Handwriting; Sideways Bates / stamps,,,,2026-11-08T18:09:40
+zfpp0052,480,A,1,Good,All or nearly all,All or nearly all,Tables or columns; Sideways Bates / stamps,,,,2026-11-08T18:12:55
+zfpp0052,480,E,2,Good,All or nearly all,All or nearly all,Tables or columns,,,,2026-11-08T18:12:55
+zfpp0052,480,B,3,Good,All or nearly all,All or nearly all,Tables or columns; Sideways Bates / stamps,,,,2026-11-08T18:12:55
+hzwf0006,1114,C,1,Usable,All or nearly all,Most,Extra junk text,,4,5,2026-11-09T14:53:20
+hzwf0006,1114,A,2,Poor,None,None,Headers or logos lost,,1,5,2026-11-09T14:53:20
+hzwf0006,1114,E,3,Usable,About half,Most,Headers or logos lost; Extra junk text,,3,5,2026-11-09T14:53:20
+hzwf0006,1114,D,4,Good,All or nearly all,All or nearly all,,,5,5,2026-11-09T14:53:20
+hzwf0006,1114,B,5,Poor,Few,All or nearly all,Headers or logos lost; Extra junk text,,2,5,2026-11-09T14:53:20
+jqjf0028,366,B,1,Usable,About half,Most,Extra junk text,,3,5,2026-11-09T15:01:10
+jqjf0028,366,D,2,Good,All or nearly all,Most,,,5,5,2026-11-09T15:01:10
+jqjf0028,366,C,3,Usable,All or nearly all,Most,Extra junk text; Tables or columns,,4,5,2026-11-09T15:01:10
+jqjf0028,366,E,4,Usable,Most,Most,Extra junk text; Tables or columns,,2,5,2026-11-09T15:01:10
+jqjf0028,366,A,5,Poor,None,None,Extra junk text; Rotated,,1,5,2026-11-09T15:01:10
+mpwy0004,1233,D,1,Good,Most,All or nearly all,Headers or logos lost,,4,5,2026-11-09T15:07:51
+mpwy0004,1233,B,2,Good,Most,Most,Headers or logos lost; Sideways Bates / stamps,,3,5,2026-11-09T15:07:51
+mpwy0004,1233,C,3,Good,Most,All or nearly all,,,5,5,2026-11-09T15:07:51
+mpwy0004,1233,A,4,Good,Most,Most,Headers or logos lost; Sideways Bates / stamps,,2,5,2026-11-09T15:07:51
+mpwy0004,1233,E,5,Usable,About half,Most,Extra junk text; Scan noise or smudging; Sideways Bates / stamps,,1,5,2026-11-09T15:07:51
+lhkp0166,220,E,1,Poor,None,None,Scan noise or smudging; Extra junk text; Sideways Bates / stamps,,1,5,2026-11-09T15:11:06
+lhkp0166,220,B,2,Poor,None,None,Scan noise or smudging; Extra junk text; Sideways Bates / stamps,,2,5,2026-11-09T15:11:06
+lhkp0166,220,D,3,Poor,Few,None,Scan noise or smudging,,4,5,2026-11-09T15:11:06
+lhkp0166,220,A,4,Poor,None,None,Scan noise or smudging; Extra junk text; Sideways Bates / stamps,,3,5,2026-11-09T15:11:06
+lhkp0166,220,C,5,Usable,About half,Most,Sideways Bates / stamps; Numbers misread,,5,5,2026-11-09T15:11:06
+pxdg0001,30,E,1,Usable,Few,Most,Extra junk text; Tables or columns; Sideways Bates / stamps,,3,5,2026-11-09T15:16:13
+pxdg0001,30,C,2,Good,All or nearly all,All or nearly all,Sideways Bates / stamps; Numbers misread,,5,5,2026-11-09T15:16:13
+pxdg0001,30,D,3,Usable,Few,All or nearly all,Sideways Bates / stamps; Tables or columns; Numbers misread,,4,5,2026-11-09T15:16:13
+pxdg0001,30,B,4,Poor,Few,Most,Tables or columns; Extra junk text; Headers or logos lost; Sideways Bates / stamps,,2,5,2026-11-09T15:16:13
+pxdg0001,30,A,5,Poor,Few,About half,Tables or columns; Extra junk text; Sideways Bates / stamps; Headers or logos lost,,1,5,2026-11-09T15:16:13
+ppvn0086,47,E,1,Usable,Most,Most,Extra junk text; Tables or columns; Numbers misread; Sideways Bates / stamps,,1,5,2026-11-09T15:20:10
+ppvn0086,47,B,2,Usable,About half,Most,Extra junk text; Tables or columns; Numbers misread,,2,5,2026-11-09T15:20:10
+ppvn0086,47,C,3,Good,All or nearly all,Most,Extra junk text; Numbers misread,,5,5,2026-11-09T15:20:10
+ppvn0086,47,D,4,Usable,Most,Most,Sideways Bates / stamps; Numbers misread,,4,5,2026-11-09T15:20:10
+ppvn0086,47,A,5,Usable,About half,About half,Extra junk text; Tables or columns; Sideways Bates / stamps,,3,5,2026-11-09T15:20:10
+mnpp0120,215,B,1,Usable,Most,Most,Handwriting; German or other language; Sideways Bates / stamps; Extra junk text,,3,5,2026-11-09T15:26:03
+mnpp0120,215,C,2,Good,All or nearly all,All or nearly all,Handwriting,,5,5,2026-11-09T15:26:03
+mnpp0120,215,D,3,Good,Most,All or nearly all,Sideways Bates / stamps,,4,5,2026-11-09T15:26:03
+mnpp0120,215,E,4,Usable,Most,Most,Handwriting; German or other language; Extra junk text,,1,5,2026-11-09T15:26:03
+mnpp0120,215,A,5,Usable,Most,About half,Handwriting; German or other language; Sideways Bates / stamps; Extra junk text,,2,5,2026-11-09T15:26:03
+hnxd0092,1017,B,1,Good,Most,Most,Tables or columns; Numbers misread; Sideways Bates / stamps; German or other language,,2,5,2026-11-09T15:30:14
+hnxd0092,1017,C,2,Good,All or nearly all,All or nearly all,,,5,5,2026-11-09T15:30:14
+hnxd0092,1017,D,3,Good,Most,All or nearly all,Sideways Bates / stamps; Tables or columns,,4,5,2026-11-09T15:30:14
+hnxd0092,1017,E,4,Good,Most,Most,Numbers misread; Tables or columns; German or other language,,1,5,2026-11-09T15:30:14
+hnxd0092,1017,A,5,Good,Most,Most,Tables or columns; Numbers misread; Sideways Bates / stamps; German or other language,,3,5,2026-11-09T15:30:14
+yrhg0108,374,B,1,Usable,All or nearly all,Most,Handwriting; Numbers misread; Sideways Bates / stamps,,2,5,2026-11-09T15:36:19
+yrhg0108,374,D,2,Good,All or nearly all,All or nearly all,Sideways Bates / stamps,,4,5,2026-11-09T15:36:19
+yrhg0108,374,E,3,Usable,All or nearly all,Most,Numbers misread; Sideways Bates / stamps,,1,5,2026-11-09T15:36:19
+yrhg0108,374,C,4,Good,All or nearly all,Most,,,5,5,2026-11-09T15:36:19
+yrhg0108,374,A,5,Good,All or nearly all,Most,Numbers misread; Handwriting; Sideways Bates / stamps,,3,5,2026-11-09T15:36:19
+zfpp0052,480,B,1,Good,All or nearly all,All or nearly all,Tables or columns; Sideways Bates / stamps,,4,5,2026-11-09T15:40:13
+zfpp0052,480,C,2,Good,All or nearly all,All or nearly all,,,5,5,2026-11-09T15:40:13
+zfpp0052,480,A,3,Good,All or nearly all,All or nearly all,Sideways Bates / stamps,,1,5,2026-11-09T15:40:13
+zfpp0052,480,E,4,Good,All or nearly all,All or nearly all,Sideways Bates / stamps,,3,5,2026-11-09T15:40:13
+zfpp0052,480,D,5,Good,All or nearly all,All or nearly all,Sideways Bates / stamps,,2,5,2026-11-09T15:40:13
+msgy0003,292,C,1,Usable,Most,Most,Extra junk text; Faint or low contrast,,4,5,2026-11-09T16:53:57
+msgy0003,292,A,2,Poor,Few,Most,Faint or low contrast,,2,5,2026-11-09T16:53:57
+msgy0003,292,E,3,Poor,None,None,Extra junk text,,1,5,2026-11-09T16:53:57
+msgy0003,292,B,4,Poor,Few,Most,Numbers misread; Extra junk text,,3,5,2026-11-09T16:53:57
+msgy0003,292,D,5,Good,Most,All or nearly all,Faint or low contrast,,5,5,2026-11-09T16:53:57
+zykg0006,720,E,1,Usable,Few,Most,Extra junk text; Faint or low contrast,,3,5,2026-11-09T17:06:04
+zykg0006,720,C,2,Usable,Few,Most,Faint or low contrast,,4,5,2026-11-09T17:06:04
+zykg0006,720,D,3,Good,All or nearly all,Most,Faint or low contrast,,5,5,2026-11-09T17:06:04
+zykg0006,720,B,4,Poor,None,None,,,1,5,2026-11-09T17:06:04
+zykg0006,720,A,5,Poor,None,None,,,2,5,2026-11-09T17:06:04
+fjhn0003,600,D,1,Good,Most,All or nearly all,Faint or low contrast,,4,5,2026-11-09T17:23:29
+fjhn0003,600,B,2,Poor,Few,Few,Faint or low contrast; Extra junk text,,3,5,2026-11-09T17:23:29
+fjhn0003,600,C,3,Good,Most,All or nearly all,Faint or low contrast,,5,5,2026-11-09T17:23:29
+fjhn0003,600,E,4,Poor,Few,Most,Extra junk text,,2,5,2026-11-09T17:23:29
+fjhn0003,600,A,5,Poor,None,None,,,1,5,2026-11-09T17:23:29
+jhmn0003,1310,E,1,Usable,Few,Most,Faint or low contrast,,2,5,2026-11-09T17:27:26
+jhmn0003,1310,C,2,Good,All or nearly all,Most,Faint or low contrast,,5,5,2026-11-09T17:27:26
+jhmn0003,1310,D,3,Good,Most,All or nearly all,Faint or low contrast,,4,5,2026-11-09T17:27:26
+jhmn0003,1310,A,4,Poor,None,None,Numbers misread,,1,5,2026-11-09T17:27:26
+jhmn0003,1310,B,5,Usable,About half,Most,Faint or low contrast,,3,5,2026-11-09T17:27:26
+gzkm0105,1225,E,1,Poor,None,None,Scan noise or smudging; Extra junk text,,1,5,2026-11-09T17:30:45
+gzkm0105,1225,A,2,Poor,Few,About half,Rotated; Numbers misread; Extra junk text,,2,5,2026-11-09T17:30:45
+gzkm0105,1225,B,3,Poor,About half,All or nearly all,Rotated; Scan noise or smudging; Extra junk text,,3,5,2026-11-09T17:30:45
+gzkm0105,1225,C,4,Usable,Most,Most,Numbers misread; Extra junk text,,4,5,2026-11-09T17:30:45
+gzkm0105,1225,D,5,Good,All or nearly all,All or nearly all,,,5,5,2026-11-09T17:30:45
+ltwj0179,1132,C,1,Good,All or nearly all,All or nearly all,,,5,5,2026-11-09T17:33:53
+ltwj0179,1132,A,2,Usable,About half,All or nearly all,Handwriting; Rotated,,4,5,2026-11-09T17:33:53
+ltwj0179,1132,B,3,Usable,About half,All or nearly all,Handwriting; Rotated,,3,5,2026-11-09T17:33:53
+ltwj0179,1132,D,4,Usable,About half,All or nearly all,Handwriting; Rotated,,2,5,2026-11-09T17:33:53
+ltwj0179,1132,E,5,Usable,About half,All or nearly all,Handwriting; Rotated,,1,5,2026-11-09T17:33:53
+khhj0109,833,D,1,Good,All or nearly all,All or nearly all,,,5,5,2026-11-09T17:36:50
+khhj0109,833,A,2,Usable,About half,Most,Scan noise or smudging; Extra junk text; Numbers misread,,2,5,2026-11-09T17:36:50
+khhj0109,833,C,3,Good,All or nearly all,All or nearly all,Numbers misread,,4,5,2026-11-09T17:36:50
+khhj0109,833,B,4,Usable,Few,Most,Extra junk text; Scan noise or smudging,,3,5,2026-11-09T17:36:50
+khhj0109,833,E,5,Poor,Few,About half,Scan noise or smudging; Numbers misread; Extra junk text,,1,5,2026-11-09T17:36:50
+lxdd0115,255,A,1,Poor,Few,About half,Scan noise or smudging; Headers or logos lost,,2,5,2026-11-09T17:59:33
+lxdd0115,255,C,2,Poor,Few,All or nearly all,Scan noise or smudging,,3,5,2026-11-09T17:59:33
+lxdd0115,255,D,3,Good,All or nearly all,All or nearly all,Sideways Bates / stamps,,5,5,2026-11-09T17:59:33
+lxdd0115,255,E,4,Poor,Few,About half,Extra junk text; Scan noise or smudging,,1,5,2026-11-09T17:59:33
+lxdd0115,255,B,5,Usable,About half,About half,Scan noise or smudging; Extra junk text,,4,5,2026-11-09T17:59:33
+lpbw0090,665,B,1,Poor,All or nearly all,Few,Rotated,,3,5,2026-11-09T18:03:16
+lpbw0090,665,D,2,Good,All or nearly all,All or nearly all,,,5,5,2026-11-09T18:03:16
+lpbw0090,665,E,3,Poor,Few,None,Numbers misread; Extra junk text,,1,5,2026-11-09T18:03:16
+lpbw0090,665,A,4,Poor,All or nearly all,Few,Rotated,,2,5,2026-11-09T18:03:16
+lpbw0090,665,C,5,Usable,Most,Few,Rotated,,4,5,2026-11-09T18:03:16
+qzwx0020,1160,E,1,Usable,Most,About half,Scan noise or smudging; Extra junk text,,1,5,2026-11-09T18:08:35
+qzwx0020,1160,C,2,Usable,All or nearly all,All or nearly all,Numbers misread,,3,5,2026-11-09T18:08:35
+qzwx0020,1160,B,3,Usable,Most,Most,Scan noise or smudging; Sideways Bates / stamps; Extra junk text,,2,5,2026-11-09T18:08:35
+qzwx0020,1160,A,4,Good,Most,All or nearly all,Scan noise or smudging; Sideways Bates / stamps,,4,5,2026-11-09T18:08:35
+qzwx0020,1160,D,5,Good,All or nearly all,All or nearly all,,,5,5,2026-11-09T18:08:35
+mzpv0017,1100,B,1,Poor,Few,Few,Rotated; Extra junk text,,3,5,2026-11-09T18:11:48
+mzpv0017,1100,C,2,Usable,Most,Most,Numbers misread,,5,5,2026-11-09T18:11:48
+mzpv0017,1100,A,3,Poor,Few,Few,Rotated; Numbers misread; Extra junk text,,2,5,2026-11-09T18:11:48
+mzpv0017,1100,E,4,Poor,Few,Few,,,1,5,2026-11-09T18:11:48
+mzpv0017,1100,D,5,Usable,Few,All or nearly all,Headers or logos lost,,4,5,2026-11-09T18:11:48
+nqvm0121,692,E,1,Poor,None,None,Extra junk text; Rotated,,1,5,2026-11-09T18:14:24
+nqvm0121,692,B,2,Poor,Few,Few,Rotated; Extra junk text,,3,5,2026-11-09T18:14:24
+nqvm0121,692,A,3,Poor,Few,Few,Rotated; Extra junk text,,2,5,2026-11-09T18:14:24
+nqvm0121,692,C,4,Usable,Most,Most,Tables or columns; Numbers misread,,4,5,2026-11-09T18:14:24
+nqvm0121,692,D,5,Good,Most,All or nearly all,Sideways Bates / stamps,,5,5,2026-11-09T18:14:24

@@ -1,0 +1,7 @@
+{
+ "model": "glm-ocr",
+ "prompt": "Transcribe all the text on this scanned page exactly as written, line by line, top to bottom. Do not describe the page, summarise, translate or add anything.",
+ "max_side": 1600,
+ "temperature": 0,
+ "started": "Sun Nov  8 22:55:46 2026"
+}

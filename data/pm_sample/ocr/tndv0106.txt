@@ -1,0 +1,44 @@
+= PHILIP MORRIS INCORPORATED . 0
+INTER-OFFICE CORRESPONDENCE .0n A
+100 Park Avenue, Kew York, N.Y. 10017 . oe
+To: * R. N. Saleeby, Jr. bate: December 19, 1966
+From: * D. Zelkowitz-J. Glaser ı
+Subject: + MARLBORO RKS TEST MARKETS
+Marlboro with 2.5% RKS has been in the Columbus and Atlanta warehouse areas for
+almost 1 year. At this date there is no evidence that the change has been detected
+by smokers in those areas and no unfavorable sales results have been found in the
+test markets. _
+Based on the test market results, there seems to be no objection to incorporating
+2.5% RKS in all production Marlboro.
+Discussion
+This is a further analysis of the data quoted in a previous memo (R. Saleeby, 11/29/66)
+on this subject. At that time there was some evidence that some of the control and
+test markets were unsuitable (i.e. that they were responding to influences not in the
+scope of the test). In order to ascertain the suitability of various possible control
+markets, an Analysis of Variance procedure-was.applied on the relative performances
+of the tests and possible control markets previous to the test date.
+In the case of the Atlanta warehouse test market it was found that Alabama and South
+Carolina figures had varied too widely. from the test market in periods prior to the
+test to be used as controls. The extreme fluctuations in South Carolina were found
+to have been caused mainly by fluctuations in..the, considerable military industry in
+that state. The balance of Florida was substituted for the two states mentioned above
+and the state of Tennessee was. retained as the second control.
+The difference in Columbus between the central market and the balance of warehouse
+area was found to stem from one direct account who apparently left the market during
+the test period. After adjustment had been made for this account, there were no serious
+discrepancies between the Columbus market and blance of warehouse area. It was found
+that Cincinnati and Indiana were the most suitable. control markets for the Columbus .
+warehouse area but, even with these two markets Marlboro sales in the Columbus warehouse
+show a slightly inferior trend prior to the test period.
+The data displayed in the appendix table’ are:comparisons of percent changes for the
+tests versus controls over a common base. The Marlboro data are adjusted by similar
+data for Parliament in order to rule out any local_situations which would affect the
+markets unequally.
+To put these data in perspective, we list the statistical limits on significance of these
+figures. Since we are most interested in possible negative test results only the negative
+limits are listed, The following table is intended as an aid in reading the appendix
+data. The "Adjusted Advantage for Marlboro" is to be considered as significantly lower
+than zero only if it is more negative than a given significance level will allow. The
+table below shows the limits for 3 possible levels of significance. The smaller the level
+chosen, the greater the degree of certainty.
+2040267903

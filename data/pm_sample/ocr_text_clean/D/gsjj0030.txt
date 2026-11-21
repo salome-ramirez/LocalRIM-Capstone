@@ -1,0 +1,76 @@
+STORE INFORMATION
+1. Store Name: ___
+2. Retail Account # (6 digits): ___
+3. Territory #: ___
+4. Call #: ___
+5. Trade Class: (Circle One)
+C-Store/Supermarket/Drug/Grocery/Other
+6. CPW: ___
+7. Retail Masters: Y/N
+8. Overhead Pack Merchandiser
+Sign: PM/Competitor/None
+9. 2 PM Premium B-Displays: Y/N
+
+MARLBORO ADVENTURE TEAM
+10. Miles on Pack: Y/N
+11. If NO, which packings don't: ___
+12. 2-Pack Promo Accepted: Y/N
+13. Display: Counter/Floor/None
+14. P.O.S: Interior/Exterior/None
+15. "Aisles For Miles": Y/N
+16. Are Store Personnel Familiar with "Aisles For Miles": Y/N
+17. Usual Pack Price $ ___
+18. Deal Price: $ ___ for ___ packs (example: $3.70 for 2 packs)
+19. Other MAT Promos: (Circle all that apply)
+Flashlight Djeep Lighter
+2-Pack with Flexcard
+"Win the Gear" store sweepstakes
+Other ___ (fill in)
+
+B&H SPECIAL KINGS
+20. Are any packings in distribution: Y/N
+21. Are any packings out-of-stock: Y/N
+22. Visibility: Front Counter/Rear Shelf/None
+23. P.O.S: Y/N
+24. Price Call Out: Y/N
+25. Promotion: 40¢/Incentive/None
+26. Pack Price (less any discount): $ ___
+27. Ask Retailer: what brands' smokers are now buying B&H Special Kings?
+28. Are the following Premium Brands visible:
+Virginia Slims Y/N
+Merit Y/N
+B&H 100's Y/N
+
+BASIC
+31. Distribution: Y/N
+32. Pack Price: $ ___
+33. Carton Price: $ ___
+34. Merchandising: (Circle all that apply)
+B-Display / Carton Fixture / Dump Bin / Other
+35. Competitive B/W and Private Label:
+Name Availability? Prices: Fixtures: Dump
+Pack Carton Pack Carton Bin
+1. Monarch Y/N $ ___ Y/N Y/N Y/N
+2. GPC Y/N $ ___ Y/N Y/N Y/N
+3. Private Stock Y/N $ ___ Y/N Y/N Y/N
+4. Best Value Y/N $ ___ Y/N Y/N Y/N
+5. Y/N $ ___ Y/N Y/N Y/N
+
+36. Which Brand Above is Best Positioned:
+(circle one number:) 1 2 3 4 5
+37. Price of Cambridge and Doral w/o coupon:
+Pack Price: $ ___
+Carton Price: $ ___
+
+38. Coupon Values:
+Predominant Highest
+Cambridge $ ___ $ ___
+Doral $ ___ $ ___
+
+39. Field Sales Force Comments:
+___
+___
+
+40. Retailer & Consumer Comments:
+___
+___

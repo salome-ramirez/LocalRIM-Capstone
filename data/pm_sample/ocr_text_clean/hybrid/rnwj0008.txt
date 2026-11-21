@@ -1,0 +1,35 @@
+Philip Morris USA CONFIDENTIAL
+Date: 25-Jul-01
+MANUSCRIPT REVIEW BOARD INFORMATION SHEET
+Manuscript TitIe: EXAMPLES OF SYSTEMATIC VALIDATION FOR BIOMARKERS OF CIGARETTE
+SMOKE EXPOSURE
+Author(s) [ indicate non PM affiliation, presenting author ]: Robin D. Kinser, Jan Oey, Mark Bentley, Covance
+Laboratories, Ltd.
+For Publication [journal/book title]:
+and/or
+X Presentation [meeting, location, date]: Biomarkers for Tobacco Exposure: Applications to Clinical and
+Epidemiological Studies, Minneapolis, MN October 25-26, 2001
+XTravel requested for [author (s)]: Robin Kinser and Jan Oey
+Conference/Publication Deadline for: August 1, 2001 Abstract X Manuscript
+Reviewed by Manager Approved by Director lolce 07/25/01
+Reviewed by Vice President t sce cheps
+(PLEASE INSERT ABSTRACT BELOW THIS LINE)
+Abstract: In Clearing the Smoke Assessing the Science Base for Tobacco Harm Reduction, the
+Institute of Medicine (IOM) delineated its expectations for biomarker assay validation. The well-
+known analytical components of reproducibility, sensitivity, and selectivity are specifically mentioned
+as requirements for biomarker assay validation. In additien, this-report aiso calls for the validation
+from the biolegieal perspective; that is, establishment of a quantitative link between smoke or
+smoke constituent oxposuro and the development of disease.
+A pilot study focusing on biomarker measurement in a group of adult male and female
+smokers of 3.0 – 6.9 mg tar cigarettes and a corresponding group of adult non-smokers is currently
+underway under Philip Morris U.S.A. spensorship: The rigorous analytical validation standards
+used to assess the chromatographic analyses developed are consistent with lOM guidelines.
+Precision, accuracy, carryover, recovery, linearity, limits of quantitation, and stability measures will
+be compared to previously established acceptance criteria. The extremely low concentrations of
+the selected biomarkers in biological matrices required that hyphenated techniques be used for
+many of the analyses. Complications in analytical validation due to the unavailability of both
+analyte-free matrix and alternate methods for matrix analysis for many of the biomarkers will be
+addressed. Specific instances where the validation exercise led to a modification of the analytical
+method will be described. Gurrent thinking on tho loss well defined concept of biologieal validation
+will also be presented.
+DOC CODE: P0622

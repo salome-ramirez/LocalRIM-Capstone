@@ -1,0 +1,42 @@
+8874675 inbi d
+101663 dupz d00230827339+
+der
+00230827339+
+itt jun 03 0802
+pm rd rch
+8874675 inbi d
+
+dr. t.s. osdene
+director of research
+and extramural studies
+philip morris research center
+richmond
+
+telex no. 3188
+3.jun.82
+ku/br. br79 (s) a27
+
+abridged weekly report a 0500/3030
+
+ninth skin painting mouse, state of application week 70
+
+group number of mice
+no.
+initially survivors (f) (h)
+0-gr 210 185 0 0 0
+1-gr 105 88 2 0 0 2.27
+2-gr 105 85 20 4 22.47
+3-gr 105 84 25 5 28.09
+4-gr 105 87 10 3 11.11
+5-gr 105 81 23 3 27.38
+6-gr 105 76 33 5 40.74
+7-gr 105 91 0 0 0
+8-gr 105 84 1 0 1.19
+9-gr 105 87 3 0 3.45
+10-gr 105 87 2 0 2.30
+11-gr 105 94 7 2 7.29
+12-gr 105 90 11 1 12.09
+
+(f) sum of values of columns 6 and 8, i.e. mice with skin papillomas (preliminary macroscopic diagnosis) in as well as in and outside application area
+(h) sum of values of columns 6 and 8 (see f), but dead mice only
+(k) value of column x multiplied by 100 and divides by value of column 12, i.e. sum of columns 4 and y

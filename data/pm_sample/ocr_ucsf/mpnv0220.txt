@@ -1,0 +1,93 @@
+After 
+analyzing 
+the post measures of effectiveness, 
+two of 
+the component groupings 
+still 
+failed 
+to meet the +/- .10 vercent 
+deviation 
+objective. 
+They were VST and KST. The blend 
+devotion 
+for these 
+groups was +1.11 and -1.42 
+respectively. 
+It should 
+be noted 
+that during the data collection 
+period 
+no 
+adjustments 
+were made to the pullsheet 
+loading 
+sequences 
+for the 
+VST and KST component groups. 
+The data indicates 
+that 
+by 
+computing 
+the number of containers 
+required 
+in a sequence 
+for 
+the 
+VST and KST groups separately^ 
+a larger 
+percent 
+of deviation 
+from 
+targeted 
+usage 
+occurs. 
+To reduce 
+this 
+deviation 
+the team feels 
+that 
+the 
+Excel 
+program used to configure 
+pullsheets 
+needs 
+to be expanded so 
+that 
+all 
+the stem components 
+can be computed together 
+instead 
+of 
+separately, 
+this 
+should 
+eliminate 
+the large 
+imbalance 
+between 
+the 
+two groups and may eliminate 
+the need to "adjust** pullsheets 
+to 
+regain 
+balance 
+between 
+the VST and KST 
+groups. 
+Therefore 
+the teams decision 
+in A3b is to expand the 
+Excel 
+program and use the new methodology 
+to configure 
+the 
+pullsheets 
+needed for the upcoming blend change, collect 
+data for four 
+weeks 
+and then analyze 
+the data using the methods used for the 
+team 
+measures of 
+effectiveness. 
+2030723163 

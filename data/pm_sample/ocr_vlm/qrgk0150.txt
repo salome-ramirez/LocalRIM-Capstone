@@ -1,0 +1,9 @@
+Data from Ashland with various puffing regimens
+
+Consitutet value (mg/cig)
+
+Nicotine (mg/cig)
+
+TPM
+H2O
+Tar

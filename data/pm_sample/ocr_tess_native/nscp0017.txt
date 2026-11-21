@@ -1,0 +1,29 @@
+Response Surface Analysis For Ignition Propensity 09:36 Wednesday, February 9, 1994 79
+Duck41 Model From Banded Section Independent Variables
+Contour plot of B_POS*PERM BR.
+2051203722
+B_POS |
+1
+40+ .“ . . - . . . - . . . .
+l . « . . . . . . . . . . .
+30+ . + - . . . » . . - . . . . . . . . . . “ .
+20 + soe ' ' for on oe A tof ff oe ' 7 ; 7 ' og
+f- = = = = es eee ' A ra roe ‚ , , .4
+bo eee eee
+wm = = w mm m m ® m E m m mmm
++ + 4+ 4+ 4+ 4 4+ 4 4 4 4 =m m w m =m = w w © x =m w z = x =
+20+ 0 © 20 . 20 + + + 4 + FH FR HF HH HH UH OFT HO + +
+X X © © © © . 20 @© © © . 20 6 . 20. 20 . 20 0 © 0 0 0© 9 0 © © © © ©
+wow W OX X xX X X O X MO XO MO x x ¥ M X X X MK K X X X X X X
+* * * * * * W W W W W W W W W W W W W W W W W W W W W
+* %$ % 4 %4 4 4 E $ # FR Re O# ® %* * %* %* %* %* * * %* %*
+o+ %* #%*$ +# # * + 41 +# * * %* # + # # ¥ * * #* f £ * + * %1 € #
+I -
+A fi pn pn npn pon npn dene
+2.4 2.5 2.6 2.7 2.8 2.9 3.0 3.2 3.2 3.3 3.4 3.5 3.6 3.7 3.8 3.9 4.0 4.1 4.2 4.3 4.4 4.5 4.6 4.7 4.8 4.9 5.0
+PERM BR
+Symbol IGP_CD4L Symboi IGP_CD41 symbol IGP_CD41 Symbol IGP_CD41
+..... -0.504 - -0.047 —= 0.868 - 1.326 XOOKK 2.241 - 2.698 E 3.613 - 4.071
+peace -0.047 - 0.411 ttt 1.326 - 1.783 WAWRW 2.698 - 3.156
+————— 0.411 - 0.868 00000 1.783 - 2.241 Co äeheel 3.156 - 3.613
+NOTE: 540 obs hidden.

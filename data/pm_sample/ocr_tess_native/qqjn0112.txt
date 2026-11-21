@@ -1,0 +1,41 @@
+PHILIP MORRIS SSD
+EEC REGION ;
+BRILLANCOURT 1001 LAUSANNE
+INTER-OFFICE CORRESPONDENCE
+To: M. Messier/Y. Wong (R&D MIS) pate: May 19, 1989
+From: E.de Borat c.c.. C. Allemand
+. ; H, Berger
+Subject: CHANGE REQUEST - SYPMOD AND TYPP APPLICATIONS M. Schulz
+@ PROBLEM DESCRIPTION:
+It has become obligatory to control the amount of pesticides
+contained in our products being sold in certain countries;
+and in particular, the Pesticide MH39 for Germany. As a
+means to control, the PME and Affiliate Leaf Depts. make use
+of computer support models to assist in the selection of
+tobacco grades and lots to be used in cigarette fabrication;
+these 2 models being the TYPP on the EDC mainframe and the
+P.C. baged Blénd Development Model located in the HQ Leaf a ; D
+Department. These models make use of TIA data contained in © of). 0 0c dn
+the SYPMOD Application which does not presently contain a SO ag
+data field for MH39. The Blenders are currently calculating ‘; —' n
+and entering data manually into their models. ri SE
+As legislation in this area continues in the direction of ro
+greater control, it is possible that additional pesticides ;
+or other chemical substances, though not currently knovn.
+may be needed to be analysed and controlled.
+2. PROJECT OBJECTIVES oy ce
+As selected raw tobacco lots have been and will continue to
+be chemically analysed for MH39 content, historical data is AE
+being accumulated. The HQ Blending Dept. is asking that the 2 HT .
+TLA Application and the TYPP Application be modified to Ce ge ath
+handle this additional attribute. The modifications should ; E
+be such ag to be able to accomodate additional attributes
+not yet known or defined.
+3, BENEFITS
+These modifications will help render more efficient use of a
+Blending expertise. a
+4, PROJECT SCOPE
+FUNCTIONAL
+L08ZTELOSZ
+HQ Blending and Affiliate Leaf Depts. a B:
+../2

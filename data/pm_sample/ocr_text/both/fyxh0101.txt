@@ -1,0 +1,86 @@
+Univ HVAC Contacts
+School Loc Main No. HVAC/Vent/Indoor air Prof
+name phone
+MIT Boston 617/253-2305 Prof. Leon Glicksman 3233
+Stanford CA 203/322-3466 noone in
+no classes in
+Univ. of Illinois 217/333-1176 HVAC/Vent
+Univ. of Ca Berkeley 510/642-6000 no answer
+Purdue Lafayette, IN 317/494-6900 Prof. Victor Goldshmidt 494-2130
+Univ of Mich Ann Arbor 313/764-2694 Prof. Massoud Kaviany 313/936-0402
+Cornell Ithaca,NY 607/255-3573 School Break-noone in
+Univ of Texas Austin 512/471-1131 phone mail
+GA Tech Atlanta 404/894-3200 Prof. Richard Salant 3176
+Carnegie Mellon Univ Pittsburgh 412/268-2500 no HVAC expert
+Cal Tech San Luis Obisbo,Ca805/756-1111 Prof Krishna Patel 1356
+Univ. Of Wisconsin Madison 608/262-3543 Prof. John Mitchell 2972/5972
+Penn State 814/865-2519 Dr. Robert Heinsohn 814/471-1131
+Texas A&M College Station 409/845-1252 phone mail
+Ohio State 614/292-2289 Prof. Margaret Drake 8035
+adjunct Prof. Ting or
+Prof. Richard Smith-
+Rensselaer Troy 518/276-6000 Chairman 6978
+708/491-7470
+try Prof.
+Northwestern Chicago Rittman 8790 no specialist
+Univ of CA at LA Los Angeles 310/825-2281 phone mail
+Univ of So. CA 619/534-3170 phone mail
+Princeton NJ 609/258-3000 Prof Robert Socolow no specific courses
+Dr. H. Eckerlin or Dr.
+No. Carolina State Univ Raleigh 919/515-2365 A.S. Boyers 5227/5222
+Virginia Polytech Richmond 703/231-6000 Prof James R Thomas 7183
+Univ of Minnesota Twin Cities 612/625-0705 Prof. Thomas Kuehn 4520
+Univ of Wash Seattle 206/543-5090 Prof. Emery Ashley 543-5338
+Univ of Florida Gainesville 904/392-0827 Dr. Herbert A. Ingley
+Prof. Jaikrishnan R.
+Case Western Ohio 216/368-2000 Kadambi
+Columbia Univ NY 212/854-2993 Prof Pradip Dutta 6196
+Dartmouth College 603/646-1110 no specific courses
+Duke Univ North Carolina 919/684-8111 no specific courses
+Harvard Cambridge 617/495-1000 no courses
+Iowa State 515/294-1423 Dr. Greg Maxwell 8645 2046573391
+John Hopkins Univ Baltimore 410/516-7132 no courses
+Lehigh Bethlehem 215/758-3000 Prof. Walker 3789
+Michigan state 517/355-5131 Dr. Jim Beck 8487
+Rice Univ Houston 713/527-8101 no courses
+Page 1
+Univ HVAC Contacts
+
+School | Loc | Main No. | HVAC/Vent./ Indoor air Prof name | phone
+--- | --- | --- | --- | ---
+
+MIT | Boston | 617/253-2305 | Prof. Leon Glicksman | 3233
+Stanford | CA | 203/322-3466 | noone in no classes in HVAC/Vent
+Univ. of Illinois | | 217/333-1176 | no answer
+Univ. of Ca | Berkeley | 510/642-6000 | no answer
+Purdue | Lafayette, IN | 317/494-6900 | Prof. Victor Goldshmidt | 494-2130
+Univ of Mich | Ann Arbor | 313/764-2694 | Prof. Massoud Kaviany | 313/936-0402
+Cornell | Ithaca, NY | 607/255-3573 | School Break-noone in
+Univ of Texas | Austin | 512/471-1131 | phone mail
+GA Tech | Atlanta | 404/894-3200 | Prof. Richard Salant | 3176
+Carnegie Mellon Univ | Pittsburgh | 412/268-2500 | no HVAC expert
+Cal Tech | San Luis Obisbo, CA | 805/756-1111 | Prof. Krishna Patel | 1356
+Univ. Of Wisconsin | Madison | 608/262-3543 | Prof. John Mitchell | 2972/5972
+Penn State | | 814/865-2519 | Dr. Robert Heinsohn | 814/471-1131
+Texas A&M | College Station | 409/845-1252 | phone mail
+Ohio State | | 614/292-2289 | Prof. Margaret Drake adjunct Prof. Ting or Prof. Richard Smith-Chairman | 8035
+Rensselaer | Troy | 518/276-6000 | Prof. James R Thomas | 5227/5222
+Northwestern | Chicago | 708/491-7470 try Prof. Rittman 8790 | no specialist
+Univ of CA at LA | Los Angeles | 310/825-2281 | phone mail
+Univ of So. CA | | 619/534-3170 | phone mail
+Princeton | NJ | 609/258-3000 | Prof. Robert Socolow | no specific courses
+No. Carolina State Univ | Raleigh | 919/515-2365 | Dr. H. Eckerlin or Dr. A.S. Boyers | 5227/5222
+Virginia Polytech | Richmond | 703/231-6000 | Prof James R Thomas | 7183
+Univ of Minnesota | Twin Cities | 612/625-0705 | Prof. Thomas Kuehn | 4520
+Univ of Wash | Seattle | 206/543-5090 | Prof. Emery Ashley | 543-5338
+Univ of Florida | Gainesville | 904/392-0827 | Dr. Herbert A. Ingley | no courses
+Case Western | Ohio | 216/368-2000 | Prof. Jaikrishnan R. Kadambi | no courses
+Columbia Univ | NY | 212/854-2993 | Prof Pradip Dutta | 6196
+Dartmouth College | | 603/646-1110 | no specific courses
+Duke Univ | North Carolina | 919/684-8111 | no specific courses
+Harvard | Cambridge | 617/495-1000 | no courses
+Iowa State | | 515/294-1423 | Dr. Greg Maxwell | 8645
+John Hopkins Univ | Baltimore | 410/516-7132 | no courses
+Lehigh | Bethlehem | 215/758-3000 | Prof. Walker | 3789
+Michigan state | | 517/355-5131 | Dr. Jim Beck | 8487
+Rice Univ | Houston | 713/527-8101 | no courses |

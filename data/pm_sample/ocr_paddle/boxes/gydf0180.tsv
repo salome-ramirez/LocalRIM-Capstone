@@ -1,0 +1,65 @@
+x1	y1	x2	y2	conf	text
+159.0	230.0	655.0	302.0	100.0	Nixon, Gerry M.
+162.0	369.0	326.0	429.0	100.0	From:
+851.0	368.0	1337.0	424.0	100.0	webman@ovid.com
+163.0	430.0	310.0	491.0	100.0	Sent:
+849.0	425.0	1772.0	491.0	100.0	Saturday, February 23, 2002 9:26 AM
+162.0	491.0	389.0	557.0	100.0	Subject:
+847.0	483.0	3080.0	555.0	99.6	Smoking and Health Weekly Alert AutoAlert: SmkHIth Database: Current Contents/Science
+850.0	549.0	1888.0	608.0	98.7	Edition <1996 Week 01 to 2002 Week 09>
+168.0	740.0	895.0	791.0	100.0	Total documents retrieved: 78
+165.0	916.0	631.0	977.0	99.3	Date: 23-Feb-2002
+165.0	978.0	556.0	1037.0	96.0	Name: SmkHlth
+165.0	1038.0	2110.0	1098.0	99.9	Database: Current Contents/Science Edition <1996 Week 01 to 2002 Week 09>
+167.0	1161.0	472.0	1218.0	100.0	Set Search
+1301.0	1162.0	1491.0	1217.0	100.0	Results
+165.0	1282.0	1174.0	1342.0	98.7	001 (smoking or smoker? or cigar$).mp.
+1612.0	1280.0	1776.0	1339.0	100.0	26263
+164.0	1338.0	2005.0	1400.0	97.5	002 ((passive or tobacco or secondhand or mainstream or sidestre 1855
+253.0	1401.0	1037.0	1464.0	100.0	am or ms or ss) adj smoke).mp.
+165.0	1457.0	905.0	1522.0	99.9	003 second hand smoke.mp.
+1580.0	1459.0	1659.0	1522.0	100.0	20
+164.0	1518.0	1903.0	1581.0	98.7	004 (nicotine or cotinine or ets or (smoke adj (induced or sensi 8104
+253.0	1577.0	1126.0	1643.0	99.7	tiv$ or exposure$ or pollution))).mp.
+165.0	1639.0	1058.0	1701.0	99.5	005 (nicotine or cotinine or ets).mp.
+1523.0	1638.0	1657.0	1699.0	100.0	7680
+167.0	1701.0	1756.0	1761.0	99.2	006 (smoke adj (induced or sensitiv$ or exposure$ or pollution))
+1819.0	1701.0	1918.0	1756.0	100.0	632
+255.0	1764.0	373.0	1826.0	99.9	.mp.
+168.0	1820.0	454.0	1877.0	95.9	007 or/1-6
+1308.0	1819.0	1471.0	1879.0	100.0	31468
+165.0	1879.0	1949.0	1945.0	99.0	008 (cardiovascular or cerebrovascular or ((cardio or cerebro) a 42885
+258.0	1942.0	667.0	2003.0	100.0	dj vascular)).mp.
+165.0	1998.0	1902.0	2063.0	96.7	009 ((lung or respiratory or pulmonary or circulatory or childho 13085
+257.0	2059.0	789.0	2125.0	99.9	od) adj disease?).mp.
+168.0	2121.0	1926.0	2183.0	98.5	010 ((heart adj (failure? or disease? or attack?)) or cardiomyop 82788
+259.0	2182.0	750.0	2243.0	100.0	athy or infarct$).mp.
+167.0	2240.0	1943.0	2306.0	98.9	011 (stroke? or atherosclero$ or arteriosclero$ or hypertension) 85875
+257.0	2302.0	376.0	2368.0	100.0	.mp.
+167.0	2359.0	1208.0	2426.0	99.8	012 (diet?3 or nutrit$ or cholesterol$).mp.
+1566.0	2361.0	1729.0	2420.0	100.0	66343
+165.0	2420.0	1544.0	2486.0	99.7	013 (copd or bronchit$ or asthma$ or emphysem$).mp.
+1782.0	2423.0	1945.0	2479.0	100.0	27346
+165.0	2481.0	1939.0	2547.0	98.6	014 (sperm$ or impoten$ or (erectile adj dysfunction) or ova or 78310
+254.0	2535.0	1550.0	2608.0	100.0	ovum or ovulat$ or fertilit$ or reproduct$ or viril$).mp.
+165.0	2598.0	1450.0	2665.0	99.7	015 (embryo$ or f?etus or f?etal or teratogen$).mp.
+1748.0	2603.0	1790.0	2659.0	99.8	0
+167.0	2659.0	1312.0	2727.0	99.7	016 (sids or hypox$ or (birth adj defect?)).mp.
+1610.0	2662.0	1773.0	2718.0	100.0	21040
+168.0	2720.0	926.0	2781.0	98.9	017 sudden infant death?.mp.
+1531.0	2723.0	1663.0	2780.0	100.0	1118
+164.0	2778.0	1841.0	2845.0	97.8	018 (((room or indoor) adj air) or iaq or (respirable adj partic 2476
+254.0	2837.0	443.0	2909.0	98.4	$)).mp.
+169.0	2901.0	2076.0	2964.0	99.5	019 (carcinoma$ or cancer$ or carcinogen$ or mutagen$ or neoplas 372067
+253.0	2960.0	1032.0	3023.0	99.8	$ or malignan$ or tumo?r$).mp.
+165.0	3019.0	1579.0	3089.0	99.7	020 (epidemiol$ or (risk adj factor?) or occupational).mp.
+1699.0	3023.0	1886.0	3078.0	100.0	105194
+169.0	3083.0	486.0	3140.0	99.6	021 or/8-20
+1311.0	3083.0	1497.0	3138.0	100.0	740801
+169.0	3142.0	517.0	3198.0	97.5	022 7 and 21
+1350.0	3141.0	1512.0	3200.0	100.0	19313
+165.0	3199.0	871.0	3262.0	98.0	023 limit 22 to latest update
+1485.0	3200.0	1561.0	3262.0	100.0	78
+2914.0	3345.0	3081.0	3801.0	100.0	2067584416
+1640.0	4040.0	1674.0	4093.0	100.0	1
+2658.0	4265.0	3365.0	4376.0	100.0	PM303052280698

@@ -1,0 +1,47 @@
+CCIVLGQOOEWd
+SUBSYSTEM NAME
+Automated Project Startup
+(APS)
+Computerized Pricing
+Program (CPP)
+Sponsor Information
+Distribution Code
+Management
+Recipient Loading
+Technical Database
+(Test Services
+Management)
+Covance Central Laboratory Services
+Information Technology
+Advance Systems and Subsystems
+zavacor
+SUBSYSTEM DEFINITION SUPPORTED
+The Startup Subsystem provides the ability to create, delete, and edit the high level information
+associated with a project. Components of the Startup Subsystem are utilized initially to create a new
+project, and throughout the life of the project to make changes and corrections to the project.
+In house/Regulated
+The Automated Project Startup (APS) Subsystem provides users with automated data entry screens
+with which to define the initial project information. The operator uses APS to enter data such as the
+sponsor name, project number, pricing information, preliminary patient visit schedule, etc. The In house/Regulated
+information is entered as free form ASCII text, which is used to generate a rough specification sheet
+for the project.
+The Computerized Pricing Program (CPP) Subsystem allows the user to provide price quotations for
+CLS services. Within the subsystem specifications, such as site locations, patient counts, visit In house/Not
+schedules, and testing profiles, for the clinical trials are provided. Prices are associated with the Regulated
+specifications and a budget for the clinical trial is produced.
+The Sponsor Information Subsystem allows the entry of limited information about the sponsor,
+including the sponsor name, address, etc. The Sponsor Information screens link a sponsor to a In house/Regulated
+specific project.
+The Distribution Code Management Subsystem provides the ability to enter and edit distribution In house/Regulated
+information about all Sponsors and Investigators that will participate in a clinical trial. pula
+The Recipient Loading Subsystem provides the screens to attach investigators and other recipients to
+the project. This is where a link for a project to the investigator sites, which will be performing the
+clinical trials for the project. Additionally other report recipients are attached to projects with these
+screens.
+In house/Regulated
+The Technical Database Subsystem provides the data entry screens to enter a repository of reusable,
+technical information. This data is entered once, and is used as a common repository for multiple
+project. Technical Database information includes common tests, test group information, reference
+ranges, etc.
+In house/Regulated
+Page | of 6

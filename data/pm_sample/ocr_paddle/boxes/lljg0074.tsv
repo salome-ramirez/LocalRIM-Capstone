@@ -1,0 +1,31 @@
+x1	y1	x2	y2	conf	text
+291.0	253.0	1294.0	286.0	99.6	Tucker P., A Numerical Study of Optimal Room Layouts and Devices to
+292.0	288.0	673.0	319.0	100.0	Minimize Passive Smoking
+293.0	355.0	641.0	386.0	99.9	Description of the Project::
+291.0	418.0	1351.0	455.0	99.4	Computational fluid dynamics (CFD) has become an important tool to assess the
+290.0	454.0	1337.0	489.0	99.8	performance of ventilation systems, i.e., air flows within rooms and contaminant
+290.0	490.0	1367.0	523.0	99.1	removal from an indoor space. Computer simulations can be done for virtually any
+291.0	524.0	1354.0	557.0	99.1	situation by making a number of reasonable assumptions, with a typical objective
+290.0	559.0	1320.0	591.0	99.1	being to maximize system performance in order to minimize exposure to some
+289.0	589.0	1378.0	625.0	99.9	contaminants of interest. Validation and certification of CFD tools is still an ongoing
+290.0	625.0	1407.0	658.0	99.9	process and Dr Tucker's work will help to address the critical questions of quality and
+291.0	660.0	558.0	690.0	100.0	trust of CFD results.
+292.0	708.0	1388.0	740.0	98.7	Dr Tucker's work should increase our understanding of smoke distribution in rooms.
+291.0	743.0	1391.0	776.0	99.4	On that basis, CFD should provide an tool that can be used to minimize exposure to
+289.0	775.0	362.0	808.0	100.0	ETS.
+291.0	844.0	1079.0	877.0	99.2	Evaluation against Philip Morris External Research Agenda:
+292.0	912.0	338.0	944.0	100.0	1a.
+387.0	911.0	1127.0	945.0	99.3	Exposure/Biomarkers/Dosimetry, Measures of exposure
+291.0	979.0	1396.0	1012.0	100.0	This project is designed to provide Philip Morris with much improved methodology to
+290.0	1014.0	1403.0	1047.0	99.9	assess the distribution of ETS in any given venue and, as a consequence, determine
+290.0	1048.0	1347.0	1080.0	99.8	the effectiveness of any given ventilation strategy in minimizing the expsosure of
+290.0	1080.0	1382.0	1113.0	99.7	non-smokers to ETS. As a consequence, it clearly fits in with the external research
+290.0	1112.0	1375.0	1148.0	99.0	objective of determining exposure. It is important to note that Philip Morris' current
+289.0	1146.0	1368.0	1181.0	100.0	interest in exposure tends to involve the exposure of the smoker himself or herself
+291.0	1182.0	1304.0	1215.0	97.7	with respect to either whole smoke or some component of interest. However,
+289.0	1215.0	1282.0	1249.0	99.7	exposure of the non-smoker should not be neglected. Harm reduction is as
+289.0	1248.0	1387.0	1281.0	99.6	important with respect to the non-smoker as it is with respect to the smoker, despite
+289.0	1281.0	1390.0	1316.0	99.6	the fact that there is little evidence to support many of the putative effects of ETS on
+291.0	1318.0	1367.0	1348.0	99.7	the non-smoker. Methodologies to evaluate the effectiveness of ETS remediation,
+288.0	1350.0	1001.0	1385.0	100.0	therefore, are an important aspect of the PM program.
+1481.0	1824.0	1530.0	2045.0	100.0	2073808350

@@ -1,0 +1,75 @@
+PCT WORLD INTELLECTUAL PROPERTY ORGANIZATION
+International Bureau
+INTERNATIONAL APPLICATION PUBLISHED UNDER THE PATENT COOPERATION TREATY (PCT)
+(51) International Patent Classification 7 : (11) International Publication Number: WO 00/08959
+A24C 5/18 A1
+(43) International Publication Date: 24 February 2000 (24.02.00)
+(21) International Application Number: PCT/GB99/02600 (81) Designated States: AE, AL, AM, AT,AU, AZ, BA, BB, BG,
+BR, BY, CA, CH, CN, CU, CZ, DE, DK, EE, ES, FI, GB,
+(22) International Filing Date: 6 August 1999 (06.08.99) GD, GE, GH, GM, HR, HU, ID, IL, IN, IS, JP, KE, KG,
+KP, KR, KZ, LC, LK, LR, LS, LT, LU, LV, MD, MG, MK,
+MN, MW, MX, NO, NZ, PL, PT, RO, RU, SD, SE, SG, SI,
+(30) Priority Data: SK, SL, TJ, TM, TR, TT, UA, UG, US, UZ, VN, YU, ZA,
+9817605.0 14 August 1998 (14.08.98) GB ZW, ARIPO patent (GH, GM, KE, LS, MW, SD, SL, SZ,
+UG, ZW), Eurasian patent (AM, AZ, BY, KG, KZ, MD,
+RU, TJ, TM), European patent (AT, BE, CH, CY, DE, DK,
+(71) Applicant (for all designated States except US): BRITISH ES, FI, FR, GB, GR, IE, IT, LU, MC, NL, PT, SE), OAPÍ
+AMERICAN TOBACCO (INVESTMENTS) LIMITED patent (BF, BJ, CF, CG, CI, CM, GA, GN, GW, ML, MR,
+[GB/GB]; Globe House, 1 Water Street, London WC2R NE, SN, TD, TG).
+3LA (GB).
+(72) Inventor; and Published
+(75) Inventor/Applicant (for US only): OLIVER, Richard [GB/GB]; With international search report.
+27 Shirley Park Road, Shirley, Southampton SO16 4FQ
+(GB).
+(74) Agents: MACLEAN, Kenneth, John, Hanson et al.; British
+American Tobacco (Investments) Limited, Patents Dept., R
+& D Centre, Regents Park Road, Southampton SO15 8TL
+(GB).
+(54) TitIe: INCORPORATION OF SMOKE-MODIFYING AGENTS IN SMOKING MATERIAL RODS
+16
+2
+8 6 15
+13 12
+18
+2 14
+9 2505018441
+T Fig.2.
+(57) Abstract
+A method of incorporating fibriform smoke-modifying material in smoking material rod, wherein fibriform smoke-modifying material
+is fed longitudinally thereof to a rod making machine (1). The longitudinal feed path in the machine is in a travel direction of the smoking
+material deposition run of the suction band (3) of the machine, The fibriform material (13) is either constrained by guide means (15) in the
+machine to follow a feed path spaced from the run (31) of the suction band against the suction force towards the run or the feed path of
+the fibriform smoke-modifying material is caused to ascend toward the deposition nun under the influence of the suction force towards the
+run, until at a predetermined distance along the deposition run the fibriform material becomes supported and is subsequently maintained at
+a predetermined distance from the run by particulate smoking material (20) deposited on the run. Thereafter further smoking material (20')
+is deposited on the deposition run.
+R. Aeschlimaon
+(51) International Patent Classification 7: A24C 5/18
+
+(11) International Publication Number: WO 00/08959
+
+(43) International Publication Date: 24 February 2000 (24.02.00)
+
+(21) International Application Number: PCT/GB99/02600
+
+(22) International Filing Date: 6 August 1999 (06.08.99)
+
+(30) Priority Data: 9817605.0 14 August 1998 (14.08.98) GB
+
+(71) Applicant (for all designated States except US): BRITISH AMERICAN TOBACCO (INVESTMENTS) LIMITED [GB/GB]; Globe House, 1 Water Street, London WC2R 3LA (GB).
+
+(72) Inventor; and
+
+(75) Inventor/Applicant (for US only): OLIVER, Richard [GB/GB]; 27 Shirley Park Road, Shirley, Southampton SO16 4FQ (GB).
+
+(74) Agents: MACLEAN, Kenneth, John, Hamson et al.; British American Tobacco (Investments) Limited, Patents Dept., R & D Centre, Regents Park Road, Southampton SO15 8TL (GB).
+
+(81) Designated States: AE, AL, AM, AT, AU, AZ, BA, BB, BG, BR, BY, CA, CH, CN, CU, CZ, DE, DK, EE, ES, FI, GB, GD, GE, GH, GM, HR, HU, ID, IL, IN, IS, JP, KE, KG, KP, KR, KZ, LC, LK, LR, LS, LT, LU, LV, MD, MG, MK, MN, MW, MX, NO, NZ, PL, PT, RO, RU, SD, SE, SG, SI, SK, SL, TJ, TM, TR, TT, UA, UG, US, UZ, VN, YU, ZA, ZW, ARIPO patent (GH, GM, KE, LS, MW, SD, SL, SZ, UG, ZW), Eurasian patent (AM, AZ, BY, KG, KZ, MD, RU, TJ, TM), European patent (AT, BE, CH, CY, DE, DK, ES, FI, FR, GB, GR, IE, IT, LU, MC, NL, PT, SE), OAPI patent (BF, BJ, CF, CG, CI, CM, GA, GN, GW, ML, MR, NE, SN, TD, TG).
+
+Published With international search report.
+
+(54) Title: INCORPORATION OF SMOKE-MODIFYING AGENTS IN SMOKING MATERIAL RODS
+
+(57) Abstract
+
+A method of incorporating fibriform smoke-modifying material in smoking material rod, wherein fibriform smoke-modifying material is fed longitudinally thereof to a rod making machine (1). The longitudinal feed path in the machine is in a travel direction of the smoking material deposition run of the suction band (3) of the machine. The fibriform material (13) is either constrained by guide means (15) in the machine to follow a feed path spaced from the run (31) of the suction band against the suction force towards the run or the feed path of the fibriform smoke-modifying material is caused to ascend toward the deposition run under the influence of the suction force towards the run, until at a predetermined distance along the deposition run the fibriform material becomes supported and is subsequently maintained at a predetermined distance from the run by particulate smoking material (20) deposited on the run. Thereafter further smoking material (20') is deposited on the deposition run.

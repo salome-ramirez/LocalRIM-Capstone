@@ -1,0 +1,23 @@
+d
+INBIFO Institut fiir biologische Forschung • Koln
+27,Jan.92 NDA/BRA QAT3171 .WIvi
+UBERPRUFUNG VON P 0500/3171 DURCH QA
+BLATT-NR .: i von 2
+TITEL; Discrimination of CSC from 2R1F and X6D3DAM in the 2-Stage Transformation Assay Using 10T112 Cells
+(PT)
+PRL7FZEITPU'1NKT; 24.Jan.92
+LTBERPRUFTER PARAMETER
+BEANSTANDUN G
+Transformationstes t
+SOP
+keine
+Auswertung
+it
+Beschriftung
+It
+Protokollierung
+It
+BEMERFCUNG : Studie nach den GLP-GrundsAtzen des ChemG
+27.Jan.92
+QA: DATUM/ZN
+4086

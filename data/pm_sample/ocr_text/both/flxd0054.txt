@@ -1,0 +1,65 @@
+PHILIP MORRIS USA CONFIDENTIAL
+PROGRAMNUMBER: 920113 DFGU
+PROGRAM NAME : Sensory Technology Kt MUIt
+PROGRAM COORD. : R. Carctuman
+WRITTENBY : C. Hayes. W. Reininghaus, J. Garman, J. Lephardt H Hm
+PERIOD COVERED : Fouth Quater, 1992 5.1091112
+Coordinator Summary: The sensory evoked potential lab is being reestablished at INBIFO. The
+development ofanalytical procedures to measure the acid/base character of filierand smoke continue
+as scheduied, but filler basification studies have been delayed due to other priorities.
+I. Objective: To develop the technology to produce low alkaloid and low tar/low alkaloid
+cigaretes that have sensory characteristics superior to currently available products.
+A. Strategy: Deveiop a fundamental understanding of how nicotine affects sensory
+systems
+ap
+1. Results: Concentration response curves for both (- and (R)-nicotine have been
+determined for the frog nasal epithelium by the Kobal group in Eriangen. A
+concentration response curve for low concentrations (5- 150 g/A) of (5)-nicotine is in
+the process of being determined by. INBIFO for the nasal cpithclium of the frog.
+2. Plans: Compare the sensory charactcristics of low concentrations of (R)-nicotine to
+the same concentrations of (S)-nicotine in the frog model at INBIFO. Conduct
+collatorative studies with the Kobal group on cognitive evoked potentiais to
+odorants. Establish a patch clarop recording facility in Erlangen in order to study
+seiccted compounds with neuronal cell cultures.
+3. Contributors: NBIFO. Erlangen.
+B. Strategy! Devclop an analytical approach to the measurement of the acid/base character
+of filler and smoke.
+1. Resutts: Due to the high priority placed on the De-Nic menthol program, filler
+basification studies have been delayed. However, an invesigation has been
+reinitiated to determine whether a Ca(OH)z/sucrose casing formulation will yield a
+stableifilier of the desired pH and be suitable for scaled up applications (1).
+Comparative testing has shown that gas phase smoke is more acidic than whole
+smoke. Theaddition of a surfactant (Brij 35) to the pH 7 buffer solution resulted in no
+significant difference in the measured acid/base character of the smoke or analytical
+performance. The addition of KCl to the pH 7 buffer solution is currenty being
+evaluated. 2025986825
+An altemative "smoke pH" measurement, employing direct impaction onto a pH 2074851275
+electrode, was investigated. The approach was abandoned, however, when between
+puff rinsing of condensed material from the electrode was insufficient to reestablish
+the appropriate electrode response. In fact, disassembly of the cicctrode from the
+PHILIP MOrRIS USA CONFIDENTIAL PAGE 109
+PROGRAM NUMBER: 920113
+PROGRAM NAME: Sensory Technology
+PROGRAM COORD.: R. Carchman
+WRITTEN BY: C. Hayes, W. Reininghaus, J. Garman, J. Lephardt
+PERIOD COVERED: Fourth Quarter, 1992
+
+Coordinator Summary: The sensory evoked potential lab is being reestablished at INBIFO. The development of analytical procedures to measure the acid/base character of filler and smoke continue as scheduled, but filler basification studies have been delayed due to other priorities.
+
+I. Objective: To develop the technology to produce low alkaloid and low tar/low alkaloid cigarettes that have sensory characteristics superior to currently available products.
+
+A. Strategy: Develop a fundamental understanding of how nicotine affects sensory systems.
+
+1. Results: Concentration response curves for both (S)–and (R)–nicotine have been determined for the frog nasal epithelium by the Kobal group in Erlangen. A concentration response curve for low concentrations (5–150 g/l) of (S)–nicotine is in the process of being determined by INBIFO for the nasal epithelium of the frog.
+
+2. Plans: Compare the sensory characteristics of low concentrations of (R)–nicotine to the same concentrations of (S)–nicotine in the frog model at INBIFO. Conduct collaborative studies with the Kobal group on cognitive evoked potentials to odorants. Establish a patch clamp recording facility in Erlangen in order to study selected compounds with neuronal cell cultures.
+
+3. Contributors: INBIFO, Erlangen.
+
+B. Strategy: Develop an analytical approach to the measurement of the acid/base character of filler and smoke.
+
+1. Results: Due to the high priority placed on the De-Nic menthol program, filler basification studies have been delayed. However, an investigation has been reinitiated to determine whether a Ca(OH)₂/sucrose casing formulation will yield a stable filler of the desired pH and be suitable for scaled up applications (1).
+
+Comparative testing has shown that gas phase smoke is more acidic than whole smoke. The addition of a surfactant (Brij 35) to the pH 7 buffer solution resulted in no significant difference in the measured acid/base character of the smoke or analytical performance. The addition of KCl to the pH 7 buffer solution is currently being evaluated.
+
+An alternative "smoke pH" measurement, employing direct impaction onto a pH electrode, was investigated. The approach was abandoned, however, when between puff rinsing of condensed material from the electrode was insufficient to reestablish the appropriate electrode response. In fact, disassembly of the electrode from the
