@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import html
 import json
+import re
 
 import pandas as pd
 import streamlit as st
@@ -15,6 +16,16 @@ from .shared import APP, PER_PAGE, go, log, node_records, ocr_text, open_record,
 state = st.session_state
 # Set by screens.use() on every run of app.py
 archive = archive_raw = tax = type_info = review_queue = waiting_n = None
+
+
+# Internal review codes (a prefix, a hyphen and a number) stay in archive.csv's how-filed text
+# but are not shown in the Reader; an emptied pair of brackets goes too.
+REVIEW_CODE = re.compile(r",?\s*\b(?:App|D|R)-\d+\b")
+
+
+def shown_how(how: str) -> str:
+    """Return the how-filed text for display, without review codes."""
+    return re.sub(r"\s*\(\s*\)", "", REVIEW_CODE.sub("", how)).strip()
 
 
 # The Reader opens in the view each user last chose, saved in outputs/app/reader_prefs.json.
@@ -395,7 +406,7 @@ def reader():
                     old = type_info.get(h.old, ("", "", "", "", h.old or "none"))[4]
                     new = type_info.get(h.new, ("", "", "", "", h.new))[4]
                     st.markdown(f"**{h.time}** · filing changed by {h.by}: {old} → {new}" + (f" · *{h.note}*" if h.note else ""))
-            st.markdown(f"**{r['added']}** · {r['how_filed']}")
+            st.markdown(f"**{r['added']}** · {shown_how(r['how_filed'])}")
             if (r["suggested"] == "True" or "pipeline" in r["how_filed"]) and r["id"] in set(archive_raw["id"]):
                 st.caption(f"Original filing kept for audit: {archive_raw.set_index('id').loc[r['id'], 'department_name']} › "
                            f"{archive_raw.set_index('id').loc[r['id'], 'record_type_name'] or 'no record type'}")
