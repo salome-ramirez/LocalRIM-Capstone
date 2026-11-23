@@ -1166,8 +1166,8 @@ body.grid .fw-end-text p + p { margin-top: .9rem; }
 /* Under 420 px the Overview link is hidden so the phone nav fits one line; the wordmark already links
    to the Overview */
 @media (max-width: 420px) { .masthead nav > a[href="index.html"] { display: none; } }
-/* phones: a single decision beside a lead-in stacks at full width (the desktop rule's longer :has() outranked the phone rule) */
-@media (max-width: 767px) { body.grid .mgrid.g-stack:has(> .mcol > .decisions:only-child > details:only-of-type) > .mcol { grid-column: 1 / -1; } }
+/* under 1120 px (8 or 4 columns): a single decision beside a lead-in stacks at full width; the desktop rule's last column is too narrow for it */
+@media (max-width: 1119px) { body.grid .mgrid.g-stack:has(> .mcol > .decisions:only-child > details:only-of-type) > .mcol { grid-column: 1 / -1; } }
 /* Findings: the CV lesson uses the full width; each short lesson carries its own decisions under it */
 body.grid p.lesson.lesson-wide { max-width: none; }
 body.grid ul.g-list3 li .decisions { margin-top: .7rem; padding-top: 0; border-top: 0; }
