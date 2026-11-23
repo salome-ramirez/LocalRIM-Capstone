@@ -17,7 +17,7 @@ const SVGNS = "http://www.w3.org/2000/svg";
 
 /* Shell */
 function buildShell() {
-  // Pages in the new design carry their own masthead: keep it, add only the footer.
+  // A page with its own masthead keeps it; only the footer is added.
   if (document.querySelector(".masthead")) {
     const m = document.querySelector("main");
     if (m && !m.querySelector("footer.site")) { const f = document.createElement("footer"); f.className = "site"; f.textContent = FOOTER; m.append(f); }
@@ -52,7 +52,7 @@ const fmt = (v, kind) => {
   if (kind === "signed2") { const s = Number(v).toFixed(2); return Number(s) < 0 ? `−${s.slice(1)}` : `+${s}`; }
   if (kind === "pts") return String(Math.round(Number(v) * 100));
   if (kind === "word") { const w = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"]; return w[v] || Number(v).toLocaleString("en-US"); }
-  // ISO date ("2026-11-23") → "" (L1-3); UTC so the day never shifts
+  // ISO date ("2026-11-23") → "Nov 23, 2026"; UTC so the day never shifts
   if (kind === "date") return new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${v}T00:00:00Z`));
   if (typeof v === "number") return v.toLocaleString("en-US");
   return String(v);
@@ -101,7 +101,7 @@ function bindFields(data) {
     const lo = Math.round(Math.min(...m)), hi = Math.round(Math.max(...m));
     el.textContent = lo === hi ? `${lo} s` : `${lo}–${hi} s`;
   });
-  // Figure 0 caption (L1-3): replacements = drawn − labeling pool − scale batch (D-42)
+  // Figure 0 caption: replacements = drawn − labeling pool − scale batch (D-42)
   document.querySelectorAll('[data-derived="sample-replacements"]').forEach(el => {
     const s = data.sample || {}, r = data.scale_run;
     el.textContent = s.labeling_pool && r ? fmt(s.drawn - s.labeling_pool - r.pages, el.dataset.format) : "—";
@@ -114,11 +114,6 @@ function bindFields(data) {
     const n = num && den ? Math.round(num / den) : null;
     el.textContent = n == null ? "—" : WORDS[n] || n.toLocaleString("en-US");
   });
-  const days = document.querySelector("[data-days-left]");
-  if (days && data.deadline) {
-    const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York" }).format(new Date());
-    days.textContent = Math.max(0, Math.round((Date.parse(data.deadline) - Date.parse(today)) / 864e5));
-  }
   const updated = document.querySelector("[data-updated]");
   const asOf = v => String(v).replace(/,\s*\d{4}/, "").replace(/\s+\d{1,2}:\d{2}$/, "");
   if (updated && updated.dataset.updated === "dev-test" && data.data_as_of && data.final_test && data.final_test.labels_as_of)   // 01 · Intake
@@ -361,7 +356,7 @@ const CHARTS = {
     host.append(s);
   },
 
-  /* 01: uncertainty as a department x batch grid, darker = more uncertain (option 3) */
+  /* 01: uncertainty as a department x batch grid, darker = more uncertain */
   uncertaintyGrid(host, d) {
     const batches = d.labels.by_batch || [];
     if (!batches.length) return emptyNote(host, "No labels yet");
@@ -496,7 +491,7 @@ function coverage(host, d) {
 
 /* Tables built from data */
 function pipeline(host, d) {
-  /* Statuses come from site_data.json (pipeline); the data-done workaround is gone */
+  /* Statuses come from site_data.json (pipeline) */
   host.innerHTML = d.pipeline.map(p =>
     `<li class="${p.status}"><b>${p.step}</b><span>${{ done: "Complete", active: "In progress", next: "Next", later: "Later" }[p.status]} · ${p.value}</span></li>`).join("");
 }

@@ -1,8 +1,8 @@
-/* 03 Filing and review charts, .
+/* Filing and review chapter (03) charts.
    Adds the classifier figures to the shared CHARTS table in site.js and reuses its
    helpers (svg, el, widthOf, fmt, emptyNote). Every number comes from
    site_data.json (classifier block, written by build_site_data.py from the
-   cross-validation outputs in outputs/classifier). Counts and scores only. */
+   cross-validation outputs in results/classifier). Counts and scores only. */
 
 (() => {
   const NS = "http://www.w3.org/2000/svg";
@@ -233,7 +233,7 @@
       host.append(s);
     },
 
-    /* Trade-off curve (was Figure 26a; the chapter now shows the interactive cutoff, Figure 3.7, drawn by casefile.js) */
+    /* Trade-off curve. No page draws it; the chapter's cutoff figure (Figure 3.7) is drawn by casefile.js */
     routingCurve(host, d) {
       if (!need(host, d)) return;
       const r = cls(d).routing;

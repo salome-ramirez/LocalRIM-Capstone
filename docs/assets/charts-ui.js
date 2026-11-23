@@ -178,9 +178,9 @@
   document.addEventListener("keydown", e => { if (e.key !== "Escape") return; document.querySelectorAll(".nav-ref[open]").forEach(d => { d.open = false; d.querySelector("summary").focus(); }); });
 })();
 
-/* Review pass
-a lead-in with nothing beside it that fits in three lines at the full width uses the full width (.fw).
-decision IDs, figure numbers, numbers with separators or units and file IDs are wrapped in .nb so they never
+/* Text fitting.
+A lead-in with nothing beside it that fits in three lines at the full width uses the full width (.fw).
+Decision IDs, figure numbers, numbers with separators or units and file IDs are wrapped in .nb so they never
    break or hyphenate. Both run once the text is bound and again when content is added (decision lists, charts). */
 (() => {
   const RX = /(\(?(?:D-\d+|Figures? \d+(?:\.\d+)?(?:[–-]\d+(?:\.\d+)?)?|\d{1,3}(?:,\d{3})+(?:\s(?:pages|records|documents|words))?|\d+(?:\.\d+)?\s?(?:%|s|ms|px)(?![A-Za-z])|\d+\.\d+(?:[–-]\d+\.\d+)?|\b[A-Z]{2}\d{6,}\b|\b[a-z]{4}\d{4}\b)\)?[.,;:]?)/g;   // brackets and the punctuation after stay with the token

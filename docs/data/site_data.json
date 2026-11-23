@@ -1,7 +1,6 @@
 {
  "updated": "Nov 20, 2026 23:31",
  "data_as_of": "Nov 7, 2026 19:07",
- "deadline": "2026-11-23",
  "pipeline": [
   {
    "step": "Sample",

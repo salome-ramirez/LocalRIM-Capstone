@@ -1,4 +1,4 @@
-/* Reading chapter charts (02 Reading the pages), .
+/* Reading the pages chapter (02) charts.
    Adds ten figures to the shared CHARTS table in site.js and reuses its helpers
    (svg, el, widthOf, fmt, emptyNote). Every number comes from site_data.json
    (ocr.engines, written by build_site_data.py from ocr_compare.py's tables).
@@ -57,7 +57,7 @@
       const tiles = [
         ["archival pages processed", (c.pages_expected || 0).toLocaleString("en-US"), "First page of every document in the sample"],
         ["text sources compared", String(Object.keys(e.analyses).length), "Tesseract at two resolutions, PaddleOCR, a vision-language model, UCSF's text layer"],
-        ["word recall by PaddleOCR on benchmark forms with known text", f.word_recall != null ? pct(f.word_recall) : "—", ""],   // Description dropped, the label says it
+        ["word recall by PaddleOCR on benchmark forms with known text", f.word_recall != null ? pct(f.word_recall) : "—", ""],   // no description: the label says it
         ["pages with Bates numbers recovered by PaddleOCR", c.pages_read ? pct(c.pages_with_own_bates_found / c.pages_read) : "—", ""],
       ];
       const wrap = document.createElement("div");
@@ -156,7 +156,7 @@
       const SHORTG = { "1": "clean typed", "2": "photo ad", "3a": "degraded scan", "3b": "graphics", "4": "clean report" };
       // One full-width strip per group, cut into one cell per checked page, so each
       // row reads as a share (4 of 6 vs 4 of 4) and every page stays visible. A wrong cell names the page's true
-      // group inside it (replaces the separate "Correct groups" line). Narrow charts: name above, strip below.
+      // group inside it. Narrow charts: name above, strip below.
       const W = widthOf(host), gap = 4, narrow = W < 560;
       const labelW = narrow ? 0 : Math.min(230, Math.round(W * 0.24));
       const cellH = narrow ? 40 : 34, rowH = narrow ? 50 + cellH : 52;

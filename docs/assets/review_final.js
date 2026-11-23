@@ -53,7 +53,7 @@
 
   Object.assign(CHARTS, {
 
-    /* Opening tiles, final numbers (replace the cross-validated tiles once the test is scored) */
+    /* Opening tiles with the final-test numbers (shown in place of the cross-validated tiles) */
     finalTiles(host, d) {
       const f = d.final_test, r = d.final_test && d.final_test.rag, sr = d.scale_run;
       if (!need(host, f, "The final test has not been scored yet.")) return;

@@ -36,7 +36,7 @@
       box.append(H("h3", null, g.name));
       const sub = H("p", "sub");
       sub.textContent = `${items.length} decision${items.length === 1 ? "" : "s"}`;
-      /* The case file was retired; each group links to its chapter section */
+      /* Each group links to its chapter section */
       if (g.href) { sub.append(". In the chapter: "); const a = H("a", null, g.chapter); a.href = g.href; sub.append(a); }
       box.append(sub);
       (key.length ? key : items.slice(0, 2)).forEach(d => box.append(row(d)));

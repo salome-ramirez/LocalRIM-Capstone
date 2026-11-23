@@ -1,4 +1,4 @@
-/* Filing system chapter (01) charts, .
+/* Filing system chapter (01) charts.
    Adds figures to the shared CHARTS table in site.js and reuses its helpers
    (svg, el, widthOf, fmt, emptyNote, viewOf). Batch filters keep working:
    redraw in site.js calls these by name with host.dataset.batch set. */

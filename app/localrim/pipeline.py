@@ -306,7 +306,7 @@ def check(n: int, rag: bool) -> None:
           f"same route: {(df['routed'] == df['saved_routed']).mean():.0%}"
           + (f" | same record type: {(df['record_type'] == df['saved_record_type']).mean():.0%}" if rag else "")
           + f" | file number matches manifest: {df['file_number_ok'].mean():.0%}")
-    print("Differences are expected where PaddleOCR's text differs from the evaluation's hybrid text (App-1).")
+    print("Differences are expected where PaddleOCR's text differs from the evaluation's hybrid text.")
     print(f"Saved to {OUT / 'pipeline_check.csv'}")
 
 

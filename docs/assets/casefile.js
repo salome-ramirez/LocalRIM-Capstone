@@ -25,7 +25,7 @@
 
   const STAGES = ["intake", "capture", "preparation", "classification", "routing", "validation"];
   const NAMES = { intake: "Intake", capture: "Capture", preparation: "Preparation", classification: "Classification", routing: "Routing", validation: "Validation" };
-  // Stages were renamed on old links (#received, #read, ...) still open the right stage
+  // Old stage names in links (#received, #read, ...) still open the right stage
   const OLD = { received: "intake", read: "capture", cleaned: "preparation", classified: "classification", routed: "routing", checked: "validation" };
 
   /* Named calculations (all from site_data.json) */
@@ -754,8 +754,6 @@
   }
   // The same charts serve the landing's stage switcher (inside panels) and the chapters (data-cf hosts)
   const ro = new ResizeObserver(entries => entries.forEach(en => draw(en.target)));
-
-  /* The stage switcher (select, wireTabs) was removed with the Overview's stage panels */
 
   /* Mockup controls */
   $$("[data-set-theme]").forEach(b => b.addEventListener("click", () => {

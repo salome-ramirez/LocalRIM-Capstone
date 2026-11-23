@@ -61,7 +61,6 @@ TARGET = 250                 # raised from 200 at the 50-label checkpoint
 LABEL_POOL = 400             # manifest positions 1-400 are the labeling pool; 401-403 replace failed
                              # downloads; 404-1,403 are the scale batch (final test + scale run)
 LOW_COUNT_RULE = 15          # raise the target to 250 if a department projects under this
-DEADLINE = "2026-11-23"
 
 # Archive counts from the UCSF API (Nov 6, 2026); fixed facts, not recomputed.
 PM_TOTAL = 5_250_814
@@ -729,7 +728,6 @@ data = {
     # Time of the newest saved label: says exactly which records the site shows.
     "data_as_of": (datetime.fromisoformat(headline["data_as_of"]).strftime("%b %d, %Y %H:%M").replace(" 0", " ")
                    if headline["data_as_of"] else None),
-    "deadline": DEADLINE,
     "pipeline": pipeline,
     "sample": {"drawn": drawn, "labeling_pool": LABEL_POOL, "funnel": [
         {"label": "Philip Morris Records", "count": PM_TOTAL},

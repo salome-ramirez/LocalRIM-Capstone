@@ -1,5 +1,5 @@
-/* The helper. Colours follow the page tokens, with the earlier
-   light colours as fallbacks. It rests as the mascot alone; the bubble opens on click.
+/* The helper. Colours follow the page tokens, with light colours
+   as fallbacks. It rests as the mascot alone; the bubble opens on click.
    Motion: one entrance (peek, or the landing's fly-in), one soft cue per new tip, the exit flight.
    No idle or continuous motion. Under prefers-reduced-motion nothing moves. */
 .helper { position: fixed; right: 16px; bottom: 14px; z-index: 50; display: flex; align-items: flex-end; gap: 6px;
@@ -9,7 +9,7 @@
 
 /* entrance 1: a peek from the edge (state change, user-paced): strong ease-out, 240 ms */
 .helper.is-in.is-peeking { opacity: 1; transform: none; transition: opacity 240ms cubic-bezier(.23, 1, .32, 1), transform 240ms cubic-bezier(.23, 1, .32, 1); }
-/* entrance 2 (landing only): the earlier mascot.js arc, once, 0.8 s */
+/* entrance 2 (landing only): a fly-in along an arc, once, 0.8 s */
 .helper.is-in.is-flying { opacity: 1; transform: none; animation: helper-fly .8s both; transform-origin: 65% 65%; }
 @keyframes helper-fly {
   0%   { opacity: 0; transform: translate(46px, 30px) rotate(-32deg) scale(.55); animation-timing-function: cubic-bezier(.16, .7, .3, 1); }

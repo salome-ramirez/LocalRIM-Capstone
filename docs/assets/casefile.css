@@ -498,8 +498,8 @@ section.block { padding-top: 2.2rem; }
 .legend-def, body.appendix .legend-def { margin: .45rem 0 0; max-width: 46rem; font: 400 .82rem/1.45 var(--label); color: var(--muted); }
 .legend-def b { color: var(--ink); font-weight: 700; }
 
-/* Overview opening, second layout: client and the archive at a glance on top; a full-width rule;
-   the question and byline below it, with the archive note beside them */
+/* Overview opening, base rules (the two opening blocks further down refine them): client and the archive
+   at a glance on top; a full-width rule; the question and byline below it, with the archive note beside them */
 .opening { display: block; padding: 3rem 0 1.5rem; }
 .opening-top, .opening-q { display: grid; grid-template-columns: minmax(0, 1fr) minmax(15rem, 22rem); column-gap: clamp(2rem, 5vw, 5rem); }
 .opening-top { align-items: end; }
@@ -619,7 +619,7 @@ body.appendix .engine-key.stacked { grid-template-columns: repeat(2, minmax(0, 1
 .st-slide { align-content: start; }
 body.appendix .st-text h3 { margin: .45rem 0 .3rem; } body.appendix .st-text .as-n { display: block; width: fit-content; }
 
-/* Overview opening, third layout
+/* Overview opening, refined
    Title and subtitle full width; a 2 px ink rule; two columns: the question, byline, framing paragraph,
    three key numbers and the answer on the left (text at 40 rem); the archive at a glance and the archive
    note on the right. Phones: title, rule, question, answer, at a glance, note. */
@@ -638,7 +638,7 @@ body.appendix .st-text h3 { margin: .45rem 0 .3rem; } body.appendix .st-text .as
   .opening-q .opening-side { margin-top: 2rem; max-width: 40rem; }
 }
 
-/* Overview opening, fourth layout
+/* Overview opening, last block (its rules win over the two above)
    Title and subtitle full width (the subtitle on one line); a 2 px rule; the question, byline and answer with
    "The archive at a glance" beside them; a full-width band of three key numbers and their sources; the CV
    paragraph (40 rem) with "From the archive" in its margin, no box, at the foot of the paragraph.
@@ -709,7 +709,7 @@ body.grid .opening-nums .answer div, body.grid .t-stage .glance div { position: 
 body.grid .opening-nums .answer div + div::before, body.grid .t-stage .glance div + div::before {
   content: ""; position: absolute; top: 0; bottom: 0; left: calc(var(--gut) / -2); border-left: 1px solid var(--rule); }
 body.grid .t-stage .glance b { white-space: nowrap; }
-body.grid .t-stage .glance div { display: block; }       /* an older phone rule made each cell a two-column grid */
+body.grid .t-stage .glance div { display: block; }       /* each cell is a plain block, not a two-column grid */
 body.grid .t-stage .glance b { display: block; margin: 0 0 .2rem; }
 
 /* text with margin: paragraph in 7, margin in 5, the margin starting level with the paragraph */
@@ -887,7 +887,7 @@ body.grid .mgrid.g-stack > .mcol > .decisions > :not(details) { grid-column: 1 /
 body.grid .mgrid.g-stack > .main p { max-width: none; text-align: left; }
 body.grid .mgrid.g-stack > .mcol > * { margin-top: 0; }
 body.grid .mgrid.g-stack > .mcol .decisions { padding-top: 0; border-top: 0; }
-/* a chart key moved from the margin to its figure (Figure 2.6), in one line above the chart */
+/* a chart key inside its figure (Figure 2.6), in one line above the chart */
 body.grid figure .fig-key { display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem 1.2rem; margin: 0 0 .6rem; font: 400 .85rem/1.4 var(--label); color: var(--muted); }
 body.grid figure .fig-key .mkey-h { margin: 0; font-weight: 700; color: var(--ink); }
 body.grid figure .fig-key .engine-key { display: flex; flex-wrap: wrap; gap: .3rem 1.2rem; }
@@ -1004,7 +1004,7 @@ body.grid .route.stage-map .name { margin-bottom: .45rem; }
   body.grid .route.stage-map li:nth-child(4) a { border-left: 0; padding-left: 0; }
   body.grid .route.stage-map li:nth-child(n+4) { border-top: 1px solid var(--rule); }
 }
-/* 900 px and under: the vertical route with dots (older .route rules) */
+/* 900 px and under: the vertical route with dots */
 @media (max-width: 900px) {
   body.grid .route.stage-map { grid-template-columns: 1fr; grid-template-rows: none; }
   body.grid .route.stage-map li, body.grid .route.stage-map a { display: block; grid-row: auto; }
@@ -1026,7 +1026,7 @@ body.grid .key-link { margin: .4rem 0 0; font: 500 .88rem/1.4 var(--label); }
    02 and 03: the first stage's list (7 questions) runs in two columns (4 + 3) under its one heading; the other stage(s)
    take the third column, stacked (03: Routing above Validation). Numbering continues within each stage. 01's single
    list is already a 3 x 3 grid. Tablets: two columns; phones: one. */
-body.grid nav.ic-band.grouped > ol { display: grid; column-count: auto; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: none; grid-auto-flow: row; column-gap: var(--gut); row-gap: .2rem; align-items: start; }   /* row flow: an older rule set column flow with three rows */
+body.grid nav.ic-band.grouped > ol { display: grid; column-count: auto; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: none; grid-auto-flow: row; column-gap: var(--gut); row-gap: .2rem; align-items: start; }   /* row flow, not column flow */
 body.grid nav.ic-band.grouped > ol > li.ic-part:first-child { grid-column: span 2; grid-row: span 2; }
 body.grid nav.ic-band.grouped > ol > li.ic-part:first-child > ol { display: block; column-count: 2; column-gap: var(--gut); }
 body.grid nav.ic-band.grouped > ol > li.ic-part:first-child > ol > li { break-inside: avoid; }
@@ -1040,12 +1040,12 @@ body.grid nav.ic-band.grouped > ol > li.ic-part:first-child > ol > li { break-in
   body.grid nav.ic-band.grouped > ol > li.ic-part:first-child > ol { column-count: 1; }
 }
 
-/* Review pass:,, A5–A10 */
-/* A3: no single word alone on the last line; paragraphs, list items, definitions and captions */
+/* Text and spacing rules shared by the grid pages */
+/* no single word alone on the last line; paragraphs, list items, definitions and captions */
 main p, main li, main dd, main figcaption { text-wrap: pretty; }
-/* A3: short lead-ins with nothing beside them use the full width (charts-ui.js marks them .fw after measuring) */
+/* short lead-ins with nothing beside them use the full width (charts-ui.js marks them .fw after measuring) */
 body.grid main p.fw { max-width: none; }
-/* A2 + A6: the row of small blocks under a stacked lead-in (Built with, Decisions, definitions, key numbers) spreads
+/* the row of small blocks under a stacked lead-in (Built with, Decisions, definitions, key numbers) spreads
    across the full width, top-aligned; decisions take one share per decision, so two sit in halves and three in thirds */
 body.grid .mgrid.g-stack > .mcol { display: flex; flex-wrap: nowrap; gap: .8rem var(--gut); align-items: flex-start; }
 body.grid .mgrid.g-stack > .mcol > * { flex: 1 1 0; min-width: 0; }
@@ -1053,24 +1053,24 @@ body.grid .mgrid.g-stack > .mcol > .decisions:has(> details:nth-of-type(2)) { fl
 body.grid .mgrid.g-stack > .mcol > .decisions:has(> details:nth-of-type(3)) { flex-grow: 3; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: var(--gut); align-items: start; }
 body.grid .mgrid.g-stack > .mcol > .mterm:has(> dt:nth-of-type(2)) { flex-grow: 2; }
 body.grid .mgrid.g-stack > .mcol > .mterm:has(> dt:nth-of-type(3)) { flex-grow: 3; }
-/* A5: a pair or set of definitions sits side by side in equal columns (stacked only on phones) */
+/* a pair or set of definitions sits side by side in equal columns (stacked only on phones) */
 body.grid .mterm:has(> dt:nth-of-type(2)) { display: grid; grid-auto-flow: column; grid-template-rows: auto auto; grid-auto-columns: minmax(0, 1fr); column-gap: var(--gut); align-items: start; }
 body.grid .mterm:has(> dt:nth-of-type(2)) dd + dt { margin-top: 0; }
-/* A10: one decision beside a lead-in sits in the right columns, top-aligned, not on a row of its own */
+/* one decision beside a lead-in sits in the right columns, top-aligned, not on a row of its own */
 body.grid .mgrid.g-stack:has(> .mcol > .decisions:only-child > details:only-of-type) > .main { grid-column: 1 / span 7; }
 body.grid .mgrid.g-stack:has(> .mcol > .decisions:only-child > details:only-of-type) > .mcol { grid-column: 8 / -1; margin-top: 0; display: block; }
-/* A10: the same space between a lead-in and the blocks under it everywhere */
+/* the same space between a lead-in and the blocks under it everywhere */
 body.grid .mgrid.g-stack > .main > :last-child { margin-bottom: 0; }
 body.grid .mgrid.g-stack > .mcol { margin-top: 1rem; }
-/* A7: a margin block beside a paragraph starts level with its first line (the paragraph's half-leading) */
+/* a margin block beside a paragraph starts level with its first line (the paragraph's half-leading) */
 body.grid .mgrid:not(.g-stack) > .mcol, body.grid .mgrid.g-stack:has(> .mcol > .decisions:only-child) > .mcol { padding-top: .3rem; }
 body.grid .mgrid > .mcol > :first-child, body.grid .mgrid > .mcol .decisions > h3:first-child { margin-top: 0; }
-/* A8: decision IDs, figure numbers, numbers with separators or units and file IDs never break or hyphenate */
+/* decision IDs, figure numbers, numbers with separators or units and file IDs never break or hyphenate */
 .nb, .decisions .did, [data-field], [data-sum], [data-share], [data-calc], [data-derived] { white-space: nowrap; hyphens: manual; -webkit-hyphens: manual; }
-/* A9: every caption in the caption style (Figures 2.7 and 2.8 were body text); full figure width */
+/* every caption in the caption style; full figure width */
 body.appendix figure.research figcaption, figure figcaption { font: 400 .9rem/1.5 var(--label); color: var(--muted); text-align: left; hyphens: manual; -webkit-hyphens: manual; max-width: none; }
 body.grid figure.fig-steps ol.steps, body.grid figure.fig-cards .fluent { margin-top: .6rem; }
-/* A13: 03's closing section uses the full width */
+/* 03's closing section uses the full width */
 body.grid section.g-close p { max-width: none; }
 /* phones: rows stack */
 @media (max-width: 767px) {
@@ -1084,7 +1084,7 @@ body.grid section.g-close p { max-width: none; }
   body.grid .mterm:has(> dt:nth-of-type(2)) { grid-auto-flow: row; grid-template-rows: none; grid-auto-columns: auto; }
   body.grid .mterm:has(> dt:nth-of-type(2)) dd + dt { margin-top: .55rem; }
 }
-/* Figure 1.7: seven small multiples as 4 + 3 (they fell 5 + 2, a lone pair); 2 per row on phones */
+/* Figure 1.7: seven small multiples as 4 + 3 (not 5 + 2, which leaves a lone pair); 2 per row on phones */
 body.grid .settle-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: var(--gut); }
 @media (max-width: 1119px) { body.grid .settle-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 599px) { body.grid .settle-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
@@ -1107,7 +1107,7 @@ body.grid p.cut-note { margin-top: 1rem; }
   body.grid ol.cut-band li { grid-row: auto; grid-template-rows: none; }
   body.grid ol.cut-band li + li .n::before { display: none; }
 }
-/* C: Findings as the conclusion. The answer as a pair: 6 + 6 on shared rows under one 2 px rule; a solid swatch for
+/* Findings as the conclusion. The answer as a pair: 6 + 6 on shared rows under one 2 px rule; a solid swatch for
    "Trusted" and the topaz hatch for "Defer to a person" (the hatch is a mark, never behind text) */
 body.grid .answer-pair { display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); grid-template-rows: auto auto; column-gap: var(--gut); margin: 1.6rem 0 2rem; padding-top: .9rem; border-top: 2px solid var(--ink); }
 body.grid .answer-pair > div { grid-column: span 6; grid-row: span 2; display: grid; grid-template-rows: subgrid; min-width: 0; }
@@ -1139,7 +1139,7 @@ body.grid table.vs-table td:first-child { color: var(--muted); }
   body.grid table.vs-table td + td { margin-top: .3rem; }
   body.grid table.vs-table td + td::before { content: "A working client: "; font-weight: 700; }
 }
-/* D: Future work. The version path in 7 and the research strand in 5, sharing a top; the path is a column of
+/* Future work. The version path in 7 and the research strand in 5, sharing a top; the path is a column of
    mulberry version chips joined by a taupe line; "Also possible" under V3 in two columns; stacked below 1120 px */
 body.grid .fw-grid { display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); column-gap: var(--gut); align-items: start; margin-top: 1.6rem; padding-top: .9rem; border-top: 2px solid var(--ink); }
 body.grid .fw-path { grid-column: 1 / span 5; min-width: 0; }   /* Roadmap 5 + research 7 */
@@ -1184,10 +1184,10 @@ body.grid .fw-end-text p + p { margin-top: .9rem; }
   body.grid .fw-path, body.grid .fw-research { grid-column: 1 / -1; }
   body.grid .fw-research { margin-top: 1rem; padding-top: .9rem; border-top: 1px solid var(--rule); }
 }
-/* D: with "Future work" in the nav, phones keep it to one row (it wrapped "Log" alone onto a second line) */
+/* phones: tighter gaps keep the masthead links on one row */
 @media (max-width: 420px) { .masthead nav { gap: 0 .6rem; } }
-/* With "The app" added, the phone nav no longer fits one line; the wordmark already links to the Overview,
-   so the Overview link is dropped under 420 px */
+/* Under 420 px the Overview link is hidden so the phone nav fits one line; the wordmark already links
+   to the Overview */
 @media (max-width: 420px) { .masthead nav > a[href="index.html"] { display: none; } }
 /* phones: a single decision beside a lead-in stacks at full width (the desktop rule's longer :has() outranked the phone rule) */
 @media (max-width: 767px) { body.grid .mgrid.g-stack:has(> .mcol > .decisions:only-child > details:only-of-type) > .mcol { grid-column: 1 / -1; } }
