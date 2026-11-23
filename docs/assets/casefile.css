@@ -908,8 +908,8 @@ body.grid.findings-page p.closing { margin-top: 1.6rem; }
 @media (max-width: 767px) { body.appendix.findings-page.grid section ul.g-list { grid-template-columns: minmax(0, 1fr); } }
 
 /* Grid pages, Project log */
-/* opening margin: the three status tiles, stacked, number first */
-body.appendix.grid .tiles.log-tiles { display: grid; grid-template-columns: 8.6rem minmax(0, 1fr) 10.8rem; gap: 0 1.2rem; margin: 0; border: 0; }
+/* opening margin: the two status tiles, number first; side by side on wide screens, stacked otherwise */
+body.appendix.grid .tiles.log-tiles { display: grid; grid-template-columns: 8.6rem minmax(0, 1fr); gap: 0 1.2rem; margin: 0; border: 0; }
 body.appendix.grid .tiles.log-tiles strong { font-size: 1.35rem; white-space: nowrap; }
 body.grid .log-tiles > div, body.grid .log-tiles > div + div { margin: 0; padding: 0; border: 0; min-width: 0; }
 body.grid .log-tiles strong { margin: 0; }
