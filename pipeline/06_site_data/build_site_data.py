@@ -434,7 +434,6 @@ engines = {
     "orientation": orientation,
     "text_options": text_options,
 }
-ocr_done = bool(engines["funsd"]) and bool(engines["review_overall"])
 
 # Classifier
 # Cross-validated results from train_tfidf.py, bates_probe.py, train_embeddings.py,
@@ -647,10 +646,6 @@ if srs is not None:
     }
 
 # Pipeline status strip
-# "Human review" means a person accepting or correcting suggestions in the app,
-# with each decision logged. REVIEW_LOG is unused: the strip marks every stage done.
-REVIEW_LOG = None
-review_logged = REVIEW_LOG is not None and Path(REVIEW_LOG).exists()
 # The stage strip: every stage is complete; numbers from the data and the taxonomy.
 _emb, _tf = final_test["scores"]["macro_f1"]["value"], final_test["scores"]["tfidf_macro_f1"]["value"]
 pipeline = [

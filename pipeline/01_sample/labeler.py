@@ -11,7 +11,6 @@ Modes:
                 250 valid labels -> labels/label_pm_labels_<annotator>.csv
     final_test  blind final-test labels on the pages drawn by draw_final_test.py, until
                 150 valid labels -> labels/final_test_labels_<annotator>.csv
-    skim_v2     the earlier pilot on RVL-CDIP pages (its data is not in this repository)
 
 After each training save it rebuilds docs/data/site_data.json in the background.
 
@@ -19,7 +18,6 @@ Usage:
     streamlit run pipeline/01_sample/labeler.py
 """
 
-import random
 import subprocess
 import sys
 from datetime import datetime
@@ -38,28 +36,23 @@ REPO = Path(__file__).resolve().parents[2]
 LABEL_DIR = REPO / "labels"                   # where queues and labels are saved
 PM_DIR = REPO / "data" / "pm_sample"          # Philip Morris sample
 
-# Each mode has its own images, taxonomy file and queue size.
-#   label_pm -> the real labels: PM-only sample, taxonomy v3 (final). Output
-#               labels/label_pm_labels.csv. Queue = manifest order (already random).
-#   skim_v2  -> history only: the pilot on RVL-CDIP pages (data not included).
+# Each mode has its own images and taxonomy file.
+#   label_pm   -> the training labels: PM-only sample, taxonomy v3 (final). Output
+#                 labels/label_pm_labels.csv. Queue = manifest order (already random).
+#   final_test -> the blind final-test labels on the pages drawn by draw_final_test.py.
 IMAGE_DIRS = {
     "label_pm": PM_DIR,
     "final_test": PM_DIR,
-    "skim_v2": REPO / "data" / "_archive_rvl" / "rvl_subsample",
 }
 TAXONOMY_FILES = {
     "label_pm": REPO / "taxonomy" / "rim_taxonomy_final.yaml",
     "final_test": REPO / "taxonomy" / "rim_taxonomy_final.yaml",
-    "skim_v2": REPO / "taxonomy" / "rim_taxonomy_v2.yaml",
 }
-QUEUE_SIZES = {"label_pm": 10_000, "skim_v2": 100}  # label_pm uses the whole manifest
-SEEDS = {"skim_v2": 7}
 GOOD_LABEL_TARGET = 250   # stop rule: 250 valid labels; excluded pages don't count
 BATCH_SIZE = 100          # documents per batch, so helpers can work in parallel
 CHECKPOINT = 30           # pause and review after 30 good labels
 FINAL_TEST_TARGET = 150   # blind final test: 150 valid labels
 FINAL_TEST_PAGES = REPO / "results" / "final_test_pages.csv"
-PM_MODES = ("label_pm", "final_test")   # modes that use the PM sample, annotator files and skips
 
 # Exclude reasons: the picked one starts the note, so notes stay consistent.
 EXCLUDE_REASONS = [
@@ -70,13 +63,6 @@ EXCLUDE_REASONS = [
     "not a business record",
     "Out of scope (HR)",       # too few pages to model: out of scope
 ]
-
-# Merge rule: a type should reach about 20 labeled examples in a 200-document set.
-# The summary projects skim counts to 200 and flags types that would fall short.
-MERGE_TARGET = 20
-FINAL_SET_SIZE = 200
-
-IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".tif", ".tiff"}
 
 # The two special choices that aren't record types:
 NO_FIT = "NO_FIT"      # a real business record that no type fits (taxonomy gap)
@@ -167,7 +153,7 @@ def load_taxonomy(path_str: str, mtime: float):
     return table, functions, rules, duplicates, data.get("version")
 
 
-# Queue: the fixed, seeded list of documents for each mode
+# Queue: the list of documents for each mode
 
 def get_queue(mode: str) -> list[str]:
     """Return the document queue for a mode."""
@@ -185,29 +171,6 @@ def get_queue(mode: str) -> list[str]:
             dups = set(pd.read_csv(dup_file, dtype=str)["id"])
             manifest = manifest[~manifest["id"].isin(dups)]
         return manifest["image"].tolist()
-
-    image_dir = IMAGE_DIRS[mode]
-    queue_file = LABEL_DIR / f"queue_{mode}.csv"
-    # If the queue already exists, reuse it, so the sample never changes
-    # between sessions. Delete the file only if you want a new sample.
-    if queue_file.exists():
-        return pd.read_csv(queue_file)["path"].tolist()
-
-    all_images = sorted(
-        p.relative_to(image_dir).as_posix()
-        for p in image_dir.rglob("*")
-        if p.suffix.lower() in IMAGE_EXTS
-    )
-    # Leave out every document already in another sample (the first skim,
-    # the v2 skim, the label set), so no document is ever seen twice.
-    used = set()
-    for other in LABEL_DIR.glob("queue_*.csv"):
-        used |= set(pd.read_csv(other)["path"])
-    pool = [p for p in all_images if p not in used]
-    rng = random.Random(SEEDS[mode])
-    queue = rng.sample(pool, min(QUEUE_SIZES[mode], len(pool)))
-    pd.DataFrame({"path": queue}).to_csv(queue_file, index=False)
-    return queue
 
 
 def read_saved(out_file: Path) -> pd.DataFrame:
@@ -307,10 +270,9 @@ div[data-testid="stHorizontalBlock"] > div:first-child img {
 """
 st.markdown(f"<style>{style}</style>", unsafe_allow_html=True)
 
-mode = st.sidebar.radio("Dataset", ["label_pm", "final_test", "skim_v2"],
+mode = st.sidebar.radio("Dataset", ["label_pm", "final_test"],
                         format_func=lambda m: {"label_pm": "Labeling set (PM sample)",
-                                               "final_test": "Final test (blind)",
-                                               "skim_v2": "Taxonomy pilot (archived)"}[m])
+                                               "final_test": "Final test (blind)"}[m])
 taxonomy_file = TAXONOMY_FILES[mode]
 IMAGE_DIR = IMAGE_DIRS[mode]
 
@@ -353,9 +315,6 @@ elif mode == "final_test":
     labeler_name = st.sidebar.text_input("Annotator", value="salo").strip().lower() or "salo"
     queue = full_queue
     out_file = LABEL_DIR / f"final_test_labels_{labeler_name}.csv"
-else:
-    queue = full_queue
-    out_file = LABEL_DIR / f"{mode}_labels.csv"
 saved = read_saved(out_file)
 done = set(saved["path"]) if not saved.empty else set()
 
@@ -363,8 +322,7 @@ done = set(saved["path"]) if not saved.empty else set()
 # session (e.g. a failed download). Kept in their own file, so they never count
 # as labeled or excluded. Labeling a skipped document takes it off the list.
 skip_file = (LABEL_DIR / f"skipped_pm_{labeler_name}.csv" if mode == "label_pm"
-             else LABEL_DIR / f"skipped_final_test_{labeler_name}.csv" if mode == "final_test"
-             else None)
+             else LABEL_DIR / f"skipped_final_test_{labeler_name}.csv")
 skips = read_saved(skip_file) if skip_file else pd.DataFrame()
 skip_reason = {} if skips.empty else dict(zip(skips["path"], skips["reason"]))
 skipped = [p for p in full_queue if p in skip_reason and p not in done]
@@ -397,8 +355,6 @@ elif mode == "final_test":
     st.sidebar.progress(min(good / FINAL_TEST_TARGET, 1.0))
     if good >= FINAL_TEST_TARGET:
         st.sidebar.success(f"Target reached: {FINAL_TEST_TARGET} valid test labels. Stop here.")
-else:
-    st.sidebar.progress(done_count / len(queue))
 
 review_skipped = False
 if skip_file:
@@ -441,18 +397,6 @@ else:
         current_index = None
     else:
         current_index = remaining[0]
-
-
-def describe(choice: str) -> str:
-    """Return how an option is shown on screen, e.g. 'FIN.AP.INV - Invoices and payment records'."""
-    if choice == NO_FIT:
-        return "No fit: business record outside the taxonomy"
-    if choice == EXCLUDE:
-        return "Exclude: blank, unreadable or not a business record"
-    if choice == NO_SECOND:
-        return choice
-    t = types_by_id[choice]
-    return f"{t['function_name']} › {t['type_name']}"
 
 
 # --- Main area: image on the left, choices on the right ---
@@ -736,16 +680,10 @@ if not saved.empty:
                  f"{(saved['outcome'] == 'exclude').sum()} excluded, "
                  f"{(saved['certainty'] == 'unsure').sum()} unsure.")
 
-        st.markdown(f"**How often each type was used.** 'Projected in "
-                    f"{FINAL_SET_SIZE}' scales your skim counts up to the final "
-                    f"set. Types projected below {MERGE_TARGET} are merge "
-                    f"candidates.")
+        st.markdown("**How often each type was used.**")
         counts = (labeled["type_id"].value_counts()
                   .reindex(type_ids, fill_value=0).rename("count").to_frame())
         counts["type_name"] = [types_by_id[t]["type_name"] for t in counts.index]
-        counts[f"projected in {FINAL_SET_SIZE}"] = (
-            counts["count"] * FINAL_SET_SIZE / max(n, 1)).round().astype(int)
-        counts["merge candidate"] = counts[f"projected in {FINAL_SET_SIZE}"] < MERGE_TARGET
         st.dataframe(counts.sort_values("count"))
 
         st.markdown("**Primary and secondary classification pairs**")

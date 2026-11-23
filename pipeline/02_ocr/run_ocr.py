@@ -34,7 +34,6 @@ MANIFEST = PM_DIR / "manifest.csv"
 OCR_DIR = PM_DIR / "ocr"
 RESULTS = OCR_DIR / "ocr_results.csv"
 
-IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".tif", ".tiff"}
 # Where the Windows installer puts Tesseract; used so PATH doesn't matter
 WINDOWS_TESSERACT = Path(r"C:\Program Files\Tesseract-OCR\tesseract.exe")
 MAX_ERRORS_IN_A_ROW = 5   # stop the run if pages keep failing (something is wrong, not the page)

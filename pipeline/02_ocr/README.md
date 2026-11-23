@@ -17,7 +17,6 @@ Site chapter: **Reading the pages**.
 | `profile_pages.py` | Measures scan quality from each image and groups the pages (k-means) | page images | `data/pm_sample/page_profile.csv` |
 | `name_page_groups.py` | Names the groups and splits group 3 by a speckle rule | page profile | page profile (group, group_name) |
 | `check_k_groups.py` | Elbow and silhouette check for k = 2 to 8 | page profile | `results/page_groups_k_check.csv` |
-| `ocr_spotcheck_pm.py` | First rating app: engine A on 10 pages | engine A text | `results/ocr_spotcheck_pm_pages.csv`, `results/ocr_spotcheck_pm.csv` |
 | `extend_test_pages.py` | Extends the test pages to cover every scan group (22 pages) | page profile, test pages | `results/ocr_spotcheck_pm_pages.csv` |
 | `ocr_review.py` | Blind review app: every engine's reading side by side, rated and ranked | test pages, images, engine texts | `results/ocr_review_ratings.csv`, `results/scan_group_check.csv` |
 | `get_funsd.py`, `eval_ocr_funsd.py` | Accuracy against FUNSD's known text (engines A, C, D) | FUNSD forms | `results/funsd_ocr_eval*.csv` |

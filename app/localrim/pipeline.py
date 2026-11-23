@@ -42,7 +42,7 @@ from ocr_eda import PUNCTUATION, STRAIGHT, UPSIDE_DOWN, is_bates_like, matches_b
 from prep_classifier_text import remove_own_bates
 from rag_suggest import (NEIGHBOR_CHARS, PAGE_CHARS, TAXONOMY, ask, build_cards, department_of,
                                   read_text)
-from train_embeddings import EMB_DIR, MODEL_TAG, calibrated_model, load_vectors
+from train_embeddings import calibrated_model, load_vectors
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data" / "pm_sample"

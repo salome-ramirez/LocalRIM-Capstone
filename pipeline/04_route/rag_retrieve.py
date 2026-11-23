@@ -100,7 +100,7 @@ def main() -> None:
     summary.to_csv(OUT / "retrieval_summary.csv", index=False)
 
     print(summary.to_string(index=False))
-    print(f"\nSuccess rule (set before results): neighbors_top1 > classifier_top1 on the review queue")
+    print("\nSuccess rule (set before results): neighbors_top1 > classifier_top1 on the review queue")
     print(f"Saved to {OUT}")
 
 

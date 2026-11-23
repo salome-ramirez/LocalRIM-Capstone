@@ -14,20 +14,25 @@ Usage:
 from __future__ import annotations
 
 import html
+import json
 import os
 import re
+import sys
 from datetime import datetime
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as _components
 import yaml
-
-import sys
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from localrim import intake as intake_db
+from localrim.assistant import LLM, ask_llm, cited, retrieve as _retrieve, type_words
+from localrim.intake import REASONS
+
 APP = ROOT / "outputs" / "app"
 HISTORY = APP / "record_history.csv"
 TAXONOMY = ROOT / "taxonomy" / "rim_taxonomy_final.yaml"
@@ -328,7 +333,6 @@ input[type="checkbox"]:focus-visible + div {
 
 # Mark the page light or dark from the app's background, so the CSS colour tokens follow the theme.
 # The script never changes, so Streamlit keeps the iframe and it re-checks every 400 ms.
-import streamlit.components.v1 as _components
 _components.html("""<script>/* rim-helper theme */
 const P = window.parent.document;
 function mark() {
@@ -384,10 +388,6 @@ def log(record_id, action, old, new, note=""):
     pd.concat([h, pd.DataFrame([row])]).to_csv(HISTORY, index=False)
 
 
-from localrim import intake as intake_db
-from localrim.intake import REASONS
-
-
 archive_built, queue, tax = load_static()
 _filed = intake_db.read(intake_db.FILED)
 archive_raw = pd.concat([archive_built, _filed], ignore_index=True).fillna("") if len(_filed) else archive_built
@@ -418,14 +418,13 @@ def apply_history(archive: pd.DataFrame) -> pd.DataFrame:
 archive = apply_history(archive_raw)
 state = st.session_state
 # The Reader opens in the view each user last chose, saved in outputs/app/reader_prefs.json.
-import json as _json
 READER_PREFS = APP / "reader_prefs.json"
 READER_VIEWS = ["Page", "Text", "Side by side"]
 
 
 def _read_prefs() -> dict:
     try:
-        return _json.loads(READER_PREFS.read_text(encoding="utf-8"))
+        return json.loads(READER_PREFS.read_text(encoding="utf-8"))
     except Exception:
         return {}
 
@@ -436,7 +435,7 @@ def set_reader_view(mode: str):
     prefs = _read_prefs()
     if prefs.get(state.user) != mode:
         prefs[state.user] = mode
-        READER_PREFS.write_text(_json.dumps(prefs, indent=2, ensure_ascii=False), encoding="utf-8")
+        READER_PREFS.write_text(json.dumps(prefs, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
 for k, v in {"tab": "Archive", "view": "home", "node": ("all", "", "All records"),
@@ -533,8 +532,6 @@ with h5:
         add_files()
 h6.markdown(f'<div class="rim-muted rim-user" style="text-align:right">Reviewing as <b>{html.escape(state.user)}</b> · on this computer</div>',
             unsafe_allow_html=True)
-from localrim import assistant as _assistant
-
 
 
 # Shared pieces
@@ -582,36 +579,6 @@ def open_record(rid, ids):
     """Open a record in the Reader, with ids as the list to step through."""
     go("reader", record=rid, list=list(ids), pdf_page=1)
     st.rerun()
-
-
-def gallery(view: pd.DataFrame, key: str):
-    """Show records as a grid of thumbnail cards."""
-    shown = view.head(state.shown)
-    cols_per_row = 4
-    for start in range(0, len(shown), cols_per_row):
-        cols = st.columns(cols_per_row)
-        for col, (_, r) in zip(cols, shown.iloc[start:start + cols_per_row].iterrows()):
-            with col.container(border=True):
-                thumb = ROOT / r["thumb"]
-                if thumb.exists():
-                    show_image(thumb)
-                tags = ""
-                if r.get("cross", "") == "True":
-                    tags = f'<span class="rim-tag-x">Cross-reference · filed in {html.escape(r["record_type_name"] or r["department_name"])}</span>'
-                elif r["suggested"] == "True":
-                    tags = '<span class="rim-tag">Record type suggested</span>'
-                elif r["record_type"] == "":
-                    tags = '<span class="rim-tag">No record type yet</span>'
-                st.markdown(f'<div class="rim-date">{r["date_shown"]}</div>'
-                            f'<div class="rim-card-title">{html.escape(r["title"])}</div>'
-                            f'<div class="rim-muted rim-mono" style="font-size:12px">{r["file_id"]}</div>{tags}',
-                            unsafe_allow_html=True)
-                if st.button("Open", key=f"{key}-{r['id']}-{r.get('cross', '')}", use_container_width=True):
-                    open_record(r["id"], view["id"])
-    if len(view) > state.shown:
-        if st.button(f"Show more ({len(view) - state.shown} left)", key=f"more-{key}"):
-            state.shown += PER_PAGE
-            st.rerun()
 
 
 def register(view: pd.DataFrame, key: str):
@@ -693,8 +660,6 @@ def register(view: pd.DataFrame, key: str):
 
 
 # Archive assistant: search by meaning and words, answer with sources
-from localrim.assistant import (DECLINE, LLM, ask_llm, cited, retrieve as _retrieve, type_words)
-
 NO_OLLAMA = "Assistant unavailable without Ollama. Showing only the most relevant documents for now."
 TYPE_WORDS = type_words({t: info[4] for t, info in type_info.items()})
 
@@ -832,7 +797,7 @@ def ask_panel(key: str, ids: list[str], scope_label: str, placeholder: str, star
     to one department or to the cited sources, or list related records; a narrowed scope is
     kept in state[f"scope-{key}"] until the user goes back.
     """
-    home_ids, home_label = ids, scope_label
+    home_label = scope_label
     back_label = "Back to all records" if home_label == "All records" else f"Back to {home_label}"
     scope = state.get(f"scope-{key}")
     if scope:
@@ -1007,8 +972,6 @@ def ask_panel(key: str, ids: list[str], scope_label: str, placeholder: str, star
 
 # Archive home
 # Saved searches, kept in outputs/app/saved_searches.json
-import json
-
 SAVED = APP / "saved_searches.json"
 
 
@@ -1809,7 +1772,6 @@ def review_screen():
 
 # Scroll to the top on every screen change (Streamlit keeps the old scroll position). The
 # signature in the script changes only with the screen, so the iframe re-runs once per change.
-import streamlit.components.v1 as _components
 _screen = state.tab if state.tab in ("Intake", "Review") else ("reader" if state.view == "reader" and state.record else state.view)
 _sig = f"{_screen}|{state.record if _screen == 'reader' else ''}|{state.get('rq', '') if _screen == 'Review' else ''}|{state.get('intake_batch', '') if _screen == 'Intake' else ''}"
 _components.html(f"""<script>/* rim-helper top {html.escape(_sig)} */
