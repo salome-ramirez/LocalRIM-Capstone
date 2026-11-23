@@ -4,7 +4,12 @@ The LocalRIM application (Streamlit): the Archive (search, ask, browse, read), A
 
 | File | What it is |
 |---|---|
-| `app.py` | the screens |
+| `app.py` | the entry point: page setup, data loading, the masthead and the screen switch |
+| `screens/records.py` | Archive home, Browse and the Reader |
+| `screens/assistant.py` | the question box, its answer and sources |
+| `screens/intake.py` | Add files and the Intake screen |
+| `screens/review.py` | the Review queue |
+| `screens/shared.py` | data loading, history, search, related records and saved searches shared by the screens |
 | `build_archive.py` | builds the Archive and the review queue from the saved results (`outputs/app/archive.csv`, `queue.csv`) |
 | `localrim/assistant.py` | search and question answering |
 | `localrim/intake.py` | the records behind Add files, Intake and the Review queue |
