@@ -304,7 +304,6 @@ figure.fig { margin: 0 0 2.6rem; padding-top: .7rem; border-top: 2px solid var(-
 @media (max-width: 900px) {
   .wrap { padding: 0 16px; }
   .masthead { flex-direction: column; align-items: flex-start; gap: .35rem; }
-  .masthead nav { gap: 0 1rem; }
   .masthead nav a { display: inline-flex; align-items: center; min-height: 40px; }
   /* landing */
   .opening { min-height: 0; padding: 2.4rem 0 1.5rem; }
@@ -317,8 +316,7 @@ figure.fig { margin: 0 0 2.6rem; padding-top: .7rem; border-top: 2px solid var(-
   .route { grid-template-columns: 1fr; border-top: 0; }
   .route li { margin-left: .45rem; }
   .route li::after { content: ""; position: absolute; left: -1px; top: 0; bottom: 0; width: 2px; background: var(--rule); }
-  .route li::before { z-index: 1; }
-  .route li::before { content: ""; position: absolute; left: -7px; top: 1.15rem; width: 12px; height: 12px; border-radius: 50%; background: var(--paper); border: 2px solid var(--accent-fill); }
+  .route li::before { z-index: 1; content: ""; position: absolute; left: -7px; top: 1.15rem; width: 12px; height: 12px; border-radius: 50%; background: var(--paper); border: 2px solid var(--accent-fill); }
   .route a, .route li + li a { padding: .7rem 0 1rem 1.2rem; border-left: 0; }
   .key { grid-template-columns: 1fr; }
   .open { grid-template-columns: 1fr; }
@@ -391,7 +389,6 @@ figure.fig { margin: 0 0 2.6rem; padding-top: .7rem; border-top: 2px solid var(-
 .route.is-static .route-path { transform: scaleX(1); }
 @keyframes route-trace { to { transform: scaleX(1); } }
 .stage-panels { margin-top: 1.6rem; }
-.stage-panels .panel { max-width: 48rem; }
 .stage-finding { margin: 0 0 .9rem; font: 600 clamp(1.35rem, 1.1rem + .9vw, 1.8rem)/1.2 var(--text); letter-spacing: -.01em; text-wrap: balance; }
 .stage-panels .chapter-link { margin-top: 1.2rem; }
 .stage-panels .chapter-link a { font-weight: 700; }
@@ -503,7 +500,6 @@ section.block { padding-top: 2.2rem; }
 .opening { display: block; padding: 3rem 0 1.5rem; }
 .opening-top, .opening-q { display: grid; grid-template-columns: minmax(0, 1fr) minmax(15rem, 22rem); column-gap: clamp(2rem, 5vw, 5rem); }
 .opening-top { align-items: end; }
-.opening-q { margin-top: 2.2rem; padding-top: 1.4rem; border-top: 2px solid var(--ink); align-items: start; }
 .opening .opening-q h1 { margin: 0; padding-top: 0; border-top: 0; }
 .opening-q .archive-note { align-self: start; }
 @media (max-width: 1119px) {
@@ -511,10 +507,8 @@ section.block { padding-top: 2.2rem; }
   .opening-q .archive-note { margin-top: 1.2rem; max-width: 40rem; }
   .opening-top .opening-side { margin-top: 1.6rem; }
 }
-@media (min-width: 1120px) { .opening-q { grid-template-columns: minmax(0, 1fr) minmax(18rem, 32rem); } }
 .opening-q .archive-note .an-tag { float: left; margin: .1rem .5rem 0 0; }
 .opening-q .archive-note blockquote { clear: both; }
-@media (min-width: 1120px) { .opening-q { grid-template-columns: minmax(0, 1fr) minmax(18rem, 34rem); } }
 /* Clean breaks: margin content never draws its own horizontal rules; it separates by spacing and its small heading */
 .mcol .decisions, .in-chapter, .at-glance, body.appendix .kit-machine { border-top: 0; padding-top: 0; }
 .mcol .decisions details { border-bottom: 0; }
@@ -619,24 +613,12 @@ body.appendix .engine-key.stacked { grid-template-columns: repeat(2, minmax(0, 1
 .st-slide { align-content: start; }
 body.appendix .st-text h3 { margin: .45rem 0 .3rem; } body.appendix .st-text .as-n { display: block; width: fit-content; }
 
-/* Overview opening, refined
-   Title and subtitle full width; a 2 px ink rule; two columns: the question, byline, framing paragraph,
-   three key numbers and the answer on the left (text at 40 rem); the archive at a glance and the archive
-   note on the right. Phones: title, rule, question, answer, at a glance, note. */
-.opening-title { max-width: 60rem; }
-.opening-q { grid-template-columns: minmax(0, 1fr) minmax(16rem, 22rem); align-items: start; }
-@media (min-width: 1120px) { .opening-q { grid-template-columns: minmax(0, 50rem) minmax(16rem, 22rem); justify-content: space-between; } }
+/* Overview opening: the answer and its note; the side column holds the archive at a glance and the archive note */
 .opening-q .answer b { white-space: nowrap; }
-.opening .opening-q h1 { max-width: 40rem; text-wrap: pretty; }
-.opening-lede { margin: 1.3rem 0 0; max-width: 40rem; font: 400 1.125rem/1.6 var(--text); color: var(--ink); }
 .opening-q .answer { margin-top: 1.5rem; }
 .opening-q .answer-note { max-width: 40rem; font-size: .95rem; color: var(--ink); }
 .opening-q .opening-side { display: grid; gap: 1.5rem; align-content: start; }
 .opening-q .opening-side .archive-note { margin: 0; }
-@media (max-width: 1119px) {
-  .opening-q { grid-template-columns: minmax(0, 1fr); }
-  .opening-q .opening-side { margin-top: 2rem; max-width: 40rem; }
-}
 
 /* Overview opening, last block (its rules win over the two above)
    Title and subtitle full width (the subtitle on one line); a 2 px rule; the question, byline and answer with
@@ -708,9 +690,8 @@ body.grid .opening-nums .answer, body.grid .t-stage .glance {
 body.grid .opening-nums .answer div, body.grid .t-stage .glance div { position: relative; padding: .9rem 0 1rem; border-left: 0; }
 body.grid .opening-nums .answer div + div::before, body.grid .t-stage .glance div + div::before {
   content: ""; position: absolute; top: 0; bottom: 0; left: calc(var(--gut) / -2); border-left: 1px solid var(--rule); }
-body.grid .t-stage .glance b { white-space: nowrap; }
 body.grid .t-stage .glance div { display: block; }       /* each cell is a plain block, not a two-column grid */
-body.grid .t-stage .glance b { display: block; margin: 0 0 .2rem; }
+body.grid .t-stage .glance b { white-space: nowrap; display: block; margin: 0 0 .2rem; }
 
 /* text with margin: paragraph in 7, margin in 5, the margin starting level with the paragraph */
 body.grid .opening-context .main { grid-column: 1 / span 7; min-width: 0; }
@@ -869,7 +850,6 @@ body.grid header.part > .kicker { margin-bottom: .5rem; }
 body.grid header.part > h2.g-h2 { margin: 0 0 1rem; }
 body.grid header.part .standfirst { margin-top: 0; max-width: none; }
 /* the grouped chapter index as a band: parts in columns */
-body.grid nav.ic-band.grouped > ol { display: block; column-count: 3; column-gap: var(--gut); }
 body.grid nav.ic-band.grouped > ol > li { break-inside: avoid; }
 body.grid nav.ic-band.grouped > ol > li.ic-part ol { display: block; }
 @media (max-width: 1119px) { body.grid nav.ic-band.grouped > ol { column-count: 2; } }
@@ -943,7 +923,6 @@ body.grid nav.log-band ol { grid-template-columns: repeat(3, minmax(0, 1fr)); gr
 body.grid.log-page ol.pipeline { grid-template-columns: repeat(6, minmax(0, 1fr)); column-gap: var(--gut); }
 body.grid.log-page #glance > h3 { margin-top: 1.4rem; }
 /* the decision log: lead-in 7 + "Jump to a stage" 5; stages full width */
-body.grid.log-page #log .mcol nav.in-chapter ol { margin: 0; }
 body.grid.log-page .log-stage .decisions, body.grid.log-page .log-stage details p { max-width: none; }
 /* the six stages: three columns of 4 */
 body.grid.log-page .pipeline-summary ol.route-links { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: var(--gut); }
@@ -957,7 +936,7 @@ body.grid.log-page .pipeline-summary ol.route-links { grid-template-columns: rep
   body.grid.log-page ol.pipeline { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 /* "Jump to a stage": two columns of three, so the margin stays shorter than the lead-in */
-body.grid.log-page #log .mcol nav.in-chapter ol { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-flow: column; grid-template-rows: repeat(3, auto); column-gap: var(--gut); }
+body.grid.log-page #log .mcol nav.in-chapter ol { margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-flow: column; grid-template-rows: repeat(3, auto); column-gap: var(--gut); }
 /* each stage of the log: name and count in 4 columns, its decisions in 8, one rule across 12 */
 body.grid.log-page .log-stage { display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); column-gap: var(--gut); align-items: start; }
 body.grid.log-page .log-stage > h3, body.grid.log-page .log-stage > .sub { grid-column: 1 / span 4; }
@@ -1089,8 +1068,7 @@ body.grid .settle-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); colum
 @media (max-width: 1119px) { body.grid .settle-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 599px) { body.grid .settle-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 /* 03 "How much can be filed automatically?": three cells across 12, from the fold cutoffs to the final test; the arrows sit in the gutters */
-body.grid ol.cut-band { list-style: none; margin: 1.4rem 0 0; padding: .8rem 0 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: var(--gut); border-top: 3px solid var(--accent-fill); font-family: var(--label); max-width: none; }
-body.grid ol.cut-band { grid-template-rows: repeat(3, auto); }
+body.grid ol.cut-band { list-style: none; margin: 1.4rem 0 0; padding: .8rem 0 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: var(--gut); border-top: 3px solid var(--accent-fill); font-family: var(--label); max-width: none; grid-template-rows: repeat(3, auto); }
 body.grid ol.cut-band li { margin: 0; padding: 0; display: grid; grid-row: span 3; grid-template-rows: subgrid; }
 body.grid ol.cut-band .n { position: relative; align-self: end; }
 body.grid ol.cut-band li + li .n::before { content: "\2192"; position: absolute; left: calc(var(--gut) / -2); top: .3rem; transform: translateX(-50%); font-size: 1.25rem; line-height: 1; color: var(--muted); }
@@ -1101,9 +1079,8 @@ body.grid ol.cut-band .n span { display: block; font-size: .85rem; color: var(--
 body.grid ol.cut-band p { margin: 0; font-size: .85rem; line-height: 1.4; color: var(--muted); max-width: none; text-align: left; hyphens: manual; }
 body.grid p.cut-note { margin-top: 1rem; }
 @media (max-width: 599px) {
-  body.grid ol.cut-band { grid-template-columns: minmax(0, 1fr); row-gap: 1.1rem; }
   body.grid ol.cut-band li + li { padding-top: 1.1rem; border-top: 1px solid var(--rule); }
-  body.grid ol.cut-band { grid-template-rows: none; }
+  body.grid ol.cut-band { grid-template-columns: minmax(0, 1fr); row-gap: 1.1rem; grid-template-rows: none; }
   body.grid ol.cut-band li { grid-row: auto; grid-template-rows: none; }
   body.grid ol.cut-band li + li .n::before { display: none; }
 }
@@ -1216,9 +1193,8 @@ body.grid .fcard p.ev-n { font: 600 1.9rem/1.1 var(--label); color: var(--num); 
 body.grid .fcard p.ev-n .to { color: var(--muted); font-weight: 400; margin: 0 .2em; }
 /* Findings card 3, a target beside an outcome; each value carries its small label, and the pair may wrap */
 body.grid .fcard p.ev-n.ev-pair { white-space: normal; }
-body.grid .fcard p.ev-n .ev-v { white-space: nowrap; }
 /* each value with its label under it, so the pair fits a quarter-width card; the cards' values share one height from 600 px so their headings stay level */
-body.grid .fcard p.ev-n .ev-v { display: inline-flex; flex-direction: column; vertical-align: top; }
+body.grid .fcard p.ev-n .ev-v { white-space: nowrap; display: inline-flex; flex-direction: column; vertical-align: top; }
 body.grid .fcard p.ev-n small { font: 400 .75rem/1.2 var(--label); color: var(--muted); margin-top: .1rem; }
 body.grid .fcard p.ev-n.ev-pair .to { margin: 0 .3em; vertical-align: top; }
 @media (min-width: 600px) { body.grid .ev-cards .fcard p.ev-n { min-height: 3.05rem; } }
