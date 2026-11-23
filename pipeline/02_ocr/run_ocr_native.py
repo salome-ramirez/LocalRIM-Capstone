@@ -11,8 +11,8 @@ Writes:
 Resumable: pages in ocr_results.csv are skipped.
 
 Usage:
-    python pipeline/02_ocr/run_ocr_native.py --limit 5
-    python pipeline/02_ocr/run_ocr_native.py
+    python -m pipeline.02_ocr.run_ocr_native --limit 5
+    python -m pipeline.02_ocr.run_ocr_native
 """
 
 import argparse
@@ -23,7 +23,8 @@ import pandas as pd
 import pytesseract
 from PIL import Image
 
-REPO = Path(__file__).resolve().parents[2]
+from pipeline.common import Progress, ROOT as REPO, resume_csv
+
 PM_DIR = REPO / "data" / "pm_sample"
 IMAGE_DIR = PM_DIR / "images_native"
 MANIFEST = PM_DIR / "manifest.csv"
@@ -105,12 +106,7 @@ def main():
     print(f"Using Tesseract {pytesseract.get_tesseract_version()}")
 
     BOX_DIR.mkdir(parents=True, exist_ok=True)
-    done = set()
-    if RESULTS.exists():
-        res = pd.read_csv(RESULTS, dtype=str, keep_default_na=False)
-        res = res[res["error"] == ""]
-        res.to_csv(RESULTS, index=False)
-        done = set(res["id"])
+    done = resume_csv(RESULTS, "id", dtype=str)
 
     ids = pd.read_csv(MANIFEST, dtype=str)["id"]
     todo = [i for i in ids if i not in NOT_RETRIEVED and i not in done
@@ -119,7 +115,7 @@ def main():
         todo = todo[: args.limit]
     print(f"Already done: {len(done)}. To do now: {len(todo)}.")
 
-    start, errors = time.time(), 0
+    progress, errors = Progress(len(todo)), 0
     for n, doc_id in enumerate(todo, 1):
         try:
             row = ocr_page(doc_id)
@@ -135,10 +131,7 @@ def main():
         if errors >= MAX_ERRORS_IN_A_ROW:
             print(f"Stopped: {MAX_ERRORS_IN_A_ROW} pages failed in a row. Last error: {row['error']}")
             return
-        if n % 10 == 0 or n == len(todo):
-            per = (time.time() - start) / n
-            print(f"{n}/{len(todo)} pages | {per:.1f} s per page | about {per * (len(todo) - n) / 60:.0f} min left",
-                  flush=True)
+        progress(n)
     print(f"Finished. Results: {RESULTS}")
 
 

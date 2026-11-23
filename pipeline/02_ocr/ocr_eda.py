@@ -13,7 +13,7 @@ Writes results/ocr_eda/<engine>/: pages.csv, summary.json (read by the site),
 summary.md, worst_pages.csv and charts.
 
 Usage:
-    python pipeline/02_ocr/ocr_eda.py --engine A
+    python -m pipeline.02_ocr.ocr_eda --engine A
 """
 
 from __future__ import annotations
@@ -26,7 +26,8 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT, TRAIN_LABELS
+
 DATA = ROOT / "data" / "pm_sample"
 OUT_ROOT = ROOT / "results" / "ocr_eda"
 
@@ -133,7 +134,7 @@ def build_pages(engine: str) -> pd.DataFrame:
         rows.append(row)
     pages = pd.DataFrame(rows)
 
-    labels_path = ROOT / "labels" / "label_pm_labels_salo.csv"
+    labels_path = TRAIN_LABELS
     if labels_path.exists():
         labels = pd.read_csv(labels_path, dtype=str, keep_default_na=False).drop_duplicates("path", keep="last")
         labels = labels[labels["outcome"] == "labeled"][["doc_id", "function_id"]]

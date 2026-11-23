@@ -38,7 +38,8 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import MERGE_FOR_SCORING as MERGE, ROOT
+
 APP = ROOT / "outputs" / "app"
 UPLOADS = APP / "uploads"
 TEXTS = APP / "intake_text"
@@ -52,7 +53,6 @@ NEW_VEC_IDS = APP / "new_vector_ids.csv"
 OLLAMA = "http://localhost:11434/api/chat"
 LLM = "qwen3:8b"
 ID_PREFIX = "PM"      # set per client
-MERGE = {"ADM": "LEG"}
 WEAK_WORDS = 20
 UNDO_MINUTES = 10
 MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August",

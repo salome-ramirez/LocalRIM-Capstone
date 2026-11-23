@@ -11,7 +11,7 @@ Writes results/classifier/tfidf_cv_results.csv, tfidf_cv_summary.csv and
 tfidf_cv_predictions.csv.
 
 Usage:
-    python pipeline/03_classify/train_tfidf.py
+    python -m pipeline.03_classify.train_tfidf
 """
 
 from __future__ import annotations
@@ -25,7 +25,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, f1_score
 from sklearn.pipeline import make_pipeline
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT
+
 DATA = ROOT / "data" / "pm_sample"
 FOLDS = ROOT / "results" / "cv_folds.csv"
 OUT = ROOT / "results" / "classifier"

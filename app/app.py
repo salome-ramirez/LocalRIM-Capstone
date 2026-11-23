@@ -7,8 +7,8 @@ Corrections made in the Reader are logged in outputs/app/record_history.csv and 
 on load; the original filing is never overwritten. Documents never leave the computer.
 
 Usage:
-    python app/build_archive.py
-    streamlit run app/app.py
+    python -m app.build_archive
+    python -m streamlit run app/app.py
 """
 
 from __future__ import annotations
@@ -17,7 +17,6 @@ import html
 import json
 import os
 import re
-import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -27,8 +26,7 @@ import streamlit as st
 import streamlit.components.v1 as _components
 import yaml
 
-ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+from pipeline.common import ROOT
 from localrim import intake as intake_db
 from localrim.assistant import LLM, ask_llm, cited, retrieve as _retrieve, type_words
 from localrim.intake import REASONS

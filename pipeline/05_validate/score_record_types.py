@@ -14,7 +14,7 @@ choice matches the label or its "also fits" choice, reported beside the strict s
 Writes results/record_types/summary.csv (set x route), by_department.csv and per_page.csv.
 
 Usage:
-    python pipeline/05_validate/score_record_types.py
+    python -m pipeline.05_validate.score_record_types
 """
 
 from __future__ import annotations
@@ -25,10 +25,10 @@ from pathlib import Path
 import pandas as pd
 import yaml
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import MERGE_FOR_SCORING as MERGE, ROOT, TEST_LABELS, TRAIN_LABELS
+
 OUT = ROOT / "results" / "record_types"
 TAXONOMY = ROOT / "taxonomy" / "rim_taxonomy_final.yaml"
-MERGE = {"ADM": "LEG"}  # Administration is scored with Legal
 
 
 def latest(path: Path) -> pd.DataFrame:
@@ -52,9 +52,9 @@ def main() -> None:
     series_of = {t["id"]: s["id"] for f in tax["functions"] for s in f["series"] for t in s["types"]}
 
     train_ids = set(pd.read_csv(ROOT / "results" / "cv_folds.csv", dtype=str)["id"])
-    train_lab = latest(ROOT / "labels" / "label_pm_labels_salo.csv")
+    train_lab = latest(TRAIN_LABELS)
     train_lab = train_lab[train_lab["doc_id"].isin(train_ids)]
-    test_lab = latest(ROOT / "labels" / "final_test_labels_salo.csv")
+    test_lab = latest(TEST_LABELS)
     test_lab = test_lab[test_lab["outcome"] == "labeled"]
 
     sets = {

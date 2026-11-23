@@ -20,8 +20,8 @@ tfidf_predictions (predict); scores, per_department, rag_comparison, routing_cur
 certainty, excluded_check and scored_pages (score).
 
 Usage:
-    python pipeline/05_validate/final_test.py --stage predict
-    python pipeline/05_validate/final_test.py --stage score
+    python -m pipeline.05_validate.final_test --stage predict
+    python -m pipeline.05_validate.final_test --stage score
 """
 
 from __future__ import annotations
@@ -37,18 +37,13 @@ import yaml
 from scipy.stats import binomtest
 from sklearn.metrics import accuracy_score, f1_score
 
-import sys
-sys.path[:0] = [str(Path(__file__).resolve().parents[2] / "pipeline" / step) for step in ("03_classify", "04_route",)]  # sibling pipeline steps
-from rag_suggest import (MERGE_FOR_SCORING, OUT_OF_SCOPE, TAXONOMY, ask, build_cards,
-                         build_prompt, department_of)
+from pipeline.common import MERGE_FOR_SCORING, Progress, ROOT, TEST_LABELS, TRAIN_LABELS, done_ids
+from rag_suggest import OUT_OF_SCOPE, TAXONOMY, ask, build_cards, build_prompt, department_of
 from review_routing import THRESHOLDS, routing_at
 from train_embeddings import EMB_DIR, MODEL_TAG, calibrated_model, load_vectors
 from train_tfidf import TEXT_DIRS, read_texts, tfidf_model
 
-ROOT = Path(__file__).resolve().parents[2]
 FOLDS = ROOT / "results" / "cv_folds.csv"
-TEST_LABELS = ROOT / "labels" / "final_test_labels_salo.csv"
-TRAIN_LABELS = ROOT / "labels" / "label_pm_labels_salo.csv"
 OUT = ROOT / "results" / "final_test"
 
 # Frozen settings
@@ -125,15 +120,13 @@ def predict() -> None:
                for r in preds.itertuples()}
 
     out_path = OUT / "suggestions_A.jsonl"
-    done = set()
-    if out_path.exists():
-        done = {json.loads(l)["id"] for l in out_path.read_text(encoding="utf-8").splitlines() if l.strip()}
+    done = done_ids(out_path)
     queue = preds.loc[preds["routed"] == "review", "id"].tolist()
     todo = [i for i in queue if i not in done]
     print(f"RAG A: {len(queue)} review pages, {len(done)} done, {len(todo)} to do", flush=True)
 
     type_ids = sorted(types)
-    start = time.time()
+    progress = Progress(len(todo))
     with out_path.open("a", encoding="utf-8") as f:
         for n, doc_id in enumerate(todo, 1):
             nb = neighbors[neighbors["id"] == doc_id].sort_values("rank")
@@ -148,10 +141,7 @@ def predict() -> None:
                    "seconds": round(time.time() - t0, 2), **ans}
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
             f.flush()
-            if n % 10 == 0 or n == len(todo):
-                per = (time.time() - start) / n
-                print(f"{n}/{len(todo)} | {per:.1f} s per page | about {per * (len(todo) - n) / 60:.0f} min left",
-                      flush=True)
+            progress(n)
 
     answered = sum(1 for l in out_path.read_text(encoding="utf-8").splitlines() if l.strip())
     print(f"\nRAG answers saved: {answered} of {len(queue)}. "

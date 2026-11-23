@@ -14,16 +14,16 @@ Final groups:
 Updates data/pm_sample/page_profile.csv: cluster (k-means number), group, group_name.
 
 Usage (after profile_pages.py):
-    python pipeline/02_ocr/name_page_groups.py
+    python -m pipeline.02_ocr.name_page_groups
 """
 
 from __future__ import annotations
 
-from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT
+
 PROFILE = ROOT / "data" / "pm_sample" / "page_profile.csv"
 
 SPLIT_CLUSTER = 3

@@ -9,15 +9,15 @@ Writes:
     data/pm_sample/ocr_ucsf/text_results.csv  id, words, chars, error
 
 Usage:
-    python pipeline/02_ocr/extract_text_layer.py
+    python -m pipeline.02_ocr.extract_text_layer
 """
 
-from pathlib import Path
 
 import pandas as pd
 import pymupdf as fitz
 
-REPO = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT as REPO
+
 PM_DIR = REPO / "data" / "pm_sample"
 PDF_DIR = PM_DIR / "pdf"
 OUT_DIR = PM_DIR / "ocr_ucsf"

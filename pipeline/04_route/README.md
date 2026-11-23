@@ -16,11 +16,11 @@ Site chapter: **Classification, Routing and Validation** (routing and review hel
 Commands, from the repository root (Ollama running with `qwen3:8b` for the suggestions):
 
 ```powershell
-.venv\Scripts\python pipeline\04_route\review_routing.py
-.venv\Scripts\python pipeline\04_route\rag_retrieve.py
-.venv\Scripts\python pipeline\04_route\rag_suggest.py --variant A
-.venv\Scripts\python pipeline\04_route\rag_suggest.py --variant C
-.venv\Scripts\python pipeline\04_route\rag_autofiled.py
+.venv\Scripts\python -m pipeline.04_route.review_routing
+.venv\Scripts\python -m pipeline.04_route.rag_retrieve
+.venv\Scripts\python -m pipeline.04_route.rag_suggest --variant A
+.venv\Scripts\python -m pipeline.04_route.rag_suggest --variant C
+.venv\Scripts\python -m pipeline.04_route.rag_autofiled
 ```
 
 The suggestion scripts save answers as they come and skip pages already answered; delete a `suggestions_*.jsonl` file to run it again. The model runs at temperature 0 with a fixed seed.

@@ -9,10 +9,10 @@ Definitions:
 - Batch: position in the manifest (labeling order), 100 per batch.
 - Data as of: time of the newest saved label.
 """
-from pathlib import Path
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT
+
 BATCH_SIZE = 100
 
 

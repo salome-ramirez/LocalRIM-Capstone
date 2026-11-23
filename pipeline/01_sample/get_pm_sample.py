@@ -13,8 +13,8 @@ Writes:
     results/pm_sample_log.txt         progress and failures
 
 Usage:
-    python pipeline/01_sample/get_pm_sample.py --limit 5    # try a few documents
-    python pipeline/01_sample/get_pm_sample.py              # the full draw (resumable)
+    python -m pipeline.01_sample.get_pm_sample --limit 5    # try a few documents
+    python -m pipeline.01_sample.get_pm_sample              # the full draw (resumable)
 
 API: https://www.industrydocuments.ucsf.edu/research-tools/api/
 """
@@ -22,7 +22,6 @@ API: https://www.industrydocuments.ucsf.edu/research-tools/api/
 import argparse
 import random
 import time
-from pathlib import Path
 
 import pymupdf as fitz  # PyMuPDF
 import pandas as pd
@@ -30,7 +29,8 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT
+
 OUT_DIR = ROOT / "data" / "pm_sample"
 IMG_DIR = OUT_DIR / "images"
 MANIFEST = OUT_DIR / "manifest.csv"

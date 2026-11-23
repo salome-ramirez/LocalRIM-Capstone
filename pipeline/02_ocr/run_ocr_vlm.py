@@ -17,8 +17,8 @@ Writes:
 Order: the OCR test pages first, then the rest. Resumable.
 
 Usage:
-    python pipeline/02_ocr/run_ocr_vlm.py --limit 3
-    python pipeline/02_ocr/run_ocr_vlm.py
+    python -m pipeline.02_ocr.run_ocr_vlm --limit 3
+    python -m pipeline.02_ocr.run_ocr_vlm
 """
 
 from __future__ import annotations
@@ -34,7 +34,8 @@ import pandas as pd
 import requests
 from PIL import Image
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import Progress, ROOT, resume_csv
+
 DATA = ROOT / "data" / "pm_sample"
 IMAGE_DIR = DATA / "images_native"
 OUT_DIR = DATA / "ocr_vlm"
@@ -103,12 +104,7 @@ def main() -> None:
         raise SystemExit("Ollama is not running. Start the Ollama app (or run `ollama serve`) and try again.")
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    done = set()
-    if RESULTS.exists():
-        res = pd.read_csv(RESULTS, dtype={"id": str}, keep_default_na=False)
-        res = res[res["error"] == ""]
-        res.to_csv(RESULTS, index=False)
-        done = set(res["id"])
+    done = resume_csv(RESULTS, "id", dtype={"id": str})
     todo = [i for i in page_order() if i not in done]
     if args.limit:
         todo = todo[: args.limit]
@@ -116,7 +112,7 @@ def main() -> None:
     RUN_INFO.write_text(json.dumps({"model": args.model, "prompt": PROMPT, "max_side": MAX_SIDE,
                                     "temperature": 0, "started": time.ctime()}, indent=1), encoding="utf-8")
 
-    start, errors = time.time(), 0
+    progress, errors = Progress(len(todo), every=5), 0
     for n, doc_id in enumerate(todo, 1):
         try:
             row = ocr_page(args.model, doc_id)
@@ -131,10 +127,7 @@ def main() -> None:
         if errors >= MAX_ERRORS_IN_A_ROW:
             print(f"Stopped: {MAX_ERRORS_IN_A_ROW} pages failed in a row. Last error: {row['error']}")
             return
-        if n % 5 == 0 or n == len(todo):
-            per = (time.time() - start) / n
-            print(f"{n}/{len(todo)} pages | {per:.1f} s per page | about {per * (len(todo) - n) / 60:.0f} min left",
-                  flush=True)
+        progress(n)
     print(f"Finished. Results: {RESULTS}")
 
 

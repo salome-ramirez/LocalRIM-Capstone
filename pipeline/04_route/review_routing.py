@@ -11,12 +11,11 @@ Writes results/classifier/routing_curve.csv, routing_by_fold.csv,
 calibration_summary.csv and routing_predictions.csv.
 
 Usage:
-    python pipeline/04_route/review_routing.py
+    python -m pipeline.04_route.review_routing
 """
 
 from __future__ import annotations
 
-from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -27,7 +26,8 @@ from sklearn.metrics import log_loss
 from sklearn.model_selection import StratifiedKFold, cross_val_predict
 from sklearn.pipeline import make_pipeline
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT
+
 FOLDS = ROOT / "results" / "cv_folds.csv"
 TEXTS = ROOT / "data" / "pm_sample" / "ocr_text_clean" / "hybrid"
 OUT = ROOT / "results" / "classifier"

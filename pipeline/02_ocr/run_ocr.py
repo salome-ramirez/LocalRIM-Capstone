@@ -14,8 +14,8 @@ Resumable: pages in ocr_results.csv are skipped and failed pages retried.
 --redo-rotated re-reads pages an earlier run turned on the orientation check alone.
 
 Usage:
-    python pipeline/02_ocr/run_ocr.py --limit 5
-    python pipeline/02_ocr/run_ocr.py
+    python -m pipeline.02_ocr.run_ocr --limit 5
+    python -m pipeline.02_ocr.run_ocr
 """
 
 import argparse
@@ -26,8 +26,9 @@ import pandas as pd
 import pytesseract
 from PIL import Image
 
+from pipeline.common import Progress, ROOT as REPO
+
 # Settings
-REPO = Path(__file__).resolve().parents[2]
 PM_DIR = REPO / "data" / "pm_sample"
 IMAGE_DIR = PM_DIR / "images"
 MANIFEST = PM_DIR / "manifest.csv"
@@ -159,7 +160,7 @@ def main():
         todo = todo[: args.limit]
     print(f"Already done: {len(done)}. To do now: {len(todo)}.")
 
-    start = time.time()
+    progress = Progress(len(todo))
     errors_in_a_row = 0
     for i, rel_path in enumerate(todo, 1):
         try:
@@ -177,11 +178,7 @@ def main():
         if errors_in_a_row >= MAX_ERRORS_IN_A_ROW:
             print(f"Stopped: {MAX_ERRORS_IN_A_ROW} pages failed in a row. Last error: {row['error']}")
             return
-
-        if i % 10 == 0 or i == len(todo):
-            per_page = (time.time() - start) / i
-            left = per_page * (len(todo) - i) / 60
-            print(f"{i}/{len(todo)} pages | {per_page:.1f} s per page | about {left:.0f} min left")
+        progress(i)
 
     print(f"Finished. Results: {RESULTS}")
 

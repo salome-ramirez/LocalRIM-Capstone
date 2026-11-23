@@ -11,8 +11,8 @@ cards, settings and similar pages, about the auto-filed pages too:
 Resumable. Scoring is done by score_record_types.py.
 
 Usage:
-    python pipeline/04_route/rag_autofiled.py --limit 3
-    python pipeline/04_route/rag_autofiled.py
+    python -m pipeline.04_route.rag_autofiled --limit 3
+    python -m pipeline.04_route.rag_autofiled
 """
 
 from __future__ import annotations
@@ -20,17 +20,14 @@ from __future__ import annotations
 import argparse
 import json
 import time
-from pathlib import Path
 
 import pandas as pd
 import yaml
 
-import sys
-sys.path[:0] = [str(Path(__file__).resolve().parents[2] / "pipeline" / step) for step in ("05_validate",)]  # sibling pipeline steps
-from final_test import TRAIN_LABELS, latest
+from pipeline.common import Progress, ROOT, TRAIN_LABELS, done_ids
+from final_test import latest
 from rag_suggest import TAXONOMY, ask, build_cards, build_prompt, classifier_choices, department_of
 
-ROOT = Path(__file__).resolve().parents[2]
 FOLDS = ROOT / "results" / "cv_folds.csv"
 CV_PREDS = ROOT / "results" / "classifier" / "emb_cv_predictions.csv"
 RAG = ROOT / "results" / "rag"
@@ -39,13 +36,11 @@ SCALE = ROOT / "results" / "scale_run"
 
 def run(name, ids, neighbors, choices, label_of, types, system, out_path):
     """Ask the model about each page not yet answered and append the answers."""
-    done = set()
-    if out_path.exists():
-        done = {json.loads(l)["id"] for l in out_path.read_text(encoding="utf-8").splitlines() if l.strip()}
+    done = done_ids(out_path)
     todo = [i for i in ids if i not in done]
     print(f"{name}: {len(ids)} auto-filed pages, {len(done)} done, {len(todo)} to do", flush=True)
     type_ids = sorted(types)
-    start = time.time()
+    progress = Progress(len(todo), every=25, label=f"{name} ")
     with out_path.open("a", encoding="utf-8") as f:
         for n, doc_id in enumerate(todo, 1):
             t0 = time.time()
@@ -60,10 +55,7 @@ def run(name, ids, neighbors, choices, label_of, types, system, out_path):
                                 "classifier_first": choices[doc_id][0][0],
                                 "seconds": round(time.time() - t0, 2), **ans}, ensure_ascii=False) + "\n")
             f.flush()
-            if n % 25 == 0 or n == len(todo):
-                per = (time.time() - start) / n
-                print(f"{name} {n}/{len(todo)} | {per:.1f} s per page | about {per * (len(todo) - n) / 60:.0f} min left",
-                      flush=True)
+            progress(n)
 
 
 def main() -> None:

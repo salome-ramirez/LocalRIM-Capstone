@@ -21,7 +21,7 @@ Writes results/ocr_compare.csv (per page) and, in results/ocr_compare/: pages_by
 footer_fragments, review_overall, review_by_group, group_check and funsd (.csv).
 
 Usage:
-    python pipeline/02_ocr/ocr_compare.py
+    python -m pipeline.02_ocr.ocr_compare
 """
 
 from __future__ import annotations
@@ -33,7 +33,8 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT, TRAIN_LABELS
+
 DATA = ROOT / "data" / "pm_sample"
 OUTPUTS = ROOT / "results"
 DEFAULT_OUT = OUTPUTS / "ocr_compare.csv"
@@ -117,7 +118,7 @@ def build_table() -> pd.DataFrame:
         rows.append(row)
     table = pd.DataFrame(rows)
 
-    labels_path = ROOT / "labels" / "label_pm_labels_salo.csv"
+    labels_path = TRAIN_LABELS
     if labels_path.exists():
         labels = pd.read_csv(labels_path, dtype=str, keep_default_na=False)
         labels = labels.drop_duplicates("path", keep="last")

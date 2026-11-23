@@ -10,24 +10,22 @@ Reads labels/label_pm_labels_<annotator>.csv and data/pm_sample/metadata_full.cs
 Writes results/cv_folds.csv (id, department, box, group, fold).
 
 Usage:
-    python pipeline/03_classify/make_folds.py
+    python -m pipeline.03_classify.make_folds
 """
 
 from __future__ import annotations
 
-from pathlib import Path
 
 import pandas as pd
 from sklearn.model_selection import StratifiedGroupKFold
 
-ROOT = Path(__file__).resolve().parents[2]
-LABELS = ROOT / "labels" / "label_pm_labels_salo.csv"
+from pipeline.common import MERGE_FOR_SCORING, ROOT, TRAIN_LABELS as LABELS
+
 METADATA = ROOT / "data" / "pm_sample" / "metadata_full.csv"
 OUT = ROOT / "results" / "cv_folds.csv"
 
 N_FOLDS = 5
 SEED = 44
-MERGE_FOR_SCORING = {"ADM": "LEG"}   # Administration is scored with Legal
 
 
 def load_training_labels() -> pd.DataFrame:

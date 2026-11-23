@@ -10,21 +10,18 @@ Reads data/pm_sample/ocr_text/<option>/ (and engine A's text in data/pm_sample/o
 Writes data/pm_sample/ocr_text_clean/<option>/<id>.txt and results/bates_removals.csv.
 
 Usage:
-    python pipeline/03_classify/prep_classifier_text.py
+    python -m pipeline.03_classify.prep_classifier_text
 """
 
 from __future__ import annotations
 
 import re
-from pathlib import Path
 
 import pandas as pd
 
-import sys
-sys.path[:0] = [str(Path(__file__).resolve().parents[2] / "pipeline" / step) for step in ("02_ocr",)]  # sibling pipeline steps
+from pipeline.common import ROOT
 from ocr_eda import NOT_RETRIEVED, is_bates_like, matches_bates
 
-ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data" / "pm_sample"
 TEXT_IN = DATA / "ocr_text"
 TEXT_OUT = DATA / "ocr_text_clean"

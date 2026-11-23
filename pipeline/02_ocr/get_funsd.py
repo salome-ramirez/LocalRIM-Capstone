@@ -9,16 +9,17 @@ Writes:
     data/funsd/manifest.csv
 
 Usage:
-    python pipeline/02_ocr/get_funsd.py
+    python -m pipeline.02_ocr.get_funsd
 """
 
-from pathlib import Path
 import csv
 import json
 from datasets import load_dataset
 
+from pipeline.common import ROOT
+
 DATASET_ID = "nielsr/funsd"
-OUT_DIR = Path(__file__).resolve().parents[2] / "data" / "funsd"
+OUT_DIR = ROOT / "data" / "funsd"
 
 
 def main():

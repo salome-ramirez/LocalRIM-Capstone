@@ -13,21 +13,18 @@ Writes results/rag/neighbors.csv (rank 1-5 per page), retrieval_per_page.csv and
 retrieval_summary.csv.
 
 Usage:
-    python pipeline/04_route/rag_retrieve.py
+    python -m pipeline.04_route.rag_retrieve
 """
 
 from __future__ import annotations
 
-from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-import sys
-sys.path[:0] = [str(Path(__file__).resolve().parents[2] / "pipeline" / step) for step in ("03_classify",)]  # sibling pipeline steps
+from pipeline.common import ROOT
 from train_embeddings import calibrated_model, load_vectors
 
-ROOT = Path(__file__).resolve().parents[2]
 FOLDS = ROOT / "results" / "cv_folds.csv"
 ROUTED = ROOT / "results" / "classifier" / "emb_cv_predictions.csv"
 OUT = ROOT / "results" / "rag"

@@ -11,16 +11,16 @@ Reads data/pm_sample/manifest.csv; writes results/final_test_pages.csv (order, i
 position, image).
 
 Usage:
-    python pipeline/01_sample/draw_final_test.py
+    python -m pipeline.01_sample.draw_final_test
 """
 
 from __future__ import annotations
 
-from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT
+
 MANIFEST = ROOT / "data" / "pm_sample" / "manifest.csv"
 OUT = ROOT / "results" / "final_test_pages.csv"
 

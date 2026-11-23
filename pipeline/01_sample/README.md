@@ -15,8 +15,8 @@ Site chapters: **Filing system** (the sample, the labels and the pilot rounds) a
 Commands, from the repository root:
 
 ```powershell
-.venv\Scripts\python pipeline\01_sample\download_pdfs.py
-.venv\Scripts\streamlit run pipeline\01_sample\labeler.py
+.venv\Scripts\python -m pipeline.01_sample.download_pdfs
+.venv\Scripts\python -m streamlit run pipeline\01_sample\labeler.py
 ```
 
 `get_pm_sample.py`, `repull_pm_sample.py` and `draw_final_test.py` record how the sample was made. Running them again draws or downloads into the same files; their saved outputs are already in the repository, so you don't need to.

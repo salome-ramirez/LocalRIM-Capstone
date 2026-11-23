@@ -10,8 +10,8 @@ Writes data/pm_sample/page_profile.csv (measures and group) and results/page_gro
 (example pages per group, for naming them).
 
 Usage:
-    python pipeline/02_ocr/profile_pages.py              # 4 groups
-    python pipeline/02_ocr/profile_pages.py --groups 5
+    python -m pipeline.02_ocr.profile_pages              # 4 groups
+    python -m pipeline.02_ocr.profile_pages --groups 5
 """
 
 import argparse
@@ -23,7 +23,8 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT
+
 PM_DIR = ROOT / "data" / "pm_sample"
 NATIVE_DIR = PM_DIR / "images_native"
 OLD_DIR = PM_DIR / "images"

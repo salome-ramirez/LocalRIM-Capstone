@@ -27,12 +27,12 @@ Site chapter: **Reading the pages**.
 Commands, from the repository root (Tesseract 5 for A and B, `ollama pull glm-ocr` for D):
 
 ```powershell
-.venv\Scripts\python pipeline\02_ocr\run_ocr.py --limit 5
-.venv-ocr\Scripts\python pipeline\02_ocr\run_ocr_paddle.py --limit 5
-.venv\Scripts\python pipeline\02_ocr\ocr_eda.py --engine C
-.venv\Scripts\python pipeline\02_ocr\ocr_compare.py
-.venv\Scripts\python pipeline\02_ocr\build_ocr_texts.py
-.venv\Scripts\streamlit run pipeline\02_ocr\ocr_review.py
+.venv\Scripts\python -m pipeline.02_ocr.run_ocr --limit 5
+.venv-ocr\Scripts\python -m pipeline.02_ocr.run_ocr_paddle --limit 5
+.venv\Scripts\python -m pipeline.02_ocr.ocr_eda --engine C
+.venv\Scripts\python -m pipeline.02_ocr.ocr_compare
+.venv\Scripts\python -m pipeline.02_ocr.build_ocr_texts
+.venv\Scripts\python -m streamlit run pipeline\02_ocr\ocr_review.py
 ```
 
 The OCR text of every engine is included, so the later steps run without re-reading the pages. The OCR runs need the page images (`pipeline\01_sample\download_pdfs.py`, and for engine A the 150-dpi pages from `get_pm_sample.py`).

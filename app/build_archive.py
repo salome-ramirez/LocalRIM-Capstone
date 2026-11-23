@@ -21,7 +21,7 @@ Per record: the document date in ISO form and as written (partial dates stay par
 from the PaddleOCR run (weak = fewer than 20 words) and how it was filed.
 
 Usage:
-    python app/build_archive.py
+    python -m app.build_archive
 """
 
 from __future__ import annotations
@@ -34,12 +34,12 @@ import pandas as pd
 import yaml
 from PIL import Image
 
-ROOT = Path(__file__).resolve().parent.parent
+from pipeline.common import MERGE_FOR_SCORING as MERGE, ROOT, TEST_LABELS, TRAIN_LABELS
+
 DATA = ROOT / "data" / "pm_sample"
 OUT = ROOT / "outputs" / "app"
 THUMBS = OUT / "thumbs"
 TAXONOMY = ROOT / "taxonomy" / "rim_taxonomy_final.yaml"
-MERGE = {"ADM": "LEG"}
 ID_PREFIX = "PM"          # set per client
 WEAK_WORDS = 20           # reading too weak to search well (same idea as the 20-token route rule)
 THUMB_WIDTH = 260
@@ -160,8 +160,7 @@ def main() -> None:
         return finish(r)
 
     rows, labeled = [], set()
-    for path, phase in [(ROOT / "labels" / "label_pm_labels_salo.csv", "labeling"),
-                        (ROOT / "labels" / "final_test_labels_salo.csv", "final test labeling")]:
+    for path, phase in [(TRAIN_LABELS, "labeling"), (TEST_LABELS, "final test labeling")]:
         for r in latest(path).itertuples():
             labeled.add(r.doc_id)
             if r.outcome == "labeled" and r.function_id != "HR":

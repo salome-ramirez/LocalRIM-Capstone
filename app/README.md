@@ -15,8 +15,8 @@ The LocalRIM application (Streamlit): the Archive (search, ask, browse, read), A
 The pipeline uses the frozen settings of the research steps, imported from `pipeline/` (cutoff 0.55, 20-token rule, classifier, prompt).
 
 ```powershell
-.venv\Scripts\python app\build_archive.py
-.venv\Scripts\streamlit run app\app.py
+.venv\Scripts\python -m app.build_archive
+.venv\Scripts\python -m streamlit run app\app.py
 ```
 
 Files the app writes (uploads, approvals, corrections, saved searches) go to `outputs/app/`, which is not tracked.

@@ -17,7 +17,7 @@ Writes results/ocr_review_ratings.csv (one row per page and engine, with rank) a
 results/scan_group_check.csv (one row per page); the newest save counts.
 
 Usage:
-    streamlit run pipeline/02_ocr/ocr_review.py
+    python -m streamlit run pipeline/02_ocr/ocr_review.py
 """
 
 from __future__ import annotations
@@ -31,7 +31,8 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT
+
 DATA = ROOT / "data" / "pm_sample"
 PAGES_FILE = ROOT / "results" / "ocr_spotcheck_pm_pages.csv"
 OUT_FILE = ROOT / "results" / "ocr_review_ratings.csv"

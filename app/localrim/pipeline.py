@@ -15,11 +15,11 @@ alone, and its file number is read from the page instead of looked up in the man
 
 Runs in .venv (Python 3.14). Needs Ollama running for the record-type suggestion.
 
-Usage (from the app folder):
-    python -m localrim.pipeline --check 5            # 5 scale-run pages, compared with the saved results
-    python -m localrim.pipeline --check 5 --no-rag   # same, without the language model
-    python -m localrim.pipeline --file-numbers 50    # file-number detection on 50 pages vs the manifest
-    python -m localrim.pipeline path\\to\\page.png    # one page of your own (PNG, or a PDF's first page)
+Usage (from the repository root):
+    python -m app.localrim.pipeline --check 5        # 5 scale-run pages, compared with the saved results
+    python -m app.localrim.pipeline --check 5 --no-rag  # same, without the language model
+    python -m app.localrim.pipeline --file-numbers 50   # file-number detection on 50 pages vs the manifest
+    python -m app.localrim.pipeline path\\to\\page.png    # one page of your own (PNG, or a PDF's first page)
 """
 
 from __future__ import annotations
@@ -28,7 +28,6 @@ import argparse
 import json
 import re
 import subprocess
-import sys
 import time
 from pathlib import Path
 
@@ -36,19 +35,18 @@ import numpy as np
 import pandas as pd
 import yaml
 
-sys.path[:0] = [str(Path(__file__).resolve().parents[2] / "pipeline" / step) for step in ("02_ocr", "03_classify", "04_route", "05_validate",)]  # sibling pipeline steps
-from final_test import CUTOFF, K, MIN_TOKENS, TRAIN_LABELS, latest
+from pipeline.common import ROOT, TRAIN_LABELS
+from final_test import CUTOFF, K, MIN_TOKENS, latest
 from ocr_eda import PUNCTUATION, STRAIGHT, UPSIDE_DOWN, is_bates_like, matches_bates
 from prep_classifier_text import remove_own_bates
 from rag_suggest import (NEIGHBOR_CHARS, PAGE_CHARS, TAXONOMY, ask, build_cards, department_of,
                                   read_text)
 from train_embeddings import calibrated_model, load_vectors
 
-ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data" / "pm_sample"
 FOLDS = ROOT / "results" / "cv_folds.csv"
 OCR_PYTHON = ROOT / ".venv-ocr" / "Scripts" / "python.exe"
-OCR_WORKER = "localrim.ocr_worker"
+OCR_WORKER = "app.localrim.ocr_worker"
 OUT = ROOT / "outputs" / "app"
 EMBED_MODEL = "Qwen/Qwen3-Embedding-0.6B"   # same model as the saved page embeddings
 EMBED_MAX_TOKENS = 2048                      # same limit as the saved page embeddings
@@ -64,7 +62,7 @@ class OcrWorker:
     """Keeps localrim.ocr_worker running in .venv-ocr so PaddleOCR loads once."""
 
     def __init__(self):
-        self.proc = subprocess.Popen([str(OCR_PYTHON), "-m", OCR_WORKER, "--serve"], cwd=ROOT / "app",
+        self.proc = subprocess.Popen([str(OCR_PYTHON), "-m", OCR_WORKER, "--serve"], cwd=ROOT,
                                      stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL,
                                      text=True, encoding="utf-8", bufsize=1)
         self._next()  # wait until the models are loaded

@@ -17,18 +17,18 @@ Site chapter: **Classification, Routing and Validation** (classifier section).
 Commands, in this order, from the repository root:
 
 ```powershell
-.venv\Scripts\python pipeline\03_classify\prep_classifier_text.py
-.venv\Scripts\python pipeline\03_classify\make_folds.py
-.venv\Scripts\python pipeline\03_classify\train_tfidf.py
-.venv\Scripts\python pipeline\03_classify\bates_probe.py
-.venv\Scripts\python pipeline\03_classify\embed_pages.py
-.venv\Scripts\python pipeline\03_classify\embed_pages.py --text hybrid_with_bates
-.venv\Scripts\python pipeline\03_classify\embed_pages.py --text A
-.venv\Scripts\python pipeline\03_classify\train_embeddings.py
-.venv\Scripts\python pipeline\03_classify\train_embeddings.py --text hybrid_with_bates
-.venv\Scripts\python pipeline\03_classify\train_embeddings.py --text A
-.venv\Scripts\python pipeline\03_classify\tfidf_errors.py
-.venv\Scripts\python pipeline\03_classify\tfidf_errors.py --embeddings
+.venv\Scripts\python -m pipeline.03_classify.prep_classifier_text
+.venv\Scripts\python -m pipeline.03_classify.make_folds
+.venv\Scripts\python -m pipeline.03_classify.train_tfidf
+.venv\Scripts\python -m pipeline.03_classify.bates_probe
+.venv\Scripts\python -m pipeline.03_classify.embed_pages
+.venv\Scripts\python -m pipeline.03_classify.embed_pages --text hybrid_with_bates
+.venv\Scripts\python -m pipeline.03_classify.embed_pages --text A
+.venv\Scripts\python -m pipeline.03_classify.train_embeddings
+.venv\Scripts\python -m pipeline.03_classify.train_embeddings --text hybrid_with_bates
+.venv\Scripts\python -m pipeline.03_classify.train_embeddings --text A
+.venv\Scripts\python -m pipeline.03_classify.tfidf_errors
+.venv\Scripts\python -m pipeline.03_classify.tfidf_errors --embeddings
 ```
 
 Headline results: cross-validated macro F1 0.683 with embeddings and 0.563 with TF-IDF (hybrid text).

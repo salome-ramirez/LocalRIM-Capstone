@@ -10,8 +10,8 @@ images match the ones the classifier and the archive were built from. Files that
 exist are skipped, so the script can be stopped and run again.
 
 Usage:
-    python pipeline/01_sample/download_pdfs.py
-    python pipeline/01_sample/download_pdfs.py --limit 5     # try a few documents first
+    python -m pipeline.01_sample.download_pdfs
+    python -m pipeline.01_sample.download_pdfs --limit 5     # try a few documents first
 """
 
 from __future__ import annotations
@@ -26,7 +26,8 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT
+
 DATA = ROOT / "data" / "pm_sample"
 PDF_DIR = DATA / "pdf"
 IMG_DIR = DATA / "images_native"

@@ -19,23 +19,20 @@ Writes results/archive_check/archive_check.csv and archive_check_summary.csv (ro
 archive_check_r2.csv and archive_check_r2_summary.csv (round 2).
 
 Usage (Ollama running):
-    python pipeline/05_validate/archive_check.py      # round 1
-    python pipeline/05_validate/archive_check.py 2    # round 2
+    python -m pipeline.05_validate.archive_check      # round 1
+    python -m pipeline.05_validate.archive_check 2    # round 2
 """
 
 from __future__ import annotations
 
 import time
-from pathlib import Path
 
 import pandas as pd
 import yaml
 
-import sys
-sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "app"))  # the app's search
+from pipeline.common import ROOT
 from localrim.assistant import DECLINE, ask_llm, cited, retrieve, type_words
 
-ROOT = Path(__file__).resolve().parents[2]
 APP = ROOT / "outputs" / "app"
 OUT = ROOT / "results" / "archive_check"
 

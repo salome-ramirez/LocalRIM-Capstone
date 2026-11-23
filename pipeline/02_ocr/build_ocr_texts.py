@@ -15,7 +15,7 @@ Writes data/pm_sample/ocr_text/<option>/<id>.txt and data/pm_sample/ocr_text/sou
 (per page: group and the engine each option used).
 
 Usage:
-    python pipeline/02_ocr/build_ocr_texts.py
+    python -m pipeline.02_ocr.build_ocr_texts
 """
 
 from __future__ import annotations
@@ -24,7 +24,8 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT
+
 DATA = ROOT / "data" / "pm_sample"
 ENGINE_C = DATA / "ocr_paddle"
 ENGINE_D = DATA / "ocr_vlm"

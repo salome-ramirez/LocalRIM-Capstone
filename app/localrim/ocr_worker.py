@@ -11,9 +11,9 @@ Protocol, one JSON line per page:
                    "words": 212, "page_height": ..., "seconds": 0.9, "error": ""}
 Lines without the @@RESULT prefix are PaddleOCR's own log output and are ignored.
 
-Usage (from the app folder):
-    ..\\.venv-ocr\\Scripts\\python -m localrim.ocr_worker page.png   # one page, prints the result
-    ..\\.venv-ocr\\Scripts\\python -m localrim.ocr_worker --serve    # what the pipeline uses
+Usage (from the repository root):
+    .venv-ocr\\Scripts\\python -m app.localrim.ocr_worker page.png   # one page, prints the result
+    .venv-ocr\\Scripts\\python -m app.localrim.ocr_worker --serve    # what the pipeline uses
 """
 
 from __future__ import annotations
@@ -23,7 +23,7 @@ import sys
 import time
 from pathlib import Path
 
-sys.path[:0] = [str(Path(__file__).resolve().parents[2] / "pipeline" / step) for step in ("02_ocr",)]  # sibling pipeline steps
+import pipeline.common  # noqa: F401  (puts pipeline/02_ocr on the import path)
 from run_ocr_paddle import AUTO, PLAIN, drop_footer, page_height, read, to_lines
 
 PREFIX = "@@RESULT "

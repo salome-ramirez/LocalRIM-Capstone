@@ -7,30 +7,29 @@ as when labeling. scale_run.py then reports the agreement (descriptive only).
 Saves to labels/spotcheck_<annotator>.csv (the newest save per page counts).
 
 Usage:
-    streamlit run pipeline/05_validate/spotcheck.py
+    python -m streamlit run pipeline/05_validate/spotcheck.py
 """
 
 from __future__ import annotations
 
 import datetime as dt
-from pathlib import Path
 
 import pandas as pd
 import streamlit as st
 import yaml
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT, SPOT_LABELS as OUT
+
 SAMPLE = ROOT / "results" / "scale_run" / "spotcheck_sample.csv"
 IMAGES = ROOT / "data" / "pm_sample" / "images"
 TAXONOMY = ROOT / "taxonomy" / "rim_taxonomy_final.yaml"
-OUT = ROOT / "labels" / "spotcheck_salo.csv"
 EXCLUDE = "Can't tell / exclude"
 
 st.set_page_config(page_title="LocalRIM spot-check", layout="wide")
 st.title("Spot-check: auto-filed pages (blind)")
 
 if not SAMPLE.exists():
-    st.error("Run python scale_run.py first: it draws the sample.")
+    st.error("Run python -m pipeline.05_validate.scale_run first: it draws the sample.")
     st.stop()
 
 sample = pd.read_csv(SAMPLE, dtype=str)["id"].tolist()
@@ -39,7 +38,7 @@ done = set(saved["doc_id"])
 todo = [i for i in sample if i not in done]
 st.sidebar.metric("Checked", f"{len(sample) - len(todo)} of {len(sample)}")
 if not todo:
-    st.success("All pages checked. Run python scale_run.py again to see the agreement.")
+    st.success("All pages checked. Run python -m pipeline.05_validate.scale_run again to see the agreement.")
     st.stop()
 
 tax = yaml.safe_load(TAXONOMY.read_text(encoding="utf-8"))

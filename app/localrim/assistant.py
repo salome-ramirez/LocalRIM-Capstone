@@ -11,12 +11,12 @@ from __future__ import annotations
 
 import re
 from functools import lru_cache
-from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT
+
 EMB = ROOT / "results" / "embeddings"
 OLLAMA = "http://localhost:11434/api/chat"
 LLM = "qwen3:8b"             # same model as the evaluation

@@ -7,10 +7,9 @@ the five final groups. Also confirms that k = 4 reproduces the saved clusters.
 Reads data/pm_sample/page_profile.csv; writes results/page_groups_k_check.csv.
 
 Usage:
-    python pipeline/02_ocr/check_k_groups.py
+    python -m pipeline.02_ocr.check_k_groups
 """
 
-from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -18,7 +17,8 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import adjusted_rand_score, silhouette_score
 from sklearn.preprocessing import StandardScaler
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT
+
 PROFILE = ROOT / "data" / "pm_sample" / "page_profile.csv"
 OUT_CSV = ROOT / "results" / "page_groups_k_check.csv"
 

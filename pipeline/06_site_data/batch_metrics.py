@@ -6,12 +6,14 @@ own or through build_site_data.py, which also checks the two agree.
 Writes results/batch_metrics.csv.
 
 Usage:
-    python pipeline/06_site_data/batch_metrics.py
+    python -m pipeline.06_site_data.batch_metrics
 """
 import pandas as pd
+
+from pipeline.common import ROOT
 import localrim_metrics as lm
 
-OUT = lm.ROOT / "results" / "batch_metrics.csv"
+OUT = ROOT / "results" / "batch_metrics.csv"
 
 
 def write(out=None):
@@ -69,7 +71,7 @@ def write(out=None):
 
 if __name__ == "__main__":
     rows = write()
-    print(f"Wrote {OUT.relative_to(lm.ROOT)}: {len(rows)} batches")
+    print(f"Wrote {OUT.relative_to(ROOT)}: {len(rows)} batches")
     for r in rows:
         print(f"  Batch {r['batch']} ({r['status']}): {r['valid']} valid, "
               f"{r['reviewed']} reviewed, {r['unsure_share']:.0%} unsure")

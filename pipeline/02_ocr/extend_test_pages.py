@@ -9,17 +9,17 @@ Writes results/ocr_spotcheck_pm_pages_original10.csv (copy, first run only) and 
 extended results/ocr_spotcheck_pm_pages.csv, read by ocr_review.py.
 
 Usage:
-    python pipeline/02_ocr/extend_test_pages.py
+    python -m pipeline.02_ocr.extend_test_pages
 """
 
 from __future__ import annotations
 
 import shutil
-from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT
+
 PROFILE = ROOT / "data" / "pm_sample" / "page_profile.csv"
 PAGES = ROOT / "results" / "ocr_spotcheck_pm_pages.csv"
 BACKUP = ROOT / "results" / "ocr_spotcheck_pm_pages_original10.csv"

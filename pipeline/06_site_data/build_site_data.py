@@ -22,29 +22,26 @@ Also writes the batch records (results/batch_metrics.csv) and stops without writ
 they and the site disagree.
 
 Usage:
-    python pipeline/06_site_data/build_site_data.py
-    python pipeline/06_site_data/build_site_data.py --snapshot NAME [--as-of ISO-TIME]
+    python -m pipeline.06_site_data.build_site_data
+    python -m pipeline.06_site_data.build_site_data --snapshot NAME [--as-of ISO-TIME]
 """
 
 import json
-from datetime import datetime
-from pathlib import Path
-
 import sys
+from datetime import datetime
 
 import numpy as np
 import pandas as pd
 import yaml
 
-# The output goes to docs/, where the site reads it.
-ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / "docs" / "data" / "site_data.json"
-
-sys.path[:0] = [str(ROOT / "app"), str(Path(__file__).resolve().parent)]
+from pipeline.common import ROOT, SPOT_LABELS, TEST_LABELS, TRAIN_LABELS
 # The site and the batch records use the same counting (localrim_metrics.py),
 # so their numbers always match.
-import batch_metrics            # noqa: E402
-import localrim_metrics as lm   # noqa: E402
+import batch_metrics
+import localrim_metrics as lm
+
+# The output goes to docs/, where the site reads it.
+OUT = ROOT / "docs" / "data" / "site_data.json"
 
 # Snapshots: --snapshot NAME [--as-of ISO-TIME] writes results/snapshots/site_data_NAME.json
 # (and batch_metrics_NAME.csv) instead of the live file. --as-of rebuilds an earlier
@@ -483,7 +480,7 @@ if tf_cv is not None and emb_cv is not None and emb_pred is not None:
         confusion = {"labels": [str(x) for x in conf.index], "guesses": [str(x) for x in conf.columns],
                      "counts": conf.values.astype(int).tolist()}
 
-    lab = pd.read_csv(ROOT / "labels" / "label_pm_labels_salo.csv", dtype=str)
+    lab = pd.read_csv(TRAIN_LABELS, dtype=str)
     lab = lab.sort_values("saved_at").drop_duplicates("doc_id", keep="last")
     certainty_of = dict(zip(lab["doc_id"], lab["certainty"]))
 
@@ -612,7 +609,7 @@ if ft_scores is not None:
         "units": ft_units,
         "confidence_quartiles": [round(float(q), 3) for q in ft_pages["confidence"].astype(float).quantile([.25, .5, .75])],
     }
-    ftl = read_csv("labels/final_test_labels_salo.csv")
+    ftl = read_csv(TEST_LABELS)
     if ftl is not None and len(ftl):                      # date of the newest final-test label
         final_test["labels_as_of"] = datetime.fromisoformat(ftl["saved_at"].max()).strftime("%b %d, %Y").replace(" 0", " ")
 
@@ -624,7 +621,7 @@ if srs is not None:
     num = lambda k: float(v[k])
     sr_timing = num_csv(f"{SR}/timing.csv")
     sr_spot = num_csv(f"{SR}/spotcheck_result.csv")
-    sr_spot_lab = (ROOT / "labels" / "spotcheck_salo.csv")
+    sr_spot_lab = SPOT_LABELS
     sr_spot_excluded = 0
     if sr_spot_lab.exists():
         sl = pd.read_csv(sr_spot_lab, dtype=str).sort_values("saved_at").drop_duplicates("doc_id", keep="last")

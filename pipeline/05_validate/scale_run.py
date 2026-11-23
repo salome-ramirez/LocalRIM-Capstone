@@ -20,8 +20,8 @@ Writes results/scale_run/: predictions, neighbors, suggestions_A.jsonl, summary,
 departments, timing, spotcheck_sample and spotcheck_result. Resumable.
 
 Usage:
-    python pipeline/05_validate/scale_run.py --limit 5
-    python pipeline/05_validate/scale_run.py
+    python -m pipeline.05_validate.scale_run --limit 5
+    python -m pipeline.05_validate.scale_run
 """
 
 from __future__ import annotations
@@ -29,26 +29,22 @@ from __future__ import annotations
 import argparse
 import json
 import time
-from pathlib import Path
 
 import numpy as np
 import pandas as pd
 import yaml
 
-from final_test import CUTOFF, K, MIN_TOKENS, SEED, TRAIN_LABELS, latest
-import sys
-sys.path[:0] = [str(Path(__file__).resolve().parents[2] / "pipeline" / step) for step in ("03_classify", "04_route",)]  # sibling pipeline steps
-from rag_suggest import MERGE_FOR_SCORING, TAXONOMY, ask, build_cards, build_prompt, department_of
+from pipeline.common import MERGE_FOR_SCORING, Progress, ROOT, SPOT_LABELS, TRAIN_LABELS, done_ids
+from final_test import CUTOFF, K, MIN_TOKENS, SEED, latest
+from rag_suggest import TAXONOMY, ask, build_cards, build_prompt, department_of
 from train_embeddings import EMB_DIR, MODEL_TAG, calibrated_model, load_vectors
 
-ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data" / "pm_sample"
 MANIFEST = DATA / "manifest.csv"
 SOURCES = DATA / "ocr_text" / "sources.csv"
 TEXTS = DATA / "ocr_text_clean" / "hybrid"
 FOLDS = ROOT / "results" / "cv_folds.csv"
 FINAL = ROOT / "results" / "final_test"
-SPOT_LABELS = ROOT / "labels" / "spotcheck_salo.csv"
 OUT = ROOT / "results" / "scale_run"
 
 SCALE_FIRST, SCALE_LAST = 404, 1403          # manifest positions of the scale batch
@@ -133,9 +129,7 @@ def main() -> None:
     choices = {r.id: [(r.predicted, r.confidence), (r.second, r.second_confidence)] for r in preds.itertuples()}
 
     out_path = OUT / "suggestions_A.jsonl"
-    done = set()
-    if out_path.exists():
-        done = {json.loads(l)["id"] for l in out_path.read_text(encoding="utf-8").splitlines() if l.strip()}
+    done = done_ids(out_path)
     queue = preds.loc[preds["routed"] == "review", "id"].tolist()
     todo = [i for i in queue if i not in done]
     if args.limit:
@@ -144,7 +138,7 @@ def main() -> None:
           f"(about {len(todo) * 5.3 / 60:.0f} min)", flush=True)
 
     type_ids = sorted(types)
-    start = time.time()
+    progress = Progress(len(todo), every=25)
     with out_path.open("a", encoding="utf-8") as f:
         for n, doc_id in enumerate(todo, 1):
             t0 = time.time()
@@ -158,10 +152,7 @@ def main() -> None:
                                 "second_department": department_of(ans["second_record_type"]),
                                 "seconds": round(time.time() - t0, 2), **ans}, ensure_ascii=False) + "\n")
             f.flush()
-            if n % 25 == 0 or n == len(todo):
-                per = (time.time() - start) / n
-                print(f"{n}/{len(todo)} | {per:.1f} s per page | about {per * (len(todo) - n) / 60:.0f} min left",
-                      flush=True)
+            progress(n)
 
     rag = pd.DataFrame([json.loads(l) for l in out_path.read_text(encoding="utf-8").splitlines() if l.strip()])
     summarize(preds, rag, len(queue), fit_seconds, classify_seconds)

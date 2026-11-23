@@ -25,10 +25,10 @@ Writes:
     results/funsd_ocr_raw_<engine>.csv                             timing and confidence
 
 Usage:
-    python pipeline/02_ocr/eval_ocr_funsd.py                      # engine A
-    python pipeline/02_ocr/eval_ocr_funsd.py --engine D           # Ollama running
-    .venv-ocr\\Scripts\\python pipeline/02_ocr/eval_ocr_funsd.py --engine C --stage ocr
-    python pipeline/02_ocr/eval_ocr_funsd.py --engine C --stage score
+    python -m pipeline.02_ocr.eval_ocr_funsd                      # engine A
+    python -m pipeline.02_ocr.eval_ocr_funsd --engine D           # Ollama running
+    .venv-ocr\\Scripts\\python -m pipeline.02_ocr.eval_ocr_funsd --engine C --stage ocr
+    python -m pipeline.02_ocr.eval_ocr_funsd --engine C --stage score
 """
 
 from __future__ import annotations
@@ -43,7 +43,8 @@ from pathlib import Path
 
 from PIL import Image
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT
+
 FUNSD_DIR = ROOT / "data" / "funsd"
 OUT_DIR = ROOT / "results"
 

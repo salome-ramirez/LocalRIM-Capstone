@@ -54,13 +54,13 @@ Run these in PowerShell from the repository folder.
 4. Download the documents (about 270 MB of PDFs from the UCSF Industry Documents Library) and render their first pages. This takes 15 to 30 minutes; if it stops, run it again and it continues where it left off.
 
    ```powershell
-   .venv\Scripts\python pipeline\01_sample\download_pdfs.py
+   .venv\Scripts\python -m pipeline.01_sample.download_pdfs
    ```
 
 5. Build the app's archive.
 
    ```powershell
-   .venv\Scripts\python app\build_archive.py
+   .venv\Scripts\python -m app.build_archive
    ```
 
    It prints `Archive: 766 filed records` and `Review queue: 480 pages`; the app shows 761 records, because five pages are withheld for personal data.
@@ -70,7 +70,7 @@ The embedding model (Qwen3-Embedding-0.6B, 1.2 GB) and the PaddleOCR models down
 ## Run the app
 
 ```powershell
-.venv\Scripts\streamlit run app\app.py
+.venv\Scripts\python -m streamlit run app\app.py
 ```
 
 The app opens at http://localhost:8501. Search works on its own; Ask, and the record-type suggestion for new uploads, need Ollama running. The first upload takes about 40 seconds while the OCR and embedding models load.
@@ -83,11 +83,11 @@ $env:LOCALRIM_USER = "Your Name"
 
 ## Re-run the pipeline
 
-Each step folder has a README with its commands, inputs and outputs. All saved results are included, so any step can be run on its own. The steps that need no OCR or language model reproduce the saved results exactly; the language-model steps run at temperature 0 with a fixed seed.
+Each step folder has a README with its commands, inputs and outputs. Run every command from the repository root: the scripts run as modules (`python -m pipeline.<step>.<script>`), and `pipeline/common.py` holds the paths and settings they share. All saved results are included, so any step can be run on its own. The steps that need no OCR or language model reproduce the saved results exactly; the language-model steps run at temperature 0 with a fixed seed.
 
 ```powershell
-.venv\Scripts\python pipeline\03_classify\train_tfidf.py
-.venv\Scripts\python pipeline\06_site_data\build_site_data.py
+.venv\Scripts\python -m pipeline.03_classify.train_tfidf
+.venv\Scripts\python -m pipeline.06_site_data.build_site_data
 ```
 
 ## Data

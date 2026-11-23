@@ -10,24 +10,23 @@ labels' certainty. Writes results/classifier/confusion_<run>.csv and
 per_department_<run>.csv.
 
 Usage:
-    python pipeline/03_classify/tfidf_errors.py
-    python pipeline/03_classify/tfidf_errors.py --run C
-    python pipeline/03_classify/tfidf_errors.py --embeddings
+    python -m pipeline.03_classify.tfidf_errors
+    python -m pipeline.03_classify.tfidf_errors --run C
+    python -m pipeline.03_classify.tfidf_errors --embeddings
 """
 
 from __future__ import annotations
 
 import argparse
-from pathlib import Path
 
 import pandas as pd
 from sklearn.metrics import classification_report
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT, TRAIN_LABELS as LABELS
+
 OUT = ROOT / "results" / "classifier"
 PREDICTIONS = OUT / "tfidf_cv_predictions.csv"
 EMB_PREDICTIONS = OUT / "emb_cv_predictions.csv"
-LABELS = ROOT / "labels" / "label_pm_labels_salo.csv"
 
 
 def main() -> None:

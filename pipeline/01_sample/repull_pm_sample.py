@@ -18,15 +18,14 @@ rest. Documents already in pdf_info.csv are skipped. --metadata-only re-fetches 
 fields, into metadata_full_fixed.csv.
 
 Usage:
-    python pipeline/01_sample/repull_pm_sample.py --limit 3
-    python pipeline/01_sample/repull_pm_sample.py
-    python pipeline/01_sample/repull_pm_sample.py --metadata-only
+    python -m pipeline.01_sample.repull_pm_sample --limit 3
+    python -m pipeline.01_sample.repull_pm_sample
+    python -m pipeline.01_sample.repull_pm_sample --metadata-only
 """
 
 import argparse
 import json
 import time
-from pathlib import Path
 
 import pandas as pd
 import pymupdf as fitz
@@ -34,7 +33,8 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import Progress, ROOT, TRAIN_LABELS as LABELS
+
 PM_DIR = ROOT / "data" / "pm_sample"
 MANIFEST = PM_DIR / "manifest.csv"
 PDF_DIR = PM_DIR / "pdf"
@@ -45,7 +45,6 @@ FIXED_OUT = PM_DIR / "metadata_full_fixed.csv"
 FIXED_LINES = PM_DIR / "metadata_full_fixed.jsonl"
 INFO_OUT = PM_DIR / "pdf_info.csv"
 SPOTCHECK = ROOT / "results" / "ocr_spotcheck_pm_pages.csv"
-LABELS = ROOT / "labels" / "label_pm_labels_salo.csv"
 LOG = ROOT / "results" / "repull_log.txt"
 
 API = "https://metadata.idl.ucsf.edu/solr/ltdl3/query"
@@ -252,7 +251,7 @@ def main():
     print(f"Already done: {len(done)}. To do now: {len(todo)}.")
     log(f"--- run {time.ctime()} | done {len(done)} | to do {len(todo)}")
 
-    start, failures_in_a_row = time.time(), 0
+    progress, failures_in_a_row = Progress(len(todo), unit="document"), 0
     for n, doc_id in enumerate(todo, 1):
         try:
             meta, info = process(doc_id)
@@ -270,11 +269,7 @@ def main():
                 return
             continue
 
-        if n % 10 == 0 or n == len(todo):
-            per_doc = (time.time() - start) / n
-            left = per_doc * (len(todo) - n) / 60
-            print(f"{n}/{len(todo)} | {per_doc:.1f} s per document | about {left:.0f} min left "
-                  f"| last: {doc_id} at {info['native_dpi'] or '?'} dpi", flush=True)
+        progress(n, f" | last: {doc_id} at {info['native_dpi'] or '?'} dpi")
 
     write_meta_csv(META_LINES, META_OUT)
     log(f"done: {len(todo)} processed")

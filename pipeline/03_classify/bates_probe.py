@@ -11,13 +11,12 @@ Reads results/cv_folds.csv and data/pm_sample/manifest.csv.
 Writes results/classifier/bates_probe.csv (one row per fold, plus the mean).
 
 Usage:
-    python pipeline/03_classify/bates_probe.py
+    python -m pipeline.03_classify.bates_probe
 """
 
 from __future__ import annotations
 
 import re
-from pathlib import Path
 
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
@@ -25,7 +24,8 @@ from sklearn.metrics import accuracy_score, f1_score
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import OneHotEncoder
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import ROOT
+
 FOLDS = ROOT / "results" / "cv_folds.csv"
 MANIFEST = ROOT / "data" / "pm_sample" / "manifest.csv"
 OUT = ROOT / "results" / "classifier" / "bates_probe.csv"

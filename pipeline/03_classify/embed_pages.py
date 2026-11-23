@@ -12,27 +12,24 @@ Writes results/embeddings/<text>_qwen3-0.6b.npy (normalised vectors, one row per
 and <text>_qwen3-0.6b_ids.csv (row order: id, characters, tokens, cut).
 
 Usage:
-    python pipeline/03_classify/embed_pages.py
-    python pipeline/03_classify/embed_pages.py --text hybrid_with_bates
-    python pipeline/03_classify/embed_pages.py --text A
+    python -m pipeline.03_classify.embed_pages
+    python -m pipeline.03_classify.embed_pages --text hybrid_with_bates
+    python -m pipeline.03_classify.embed_pages --text A
 """
 
 from __future__ import annotations
 
 import argparse
 import time
-from pathlib import Path
 
 import numpy as np
 import pandas as pd
 import torch
 from sentence_transformers import SentenceTransformer
 
-import sys
-sys.path[:0] = [str(Path(__file__).resolve().parents[2] / "pipeline" / step) for step in ("02_ocr",)]  # sibling pipeline steps
+from pipeline.common import ROOT
 from ocr_eda import NOT_RETRIEVED
 
-ROOT = Path(__file__).resolve().parents[2]
 MANIFEST = ROOT / "data" / "pm_sample" / "manifest.csv"
 TEXT_DIRS = {
     "hybrid": ROOT / "data" / "pm_sample" / "ocr_text_clean" / "hybrid",

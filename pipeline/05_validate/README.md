@@ -15,12 +15,12 @@ Site chapters: **Classification, Routing and Validation** (final test, scale run
 Commands, from the repository root (Ollama running with `qwen3:8b`):
 
 ```powershell
-.venv\Scripts\python pipeline\05_validate\final_test.py --stage predict
-.venv\Scripts\python pipeline\05_validate\final_test.py --stage score
-.venv\Scripts\python pipeline\05_validate\scale_run.py
-.venv\Scripts\python pipeline\05_validate\score_record_types.py
-.venv\Scripts\python app\build_archive.py
-.venv\Scripts\python pipeline\05_validate\archive_check.py
+.venv\Scripts\python -m pipeline.05_validate.final_test --stage predict
+.venv\Scripts\python -m pipeline.05_validate.final_test --stage score
+.venv\Scripts\python -m pipeline.05_validate.scale_run
+.venv\Scripts\python -m pipeline.05_validate.score_record_types
+.venv\Scripts\python -m app.build_archive
+.venv\Scripts\python -m pipeline.05_validate.archive_check
 ```
 
 `final_test.py --stage score` refuses to run when the scores exist (the test is scored once); `--force` only rebuilds the same files.

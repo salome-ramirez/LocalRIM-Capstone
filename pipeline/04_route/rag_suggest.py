@@ -14,9 +14,9 @@ Writes results/rag/taxonomy_cards.txt, suggestions_<variant>.jsonl (resumable) a
 rag_summary_<variant>.csv.
 
 Usage:
-    python pipeline/04_route/rag_suggest.py --variant A --limit 3
-    python pipeline/04_route/rag_suggest.py --variant A
-    python pipeline/04_route/rag_suggest.py --variant C
+    python -m pipeline.04_route.rag_suggest --variant A --limit 3
+    python -m pipeline.04_route.rag_suggest --variant A
+    python -m pipeline.04_route.rag_suggest --variant C
 """
 
 from __future__ import annotations
@@ -24,22 +24,18 @@ from __future__ import annotations
 import argparse
 import json
 import time
-from pathlib import Path
 
 import numpy as np
 import pandas as pd
 import requests
 import yaml
 
-import sys
-sys.path[:0] = [str(Path(__file__).resolve().parents[2] / "pipeline" / step) for step in ("03_classify",)]  # sibling pipeline steps
+from pipeline.common import MERGE_FOR_SCORING, Progress, ROOT, TRAIN_LABELS as LABELS, done_ids
 from train_embeddings import calibrated_model, load_vectors
 
-ROOT = Path(__file__).resolve().parents[2]
 FOLDS = ROOT / "results" / "cv_folds.csv"
 RAG = ROOT / "results" / "rag"
 ROUTED = ROOT / "results" / "classifier" / "emb_cv_predictions.csv"
-LABELS = ROOT / "labels" / "label_pm_labels_salo.csv"
 TEXTS = ROOT / "data" / "pm_sample" / "ocr_text_clean" / "hybrid"
 TAXONOMY = ROOT / "taxonomy" / "rim_taxonomy_final.yaml"
 
@@ -49,7 +45,6 @@ SEED = 44
 PAGE_CHARS = 2500
 NEIGHBOR_CHARS = 350
 NUM_CTX = 8192
-MERGE_FOR_SCORING = {"ADM": "LEG"}   # Administration is scored with Legal
 OUT_OF_SCOPE = {"HR"}                # HR is out of scope
 
 
@@ -174,14 +169,12 @@ def main() -> None:
     choices = classifier_choices(folds)
 
     out_path = RAG / f"suggestions_{args.variant}.jsonl"
-    done = set()
-    if out_path.exists():
-        done = {json.loads(l)["id"] for l in out_path.read_text(encoding="utf-8").splitlines() if l.strip()}
+    done = done_ids(out_path)
     todo = [i for i in queue if i not in done]
     print(f"Variant {args.variant}: {len(queue)} review pages, {len(done)} done, {len(todo)} to do", flush=True)
 
     type_ids = sorted(types)
-    start = time.time()
+    progress = Progress(len(todo))
     with out_path.open("a", encoding="utf-8") as f:
         for n, doc_id in enumerate(todo, 1):
             nb = neighbors[neighbors["id"] == doc_id].sort_values("rank")
@@ -198,9 +191,7 @@ def main() -> None:
                    "seconds": round(time.time() - t0, 2), **ans}
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
             f.flush()
-            if n % 10 == 0 or n == len(todo):
-                per = (time.time() - start) / n
-                print(f"{n}/{len(todo)} | {per:.1f} s per page | about {per * (len(todo) - n) / 60:.0f} min left", flush=True)
+            progress(n)
 
     rows = [json.loads(l) for l in out_path.read_text(encoding="utf-8").splitlines() if l.strip()]
     df = pd.DataFrame(rows)

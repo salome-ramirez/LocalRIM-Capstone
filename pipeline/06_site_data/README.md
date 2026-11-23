@@ -13,8 +13,8 @@ Site chapters: all of them.
 Command, from the repository root (after `app\build_archive.py`, which builds the app's archive the site counts):
 
 ```powershell
-.venv\Scripts\python app\build_archive.py
-.venv\Scripts\python pipeline\06_site_data\build_site_data.py
+.venv\Scripts\python -m app.build_archive
+.venv\Scripts\python -m pipeline.06_site_data.build_site_data
 ```
 
 It writes counts, scores and rates only. Run on this repository, it reproduces the published `site_data.json` exactly; only the `updated` time changes.

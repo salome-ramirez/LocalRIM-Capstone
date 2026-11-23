@@ -16,9 +16,9 @@ Writes data/pm_sample/ocr_paddle/<id>.txt, boxes/<id>.tsv, ocr_results.csv and
 run_info.json. Order: the OCR test pages first, then the rest; resumable.
 
 Usage (in .venv-ocr):
-    python pipeline/02_ocr/run_ocr_paddle.py --limit 5
-    python pipeline/02_ocr/run_ocr_paddle.py
-    python pipeline/02_ocr/run_ocr_paddle.py --refilter    # re-apply the footer rule to saved boxes
+    python -m pipeline.02_ocr.run_ocr_paddle --limit 5
+    python -m pipeline.02_ocr.run_ocr_paddle
+    python -m pipeline.02_ocr.run_ocr_paddle --refilter    # re-apply the footer rule to saved boxes
 """
 
 from __future__ import annotations
@@ -32,7 +32,8 @@ from pathlib import Path
 import pandas as pd
 from PIL import Image
 
-ROOT = Path(__file__).resolve().parents[2]
+from pipeline.common import Progress, ROOT, resume_csv
+
 DATA = ROOT / "data" / "pm_sample"
 IMAGE_DIR = DATA / "images_native"
 OUT_DIR = DATA / "ocr_paddle"
@@ -189,12 +190,7 @@ def main() -> None:
         return
 
     BOX_DIR.mkdir(parents=True, exist_ok=True)
-    done = set()
-    if RESULTS.exists():
-        res = pd.read_csv(RESULTS, dtype={"id": str}, keep_default_na=False)
-        res = res[res["error"] == ""]
-        res.to_csv(RESULTS, index=False)
-        done = set(res["id"])
+    done = resume_csv(RESULTS, "id", dtype={"id": str})
     todo = [i for i in page_order() if i not in done]
     if args.limit:
         todo = todo[: args.limit]
@@ -216,7 +212,7 @@ def main() -> None:
         "paddleocr": paddleocr.__version__, "paddle": paddle.__version__,
         "model_load_seconds": load_seconds, "started": time.ctime()}, indent=1), encoding="utf-8")
 
-    start, errors = time.time(), 0
+    progress, errors = Progress(len(todo)), 0
     for n, doc_id in enumerate(todo, 1):
         try:
             row = ocr_page(ocr_auto, ocr_plain, doc_id)
@@ -232,10 +228,7 @@ def main() -> None:
         if errors >= MAX_ERRORS_IN_A_ROW:
             print(f"Stopped: {MAX_ERRORS_IN_A_ROW} pages failed in a row. Last error: {row['error']}")
             return
-        if n % 10 == 0 or n == len(todo):
-            per = (time.time() - start) / n
-            print(f"{n}/{len(todo)} pages | {per:.2f} s per page | about {per * (len(todo) - n) / 60:.0f} min left",
-                  flush=True)
+        progress(n)
     print(f"Finished. Results: {RESULTS}")
 
 

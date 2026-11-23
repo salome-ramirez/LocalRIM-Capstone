@@ -13,15 +13,14 @@ Writes results/classifier/emb[_<text>]_cv_results.csv, _cv_predictions.csv,
 _routing_curve.csv and _calibration_summary.csv.
 
 Usage:
-    python pipeline/03_classify/train_embeddings.py
-    python pipeline/03_classify/train_embeddings.py --text hybrid_with_bates
-    python pipeline/03_classify/train_embeddings.py --text A
+    python -m pipeline.03_classify.train_embeddings
+    python -m pipeline.03_classify.train_embeddings --text hybrid_with_bates
+    python -m pipeline.03_classify.train_embeddings --text A
 """
 
 from __future__ import annotations
 
 import argparse
-from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -32,12 +31,10 @@ from sklearn.model_selection import StratifiedKFold, cross_val_predict
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
-import sys
-sys.path[:0] = [str(Path(__file__).resolve().parents[2] / "pipeline" / step) for step in ("04_route",)]  # sibling pipeline steps
+from pipeline.common import ROOT
 from review_routing import (SEED, TARGET_ACCURACY, THRESHOLDS, choose_threshold,
                                      expected_calibration_error, routing_at)
 
-ROOT = Path(__file__).resolve().parents[2]
 FOLDS = ROOT / "results" / "cv_folds.csv"
 EMB_DIR = ROOT / "results" / "embeddings"
 MODEL_TAG = "qwen3-0.6b"

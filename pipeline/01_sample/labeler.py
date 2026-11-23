@@ -15,7 +15,7 @@ Modes:
 After each training save it rebuilds docs/data/site_data.json in the background.
 
 Usage:
-    streamlit run pipeline/01_sample/labeler.py
+    python -m streamlit run pipeline/01_sample/labeler.py
 """
 
 import subprocess
@@ -28,10 +28,11 @@ import streamlit as st
 import yaml
 from PIL import Image
 
+from pipeline.common import ROOT as REPO
+
 # Settings
 
 # Paths are relative to the repository root, wherever the app is started from.
-REPO = Path(__file__).resolve().parents[2]
 
 LABEL_DIR = REPO / "labels"                   # where queues and labels are saved
 PM_DIR = REPO / "data" / "pm_sample"          # Philip Morris sample
@@ -197,7 +198,7 @@ def refresh_site():
     script = REPO / "pipeline" / "06_site_data" / "build_site_data.py"
     if script.exists():
         try:
-            subprocess.Popen([sys.executable, str(script)], cwd=script.parent,
+            subprocess.Popen([sys.executable, "-m", "pipeline.06_site_data.build_site_data"], cwd=REPO,
                              stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         except OSError:
             pass   # the site can always be rebuilt by hand at wrap-up
@@ -294,7 +295,7 @@ types_by_id = taxonomy.set_index("type_id").to_dict("index")
 type_ids = taxonomy["type_id"].tolist()
 
 if mode == "final_test" and not FINAL_TEST_PAGES.exists():
-    st.error("Final-test pages not drawn yet. Run: python draw_final_test.py")
+    st.error("Final-test pages not drawn yet. Run: python -m pipeline.01_sample.draw_final_test")
     st.stop()
 full_queue = get_queue(mode)
 offset = 0
