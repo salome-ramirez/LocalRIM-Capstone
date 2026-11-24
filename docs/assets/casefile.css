@@ -1241,3 +1241,17 @@ body.grid p.cv-note { font: 400 .88rem/1.4 var(--label); color: var(--muted); ma
 
 /* A short note under a caption (Figure 1.3, the skipped downloads) */
 figure figcaption .cap-note { display: block; margin-top: .45rem; }
+
+/* Findings: one layout for every section. The approach tiles span the text width in three equal columns
+   (stacked on phones), and "Decisions behind this" is a two-column list under each section's text */
+body.appendix.findings-page.grid section ul.approach-strip { max-width: none; padding: 0; margin-bottom: 1.8rem; }
+body.grid.findings-page .mgrid.g-stack > .mcol > .decisions.mdec { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--gut); align-items: start; }
+body.grid.findings-page .mgrid.g-stack > .mcol > .decisions.mdec > h3 { grid-column: 1 / -1; }
+@media (max-width: 599px) { body.grid.findings-page .mgrid.g-stack > .mcol > .decisions.mdec { grid-template-columns: minmax(0, 1fr); } }
+
+/* Future work: V1 (built) has a filled marker and a "Current version" label; later versions are outlined */
+body.grid ol.vpath .v:not(.done) { background: none; color: var(--accent); box-shadow: inset 0 0 0 2px var(--accent-fill); }
+body.grid ol.vpath h3 .v-now { margin-left: .4rem; vertical-align: .15em; }
+body.grid p.fw-key { margin: -.5rem 0 1rem; font: 400 .85rem/1.4 var(--label); color: var(--muted); }
+body.grid p.fw-key .vk { display: inline-block; width: .8rem; height: .8rem; margin-right: .35rem; vertical-align: -1px; border-radius: 2px; box-shadow: inset 0 0 0 2px var(--accent-fill); }
+body.grid p.fw-key .vk-done { background: var(--accent-fill); }

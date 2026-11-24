@@ -7,7 +7,7 @@
 <meta name="description" content="Where LocalRIM could go next: a version path from one PC to a client deployment, and what the next study would measure.">
 <!-- Future work.
      Typed numbers: "8" (test pages under 20 tokens) and "20" (the token floor). 154 = final_test.pages + final_test.excluded.pages. -->
-<link rel="stylesheet" href="assets/casefile.css?v=73">
+<link rel="stylesheet" href="assets/casefile.css?v=74">
 <link rel="stylesheet" href="assets/appendix.css?v=14">
 <script src="assets/site.js?v=40" defer></script>
 <link rel="stylesheet" href="assets/helper.css?v=5">
@@ -31,8 +31,9 @@
 <div class="fw-grid">
   <section class="fw-path" id="versions" aria-labelledby="v-h">
     <h2 id="v-h" class="fw-h">Development roadmap</h2>
+    <p class="fw-key"><span class="vk vk-done" aria-hidden="true"></span>Filled: built in this project · <span class="vk" aria-hidden="true"></span>Outline: next steps</p>
     <ol class="vpath">
-      <li><span class="v">V1</span><div><h3>LocalRIM — the completed application</h3><p>A single-user application that runs locally on public Philip Morris records. It combines document reading, classification, archive search, question answering, Intake approval and the Review queue. It is shown through the walkthrough video and the repository, and its classification and routing performance is documented in the preceding chapters.</p></div></li>
+      <li><span class="v done">V1</span><div><h3>LocalRIM — the completed application <span class="stamp v-now">Current version</span></h3><p>An application that runs locally on one computer, on public Philip Morris records. It combines document reading, classification, archive search, question answering, Intake approval and the Review queue. It is shown through the walkthrough video and the repository, and its classification and routing performance is documented in the preceding chapters.</p></div></li>
       <li><span class="v">V2</span><div><h3>Private access and shared records</h3><p>The next version would add authenticated private access, a shared records database and permissions based on user roles. A guest account could search and read records but not upload, classify or approve filings. Encryption, access controls and an audit trail would protect the records and record each user's changes.</p></div></li>
       <li><span class="v">V3</span><div><h3>Deployment within a client's environment</h3><p>A client deployment would run within the organization's own infrastructure and connect to its existing document systems. Records could enter the filing workflow directly, with review tasks assigned to named staff and tracked in individual work queues, and every decision and correction recorded in an audit trail.</p>
         <p>The taxonomy and filing rules would be confirmed with the client, and the confidence cutoff recalibrated on its own reviewed records. Record types would become final only under the organization's approved classification procedures.</p></div></li>

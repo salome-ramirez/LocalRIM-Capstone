@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Findings | LocalRIM</title>
 <!-- Findings: the report's conclusion. Every result is bound to site_data.json; typed: the rule settings "20 tokens" and "60 tokens", "95%" (the interval), "100 new first pages" (framing) and "two rounds". -->
-<link rel="stylesheet" href="assets/casefile.css?v=73">
+<link rel="stylesheet" href="assets/casefile.css?v=74">
 <link rel="stylesheet" href="assets/appendix.css?v=14">
 <script src="assets/site.js?v=40" defer></script>
 <link rel="stylesheet" href="assets/helper.css?v=5">
@@ -81,11 +81,11 @@
   <h2 class="g-h2">How the findings changed my approach</h2>
   <p class="muted short">Several decisions in LocalRIM came from testing assumptions that initially seemed reasonable.</p>
   <ul class="approach-strip" aria-label="Three decisions and the evidence behind them">
-    <li><small class="k">01 · Taxonomy</small><b class="v"><span data-field="taxonomy.skims.0.unsure" data-format="pct"></span> &#8594; <span data-field="taxonomy.skims.1.unsure" data-format="pct"></span></b><span class="l">Labels marked uncertain, first to second pilot</span><a href="filing-system.html#rounds">Intake · the taxonomy and the labeling app both changed</a></li>
-    <li><small class="k">02 · Orientation</small><b class="v"><span data-field="ocr.engines.orientation.turn_kept"></span> of <span data-field="ocr.engines.orientation.turn_suggested"></span></b><span class="l">Proposed rotations that were correct</span><a href="reading.html#orientation">Capture · read both ways (D-30)</a></li>
-    <li><small class="k">03 · Bates numbers</small><b class="v"><span data-field="classifier.bates_probe.macro_f1" data-format="dec2"></span></b><span class="l">Macro F1 from the identifier alone</span><a href="review.html#steps">Classification · kept in OCR, removed from classifier input (D-46)</a></li>
+    <li><small class="k">01 · Taxonomy</small><b class="v"><span data-field="taxonomy.skims.0.unsure" data-format="pct"></span> &#8594; <span data-field="taxonomy.skims.1.unsure" data-format="pct"></span></b><span class="l">Labels marked uncertain, first to second pilot</span><a href="filing-system.html#rounds" title="Intake · the taxonomy and the labeling app both changed">Intake · D-33</a></li>
+    <li><small class="k">02 · Orientation</small><b class="v"><span data-field="ocr.engines.orientation.turn_kept"></span> of <span data-field="ocr.engines.orientation.turn_suggested"></span></b><span class="l">Proposed rotations that were correct</span><a href="reading.html#orientation" title="Capture · read both ways (D-30)">Capture · D-30</a></li>
+    <li><small class="k">03 · Bates numbers</small><b class="v"><span data-field="classifier.bates_probe.macro_f1" data-format="dec2"></span></b><span class="l">Macro F1 from the identifier alone</span><a href="review.html#steps" title="Classification · kept in OCR, removed from classifier input (D-46)">Classification · D-46</a></li>
   </ul>
-  <div class="mgrid">
+  <div class="mgrid g-stack">
   <div class="main">
     <h3>From a general taxonomy to a client-specific one</h3>
     <p>I began with a general taxonomy and tested it on a public benchmark containing documents from several companies. The approach proved unsuitable because each company organized its records differently, making it difficult to apply one set of categories consistently. I therefore focused the project on Philip Morris as the client, using its retention schedules and records-management documents to develop the final taxonomy. Between the two pilots, labels marked uncertain fell from <span data-field="taxonomy.skims.0.unsure" data-format="pct"></span> to <span data-field="taxonomy.skims.1.unsure" data-format="pct"></span>, although the labeling application was revised during the same period, so the reduction cannot be attributed to the taxonomy alone.</p>
@@ -103,7 +103,7 @@
     <p>I also fixed the evaluation rules before the final test: the selected pipeline, the confidence cutoff and the routing conditions. The <span data-field="final_test.pages"></span> test pages were labeled without seeing any model prediction, and the frozen pipeline was scored once. That is why the final results can be reported as they came out, without adjusting the system to improve them.</p>
   </div>
   <aside class="mcol">
-    <div class="decisions mdec" data-decisions="D-30,D-46,D-52,D-62"><h3>Decisions behind this</h3></div>
+    <div class="decisions mdec" data-decisions="D-33,D-30,D-46,D-62"><h3>Decisions behind this</h3></div>
   </aside>
   </div>
 </section>
