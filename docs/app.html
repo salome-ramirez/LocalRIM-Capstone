@@ -183,9 +183,9 @@
   <h2 class="g-h2" id="run-h">Running the app from the repository</h2>
   <p class="fit">The app needs Python and, for the assistant, Ollama.</p>
   <ol class="steps run-steps">
-    <li><strong>Clone the repository</strong><code>git clone [repository link, to come]</code><div class="empty repo-empty"><b>Repository link to come.</b> The repository is not public yet; the link and the saved results the Archive is built from will be added when it is.</div></li>
+    <li><strong>Clone the repository</strong><code>git clone https://github.com/salome-ramirez/LocalRIM-Capstone</code></li>
     <li><strong>Set up the environment</strong><code>py -3.14 -m venv .venv</code><code>.venv\Scripts\python -m pip install -r requirements.txt</code></li>
-    <li><strong>Build the Archive</strong><code>.venv\Scripts\python -m app.build_archive</code><span class="pending-step">The saved results it reads are to come with the public repo.</span></li>
+    <li><strong>Build the Archive</strong><code>.venv\Scripts\python -m app.build_archive</code></li>
     <li><strong>Start the app</strong><code>.venv\Scripts\python -m streamlit run app\app.py</code></li>
     <li><strong>For the assistant, install Ollama and pull the model</strong><code>ollama pull qwen3:8b</code><span>Without Ollama, search still works and the assistant is off.</span></li>
   </ol>

@@ -2,6 +2,8 @@
 
 LocalRIM files scanned business documents into a records taxonomy (department, record series, record type) on one Windows PC. It reads each page with OCR, classifies it with page embeddings and a calibrated classifier, files a page on its own only when it is confident enough, and sends the rest to a person; a local language model suggests the record type and answers questions about the archive, citing the records it used. Documents, searches and questions never leave the computer.
 
+Project site, with every stage and its figures: https://salome-ramirez.github.io/LocalRIM-Capstone/
+
 This repository reproduces the whole project on a random sample of public documents from the Philip Morris Records collection of the UCSF Industry Documents Library, with the taxonomy and labels made for it. Another organization would need its own taxonomy and labels; adapting the pipeline to them is future work.
 
 ## Example pages
