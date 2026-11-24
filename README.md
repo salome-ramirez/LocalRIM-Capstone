@@ -4,6 +4,20 @@ LocalRIM files scanned business documents into a records taxonomy (department, r
 
 This repository reproduces the whole project on a random sample of public documents from the Philip Morris Records collection of the UCSF Industry Documents Library, with the taxonomy and labels made for it. Another organization would need its own taxonomy and labels; adapting the pipeline to them is future work.
 
+## Example pages
+
+Seven first pages from the labeled sample, one for each department in the taxonomy, with the record type each was filed under.
+
+| Page | Department | Record type | Why it is filed there |
+|---|---|---|---|
+| [rhhn0043](examples/rhhn0043.png) | Marketing and sales | Ads and ad proofs | Philip Morris's own 1997 menthol print ad |
+| [qrkw0107](examples/qrkw0107.png) | Research and development | Study and lab reports | Monthly progress on experimental tobacco blends, 1982 |
+| [gsnw0104](examples/gsnw0104.png) | Quality, safety and health | Specifications and standards | A leaf grade standard with targets and control limits |
+| [htng0175](examples/htng0175.png) | Corporate affairs | Legislation tracking and advocacy | Draft testimony against a state restaurant smoking ban |
+| [qrml0111](examples/qrml0111.png) | Legal | Patents and trademarks | Decisions on foreign patent filings |
+| [fyvv0020](examples/fyvv0020.png) | Finance | Invoices | A freight invoice for a billboard job: invoices go to Finance whatever the activity |
+| [szpk0065](examples/szpk0065.png) | Administration and records (scored with Legal) | Records management | Philip Morris's own blank records disposal form |
+
 ## The steps
 
 | Step | What it does | Site chapter |
@@ -92,7 +106,7 @@ Each step folder has a README with its commands, inputs and outputs. Run every c
 
 ## Data
 
-The documents belong to the [UCSF Industry Documents Library](https://www.industrydocuments.ucsf.edu/); see its [Copyright and Fair Use](https://www.industrydocuments.ucsf.edu/about-idl/copyright/) page. The PDFs and page images are not included. What is included, and how to request removal, is described in [data/README.md](data/README.md).
+The documents belong to the [UCSF Industry Documents Library](https://www.industrydocuments.ucsf.edu/); see its [Copyright and Fair Use](https://www.industrydocuments.ucsf.edu/about-idl/copyright/) page. The PDFs and page images are not included, apart from the seven example pages in [examples/](examples/). What is included, and how to request removal, is described in [data/README.md](data/README.md).
 
 ## Licence
 
