@@ -30,7 +30,7 @@
       <div class="opening-main">
         <h1>When can a local AI system be trusted to file records, and when should it defer to a person?</h1>
         <p class="byline"><span>Salome Ramirez</span><span>M.S. Data Science capstone</span><span>Results as of <span data-field="updated" data-fmt="date">—</span></span></p>
-        <p class="opening-answer">LocalRIM investigates how a local AI system can classify records and identify cases requiring human review. Using documents from the Philip Morris USA archive, the project develops and evaluates a pipeline that extracts text, classifies records within a records hierarchy, and retrieves supporting evidence to answer questions and inform review suggestions.</p>
+        <p class="opening-answer">LocalRIM investigates how a local AI system can classify records and identify cases requiring human review. Using documents from the Philip Morris USA archive, the project develops and evaluates a pipeline that extracts text, classifies records within a records hierarchy, and retrieves supporting evidence to answer questions and inform review suggestions. Philip Morris is the case-study organization, studied through its public records; it did not take part in the project.</p>
       </div>
       <aside class="opening-side">
         <div class="at-glance">
@@ -86,7 +86,7 @@
         <li><a href="reading.html#capture"><span class="step">Stage 2</span><span class="name">Capture</span><b data-field="ocr.engines.funsd.1.word_recall" data-fmt="pct"></b><span class="what">of reference words recovered by PaddleOCR from scanned forms with known text</span></a></li>
         <li><a href="reading.html#preparation"><span class="step">Stage 3</span><span class="name">Preparation</span><b data-field="ocr.engines.orientation.turn_kept" data-fmt="int"></b><span class="what">of <span data-field="ocr.engines.orientation.turn_suggested" data-fmt="int"></span> rotations proposed by the orientation model were correct; the other <span data-sum="ocr.engines.orientation.turn_suggested-ocr.engines.orientation.turn_kept"></span> pages were already upright</span></a></li>
         <li><a href="review.html#classification"><span class="step">Stage 4</span><span class="name">Classification</span><b data-field="final_test.scores.macro_f1.value" data-fmt="num2"></b><span class="what">macro F1 on the final test using sentence embeddings and logistic regression</span></a></li>
-        <li><a href="review.html#routing"><span class="step">Stage 5</span><span class="name">Routing</span><b data-calc="cutoff"></b><span class="what">calibrated confidence cutoff, set before the final test, for filing a page without a reviewer</span></a></li>
+        <li><a href="review.html#routing"><span class="step">Stage 5</span><span class="name">Routing</span><b data-calc="cutoff"></b><span class="what">calibrated confidence cutoff, set before the final test, above which a page qualifies for automatic filing</span></a></li>
         <li><a href="review.html#validation"><span class="step">Stage 6</span><span class="name">Validation</span><b data-calc="scale.share"></b><span class="what">of new, unlabeled pages qualified for automatic filing during the scale run</span></a></li>
       </ol>
     </div>

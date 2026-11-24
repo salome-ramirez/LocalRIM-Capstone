@@ -92,10 +92,10 @@
     <div class="fn-col">
       <h3 class="fn-group">Adding to it</h3>
       <div class="fn"><h4>Add files</h4>
-        <p>Upload new pages for reading and classification. PaddleOCR reads each page, and the pipeline suggests a department, series and record type. Qwen3 8B also suggests a title and document date, and the page's file number is read for the duplicate check.</p>
+        <p>Upload new pages for reading and classification. PaddleOCR reads each page, and the pipeline suggests a department, series and record type. Qwen3 8B also suggests a title and document date, and the page's file number is read for the duplicate check. The evaluation used hybrid text, with GLM-OCR on the <span data-field="ocr.engines.text_options.hybrid_from_D"></span> hardest pages, but the app reads new uploads with PaddleOCR only: the two texts classified almost identically (the predicted department changed on <span data-field="classifier.hybrid_vs_paddle.prediction_differs"></span> of <span data-field="classifier.hybrid_vs_paddle.pages"></span> development pages), and PaddleOCR is faster and supplies the word positions and confidence the app uses.</p>
         <p class="watch"><a href="#video" data-t="116">Watch 1:56</a></p></div>
       <div class="fn"><h4>Intake</h4>
-        <p>Pages with readable text, at least 20 tokens, confidence at or above the <span data-field="final_test.cutoff" data-format="dec2"></span> cutoff and a file number not already known wait in Intake. A person approves them as a batch before they are added to the Archive.</p>
+        <p>Pages with readable text, at least 20 tokens, confidence at or above the <span data-field="final_test.cutoff" data-format="dec2"></span> cutoff and a file number not already known wait in Intake. A person approves them as a batch before they are added to the Archive. The research results call these pages filed automatically; in the app, they reach the Archive only after that approval.</p>
         <p class="watch"><a href="#video" data-t="147">Watch 2:27</a></p></div>
       <div class="fn"><h4>Review queue</h4>
         <p>Pages go to the Review queue when their confidence is below <span data-field="final_test.cutoff" data-format="dec2"></span>, they have fewer than 20 tokens or no readable text, or their file number matches one already in the Archive, the queue or an earlier upload. The reviewer sees the page, the suggested filing and similar filed records before deciding where it belongs.</p>

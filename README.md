@@ -1,6 +1,6 @@
 # LocalRIM
 
-LocalRIM files scanned business documents into a records taxonomy (department, record series, record type) on one Windows PC. It reads each page with OCR, classifies it with page embeddings and a calibrated classifier, files a page on its own only when it is confident enough, and sends the rest to a person; a local language model suggests the record type and answers questions about the archive, citing the records it used. Documents, searches and questions never leave the computer.
+LocalRIM files scanned business documents into a records taxonomy (department, record series, record type) on one Windows PC. It reads each page with OCR, classifies it with page embeddings and a calibrated classifier, qualifies a page for automatic filing only when it is confident enough, and sends the rest to a person; a local language model suggests the record type and answers questions about the archive, citing the records it used. Documents, searches and questions never leave the computer.
 
 Project site, with every stage and its figures: https://salome-ramirez.github.io/LocalRIM-Capstone/
 
@@ -90,6 +90,8 @@ The embedding model (Qwen3-Embedding-0.6B, 1.2 GB) and the PaddleOCR models down
 ```
 
 The app opens at http://localhost:8501. Search works on its own; Ask, and the record-type suggestion for new uploads, need Ollama running. The first upload takes about 40 seconds while the OCR and embedding models load.
+
+The results report pages "filed automatically" in the final test and the scale run; in the app, a page that qualifies is not filed on its own but waits in Intake until a person approves it. The evaluation used hybrid text, with GLM-OCR on the 60 hardest pages, but the app reads new uploads with PaddleOCR only: the two texts classified almost identically (the predicted department changed on 3 of 250 development pages), and PaddleOCR is faster and supplies the word positions and confidence the app uses.
 
 The name stamped on uploads, approvals and corrections is "Local user". To use another name, set `LOCALRIM_USER` before starting the app:
 
